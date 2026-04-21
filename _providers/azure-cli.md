@@ -1,0 +1,75 @@
+---
+api_count: 1
+apis:
+- description: Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
+  name: Azure CLI
+  slug: azure-cli
+common:
+- title: ''
+  type: Website
+  url: https://learn.microsoft.com/en-us/cli/azure/
+- title: ''
+  type: Documentation
+  url: https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli
+- title: ''
+  type: GitHubRepository
+  url: https://github.com/Azure/azure-cli
+- title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli
+- title: ''
+  type: ChangeLog
+  url: https://learn.microsoft.com/en-us/cli/azure/release-notes-azure-cli
+created: '2026-03-25'
+description: Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
+features:
+- description: Runs on Windows, macOS, and Linux with identical command syntax.
+  name: Cross-Platform Support
+- description: Interactive shell with auto-complete and inline help for command discovery.
+  name: Interactive Mode
+- description: Output as JSON, YAML, table, or TSV for pipeline integration.
+  name: Multiple Output Formats
+- description: Filter and transform output with JMESPath query language using --query.
+  name: JMESPath Querying
+- description: Run Azure CLI in the browser via Azure Cloud Shell without local installation.
+  name: Azure Cloud Shell
+- description: Embed Azure CLI commands in Bash and PowerShell automation scripts.
+  name: Bash Scripting Integration
+- description: Extend CLI functionality with official and community extensions.
+  name: Extension Support
+- description: Authenticate with service principals for automated/non-interactive scenarios.
+  name: Service Principal Auth
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+integrations:
+- description: Use Azure CLI in Azure DevOps pipelines with the AzureCLI task.
+  name: Azure DevOps
+- description: Authenticate and run Azure CLI commands in GitHub Actions workflows.
+  name: GitHub Actions
+- description: Complement Terraform with Azure CLI for tasks outside the Terraform provider.
+  name: Terraform
+- description: Access a pre-configured Azure CLI environment via browser.
+  name: Azure Cloud Shell
+- description: Integrated terminal support and Azure CLI extension for Visual Studio Code.
+  name: VS Code
+layout: provider
+modified: '2026-04-19'
+name: Azure CLI
+skills: []
+slug: azure-cli
+solutions: []
+tags:
+- Cloud Provider CLI
+- Command Line Interface
+url: https://raw.githubusercontent.com/api-evangelist/azure-cli/refs/heads/main/apis.yml
+use_cases:
+- description: Provision Azure resources like VMs, storage accounts, and databases from the command line.
+  name: Resource Provisioning
+- description: Automate Azure infrastructure tasks in CI/CD pipelines and deployment scripts.
+  name: DevOps Automation
+- description: Query resource metrics, logs, and health status from the terminal.
+  name: Monitoring and Diagnostics
+- description: Perform bulk operations across multiple Azure resources in a single script.
+  name: Batch Operations
+- description: Complement Terraform and Bicep with scripted Azure CLI commands.
+  name: Infrastructure as Code
+---

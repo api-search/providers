@@ -1,0 +1,80 @@
+---
+api_count: 3
+apis:
+- description: The AudaConnect API enables third-party software developers to access, query, and update the Audatex platform including assessments, vehicle reference data, repair orders, and photo management using R
+  name: Audatex AudaConnect API
+  slug: audatex-audaconnect-api
+- description: The Audatex GIC (Global Integration Component) API provides integration capabilities for claims processing and vehicle damage assessment workflows in the insurance and collision repair industries.
+  name: Audatex GIC API
+  slug: audatex-gic-api
+- description: The Solera API Gateway provides access to Audatex and Solera claims processing services including ClaimImage document return and other automotive claims data APIs for North American insurance markets.
+  name: Solera API Gateway
+  slug: solera-api-gateway
+common:
+- title: ''
+  type: Website
+  url: https://www.audatex.com/
+- title: ''
+  type: Documentation
+  url: https://www.audatex.com/solutions/
+- title: ''
+  type: Privacy Policy
+  url: https://www.audatex.com/privacy-policy/
+- title: ''
+  type: TermsOfService
+  url: https://www.audatex.com/terms-and-conditions/
+- title: ''
+  type: Contact
+  url: https://www.audatex.com/contact/
+created: '2025-01-01'
+description: Audatex (part of Solera Holdings) provides automotive claims and repair solutions with data and technology services for the automotive insurance, collision repair, and fleet management industries. It offers the AudaConnect API platform for third-party integration with claims processing, damage assessment, repair cost estimation, and vehicle data workflows. APIs are RESTful with JSON/XML support and OAuth 2.0 authentication.
+features:
+- description: Search, download, upload, and amend vehicle damage assessments programmatically via the AudaConnect API.
+  name: Claims Assessment API
+- description: Access Audatex repair cost estimation data and labor rates for collision repair workflow automation.
+  name: Repair Cost Estimation
+- description: Upload, retrieve, and manage vehicle damage photos attached to claims via the assessment API.
+  name: Photo Management
+- description: Create, update, and query repair orders from bodyshop management systems via BMS API integration.
+  name: Repair Order Integration
+- description: Query vehicle reference data including make, model, trim, and VIN decoding for assessment setup.
+  name: Vehicle Reference Data
+- description: All AudaConnect APIs are secured with OAuth 2.0 authorization for enterprise-grade access control.
+  name: OAuth 2.0 Security
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+integrations:
+- description: Native integration with major BMS platforms for automated repair order and parts pricing workflows.
+  name: Bodyshop Management Systems
+- description: Integration with insurance policy and claims management systems for end-to-end claims processing.
+  name: Insurance Core Systems
+- description: Integration with vehicle history and VIN data providers for complete vehicle information at claims initiation.
+  name: Vehicle History Providers
+- description: Connection to OEM and aftermarket parts supplier catalogs for parts pricing and availability in repair estimates.
+  name: Parts Suppliers
+layout: provider
+modified: '2026-04-19'
+name: Audatex
+skills: []
+slug: audatex
+solutions:
+- description: End-to-end automation of auto insurance claims from FNOL through repair authorization and settlement.
+  name: Claims Process Automation
+- description: Digital workflow management for collision repair shops integrating estimates, parts, labor, and customer communication.
+  name: Repair Shop Workflow
+tags:
+- Automotive
+- Claims Processing
+- Insurance
+- Repair Management
+- Vehicle Data
+url: https://raw.githubusercontent.com/api-evangelist/audatex/refs/heads/main/apis.yml
+use_cases:
+- description: Automate first notice of loss, damage assessment, and claims settlement workflows for auto insurers.
+  name: Insurance Claims Automation
+- description: Integrate bodyshop management systems with Audatex for repair order creation, parts pricing, and labor time.
+  name: Bodyshop Management System Integration
+- description: Access vehicle valuation and total loss thresholds to automate total loss claims decisions.
+  name: Total Loss Determination
+- description: Enable digital submission of vehicle damage photos and assessment data from mobile apps to the Audatex platform.
+  name: Digital Claims Submission
+---
