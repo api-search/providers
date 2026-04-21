@@ -1,0 +1,16 @@
+---
+layout: none
+---
+[
+{% assign idx = 0 %}{% for provider in site.providers %}{
+"i":{{ idx }},
+"type":"provider",
+"n":{{ provider.name | jsonify }},
+"d":{{ provider.description | strip_html | strip_newlines | truncate: 300 | jsonify }},
+"t":{{ provider.tags | jsonify }},
+"u":"{{ provider.url | absolute_url }}",
+"ac":{{ provider.api_count | default: 0 }},
+"cc":{% if provider.capabilities %}{{ provider.capabilities | size }}{% else %}0{% endif %}
+}{% assign idx = idx | plus: 1 %}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

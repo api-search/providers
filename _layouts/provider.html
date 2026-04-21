@@ -1,0 +1,260 @@
+---
+layout: default
+---
+<style>
+  .provider-hero { background: linear-gradient(135deg, #f8f9fb 0%, #eef2f7 100%); border: 1px solid #e3e7ee; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+  .provider-title { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a2e; }
+  .provider-desc { color: #4a5568; line-height: 1.6; font-size: 1.05rem; margin-bottom: 1rem; }
+  .stat-badges { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1rem; }
+  .stat-badge { background: white; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.5rem 1rem; font-size: 0.85rem; }
+  .stat-badge strong { color: #0d6efd; }
+  .section-anchor { font-size: 1.25rem; font-weight: 700; color: #1a1a2e; margin: 2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  .section-anchor a { color: inherit; text-decoration: none; }
+  .section-anchor a:hover { color: #0d6efd; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+  .item-card { background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1.25rem; transition: all 0.15s; }
+  .item-card:hover { border-color: #0d6efd; box-shadow: 0 2px 8px rgba(13,110,253,0.1); transform: translateY(-1px); }
+  .item-card h4 { font-size: 1rem; font-weight: 600; margin-bottom: 0.25rem; }
+  .item-card h4 a { color: #1a1a2e; text-decoration: none; }
+  .item-card h4 a:hover { color: #0d6efd; }
+  .item-card p { font-size: 0.85rem; color: #666; margin-bottom: 0.5rem; }
+  .item-card .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .tag-sm { display: inline-block; padding: 0.2em 0.6em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.75rem; }
+  .resource-link { display: flex; align-items: center; gap: 0.5rem; padding: 0.6rem 0; border-bottom: 1px solid #f0f2f5; font-size: 0.9rem; }
+  .resource-link:last-child { border-bottom: none; }
+  .resource-link a { color: #0d6efd; text-decoration: none; }
+  .resource-link a:hover { text-decoration: underline; }
+  .resource-type { font-size: 0.75rem; font-weight: 600; color: #6c757d; text-transform: uppercase; min-width: 120px; }
+  .feature-item { padding: 0.75rem 0; border-bottom: 1px solid #f0f2f5; }
+  .feature-item:last-child { border-bottom: none; }
+  .feature-item strong { color: #1a1a2e; }
+  .feature-item p { margin: 0.25rem 0 0; font-size: 0.85rem; color: #666; }
+</style>
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.name }}</li>
+  </ol>
+</nav>
+
+<div class="provider-hero">
+  {% if page.image %}<img src="{{ page.image }}" alt="{{ page.name }} logo" width="48" height="48" loading="lazy" style="height: 48px; width: auto; margin-bottom: 1rem;">{% endif %}
+  <h1 class="provider-title">{{ page.name }}</h1>
+  {% if page.description %}<p class="provider-desc">{{ page.description }}</p>{% endif %}
+  <div class="stat-badges">
+    {% if page.apis %}<span class="stat-badge"><strong>{{ page.apis | size }}</strong> APIs</span>{% endif %}
+    {% if page.capabilities %}<span class="stat-badge"><strong>{{ page.capabilities | size }}</strong> Capabilities</span>{% endif %}
+    {% if page.features %}<span class="stat-badge"><strong>{{ page.features | size }}</strong> Features</span>{% endif %}
+  </div>
+  {% if page.tags.size > 0 %}
+  <div style="display: flex; flex-wrap: wrap; gap: 0.3rem;">
+    {% for tag in page.tags %}<span class="tag-sm">{{ tag }}</span>{% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+<!-- APIs Section -->
+{% if page.apis.size > 0 %}
+<h2 class="section-anchor" id="apis"><a href="#apis">APIs</a></h2>
+<div class="card-grid">
+  {% for api in page.apis %}
+  <div class="item-card">
+    <h4><a href="https://apis.apis.io/apis/{{ page.slug }}/{{ api.slug }}/">{{ api.name }}</a></h4>
+    {% if api.description %}<p>{{ api.description | truncate: 180 }}</p>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Capabilities Section -->
+{% if page.capabilities.size > 0 %}
+<h2 class="section-anchor" id="capabilities"><a href="#capabilities">Capabilities</a></h2>
+<div class="alert alert-success d-flex align-items-center justify-content-between" role="alert" style="border-radius: 8px;">
+  <div><strong>Run Capabilities with Naftiko</strong> &mdash; Deploy and orchestrate these API capabilities using Naftiko Fleet.</div>
+  <a href="https://github.com/naftiko/fleet" target="_blank" rel="noopener" class="btn btn-success btn-sm flex-shrink-0">Run with Naftiko</a>
+</div>
+<div class="card-grid">
+  {% for cap in page.capabilities %}
+  <div class="item-card" style="border-left: 3px solid #198754;">
+    <h4><a href="https://capabilities.apis.io/capabilities/{{ page.slug }}/{{ cap.slug }}/">{{ cap.name }}</a></h4>
+    {% if cap.description %}<p>{{ cap.description | truncate: 180 }}</p>{% endif %}
+    <a href="https://github.com/naftiko/fleet" target="_blank" rel="noopener" class="btn btn-sm btn-outline-success" style="margin-top: 0.5rem;">Run with Naftiko</a>
+  </div>
+  {% endfor %}
+</div>
+<div class="alert alert-success d-flex align-items-center justify-content-between" role="alert" style="border-radius: 8px; margin-top: 1rem;">
+  <div><strong>Run Capabilities with Naftiko</strong> &mdash; Deploy and orchestrate these API capabilities using Naftiko Fleet.</div>
+  <a href="https://github.com/naftiko/fleet" target="_blank" rel="noopener" class="btn btn-success btn-sm flex-shrink-0">Run with Naftiko</a>
+</div>
+{% endif %}
+
+<!-- Features Section -->
+{% if page.features.size > 0 %}
+<h2 class="section-anchor" id="features"><a href="#features">Features</a></h2>
+<div class="card-grid">
+  {% for feature in page.features %}
+  <div class="item-card">
+    {% if feature.name %}<strong>{{ feature.name }}</strong>
+    {% if feature.description %}<p>{{ feature.description }}</p>{% endif %}
+    {% else %}<strong>{{ feature }}</strong>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Use Cases Section -->
+{% if page.use_cases.size > 0 %}
+<h2 class="section-anchor" id="use-cases"><a href="#use-cases">Use Cases</a></h2>
+<div class="card-grid">
+  {% for uc in page.use_cases %}
+  <div class="item-card" style="border-left: 3px solid #6f42c1;">
+    {% if uc.name %}<strong>{{ uc.name }}</strong>
+    {% if uc.description %}<p>{{ uc.description }}</p>{% endif %}
+    {% else %}<strong>{{ uc }}</strong>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Integrations Section -->
+{% if page.integrations.size > 0 %}
+<h2 class="section-anchor" id="integrations"><a href="#integrations">Integrations</a></h2>
+<div class="card-grid">
+  {% for int in page.integrations %}
+  <div class="item-card">
+    {% if int.name %}<strong>{{ int.name }}</strong>
+    {% if int.description %}<p>{{ int.description }}</p>{% endif %}
+    {% else %}<strong>{{ int }}</strong>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Solutions Section -->
+{% if page.solutions.size > 0 %}
+<h2 class="section-anchor" id="solutions"><a href="#solutions">Solutions</a></h2>
+<div class="card-grid">
+  {% for sol in page.solutions %}
+  <div class="item-card">
+    <strong>{{ sol.name }}</strong>
+    {% if sol.description %}<p>{{ sol.description }}</p>{% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- AsyncAPI Specs Section -->
+{% if page.asyncapis.size > 0 %}
+<h2 class="section-anchor" id="asyncapis"><a href="#asyncapis">Event Specifications</a></h2>
+<div class="card-grid">
+  {% for async in page.asyncapis %}
+  <div class="item-card" style="border-left: 3px solid #1e40af;">
+    <h4><a href="https://asyncapi.apis.io/asyncapis/{{ page.slug }}/{{ async.slug }}/">{{ async.name }}</a></h4>
+    {% if async.description %}<p>{{ async.description | truncate: 180 }}</p>{% endif %}
+    <span style="display: inline-block; padding: 0.15em 0.5em; border-radius: 4px; font-size: 0.7rem; font-weight: 700; background: #1e40af; color: white;">ASYNCAPI</span>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- JSON-LD Section -->
+{% if page.jsonld.size > 0 %}
+<h2 class="section-anchor" id="jsonld"><a href="#jsonld">Semantic Vocabularies</a></h2>
+<div class="card-grid">
+  {% for ld in page.jsonld %}
+  <div class="item-card" style="border-left: 3px solid #7c3aed;">
+    <h4><a href="https://json-ld.apis.io/jsonld/{{ page.slug }}/{{ ld.slug }}/">{{ ld.name }}</a></h4>
+    <p style="font-size: 0.8rem; color: #666;">{{ ld.class_count }} classes &middot; {{ ld.property_count }} properties</p>
+    <span style="display: inline-block; padding: 0.15em 0.5em; border-radius: 4px; font-size: 0.7rem; font-weight: 700; background: #7c3aed; color: white;">JSON-LD</span>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Rules Section -->
+{% if page.rules.size > 0 %}
+<h2 class="section-anchor" id="rules"><a href="#rules">API Governance Rules</a></h2>
+<div class="card-grid">
+  {% for rule in page.rules %}
+  <div class="item-card" style="border-left: 3px solid #c2410c;">
+    <h4><a href="https://rules.apis.io/rules/{{ page.slug }}/{{ rule.slug }}/">{{ rule.name }}</a></h4>
+    <p style="font-size: 0.8rem; color: #666;">{{ rule.rule_count }} rules &middot;
+      {% if rule.severity_counts.error > 0 %}<span style="color: #dc3545; font-weight: 600;">{{ rule.severity_counts.error }} errors</span> {% endif %}
+      {% if rule.severity_counts.warn > 0 %}<span style="color: #fd7e14; font-weight: 600;">{{ rule.severity_counts.warn }} warnings</span> {% endif %}
+      {% if rule.severity_counts.info > 0 %}<span style="color: #0dcaf0; font-weight: 600;">{{ rule.severity_counts.info }} info</span>{% endif %}
+    </p>
+    <span style="display: inline-block; padding: 0.15em 0.5em; border-radius: 4px; font-size: 0.7rem; font-weight: 700; background: #c2410c; color: white;">SPECTRAL</span>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- Resources Section -->
+{% if page.common.size > 0 %}
+<h2 class="section-anchor" id="resources"><a href="#resources">Resources</a></h2>
+<div class="card-grid">
+  {% for res in page.common %}
+  {% if res.url != '' %}
+  {% assign rtype = res.type | downcase %}
+  {% assign ricon = '&#128279;' %}
+  {% assign rcolor = '#6c757d' %}
+  {% if rtype contains 'portal' or rtype contains 'console' %}{% assign ricon = '&#127760;' %}{% assign rcolor = '#0d6efd' %}
+  {% elsif rtype contains 'getting' or rtype contains 'quickstart' %}{% assign ricon = '&#128640;' %}{% assign rcolor = '#198754' %}
+  {% elsif rtype contains 'auth' %}{% assign ricon = '&#128273;' %}{% assign rcolor = '#fd7e14' %}
+  {% elsif rtype contains 'sdk' %}{% assign ricon = '&#128230;' %}{% assign rcolor = '#6f42c1' %}
+  {% elsif rtype contains 'tool' %}{% assign ricon = '&#128295;' %}{% assign rcolor = '#6f42c1' %}
+  {% elsif rtype contains 'tutorial' or rtype contains 'training' or rtype contains 'academy' %}{% assign ricon = '&#127891;' %}{% assign rcolor = '#198754' %}
+  {% elsif rtype contains 'blog' or rtype contains 'news' %}{% assign ricon = '&#128240;' %}{% assign rcolor = '#0dcaf0' %}
+  {% elsif rtype contains 'support' or rtype contains 'faq' %}{% assign ricon = '&#128172;' %}{% assign rcolor = '#0dcaf0' %}
+  {% elsif rtype contains 'status' %}{% assign ricon = '&#128994;' %}{% assign rcolor = '#198754' %}
+  {% elsif rtype contains 'pricing' %}{% assign ricon = '&#128176;' %}{% assign rcolor = '#fd7e14' %}
+  {% elsif rtype contains 'sign' %}{% assign ricon = '&#128221;' %}{% assign rcolor = '#0d6efd' %}
+  {% elsif rtype contains 'terms' or rtype contains 'privacy' or rtype contains 'legal' %}{% assign ricon = '&#128220;' %}{% assign rcolor = '#6c757d' %}
+  {% elsif rtype contains 'release' or rtype contains 'change' %}{% assign ricon = '&#128196;' %}{% assign rcolor = '#6c757d' %}
+  {% elsif rtype contains 'stack' or rtype contains 'github' or rtype contains 'youtube' %}{% assign ricon = '&#128101;' %}{% assign rcolor = '#1a1a2e' %}
+  {% elsif rtype contains 'code' or rtype contains 'example' %}{% assign ricon = '&#128187;' %}{% assign rcolor = '#6f42c1' %}
+  {% endif %}
+  <a href="{{ res.url }}" target="_blank" rel="noopener" class="item-card" style="border-left: 3px solid {{ rcolor }}; text-decoration: none; color: inherit; display: block;">
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <span style="font-size: 1.25rem;">{{ ricon }}</span>
+      <div>
+        <strong style="font-size: 0.85rem; color: #1a1a2e;">{{ res.title | default: res.type }}</strong>
+        <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.5px; color: {{ rcolor }}; font-weight: 600;">{{ res.type }}</div>
+      </div>
+    </div>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ page.name | jsonify }},
+  {% if page.description %}"description": {{ page.description | jsonify }},{% endif %}
+  {% if page.image %}"logo": {{ page.image | jsonify }},{% endif %}
+  {% if page.tags.size > 0 %}"keywords": {{ page.tags | join: ', ' | jsonify }}{% endif %}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://apis.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ page.name | jsonify }}
+    }
+  ]
+}
+</script>

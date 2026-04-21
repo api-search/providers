@@ -1,0 +1,29 @@
+name: APIs.io Providers
+description: Browse API service providers across the APIs.io network.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://providers.apis.io
+
+node: website
+nav_active: providers
+
+keywords:
+  - APIs
+  - Search
+  - Discovery
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+
+github_org: api-search
+github_repo: providers
+
+collections:
+  providers:
+    output: true
+    permalink: /providers/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: providers
+    values:
+      layout: provider

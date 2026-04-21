@@ -1,0 +1,697 @@
+{
+  "1-automotive": {
+    "file": "1-automotive.png",
+    "generated": "2026-04-19",
+    "name": "1-Automotive"
+  },
+  "1factory": {
+    "file": "1factory.png",
+    "generated": "2026-04-19",
+    "name": "1Factory"
+  },
+  "1password": {
+    "file": "1password.png",
+    "generated": "2026-04-19",
+    "name": "1Password"
+  },
+  "2020-police-brutality": {
+    "file": "2020-police-brutality.png",
+    "generated": "2026-04-19",
+    "name": "2020 Police Brutality"
+  },
+  "3m": {
+    "file": "3m.png",
+    "generated": "2026-04-19",
+    "name": "3M"
+  },
+  "42crunch": {
+    "file": "42crunch.png",
+    "generated": "2026-04-19",
+    "name": "42Crunch"
+  },
+  "a-mark-precious-metals": {
+    "file": "a-mark-precious-metals.png",
+    "generated": "2026-04-19",
+    "name": "A-Mark Precious Metals"
+  },
+  "a-schulman": {
+    "file": "a-schulman.png",
+    "generated": "2026-04-19",
+    "name": "A. Schulman"
+  },
+  "aar": {
+    "file": "aar.png",
+    "generated": "2026-04-19",
+    "name": "AAR Corp"
+  },
+  "aarons": {
+    "file": "aarons.png",
+    "generated": "2026-04-19",
+    "name": "Aaron's"
+  },
+  "ab-tasty": {
+    "file": "ab-tasty.png",
+    "generated": "2026-04-19",
+    "name": "AB Tasty"
+  },
+  "abacus": {
+    "file": "abacus.png",
+    "generated": "2026-04-19",
+    "name": "Abacus"
+  },
+  "abbott-laboratories": {
+    "file": "abbott-laboratories.png",
+    "generated": "2026-04-19",
+    "name": "Abbott Laboratories"
+  },
+  "abbvie": {
+    "file": "abbvie.png",
+    "generated": "2026-04-19",
+    "name": "AbbVie"
+  },
+  "abbyy": {
+    "file": "abbyy.png",
+    "generated": "2026-04-19",
+    "name": "ABBYY"
+  },
+  "abercrombie-and-fitch": {
+    "file": "abercrombie-and-fitch.png",
+    "generated": "2026-04-19",
+    "name": "Abercrombie and Fitch"
+  },
+  "abm-industries": {
+    "file": "abm-industries.png",
+    "generated": "2026-04-19",
+    "name": "ABM Industries"
+  },
+  "abortion-policy-api": {
+    "file": "abortion-policy-api.png",
+    "generated": "2026-04-19",
+    "name": "Abortion Policy API"
+  },
+  "about-exim-exim-gov-export-import-bank-of-the-united-states": {
+    "file": "about-exim-exim-gov-export-import-bank-of-the-united-states.png",
+    "generated": "2026-04-19",
+    "name": "Export-Import Bank of the United States"
+  },
+  "absence-io": {
+    "file": "absence-io.png",
+    "generated": "2026-04-19",
+    "name": "Absence.io"
+  },
+  "absentify": {
+    "file": "absentify.png",
+    "generated": "2026-04-19",
+    "name": "Absentify"
+  },
+  "abstract-api": {
+    "file": "abstract-api.png",
+    "generated": "2026-04-19",
+    "name": "Abstract API"
+  },
+  "academy-software-foundation": {
+    "file": "academy-software-foundation.png",
+    "generated": "2026-04-19",
+    "name": "Academy Software Foundation"
+  },
+  "acadia": {
+    "file": "acadia.png",
+    "generated": "2026-04-19",
+    "name": "Acadia"
+  },
+  "acadia-healthcare": {
+    "file": "acadia-healthcare.png",
+    "generated": "2026-04-19",
+    "name": "Acadia Healthcare"
+  },
+  "acceldata": {
+    "file": "acceldata.png",
+    "generated": "2026-04-19",
+    "name": "Acceldata"
+  },
+  "acceptance-criteria": {
+    "file": "acceptance-criteria.png",
+    "generated": "2026-04-19",
+    "name": "Acceptance Criteria"
+  },
+  "accessibility-standards": {
+    "file": "accessibility-standards.png",
+    "generated": "2026-04-19",
+    "name": "Accessibility Standards"
+  },
+  "accounting-standards": {
+    "file": "accounting-standards.png",
+    "generated": "2026-04-19",
+    "name": "Accounting Standards"
+  },
+  "accuweather": {
+    "file": "accuweather.png",
+    "generated": "2026-04-19",
+    "name": "AccuWeather"
+  },
+  "ace-hardware": {
+    "file": "ace-hardware.png",
+    "generated": "2026-04-19",
+    "name": "Ace Hardware"
+  },
+  "acid": {
+    "file": "acid.png",
+    "generated": "2026-04-19",
+    "name": "ACID"
+  },
+  "acknowledgments-md": {
+    "file": "acknowledgments-md.png",
+    "generated": "2026-04-19",
+    "name": "ACKNOWLEDGMENTS.md"
+  },
+  "acord": {
+    "file": "acord.png",
+    "generated": "2026-04-19",
+    "name": "ACORD"
+  },
+  "acquia": {
+    "file": "acquia.png",
+    "generated": "2026-04-19",
+    "name": "Acquia"
+  },
+  "acronis": {
+    "file": "acronis.png",
+    "generated": "2026-04-19",
+    "name": "Acronis"
+  },
+  "activecampaign": {
+    "file": "activecampaign.png",
+    "generated": "2026-04-19",
+    "name": "ActiveCampaign"
+  },
+  "activepieces": {
+    "file": "activepieces.png",
+    "generated": "2026-04-19",
+    "name": "Activepieces"
+  },
+  "activision-blizzard": {
+    "file": "activision-blizzard.png",
+    "generated": "2026-04-19",
+    "name": "activision-blizzard"
+  },
+  "actor-model": {
+    "file": "actor-model.png",
+    "generated": "2026-04-19",
+    "name": "Actor Model"
+  },
+  "acuity-brands": {
+    "file": "acuity-brands.png",
+    "generated": "2026-04-19",
+    "name": "acuity-brands"
+  },
+  "adaptigent": {
+    "file": "adaptigent.png",
+    "generated": "2026-04-19",
+    "name": "Adaptigent"
+  },
+  "adaptive-shield": {
+    "file": "adaptive-shield.png",
+    "generated": "2026-04-19",
+    "name": "Adaptive Shield"
+  },
+  "addus-homecare": {
+    "file": "addus-homecare.png",
+    "generated": "2026-04-19",
+    "name": "Addus HomeCare"
+  },
+  "administration-for-community-living-acl-": {
+    "file": "administration-for-community-living-acl-.png",
+    "generated": "2026-04-19",
+    "name": "Administration for Community Living (ACL)"
+  },
+  "administration-for-native-americans-ana-": {
+    "file": "administration-for-native-americans-ana-.png",
+    "generated": "2026-04-19",
+    "name": "Administration for Native Americans (ANA)"
+  },
+  "administrative-conference-of-the-united-states": {
+    "file": "administrative-conference-of-the-united-states.png",
+    "generated": "2026-04-19",
+    "name": "Administrative Conference of the United States"
+  },
+  "administrative-office-of-the-u-s-courts": {
+    "file": "administrative-office-of-the-u-s-courts.png",
+    "generated": "2026-04-19",
+    "name": "Administrative Office of the U.S. Courts"
+  },
+  "adobe": {
+    "file": "adobe.png",
+    "generated": "2026-04-18",
+    "name": "Adobe"
+  },
+  "adobe-analytics": {
+    "file": "adobe-analytics.png",
+    "generated": "2026-04-18",
+    "name": "Adobe Analytics"
+  },
+  "adobe-campaign": {
+    "file": "adobe-campaign.png",
+    "generated": "2026-04-18",
+    "name": "adobe-campaign"
+  },
+  "adobe-captivate": {
+    "file": "adobe-captivate.png",
+    "generated": "2026-04-19",
+    "name": "Adobe Captivate"
+  },
+  "adobe-creative-cloud": {
+    "file": "adobe-creative-cloud.png",
+    "generated": "2026-04-18",
+    "name": "Adobe Creative Cloud"
+  },
+  "adobe-creative-suite": {
+    "file": "adobe-creative-suite.png",
+    "generated": "2026-04-18",
+    "name": "Adobe Creative Suite"
+  },
+  "adobe-experience-cloud": {
+    "file": "adobe-experience-cloud.png",
+    "generated": "2026-04-19",
+    "name": "Adobe Experience Cloud"
+  },
+  "adobe-illustrator": {
+    "file": "adobe-illustrator.png",
+    "generated": "2026-04-18",
+    "name": "Adobe Illustrator"
+  },
+  "adobe-launch": {
+    "file": "adobe-launch.png",
+    "generated": "2026-04-18",
+    "name": "Adobe Launch"
+  },
+  "adobe-photoshop": {
+    "file": "adobe-photoshop.png",
+    "generated": "2026-04-18",
+    "name": "Adobe Photoshop"
+  },
+  "adobe-premiere": {
+    "file": "adobe-premiere.png",
+    "generated": "2026-04-19",
+    "name": "Adobe Premiere Pro"
+  },
+  "adobe-suite": {
+    "file": "adobe-suite.png",
+    "generated": "2026-04-19",
+    "name": "Adobe Suite"
+  },
+  "adt": {
+    "file": "adt.png",
+    "generated": "2026-04-19",
+    "name": "ADT"
+  },
+  "advance-auto-parts": {
+    "file": "advance-auto-parts.png",
+    "generated": "2026-04-19",
+    "name": "Advance Auto Parts"
+  },
+  "advanced-excel": {
+    "file": "advanced-excel.png",
+    "generated": "2026-04-19",
+    "name": "Advanced Excel"
+  },
+  "allianz-technology-standards": {
+    "file": "allianz-technology-standards.png",
+    "generated": "2026-04-19",
+    "name": "Allianz Technology Standards"
+  },
+  "amazon-ecs": {
+    "file": "amazon-ecs.png",
+    "generated": "2026-04-18",
+    "name": "Amazon ECS"
+  },
+  "ansible-automation-platform": {
+    "file": "ansible-automation-platform.png",
+    "generated": "2026-04-18",
+    "name": "Ansible Automation Platform"
+  },
+  "atlassian": {
+    "file": "atlassian.png",
+    "generated": "2026-04-19",
+    "name": "Atlassian"
+  },
+  "autocad": {
+    "file": "autocad.png",
+    "generated": "2026-04-18",
+    "name": "AutoCAD"
+  },
+  "azure-log-analytics": {
+    "file": "azure-log-analytics.png",
+    "generated": "2026-04-18",
+    "name": "Azure Log Analytics"
+  },
+  "azure-service-bus": {
+    "file": "azure-service-bus.png",
+    "generated": "2026-04-18",
+    "name": "Azure Service Bus"
+  },
+  "bitbucket": {
+    "file": "bitbucket.png",
+    "generated": "2026-04-18",
+    "name": "Bitbucket"
+  },
+  "bloomberg": {
+    "file": "bloomberg.png",
+    "generated": "2026-04-19",
+    "name": "Bloomberg"
+  },
+  "bloomberg-aim": {
+    "file": "bloomberg-aim.png",
+    "generated": "2026-04-18",
+    "name": "Bloomberg AIM"
+  },
+  "bloomberg-news": {
+    "file": "bloomberg-news.png",
+    "generated": "2026-04-18",
+    "name": "Bloomberg News"
+  },
+  "circana": {
+    "file": "circana.png",
+    "generated": "2026-04-18",
+    "name": "Circana"
+  },
+  "cisco": {
+    "file": "cisco.png",
+    "generated": "2026-04-18",
+    "name": "Cisco"
+  },
+  "cloudflare": {
+    "file": "cloudflare.png",
+    "generated": "2026-04-18",
+    "name": "Cloudflare"
+  },
+  "concur": {
+    "file": "concur.png",
+    "generated": "2026-04-18",
+    "name": "SAP Concur"
+  },
+  "conductor": {
+    "file": "conductor.png",
+    "generated": "2026-04-19",
+    "name": "Conductor"
+  },
+  "crystal-reports": {
+    "file": "crystal-reports.png",
+    "generated": "2026-04-18",
+    "name": "Crystal Reports"
+  },
+  "emc": {
+    "file": "emc.png",
+    "generated": "2026-04-18",
+    "name": "EMC"
+  },
+  "facebook": {
+    "file": "facebook.png",
+    "generated": "2026-04-18",
+    "name": "Facebook"
+  },
+  "fern": {
+    "file": "fern.png",
+    "generated": "2026-04-19",
+    "name": "Fern"
+  },
+  "fusio": {
+    "file": "fusio.png",
+    "generated": "2026-04-18",
+    "name": "Fusio"
+  },
+  "g2": {
+    "file": "g2.png",
+    "generated": "2026-04-18",
+    "name": "G2"
+  },
+  "gitlab": {
+    "file": "gitlab.png",
+    "generated": "2026-04-18",
+    "name": "GitLab"
+  },
+  "google-apps-script": {
+    "file": "google-apps-script.png",
+    "generated": "2026-04-18",
+    "name": "Google Apps Script"
+  },
+  "google-marketing-platform": {
+    "file": "google-marketing-platform.png",
+    "generated": "2026-04-19",
+    "name": "Google Marketing Platform Admin"
+  },
+  "harness": {
+    "file": "harness.png",
+    "generated": "2026-04-18",
+    "name": "Harness"
+  },
+  "instagram": {
+    "file": "instagram.png",
+    "generated": "2026-04-18",
+    "name": "Instagram"
+  },
+  "knit": {
+    "file": "knit.png",
+    "generated": "2026-04-18",
+    "name": "Knit"
+  },
+  "kong": {
+    "file": "kong.png",
+    "generated": "2026-04-18",
+    "name": "Kong"
+  },
+  "lambda": {
+    "file": "lambda.png",
+    "generated": "2026-04-18",
+    "name": "Lambda"
+  },
+  "lightroom": {
+    "file": "lightroom.png",
+    "generated": "2026-04-18",
+    "name": "Adobe Lightroom"
+  },
+  "merge": {
+    "file": "merge.png",
+    "generated": "2026-04-18",
+    "name": "Merge"
+  },
+  "microsoft-azure-functions": {
+    "file": "microsoft-azure-functions.png",
+    "generated": "2026-04-18",
+    "name": "Microsoft Azure Functions"
+  },
+  "microsoft-net": {
+    "file": "microsoft-net.png",
+    "generated": "2026-04-18",
+    "name": "Microsoft .NET"
+  },
+  "microsoft-power-platform": {
+    "file": "microsoft-power-platform.png",
+    "generated": "2026-04-19",
+    "name": "Microsoft Power Platform"
+  },
+  "microsoft-project": {
+    "file": "microsoft-project.png",
+    "generated": "2026-04-18",
+    "name": "Microsoft Project"
+  },
+  "microsoft-windows-server": {
+    "file": "microsoft-windows-server.png",
+    "generated": "2026-04-19",
+    "name": "Microsoft Windows Server"
+  },
+  "microsoft-word": {
+    "file": "microsoft-word.png",
+    "generated": "2026-04-18",
+    "name": "Microsoft Word"
+  },
+  "moodys": {
+    "file": "moodys.png",
+    "generated": "2026-04-19",
+    "name": "Moody's"
+  },
+  "mulesoft": {
+    "file": "mulesoft.png",
+    "generated": "2026-04-18",
+    "name": "MuleSoft"
+  },
+  "navision": {
+    "file": "navision.png",
+    "generated": "2026-04-18",
+    "name": "Microsoft Dynamics NAV"
+  },
+  "nops": {
+    "file": "nops.png",
+    "generated": "2026-04-19",
+    "name": "nOps"
+  },
+  "openshift": {
+    "file": "openshift.png",
+    "generated": "2026-04-19",
+    "name": "OpenShift"
+  },
+  "oracle": {
+    "file": "oracle.png",
+    "generated": "2026-04-18",
+    "name": "Oracle"
+  },
+  "oracle-apex": {
+    "file": "oracle-apex.png",
+    "generated": "2026-04-19",
+    "name": "Oracle APEX"
+  },
+  "oracle-cloud": {
+    "file": "oracle-cloud.png",
+    "generated": "2026-04-18",
+    "name": "Oracle Cloud Infrastructure"
+  },
+  "oracle-e-business-suite": {
+    "file": "oracle-e-business-suite.png",
+    "generated": "2026-04-18",
+    "name": "Oracle E-Business Suite"
+  },
+  "oracle-enterprise-manager": {
+    "file": "oracle-enterprise-manager.png",
+    "generated": "2026-04-18",
+    "name": "Oracle Enterprise Manager"
+  },
+  "oracle-goldengate": {
+    "file": "oracle-goldengate.png",
+    "generated": "2026-04-18",
+    "name": "Oracle GoldenGate"
+  },
+  "oracle-integration": {
+    "file": "oracle-integration.png",
+    "generated": "2026-04-18",
+    "name": "Oracle Integration"
+  },
+  "palo-alto-networks": {
+    "file": "palo-alto-networks.png",
+    "generated": "2026-04-18",
+    "name": "Palo Alto Networks"
+  },
+  "paw": {
+    "file": "paw.png",
+    "generated": "2026-04-19",
+    "name": "Paw"
+  },
+  "power-query": {
+    "file": "power-query.png",
+    "generated": "2026-04-18",
+    "name": "Power Query"
+  },
+  "productiv": {
+    "file": "productiv.png",
+    "generated": "2026-04-18",
+    "name": "Productiv"
+  },
+  "pulse": {
+    "file": "pulse.png",
+    "generated": "2026-04-18",
+    "name": "Pulse"
+  },
+  "qliksense": {
+    "file": "qliksense.png",
+    "generated": "2026-04-18",
+    "name": "Qlik Sense APIs"
+  },
+  "qube": {
+    "file": "qube.png",
+    "generated": "2026-04-19",
+    "name": "Qube"
+  },
+  "red-hat-ansible-automation-platform": {
+    "file": "red-hat-ansible-automation-platform.png",
+    "generated": "2026-04-18",
+    "name": "Red Hat Ansible Automation Platform"
+  },
+  "sap-bw": {
+    "file": "sap-bw.png",
+    "generated": "2026-04-18",
+    "name": "SAP BW"
+  },
+  "sharepoint": {
+    "file": "sharepoint.png",
+    "generated": "2026-04-18",
+    "name": "Microsoft SharePoint"
+  },
+  "sparx-enterprise-architect": {
+    "file": "sparx-enterprise-architect.png",
+    "generated": "2026-04-18",
+    "name": "Sparx Enterprise Architect"
+  },
+  "spot": {
+    "file": "spot.png",
+    "generated": "2026-04-18",
+    "name": "Spot"
+  },
+  "sql-server": {
+    "file": "sql-server.png",
+    "generated": "2026-04-18",
+    "name": "Microsoft SQL Server APIs"
+  },
+  "tableau-desktop": {
+    "file": "tableau-desktop.png",
+    "generated": "2026-04-18",
+    "name": "Tableau Desktop"
+  },
+  "temporal": {
+    "file": "temporal.png",
+    "generated": "2026-04-19",
+    "name": "Temporal"
+  },
+  "teradata": {
+    "file": "teradata.png",
+    "generated": "2026-04-18",
+    "name": "Teradata"
+  },
+  "tyk": {
+    "file": "tyk.png",
+    "generated": "2026-04-19",
+    "name": "Tyk"
+  },
+  "unix": {
+    "file": "unix.png",
+    "generated": "2026-04-19",
+    "name": "UNIX System Call"
+  },
+  "vantage": {
+    "file": "vantage.png",
+    "generated": "2026-04-18",
+    "name": "Vantage"
+  },
+  "veritas-cluster": {
+    "file": "veritas-cluster.png",
+    "generated": "2026-04-19",
+    "name": "Veritas Cluster Server"
+  },
+  "veritas-infoscale": {
+    "file": "veritas-infoscale.png",
+    "generated": "2026-04-18",
+    "name": "Veritas InfoScale"
+  },
+  "visualforce": {
+    "file": "visualforce.png",
+    "generated": "2026-04-18",
+    "name": "Visualforce"
+  },
+  "vmware": {
+    "file": "vmware.png",
+    "generated": "2026-04-18",
+    "name": "VMware"
+  },
+  "whatsapp": {
+    "file": "whatsapp.png",
+    "generated": "2026-04-18",
+    "name": "WhatsApp"
+  },
+  "workday": {
+    "file": "workday.png",
+    "generated": "2026-04-18",
+    "name": "Workday"
+  },
+  "zendesk": {
+    "file": "zendesk.png",
+    "generated": "2026-04-18",
+    "name": "Zendesk"
+  }
+}
