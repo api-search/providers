@@ -1,39 +1,28 @@
 ---
 api_count: 47
 apis:
-- description: The Snowflake Account API is a REST API that you can use to access,
-    update, and perform certain actions on Account resource in Snowflake.
+- description: The Snowflake Account API is a REST API that you can use to access, update, and perform certain actions on Account resource in Snowflake.
   name: Snowflake Account API
   slug: snowflake-account-api
-- description: The Snowflake Alert API is a REST API that you can use to access, update,
-    and perform certain actions on Alert resource in a Snowflake database.
+- description: The Snowflake Alert API is a REST API that you can use to access, update, and perform certain actions on Alert resource in a Snowflake database.
   name: Snowflake Alert API
   slug: snowflake-alert-api
-- description: The Snowflake API Integration API is a REST API that you can use to
-    access, update, and perform certain actions on API Integration resource in a Snowflake
-    database.
+- description: The Snowflake API Integration API is a REST API that you can use to access, update, and perform certain actions on API Integration resource in a Snowflake database.
   name: Snowflake API Integration API
   slug: snowflake-api-integration-api
-- description: The Snowflake Artifact Repository API is a REST API that you can use
-    to access, update, and perform certain actions on Artifact Repository resources
-    in a Snowflake database.
+- description: The Snowflake Artifact Repository API is a REST API that you can use to access, update, and perform certain actions on Artifact Repository resources in a Snowflake database.
   name: Snowflake Artifact Repository API
   slug: snowflake-artifact-repository-api
-- description: The Snowflake Catalog Integration API is a REST API that you can use
-    to access, update, and perform certain actions on Catalog Integration resource
-    in a Snowflake database.
+- description: The Snowflake Catalog Integration API is a REST API that you can use to access, update, and perform certain actions on Catalog Integration resource in a Snowflake database.
   name: Snowflake Catalog Integration API
   slug: snowflake-catalog-integration-api
-- description: The Snowflake Compute Pools API is a REST API that you can use to access,
-    update, and perform common actions on Compute Pool resources.
+- description: The Snowflake Compute Pools API is a REST API that you can use to access, update, and perform common actions on Compute Pool resources.
   name: Snowflake Compute Pools API
   slug: snowflake-compute-pools-api
-- description: The Snowflake Cortex Analyst API is a REST API that allows end user
-    to chat with their data leveraging semantic models to generate SQL queries.
+- description: The Snowflake Cortex Analyst API is a REST API that allows end user to chat with their data leveraging semantic models to generate SQL queries.
   name: Cortex Analyst API
   slug: cortex-analyst-api
-- description: The Snowflake Cortex Embed API is a REST API that performs LLM embedding
-    for input text, similar to the Snowflake Cortex EMBED_TEXT functions.
+- description: The Snowflake Cortex Embed API is a REST API that performs LLM embedding for input text, similar to the Snowflake Cortex EMBED_TEXT functions.
   name: Cortex Embed API
   slug: cortex-embed-api
 - description: OpenAPI 3.0 specification for the Cortex REST API.
@@ -42,218 +31,136 @@ apis:
 - description: OpenAPI 3.0 specification for the Cortex Search REST API.
   name: Cortex Search REST API
   slug: cortex-search-rest-api
-- description: The Snowflake Database Role API is a REST API that you can use to access,
-    update, and perform certain actions on Database Role resource in a Snowflake database.
+- description: The Snowflake Database Role API is a REST API that you can use to access, update, and perform certain actions on Database Role resource in a Snowflake database.
   name: Snowflake Database Role API
   slug: snowflake-database-role-api
-- description: The Snowflake Database API is a REST API that you can use to access,
-    update, and perform certain actions on Database resource in Snowflake.
+- description: The Snowflake Database API is a REST API that you can use to access, update, and perform certain actions on Database resource in Snowflake.
   name: Snowflake Database API
   slug: snowflake-database-api
-- description: The Snowflake Dynamic Table API is a REST API that you can use to access,
-    update, and perform certain actions on Dynamic Tables resource in a Snowflake
-    database.
+- description: The Snowflake Dynamic Table API is a REST API that you can use to access, update, and perform certain actions on Dynamic Tables resource in a Snowflake database.
   name: Snowflake Dynamic Table API
   slug: snowflake-dynamic-table-api
-- description: The Snowflake Event Table API is a REST API that you can use to access,
-    update, and perform certain actions on Event Table resource in a Snowflake database.
+- description: The Snowflake Event Table API is a REST API that you can use to access, update, and perform certain actions on Event Table resource in a Snowflake database.
   name: Snowflake Event Table API
   slug: snowflake-event-table-api
-- description: The Snowflake External Volume API is a REST API that you can use to
-    access, update, and perform certain actions on External Volume resource in a Snowflake
-    database.
+- description: The Snowflake External Volume API is a REST API that you can use to access, update, and perform certain actions on External Volume resource in a Snowflake database.
   name: Snowflake External Volume API
   slug: snowflake-external-volume-api
-- description: The Snowflake Function API is a REST API that allows caller to create,
-    execute and drop functions in a Snowflake database.
+- description: The Snowflake Function API is a REST API that allows caller to create, execute and drop functions in a Snowflake database.
   name: Snowflake Function API
   slug: snowflake-function-api
-- description: The Snowflake Grant API is a REST API that you can use to show or manage
-    privileges that have been provided to users and roles in a Snowflake database.
+- description: The Snowflake Grant API is a REST API that you can use to show or manage privileges that have been provided to users and roles in a Snowflake database.
   name: Snowflake Grant API
   slug: snowflake-grant-api
-- description: The Snowflake Iceberg Table API is a REST API that you can use to access,
-    update, and perform certain actions on Iceberg Table resource in a Snowflake database.
+- description: The Snowflake Iceberg Table API is a REST API that you can use to access, update, and perform certain actions on Iceberg Table resource in a Snowflake database.
   name: Snowflake Iceberg Table API
   slug: snowflake-iceberg-table-api
-- description: The Snowflake Image Repository API is a REST API that you can use to
-    access, update, and perform common actions on Image Repository resource in Snowflake.
+- description: The Snowflake Image Repository API is a REST API that you can use to access, update, and perform common actions on Image Repository resource in Snowflake.
   name: Snowflake Image Repository API
   slug: snowflake-image-repository-api
-- description: The Snowflake Managed Account API is a REST API that you can use to
-    access, update, and perform certain actions on Managed Account resource in Snowflake.
+- description: The Snowflake Managed Account API is a REST API that you can use to access, update, and perform certain actions on Managed Account resource in Snowflake.
   name: Snowflake Managed Account API
   slug: snowflake-managed-account-api
-- description: The Snowflake Network Policy API is a REST API that you can use to
-    access, update, and perform certain actions on Network Policy resource in a Snowflake
-    database.
+- description: The Snowflake Network Policy API is a REST API that you can use to access, update, and perform certain actions on Network Policy resource in a Snowflake database.
   name: Snowflake Network Policy API
   slug: snowflake-network-policy-api
-- description: The Snowflake Notebook API is a REST API that you can use to access,
-    update, and perform certain actions on Notebook resource in a Snowflake database.
+- description: The Snowflake Notebook API is a REST API that you can use to access, update, and perform certain actions on Notebook resource in a Snowflake database.
   name: Snowflake Notebook API
   slug: snowflake-notebook-api
-- description: The Snowflake Notification Integration API is a REST API that you can
-    use to access, update, and perform certain actions on Notification Integration
-    resource in a Snowflake database.
+- description: The Snowflake Notification Integration API is a REST API that you can use to access, update, and perform certain actions on Notification Integration resource in a Snowflake database.
   name: Snowflake Notification Integration API
   slug: snowflake-notification-integration-api
-- description: The Snowflake Pipe API is a REST API that you can use to access, update,
-    and perform certain actions on Pipe resource in a Snowflake database.
+- description: The Snowflake Pipe API is a REST API that you can use to access, update, and perform certain actions on Pipe resource in a Snowflake database.
   name: Snowflake Pipe API
   slug: snowflake-pipe-api
-- description: The Snowflake Procedure API is a REST API that you can use to access,
-    update, and perform certain actions on Procedure resource in a Snowflake database.
+- description: The Snowflake Procedure API is a REST API that you can use to access, update, and perform certain actions on Procedure resource in a Snowflake database.
   name: Snowflake Procedure API
   slug: snowflake-procedure-api
-- description: The Snowflake Result API is a REST API that you can use to check request
-    status and fetch request response.
+- description: The Snowflake Result API is a REST API that you can use to check request status and fetch request response.
   name: Snowflake Result API
   slug: snowflake-result-api
-- description: The Snowflake Role API is a REST API that you can use to access, update,
-    and perform certain actions on Role resource in a Snowflake database.
+- description: The Snowflake Role API is a REST API that you can use to access, update, and perform certain actions on Role resource in a Snowflake database.
   name: Snowflake Role API
   slug: snowflake-role-api
-- description: The Snowflake Schema API is a REST API that you can use to access,
-    update, and perform certain actions on a Snowflake schema.
+- description: The Snowflake Schema API is a REST API that you can use to access, update, and perform certain actions on a Snowflake schema.
   name: Snowflake Schema API
   slug: snowflake-schema-api
-- description: The Snowflake Services API is a REST API that you can use to access,
-    update, and perform certain actions on Services resource in a Snowflake database.
+- description: The Snowflake Services API is a REST API that you can use to access, update, and perform certain actions on Services resource in a Snowflake database.
   name: Snowflake Services API
   slug: snowflake-services-api
-- description: The Snowflake SQL API is a REST API that you can use to access and
-    update data in a Snowflake database.
+- description: The Snowflake SQL API is a REST API that you can use to access and update data in a Snowflake database.
   name: Snowflake SQL API
   slug: snowflake-sql-api
-- description: The Snowflake Stage API is a REST API that you can use to access, update,
-    and perform certain actions on stage resources in a Snowflake database.
+- description: The Snowflake Stage API is a REST API that you can use to access, update, and perform certain actions on stage resources in a Snowflake database.
   name: Snowflake Stage API
   slug: snowflake-stage-api
-- description: The Snowflake Stream API is a REST API that you can use to access,
-    update, and perform certain actions on Stream resource in a Snowflake database.
+- description: The Snowflake Stream API is a REST API that you can use to access, update, and perform certain actions on Stream resource in a Snowflake database.
   name: Snowflake Stream API
   slug: snowflake-stream-api
-- description: The Snowflake Table API is a REST API that you can use to access, update,
-    and perform certain actions on Tables resource in a Snowflake database.
+- description: The Snowflake Table API is a REST API that you can use to access, update, and perform certain actions on Tables resource in a Snowflake database.
   name: Snowflake Table API
   slug: snowflake-table-api
-- description: The Snowflake Task API is a REST API that you can use to access, update,
-    and perform certain actions on task resources in a Snowflake database.
+- description: The Snowflake Task API is a REST API that you can use to access, update, and perform certain actions on task resources in a Snowflake database.
   name: Snowflake Task API
   slug: snowflake-task-api
-- description: The Snowflake User Defined Function API is a REST API that you can
-    use to access, update, and perform certain actions on User Defined Function resource
-    in a Snowflake database.
+- description: The Snowflake User Defined Function API is a REST API that you can use to access, update, and perform certain actions on User Defined Function resource in a Snowflake database.
   name: Snowflake User Defined Function API
   slug: snowflake-user-defined-function-api
-- description: The Snowflake User API is a REST API that you can use to access, update,
-    and perform certain action on Users in a Snowflake database.
+- description: The Snowflake User API is a REST API that you can use to access, update, and perform certain action on Users in a Snowflake database.
   name: Snowflake User API
   slug: snowflake-user-api
-- description: The Snowflake View API is a REST API that you can use to access, update,
-    and perform certain actions on View resource in a Snowflake database.
+- description: The Snowflake View API is a REST API that you can use to access, update, and perform certain actions on View resource in a Snowflake database.
   name: Snowflake View API
   slug: snowflake-view-api
-- description: The Snowflake Warehouse API is a REST API that you can use to access,
-    customize and manage virtual warehouse in a Snowflake account.
+- description: The Snowflake Warehouse API is a REST API that you can use to access, customize and manage virtual warehouse in a Snowflake account.
   name: Snowflake Warehouse API
   slug: snowflake-warehouse-api
-- description: The Snowflake Network Rule API is a REST API that you can use to access,
-    update, and perform certain actions on Network Rule resources in a Snowflake database.
+- description: The Snowflake Network Rule API is a REST API that you can use to access, update, and perform certain actions on Network Rule resources in a Snowflake database.
   name: Snowflake Network Rule API
   slug: snowflake-network-rule-api
-- description: The Snowflake Password Policy API is a REST API that you can use to
-    access, update, and perform certain actions on Password Policy resources in a
-    Snowflake database.
+- description: The Snowflake Password Policy API is a REST API that you can use to access, update, and perform certain actions on Password Policy resources in a Snowflake database.
   name: Snowflake Password Policy API
   slug: snowflake-password-policy-api
-- description: The Snowflake Secret API is a REST API that you can use to access,
-    update, and perform certain actions on Secret resources in a Snowflake database.
+- description: The Snowflake Secret API is a REST API that you can use to access, update, and perform certain actions on Secret resources in a Snowflake database.
   name: Snowflake Secret API
   slug: snowflake-secret-api
-- description: The Snowflake Sequence API is a REST API that you can use to access,
-    update, and perform certain actions on Sequence resources in a Snowflake database.
+- description: The Snowflake Sequence API is a REST API that you can use to access, update, and perform certain actions on Sequence resources in a Snowflake database.
   name: Snowflake Sequence API
   slug: snowflake-sequence-api
-- description: The Snowflake Spark Connect API is a REST API that enables execution
-    of Spark workloads on Snowflake infrastructure through REST endpoints.
+- description: The Snowflake Spark Connect API is a REST API that enables execution of Spark workloads on Snowflake infrastructure through REST endpoints.
   name: Snowflake Spark Connect API
   slug: snowflake-spark-connect-api
-- description: The Snowflake Streamlit API is a REST API that you can use to access,
-    update, and perform certain actions on Streamlit application resources in a Snowflake
-    database.
+- description: The Snowflake Streamlit API is a REST API that you can use to access, update, and perform certain actions on Streamlit application resources in a Snowflake database.
   name: Snowflake Streamlit API
   slug: snowflake-streamlit-api
-- description: The Snowflake Tag API is a REST API that you can use to access, update,
-    and perform certain actions on Tag resources in a Snowflake database.
+- description: The Snowflake Tag API is a REST API that you can use to access, update, and perform certain actions on Tag resources in a Snowflake database.
   name: Snowflake Tag API
   slug: snowflake-tag-api
-- description: The Snowflake Cortex Agents API is a REST API that you can use to create,
-    manage, and interact with Cortex Agent objects in a Snowflake account.
+- description: The Snowflake Cortex Agents API is a REST API that you can use to create, manage, and interact with Cortex Agent objects in a Snowflake account.
   name: Cortex Agents API
   slug: cortex-agents-api
-- description: The Snowpipe REST API provides REST endpoints for defining the list
-    of files to ingest and fetching reports of the load history for continuous data
-    loading into Snowflake.
+- description: The Snowpipe REST API provides REST endpoints for defining the list of files to ingest and fetching reports of the load history for continuous data loading into Snowflake.
   name: Snowpipe REST API
   slug: snowpipe-rest-api
 capabilities:
-- name: Snowflake Compute and Services
+- description: Unified workflow for managing warehouses, compute pools, Snowpark Container Services, image repositories, and monitoring alerts. Used by Platform Engineers and DevOps teams to provision and operate co
+  name: Snowflake Compute and Services
   slug: compute-and-services
-  description: Unified workflow for managing warehouses, compute pools, Snowpark Container
-    Services, image repositories, and monitoring alerts. Used by Platform Engineers
-    and DevOps teams to provision and operate compute infrastructure.
-  mcp_tools: 17
-  skill_tools: 17
-  rest_operations: 8
-  modified: '2026-04-23'
-- name: Snowflake Cortex AI
+- description: Unified workflow for AI and ML capabilities including LLM inference, natural language analytics, semantic search, and notebook-based development. Used by Data Scientists and ML Engineers for AI-powere
+  name: Snowflake Cortex AI
   slug: cortex-ai
-  description: Unified workflow for AI and ML capabilities including LLM inference,
-    natural language analytics, semantic search, and notebook-based development. Used
-    by Data Scientists and ML Engineers for AI-powered data exploration and model
-    deployment.
-  mcp_tools: 10
-  skill_tools: 10
-  rest_operations: 6
-  modified: '2026-04-23'
-- name: Snowflake Data Engineering
+- description: Unified workflow for building and managing data pipelines using SQL execution, tasks, streams, pipes, stages, and functions. Used by Data Engineers to orchestrate ETL/ELT workflows and continuous data
+  name: Snowflake Data Engineering
   slug: data-engineering
-  description: Unified workflow for building and managing data pipelines using SQL
-    execution, tasks, streams, pipes, stages, and functions. Used by Data Engineers
-    to orchestrate ETL/ELT workflows and continuous data ingestion.
-  mcp_tools: 24
-  skill_tools: 7
-  rest_operations: 9
-  modified: '2026-04-23'
-- name: Snowflake Data Management
+- description: 'Unified workflow for managing databases, schemas, tables, views, dynamic tables, iceberg tables, and event tables. Used by Data Engineers and Database Administrators to create, organize, and maintain '
+  name: Snowflake Data Management
   slug: data-management
-  description: Unified workflow for managing databases, schemas, tables, views, dynamic
-    tables, iceberg tables, and event tables. Used by Data Engineers and Database
-    Administrators to create, organize, and maintain data structures.
-  mcp_tools: 26
-  skill_tools: 0
-  rest_operations: 14
-  modified: '2026-04-23'
-- name: Snowflake Integrations and Connectors
+- description: Unified workflow for managing API integrations, catalog integrations, and notification integrations. Used by Platform Engineers and Data Architects to connect Snowflake with external services, catalog
+  name: Snowflake Integrations and Connectors
   slug: integrations-and-connectors
-  description: Unified workflow for managing API integrations, catalog integrations,
-    and notification integrations. Used by Platform Engineers and Data Architects
-    to connect Snowflake with external services, catalogs, and notification systems.
-  mcp_tools: 12
-  skill_tools: 0
-  rest_operations: 6
-  modified: '2026-04-23'
-- name: Snowflake Security and Access
+- description: Unified workflow for managing users, roles, grants, database roles, network policies, and account administration. Used by Platform Administrators and Security Engineers to govern access control and se
+  name: Snowflake Security and Access
   slug: security-and-access
-  description: Unified workflow for managing users, roles, grants, database roles,
-    network policies, and account administration. Used by Platform Administrators
-    and Security Engineers to govern access control and security posture.
-  mcp_tools: 15
-  skill_tools: 0
-  rest_operations: 9
-  modified: '2026-04-23'
 common:
 - title: ''
   type: StatusPage
@@ -349,55 +256,39 @@ common:
   type: NaftikoCapability
   url: capabilities/integrations-and-connectors.yaml
 created: '2025-06-05'
-description: Snowflake is a cloud-based data platform that provides data warehousing,
-  data lakes, data engineering, data science, and data application development capabilities.
+description: Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.
 features:
-- description: Fully managed cloud data warehouse with automatic scaling, concurrency
-    handling, and near-zero maintenance.
+- description: Fully managed cloud data warehouse with automatic scaling, concurrency handling, and near-zero maintenance.
   name: Data Warehousing
-- description: Store and query semi-structured and unstructured data alongside structured
-    data using Iceberg tables and external volumes.
+- description: Store and query semi-structured and unstructured data alongside structured data using Iceberg tables and external volumes.
   name: Data Lakes
-- description: Built-in AI and ML capabilities including LLM inference, text embeddings,
-    semantic search, and natural language analytics.
+- description: Built-in AI and ML capabilities including LLM inference, text embeddings, semantic search, and natural language analytics.
   name: Cortex AI
-- description: Developer framework for building data pipelines, ML models, and applications
-    in Python, Java, and Scala directly on Snowflake.
+- description: Developer framework for building data pipelines, ML models, and applications in Python, Java, and Scala directly on Snowflake.
   name: Snowpark
-- description: Declarative data pipelines that automatically maintain materialized
-    views with configurable lag targets.
+- description: Declarative data pipelines that automatically maintain materialized views with configurable lag targets.
   name: Dynamic Tables
-- description: Continuous data ingestion with low-latency loading from external sources
-    into Snowflake tables.
+- description: Continuous data ingestion with low-latency loading from external sources into Snowflake tables.
   name: Snowpipe Streaming
-- description: Interactive development environment for data exploration, analysis,
-    and ML model development.
+- description: Interactive development environment for data exploration, analysis, and ML model development.
   name: Snowflake Notebooks
-- description: Run containerized workloads and services directly within Snowflake
-    using OCI-compatible containers.
+- description: Run containerized workloads and services directly within Snowflake using OCI-compatible containers.
   name: Snowpark Container Services
-- description: Securely share live data across accounts and organizations without
-    data movement or copies.
+- description: Securely share live data across accounts and organizations without data movement or copies.
   name: Data Sharing
-- description: Build and deploy interactive data applications directly within Snowflake
-    using Streamlit.
+- description: Build and deploy interactive data applications directly within Snowflake using Streamlit.
   name: Streamlit Apps
 image: https://www.snowflake.com/wp-content/themes/snowflake/assets/img/brand-guidelines/logo-sno-blue-example.svg
 integrations:
-- description: Execute Spark workloads on Snowflake infrastructure through the Spark
-    Connect API.
+- description: Execute Spark workloads on Snowflake infrastructure through the Spark Connect API.
   name: Apache Spark
-- description: Create and manage Iceberg tables with support for AWS Glue, Delta,
-    and REST catalog integrations.
+- description: Create and manage Iceberg tables with support for AWS Glue, Delta, and REST catalog integrations.
   name: Apache Iceberg
-- description: Connect to external cloud storage on AWS S3, Azure Blob, and Google
-    Cloud Storage via external volumes and stages.
+- description: Connect to external cloud storage on AWS S3, Azure Blob, and Google Cloud Storage via external volumes and stages.
   name: Cloud Storage
-- description: Integrate with AWS SNS, Azure Event Grid, and GCP Pub/Sub for event-driven
-    data pipelines.
+- description: Integrate with AWS SNS, Azure Event Grid, and GCP Pub/Sub for event-driven data pipelines.
   name: Notification Services
-- description: Connect to Git repositories for version-controlled code and configuration
-    management.
+- description: Connect to Git repositories for version-controlled code and configuration management.
   name: Git Repositories
 jsonld:
 - class_count: 0
@@ -553,7 +444,7 @@ jsonld:
   property_count: 0
   slug: warehouse-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-04-18'
 name: Snowflake
 rules:
 - name: Snowflake API Rules
@@ -575,22 +466,16 @@ tags:
 - SQL
 url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/apis.yml
 use_cases:
-- description: Build and orchestrate data pipelines using tasks, streams, pipes, and
-    dynamic tables for ETL/ELT workflows.
+- description: Build and orchestrate data pipelines using tasks, streams, pipes, and dynamic tables for ETL/ELT workflows.
   name: Data Engineering
-- description: Develop and deploy machine learning models using Snowpark, notebooks,
-    and Cortex AI capabilities.
+- description: Develop and deploy machine learning models using Snowpark, notebooks, and Cortex AI capabilities.
   name: Data Science and ML
-- description: Run complex analytical queries across massive datasets with automatic
-    scaling and concurrency.
+- description: Run complex analytical queries across massive datasets with automatic scaling and concurrency.
   name: Data Analytics
-- description: Use Cortex Analyst to ask questions about data in natural language
-    and receive SQL-backed answers.
+- description: Use Cortex Analyst to ask questions about data in natural language and receive SQL-backed answers.
   name: AI-Powered Analytics
-- description: Build data-intensive applications using Snowflake APIs, Snowpark, and
-    Streamlit.
+- description: Build data-intensive applications using Snowflake APIs, Snowpark, and Streamlit.
   name: Data Application Development
-- description: Manage access control, data classification, and compliance using roles,
-    grants, tags, and network policies.
+- description: Manage access control, data classification, and compliance using roles, grants, tags, and network policies.
   name: Data Governance
 ---
