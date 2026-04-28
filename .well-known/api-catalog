@@ -28987,6 +28987,183 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/circle/",
+      "title": "circle",
+      "service-desc": [
+        {
+          "href": "https://developers.circle.com/openapi/cctp.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cross-Chain Transfer Protocol (CCTP)"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/compliance.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Compliance Engine"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/cpn-ofi.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Circle Payments Network (CPN)"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/developer-controlled-wallets.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Developer-Controlled Wallets"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/gateway.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Circle Gateway"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/smart-contract-platform.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Smart Contract Platform"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/stablefx.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "StableFX"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/user-controlled-wallets.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "User-Controlled Wallets"
+        },
+        {
+          "href": "https://developers.circle.com/openapi/xreserve.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "xReserve"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developers.circle.com/cctp",
+          "type": "text/html",
+          "title": "Cross-Chain Transfer Protocol (CCTP)"
+        },
+        {
+          "href": "https://developers.circle.com/w3s/compliance-engine",
+          "type": "text/html",
+          "title": "Compliance Engine"
+        },
+        {
+          "href": "https://developers.circle.com/cpn",
+          "type": "text/html",
+          "title": "Circle Payments Network (CPN)"
+        },
+        {
+          "href": "https://developers.circle.com/w3s/programmable-wallets",
+          "type": "text/html",
+          "title": "Developer-Controlled Wallets"
+        },
+        {
+          "href": "https://developers.circle.com/w3s/gas-station",
+          "type": "text/html",
+          "title": "Gas Station and Paymaster"
+        },
+        {
+          "href": "https://developers.circle.com/gateway",
+          "type": "text/html",
+          "title": "Circle Gateway"
+        },
+        {
+          "href": "https://developers.circle.com/w3s/smart-contract-platform",
+          "type": "text/html",
+          "title": "Smart Contract Platform"
+        },
+        {
+          "href": "https://developers.circle.com/stablefx",
+          "type": "text/html",
+          "title": "StableFX"
+        },
+        {
+          "href": "https://developers.circle.com/w3s/user-controlled-wallets",
+          "type": "text/html",
+          "title": "User-Controlled Wallets"
+        },
+        {
+          "href": "https://developers.circle.com/xreserve",
+          "type": "text/html",
+          "title": "xReserve"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/circleci/",
+      "title": "circleci",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-rest-api-v1-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CircleCI REST API V1"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-rest-api-v2-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CircleCI REST API V2"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-runner-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CircleCI Self-Hosted Runner API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "CircleCI Webhooks"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://circleci.com/developer/orbs",
+          "type": "text/html",
+          "title": "CircleCI Orbs Registry"
+        },
+        {
+          "href": "https://circleci.com/docs/api/v1/",
+          "type": "text/html",
+          "title": "CircleCI REST API V1"
+        },
+        {
+          "href": "https://circleci.com/docs/api/v2/",
+          "type": "text/html",
+          "title": "CircleCI REST API V2"
+        },
+        {
+          "href": "https://circleci.com/docs/runner-api/",
+          "type": "text/html",
+          "title": "CircleCI Self-Hosted Runner API"
+        },
+        {
+          "href": "https://circleci.com/docs/webhooks/",
+          "type": "text/html",
+          "title": "CircleCI Webhooks"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/circlecis/",
+      "title": "circlecis",
+      "service-doc": [
+        {
+          "href": "https://circleci.com/docs/api/v2/",
+          "type": "text/html",
+          "title": "CircleCI REST API V2"
+        },
+        {
+          "href": "https://circleci.com/docs/runner-api/",
+          "type": "text/html",
+          "title": "CircleCI Self-Hosted Runner API"
+        },
+        {
+          "href": "https://circleci.com/docs/webhooks/",
+          "type": "text/html",
+          "title": "CircleCI Webhooks"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/circor-international/",
       "title": "circor-international",
       "service-doc": [
@@ -29049,6 +29226,889 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/cisco-collaboration-hybrid-solutions/",
+      "title": "cisco-collaboration-hybrid-solutions",
+      "service-desc": [
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex APIs"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.webex.com/docs/api/v1/organizations",
+          "type": "text/html",
+          "title": "Control Hub API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/getting-started",
+          "type": "text/html",
+          "title": "Webex APIs"
+        },
+        {
+          "href": "https://developer.webex.com/",
+          "type": "text/html",
+          "title": "Webex APIs"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/webex-calling",
+          "type": "text/html",
+          "title": "Webex Calling API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/devices",
+          "type": "text/html",
+          "title": "Webex Devices API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/events",
+          "type": "text/html",
+          "title": "Webex Events API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/webex-hybrid-services/",
+          "type": "text/html",
+          "title": "Webex Hybrid Services API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/webex-meetings/",
+          "type": "text/html",
+          "title": "Webex Meetings API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-control-hub/",
+      "title": "cisco-control-hub",
+      "service-desc": [
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Admin API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Calling API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Devices API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Licenses API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Locations API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Organizations API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex People API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Reports API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Workspaces API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.webex.com/docs/api/v1/admin-audit-events",
+          "type": "text/html",
+          "title": "Webex Admin API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/webex-calling-organization-settings",
+          "type": "text/html",
+          "title": "Webex Calling API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/devices",
+          "type": "text/html",
+          "title": "Webex Devices API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/licenses",
+          "type": "text/html",
+          "title": "Webex Licenses API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/locations",
+          "type": "text/html",
+          "title": "Webex Locations API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/organizations",
+          "type": "text/html",
+          "title": "Webex Organizations API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/people",
+          "type": "text/html",
+          "title": "Webex People API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/reports",
+          "type": "text/html",
+          "title": "Webex Reports API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/workspaces",
+          "type": "text/html",
+          "title": "Webex Workspaces API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-directory-connector/",
+      "title": "cisco-directory-connector",
+      "service-desc": [
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cisco Directory Connector Sync API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Control Hub API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.webex.com/docs/api/guides/directory-connector",
+          "type": "text/html",
+          "title": "Cisco Directory Connector Sync API"
+        },
+        {
+          "href": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/directoryconnector/wbx_b_directory-connector-guide.html",
+          "type": "text/html",
+          "title": "Cisco Directory Connector Sync API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/organizations",
+          "type": "text/html",
+          "title": "Webex Control Hub API"
+        },
+        {
+          "href": "https://admin.webex.com",
+          "type": "text/html",
+          "title": "Webex Control Hub API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/scim2-people",
+          "type": "text/html",
+          "title": "Webex SCIM 2.0 Provisioning"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-directory-connectors/",
+      "title": "cisco-directory-connectors",
+      "service-doc": [
+        {
+          "href": "https://developer.cisco.com/docs/directory-connectors/",
+          "type": "text/html",
+          "title": "Cisco Directory Connector API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-hardware/",
+      "title": "cisco-hardware",
+      "service-desc": [
+        {
+          "href": "https://intersight.com/apidocs/downloads/",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cisco Intersight API"
+        },
+        {
+          "href": "https://api.meraki.com/api/v1/openapiSpec",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cisco Meraki Dashboard API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.cisco.com/docs/aci/",
+          "type": "text/html",
+          "title": "Cisco APIC REST API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/dna-center/",
+          "type": "text/html",
+          "title": "Cisco Catalyst Center API"
+        },
+        {
+          "href": "https://intersight.com/apidocs/introduction/overview/",
+          "type": "text/html",
+          "title": "Cisco Intersight API"
+        },
+        {
+          "href": "https://intersight.com/apidocs/",
+          "type": "text/html",
+          "title": "Cisco Intersight API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/ios-xe/",
+          "type": "text/html",
+          "title": "Cisco IOS XE RESTCONF API"
+        },
+        {
+          "href": "https://developer.cisco.com/meraki/api-latest/",
+          "type": "text/html",
+          "title": "Cisco Meraki Dashboard API"
+        },
+        {
+          "href": "https://developer.cisco.com/meraki/",
+          "type": "text/html",
+          "title": "Cisco Meraki Dashboard API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/ucs-manager/",
+          "type": "text/html",
+          "title": "Cisco UCS Manager API"
+        },
+        {
+          "href": "https://developer.cisco.com/site/ucs-dev-center/",
+          "type": "text/html",
+          "title": "Cisco UCS Manager API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-secure-client/",
+      "title": "cisco-secure-client",
+      "service-doc": [
+        {
+          "href": "https://duo.com/docs/adminapi",
+          "type": "text/html",
+          "title": "Cisco Duo Admin API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/identity-services-engine/",
+          "type": "text/html",
+          "title": "Cisco ISE ERS API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/cloud-security/secure-access/",
+          "type": "text/html",
+          "title": "Cisco Secure Access API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/secure-firewall-management-center-api/",
+          "type": "text/html",
+          "title": "Cisco Secure Firewall Management Center API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/cloud-security/",
+          "type": "text/html",
+          "title": "Cisco Umbrella API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-systems/",
+      "title": "cisco-systems",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-cisco-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cisco DevNet API Catalog"
+        },
+        {
+          "href": "https://api.meraki.com/api/v1/openapiSpec",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cisco Meraki Dashboard"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.appdynamics.com/appd/24.x/latest/en/extend-cisco-appdynamics",
+          "type": "text/html",
+          "title": "Cisco AppDynamics API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/dna-center/",
+          "type": "text/html",
+          "title": "Cisco Catalyst Center"
+        },
+        {
+          "href": "https://developer.cisco.com/",
+          "type": "text/html",
+          "title": "Cisco DevNet API Catalog"
+        },
+        {
+          "href": "https://intersight.com/apidocs/introduction/overview/",
+          "type": "text/html",
+          "title": "Cisco Intersight API"
+        },
+        {
+          "href": "https://intersight.com/apidocs/",
+          "type": "text/html",
+          "title": "Cisco Intersight API"
+        },
+        {
+          "href": "https://developer.cisco.com/meraki/api-latest/",
+          "type": "text/html",
+          "title": "Cisco Meraki Dashboard"
+        },
+        {
+          "href": "https://developer.cisco.com/meraki/",
+          "type": "text/html",
+          "title": "Cisco Meraki Dashboard"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/secure-firewall-management-center-api/",
+          "type": "text/html",
+          "title": "Cisco Secure Firewall Management Center"
+        },
+        {
+          "href": "https://developer.thousandeyes.com/v7/",
+          "type": "text/html",
+          "title": "Cisco ThousandEyes API"
+        },
+        {
+          "href": "https://developer.thousandeyes.com/",
+          "type": "text/html",
+          "title": "Cisco ThousandEyes API"
+        },
+        {
+          "href": "https://developer.webex.com/docs",
+          "type": "text/html",
+          "title": "Cisco Webex Platform"
+        },
+        {
+          "href": "https://developer.webex.com/",
+          "type": "text/html",
+          "title": "Cisco Webex Platform"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-webex/",
+      "title": "cisco-webex",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-admin-audit-events-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Admin Audit Events API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-attachment-actions-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Attachment Actions API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-call-controls-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Call Controls API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-converged-recordings-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Converged Recordings API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-devices-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Devices API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-events-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Events API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-licenses-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Licenses API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-meetings-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Meetings API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-memberships-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Memberships API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-messaging-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Messaging API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-organizations-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Organizations API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-people-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex People API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-recordings-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Recordings API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-roles-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Roles API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-rooms-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Rooms API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-team-memberships-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Team Memberships API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-teams-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Teams API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-webhooks-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Webhooks API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-workspaces-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Webex Workspaces API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.webex.com/docs/api/v1/admin-audit-events",
+          "type": "text/html",
+          "title": "Webex Admin Audit Events API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/attachment-actions",
+          "type": "text/html",
+          "title": "Webex Attachment Actions API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/call-controls",
+          "type": "text/html",
+          "title": "Webex Call Controls API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/converged-recordings",
+          "type": "text/html",
+          "title": "Webex Converged Recordings API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/devices",
+          "type": "text/html",
+          "title": "Webex Devices API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/events",
+          "type": "text/html",
+          "title": "Webex Events API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/licenses",
+          "type": "text/html",
+          "title": "Webex Licenses API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/meetings",
+          "type": "text/html",
+          "title": "Webex Meetings API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/memberships",
+          "type": "text/html",
+          "title": "Webex Memberships API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/messaging",
+          "type": "text/html",
+          "title": "Webex Messaging API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/organizations",
+          "type": "text/html",
+          "title": "Webex Organizations API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/people",
+          "type": "text/html",
+          "title": "Webex People API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/recordings",
+          "type": "text/html",
+          "title": "Webex Recordings API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/roles",
+          "type": "text/html",
+          "title": "Webex Roles API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/rooms",
+          "type": "text/html",
+          "title": "Webex Rooms API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/team-memberships",
+          "type": "text/html",
+          "title": "Webex Team Memberships API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/teams",
+          "type": "text/html",
+          "title": "Webex Teams API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/webhooks",
+          "type": "text/html",
+          "title": "Webex Webhooks API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/workspaces",
+          "type": "text/html",
+          "title": "Webex Workspaces API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cisco-webex-meetings/",
+      "title": "cisco-webex-meetings",
+      "service-doc": [
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meeting-chats",
+          "type": "text/html",
+          "title": "Webex Meeting Chats API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meeting-invitees",
+          "type": "text/html",
+          "title": "Webex Meeting Invitees API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meeting-participants",
+          "type": "text/html",
+          "title": "Webex Meeting Participants API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meeting-polls",
+          "type": "text/html",
+          "title": "Webex Meeting Polls API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meeting-preferences",
+          "type": "text/html",
+          "title": "Webex Meeting Preferences API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meeting-qanda",
+          "type": "text/html",
+          "title": "Webex Meeting Q and A API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meeting-transcripts",
+          "type": "text/html",
+          "title": "Webex Meeting Transcripts API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/meetings",
+          "type": "text/html",
+          "title": "Webex Meetings API"
+        },
+        {
+          "href": "https://developer.webex.com/docs/api/v1/recordings",
+          "type": "text/html",
+          "title": "Webex Recordings API"
+        },
+        {
+          "href": "https://developer.cisco.com/docs/webex-xml-api-reference-guide/",
+          "type": "text/html",
+          "title": "Webex XML API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/citation-cff/",
+      "title": "citation-cff",
+      "service-doc": [
+        {
+          "href": "https://github.com/citation-file-format/citation-file-format/blob/main/README.md",
+          "type": "text/html",
+          "title": "Citation File Format Schema"
+        },
+        {
+          "href": "https://github.com/citation-file-format/citation-file-format",
+          "type": "text/html",
+          "title": "Citation File Format Schema"
+        },
+        {
+          "href": "https://github.com/dieghernan/cff-validator",
+          "type": "text/html",
+          "title": "cff-validator GitHub Action"
+        },
+        {
+          "href": "https://github.com/citation-file-format/cffconvert",
+          "type": "text/html",
+          "title": "cffconvert"
+        },
+        {
+          "href": "https://citation-file-format.github.io/cff-initializer-javascript/",
+          "type": "text/html",
+          "title": "cffinit Authoring Tool"
+        },
+        {
+          "href": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files",
+          "type": "text/html",
+          "title": "GitHub Native Citation Support"
+        },
+        {
+          "href": "https://zenodo.org/",
+          "type": "text/html",
+          "title": "Zenodo Software Publishing"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cities-database-api/",
+      "title": "cities-database-api",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/openapi/cities-database-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "AirLabs Cities API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://airlabs.co/docs/cities",
+          "type": "text/html",
+          "title": "AirLabs Cities API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/citigroup/",
+      "title": "citigroup",
+      "service-doc": [
+        {
+          "href": "https://sandbox.developerhub.citi.com/api/united-states/retail-bank/accounts/accounts-and-transactions/documentation",
+          "type": "text/html",
+          "title": "Citi Accounts and Transactions API"
+        },
+        {
+          "href": "https://developer.citi.com/",
+          "type": "text/html",
+          "title": "Citi Authorize API"
+        },
+        {
+          "href": "https://developer.citi.com/",
+          "type": "text/html",
+          "title": "Citi Customers API"
+        },
+        {
+          "href": "https://sandbox.developerhub.citi.com/api-catalog-list",
+          "type": "text/html",
+          "title": "Citi Money Movement API"
+        },
+        {
+          "href": "https://developer.citi.com/",
+          "type": "text/html",
+          "title": "Citi Onboarding API"
+        },
+        {
+          "href": "https://developer.citi.com/",
+          "type": "text/html",
+          "title": "Citi Pay with Points API"
+        },
+        {
+          "href": "https://developer.citi.com/",
+          "type": "text/html",
+          "title": "Citi Utilities API"
+        },
+        {
+          "href": "https://www.citigroup.com/global/insights/citiconnect-api-portal",
+          "type": "text/html",
+          "title": "CitiConnect API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/citizens-financial/",
+      "title": "citizens-financial",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-bank-accounts-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Citizens Bank Accounts API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-bank-atm-locator-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Citizens Bank ATM Locator API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.citizensbank.com/product/35/api/26",
+          "type": "text/html",
+          "title": "Citizens Bank Accounts API"
+        },
+        {
+          "href": "https://developer.citizensbank.com/",
+          "type": "text/html",
+          "title": "Citizens Bank Accounts API"
+        },
+        {
+          "href": "https://developer.citizensbank.com/",
+          "type": "text/html",
+          "title": "Citizens Bank ATM Locator API"
+        },
+        {
+          "href": "https://developer-citizenspay.citizensbank.com/",
+          "type": "text/html",
+          "title": "Citizens Pay API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/citizens-financial-group/",
+      "title": "citizens-financial-group",
+      "service-doc": [
+        {
+          "href": "https://developer.citizensbank.com/api",
+          "type": "text/html",
+          "title": "Citizens Accounts API"
+        },
+        {
+          "href": "https://developer.citizensbank.com/",
+          "type": "text/html",
+          "title": "Citizens ATM Locator API"
+        },
+        {
+          "href": "https://developer.citizensbank.com/",
+          "type": "text/html",
+          "title": "Citizens Branch Locator API"
+        },
+        {
+          "href": "https://developer.citizensbank.com/",
+          "type": "text/html",
+          "title": "Citizens Open Banking API"
+        },
+        {
+          "href": "https://developer-citizenspay.citizensbank.com/",
+          "type": "text/html",
+          "title": "Citizens Pay API"
+        },
+        {
+          "href": "https://developer.citizensbank.com/api",
+          "type": "text/html",
+          "title": "Citizens Statements API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/civil-infrastructure-platform/",
+      "title": "civil-infrastructure-platform",
+      "service-doc": [
+        {
+          "href": "https://wiki.linuxfoundation.org/civilinfrastructureplatform/cipcore",
+          "type": "text/html",
+          "title": "CIP Core Packages"
+        },
+        {
+          "href": "https://wiki.linuxfoundation.org/civilinfrastructureplatform/cipkernelmaintenance",
+          "type": "text/html",
+          "title": "CIP SLTS Kernel"
+        },
+        {
+          "href": "https://wiki.linuxfoundation.org/civilinfrastructureplatform/cipsecurity",
+          "type": "text/html",
+          "title": "CIP Security"
+        },
+        {
+          "href": "https://wiki.linuxfoundation.org/civilinfrastructureplatform/softwareupdate",
+          "type": "text/html",
+          "title": "CIP Software Update"
+        },
+        {
+          "href": "https://wiki.linuxfoundation.org/civilinfrastructureplatform/ciptesting",
+          "type": "text/html",
+          "title": "CIP Testing"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clarivate/",
+      "title": "clarivate",
+      "service-doc": [
+        {
+          "href": "https://developer.clarivate.com/apis/cortellis",
+          "type": "text/html",
+          "title": "Cortellis APIs"
+        },
+        {
+          "href": "https://www.cortellis.com/",
+          "type": "text/html",
+          "title": "Cortellis APIs"
+        },
+        {
+          "href": "https://developer.clarivate.com/apis/derwent",
+          "type": "text/html",
+          "title": "Derwent Innovation API"
+        },
+        {
+          "href": "https://developer.clarivate.com/apis/incites",
+          "type": "text/html",
+          "title": "InCites Benchmarking and Analytics API"
+        },
+        {
+          "href": "https://developer.clarivate.com/apis/wos",
+          "type": "text/html",
+          "title": "Web of Science APIs"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/classif-io/",
+      "title": "classif-io",
+      "service-doc": [
+        {
+          "href": "https://www.classif.io/fashion-style-classification-api/",
+          "type": "text/html",
+          "title": "Classif.io Fashion Style Classification API"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/clean-energy-fuels/",
       "title": "clean-energy-fuels",
       "service-doc": [
@@ -29065,6 +30125,58 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/cleanshelf/",
+      "title": "cleanshelf",
+      "service-doc": [
+        {
+          "href": "https://developer.zylo.com/",
+          "type": "text/html",
+          "title": "Zylo Platform API (successor)"
+        },
+        {
+          "href": "https://developer.zylo.com/v1.0/reference/zylo-legacy-api",
+          "type": "text/html",
+          "title": "Zylo Legacy API (Cleanshelf-era)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clearstream/",
+      "title": "clearstream",
+      "service-doc": [
+        {
+          "href": "https://www.clearstream.com/clearstream-en/securities-services/connectivity-1-/cascade",
+          "type": "text/html",
+          "title": "Clearstream CASCADE (CSD)"
+        },
+        {
+          "href": "https://www.clearstream.com/clearstream-en/securities-services/collateral-management",
+          "type": "text/html",
+          "title": "Clearstream CmaX (Triparty Collateral)"
+        },
+        {
+          "href": "https://www.clearstream.com/clearstream-en/securities-services/funds-services-1-/vestima",
+          "type": "text/html",
+          "title": "Clearstream Vestima"
+        },
+        {
+          "href": "https://www.clearstream.com/clearstream-en/securities-services/connectivity-1-/xact-file-transfer",
+          "type": "text/html",
+          "title": "Clearstream Xact File Transfer"
+        },
+        {
+          "href": "https://www.clearstream.com/clearstream-en/securities-services/connectivity-1-/xact-via-swift--1276378",
+          "type": "text/html",
+          "title": "Clearstream Xact via SWIFT"
+        },
+        {
+          "href": "https://www.clearstream.com/clearstream-en/securities-services/connectivity-1-/clearstreamxact",
+          "type": "text/html",
+          "title": "Clearstream Xact Web Portal"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/clearwater-paper/",
       "title": "clearwater-paper",
       "service-doc": [
@@ -29077,6 +30189,133 @@
           "href": "https://developer.clearwaterpaper.com",
           "type": "text/html",
           "title": "Clearwater Paper API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cledara/",
+      "title": "cledara",
+      "service-doc": [
+        {
+          "href": "https://docs.cledara.com/",
+          "type": "text/html",
+          "title": "Cledara API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clerk-io/",
+      "title": "clerk-io",
+      "service-doc": [
+        {
+          "href": "https://docs.clerk.io/",
+          "type": "text/html",
+          "title": "Clerk.io API"
+        },
+        {
+          "href": "https://docs.clerk.io/docs/clerkjs-quick-start",
+          "type": "text/html",
+          "title": "Clerk.js Client Library"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clevertap/",
+      "title": "clevertap",
+      "service-doc": [
+        {
+          "href": "https://developer.clevertap.com/docs/bulletins-api",
+          "type": "text/html",
+          "title": "CleverTap Bulletins API"
+        },
+        {
+          "href": "https://developer.clevertap.com/docs/create-a-campaign-api",
+          "type": "text/html",
+          "title": "CleverTap Campaign API"
+        },
+        {
+          "href": "https://developer.clevertap.com/docs/catalog-api",
+          "type": "text/html",
+          "title": "CleverTap Catalog API"
+        },
+        {
+          "href": "https://developer.clevertap.com/docs/real-time-counts-api",
+          "type": "text/html",
+          "title": "CleverTap Real-Time Counts API"
+        },
+        {
+          "href": "https://developer.clevertap.com/docs/custom-list-api",
+          "type": "text/html",
+          "title": "CleverTap Custom List API"
+        },
+        {
+          "href": "https://developer.clevertap.com/docs/event-api",
+          "type": "text/html",
+          "title": "CleverTap Event API"
+        },
+        {
+          "href": "https://developer.clevertap.com/docs/profile-api",
+          "type": "text/html",
+          "title": "CleverTap Profile API"
+        },
+        {
+          "href": "https://developer.clevertap.com/docs/remote-config-api",
+          "type": "text/html",
+          "title": "CleverTap Remote Config API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clickhouse/",
+      "title": "clickhouse",
+      "service-desc": [
+        {
+          "href": "https://api.clickhouse.cloud/v1",
+          "type": "application/vnd.oai.openapi",
+          "title": "ClickHouse Cloud API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://clickhouse.com/docs/en/cloud/manage/api/api-overview",
+          "type": "text/html",
+          "title": "ClickHouse Cloud API"
+        },
+        {
+          "href": "https://clickhouse.com/docs/en/interfaces/grpc",
+          "type": "text/html",
+          "title": "ClickHouse gRPC Interface"
+        },
+        {
+          "href": "https://clickhouse.com/docs/en/interfaces/http",
+          "type": "text/html",
+          "title": "ClickHouse HTTP Interface"
+        },
+        {
+          "href": "https://clickhouse.com/docs/en/interfaces/mysql",
+          "type": "text/html",
+          "title": "ClickHouse MySQL Interface"
+        },
+        {
+          "href": "https://clickhouse.com/docs/en/interfaces/tcp",
+          "type": "text/html",
+          "title": "ClickHouse Native TCP Interface"
+        },
+        {
+          "href": "https://clickhouse.com/docs/en/interfaces/postgresql",
+          "type": "text/html",
+          "title": "ClickHouse PostgreSQL Interface"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clickpost/",
+      "title": "clickpost",
+      "service-doc": [
+        {
+          "href": "https://docs.clickpost.ai/docs/getting-started",
+          "type": "text/html",
+          "title": "ClickPost API"
         }
       ]
     },
@@ -29210,6 +30449,499 @@
           "href": "https://developer.clickup.com/docs/webhooks",
           "type": "text/html",
           "title": "ClickUp Webhooks API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/climate-fieldview/",
+      "title": "climate-fieldview",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-platform-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Climate FieldView Platform API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://dev.fieldview.com/technical-documentation/",
+          "type": "text/html",
+          "title": "Climate FieldView Platform API"
+        },
+        {
+          "href": "https://dev.fieldview.com/",
+          "type": "text/html",
+          "title": "Climate FieldView Platform API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/climatiq/",
+      "title": "climatiq",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Climatiq API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.climatiq.io/docs/api-reference",
+          "type": "text/html",
+          "title": "Climatiq API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clockodo/",
+      "title": "clockodo",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Clockodo API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.clockodo.com/en/api/",
+          "type": "text/html",
+          "title": "Clockodo API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloud/",
+      "title": "cloud",
+      "service-doc": [
+        {
+          "href": "https://www.alibabacloud.com/help/en/api-references",
+          "type": "text/html",
+          "title": "Alibaba Cloud"
+        },
+        {
+          "href": "https://www.alibabacloud.com/",
+          "type": "text/html",
+          "title": "Alibaba Cloud"
+        },
+        {
+          "href": "https://docs.aws.amazon.com/",
+          "type": "text/html",
+          "title": "Amazon Web Services"
+        },
+        {
+          "href": "https://aws.amazon.com/",
+          "type": "text/html",
+          "title": "Amazon Web Services"
+        },
+        {
+          "href": "https://learn.microsoft.com/en-us/rest/api/azure/",
+          "type": "text/html",
+          "title": "Microsoft Azure"
+        },
+        {
+          "href": "https://azure.microsoft.com/",
+          "type": "text/html",
+          "title": "Microsoft Azure"
+        },
+        {
+          "href": "https://developers.cloudflare.com/api/",
+          "type": "text/html",
+          "title": "Cloudflare"
+        },
+        {
+          "href": "https://www.cloudflare.com/",
+          "type": "text/html",
+          "title": "Cloudflare"
+        },
+        {
+          "href": "https://docs.coreweave.com/",
+          "type": "text/html",
+          "title": "CoreWeave"
+        },
+        {
+          "href": "https://www.coreweave.com/",
+          "type": "text/html",
+          "title": "CoreWeave"
+        },
+        {
+          "href": "https://docs.crusoecloud.com/reference/api/",
+          "type": "text/html",
+          "title": "Crusoe Cloud"
+        },
+        {
+          "href": "https://crusoecloud.com/",
+          "type": "text/html",
+          "title": "Crusoe Cloud"
+        },
+        {
+          "href": "https://docs.digitalocean.com/reference/api/",
+          "type": "text/html",
+          "title": "DigitalOcean"
+        },
+        {
+          "href": "https://www.digitalocean.com/",
+          "type": "text/html",
+          "title": "DigitalOcean"
+        },
+        {
+          "href": "https://www.fastly.com/documentation/reference/api/",
+          "type": "text/html",
+          "title": "Fastly Compute"
+        },
+        {
+          "href": "https://www.fastly.com/products/edge-compute",
+          "type": "text/html",
+          "title": "Fastly Compute"
+        },
+        {
+          "href": "https://cloud.google.com/apis/docs/overview",
+          "type": "text/html",
+          "title": "Google Cloud"
+        },
+        {
+          "href": "https://cloud.google.com/",
+          "type": "text/html",
+          "title": "Google Cloud"
+        },
+        {
+          "href": "https://docs.hetzner.cloud/",
+          "type": "text/html",
+          "title": "Hetzner Cloud"
+        },
+        {
+          "href": "https://www.hetzner.com/cloud",
+          "type": "text/html",
+          "title": "Hetzner Cloud"
+        },
+        {
+          "href": "https://cloud.ibm.com/apidocs",
+          "type": "text/html",
+          "title": "IBM Cloud"
+        },
+        {
+          "href": "https://www.ibm.com/cloud",
+          "type": "text/html",
+          "title": "IBM Cloud"
+        },
+        {
+          "href": "https://cloud.lambdalabs.com/api/v1/docs",
+          "type": "text/html",
+          "title": "Lambda Labs Cloud"
+        },
+        {
+          "href": "https://lambdalabs.com/service/gpu-cloud",
+          "type": "text/html",
+          "title": "Lambda Labs Cloud"
+        },
+        {
+          "href": "https://www.linode.com/docs/api/",
+          "type": "text/html",
+          "title": "Linode (Akamai Cloud)"
+        },
+        {
+          "href": "https://www.linode.com/",
+          "type": "text/html",
+          "title": "Linode (Akamai Cloud)"
+        },
+        {
+          "href": "https://docs.oracle.com/en-us/iaas/api/",
+          "type": "text/html",
+          "title": "Oracle Cloud Infrastructure"
+        },
+        {
+          "href": "https://www.oracle.com/cloud/",
+          "type": "text/html",
+          "title": "Oracle Cloud Infrastructure"
+        },
+        {
+          "href": "https://www.scaleway.com/en/developers/api/",
+          "type": "text/html",
+          "title": "Scaleway"
+        },
+        {
+          "href": "https://www.scaleway.com/",
+          "type": "text/html",
+          "title": "Scaleway"
+        },
+        {
+          "href": "https://www.vultr.com/api/",
+          "type": "text/html",
+          "title": "Vultr"
+        },
+        {
+          "href": "https://www.vultr.com/",
+          "type": "text/html",
+          "title": "Vultr"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloud-custodian/",
+      "title": "cloud-custodian",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cloud-custodian/refs/heads/main/asyncapi/cloud-custodian-mailer-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "Cloud Custodian C7n-Mailer"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cloudcustodian.io/docs/aws/examples/index.html",
+          "type": "text/html",
+          "title": "Cloud Custodian AWS Provider"
+        },
+        {
+          "href": "https://cloudcustodian.io/docs/aws/gettingstarted.html",
+          "type": "text/html",
+          "title": "Cloud Custodian AWS Provider"
+        },
+        {
+          "href": "https://cloudcustodian.io/docs/azure/gettingstarted.html",
+          "type": "text/html",
+          "title": "Cloud Custodian Azure Provider"
+        },
+        {
+          "href": "https://cloudcustodian.io/docs/tools/c7n-mailer.html",
+          "type": "text/html",
+          "title": "Cloud Custodian C7n-Mailer"
+        },
+        {
+          "href": "https://cloudcustodian.io/docs/tools/c7n-org.html",
+          "type": "text/html",
+          "title": "Cloud Custodian C7n-Org"
+        },
+        {
+          "href": "https://cloudcustodian.io/docs/gcp/gettingstarted.html",
+          "type": "text/html",
+          "title": "Cloud Custodian GCP Provider"
+        },
+        {
+          "href": "https://cloudcustodian.io/docs/",
+          "type": "text/html",
+          "title": "Cloud Custodian"
+        },
+        {
+          "href": "https://cloudcustodian.io/",
+          "type": "text/html",
+          "title": "Cloud Custodian"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudability/",
+      "title": "cloudability",
+      "service-doc": [
+        {
+          "href": "https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas",
+          "type": "text/html",
+          "title": "Cloudability Anomaly Detection API"
+        },
+        {
+          "href": "https://community.ibm.com/community/user/discussion/apis-getting-started-with-cloudability-apis",
+          "type": "text/html",
+          "title": "Cloudability API v1 (Legacy)"
+        },
+        {
+          "href": "https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas?topic=api-getting-started-cloudability-v3",
+          "type": "text/html",
+          "title": "Cloudability API v3"
+        },
+        {
+          "href": "https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas",
+          "type": "text/html",
+          "title": "Cloudability Business Mappings API"
+        },
+        {
+          "href": "https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas",
+          "type": "text/html",
+          "title": "Cloudability Reporting API"
+        },
+        {
+          "href": "https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas",
+          "type": "text/html",
+          "title": "Cloudability Rightsizing Recommendations API"
+        },
+        {
+          "href": "https://www.ibm.com/docs/en/cloudability-commercial/cloudability-premium/saas",
+          "type": "text/html",
+          "title": "Cloudability Vendor Credentials API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudally/",
+      "title": "cloudally",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CloudAlly API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://api.cloudally.com/documentation",
+          "type": "text/html",
+          "title": "CloudAlly API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudbees/",
+      "title": "cloudbees",
+      "service-doc": [
+        {
+          "href": "https://docs.cloudbees.com/docs/cloudbees-cd/latest/api/",
+          "type": "text/html",
+          "title": "CloudBees CD/RO REST API"
+        },
+        {
+          "href": "https://docs.cloudbees.com/docs/cloudbees-ci-kb/latest/best-practices/best-practice-for-using-jenkins-rest-api",
+          "type": "text/html",
+          "title": "CloudBees CI REST API"
+        },
+        {
+          "href": "https://docs.cloudbees.com/docs/cloudbees-feature-management-rest-api/latest/introduction",
+          "type": "text/html",
+          "title": "CloudBees Feature Management REST API"
+        },
+        {
+          "href": "https://www.jenkins.io/doc/pipeline/steps/electricflow/",
+          "type": "text/html",
+          "title": "CloudBees CD/RO Jenkins Plugin Steps"
+        },
+        {
+          "href": "https://docs.cloudbees.com/",
+          "type": "text/html",
+          "title": "CloudBees Unify Platform API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudchipr/",
+      "title": "cloudchipr",
+      "service-doc": [
+        {
+          "href": "https://docs.cloudchipr.com/reference",
+          "type": "text/html",
+          "title": "CloudChipr API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudeagle/",
+      "title": "cloudeagle",
+      "service-doc": [
+        {
+          "href": "https://www.cloudeagle.ai/",
+          "type": "text/html",
+          "title": "CloudEagle API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudevents/",
+      "title": "cloudevents",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/asyncapi/cloudevents-http-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "CloudEvents Specification"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/openapi/cloudevents-subscriptions-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CloudEvents Subscriptions API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/bindings/amqp-protocol-binding.md",
+          "type": "text/html",
+          "title": "CloudEvents AMQP Protocol Binding"
+        },
+        {
+          "href": "https://github.com/cloudevents/spec/blob/main/cesql/spec.md",
+          "type": "text/html",
+          "title": "CloudEvents SQL (CESQL)"
+        },
+        {
+          "href": "https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/bindings/http-protocol-binding.md",
+          "type": "text/html",
+          "title": "CloudEvents HTTP Protocol Binding"
+        },
+        {
+          "href": "https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/bindings/kafka-protocol-binding.md",
+          "type": "text/html",
+          "title": "CloudEvents Kafka Protocol Binding"
+        },
+        {
+          "href": "https://github.com/cloudevents/spec/blob/main/cloudevents/bindings/mqtt-protocol-binding.md",
+          "type": "text/html",
+          "title": "CloudEvents MQTT Protocol Binding"
+        },
+        {
+          "href": "https://github.com/cloudevents/spec/blob/main/cloudevents/bindings/nats-protocol-binding.md",
+          "type": "text/html",
+          "title": "CloudEvents NATS Protocol Binding"
+        },
+        {
+          "href": "https://cloudevents.github.io/sdk-go/",
+          "type": "text/html",
+          "title": "CloudEvents Go SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/sdk-go",
+          "type": "text/html",
+          "title": "CloudEvents Go SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/sdk-java/blob/main/README.md",
+          "type": "text/html",
+          "title": "CloudEvents Java SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/sdk-java",
+          "type": "text/html",
+          "title": "CloudEvents Java SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/sdk-javascript/blob/main/README.md",
+          "type": "text/html",
+          "title": "CloudEvents JavaScript SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/sdk-javascript",
+          "type": "text/html",
+          "title": "CloudEvents JavaScript SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/sdk-python/blob/main/README.md",
+          "type": "text/html",
+          "title": "CloudEvents Python SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/sdk-python",
+          "type": "text/html",
+          "title": "CloudEvents Python SDK"
+        },
+        {
+          "href": "https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md",
+          "type": "text/html",
+          "title": "CloudEvents Specification"
+        },
+        {
+          "href": "https://cloudevents.io/",
+          "type": "text/html",
+          "title": "CloudEvents Specification"
+        },
+        {
+          "href": "https://github.com/cloudevents/spec/blob/main/subscriptions/spec.md",
+          "type": "text/html",
+          "title": "CloudEvents Subscriptions API"
         }
       ]
     },
@@ -29607,6 +31339,752 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/cloudguard/",
+      "title": "cloudguard",
+      "service-desc": [
+        {
+          "href": "https://api.dome9.com/v2/swagger.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "CloudGuard CNAPP REST API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.cgn.portal.checkpoint.com/reference",
+          "type": "text/html",
+          "title": "CloudGuard CNAPP REST API"
+        },
+        {
+          "href": "https://docs.spectralops.io/",
+          "type": "text/html",
+          "title": "CloudGuard Code Security (Spectral) API"
+        },
+        {
+          "href": "https://www.checkpoint.com/cloudguard/cloud-network-security/",
+          "type": "text/html",
+          "title": "CloudGuard Network Security API"
+        },
+        {
+          "href": "https://sc1.checkpoint.com/documents/CloudGuard_AppSec/Documentation/Default.htm",
+          "type": "text/html",
+          "title": "CloudGuard WAF API"
+        },
+        {
+          "href": "https://sc1.checkpoint.com/documents/CloudGuard_Dome9/Documentation/Workload/Overview.htm",
+          "type": "text/html",
+          "title": "CloudGuard Workload Protection (CWPP) API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudhealth/",
+      "title": "cloudhealth",
+      "service-doc": [
+        {
+          "href": "https://apidocs.cloudhealthtech.com/",
+          "type": "text/html",
+          "title": "CloudHealth GraphQL API"
+        },
+        {
+          "href": "https://apidocs.cloudhealthtech.com/#partner",
+          "type": "text/html",
+          "title": "CloudHealth Partner API"
+        },
+        {
+          "href": "https://apidocs.cloudhealthtech.com/",
+          "type": "text/html",
+          "title": "CloudHealth REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudinary/",
+      "title": "cloudinary",
+      "service-doc": [
+        {
+          "href": "https://cloudinary.com/documentation/admin_api",
+          "type": "text/html",
+          "title": "Cloudinary Admin API"
+        },
+        {
+          "href": "https://cloudinary.com/documentation/notifications",
+          "type": "text/html",
+          "title": "Cloudinary Notifications and Webhooks"
+        },
+        {
+          "href": "https://cloudinary.com/documentation/permissions_api",
+          "type": "text/html",
+          "title": "Cloudinary Permissions API"
+        },
+        {
+          "href": "https://cloudinary.com/documentation/provisioning_api",
+          "type": "text/html",
+          "title": "Cloudinary Provisioning API"
+        },
+        {
+          "href": "https://cloudinary.com/documentation/search_api",
+          "type": "text/html",
+          "title": "Cloudinary Search API"
+        },
+        {
+          "href": "https://cloudinary.com/documentation/transformation_reference",
+          "type": "text/html",
+          "title": "Cloudinary Transformation URL API"
+        },
+        {
+          "href": "https://cloudinary.com/documentation/image_upload_api_reference",
+          "type": "text/html",
+          "title": "Cloudinary Upload API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudmersive/",
+      "title": "cloudmersive",
+      "service-desc": [
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/barcode",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Barcode API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/cdr",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Content Disarm and Reconstruction (CDR) API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/config",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Configuration API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/convert",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Document Convert API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/currency",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Currency API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/dataintegration",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Data Integration API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/dlp",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Data Loss Prevention (DLP) API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/fraud",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Fraud Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/image",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Image Recognition and Processing API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/nlp",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Natural Language Processing API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/nlpv2",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Natural Language Processing API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/ocr",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive OCR API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/phishing",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Phishing Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/security",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Security Threat Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/spam",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Spam Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/speech",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Speech API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/validate",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Validate API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/video",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Video API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/api/virus",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Virus Scan API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-virus-scan-openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cloudmersive Virus Scan API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Barcode%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Barcode API"
+        },
+        {
+          "href": "https://cloudmersive.com/barcode-api",
+          "type": "text/html",
+          "title": "Cloudmersive Barcode API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=CDR%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Content Disarm and Reconstruction (CDR) API"
+        },
+        {
+          "href": "https://cloudmersive.com/content-disarm-and-reconstruction-cdr-api",
+          "type": "text/html",
+          "title": "Cloudmersive Content Disarm and Reconstruction (CDR) API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Config%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Configuration API"
+        },
+        {
+          "href": "https://cloudmersive.com/config-api",
+          "type": "text/html",
+          "title": "Cloudmersive Configuration API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Convert%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Document Convert API"
+        },
+        {
+          "href": "https://cloudmersive.com/convert-api",
+          "type": "text/html",
+          "title": "Cloudmersive Document Convert API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Currency%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Currency API"
+        },
+        {
+          "href": "https://cloudmersive.com/currency-api",
+          "type": "text/html",
+          "title": "Cloudmersive Currency API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Data%20Integration%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Data Integration API"
+        },
+        {
+          "href": "https://cloudmersive.com/data-integration-api",
+          "type": "text/html",
+          "title": "Cloudmersive Data Integration API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=DLP%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Data Loss Prevention (DLP) API"
+        },
+        {
+          "href": "https://cloudmersive.com/data-loss-prevention-dlp-api",
+          "type": "text/html",
+          "title": "Cloudmersive Data Loss Prevention (DLP) API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Fraud%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Fraud Detection API"
+        },
+        {
+          "href": "https://cloudmersive.com/fraud-detection-api",
+          "type": "text/html",
+          "title": "Cloudmersive Fraud Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Image%20Recognition%20and%20Processing%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Image Recognition and Processing API"
+        },
+        {
+          "href": "https://cloudmersive.com/image-recognition-and-processing-api",
+          "type": "text/html",
+          "title": "Cloudmersive Image Recognition and Processing API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Natural%20Language%20Processing%20(NLP)%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Natural Language Processing API"
+        },
+        {
+          "href": "https://cloudmersive.com/natural-language-processing-api",
+          "type": "text/html",
+          "title": "Cloudmersive Natural Language Processing API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Optical%20Character%20Recognition%20(OCR)%20API",
+          "type": "text/html",
+          "title": "Cloudmersive OCR API"
+        },
+        {
+          "href": "https://cloudmersive.com/ocr-api",
+          "type": "text/html",
+          "title": "Cloudmersive OCR API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Phishing%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Phishing Detection API"
+        },
+        {
+          "href": "https://cloudmersive.com/phishing-detection-api",
+          "type": "text/html",
+          "title": "Cloudmersive Phishing Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Security%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Security Threat Detection API"
+        },
+        {
+          "href": "https://cloudmersive.com/security-threat-detection-api",
+          "type": "text/html",
+          "title": "Cloudmersive Security Threat Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Spam%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Spam Detection API"
+        },
+        {
+          "href": "https://cloudmersive.com/spam-detection-api",
+          "type": "text/html",
+          "title": "Cloudmersive Spam Detection API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Speech%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Speech API"
+        },
+        {
+          "href": "https://cloudmersive.com/speech-api",
+          "type": "text/html",
+          "title": "Cloudmersive Speech API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Validate%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Validate API"
+        },
+        {
+          "href": "https://cloudmersive.com/validate-api",
+          "type": "text/html",
+          "title": "Cloudmersive Validate API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Video%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Video API"
+        },
+        {
+          "href": "https://cloudmersive.com/video-api",
+          "type": "text/html",
+          "title": "Cloudmersive Video API"
+        },
+        {
+          "href": "https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Virus%20Scan%20API",
+          "type": "text/html",
+          "title": "Cloudmersive Virus Scan API"
+        },
+        {
+          "href": "https://cloudmersive.com/virus-api",
+          "type": "text/html",
+          "title": "Cloudmersive Virus Scan API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudnuro/",
+      "title": "cloudnuro",
+      "service-doc": [
+        {
+          "href": "https://www.cloudnuro.ai",
+          "type": "text/html",
+          "title": "CloudNuro AI Custodian"
+        },
+        {
+          "href": "https://www.cloudnuro.ai",
+          "type": "text/html",
+          "title": "CloudNuro Chargeback"
+        },
+        {
+          "href": "https://www.cloudnuro.ai",
+          "type": "text/html",
+          "title": "CloudNuro Microsoft 365 Custodian"
+        },
+        {
+          "href": "https://www.cloudnuro.ai/product-overview",
+          "type": "text/html",
+          "title": "CloudNuro SaaS Management Platform"
+        },
+        {
+          "href": "https://www.cloudnuro.ai",
+          "type": "text/html",
+          "title": "CloudNuro Salesforce Custodian"
+        },
+        {
+          "href": "https://www.cloudnuro.ai",
+          "type": "text/html",
+          "title": "CloudNuro ServiceNow Custodian"
+        },
+        {
+          "href": "https://www.cloudnuro.ai",
+          "type": "text/html",
+          "title": "CloudNuro Unified Cloud Custodian"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudrf/",
+      "title": "cloudrf",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CloudRF API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cloudrf.com/documentation/developer/",
+          "type": "text/html",
+          "title": "CloudRF API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cloudzero/",
+      "title": "cloudzero",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CloudZero API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.cloudzero.com/reference/allocation-telemetry",
+          "type": "text/html",
+          "title": "CloudZero Allocation Telemetry API"
+        },
+        {
+          "href": "https://docs.cloudzero.com/reference/anycost",
+          "type": "text/html",
+          "title": "CloudZero AnyCost API"
+        },
+        {
+          "href": "https://docs.cloudzero.com/reference/introduction",
+          "type": "text/html",
+          "title": "CloudZero API"
+        },
+        {
+          "href": "https://docs.cloudzero.com/reference/billing",
+          "type": "text/html",
+          "title": "CloudZero Billing API"
+        },
+        {
+          "href": "https://docs.cloudzero.com/reference/budgets",
+          "type": "text/html",
+          "title": "CloudZero Budgets API"
+        },
+        {
+          "href": "https://docs.cloudzero.com/reference/insights",
+          "type": "text/html",
+          "title": "CloudZero Insights API"
+        },
+        {
+          "href": "https://docs.cloudzero.com/reference/unit-metric-telemetry",
+          "type": "text/html",
+          "title": "CloudZero Unit Metric Telemetry API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/clutch/",
+      "title": "clutch",
+      "service-doc": [
+        {
+          "href": "https://clutch.co/developers",
+          "type": "text/html",
+          "title": "Clutch API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cme-group/",
+      "title": "cme-group",
+      "service-doc": [
+        {
+          "href": "https://www.cmegroup.com/clearport/clearport-api.html",
+          "type": "text/html",
+          "title": "CME ClearPort API"
+        },
+        {
+          "href": "https://www.cmegroup.com/trading/market-tech-and-data-services/cme-reference-data-api.html",
+          "type": "text/html",
+          "title": "CME Reference Data API"
+        },
+        {
+          "href": "https://www.cmegroup.com/market-data/cme-group-benchmark-administration/term-sofr.html",
+          "type": "text/html",
+          "title": "CME Term SOFR API"
+        },
+        {
+          "href": "https://www.cmegroup.com/market-data/market-data-api.html",
+          "type": "text/html",
+          "title": "EUR/USD Cross Currency Basis Index API"
+        },
+        {
+          "href": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+          "type": "text/html",
+          "title": "CME FedWatch API"
+        },
+        {
+          "href": "https://www.cmegroup.com/market-data/market-data-api.html",
+          "type": "text/html",
+          "title": "Greeks and Implied Volatility API"
+        },
+        {
+          "href": "https://www.cmegroup.com/market-data/real-time-futures-and-options-data-api.html",
+          "type": "text/html",
+          "title": "Real-Time Futures and Options Data API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cmic/",
+      "title": "cmic",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-construction-erp-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CMiC Construction ERP API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developers.cmicglobal.com/docs/overview",
+          "type": "text/html",
+          "title": "CMiC Construction ERP API"
+        },
+        {
+          "href": "https://developers.cmicglobal.com/",
+          "type": "text/html",
+          "title": "CMiC Construction ERP API"
+        },
+        {
+          "href": "https://docs.cmicglobal.com/portal/Content/Home.htm",
+          "type": "text/html",
+          "title": "CMiC API Power BI Connector"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cms-energy/",
+      "title": "cms-energy",
+      "service-doc": [
+        {
+          "href": "https://utilityapi.com/docs/utilities/consumersenergy",
+          "type": "text/html",
+          "title": "Consumers Energy Green Button Connect My Data API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cncf/",
+      "title": "cncf",
+      "service-doc": [
+        {
+          "href": "https://landscape.cncf.io/",
+          "type": "text/html",
+          "title": "CNCF Cloud Native Interactive Landscape"
+        },
+        {
+          "href": "https://www.cncf.io/projects/",
+          "type": "text/html",
+          "title": "CNCF Hosted Projects (Standards Steward)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cnh/",
+      "title": "cnh",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-fieldops-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CNH FieldOps API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://develop.cnh.com/",
+          "type": "text/html",
+          "title": "CNH Developer Portal"
+        },
+        {
+          "href": "https://develop.cnh.com/api-guides",
+          "type": "text/html",
+          "title": "CNH FieldOps API"
+        },
+        {
+          "href": "https://develop.cnh.com/api-guides/fieldops-api",
+          "type": "text/html",
+          "title": "CNH FieldOps API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cni/",
+      "title": "cni",
+      "service-doc": [
+        {
+          "href": "https://www.cni.dev/plugins/current/",
+          "type": "text/html",
+          "title": "CNI Reference Plugins"
+        },
+        {
+          "href": "https://www.cni.dev/docs/spec/",
+          "type": "text/html",
+          "title": "CNI Specification"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cobalt/",
+      "title": "cobalt",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cobalt API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.gocobalt.io/api-reference/overview",
+          "type": "text/html",
+          "title": "Cobalt API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/coca-cola/",
+      "title": "coca-cola",
+      "service-doc": [
+        {
+          "href": "http://developer.cokecce.com/docs/Location",
+          "type": "text/html",
+          "title": "Coca-Cola Enterprises Location API (Legacy)"
+        },
+        {
+          "href": "http://developer.cokecce.com/io-docs",
+          "type": "text/html",
+          "title": "Coca-Cola Enterprises Product API (Legacy)"
+        },
+        {
+          "href": "http://developer.cokecce.com/docs/Product_API",
+          "type": "text/html",
+          "title": "Coca-Cola Enterprises Product API (Legacy)"
+        },
+        {
+          "href": "https://www.mulesoft.com/webinars/api/evaluation-to-implementation-coca-cola-company-journey",
+          "type": "text/html",
+          "title": "Coca-Cola Internal API Platform"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cockroach-labs/",
+      "title": "cockroach-labs",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-cloud-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CockroachDB Cloud API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/openapi/cockroach-labs-cluster-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CockroachDB Cluster API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.cockroachlabs.com/docs/cockroachcloud/cloud-api",
+          "type": "text/html",
+          "title": "CockroachDB Cloud API"
+        },
+        {
+          "href": "https://www.cockroachlabs.com/docs/stable/cluster-api",
+          "type": "text/html",
+          "title": "CockroachDB Cluster API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cockroachdb/",
+      "title": "cockroachdb",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-cloud-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CockroachDB Cloud API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-cluster-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CockroachDB Cluster API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.cockroachlabs.com/docs/cockroachcloud/cloud-api",
+          "type": "text/html",
+          "title": "CockroachDB Cloud API"
+        },
+        {
+          "href": "https://www.cockroachlabs.com/docs/stable/cluster-api",
+          "type": "text/html",
+          "title": "CockroachDB Cluster API"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/codat/",
       "title": "codat",
       "service-desc": [
@@ -29666,6 +32144,67 @@
           "href": "https://docs.codat.io/payroll/overview",
           "type": "text/html",
           "title": "Codat Sync for Payroll API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/codehooks/",
+      "title": "codehooks",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-database-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Codehooks Database REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/asyncapi/codehooks-events-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "Codehooks Events (AsyncAPI)"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://codehooks.io/docs/",
+          "type": "text/html",
+          "title": "Codehooks Database REST API"
+        },
+        {
+          "href": "https://codehooks.io/docs/hooks-and-workers",
+          "type": "text/html",
+          "title": "Codehooks Events (AsyncAPI)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/codeproject/",
+      "title": "codeproject",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-ai-server-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CodeProject.AI Server API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CodeProject REST API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://codeproject.github.io/codeproject.ai/",
+          "type": "text/html",
+          "title": "CodeProject.AI Server API"
+        },
+        {
+          "href": "https://www.codeproject.com/AI/",
+          "type": "text/html",
+          "title": "CodeProject.AI Server API"
+        },
+        {
+          "href": "https://api.codeproject.com/Help",
+          "type": "text/html",
+          "title": "CodeProject REST API"
         }
       ]
     },
