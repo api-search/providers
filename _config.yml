@@ -1,6 +1,6 @@
 name: APIs.io Providers
 description: Browse API service providers across the APIs.io network.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://apis.io/assets/branding/apisio-social-card.png
 url: https://providers.apis.io
 
 node: website
