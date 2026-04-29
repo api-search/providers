@@ -23,6 +23,7 @@ skills: []
 slug: firehydrant
 solutions: []
 source_filename: apis.yml
+source_heading: Sources
 source_yaml: "aid: firehydrant\nname: FireHydrant\ndescription: >-\n  FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AIOps\n  - Incident Management\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/apis.yml\ncreated: '2026-03-27'\nmodified: '2026-03-27'\nspecificationVersion: '0.19'\napis:\n  - aid: firehydrant:firehydrant\n    name: FireHydrant\n    description: >-\n      FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.\n    humanURL: https://firehydrant.com\n    tags:\n      - AIOps\n    properties:\n      - type: Documentation\n        url: https://docs.firehydrant.io\ncommon:\n  - type: Website\n    url: https://firehydrant.com\n  - type: Documentation\n    url: https://docs.firehydrant.io\nmaintainers:\n\
   \  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/apis.yml
