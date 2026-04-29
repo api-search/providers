@@ -19,6 +19,9 @@ name: Knight-Swift Transportation
 skills: []
 slug: knight-swift-transportation
 solutions: []
+source_yaml: "aid: knight-swift-transportation\nurl: https://raw.githubusercontent.com/api-evangelist/knight-swift-transportation/refs/heads/main/apis.yml\nname: Knight-Swift Transportation\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Trucking\n  - Transportation\n  - Logistics\ndescription: >-\n  Knight-Swift Transportation is a major US corporation and Fortune 1000 company. The Knight-Swift Transportation API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.\ncreated: '2026-04-19'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: knight-swift-transportation:knight-swift-transportation-api\n    name: Knight-Swift Transportation API\n    tags:\n      - Trucking\n      - Transportation\n      - Logistics\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.knight-swift.com\n    humanURL:\
+  \ https://developer.knight-swift.com\n    properties:\n      - url: https://developer.knight-swift.com/docs\n        type: Documentation\n    description: >-\n      The Knight-Swift Transportation API provides access to platform services and data for enterprise integration and automation.\ncommon:\n  - type: Website\n    url: https://www.knight-swift.com\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knight-swift-transportation/refs/heads/main/apis.yml
 tags:
 - Trucking
 - Transportation
