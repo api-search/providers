@@ -32210,6 +32210,287 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/cohesity/",
+      "title": "cohesity",
+      "service-doc": [
+        {
+          "href": "https://developer.cohesity.com/apidocs/versions/",
+          "type": "text/html",
+          "title": "Cohesity DataProtect REST API"
+        },
+        {
+          "href": "https://developer.cohesity.com/helios-api.html",
+          "type": "text/html",
+          "title": "Cohesity Helios REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/coinapi/",
+      "title": "coinapi",
+      "service-doc": [
+        {
+          "href": "https://www.coinapi.io/products/ems-api",
+          "type": "text/html",
+          "title": "CoinAPI EMS Trading API"
+        },
+        {
+          "href": "https://docs.coinapi.io/",
+          "type": "text/html",
+          "title": "CoinAPI Indexes API"
+        },
+        {
+          "href": "https://www.coinapi.io/products/indexes-api",
+          "type": "text/html",
+          "title": "CoinAPI Indexes API"
+        },
+        {
+          "href": "https://docs.coinapi.io/market-data/",
+          "type": "text/html",
+          "title": "CoinAPI Market Data API"
+        },
+        {
+          "href": "https://www.coinapi.io/products/market-data-api",
+          "type": "text/html",
+          "title": "CoinAPI Market Data API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/coinbase/",
+      "title": "coinbase",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-advanced-trade-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coinbase Advanced Trade API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/asyncapi/coinbase-advanced-trade-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "Coinbase Advanced Trade API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-commerce-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coinbase Commerce API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/asyncapi/coinbase-commerce-webhooks-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "Coinbase Commerce API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-exchange-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coinbase Exchange API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/asyncapi/coinbase-exchange-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "Coinbase Exchange API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-onramp-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coinbase Onramp API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/openapi/coinbase-prime-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coinbase Prime API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/rest-api",
+          "type": "text/html",
+          "title": "Coinbase Advanced Trade API"
+        },
+        {
+          "href": "https://docs.cdp.coinbase.com/agent-kit/welcome",
+          "type": "text/html",
+          "title": "Coinbase AgentKit"
+        },
+        {
+          "href": "https://commerce.coinbase.com/docs/api",
+          "type": "text/html",
+          "title": "Coinbase Commerce API"
+        },
+        {
+          "href": "https://commerce.coinbase.com/docs",
+          "type": "text/html",
+          "title": "Coinbase Commerce API"
+        },
+        {
+          "href": "https://www.coinbase.com/developer-platform/products/data-api",
+          "type": "text/html",
+          "title": "Coinbase Data API"
+        },
+        {
+          "href": "https://docs.cdp.coinbase.com/exchange/docs/welcome",
+          "type": "text/html",
+          "title": "Coinbase Exchange API"
+        },
+        {
+          "href": "https://www.coinbase.com/developer-platform/products/exchange-api",
+          "type": "text/html",
+          "title": "Coinbase Exchange API"
+        },
+        {
+          "href": "https://docs.cdp.coinbase.com/onramp/docs/welcome",
+          "type": "text/html",
+          "title": "Coinbase Onramp API"
+        },
+        {
+          "href": "https://www.coinbase.com/developer-platform/products/onramp",
+          "type": "text/html",
+          "title": "Coinbase Onramp API"
+        },
+        {
+          "href": "https://docs.cdp.coinbase.com/prime/docs/rest-requests",
+          "type": "text/html",
+          "title": "Coinbase Prime API"
+        },
+        {
+          "href": "https://www.coinbase.com/developer-platform/products/prime-apis",
+          "type": "text/html",
+          "title": "Coinbase Prime API"
+        },
+        {
+          "href": "https://docs.cdp.coinbase.com/wallet-sdk/docs/welcome",
+          "type": "text/html",
+          "title": "Coinbase Wallet SDK"
+        },
+        {
+          "href": "https://www.coinbase.com/developer-platform/products/wallet-sdk",
+          "type": "text/html",
+          "title": "Coinbase Wallet SDK"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/coingecko/",
+      "title": "coingecko",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-crypto-market-data-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CoinGecko Crypto Market Data API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-onchain-dex-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CoinGecko Onchain DEX API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/openapi/coingecko-pro-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CoinGecko Pro API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.coingecko.com",
+          "type": "text/html",
+          "title": "CoinGecko Crypto Market Data API"
+        },
+        {
+          "href": "https://docs.coingecko.com/reference/endpoint-overview",
+          "type": "text/html",
+          "title": "CoinGecko Onchain DEX API"
+        },
+        {
+          "href": "https://www.coingecko.com/en/api/dex",
+          "type": "text/html",
+          "title": "CoinGecko Onchain DEX API"
+        },
+        {
+          "href": "https://docs.coingecko.com/reference/introduction",
+          "type": "text/html",
+          "title": "CoinGecko Pro API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/columbia-sportswear/",
+      "title": "columbia-sportswear",
+      "service-doc": [
+        {
+          "href": "https://columbia.portal.azure-api.net/",
+          "type": "text/html",
+          "title": "Columbia Sportswear Digital Developer Portal"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/comcast/",
+      "title": "comcast",
+      "service-doc": [
+        {
+          "href": "https://docs.developer.comcast.com/docs/081-core-authentication",
+          "type": "text/html",
+          "title": "Comcast Authentication API (SAT)"
+        },
+        {
+          "href": "https://docs.developer.comcast.com/docs/firebolt-apis",
+          "type": "text/html",
+          "title": "Comcast Firebolt SDK"
+        },
+        {
+          "href": "https://docs.developer.comcast.com/docs/endpoints",
+          "type": "text/html",
+          "title": "Comcast Open Ingest API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/comeet/",
+      "title": "comeet",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/comeet/refs/heads/main/openapi/comeet-careers-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Comeet Careers API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developers.comeet.com/reference/careers-api-overview",
+          "type": "text/html",
+          "title": "Comeet Careers API"
+        },
+        {
+          "href": "https://developers.comeet.com/reference/hires-api-overview",
+          "type": "text/html",
+          "title": "Comeet Hires API"
+        },
+        {
+          "href": "https://developers.comeet.com/reference/recruiting-api-overview",
+          "type": "text/html",
+          "title": "Comeet Recruiting API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cometapi/",
+      "title": "cometapi",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/openapi/cometapi-unified-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CometAPI Unified API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://apidoc.cometapi.com/",
+          "type": "text/html",
+          "title": "CometAPI Unified API"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/comfort-systems-usa/",
       "title": "comfort-systems-usa",
       "service-doc": [
@@ -32222,6 +32503,519 @@
           "href": "https://developer.comfortsystemsusa.com",
           "type": "text/html",
           "title": "Comfort Systems USA API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/command-line-interface/",
+      "title": "command-line-interface",
+      "service-doc": [
+        {
+          "href": "https://github.com/agarrharr/awesome-cli-apps",
+          "type": "text/html",
+          "title": "CLI Frameworks Landscape"
+        },
+        {
+          "href": "https://clig.dev/",
+          "type": "text/html",
+          "title": "Command Line Interface Guidelines"
+        },
+        {
+          "href": "https://devcenter.heroku.com/articles/cli-style-guide",
+          "type": "text/html",
+          "title": "Heroku CLI Style Guide"
+        },
+        {
+          "href": "https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html",
+          "type": "text/html",
+          "title": "POSIX Utility Conventions"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/commercetools/",
+      "title": "commercetools",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-change-history-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Commercetools Change History API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-http-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Commercetools HTTP API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/asyncapi/commercetools-subscriptions-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "Commercetools HTTP API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/openapi/commercetools-import-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Commercetools Import API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.commercetools.com/api/history/overview",
+          "type": "text/html",
+          "title": "Commercetools Change History API"
+        },
+        {
+          "href": "https://docs.commercetools.com/checkout",
+          "type": "text/html",
+          "title": "Commercetools Checkout API"
+        },
+        {
+          "href": "https://docs.commercetools.com/api/graphql",
+          "type": "text/html",
+          "title": "Commercetools GraphQL API"
+        },
+        {
+          "href": "https://docs.commercetools.com/api",
+          "type": "text/html",
+          "title": "Commercetools HTTP API"
+        },
+        {
+          "href": "https://docs.commercetools.com/api/import-export/overview",
+          "type": "text/html",
+          "title": "Commercetools Import API"
+        },
+        {
+          "href": "https://docs.commercetools.com/sdk/java-sdk",
+          "type": "text/html",
+          "title": "Commercetools Java SDK"
+        },
+        {
+          "href": "https://docs.commercetools.com/merchant-center-customizations/concepts/merchant-center-api",
+          "type": "text/html",
+          "title": "Commercetools Merchant Center Customizations API"
+        },
+        {
+          "href": "https://docs.commercetools.com/sdk/typescript-sdk",
+          "type": "text/html",
+          "title": "Commercetools TypeScript SDK"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/committee-on-foreign-investment-in-the-united-states/",
+      "title": "committee-on-foreign-investment-in-the-united-states",
+      "service-doc": [
+        {
+          "href": "https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius/cfius-reports-and-tables",
+          "type": "text/html",
+          "title": "CFIUS Annual Report to Congress"
+        },
+        {
+          "href": "https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius/cfius-laws-and-guidance",
+          "type": "text/html",
+          "title": "CFIUS Declarations and Notices Guidance"
+        },
+        {
+          "href": "https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius/cfius-laws-and-guidance",
+          "type": "text/html",
+          "title": "CFIUS Regulations and Statutes"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/commodity-futures-trading-commission/",
+      "title": "commodity-futures-trading-commission",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/openapi/cftc-cot-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CFTC Commitments of Traders SODA API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://publicreporting.cftc.gov/",
+          "type": "text/html",
+          "title": "CFTC Commitments of Traders SODA API"
+        },
+        {
+          "href": "https://www.cftc.gov/MarketReports/BankParticipationReports/index.htm",
+          "type": "text/html",
+          "title": "CFTC Bank Participation and Large Trader Reports"
+        },
+        {
+          "href": "https://www.cftc.gov/MarketReports/SwapsReports/index.htm",
+          "type": "text/html",
+          "title": "CFTC Swap Data Repositories"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/common-sense-media/",
+      "title": "common-sense-media",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/openapi/common-sense-media-reviews-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Common Sense Media Reviews API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.commonsensemedia.org/developers/api-overview",
+          "type": "text/html",
+          "title": "Common Sense Media Reviews API"
+        },
+        {
+          "href": "https://www.commonsensemedia.org/developers",
+          "type": "text/html",
+          "title": "Common Sense Media Reviews API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/commscope-holding/",
+      "title": "commscope-holding",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/openapi/ruckus-one-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "RUCKUS One API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.ruckusnetworks.com/developer-central/",
+          "type": "text/html",
+          "title": "RUCKUS ICX RESTCONF API"
+        },
+        {
+          "href": "https://www.ruckusnetworks.com/developer-central/",
+          "type": "text/html",
+          "title": "RUCKUS IoT Platform API"
+        },
+        {
+          "href": "https://docs.ruckus.cloud/api",
+          "type": "text/html",
+          "title": "RUCKUS One API"
+        },
+        {
+          "href": "https://docs.commscope.com/",
+          "type": "text/html",
+          "title": "RUCKUS SmartZone Public API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/communication-protocols/",
+      "title": "communication-protocols",
+      "service-doc": [
+        {
+          "href": "https://www.rabbitmq.com/protocol.html",
+          "type": "text/html",
+          "title": "AMQP"
+        },
+        {
+          "href": "https://www.amqp.org/",
+          "type": "text/html",
+          "title": "AMQP"
+        },
+        {
+          "href": "https://graphql.org/learn/",
+          "type": "text/html",
+          "title": "GraphQL"
+        },
+        {
+          "href": "https://graphql.org/",
+          "type": "text/html",
+          "title": "GraphQL"
+        },
+        {
+          "href": "https://grpc.io/docs/",
+          "type": "text/html",
+          "title": "gRPC"
+        },
+        {
+          "href": "https://grpc.io/",
+          "type": "text/html",
+          "title": "gRPC"
+        },
+        {
+          "href": "https://httpwg.org/specs/",
+          "type": "text/html",
+          "title": "Hypertext Transfer Protocol (HTTP)"
+        },
+        {
+          "href": "https://mqtt.org/getting-started/",
+          "type": "text/html",
+          "title": "MQTT"
+        },
+        {
+          "href": "https://mqtt.org/",
+          "type": "text/html",
+          "title": "MQTT"
+        },
+        {
+          "href": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events",
+          "type": "text/html",
+          "title": "Server-Sent Events (SSE)"
+        },
+        {
+          "href": "https://html.spec.whatwg.org/multipage/server-sent-events.html",
+          "type": "text/html",
+          "title": "Server-Sent Events (SSE)"
+        },
+        {
+          "href": "https://www.standardwebhooks.com/",
+          "type": "text/html",
+          "title": "Webhooks"
+        },
+        {
+          "href": "https://webhooks.fyi/",
+          "type": "text/html",
+          "title": "Webhooks"
+        },
+        {
+          "href": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+          "type": "text/html",
+          "title": "WebSocket"
+        },
+        {
+          "href": "https://www.rfc-editor.org/rfc/rfc6455",
+          "type": "text/html",
+          "title": "WebSocket"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/community-health-systems/",
+      "title": "community-health-systems",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/chs-patient-access-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Community Health Systems Patient Access API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.chs.net",
+          "type": "text/html",
+          "title": "Community Health Systems Patient Access API"
+        },
+        {
+          "href": "https://www.chs.net",
+          "type": "text/html",
+          "title": "Community Health Systems Provider Directory API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/commvault/",
+      "title": "commvault",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/openapi/commvault-automation-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Commvault Automation API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/openapi/commvault-command-center-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Commvault Command Center API"
+        },
+        {
+          "href": "https://documenter.getpostman.com/view/2046098/RW1aHzQg",
+          "type": "application/vnd.postman.collection+json",
+          "title": "Commvault REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/openapi/commvault-rest-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Commvault REST API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://documentation.commvault.com/v11/essential/rest_api_automation.html",
+          "type": "text/html",
+          "title": "Commvault Automation API"
+        },
+        {
+          "href": "https://documentation.commvault.com/v11/essential/automation_overview.html",
+          "type": "text/html",
+          "title": "Commvault Automation API"
+        },
+        {
+          "href": "https://documentation.commvault.com/2024/essential/rest_api_command_center.html",
+          "type": "text/html",
+          "title": "Commvault Command Center API"
+        },
+        {
+          "href": "https://documentation.commvault.com/2024/essential/command_center_overview.html",
+          "type": "text/html",
+          "title": "Commvault Command Center API"
+        },
+        {
+          "href": "https://documentation.commvault.com/v11/essential/rest_api_overview.html",
+          "type": "text/html",
+          "title": "Commvault REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/completedns/",
+      "title": "completedns",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-v2-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CompleteDNS API v2"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/openapi/completedns-v1-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CompleteDNS API v1"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://completedns.com/api/documentation/v2",
+          "type": "text/html",
+          "title": "CompleteDNS API v2"
+        },
+        {
+          "href": "https://completedns.com/api/documentation/v1",
+          "type": "text/html",
+          "title": "CompleteDNS API v1"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/component-model/",
+      "title": "component-model",
+      "service-doc": [
+        {
+          "href": "https://bytecodealliance.org/",
+          "type": "text/html",
+          "title": "Component Model Implementations"
+        },
+        {
+          "href": "https://github.com/WebAssembly/component-model/blob/main/design/mvp/Explainer.md",
+          "type": "text/html",
+          "title": "WebAssembly Component Model Specification"
+        },
+        {
+          "href": "https://github.com/WebAssembly/component-model",
+          "type": "text/html",
+          "title": "WebAssembly Component Model Specification"
+        },
+        {
+          "href": "https://wasi.dev/",
+          "type": "text/html",
+          "title": "WebAssembly System Interface Preview 2"
+        },
+        {
+          "href": "https://component-model.bytecodealliance.org/design/wit.html",
+          "type": "text/html",
+          "title": "WebAssembly Interface Type (WIT)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/composio/",
+      "title": "composio",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Auth Configs API"
+        },
+        {
+          "href": "https://backend.composio.dev/api/v3/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Auth Configs API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Connected Accounts API"
+        },
+        {
+          "href": "https://backend.composio.dev/api/v3/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Connected Accounts API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Tool Router API"
+        },
+        {
+          "href": "https://backend.composio.dev/api/v3/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Tool Router API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Toolkits API"
+        },
+        {
+          "href": "https://backend.composio.dev/api/v3/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Toolkits API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Tools API"
+        },
+        {
+          "href": "https://backend.composio.dev/api/v3/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Tools API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-openapi-original.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Triggers API"
+        },
+        {
+          "href": "https://backend.composio.dev/api/v3/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Composio Triggers API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.composio.dev/reference/api-reference/auth-configs",
+          "type": "text/html",
+          "title": "Composio Auth Configs API"
+        },
+        {
+          "href": "https://docs.composio.dev/reference/api-reference/connected-accounts",
+          "type": "text/html",
+          "title": "Composio Connected Accounts API"
+        },
+        {
+          "href": "https://docs.composio.dev/reference",
+          "type": "text/html",
+          "title": "Composio Tool Router API"
+        },
+        {
+          "href": "https://docs.composio.dev/reference/api-reference/toolkits",
+          "type": "text/html",
+          "title": "Composio Toolkits API"
+        },
+        {
+          "href": "https://docs.composio.dev/reference/api-reference/tools",
+          "type": "text/html",
+          "title": "Composio Tools API"
+        },
+        {
+          "href": "https://docs.composio.dev/reference/api-reference/triggers",
+          "type": "text/html",
+          "title": "Composio Triggers API"
         }
       ]
     },
@@ -32311,6 +33105,131 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/confidential-computing-consortium/",
+      "title": "confidential-computing-consortium",
+      "service-doc": [
+        {
+          "href": "https://confidentialcomputing.io/projects/",
+          "type": "text/html",
+          "title": "Confidential Computing Consortium Projects"
+        },
+        {
+          "href": "https://github.com/confidential-computing/twi",
+          "type": "text/html",
+          "title": "Trustworthy Workload Identity (TWI) Specifications"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/confido-legal/",
+      "title": "confido-legal",
+      "service-doc": [
+        {
+          "href": "https://docs.confidolegal.com/",
+          "type": "text/html",
+          "title": "Confido Legal GraphQL API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/configuration-language/",
+      "title": "configuration-language",
+      "service-doc": [
+        {
+          "href": "https://cuelang.org/docs/",
+          "type": "text/html",
+          "title": "Cue"
+        },
+        {
+          "href": "https://cuelang.org/",
+          "type": "text/html",
+          "title": "Cue"
+        },
+        {
+          "href": "https://dhall-lang.org/",
+          "type": "text/html",
+          "title": "Dhall"
+        },
+        {
+          "href": "https://developer.hashicorp.com/terraform/language",
+          "type": "text/html",
+          "title": "HCL"
+        },
+        {
+          "href": "https://github.com/hashicorp/hcl",
+          "type": "text/html",
+          "title": "HCL"
+        },
+        {
+          "href": "https://www.json.org/",
+          "type": "text/html",
+          "title": "JSON"
+        },
+        {
+          "href": "https://jsonnet.org/learning/tutorial.html",
+          "type": "text/html",
+          "title": "Jsonnet"
+        },
+        {
+          "href": "https://jsonnet.org/",
+          "type": "text/html",
+          "title": "Jsonnet"
+        },
+        {
+          "href": "https://kdl.dev/",
+          "type": "text/html",
+          "title": "KDL"
+        },
+        {
+          "href": "https://pkl-lang.org/main/current/",
+          "type": "text/html",
+          "title": "Pkl"
+        },
+        {
+          "href": "https://pkl-lang.org/",
+          "type": "text/html",
+          "title": "Pkl"
+        },
+        {
+          "href": "https://toml.io/",
+          "type": "text/html",
+          "title": "TOML"
+        },
+        {
+          "href": "https://yaml.org/",
+          "type": "text/html",
+          "title": "YAML"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/configure8/",
+      "title": "configure8",
+      "service-doc": [
+        {
+          "href": "https://docs.configure8.io/",
+          "type": "text/html",
+          "title": "Configure8 REST API"
+        },
+        {
+          "href": "https://www.configure8.io/",
+          "type": "text/html",
+          "title": "Configure8 REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/confluence-unity/",
+      "title": "confluence-unity",
+      "service-doc": [
+        {
+          "href": "https://www.confluence.com/products/",
+          "type": "text/html",
+          "title": "Confluence Unity Platform"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/confluent/",
       "title": "confluent",
       "service-doc": [
@@ -32323,6 +33242,546 @@
           "href": "https://www.confluent.io/",
           "type": "text/html",
           "title": "Confluent"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/confluent-schema-registry/",
+      "title": "confluent-schema-registry",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/openapi/schema-registry.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Confluent Schema Registry REST API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.confluent.io/platform/current/schema-registry/develop/api.html",
+          "type": "text/html",
+          "title": "Confluent Schema Registry REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/confluent-the-data-streaming-platform/",
+      "title": "confluent-the-data-streaming-platform",
+      "service-doc": [
+        {
+          "href": "https://docs.confluent.io/cloud/current/api.html",
+          "type": "text/html",
+          "title": "Confluent Cloud REST API"
+        },
+        {
+          "href": "https://docs.confluent.io/platform/current/connect/references/restapi.html",
+          "type": "text/html",
+          "title": "Kafka Connect REST API"
+        },
+        {
+          "href": "https://docs.confluent.io/cloud/current/flink/index.html",
+          "type": "text/html",
+          "title": "Confluent Cloud for Apache Flink REST API"
+        },
+        {
+          "href": "https://docs.confluent.io/platform/current/kafka-rest/api.html",
+          "type": "text/html",
+          "title": "Confluent Kafka REST API"
+        },
+        {
+          "href": "https://docs.ksqldb.io/en/latest/developer-guide/api/",
+          "type": "text/html",
+          "title": "ksqlDB REST API"
+        },
+        {
+          "href": "https://docs.confluent.io/platform/current/schema-registry/develop/api.html",
+          "type": "text/html",
+          "title": "Confluent Schema Registry REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/congressional-budget-office/",
+      "title": "congressional-budget-office",
+      "service-doc": [
+        {
+          "href": "https://www.cbo.gov/data/budget-economic-data",
+          "type": "text/html",
+          "title": "CBO Budget and Economic Data"
+        },
+        {
+          "href": "https://www.cbo.gov/cost-estimates",
+          "type": "text/html",
+          "title": "CBO Cost Estimates"
+        },
+        {
+          "href": "https://www.cbo.gov/about/get-cbo-information#rss",
+          "type": "text/html",
+          "title": "CBO Publications RSS Feeds"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/connect-rpc/",
+      "title": "connect-rpc",
+      "service-doc": [
+        {
+          "href": "https://connectrpc.com/docs/web/",
+          "type": "text/html",
+          "title": "connect-es (Connect for ECMAScript)"
+        },
+        {
+          "href": "https://connectrpc.com/docs/go/",
+          "type": "text/html",
+          "title": "connect-go"
+        },
+        {
+          "href": "https://connectrpc.com/docs/kotlin/",
+          "type": "text/html",
+          "title": "connect-kotlin"
+        },
+        {
+          "href": "https://connectrpc.com/docs/python/",
+          "type": "text/html",
+          "title": "connect-python"
+        },
+        {
+          "href": "https://connectrpc.com/docs/swift/",
+          "type": "text/html",
+          "title": "connect-swift"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/connexion/",
+      "title": "connexion",
+      "service-doc": [
+        {
+          "href": "https://connexion.readthedocs.io/en/latest/",
+          "type": "text/html",
+          "title": "Connexion Python Framework"
+        },
+        {
+          "href": "https://connexion.readthedocs.io/en/latest/quickstart.html",
+          "type": "text/html",
+          "title": "Connexion Python Framework"
+        },
+        {
+          "href": "https://connexion.readthedocs.io/en/latest/middleware.html",
+          "type": "text/html",
+          "title": "Connexion Middleware Stack"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/connexis-cash/",
+      "title": "connexis-cash",
+      "service-doc": [
+        {
+          "href": "https://cashmanagement.bnpparibas.com/solutions/digital-channels",
+          "type": "text/html",
+          "title": "Connexis Cash Digital Banking Platform"
+        },
+        {
+          "href": "https://developers.cib.bnpparibas.com/index.php/api-docs/account-information-psd2-stet-mock",
+          "type": "text/html",
+          "title": "Connexis Cash PSD2 Account Information API (STET)"
+        },
+        {
+          "href": "https://developers.cib.bnpparibas.com/index.php/docs/sca",
+          "type": "text/html",
+          "title": "Connexis Cash Strong Customer Authentication (SCA)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/conocophillips/",
+      "title": "conocophillips",
+      "service-doc": [
+        {
+          "href": "https://www.conocophillips.com/operations/lng-technology-licensing/",
+          "type": "text/html",
+          "title": "ConocoPhillips LNG Technology and Licensing"
+        },
+        {
+          "href": "https://www.conocophillips.com/sustainability/",
+          "type": "text/html",
+          "title": "ConocoPhillips Custom Sustainability Report Builder"
+        },
+        {
+          "href": "https://vendors.conocophillips.com/",
+          "type": "text/html",
+          "title": "ConocoPhillips Vendor Relations Portal"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/consensus/",
+      "title": "consensus",
+      "service-doc": [
+        {
+          "href": "https://arxiv.org/abs/1803.05069",
+          "type": "text/html",
+          "title": "HotStuff"
+        },
+        {
+          "href": "https://lamport.azurewebsites.net/pubs/paxos-simple.pdf",
+          "type": "text/html",
+          "title": "Paxos"
+        },
+        {
+          "href": "http://pmg.csail.mit.edu/papers/osdi99.pdf",
+          "type": "text/html",
+          "title": "Practical Byzantine Fault Tolerance (PBFT)"
+        },
+        {
+          "href": "https://raft.github.io/",
+          "type": "text/html",
+          "title": "Raft"
+        },
+        {
+          "href": "https://docs.cometbft.com/",
+          "type": "text/html",
+          "title": "Tendermint / CometBFT"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/consol-energy/",
+      "title": "consol-energy",
+      "service-doc": [
+        {
+          "href": "https://corenaturalresources.com/investors/",
+          "type": "text/html",
+          "title": "Core Natural Resources Investor Relations"
+        },
+        {
+          "href": "https://corenaturalresources.com/suppliers/",
+          "type": "text/html",
+          "title": "Core Natural Resources Supplier Relations"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/consolidated-edison/",
+      "title": "consolidated-edison",
+      "service-doc": [
+        {
+          "href": "https://www.coned.com/en/accounts-billing/share-energy-usage-data/become-a-third-party",
+          "type": "text/html",
+          "title": "Green Button Connect My Data"
+        },
+        {
+          "href": "https://www.coned.com/en/save-money/make-better-energychoices-with-green-button",
+          "type": "text/html",
+          "title": "Green Button Download My Data"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/constant-contact/",
+      "title": "constant-contact",
+      "service-desc": [
+        {
+          "href": "https://api.cc.email/v3/swagger.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Constant Contact V3 API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-v3-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Constant Contact V3 API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.constantcontact.com/",
+          "type": "text/html",
+          "title": "Constant Contact V3 API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/constellation-brands/",
+      "title": "constellation-brands",
+      "service-doc": [
+        {
+          "href": "https://dev.cbrands.com/docs/",
+          "type": "text/html",
+          "title": "Bottle Shots API"
+        },
+        {
+          "href": "https://dev.cbrands.com/docs/",
+          "type": "text/html",
+          "title": "Hot Sheets API"
+        },
+        {
+          "href": "https://dev.cbrands.com/docs/",
+          "type": "text/html",
+          "title": "Neck Hangers API"
+        },
+        {
+          "href": "https://dev.cbrands.com/docs/",
+          "type": "text/html",
+          "title": "Product Items API"
+        },
+        {
+          "href": "https://dev.cbrands.com/docs/",
+          "type": "text/html",
+          "title": "Recipes API"
+        },
+        {
+          "href": "https://dev.cbrands.com/docs/",
+          "type": "text/html",
+          "title": "Shelf Talkers API"
+        },
+        {
+          "href": "https://dev.cbrands.com/docs/",
+          "type": "text/html",
+          "title": "Tasting Notes API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/construction-monitor/",
+      "title": "construction-monitor",
+      "service-doc": [
+        {
+          "href": "https://www.constructionmonitor.com/data",
+          "type": "text/html",
+          "title": "Construction Monitor Permits API"
+        },
+        {
+          "href": "https://www.constructionmonitor.com/data",
+          "type": "text/html",
+          "title": "Construction Monitor Weekly Data Dump (SFTP)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/constructiononline/",
+      "title": "constructiononline",
+      "service-doc": [
+        {
+          "href": "https://us.constructiononline.com/api-access",
+          "type": "text/html",
+          "title": "ConstructionOnline REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/consul/",
+      "title": "consul",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/openapi/consul-http-api.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Consul HTTP API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.hashicorp.com/consul/api-docs",
+          "type": "text/html",
+          "title": "Consul HTTP API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/consul-connect/",
+      "title": "consul-connect",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Consul Connect HTTP API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.hashicorp.com/consul/api-docs/connect",
+          "type": "text/html",
+          "title": "Consul Connect HTTP API"
+        },
+        {
+          "href": "https://developer.hashicorp.com/consul/docs/connect/config-entries",
+          "type": "text/html",
+          "title": "Consul Connect Configuration Entries"
+        },
+        {
+          "href": "https://developer.hashicorp.com/consul/docs/connect/gateways",
+          "type": "text/html",
+          "title": "Consul Connect Gateways"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/consumer-financial-protection-bureau/",
+      "title": "consumer-financial-protection-bureau",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/cfpb-ccdb-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Consumer Complaint Database API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/cfpb-hmda-data-browser-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "HMDA Data Browser API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/consumer-financial-protection-bureau/refs/heads/main/openapi/cfpb-hmda-institutions-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "HMDA Institutions API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cfpb.github.io/api/ccdb/",
+          "type": "text/html",
+          "title": "Consumer Complaint Database API"
+        },
+        {
+          "href": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+          "type": "text/html",
+          "title": "Consumer Complaint Database API"
+        },
+        {
+          "href": "https://ffiec.cfpb.gov/documentation/api/data-browser/",
+          "type": "text/html",
+          "title": "HMDA Data Browser API"
+        },
+        {
+          "href": "https://ffiec.cfpb.gov/documentation/api/institutions-api/",
+          "type": "text/html",
+          "title": "HMDA Institutions API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/consumer-product-safety-commission/",
+      "title": "consumer-product-safety-commission",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/openapi/cpsc-recalls-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CPSC Recalls API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.cpsc.gov/Recalls/CPSC-Recalls-Application-Program-Interface-API-Information",
+          "type": "text/html",
+          "title": "CPSC Recalls API"
+        },
+        {
+          "href": "https://www.saferproducts.gov/FAQs/FrequentlyAskedQuestions11",
+          "type": "text/html",
+          "title": "SaferProducts.gov OData API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/containerd/",
+      "title": "containerd",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/openapi/containerd-metrics-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Containerd Metrics API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://containerd.io/docs/",
+          "type": "text/html",
+          "title": "Containerd CRI API"
+        },
+        {
+          "href": "https://github.com/containerd/containerd/tree/main/pkg/cri",
+          "type": "text/html",
+          "title": "Containerd CRI API"
+        },
+        {
+          "href": "https://containerd.io/docs/",
+          "type": "text/html",
+          "title": "Containerd gRPC API"
+        },
+        {
+          "href": "https://github.com/containerd/containerd/tree/main/api",
+          "type": "text/html",
+          "title": "Containerd gRPC API"
+        },
+        {
+          "href": "https://containerd.io/docs/",
+          "type": "text/html",
+          "title": "Containerd Metrics API"
+        },
+        {
+          "href": "https://github.com/containerd/containerd/blob/main/docs/NRI.md",
+          "type": "text/html",
+          "title": "Containerd NRI API"
+        },
+        {
+          "href": "https://github.com/containerd/nri",
+          "type": "text/html",
+          "title": "Containerd NRI API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/containerfile/",
+      "title": "containerfile",
+      "service-doc": [
+        {
+          "href": "https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md",
+          "type": "text/html",
+          "title": "BuildKit Dockerfile Frontend"
+        },
+        {
+          "href": "https://docs.docker.com/build/",
+          "type": "text/html",
+          "title": "Dockerfile Reference"
+        },
+        {
+          "href": "https://docs.docker.com/reference/dockerfile/",
+          "type": "text/html",
+          "title": "Dockerfile Reference"
+        },
+        {
+          "href": "https://github.com/opencontainers/image-spec",
+          "type": "text/html",
+          "title": "OCI Image Specification"
+        },
+        {
+          "href": "https://docs.podman.io/en/latest/markdown/podman-build.1.html",
+          "type": "text/html",
+          "title": "Containerfile Reference"
+        },
+        {
+          "href": "https://github.com/containers/common/blob/main/docs/Containerfile.5.md",
+          "type": "text/html",
+          "title": "Containerfile Reference"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/contensis/",
+      "title": "contensis",
+      "service-doc": [
+        {
+          "href": "https://www.contensis.com/help-and-docs/apis/delivery-http",
+          "type": "text/html",
+          "title": "Contensis Delivery API"
+        },
+        {
+          "href": "https://www.contensis.com/help-and-docs/apis/image-api",
+          "type": "text/html",
+          "title": "Contensis Image API"
+        },
+        {
+          "href": "https://www.contensis.com/help-and-docs/apis/management-http",
+          "type": "text/html",
+          "title": "Contensis Management API"
         }
       ]
     },
@@ -32368,6 +33827,598 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/contentstack/",
+      "title": "contentstack",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-analytics-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Analytics API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-automate-management-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Automate Management API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-brand-kit-management-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Brand Kit Management API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-content-delivery-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Content Delivery API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-content-management-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Content Management API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-generative-ai-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Generative AI API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-knowledge-vault-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Knowledge Vault API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-launch-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Launch API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-personalize-edge-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Personalize Edge API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-personalize-management-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack Personalize Management API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-scim-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contentstack SCIM API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/analytics-api",
+          "type": "text/html",
+          "title": "Contentstack Analytics API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/automation-hub-management-api",
+          "type": "text/html",
+          "title": "Contentstack Automate Management API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/brand-kit-management-api",
+          "type": "text/html",
+          "title": "Contentstack Brand Kit Management API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/content-delivery-api",
+          "type": "text/html",
+          "title": "Contentstack Content Delivery API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/content-management-api",
+          "type": "text/html",
+          "title": "Contentstack Content Management API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/generative-ai-api",
+          "type": "text/html",
+          "title": "Contentstack Generative AI API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/graphql-content-delivery-api",
+          "type": "text/html",
+          "title": "Contentstack GraphQL Content Delivery API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/image-delivery-api",
+          "type": "text/html",
+          "title": "Contentstack Image Delivery API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/knowledge-vault-api",
+          "type": "text/html",
+          "title": "Contentstack Knowledge Vault API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/launch-api",
+          "type": "text/html",
+          "title": "Contentstack Launch API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api",
+          "type": "text/html",
+          "title": "Contentstack Personalize Edge API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/personalize-management-api",
+          "type": "text/html",
+          "title": "Contentstack Personalize Management API"
+        },
+        {
+          "href": "https://www.contentstack.com/docs/developers/apis/scim-api",
+          "type": "text/html",
+          "title": "Contentstack SCIM API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/context-engineering/",
+      "title": "context-engineering",
+      "service-doc": [
+        {
+          "href": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview",
+          "type": "text/html",
+          "title": "Agentic Loops and Tool Use"
+        },
+        {
+          "href": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+          "type": "text/html",
+          "title": "Effective Context Engineering for AI Agents"
+        },
+        {
+          "href": "https://www.anthropic.com/news/contextual-retrieval",
+          "type": "text/html",
+          "title": "Long-Horizon Context Strategies"
+        },
+        {
+          "href": "https://www.promptingguide.ai/",
+          "type": "text/html",
+          "title": "Prompt Engineering"
+        },
+        {
+          "href": "https://arxiv.org/abs/2005.11401",
+          "type": "text/html",
+          "title": "Retrieval-Augmented Generation (RAG)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/context7/",
+      "title": "context7",
+      "service-doc": [
+        {
+          "href": "https://github.com/upstash/context7",
+          "type": "text/html",
+          "title": "Context7 CLI"
+        },
+        {
+          "href": "https://github.com/upstash/context7",
+          "type": "text/html",
+          "title": "Context7 MCP Server"
+        },
+        {
+          "href": "https://context7.com/docs/api-guide",
+          "type": "text/html",
+          "title": "Context7 REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/contify/",
+      "title": "contify",
+      "service-doc": [
+        {
+          "href": "https://www.contify.com/news-api/",
+          "type": "text/html",
+          "title": "Contify News API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/continuous-delivery-foundation/",
+      "title": "continuous-delivery-foundation",
+      "service-doc": [
+        {
+          "href": "https://cdevents.dev/docs/",
+          "type": "text/html",
+          "title": "CDEvents Specification"
+        },
+        {
+          "href": "https://cdevents.dev/",
+          "type": "text/html",
+          "title": "CDEvents Specification"
+        },
+        {
+          "href": "https://jayex.io/v3/",
+          "type": "text/html",
+          "title": "JayeX"
+        },
+        {
+          "href": "https://jayex.io/",
+          "type": "text/html",
+          "title": "JayeX"
+        },
+        {
+          "href": "https://www.jenkins.io/doc/",
+          "type": "text/html",
+          "title": "Jenkins"
+        },
+        {
+          "href": "https://www.jenkins.io/",
+          "type": "text/html",
+          "title": "Jenkins"
+        },
+        {
+          "href": "https://docs.ortelius.io/",
+          "type": "text/html",
+          "title": "Ortelius"
+        },
+        {
+          "href": "https://ortelius.io/",
+          "type": "text/html",
+          "title": "Ortelius"
+        },
+        {
+          "href": "https://docs.screwdriver.cd/",
+          "type": "text/html",
+          "title": "Screwdriver"
+        },
+        {
+          "href": "https://screwdriver.cd/",
+          "type": "text/html",
+          "title": "Screwdriver"
+        },
+        {
+          "href": "https://spinnaker.io/docs/",
+          "type": "text/html",
+          "title": "Spinnaker"
+        },
+        {
+          "href": "https://spinnaker.io/",
+          "type": "text/html",
+          "title": "Spinnaker"
+        },
+        {
+          "href": "https://tekton.dev/docs/",
+          "type": "text/html",
+          "title": "Tekton"
+        },
+        {
+          "href": "https://tekton.dev/",
+          "type": "text/html",
+          "title": "Tekton"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/contour/",
+      "title": "contour",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-gateway-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contour Gateway API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/openapi/contour-httpproxy-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Contour HTTPProxy API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://projectcontour.io/docs/main/config/api/",
+          "type": "text/html",
+          "title": "Contour Configuration API"
+        },
+        {
+          "href": "https://projectcontour.io/docs/main/config/api/",
+          "type": "text/html",
+          "title": "Contour ExtensionService API"
+        },
+        {
+          "href": "https://projectcontour.io/docs/1.30/config/gateway-api/",
+          "type": "text/html",
+          "title": "Contour Gateway API"
+        },
+        {
+          "href": "https://projectcontour.io/docs/main/config/api/",
+          "type": "text/html",
+          "title": "Contour HTTPProxy API"
+        },
+        {
+          "href": "https://projectcontour.io/docs/main/config/ingress/",
+          "type": "text/html",
+          "title": "Contour Kubernetes Ingress API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/contributing-md/",
+      "title": "contributing-md",
+      "service-doc": [
+        {
+          "href": "https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors",
+          "type": "text/html",
+          "title": "CONTRIBUTING.md Format"
+        },
+        {
+          "href": "https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/about-community-profiles-for-public-repositories",
+          "type": "text/html",
+          "title": "CONTRIBUTING.md Related Conventions"
+        },
+        {
+          "href": "https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests",
+          "type": "text/html",
+          "title": "CONTRIBUTING.md Related Conventions"
+        },
+        {
+          "href": "https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions",
+          "type": "text/html",
+          "title": "CONTRIBUTING.md Related Conventions"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/contributors-md/",
+      "title": "contributors-md",
+      "service-doc": [
+        {
+          "href": "https://allcontributors.org/docs/en/emoji-key",
+          "type": "text/html",
+          "title": "All Contributors Specification"
+        },
+        {
+          "href": "https://allcontributors.org/docs/en/cli/usage",
+          "type": "text/html",
+          "title": "All Contributors Specification"
+        },
+        {
+          "href": "https://allcontributors.org/docs/en/specification",
+          "type": "text/html",
+          "title": "All Contributors Specification"
+        },
+        {
+          "href": "https://allcontributors.org/docs/en/emoji-key",
+          "type": "text/html",
+          "title": "CONTRIBUTORS.md Format"
+        },
+        {
+          "href": "https://allcontributors.org/",
+          "type": "text/html",
+          "title": "CONTRIBUTORS.md Format"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/convention-over-configuration/",
+      "title": "convention-over-configuration",
+      "service-doc": [
+        {
+          "href": "https://gohugo.io/documentation/",
+          "type": "text/html",
+          "title": "Hugo Static Site Generator"
+        },
+        {
+          "href": "https://gohugo.io/",
+          "type": "text/html",
+          "title": "Hugo Static Site Generator"
+        },
+        {
+          "href": "https://maven.apache.org/guides/introduction/introduction-to-the-pom.html",
+          "type": "text/html",
+          "title": "Apache Maven"
+        },
+        {
+          "href": "https://maven.apache.org/",
+          "type": "text/html",
+          "title": "Apache Maven"
+        },
+        {
+          "href": "https://nextjs.org/docs",
+          "type": "text/html",
+          "title": "Next.js"
+        },
+        {
+          "href": "https://nextjs.org/",
+          "type": "text/html",
+          "title": "Next.js"
+        },
+        {
+          "href": "https://rubyonrails.org/doctrine",
+          "type": "text/html",
+          "title": "Ruby on Rails"
+        },
+        {
+          "href": "https://rubyonrails.org/",
+          "type": "text/html",
+          "title": "Ruby on Rails"
+        },
+        {
+          "href": "https://docs.spring.io/spring-boot/index.html",
+          "type": "text/html",
+          "title": "Spring Boot"
+        },
+        {
+          "href": "https://spring.io/projects/spring-boot",
+          "type": "text/html",
+          "title": "Spring Boot"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/conventions-md/",
+      "title": "conventions-md",
+      "service-doc": [
+        {
+          "href": "https://aider.chat/docs/usage/conventions.html",
+          "type": "text/html",
+          "title": "CONVENTIONS.md Format"
+        },
+        {
+          "href": "https://aider.chat/docs/config/aider_conf.html",
+          "type": "text/html",
+          "title": "CONVENTIONS.md Format"
+        },
+        {
+          "href": "https://docs.anthropic.com/en/docs/claude-code/memory",
+          "type": "text/html",
+          "title": "AI Coding Conventions Ecosystem"
+        },
+        {
+          "href": "https://docs.cursor.com/context/rules-for-ai",
+          "type": "text/html",
+          "title": "AI Coding Conventions Ecosystem"
+        },
+        {
+          "href": "https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot",
+          "type": "text/html",
+          "title": "AI Coding Conventions Ecosystem"
+        },
+        {
+          "href": "https://aider.chat/docs/usage/conventions.html",
+          "type": "text/html",
+          "title": "AI Coding Conventions Ecosystem"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/convex/",
+      "title": "convex",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-deployment-platform-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Convex Deployment Platform API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-http-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Convex HTTP API"
+        },
+        {
+          "href": "https://api.convex.dev/v1/openapi.json",
+          "type": "application/vnd.oai.openapi",
+          "title": "Convex Management API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-management-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Convex Management API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.convex.dev/deployment-platform-api",
+          "type": "text/html",
+          "title": "Convex Deployment Platform API"
+        },
+        {
+          "href": "https://docs.convex.dev/http-api/",
+          "type": "text/html",
+          "title": "Convex HTTP API"
+        },
+        {
+          "href": "https://docs.convex.dev/api/",
+          "type": "text/html",
+          "title": "Convex JavaScript SDK"
+        },
+        {
+          "href": "https://docs.convex.dev/management-api",
+          "type": "text/html",
+          "title": "Convex Management API"
+        },
+        {
+          "href": "https://docs.convex.dev/functions",
+          "type": "text/html",
+          "title": "Convex Server SDK"
+        },
+        {
+          "href": "https://docs.convex.dev/database/schemas",
+          "type": "text/html",
+          "title": "Convex Server SDK"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/copa/",
+      "title": "copa",
+      "service-doc": [
+        {
+          "href": "https://project-copacetic.github.io/copacetic/website/",
+          "type": "text/html",
+          "title": "Copa CLI"
+        },
+        {
+          "href": "https://project-copacetic.github.io/copacetic/website/scanner-plugins/",
+          "type": "text/html",
+          "title": "Copa Scanner Plugin Interface"
+        },
+        {
+          "href": "https://project-copacetic.github.io/copacetic/website/output/",
+          "type": "text/html",
+          "title": "Copa VEX Output"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/copilot-instructions-md/",
+      "title": "copilot-instructions-md",
+      "service-doc": [
+        {
+          "href": "https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot",
+          "type": "text/html",
+          "title": "copilot-instructions.md Format"
+        },
+        {
+          "href": "https://docs.github.com/en/copilot/customizing-copilot/about-customizing-github-copilot-chat-responses",
+          "type": "text/html",
+          "title": "copilot-instructions.md Format"
+        },
+        {
+          "href": "https://docs.github.com/en/copilot/customizing-copilot",
+          "type": "text/html",
+          "title": "Copilot Instructions Ecosystem"
+        },
+        {
+          "href": "https://docs.github.com/en/copilot/customizing-copilot/adding-personal-custom-instructions-for-github-copilot",
+          "type": "text/html",
+          "title": "Copilot Instructions Ecosystem"
+        },
+        {
+          "href": "https://docs.github.com/en/copilot/customizing-copilot/adding-organization-custom-instructions-for-github-copilot",
+          "type": "text/html",
+          "title": "Copilot Instructions Ecosystem"
+        },
+        {
+          "href": "https://docs.github.com/en/copilot/customizing-copilot/adding-prompt-files-to-your-repository",
+          "type": "text/html",
+          "title": "Copilot Instructions Ecosystem"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/copper/",
+      "title": "copper",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-developer-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Copper Developer API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developer.copper.com/",
+          "type": "text/html",
+          "title": "Copper Developer API"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/coralogix/",
       "title": "coralogix",
       "service-doc": [
@@ -32380,6 +34431,103 @@
           "href": "https://coralogix.com",
           "type": "text/html",
           "title": "Coralogix"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/corebridge-financial/",
+      "title": "corebridge-financial",
+      "service-doc": [
+        {
+          "href": "https://www.corebridgefinancial.com",
+          "type": "text/html",
+          "title": "Corebridge Financial Website"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/coredns/",
+      "title": "coredns",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/openapi/coredns-health-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CoreDNS Health API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/openapi/coredns-metrics-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CoreDNS Metrics API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://coredns.io/manual/toc/",
+          "type": "text/html",
+          "title": "CoreDNS DNS Interface"
+        },
+        {
+          "href": "https://coredns.io/plugins/health/",
+          "type": "text/html",
+          "title": "CoreDNS Health API"
+        },
+        {
+          "href": "https://coredns.io/plugins/metrics/",
+          "type": "text/html",
+          "title": "CoreDNS Metrics API"
+        },
+        {
+          "href": "https://coredns.io/explugins/",
+          "type": "text/html",
+          "title": "CoreDNS Plugin API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/coresignal/",
+      "title": "coresignal",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-multi-source-company-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coresignal Multi-source Company API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-multi-source-employee-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coresignal Multi-source Employee API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-multi-source-jobs-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Coresignal Multi-source Jobs API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.coresignal.com/agentic-search-api/",
+          "type": "text/html",
+          "title": "Coresignal Agentic Search API"
+        },
+        {
+          "href": "https://docs.coresignal.com/company-enrichment-api/",
+          "type": "text/html",
+          "title": "Coresignal Company Enrichment API"
+        },
+        {
+          "href": "https://docs.coresignal.com/multi-source-company-api/",
+          "type": "text/html",
+          "title": "Coresignal Multi-source Company API"
+        },
+        {
+          "href": "https://docs.coresignal.com/multi-source-employee-api/",
+          "type": "text/html",
+          "title": "Coresignal Multi-source Employee API"
+        },
+        {
+          "href": "https://docs.coresignal.com/multi-source-jobs-api/",
+          "type": "text/html",
+          "title": "Coresignal Multi-source Jobs API"
         }
       ]
     },
@@ -32400,6 +34548,84 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/corporate-bullshit-generator-api/",
+      "title": "corporate-bullshit-generator-api",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/openapi/corporate-bullshit-generator-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Corporate Bullshit Generator API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://corporatebs-generator.sameerkumar.website/",
+          "type": "text/html",
+          "title": "Corporate Bullshit Generator API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cortex/",
+      "title": "cortex",
+      "service-doc": [
+        {
+          "href": "https://docs.cortex.io/",
+          "type": "text/html",
+          "title": "Cortex MCP Server"
+        },
+        {
+          "href": "https://docs.cortex.io/",
+          "type": "text/html",
+          "title": "Cortex REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/corva-ai/",
+      "title": "corva-ai",
+      "service-doc": [
+        {
+          "href": "https://api.corva.ai/documentation/index.html",
+          "type": "text/html",
+          "title": "Corva Data API"
+        },
+        {
+          "href": "https://dc-docs.corva.ai/",
+          "type": "text/html",
+          "title": "Corva Dev Center"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cosign/",
+      "title": "cosign",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/sigstore/rekor/main/openapi.yaml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Sigstore Rekor API (consumed)"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.sigstore.dev/cosign/",
+          "type": "text/html",
+          "title": "Cosign CLI"
+        },
+        {
+          "href": "https://docs.sigstore.dev/certificate_authority/overview/",
+          "type": "text/html",
+          "title": "Sigstore Fulcio API (consumed)"
+        },
+        {
+          "href": "https://docs.sigstore.dev/logging/overview/",
+          "type": "text/html",
+          "title": "Sigstore Rekor API (consumed)"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/coterra-energy/",
       "title": "coterra-energy",
       "service-doc": [
@@ -32412,6 +34638,248 @@
           "href": "https://developer.coterra.com",
           "type": "text/html",
           "title": "Coterra Energy API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/couchbase/",
+      "title": "couchbase",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-analytics-service-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Analytics Service REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-backup-service-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Backup Service REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-capella-app-services-admin-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Capella App Services Admin API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-capella-app-services-public-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Capella App Services Public API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-capella-management-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Capella Management API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-eventing-service-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Eventing Service REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-query-service-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Query Service REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-search-service-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Search Service REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-server-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Server REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-sync-gateway-admin-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Sync Gateway Admin REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-sync-gateway-public-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase Sync Gateway Public REST API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/openapi/couchbase-xdcr-rest-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Couchbase XDCR REST API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.couchbase.com/server/current/analytics/rest-analytics.html",
+          "type": "text/html",
+          "title": "Couchbase Analytics Service REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/server/current/rest-api/backup-rest-api.html",
+          "type": "text/html",
+          "title": "Couchbase Backup Service REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/cloud/app-services/references/rest_api_admin.html",
+          "type": "text/html",
+          "title": "Couchbase Capella App Services Admin API"
+        },
+        {
+          "href": "https://docs.couchbase.com/cloud/app-services/references/rest_api_public.html",
+          "type": "text/html",
+          "title": "Couchbase Capella App Services Public API"
+        },
+        {
+          "href": "https://docs.couchbase.com/cloud/management-api-reference/index.html",
+          "type": "text/html",
+          "title": "Couchbase Capella Management API"
+        },
+        {
+          "href": "https://docs.couchbase.com/server/current/eventing/eventing-api.html",
+          "type": "text/html",
+          "title": "Couchbase Eventing Service REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/server/current/n1ql/n1ql-rest-api/index.html",
+          "type": "text/html",
+          "title": "Couchbase Query Service REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/server/current/rest-api/rest-fts.html",
+          "type": "text/html",
+          "title": "Couchbase Search Service REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/server/current/rest-api/rest-intro.html",
+          "type": "text/html",
+          "title": "Couchbase Server REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/sync-gateway/current/rest-api-admin.html",
+          "type": "text/html",
+          "title": "Couchbase Sync Gateway Admin REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/sync-gateway/current/rest-api.html",
+          "type": "text/html",
+          "title": "Couchbase Sync Gateway Public REST API"
+        },
+        {
+          "href": "https://docs.couchbase.com/server/current/rest-api/rest-xdcr-intro.html",
+          "type": "text/html",
+          "title": "Couchbase XDCR REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/country-io/",
+      "title": "country-io",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/openapi/country-io-data-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Country.io Data API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://country.io/data/",
+          "type": "text/html",
+          "title": "Country.io Data API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/country-state-city-api/",
+      "title": "country-state-city-api",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/openapi/country-state-city-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Country State City API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.countrystatecity.in/",
+          "type": "text/html",
+          "title": "Country State City API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/coveo/",
+      "title": "coveo",
+      "service-doc": [
+        {
+          "href": "https://docs.coveo.com/en/p5je0317/",
+          "type": "text/html",
+          "title": "Coveo Commerce API"
+        },
+        {
+          "href": "https://docs.coveo.com/en/1727/",
+          "type": "text/html",
+          "title": "Coveo Machine Learning API"
+        },
+        {
+          "href": "https://docs.coveo.com/en/124/",
+          "type": "text/html",
+          "title": "Coveo Platform API"
+        },
+        {
+          "href": "https://docs.coveo.com/en/1546/",
+          "type": "text/html",
+          "title": "Coveo Push API"
+        },
+        {
+          "href": "https://docs.coveo.com/en/52/",
+          "type": "text/html",
+          "title": "Coveo Search API"
+        },
+        {
+          "href": "https://docs.coveo.com/en/lb4a0344/",
+          "type": "text/html",
+          "title": "Coveo Stream API"
+        },
+        {
+          "href": "https://docs.coveo.com/en/365/",
+          "type": "text/html",
+          "title": "Coveo Usage Analytics API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cpanel/",
+      "title": "cpanel",
+      "service-doc": [
+        {
+          "href": "https://api.docs.cpanel.net/cpanel/introduction/",
+          "type": "text/html",
+          "title": "cPanel API 2 (Legacy)"
+        },
+        {
+          "href": "https://api.docs.cpanel.net/cpanel/introduction/",
+          "type": "text/html",
+          "title": "cPanel UAPI"
+        },
+        {
+          "href": "https://api.docs.cpanel.net/whm/introduction/",
+          "type": "text/html",
+          "title": "WHM API 1"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/crane-worldwide/",
+      "title": "crane-worldwide",
+      "service-doc": [
+        {
+          "href": "https://developers.craneww.com/api/documentation/",
+          "type": "text/html",
+          "title": "Crane Worldwide Logistics API"
+        },
+        {
+          "href": "https://api-portal.craneww.com",
+          "type": "text/html",
+          "title": "Crane Worldwide Logistics API"
         }
       ]
     },
@@ -32432,6 +34900,22 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/crawlee/",
+      "title": "crawlee",
+      "service-doc": [
+        {
+          "href": "https://crawlee.dev/js",
+          "type": "text/html",
+          "title": "Crawlee JavaScript SDK"
+        },
+        {
+          "href": "https://crawlee.dev/python",
+          "type": "text/html",
+          "title": "Crawlee Python SDK"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/crewai/",
       "title": "crewai",
       "service-doc": [
@@ -32444,6 +34928,123 @@
           "href": "https://www.crewai.com",
           "type": "text/html",
           "title": "CrewAI"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cri-o/",
+      "title": "cri-o",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-metrics-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CRI-O Metrics API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cri-o/refs/heads/main/openapi/cri-o-status-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CRI-O Status API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://kubernetes.io/docs/concepts/architecture/cri/",
+          "type": "text/html",
+          "title": "CRI-O CRI gRPC API"
+        },
+        {
+          "href": "https://github.com/cri-o/cri-o/blob/main/docs/metrics.md",
+          "type": "text/html",
+          "title": "CRI-O Metrics API"
+        },
+        {
+          "href": "https://github.com/cri-o/cri-o",
+          "type": "text/html",
+          "title": "CRI-O Status API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cribl/",
+      "title": "cribl",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-as-code-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cribl As Code API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-cloud-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cribl Cloud API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-edge-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cribl Edge API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-lake-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cribl Lake API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-search-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cribl Search API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-stream-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cribl Stream API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.cribl.io/cribl-as-code/api/",
+          "type": "text/html",
+          "title": "Cribl As Code API"
+        },
+        {
+          "href": "https://docs.cribl.io/api-reference/",
+          "type": "text/html",
+          "title": "Cribl Cloud API"
+        },
+        {
+          "href": "https://docs.cribl.io/edge/",
+          "type": "text/html",
+          "title": "Cribl Edge API"
+        },
+        {
+          "href": "https://docs.cribl.io/lake/",
+          "type": "text/html",
+          "title": "Cribl Lake API"
+        },
+        {
+          "href": "https://docs.cribl.io/search/",
+          "type": "text/html",
+          "title": "Cribl Search API"
+        },
+        {
+          "href": "https://docs.cribl.io/stream/",
+          "type": "text/html",
+          "title": "Cribl Stream API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/criteo/",
+      "title": "criteo",
+      "service-doc": [
+        {
+          "href": "https://developers.criteo.com/marketing-solutions/docs/welcome",
+          "type": "text/html",
+          "title": "Criteo Marketing Solutions API"
+        },
+        {
+          "href": "https://developers.criteo.com/retail-media/docs/welcome-to-criteo",
+          "type": "text/html",
+          "title": "Criteo Retail Media API"
         }
       ]
     },
@@ -32464,6 +35065,47 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/crossplane/",
+      "title": "crossplane",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-kubernetes-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Crossplane Kubernetes API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.crossplane.io/latest/",
+          "type": "text/html",
+          "title": "Crossplane Kubernetes API"
+        },
+        {
+          "href": "https://docs.crossplane.io/latest/api/",
+          "type": "text/html",
+          "title": "Crossplane Kubernetes API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/crossref/",
+      "title": "crossref",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/openapi/crossref-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Crossref REST API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+          "type": "text/html",
+          "title": "Crossref REST API"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/crowdstrike/",
       "title": "crowdstrike",
       "service-doc": [
@@ -32476,6 +35118,63 @@
           "href": "https://developer.crowdstrike.com",
           "type": "text/html",
           "title": "CrowdStrike API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/crs-credit-api/",
+      "title": "crs-credit-api",
+      "service-doc": [
+        {
+          "href": "https://crscreditapi.redoc.ly/",
+          "type": "text/html",
+          "title": "CRS Credit Data API"
+        },
+        {
+          "href": "https://crsecreditmonitoringapi.redoc.ly/",
+          "type": "text/html",
+          "title": "CRS Credit Monitoring API"
+        },
+        {
+          "href": "https://crscreditapi.redoc.ly/developer-portal/data-furnishing/",
+          "type": "text/html",
+          "title": "CRS Data Furnishing API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/crunchbase/",
+      "title": "crunchbase",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/openapi/crunchbase-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Crunchbase API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://data.crunchbase.com/docs",
+          "type": "text/html",
+          "title": "Crunchbase API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cryptoquant/",
+      "title": "cryptoquant",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/openapi/cryptoquant-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CryptoQuant API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cryptoquant.com/docs",
+          "type": "text/html",
+          "title": "CryptoQuant API"
         }
       ]
     },
@@ -32518,6 +35217,72 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/csg/",
+      "title": "csg",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/openapi/csg-forte-rest-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CSG Forte REST API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://developers.forte.net/forte-js/",
+          "type": "text/html",
+          "title": "CSG Forte.js"
+        },
+        {
+          "href": "https://developers.forte.net/forte-react-native/",
+          "type": "text/html",
+          "title": "CSG Forte React Native SDK"
+        },
+        {
+          "href": "https://developers.forte.net/introduction-rest-api/",
+          "type": "text/html",
+          "title": "CSG Forte REST API"
+        },
+        {
+          "href": "https://developers.forte.net/",
+          "type": "text/html",
+          "title": "CSG Forte REST API"
+        },
+        {
+          "href": "https://www.csgi.com/",
+          "type": "text/html",
+          "title": "CSG Singleview Billing API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cubefs/",
+      "title": "cubefs",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-master-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CubeFS Master API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/openapi/cubefs-s3-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CubeFS S3-Compatible API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cubefs.io/docs/master/dev-guide/master-api.html",
+          "type": "text/html",
+          "title": "CubeFS Master API"
+        },
+        {
+          "href": "https://cubefs.io/docs/master/user-guide/objectnode.html",
+          "type": "text/html",
+          "title": "CubeFS S3-Compatible API"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/cubic/",
       "title": "cubic",
       "service-doc": [
@@ -32534,6 +35299,52 @@
       ]
     },
     {
+      "anchor": "https://providers.apis.io/providers/cucumber/",
+      "title": "cucumber",
+      "service-doc": [
+        {
+          "href": "https://github.com/cucumber/cucumber-js/blob/main/docs/",
+          "type": "text/html",
+          "title": "Cucumber.js"
+        },
+        {
+          "href": "https://github.com/cucumber/cucumber-js",
+          "type": "text/html",
+          "title": "Cucumber.js"
+        },
+        {
+          "href": "https://cucumber.io/docs/cucumber/",
+          "type": "text/html",
+          "title": "Cucumber JVM"
+        },
+        {
+          "href": "https://github.com/cucumber/cucumber-jvm",
+          "type": "text/html",
+          "title": "Cucumber JVM"
+        },
+        {
+          "href": "https://github.com/cucumber/messages",
+          "type": "text/html",
+          "title": "Cucumber Messages"
+        },
+        {
+          "href": "https://cucumber.io/docs/cucumber/",
+          "type": "text/html",
+          "title": "Cucumber Ruby"
+        },
+        {
+          "href": "https://github.com/cucumber/cucumber-ruby",
+          "type": "text/html",
+          "title": "Cucumber Ruby"
+        },
+        {
+          "href": "https://github.com/cucumber/gherkin",
+          "type": "text/html",
+          "title": "Gherkin"
+        }
+      ]
+    },
+    {
       "anchor": "https://providers.apis.io/providers/cullen-frost-bankers/",
       "title": "cullen-frost-bankers",
       "service-doc": [
@@ -32546,6 +35357,440 @@
           "href": "https://developer.cullenfr\u043e\u0441\u0442.com",
           "type": "text/html",
           "title": "Cullen/Frost Bankers API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/curl/",
+      "title": "curl",
+      "service-doc": [
+        {
+          "href": "https://curl.se/docs/",
+          "type": "text/html",
+          "title": "cURL Command Line Tool"
+        },
+        {
+          "href": "https://curl.se/",
+          "type": "text/html",
+          "title": "cURL Command Line Tool"
+        },
+        {
+          "href": "https://curl.se/libcurl/",
+          "type": "text/html",
+          "title": "libcurl"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cursor/",
+      "title": "cursor",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-admin-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cursor Admin API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cursor.com/docs/account/teams/admin-api",
+          "type": "text/html",
+          "title": "Cursor Admin API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/customer-io/",
+      "title": "customer-io",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-app-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Customer.io App API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-pipelines-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Customer.io Pipelines API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/openapi/customer-io-track-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Customer.io Track API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.customer.io/integrations/api/app/",
+          "type": "text/html",
+          "title": "Customer.io App API"
+        },
+        {
+          "href": "https://docs.customer.io/integrations/data-in/connections/http-api/",
+          "type": "text/html",
+          "title": "Customer.io Pipelines API"
+        },
+        {
+          "href": "https://docs.customer.io/integrations/api/track/",
+          "type": "text/html",
+          "title": "Customer.io Track API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/customs-and-border-protection/",
+      "title": "customs-and-border-protection",
+      "service-doc": [
+        {
+          "href": "https://www.cbp.gov/border-security/ports-entry/cargo-security/acas",
+          "type": "text/html",
+          "title": "Air Cargo Advance Screening (ACAS)"
+        },
+        {
+          "href": "https://www.cbp.gov/trade/automated",
+          "type": "text/html",
+          "title": "Automated Commercial Environment (ACE)"
+        },
+        {
+          "href": "https://www.cbp.gov/trade/aes",
+          "type": "text/html",
+          "title": "Automated Export System (AES)"
+        },
+        {
+          "href": "https://www.cbp.gov/trade/automated/aesdirect-weblink-inquiry-api",
+          "type": "text/html",
+          "title": "AESDirect WebLink Inquiry API"
+        },
+        {
+          "href": "https://www.cbp.gov/travel/travel-industry-personnel/advance-passenger-information-system",
+          "type": "text/html",
+          "title": "APIS / eAPIS"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cvent/",
+      "title": "cvent",
+      "service-doc": [
+        {
+          "href": "https://developers.cvent.com/docs/legacy-api/csn/overview",
+          "type": "text/html",
+          "title": "Cvent Supplier Network (CSN) API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/custom-widgets/overview",
+          "type": "text/html",
+          "title": "Cvent Custom Widgets API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/passkey/REST/overview",
+          "type": "text/html",
+          "title": "Cvent Passkey RegLink API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/rest-api/overview",
+          "type": "text/html",
+          "title": "Cvent REST API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/cvent-salesforce-app/overview",
+          "type": "text/html",
+          "title": "Cvent Salesforce App"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/legacy-api/soap-api/overview",
+          "type": "text/html",
+          "title": "Cvent SOAP API (Legacy)"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/sso/overview",
+          "type": "text/html",
+          "title": "Cvent Single Sign-On (SSO) Integration"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/webhooks/overview",
+          "type": "text/html",
+          "title": "Cvent Webhooks API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/white-label/overview",
+          "type": "text/html",
+          "title": "Cvent White Label API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cvent-event-cloud/",
+      "title": "cvent-event-cloud",
+      "service-doc": [
+        {
+          "href": "https://developers.cvent.com/docs/rest-api/overview",
+          "type": "text/html",
+          "title": "Cvent Platform REST API (Event Cloud)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cvent-hospitality-cloud/",
+      "title": "cvent-hospitality-cloud",
+      "service-doc": [
+        {
+          "href": "https://developers.cvent.com/docs/passkey/REST/overview",
+          "type": "text/html",
+          "title": "Cvent Passkey RegLink API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/rest-api/overview",
+          "type": "text/html",
+          "title": "Cvent Platform REST API (Hospitality)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cvent-platform/",
+      "title": "cvent-platform",
+      "service-doc": [
+        {
+          "href": "https://developers.cvent.com/docs/passkey/REST/overview",
+          "type": "text/html",
+          "title": "Cvent Passkey RegLink API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/rest-api/overview",
+          "type": "text/html",
+          "title": "Cvent Platform REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cvent-registration/",
+      "title": "cvent-registration",
+      "service-doc": [
+        {
+          "href": "https://developers.cvent.com/docs/rest-api/overview",
+          "type": "text/html",
+          "title": "Cvent Registration REST API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/rest-api/guides/registration-guide",
+          "type": "text/html",
+          "title": "Cvent Registration REST API"
+        },
+        {
+          "href": "https://developers.cvent.com/docs/webhooks/overview",
+          "type": "text/html",
+          "title": "Cvent Registration Webhooks"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cvent-social-tables/",
+      "title": "cvent-social-tables",
+      "service-doc": [
+        {
+          "href": "https://developer.socialtables.com",
+          "type": "text/html",
+          "title": "Social Tables Events API (Legacy)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cvs-health/",
+      "title": "cvs-health",
+      "service-doc": [
+        {
+          "href": "https://www.cvshealth.com/social-responsibility/digital-health",
+          "type": "text/html",
+          "title": "CVS Health Partner Integrations"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cyberark/",
+      "title": "cyberark",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/openapi/cyberark-conjur-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CyberArk Conjur Secrets Manager API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.cyberark.com/conjur-cloud/latest/en/content/developer/conjur-api-openapi.html",
+          "type": "text/html",
+          "title": "CyberArk Conjur Secrets Manager API"
+        },
+        {
+          "href": "https://docs.cyberark.com/identity/Latest/en/Content/Developer/Developer.htm",
+          "type": "text/html",
+          "title": "CyberArk Identity REST API"
+        },
+        {
+          "href": "https://docs.cyberark.com/pam-self-hosted/latest/en/content/webservices/implementing%20privileged%20account%20security%20web%20services%20.htm",
+          "type": "text/html",
+          "title": "CyberArk PAM Self-Hosted REST API"
+        },
+        {
+          "href": "https://docs.cyberark.com/privilege-cloud-shared-services/latest/en/content/sdk/sdk-overview.htm",
+          "type": "text/html",
+          "title": "CyberArk Privilege Cloud REST API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cybersecurity-and-infrastructure-security-agency/",
+      "title": "cybersecurity-and-infrastructure-security-agency",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/openapi/cisa-kev-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "CISA Known Exploited Vulnerabilities (KEV) Catalog"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+          "type": "text/html",
+          "title": "CISA Cybersecurity Advisories"
+        },
+        {
+          "href": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/automated-indicator-sharing-ais",
+          "type": "text/html",
+          "title": "CISA Automated Indicator Sharing (AIS) TAXII Server"
+        },
+        {
+          "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+          "type": "text/html",
+          "title": "CISA Known Exploited Vulnerabilities (KEV) Catalog"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cybersecurity-standards/",
+      "title": "cybersecurity-standards",
+      "service-doc": [
+        {
+          "href": "https://www.cisecurity.org/controls",
+          "type": "text/html",
+          "title": "CIS Critical Security Controls and Benchmarks"
+        },
+        {
+          "href": "https://www.fedramp.gov/",
+          "type": "text/html",
+          "title": "FedRAMP Federal Cloud Authorization"
+        },
+        {
+          "href": "https://www.iso.org/standard/27001",
+          "type": "text/html",
+          "title": "ISO/IEC 27001 Information Security Management"
+        },
+        {
+          "href": "https://csrc.nist.gov/publications/detail/sp/800-171/rev-3/final",
+          "type": "text/html",
+          "title": "NIST SP 800-171 Protecting CUI"
+        },
+        {
+          "href": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+          "type": "text/html",
+          "title": "NIST SP 800-53 Security and Privacy Controls"
+        },
+        {
+          "href": "https://www.nist.gov/cyberframework",
+          "type": "text/html",
+          "title": "NIST Cybersecurity Framework (CSF) 2.0"
+        },
+        {
+          "href": "https://csrc.nist.gov/publications/detail/sp/800-218/final",
+          "type": "text/html",
+          "title": "NIST SP 800-218 Secure Software Development Framework (SSDF)"
+        },
+        {
+          "href": "https://owasp.org/Top10/",
+          "type": "text/html",
+          "title": "OWASP Top 10 and ASVS"
+        },
+        {
+          "href": "https://www.pcisecuritystandards.org/document_library/",
+          "type": "text/html",
+          "title": "PCI DSS Payment Card Industry Data Security Standard"
+        },
+        {
+          "href": "https://www.pcisecuritystandards.org/",
+          "type": "text/html",
+          "title": "PCI DSS Payment Card Industry Data Security Standard"
+        },
+        {
+          "href": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2",
+          "type": "text/html",
+          "title": "SOC 2 Trust Services Criteria"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cycloid/",
+      "title": "cycloid",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-api-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cycloid HTTP API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docs.cycloid.io/",
+          "type": "text/html",
+          "title": "Cycloid HTTP API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/cyclr/",
+      "title": "cyclr",
+      "service-desc": [
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/openapi/cyclr-cyclr-openapi.yml",
+          "type": "application/vnd.oai.openapi",
+          "title": "Cyclr API"
+        },
+        {
+          "href": "https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/asyncapi/cyclr-cyclr-asyncapi.yml",
+          "type": "application/vnd.aai.asyncapi",
+          "title": "Cyclr API"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://cyclr.com",
+          "type": "text/html",
+          "title": "Cyclr API"
+        }
+      ]
+    },
+    {
+      "anchor": "https://providers.apis.io/providers/dagger/",
+      "title": "dagger",
+      "service-doc": [
+        {
+          "href": "https://dagger.io/cloud",
+          "type": "text/html",
+          "title": "Dagger Cloud"
+        },
+        {
+          "href": "https://daggerverse.dev/",
+          "type": "text/html",
+          "title": "Daggerverse Module Index"
+        },
+        {
+          "href": "https://docs.dagger.io/api/",
+          "type": "text/html",
+          "title": "Dagger Engine GraphQL API"
+        },
+        {
+          "href": "https://docs.dagger.io/sdk/",
+          "type": "text/html",
+          "title": "Dagger SDKs"
         }
       ]
     },
