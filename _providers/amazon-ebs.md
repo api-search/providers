@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-ebs-openapi.yml
+  format: yaml
+  label: Amazon EBS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/openapi/amazon-ebs-openapi.yml
 apis:
 - description: API for managing Amazon EBS volumes, snapshots, and related resources through the EC2 API.
   name: Amazon EBS API
@@ -119,6 +126,7 @@ rules:
 skills: []
 slug: amazon-ebs
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon EBS\ndescription: Amazon Elastic Block Store (EBS) provides persistent block storage volumes for use with Amazon EC2 instances. EBS volumes are highly available and reliable storage volumes that can be \n  attached to any running instance in the same Availability Zone, offering consistent and low-latency performance for workloads that require persistent storage.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/ebs/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\ntags:\n- Amazon Web Services\n- AWS\n- Block Storage\n- EBS\n- EC2\n- Snapshots\n- Storage\n- Volumes\napis:\n- name: Amazon EBS API\n  description: API for managing Amazon EBS volumes, snapshots, and related resources through the EC2 API.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  url: https://aws.amazon.com/ebs/\n  baseURL: https://ec2.amazonaws.com\n  properties:\n  - type: Documentation\n  \
   \  url: https://docs.aws.amazon.com/ebs/latest/userguide/\n  - type: OpenAPI\n    url: openapi/amazon-ebs-openapi.yml\n  - type: JSONSchema\n    url: json-schema/amazon-ebs-volume-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-ebs-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/ebs/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/ebs/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/ebs/faqs/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/ebs/latest/userguide/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/cli/latest/reference/ec2/\n  - type: Security\n    url: https://docs.aws.amazon.com/ebs/latest/userguide/security.html\n  - type: JSONStructure\n    url: json-structure/amazon-ebs-volume-structure.json\n  - type: Example\n    url: examples/amazon-ebs-volume-example.json\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n\
   - type: DeveloperPortal\n  url: https://aws.amazon.com/\n- type: Documentation\n  url: https://docs.aws.amazon.com/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/support/\n- type: Blog\n  url: https://aws.amazon.com/blogs/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: StatusPage\n  url: https://status.aws.amazon.com/\n- type: KnowledgeCenter\n  url: https://repost.aws/knowledge-center\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n- type: StackOverflow\n  url: https://stackoverflow.com/questions/tagged/amazon-web-services\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: Security\n  url: https://aws.amazon.com/security/\n\

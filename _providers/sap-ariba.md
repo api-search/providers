@@ -1,5 +1,12 @@
 ---
 api_count: 78
+api_specs:
+- filename: sap-ariba-procurement-api.yml
+  format: yaml
+  label: SAP Ariba Procurement API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/openapi/sap-ariba-procurement-api.yml
 apis:
 - description: Enables integration with procurement processes including requisitions, purchase orders, invoices, suppliers, and receipts across the SAP Business Network.
   name: SAP Ariba Procurement API
@@ -351,6 +358,7 @@ rules:
 skills: []
 slug: sap-ariba
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: SAP Ariba\ndescription: SAP Ariba is a cloud-based procurement and supply chain collaboration platform that connects buyers and suppliers. It offers APIs for procurement, sourcing, contract management, supplier management, and spend analysis.\nimage: https://www.ariba.com/ariba-logo.png\nurl: https://www.ariba.com\ncreated: '2024'\nmodified: '2026-04-18'\ntags:\n  - B2B\n  - Contract Management\n  - Procurement\n  - Sourcing\n  - Spend Analysis\n  - Supplier Management\n  - Supply Chain\napis:\n  - name: SAP Ariba Procurement API\n    description: >-\n      Enables integration with procurement processes including requisitions, purchase\n      orders, invoices, suppliers, and receipts across the SAP Business Network.\n    image: https://api.ariba.com/procurement-icon.png\n    humanURL: https://developer.ariba.com/api/procurement\n    baseURL: https://openapi.ariba.com/api/procurement\n    tags:\n      - Invoices\n      - Procurement\n      - Purchase Orders\n      - Requisitions\n\
   \      - Suppliers\n    properties:\n      - type: Documentation\n        url: https://developer.ariba.com/api/apis/procurement/overview\n      - type: OpenAPI\n        url: openapi/sap-ariba-procurement-api.yml\n      - type: JSONSchema\n        url: json-schema/sap-ariba-purchase-order-schema.json\n      - type: JSONLD\n        url: json-ld/sap-ariba-context.jsonld\n      - type: Authentication\n        url: https://developer.ariba.com/api/authentication\n      - type: Hub\n        url: https://api.sap.com/package/SAPAribaOpenAPIs/rest\n      - type: Documentation\n        url: https://help.sap.com/docs/ariba-apis\n  - name: SAP Ariba Sourcing API\n    description: >-\n      Provides access to sourcing events, RFx processes, auctions, and bid management.\n    image: https://api.ariba.com/sourcing-icon.png\n    humanURL: https://developer.ariba.com/api/sourcing\n    baseURL: https://openapi.ariba.com/api/sourcing\n    tags:\n      - Auctions\n      - Bidding\n      - RFx\n      - Sourcing\n\
   \    properties:\n      - type: Documentation\n        url: https://developer.ariba.com/api/apis/sourcing/overview\n      - type: OpenAPI\n        url: https://developer.ariba.com/api/sourcing/openapi.json\n      - type: Sandbox\n        url: https://sandbox.ariba.com/api/sourcing\n      - type: Hub\n        url: https://api.sap.com/package/SAPAribaOpenAPIs/rest\n  - name: SAP Ariba Supplier Management API\n    description: >-\n      Manages supplier lifecycle including onboarding, qualification, performance,\n      and risk assessment.\n    image: https://api.ariba.com/supplier-icon.png\n    humanURL: https://developer.ariba.com/api/supplier\n    baseURL: https://openapi.ariba.com/api/supplier\n    tags:\n      - Onboarding\n      - Performance\n      - Risk Management\n      - Suppliers\n    properties:\n      - type: Documentation\n        url: https://developer.ariba.com/api/apis/supplier/overview\n      - type: OpenAPI\n        url: https://developer.ariba.com/api/supplier/openapi.json\n\

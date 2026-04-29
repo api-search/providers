@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: temenos-transact-core-banking-openapi.yml
+  format: yaml
+  label: Temenos Transact Core Banking API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-core-banking-openapi.yml
 apis:
 - description: RESTful APIs for core banking operations including account management, customer data, transactions, and payment processing.
   name: Temenos Transact Core Banking API
@@ -99,6 +106,7 @@ rules:
 skills: []
 slug: temenos-transact
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Temenos Transact\ndescription: >-\n  Core banking APIs from Temenos Transact, providing comprehensive banking functionality\n  including accounts, transactions, payments, loans, and customer management.\nimage: https://www.temenos.com/wp-content/uploads/2023/01/temenos-logo.svg\nurl: https://www.temenos.com/products/transact/\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.18'\napis:\n  - name: Temenos Transact Core Banking API\n    description: >-\n      RESTful APIs for core banking operations including account management, customer\n      data, transactions, and payment processing.\n    image: https://www.temenos.com/wp-content/uploads/2023/01/temenos-logo.svg\n    humanURL: https://www.temenos.com/products/transact/\n    baseURL: https://api.temenos.com/transact/v1\n    tags:\n      - Accounts\n      - Banking\n      - Core Banking\n      - Customers\n      - Payments\n      - Transactions\n    properties:\n      - type: Documentation\n        url:\
   \ https://developer.temenos.com/transact/documentation\n      - type: OpenAPI\n        url: https://developer.temenos.com/transact/openapi.json\n      - type: Authentication\n        url: https://developer.temenos.com/transact/authentication\n      - type: Sandbox\n        url: https://sandbox.temenos.com/transact\n      - type: SDK\n        url: https://developer.temenos.com/transact/sdks\n      - type: TermsOfService\n        url: https://www.temenos.com/terms-of-service/\n      - type: PrivacyPolicy\n        url: https://www.temenos.com/privacy-policy/\n      - type: Support\n        url: https://support.temenos.com\n      - type: StatusPage\n        url: https://status.temenos.com\n      - type: ChangeLog\n        url: https://developer.temenos.com/transact/changelog\n      - type: OpenAPI\n        url: openapi/temenos-transact-core-banking-openapi.yml\n      - type: JSONSchema\n        url: json-schema/temenos-transaction-schema.json\n      - type: JSONLD\n        url: json-ld/temenos-transact-context.jsonld\n\
   \    contact:\n      - type: Support\n        url: https://support.temenos.com\n      - type: Email\n        email: api.support@temenos.com\n      - type: Sales\n        url: https://www.temenos.com/contact/\n  - name: Temenos Transact Microservices APIs\n    description: >-\n      APIs for Temenos Transact microservices including callback registry,\n      configuration management, user entitlements, and service orchestration\n      for building event-driven and composable banking applications.\n    image: https://www.temenos.com/wp-content/uploads/2023/01/temenos-logo.svg\n    humanURL: https://developer.temenos.com/transact-microservice-apis\n    baseURL: https://api.temenos.com/transact/v1\n    tags:\n      - Configuration\n      - Entitlements\n      - Microservices\n      - Orchestration\n    properties:\n      - type: Documentation\n        url: https://developer.temenos.com/transact-microservice-apis\n  - name: Temenos Transact Data Hub APIs\n    description: >-\n      High-performance\

@@ -1,5 +1,36 @@
 ---
 api_count: 5
+api_specs:
+- filename: amadeus-reservations-hotel-booking-openapi.yaml
+  format: yaml
+  label: Hotel Booking API
+  slug: hotel-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-hotel-booking-openapi.yaml
+- filename: amadeus-reservations-flight-create-orders-openapi.yaml
+  format: yaml
+  label: Flight Create Orders API
+  slug: flight-create-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-flight-create-orders-openapi.yaml
+- filename: amadeus-reservations-flight-order-management-openapi.yaml
+  format: yaml
+  label: Flight Order Management API
+  slug: flight-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-flight-order-management-openapi.yaml
+- filename: amadeus-reservations-transfer-booking-openapi.yaml
+  format: yaml
+  label: Transfer Booking API
+  slug: transfer-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-transfer-booking-openapi.yaml
+- filename: amadeus-reservations-transfer-management-openapi.yaml
+  format: yaml
+  label: Transfer Management API
+  slug: transfer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-transfer-management-openapi.yaml
 apis:
 - description: The Amadeus Hotel Booking API lets you complete hotel reservations at over 150,000 hotels and accommodations worldwide. Create bookings using hotel offer IDs returned by the Hotel Search API, manage g
   name: Hotel Booking API
@@ -328,6 +359,7 @@ rules:
 skills: []
 slug: amadeus-reservations
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amadeus-reservations\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/apis.yml\nname: Amadeus Reservations\ntags:\n  - Booking\n  - Flights\n  - Hotels\n  - Reservations\n  - Travel\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Amadeus Reservations provides APIs for creating and managing travel\n  bookings including flight orders, hotel reservations, and ground transfer\n  bookings. These APIs power the full reservation lifecycle for online travel\n  agencies, corporate travel platforms, and travel management companies,\n  connecting to Amadeus's global distribution network of airlines, hotels, and\n  transfer operators.\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amadeus-reservations:hotel-booking-api\n    name: Hotel Booking API\n    description: >-\n      The Amadeus Hotel Booking API lets you complete\
   \ hotel reservations at\n      over 150,000 hotels and accommodations worldwide. Create bookings using\n      hotel offer IDs returned by the Hotel Search API, manage guest details,\n      and receive booking confirmations with property reference numbers.\n    humanURL: https://developers.amadeus.com/self-service/category/hotels/api-doc/hotel-booking\n    baseURL: https://test.api.amadeus.com/v2\n    tags:\n      - Booking\n      - Hotels\n      - Reservations\n      - Travel\n    properties:\n      - type: Documentation\n        url: https://developers.amadeus.com/self-service/category/hotels/api-doc/hotel-booking\n      - type: APIReference\n        url: https://developers.amadeus.com/self-service/category/hotels/api-doc/hotel-booking/api-reference\n      - type: OpenAPI\n        url: openapi/amadeus-reservations-hotel-booking-openapi.yaml\n  - aid: amadeus-reservations:flight-create-orders-api\n    name: Flight Create Orders API\n    description: >-\n      The Amadeus Flight Create\
   \ Orders API enables creation of flight bookings\n      from flight offers returned by the Flight Offers Search API. Create\n      confirmed airline reservations for one or more travelers, receive booking\n      confirmations with PNR codes, and manage the complete flight order\n      lifecycle from creation to ticketing.\n    humanURL: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-create-orders\n    baseURL: https://test.api.amadeus.com/v1\n    tags:\n      - Booking\n      - Flights\n      - Orders\n      - Reservations\n      - Travel\n    properties:\n      - type: Documentation\n        url: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-create-orders\n      - type: APIReference\n        url: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-create-orders/api-reference\n      - type: OpenAPI\n        url: openapi/amadeus-reservations-flight-create-orders-openapi.yaml\n  - aid: amadeus-reservations:flight-order-management-api\n\

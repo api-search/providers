@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: allianz-future-cloud-platform-services.yaml
+  format: yaml
+  label: Allianz Future Cloud Platform Services API
+  slug: platform-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-services.yaml
 apis:
 - description: Platform engineering APIs for managing cloud-native services on the Allianz Future Cloud Platform. Provides capabilities for service registration, deployment management, observability configuration, a
   name: Allianz Future Cloud Platform Services API
@@ -79,6 +86,7 @@ rules:
 skills: []
 slug: allianz-future-cloud-platform
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: allianz-future-cloud-platform\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/apis.yml\nname: Allianz Future Cloud Platform\ntags:\n  - Cloud Platform\n  - Enterprise\n  - Financial Services\n  - Insurance\n  - Platform Engineering\n  - Kubernetes\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  The Allianz Future Cloud Platform is an internal developer platform powering\n  cloud-native insurance microservices at Allianz. Built on Kubernetes and AWS,\n  it provides platform engineering capabilities including service deployment,\n  infrastructure management, observability, and GitOps automation across\n  Allianz's global insurance operations.\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: allianz-future-cloud-platform:platform-services-api\n    name: Allianz Future Cloud Platform Services API\n    tags:\n\
   \      - Cloud Platform\n      - Platform Engineering\n      - Microservices\n      - DevOps\n    properties:\n      - url: https://architecture.cncf.io/architectures/allianz/\n        type: Documentation\n      - url: https://www.cncf.io/case-studies/allianz/\n        type: Documentation\n      - url: openapi/allianz-future-cloud-platform-services.yaml\n        type: OpenAPI\n      - url: json-schema/platform-services-service-schema.json\n        type: JSONSchema\n      - url: json-schema/platform-services-deployment-schema.json\n        type: JSONSchema\n      - url: json-structure/platform-services-service-structure.json\n        type: JSONStructure\n      - url: json-ld/allianz-future-cloud-platform-context.jsonld\n        type: JSONLD\n      - url: examples/platform-services-service-example.json\n        type: Example\n      - url: examples/platform-services-deployment-example.json\n        type: Example\n    description: >-\n      Platform engineering APIs for managing cloud-native\
   \ services on the\n      Allianz Future Cloud Platform. Provides capabilities for service\n      registration, deployment management, observability configuration, and\n      infrastructure provisioning across Kubernetes clusters.\n    humanURL: https://architecture.cncf.io/architectures/allianz/\n    baseURL: https://platform.allianz.com/api/v1\n\n  - aid: allianz-future-cloud-platform:policy-microservice-api\n    name: Allianz Insurance Policy Microservice API\n    tags:\n      - Insurance\n      - Policy Management\n      - Microservices\n    properties:\n      - url: https://www.allianz.com/en/about-us/technology.html\n        type: Documentation\n      - url: openapi/allianz-future-cloud-platform-policy.yaml\n        type: OpenAPI\n      - url: json-schema/platform-policy-policy-schema.json\n        type: JSONSchema\n      - url: json-structure/platform-policy-policy-structure.json\n        type: JSONStructure\n      - url: examples/platform-policy-policy-example.json\n        type:\

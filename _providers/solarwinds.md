@@ -1,5 +1,36 @@
 ---
 api_count: 13
+api_specs:
+- filename: solarwinds-orion-openapi.yml
+  format: yaml
+  label: SolarWinds Orion API
+  slug: solarwinds-orion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-orion-openapi.yml
+- filename: solarwinds-service-desk-openapi.yml
+  format: yaml
+  label: SolarWinds Service Desk API
+  slug: solarwinds-service-desk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-service-desk-openapi.yml
+- filename: solarwinds-pingdom-openapi.yml
+  format: yaml
+  label: SolarWinds Pingdom API
+  slug: solarwinds-pingdom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-pingdom-openapi.yml
+- filename: solarwinds-loggly-openapi.yml
+  format: yaml
+  label: SolarWinds Loggly API
+  slug: solarwinds-loggly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-loggly-openapi.yml
+- filename: solarwinds-papertrail-openapi.yml
+  format: yaml
+  label: SolarWinds Papertrail API
+  slug: solarwinds-papertrail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-papertrail-openapi.yml
 apis:
 - description: 'RESTful API for managing and monitoring network devices, servers, and applications through the Orion Platform. Provides access to the SolarWinds Information Service (SWIS) using SWQL queries via REST '
   name: SolarWinds Orion API
@@ -163,6 +194,7 @@ rules:
 skills: []
 slug: solarwinds
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: solarwinds\nname: SolarWinds\ndescription: >-\n  A collection of APIs provided by SolarWinds for IT infrastructure management, monitoring,\n  and observability.\nimage: https://www.solarwinds.com/sites/all/themes/solarwinds_theme/logo.png\nurl: https://www.solarwinds.com/apis.json\ntags:\n  - Application Monitoring\n  - Database Monitoring\n  - Infrastructure\n  - IP Address Management\n  - IT Management\n  - ITSM\n  - Log Management\n  - Network Monitoring\n  - Observability\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.18'\ntype: Index\napis:\n  - aid: solarwinds:solarwinds-orion-api\n    name: SolarWinds Orion API\n    description: RESTful API for managing and monitoring network devices, servers, and applications through the Orion Platform. Provides access to the SolarWinds Information Service (SWIS) using SWQL queries via REST endpoints.\n    image: https://www.solarwinds.com/sites/default/files/orion-platform-icon.png\n    humanURL: https://www.solarwinds.com/orion-platform\n\
   \    baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3\n    tags:\n      - Infrastructure Management\n      - Network Monitoring\n      - Orion\n      - SWIS\n    properties:\n      - type: Documentation\n        url: https://documentation.solarwinds.com/en/success_center/orionplatform/content/core-swis-api.htm\n      - type: OpenAPI\n        url: openapi/solarwinds-orion-openapi.yml\n      - type: Authentication\n        url: https://documentation.solarwinds.com/en/success_center/orionplatform/content/core-swis-api-authentication.htm\n      - type: SDK\n        url: https://github.com/solarwinds/OrionSDK\n      - type: APIReference\n        url: https://github.com/solarwinds/OrionSDK/wiki/REST\n    contact:\n      - type: Support\n        url: https://support.solarwinds.com\n  - aid: solarwinds:solarwinds-service-desk-api\n    name: SolarWinds Service Desk API\n    description: API for IT service management, ticketing, and help desk operations. Provides CRUD access\
   \ to incidents, service requests, changes, problems, releases, and asset management resources.\n    humanURL: https://www.solarwinds.com/service-desk\n    baseURL: https://{instance}.samanage.com/api\n    tags:\n      - Help Desk\n      - ITSM\n      - Service Desk\n      - Ticketing\n    properties:\n      - type: Documentation\n        url: https://documentation.solarwinds.com/en/success_center/swsd/content/swsd_documentation.htm\n      - type: APIReference\n        url: https://apidoc.samanage.com/\n      - type: Authentication\n        url: https://help.samanage.com/s/article/API-Authentication\n      - type: GettingStarted\n        url: https://documentation.solarwinds.com/en/success_center/swsd/content/swsd_getting_started_guide.htm\n      - type: OpenAPI\n        url: openapi/solarwinds-service-desk-openapi.yml\n    contact:\n      - type: Support\n        url: https://support.solarwinds.com\n  - aid: solarwinds:solarwinds-observability-api\n    name: SolarWinds Observability API\n\

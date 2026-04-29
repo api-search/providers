@@ -1,5 +1,12 @@
 ---
 api_count: 8
+api_specs:
+- filename: quickbooks-accounting.yml
+  format: yaml
+  label: QuickBooks Online Accounting API
+  slug: quickbooks-accounting
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/quickbooks-accounting.yml
 apis:
 - description: Intuit APIs provide developers with access to a wide range of services and functionalities to help them build innovative solutions for financial management, accounting, and tax-related needs. These AP
   name: Intuit APIs
@@ -169,6 +176,7 @@ rules:
 skills: []
 slug: intuit
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: intuit\nurl: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/apis.yml\napis:\n  - aid: intuit:intuit\n    name: Intuit APIs\n    tags:\n      - Accounting\n      - Financial\n      - Tax Preparation\n      - Taxes\n    humanURL: https://developer.intuit.com/app/developer/homepage\n    properties:\n      - url: https://developer.intuit.com/app/developer/homepage\n        type: Documentation\n    description: >-\n      Intuit APIs provide developers with access to a wide range of services and functionalities\n      to help them build innovative solutions for financial management, accounting,\n      and tax-related needs. These APIs allow developers to integrate with popular\n      Intuit products such as QuickBooks, TurboTax, and Mint, giving users the ability\n      to securely access and manage their financial data across multiple platforms.\n  - aid: intuit:quickbooks-accounting\n    name: QuickBooks Online Accounting API\n    tags:\n      - Accounting\n\
   \      - Bookkeeping\n      - Financial\n      - Invoicing\n      - Small Business\n    humanURL: https://developer.intuit.com/app/developer/qbo/docs/develop\n    properties:\n      - url: https://developer.intuit.com/app/developer/qbo/docs/develop\n        type: Documentation\n      - url: https://developer.intuit.com/app/developer/qbo/docs/api/accounting/all-entities/account\n        type: APIReference\n      - url: https://developer.intuit.com/app/developer/qbo/docs/get-started\n        type: GettingStarted\n      - url: https://developer.intuit.com/app/developer/qbo/docs/get-started/get-started-with-the-api-explorer\n        type: Console\n      - url: https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0\n        type: Authentication\n      - url: https://developer.intuit.com/app/developer/qbo/docs/learn/explore-the-quickbooks-online-api\n        type: Documentation\n      - url: https://developer.intuit.com/app/developer/qbo/docs/learn/explore-the-quickbooks-online-api/minor-versions\n\
   \        type: Versioning\n      - url: https://developer.intuit.com/app/developer/qbo/docs/develop/sdks-and-samples\n        type: SDK\n      - url: https://developer.intuit.com/app/developer/qbo/docs/release-notes/platform-release-notes\n        type: ReleaseNotes\n      - url: openapi/quickbooks-accounting.yml\n        type: OpenAPI\n      - url: asyncapi/quickbooks-webhooks.yml\n        type: AsyncAPI\n      - url: json-schema/intuit-invoice-schema.json\n        type: JSONSchema\n      - url: json-schema/intuit-customer-schema.json\n        type: JSONSchema\n      - url: json-ld/intuit-context.jsonld\n        type: JSONLD\n    description: The QuickBooks Online Accounting API is a RESTful API that provides programmatic access to QuickBooks Online company data, including customers, invoices, payments, bills, vendors, accounts, and reports. It enables developers to build integrations that automate accounting workflows, synchronize financial data, and extend QuickBooks Online functionality\

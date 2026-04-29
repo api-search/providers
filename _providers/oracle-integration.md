@@ -1,5 +1,18 @@
 ---
 api_count: 4
+api_specs:
+- filename: oracle-integration-developer-api.yaml
+  format: yaml
+  label: Oracle Integration Developer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-developer-api.yaml
+- filename: oracle-integration-process-automation-api.yaml
+  format: yaml
+  label: Oracle Integration Process Automation API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-process-automation-api.yaml
 apis:
 - description: Developer API for Oracle Integration 3 providing day-to-day management of integrations, connections, packages, libraries, lookups, certificates, scheduled integrations, monitoring, B2B trading partner
   name: Oracle Integration Developer API
@@ -178,6 +191,7 @@ rules:
 skills: []
 slug: oracle-integration
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: oracle-integration\nname: Oracle Integration\ndescription: >-\n  Oracle Integration provides native connectivity to Oracle and non-Oracle\n  Software as a Service (SaaS) and on-premises applications, such as Oracle ERP\n  Cloud, Oracle Service Cloud, HCM Cloud, Salesforce, Workday, EBS, SAP,\n  NetSuite and others. It combines application integration, process automation,\n  visual application building, and integration analytics into a single unified\n  cloud service.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/apis.yml\ntags:\n  - API Management\n  - Automation\n  - B2B Integration\n  - Cloud Integration\n  - Enterprise Integration\n  - Integration\n  - iPaaS\n  - Process Automation\napis:\n  - name: Oracle Integration\
   \ Developer API\n    description: >-\n      Developer API for Oracle Integration 3 providing day-to-day management of\n      integrations, connections, packages, libraries, lookups, certificates,\n      scheduled integrations, monitoring, B2B trading partner operations, and\n      rapid adapter building.\n    image: https://www.oracle.com/assets/ocom-logo-og-1200x628-1-5046771.jpg\n    humanURL: https://docs.oracle.com/en/cloud/paas/application-integration/rest-api/index.html\n    baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1\n    tags:\n      - B2B\n      - Connections\n      - Integration Management\n      - Monitoring\n      - Orchestration\n      - Packages\n      - REST API\n      - Scheduled Integrations\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/en/cloud/paas/application-integration/rest-api/index.html\n      - type: APIReference\n        url: https://docs.oracle.com/en/cloud/paas/application-integration/rest-api/rest-endpoints.html\n\
   \      - type: Authentication\n        url: https://docs.oracle.com/en/cloud/paas/application-integration/rest-api/Authentication.html\n      - type: OpenAPI\n        url: openapi/oracle-integration-developer-api.yaml\n      - type: JSONSchema\n        url: json-schema/developer-api-connection-schema.json\n        title: Connection Schema\n      - type: JSONSchema\n        url: json-schema/developer-api-integration-schema.json\n        title: Integration Schema\n      - type: JSONSchema\n        url: json-schema/developer-api-monitoring-instance-schema.json\n        title: Monitoring Instance Schema\n      - type: JSONSchema\n        url: json-schema/developer-api-trading-partner-schema.json\n        title: Trading Partner Schema\n      - type: JSONLD\n        url: json-ld/oracle-integration-developer-api-context.jsonld\n    contact:\n      - FN: Oracle Integration Support\n        email: oracle-integration-support@oracle.com\n  - name: Oracle Integration Process Automation API\n    description:\

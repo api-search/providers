@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-clean-rooms-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-openapi.yml
 apis:
 - description: API for creating and managing secure collaboration workspaces, memberships, configured tables, analysis templates, and executing privacy-preserving protected queries and jobs.
   name: Amazon Clean Rooms API
@@ -114,6 +121,7 @@ rules:
 skills: []
 slug: amazon-clean-rooms
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-clean-rooms\nname: Amazon Clean Rooms\ndescription: >-\n  Amazon Clean Rooms enables organizations to collaborate and analyze shared datasets without exposing underlying raw data to partners. Create secure data clean rooms in minutes and collaborate with any\n  company while maintaining data privacy through differential privacy, cryptographic computing, and flexible analytics.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Clean Rooms\n- Data Collaboration\n- Privacy\n- Analytics\n- Marketing\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- name: Amazon Clean Rooms API\n  description: API for creating and managing secure collaboration workspaces, memberships, configured tables, analysis templates, and executing privacy-preserving protected queries and jobs.\n\
   \  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/clean-rooms/\n  baseURL: https://cleanrooms.us-east-1.amazonaws.com\n  tags:\n  - AWS\n  - Clean Rooms\n  - Data Collaboration\n  - Privacy\n  - Analytics\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/clean-rooms/latest/apireference/\n  - type: OpenAPI\n    url: openapi/amazon-clean-rooms-openapi.yml\n  - type: GettingStarted\n    url: https://aws.amazon.com/clean-rooms/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/clean-rooms/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/clean-rooms/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/clean-rooms/latest/apireference/\n  - type: UserGuide\n    url: https://docs.aws.amazon.com/clean-rooms/latest/userguide/\n  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/cleanrooms/\n  - type: JSONSchema\n    url: json-schema/clean-rooms-collaboration-schema.json\n\
   \  - type: JSONSchema\n    url: json-schema/clean-rooms-membership-schema.json\n  - type: JSONSchema\n    url: json-schema/clean-rooms-protected-query-schema.json\n  - type: JSONSchema\n    url: json-schema/clean-rooms-configured-table-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-clean-rooms-context.jsonld\n  - type: Example\n    url: examples/clean-rooms-collaboration-example.json\n  - type: Example\n    url: examples/clean-rooms-membership-example.json\n  - type: Example\n    url: examples/clean-rooms-protected-query-example.json\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/clean-rooms/\n- type: Documentation\n  url: https://docs.aws.amazon.com/clean-rooms/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n-\

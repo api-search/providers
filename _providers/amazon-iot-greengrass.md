@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-iot-greengrass-openapi-original.yml
+  format: yaml
+  label: AWS IoT Greengrass API
+  slug: aws-iot-greengrass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-openapi-original.yml
 apis:
 - description: The AWS IoT Greengrass V2 API provides access to component management, core device management, and deployment orchestration for edge computing workloads.
   name: AWS IoT Greengrass API
@@ -104,6 +111,7 @@ rules:
 skills: []
 slug: amazon-iot-greengrass
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iot-greengrass\nname: Amazon IoT Greengrass\ndescription: >-\n  AWS IoT Greengrass extends AWS compute, messaging, data management, sync, and ML inference capabilities to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Edge Computing\n  - IoT\n  - Lambda\n  - Machine Learning\n  - Real-Time Processing\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iot-greengrass:aws-iot-greengrass-api\n    name: AWS IoT Greengrass API\n    description: >-\n      The AWS IoT Greengrass V2 API provides access to component management, core device management, and deployment orchestration for edge computing workloads.\n\
   \    humanURL: https://aws.amazon.com/greengrass/\n    baseURL: https://greengrass.amazonaws.com\n    tags:\n      - Edge Computing\n      - IoT\n      - Lambda\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/greengrass/v2/APIReference/\n      - type: OpenAPI\n        url: openapi/amazon-iot-greengrass-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/greengrass/v2/developerguide/getting-started.html\n      - type: Pricing\n        url: https://aws.amazon.com/greengrass/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/greengrass/faqs/\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/greengrass/\n  - type: Website\n    url: https://aws.amazon.com/greengrass/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/greengrass/v2/developerguide/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n\
   \  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/iot/tag/aws-iot-greengrass/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/greengrass/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-iot-greengrass-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/iot-greengrass.yaml\n  - type: NaftikoCapability\n    url: capabilities/edge-device-management.yaml\n  - type: Vocabulary\n    url: vocabulary/amazon-iot-greengrass-vocabulary.yaml\n  - type: JSONLD\n    url: json-ld/amazon-iot-greengrass-context.jsonld\n  - type: Features\n    data:\n      - name: Edge\

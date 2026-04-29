@@ -1,5 +1,12 @@
 ---
 api_count: 50
+api_specs:
+- filename: vmware-vsphere-api-openapi.yml
+  format: yaml
+  label: vSphere API
+  slug: vsphere-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vsphere-api-openapi.yml
 apis:
 - description: API for managing VMware vSphere virtualization platform, including VMs, hosts, and datastores.
   name: vSphere API
@@ -265,6 +272,7 @@ rules:
 skills: []
 slug: vmware
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: vmware\nname: VMware\ndescription: >-\n  Collection of VMware APIs for cloud infrastructure, virtualization, and management\n  solutions including vSphere, NSX, vCloud Director, Tanzu, and Aria operations.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Cloud Computing\n  - Container Management\n  - Hybrid Cloud\n  - Infrastructure\n  - Virtualization\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - aid: vmware:vsphere-api\n    name: vSphere API\n    description: >-\n      API for managing VMware vSphere virtualization platform, including VMs, hosts,\n      and datastores.\n    image: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/images/products/vsphere-icon.svg\n    humanURL: https://developer.vmware.com/apis/vsphere-automation/latest/\n    baseURL: https://{{vcenter}}/api\n\
   \    tags:\n      - Data Center\n      - Hypervisor\n      - Virtualization\n      - VM Management\n    properties:\n      - type: Documentation\n        url: https://developer.vmware.com/docs/vsphere-automation/latest/\n      - type: OpenAPI\n        url: openapi/vmware-vsphere-api-openapi.yml\n      - type: OpenAPI\n        url: https://developer.vmware.com/apis/vsphere-automation/latest/openapi/\n      - type: Authentication\n        url: https://developer.vmware.com/docs/vsphere-automation/latest/authentication/\n      - type: APIReference\n        url: https://developer.broadcom.com/xapis/vsphere-automation-api/latest/\n      - type: JSONSchema\n        url: json-schema/vmware-virtual-machine-schema.json\n      - type: JSONLD\n        url: json-ld/vmware-vsphere-context.jsonld\n    contact:\n      - FN: VMware Developer Support\n        email: developer@vmware.com\n        url: https://developer.vmware.com/support\n  - aid: vmware:vsphere-web-services-api\n    name: vSphere Web Services\
   \ API\n    description: >-\n      Comprehensive SOAP-based API providing access to all vSphere management functionality\n      including virtual machines, hosts, clusters, networking, and storage.\n    humanURL: https://developer.broadcom.com/xapis/vsphere-web-services-api/latest/\n    baseURL: https://{{vcenter}}/sdk\n    tags:\n      - Data Center\n      - SOAP\n      - Virtualization\n      - VM Management\n    properties:\n      - type: APIReference\n        url: https://developer.broadcom.com/xapis/vsphere-web-services-api/latest/\n      - type: SDK\n        url: https://github.com/vmware/vsphere-automation-sdk-java\n  - aid: vmware:virtual-infrastructure-json-api\n    name: Virtual Infrastructure JSON API\n    description: >-\n      HTTP and JSON based wire protocol as an alternative to SOAP and XML for vCenter\n      Server 8.0 Update 1 and later, documented via OpenAPI 3.0 specification.\n    humanURL: https://developer.broadcom.com/xapis/virtual-infrastructure-json-api/latest/\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-healthimaging-openapi.yaml
+  format: yaml
+  label: AWS HealthImaging API
+  slug: aws-healthimaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-openapi.yaml
 apis:
 - description: The AWS HealthImaging API provides programmatic access to create and manage datastores, image sets, and DICOM import jobs for storing and retrieving medical imaging data at scale. The API is HIPAA-eli
   name: AWS HealthImaging API
@@ -106,6 +113,7 @@ rules:
 skills: []
 slug: amazon-healthimaging
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-healthimaging\nname: Amazon HealthImaging\ndescription: >-\n  AWS HealthImaging is a HIPAA-eligible service that helps healthcare providers\n  and their software partners store, transform, and apply machine learning to\n  medical images. It provides sub-second image retrieval and enables scaling\n  from hundreds to millions of medical images.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Healthcare\n  - HIPAA\n  - Machine Learning\n  - Medical Imaging\n  - DICOM\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-healthimaging:aws-healthimaging-api\n    name: AWS HealthImaging API\n    description: >-\n      The AWS HealthImaging API provides programmatic access to create and\n      manage datastores, image sets, and DICOM import jobs for storing\
   \ and\n      retrieving medical imaging data at scale. The API is HIPAA-eligible and\n      supports sub-second image retrieval.\n    humanURL: https://aws.amazon.com/healthimaging/\n    baseURL: https://medical-imaging.us-east-1.amazonaws.com\n    tags:\n      - Healthcare\n      - HIPAA\n      - Medical Imaging\n      - DICOM\n      - Datastores\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/healthimaging/latest/devguide/API_Reference.html\n      - type: OpenAPI\n        url: openapi/amazon-healthimaging-openapi.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/healthimaging/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/healthimaging/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/healthimaging/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/healthimaging/latest/devguide/API_Reference.html\n      - type: Authentication\n        url: https://docs.aws.amazon.com/healthimaging/latest/devguide/security-iam.html\n\
   \      - type: JSONSchema\n        url: json-schema/healthimaging-datastore-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-healthimaging-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/healthimaging/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/healthimaging/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/industries/healthcare/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/healthimaging/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SDK\n    url: https://aws.amazon.com/developer/tools/\n\

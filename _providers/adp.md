@@ -1,5 +1,18 @@
 ---
 api_count: 4
+api_specs:
+- filename: adp-workers-openapi.yml
+  format: yaml
+  label: ADP Workers API
+  slug: adp-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-workers-openapi.yml
+- filename: adp-payroll-openapi.yml
+  format: yaml
+  label: ADP Payroll API
+  slug: adp-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-payroll-openapi.yml
 apis:
 - description: The ADP Workers API enables access to employee and worker data including personal information, job assignments, pay grades, and employment status. REST APIs support worker lifecycle management for HCM
   name: ADP Workers API
@@ -89,6 +102,7 @@ rules:
 skills: []
 slug: adp
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: adp\nname: ADP\ndescription: >-\n  ADP (Automatic Data Processing) is a global provider of cloud-based human capital\n  management solutions including payroll, benefits, talent, time, tax, and HR services\n  for businesses of all sizes.\nimage: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/image.png\nurl: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/apis.yml\ncreated: '2026-03-18'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Contract\naccess: 3rd-Party\napis:\n  - aid: adp:adp-workers-api\n    name: ADP Workers API\n    description: >-\n      The ADP Workers API enables access to employee and worker data including personal\n      information, job assignments, pay grades, and employment status. REST APIs support\n      worker lifecycle management for HCM integrations across ADP Workforce Now, Vantage\n      HCM, and Enterprise HR platforms.\n    tags:\n      - HCM\n      - HR\n      - Payroll\n      - Workers\n\
   \      - Workforce\n    image: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/image.png\n    humanURL: https://developers.adp.com/\n    baseURL: https://api.adp.com\n    properties:\n      - type: Documentation\n        url: https://developers.adp.com/\n      - type: GettingStarted\n        url: https://developers.adp.com/getting-started/client-integration-overview\n      - type: OpenAPI\n        url: openapi/adp-workers-openapi.yml\n      - type: JSONSchema\n        url: json-schema/adp-worker-schema.json\n      - type: JSONLD\n        url: json-ld/adp-workers-context.jsonld\n  - aid: adp:adp-payroll-api\n    name: ADP Payroll API\n    description: >-\n      The ADP Payroll API provides programmatic access to payroll processing, payroll\n      output data, and compensation management. REST APIs support payroll runs, payroll\n      output retrieval (including CSV-formatted bulk data), and headcount and compensation\n      analysis across ADP payroll platforms.\n \
   \   tags:\n      - Compensation\n      - HCM\n      - HR\n      - Payroll\n    image: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/image.png\n    humanURL: https://developers.adp.com/\n    baseURL: https://api.adp.com\n    properties:\n      - type: Documentation\n        url: https://developers.adp.com/\n      - type: GettingStarted\n        url: https://developers.adp.com/getting-started/client-integration-overview\n      - type: OpenAPI\n        url: openapi/adp-payroll-openapi.yml\n      - type: JSONLD\n        url: json-ld/adp-payroll-context.jsonld\n  - aid: adp:adp-embedded-payroll-api\n    name: ADP Embedded Payroll API\n    description: >-\n      The ADP Embedded Payroll API enables ISVs and platforms to embed ADP payroll\n      capabilities directly into their applications. REST APIs support payroll processing,\n      tax compliance, and workforce management embedded within partner software products.\n    tags:\n      - Embedded\n      - HCM\n      - Payroll\n\

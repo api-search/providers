@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: amazon-redshift-data-api-openapi.yml
+  format: yaml
+  label: Amazon Redshift Data API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-data-api-openapi.yml
 apis:
 - description: The Amazon Redshift API for managing clusters, snapshots, and configurations.
   name: Amazon Redshift API
@@ -96,6 +103,7 @@ rules:
 skills: []
 slug: amazon-redshift
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-redshift\nname: Amazon Redshift\ndescription: >-\n  Amazon Redshift is a fast, fully managed cloud data warehouse that makes it\n  simple and cost-effective to analyze all your data using standard SQL and your\n  existing Business Intelligence (BI) tools.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntags:\n  - Analytics\n  - Big Data\n  - Cloud\n  - Data Lake\n  - Data Warehouse\n  - ETL\n  - Machine Learning\n  - Serverless\n  - SQL\napis:\n  - name: Amazon Redshift API\n    description: >-\n      The Amazon Redshift API for managing clusters, snapshots, and configurations.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://aws.amazon.com/redshift/\n    baseURL: https://redshift.amazonaws.com\n\
   \    tags:\n      - Clusters\n      - Data Warehouse\n      - Snapshots\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/redshift/\n      - type: OpenAPI\n        url: https://api.apis.guru/v2/specs/amazonaws.com/redshift/2012-12-01/openapi.yaml\n      - type: APIReference\n        url: https://docs.aws.amazon.com/redshift/latest/APIReference/Welcome.html\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html\n      - type: Pricing\n        url: https://aws.amazon.com/redshift/pricing/\n      - type: Console\n        url: https://console.aws.amazon.com/redshift/\n      - type: SDK\n        url: https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/redshift.html\n        title: Python SDK\n      - type: SDK\n        url: https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/redshift/\n        title: JavaScript SDK\n      - type: CLI\n        url: https://docs.aws.amazon.com/cli/latest/reference/redshift/\n\
   \      - type: BestPractices\n        url: https://docs.aws.amazon.com/redshift/latest/dg/best-practices.html\n      - type: Security\n        url: https://docs.aws.amazon.com/redshift/latest/mgmt/security.html\n      - type: FAQ\n        url: https://aws.amazon.com/redshift/faqs/\n      - type: ReleaseNotes\n        url: https://docs.aws.amazon.com/redshift/latest/mgmt/cluster-versions.html\n      - type: ChangeLog\n        url: https://docs.aws.amazon.com/redshift/latest/mgmt/document-history.html\n  - name: Amazon Redshift Data API\n    description: >-\n      The Amazon Redshift Data API for running SQL statements without managing\n      connections. Supports asynchronous execution with IAM and Secrets Manager\n      authentication.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://docs.aws.amazon.com/redshift/latest/mgmt/data-api.html\n    baseURL: https://redshift-data.amazonaws.com\n    tags:\n      - Data API\n      -\

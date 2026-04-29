@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: activision-blizzard-battle-net.json
+  format: json
+  label: Battle.net API
+  slug: battle-net
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-battle-net.json
 apis:
 - description: Game data and profile APIs for World of Warcraft, Diablo III, Hearthstone, StarCraft II, and Battle.net account information. Requires OAuth2 authentication via develop.battle.net.
   name: Battle.net API
@@ -67,6 +74,7 @@ rules:
 skills: []
 slug: activision-blizzard
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: activision-blizzard\nurl: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/apis.yml\nmodified: '2026-04-19'\napis:\n  - aid: activision-blizzard:battle-net\n    name: Battle.net API\n    tags:\n      - Gaming\n      - World Of Warcraft\n      - Hearthstone\n      - Diablo\n      - Starcraft\n      - Battle.net\n    properties:\n      - type: HumanURL\n        url: https://develop.battle.net/\n      - type: BaseURL\n        url: https://us.api.blizzard.com\n      - type: OpenAPI\n        url: openapi/activision-blizzard-battle-net.json\n      - type: JSONSchema\n        url: json-schema/\n      - type: JSONStructure\n        url: json-structure/\n      - type: Examples\n        url: examples/\n    description: >-\n      Game data and profile APIs for World of Warcraft, Diablo III, Hearthstone,\n      StarCraft II, and Battle.net account information. Requires OAuth2 authentication\n      via develop.battle.net.\ncommon:\n  - type: Website\n\
   \    url: https://www.activision-blizzard.com\n  - type: Portal\n    url: https://develop.battle.net/\n  - type: Documentation\n    url: https://develop.battle.net/documentation\n  - type: GettingStarted\n    url: https://develop.battle.net/documentation/guides/getting-started\n  - type: Authentication\n    url: https://develop.battle.net/documentation/guides/using-oauth\n  - type: Pricing\n    url: https://develop.battle.net/documentation/guides/getting-started\n  - type: GitHubOrganization\n    url: https://github.com/Blizzard\n  - type: SpectralRules\n    url: rules/activision-blizzard-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/activision-blizzard-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/game-data.yaml\n  - type: JSONLD\n    url: json-ld/activision-blizzard-context.jsonld\ndescription: >-\n  Activision Blizzard is a global video game developer and publisher producing franchises\n  including Call of Duty, World of Warcraft, Diablo, Overwatch,\
   \ and Candy Crush across\n  console, PC, and mobile platforms.\nfeatures:\n  - name: World Of Warcraft Game Data\n    description: Access WoW character profiles, realm listings, guild data, and item information via the Battle.net API.\n    tags:\n      - World Of Warcraft\n      - Game Data\n  - name: Diablo III Profiles\n    description: Retrieve Diablo III career profiles and hero data for Battle.net accounts.\n    tags:\n      - Diablo\n      - Game Data\n  - name: Hearthstone Cards\n    description: Search and retrieve Hearthstone collectible card data including class, set, and mana cost filters.\n    tags:\n      - Hearthstone\n      - Game Data\n  - name: StarCraft II Profiles\n    description: Access StarCraft II player profiles and ladder data.\n    tags:\n      - Starcraft\n      - Game Data\n  - name: Battle.net OAuth2\n    description: OAuth2 client credentials and authorization code flows for game data and profile access.\n    tags:\n      - Authentication\n      - OAuth2\n\

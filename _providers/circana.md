@@ -1,5 +1,12 @@
 ---
 api_count: 14
+api_specs:
+- filename: circana-liquid-data.yaml
+  format: yaml
+  label: Circana Liquid Data API
+  slug: liquid-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-liquid-data.yaml
 apis:
 - description: Unify+ is Circana's business intelligence platform that provides access to data visualization, analytics, and reporting capabilities with conversational AI for automated analysis and insights.
   name: Circana Unify+ API
@@ -157,6 +164,7 @@ rules:
 skills: []
 slug: circana
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: circana\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/apis.yml\nname: Circana\ntags:\n  - Analytics\n  - Consumer Data\n  - Market Research\n  - Retail\n  - CPG\n  - Point Of Sale\n  - Consumer Insights\n  - Business Intelligence\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nposition: Consumer\ndescription: >-\n  Circana (formerly IRI and The NPD Group) is the leading advisor on the\n  complexity of consumer behavior, providing data-driven insights, analytics,\n  and technology solutions that help almost 7,000 brands and retailers\n  understand and predict consumer purchasing patterns across retail, CPG,\n  beauty, foodservice, healthcare, and technology sectors covering $4T+ in\n  global consumer spending across 26 industries.\napis:\n  - aid: circana:unify-plus-api\n    name: Circana Unify+ API\n    tags:\n      -\
   \ Business Intelligence\n      - Data Visualization\n      - Analytics\n      - Reporting\n    humanURL: https://www.circana.com/solutions/unify-plus\n    description: >-\n      Unify+ is Circana's business intelligence platform that provides access\n      to data visualization, analytics, and reporting capabilities with\n      conversational AI for automated analysis and insights.\n    properties:\n      - type: Documentation\n        url: https://www.circana.com/solutions/unify-plus\n  - aid: circana:liquid-data-api\n    name: Circana Liquid Data API\n    tags:\n      - Data Platform\n      - Analytics\n      - Cloud\n      - Data Integration\n    humanURL: https://www.circana.com/company/technology\n    description: >-\n      Liquid Data is Circana's cross-industry technology platform providing\n      advanced analytics, data integration, and AI-powered insights deployable\n      across Azure, AWS, Google Cloud, and Oracle Cloud environments.\n    properties:\n      - type: Documentation\n\
   \        url: https://www.circana.com/company/technology\n      - type: OpenAPI\n        url: openapi/circana-liquid-data.yaml\n      - type: JSONSchema\n        url: json-schema/liquid-data-pos-record-schema.json\n        title: POS Record Schema\n      - type: JSONSchema\n        url: json-schema/liquid-data-market-share-record-schema.json\n        title: Market Share Record Schema\n      - type: JSONSchema\n        url: json-schema/liquid-data-consumer-purchase-record-schema.json\n        title: Consumer Purchase Record Schema\n      - type: JSONSchema\n        url: json-schema/liquid-data-consumer-segment-schema.json\n        title: Consumer Segment Schema\n      - type: JSONSchema\n        url: json-schema/liquid-data-category-detail-schema.json\n        title: Category Detail Schema\n      - type: JSONSchema\n        url: json-schema/liquid-data-brand-detail-schema.json\n        title: Brand Detail Schema\n      - type: JSONSchema\n        url: json-schema/liquid-data-retailer-summary-schema.json\n\

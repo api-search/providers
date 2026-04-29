@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: calendly-scheduling-api-openapi.yml
+  format: yaml
+  label: Calendly Scheduling API
+  slug: scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/openapi/calendly-scheduling-api-openapi.yml
+- filename: calendly-webhook-api-asyncapi.yml
+  format: yaml
+  label: Calendly Webhook API
+  slug: webhook-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/asyncapi/calendly-webhook-api-asyncapi.yml
 apis:
 - description: The Calendly Scheduling API (v2) is a RESTful API that allows developers to programmatically manage scheduling workflows. It provides endpoints for managing users, organizations, event types, schedule
   name: Calendly Scheduling API
@@ -64,6 +77,7 @@ name: Calendly
 skills: []
 slug: calendly
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: calendly\nname: Calendly\nurl: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/apis.yml\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntype: Index\ntags:\n  - Appointments\n  - Automation\n  - Booking\n  - Calendars\n  - Meetings\n  - Scheduling\ncreated: '2026-03-20'\nmodified: '2026-04-23'\nspecificationVersion: '0.19'\ndescription: >-\n  Calendly is a scheduling automation platform that helps individuals, teams, and\n  organizations automate the meeting lifecycle by removing the back-and-forth of\n  scheduling. Their developer platform provides APIs for programmatically managing\n  scheduling workflows, receiving real-time event notifications via webhooks, and\n  embedding scheduling interfaces directly into third-party applications.\napis:\n  - aid: calendly:scheduling-api\n    name: Calendly Scheduling API\n    tags:\n      - Appointments\n      - Automation\n      - Booking\n      - Calendars\n      -\
   \ Meetings\n      - Scheduling\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.calendly.com\n    humanURL: https://developer.calendly.com/api-docs\n    properties:\n      - url: https://developer.calendly.com/api-docs\n        type: Documentation\n      - url: openapi/calendly-scheduling-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Calendly Scheduling API (v2) is a RESTful API that allows developers to\n      programmatically manage scheduling workflows. It provides endpoints for managing\n      users, organizations, event types, scheduled events, invitees, and routing forms.\n      The API uses JSON for request and response bodies, standard HTTP methods, and\n      supports authentication via personal access tokens and OAuth 2.1.\n  - aid: calendly:webhook-api\n    name: Calendly Webhook API\n    tags:\n      - Events\n      - Notifications\n      - Scheduling\n      - Webhooks\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
   \    baseURL: https://api.calendly.com\n    humanURL: https://developer.calendly.com/api-docs\n    properties:\n      - url: https://developer.calendly.com/api-docs\n        type: Documentation\n      - url: asyncapi/calendly-webhook-api-asyncapi.yml\n        type: AsyncAPI\n    description: >-\n      The Calendly Webhook API enables developers to receive real-time\n      notifications when scheduling events occur in Calendly. By creating\n      webhook subscriptions, applications can automatically receive data\n      whenever invitees schedule, cancel, or reschedule meetings. This\n      eliminates the need for polling the API and allows for event-driven\n      integrations that respond immediately to changes in scheduling activity.\n  - aid: calendly:embed-api\n    name: Calendly Embed API\n    tags:\n      - Embedding\n      - Scheduling\n      - Web Components\n      - Widgets\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n\

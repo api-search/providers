@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-secrets-manager-openapi.yml
+  format: yaml
+  label: Amazon Secrets Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-openapi.yml
 apis:
 - description: The Amazon Secrets Manager API for creating, managing, retrieving, and rotating secrets including database credentials, API keys, and other sensitive configuration.
   name: Amazon Secrets Manager API
@@ -188,6 +195,7 @@ rules:
 skills: []
 slug: amazon-secrets-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Secrets Manager\ndescription: >-\n  Amazon Secrets Manager helps you manage, retrieve, and rotate database credentials,\n  API keys, and other secrets throughout their lifecycle. It provides centralized\n  secrets management with built-in integration for Amazon RDS, Amazon Redshift, and\n  Amazon DocumentDB, enabling automatic rotation of secrets without requiring application\n  changes.\nurl: https://aws.amazon.com/secrets-manager/\nbaseURL: https://secretsmanager.amazonaws.com\nx-type: company\ncreated: '2024-01-01'\nmodified: '2026-04-19'\n\ntags:\n- AWS\n- Configuration\n- Credentials\n- Rotation\n- Secrets\n- Security\n\napis:\n\n- name: Amazon Secrets Manager API\n  description: >-\n    The Amazon Secrets Manager API for creating, managing, retrieving, and rotating\n    secrets including database credentials, API keys, and other sensitive configuration.\n  humanURL: https://docs.aws.amazon.com/secretsmanager/latest/apireference/\n  baseURL: https://secretsmanager.{region}.amazonaws.com\n\
   \  tags:\n  - Security\n  - Secrets\n  - Credentials\n  - Rotation\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/secretsmanager/latest/apireference/\n  - type: OpenAPI\n    url: openapi/amazon-secrets-manager-openapi.yml\n  - type: JSONSchema\n    url: json-schema/amazon-secrets-manager-secret-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-secrets-manager-secret-value-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-secrets-manager-rotation-rules-schema.json\n\ncommon:\n\n- type: Portal\n  url: https://aws.amazon.com/\n\n- type: GettingStarted\n  url: https://aws.amazon.com/secrets-manager/getting-started/\n\n- type: Documentation\n  url: https://docs.aws.amazon.com/secretsmanager/latest/userguide/\n\n- type: APIReference\n  url: https://docs.aws.amazon.com/secretsmanager/latest/apireference/\n\n- type: Console\n  url: https://console.aws.amazon.com/secretsmanager/\n\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n\
   \n- type: Pricing\n  url: https://aws.amazon.com/secrets-manager/pricing/\n\n- type: FAQ\n  url: https://aws.amazon.com/secrets-manager/faqs/\n\n- type: Blog\n  url: https://aws.amazon.com/blogs/security/\n\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n\n- type: Support\n  url: https://aws.amazon.com/support/\n\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n\n- type: Security\n  url: https://docs.aws.amazon.com/secretsmanager/latest/userguide/security.html\n\n- type: Compliance\n  url: https://aws.amazon.com/compliance/\n\n- type: GitHubOrganization\n  url: https://github.com/aws\n\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n\n- type: StackOverflow\n  url: https://stackoverflow.com/questions/tagged/aws-secrets-manager\n\n- type: KnowledgeCenter\n  url: https://repost.aws/knowledge-center\n\n- type: CLI\n  url: https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/\n\

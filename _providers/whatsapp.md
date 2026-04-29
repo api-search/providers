@@ -1,5 +1,24 @@
 ---
 api_count: 4
+api_specs:
+- filename: whatsapp-cloud-api-openapi.yml
+  format: yaml
+  label: WhatsApp Business Platform API
+  slug: business-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/openapi/whatsapp-cloud-api-openapi.yml
+- filename: whatsapp-business-management-api-openapi.yml
+  format: yaml
+  label: WhatsApp Business Account Management API
+  slug: business-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/openapi/whatsapp-business-management-api-openapi.yml
+- filename: whatsapp-flows-api-openapi.yml
+  format: yaml
+  label: WhatsApp Flows API
+  slug: flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/openapi/whatsapp-flows-api-openapi.yml
 apis:
 - description: The Cloud API and On-Premises API that enables medium and large businesses to communicate with customers at scale.
   name: WhatsApp Business Platform API
@@ -185,6 +204,7 @@ solutions:
   name: WhatsApp Business App
 - description: Interactive forms and workflows within WhatsApp conversations.
   name: WhatsApp Flows
+source_filename: apis.yml
 source_yaml: "aid: whatsapp\nname: WhatsApp\ndescription: APIs for the WhatsApp messaging platform, enabling businesses to communicate\n  with customers through the world's most popular messaging app.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-17'\nspecificationVersion: '0.19'\napis:\n- name: WhatsApp Business Platform API\n  description: The Cloud API and On-Premises API that enables medium and large businesses\n    to communicate with customers at scale.\n  image: https://www.whatsapp.com/img/fb-post.jpg\n  humanURL: https://developers.facebook.com/docs/whatsapp\n  baseURL: https://graph.facebook.com/v21.0\n  tags:\n  - Business\n  - Chat\n  - Communications\n  - Messaging\n  properties:\n  - type: Documentation\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api\n  - type: OpenAPI\n    url: openapi/whatsapp-cloud-api-openapi.yml\n\
   \  - type: Authentication\n    url: https://developers.facebook.com/docs/whatsapp/business-management-api/get-started\n  - type: Documentation\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks\n  - type: AsyncAPI\n    url: asyncapi/whatsapp-webhooks-asyncapi.yml\n  - type: JSONSchema\n    url: json-schema/whatsapp-message-schema.json\n  - type: Reference\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages\n  - type: GettingStarted\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/get-started\n  - type: Pricing\n    url: https://developers.facebook.com/docs/whatsapp/pricing\n  - type: RateLimits\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/overview#throughput\n  - type: StatusPage\n    url: https://metastatus.com/\n  - type: Change Log\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/changelog\n  - type: Error Codes\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes\n\
   \  - type: PostmanCollection\n    url: https://www.postman.com/meta/whatsapp-business-platform/collection/wlk6lh4/whatsapp-cloud-api\n  - type: Node.js SDK\n    url: https://github.com/WhatsApp/WhatsApp-Nodejs-SDK\n  - type: Sandbox\n    url: https://business.whatsapp.com/developers/developer-hub\n  - type: Migration Guide\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/migrate-to-cloud-api\n  - type: Media Reference\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/reference/media\n  - type: Phone Numbers Reference\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/reference/phone-numbers\n  - type: Business Profiles Reference\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/reference/business-profiles\n  - type: Two-Step Verification\n    url: https://developers.facebook.com/docs/whatsapp/cloud-api/reference/two-step-verification\n  - type: Versioning\n    url: https://developers.facebook.com/docs/graph-api/guides/versioning\n\

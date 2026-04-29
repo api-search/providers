@@ -1,5 +1,12 @@
 ---
 api_count: 16
+api_specs:
+- filename: veritas-netbackup-rest-api-openapi.yml
+  format: yaml
+  label: Veritas NetBackup REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-rest-api-openapi.yml
 apis:
 - description: Primary REST API for NetBackup operations including backup policies, jobs, catalogs, and asset management.
   name: Veritas NetBackup REST API
@@ -190,6 +197,7 @@ rules:
 skills: []
 slug: veritas-netbackup
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Veritas NetBackup\ndescription: >-\n  Enterprise-grade data protection and backup solution with comprehensive REST APIs\n  for backup, recovery, and data management operations.\nimage: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg\nurl: https://www.veritas.com/products/backup-and-recovery/netbackup\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.18'\ntags:\n  - Backup\n  - Data Protection\n  - Disaster Recovery\n  - Enterprise\n  - Recovery\n  - Storage\napis:\n  - name: Veritas NetBackup REST API\n    description: >-\n      Primary REST API for NetBackup operations including backup policies, jobs, catalogs,\n      and asset management.\n    image: https://www.veritas.com/content/dam/veritas/images/logos/veritas-logo.svg\n    humanURL: https://www.veritas.com/support/en_US/article.100040135\n    baseURL: https://netbackup-primary-server:1556/netbackup\n    tags:\n      - Backup\n      - Catalog\n      - Jobs\n      - Policies\n\
   \      - Restore\n    properties:\n      - type: Documentation\n        url: https://sort.veritas.com/documents/netbackup/10.1/productguides\n      - type: APIReference\n        url: https://sort.veritas.com/public/documents/nbu/10.1/windowsandunix/productguides/html/api/nbu_10.1_webapi.html\n      - type: Console\n        url: https://netbackup-primary-server:1556/api-docs\n      - type: GettingStarted\n        url: https://sort.veritas.com/public/documents/nbu/10.3/windowsandunix/productguides/html/getting-started/\n      - type: Authentication\n        url: https://sort.veritas.com/public/documents/nbu/10.0/windowsandunix/productguides/html/getting-started/\n      - type: SDK\n        url: https://github.com/VeritasOS/netbackup-api-code-samples\n      - type: ChangeLog\n        url: https://www.veritas.com/protection/netbackup/whats-new\n      - type: ReleaseNotes\n        url: https://www.veritas.com/support/en_US/doc/103228346-168289021-0/v168307940-168289021\n      - type: Documentation\n\
   \        url: https://www.veritas.com/support/en_US/article.100043102\n      - type: OpenAPI\n        url: openapi/veritas-netbackup-rest-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/veritas-netbackup-job-schema.json\n      - type: JSONLD\n        url: json-ld/veritas-netbackup-context.jsonld\n  - name: NetBackup Administration API\n    description: >-\n      API for managing NetBackup jobs including getting job details, listing jobs\n      by filter, restarting, resuming, suspending, canceling, and deleting jobs, and\n      retrieving job file lists and logs.\n    humanURL: https://www.veritas.com/support/en_US/article.100040135\n    baseURL: https://netbackup-primary-server:1556/netbackup/admin\n    tags:\n      - Administration\n      - Jobs\n      - Management\n      - Monitoring\n    properties:\n      - type: Documentation\n        url: https://sort.veritas.com/public/documents/nbu/10.3/windowsandunix/productguides/html/getting-started/\n      - type: GettingStarted\n\

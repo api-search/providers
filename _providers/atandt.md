@@ -1,5 +1,24 @@
 ---
 api_count: 6
+api_specs:
+- filename: atandt-wireless-apis.yaml
+  format: yaml
+  label: AT&T Wireless APIs
+  slug: att-wireless-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-wireless-apis.yaml
+- filename: atandt-network-apis.yaml
+  format: yaml
+  label: AT&T 5G Network APIs
+  slug: att-network-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-network-apis.yaml
+- filename: atandt-enterprise-connectivity-apis.yaml
+  format: yaml
+  label: AT&T Enterprise Connectivity APIs
+  slug: att-enterprise-connectivity-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-enterprise-connectivity-apis.yaml
 apis:
 - description: Developer APIs for AT&T's wireless network capabilities including SMS messaging, MMS messaging, OAuth authentication, speech-to-text, text-to-speech, in-app messaging, and advertising APIs for consume
   name: AT&T Wireless APIs
@@ -143,6 +162,7 @@ solutions:
   name: FirstNet
 - description: Network services for carriers, MVNOs, and resellers including voice, data, and roaming services on AT&T's infrastructure.
   name: AT&T Wholesale
+source_filename: apis.yml
 source_yaml: "aid: atandt\nname: AT&T\ndescription: >-\n  AT&T Inc. is a multinational telecommunications conglomerate providing\n  wireless and wireline communications, broadband internet, digital TV,\n  and business services. As a Fortune 100 company, AT&T operates one of the\n  largest telecommunications networks in the United States and globally.\n  This profile covers AT&T's full API ecosystem including consumer\n  telecommunications APIs, enterprise connectivity APIs, and business\n  service management APIs available through AT&T's developer programs.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Telecommunications\n  - Fortune 100\n  - Wireless\n  - Wireline\n  - Broadband\n  - Enterprise\n  - 5G\n  - Network\nurl: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/apis.yml\ncreated: '2026-03-23'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: atandt:att-wireless-apis\n    name:\
   \ AT&T Wireless APIs\n    description: >-\n      Developer APIs for AT&T's wireless network capabilities including SMS\n      messaging, MMS messaging, OAuth authentication, speech-to-text,\n      text-to-speech, in-app messaging, and advertising APIs for consumer\n      and business applications.\n    humanURL: https://developer.att.com/s/\n    baseURL: https://api.att.com\n    tags:\n      - Wireless\n      - SMS\n      - MMS\n      - Speech\n      - Advertising\n      - OAuth\n    properties:\n      - type: Documentation\n        url: https://developer.att.com/s/\n      - type: Portal\n        url: https://developer.att.com/s/\n      - type: Authentication\n        url: https://developer.att.com/oauth-2/docs\n      - type: GettingStarted\n        url: https://developer.att.com/s/\n      - type: OpenAPI\n        url: openapi/atandt-wireless-apis.yaml\n  - aid: atandt:att-network-apis\n    name: AT&T 5G Network APIs\n    description: >-\n      CAMARA-standard 5G network APIs available\
   \ through the AT&T Developer Hub\n      and Network API Accelerator Program. Includes SIM Swap detection, Device\n      Status, Number Verification, Quality on Demand, Network Insights, and\n      Mobility Threat and Anomaly Detection APIs.\n    humanURL: https://devex-web.att.com/developer-hub/\n    baseURL: https://api.att.com\n    tags:\n      - 5G\n      - CAMARA\n      - Network\n      - Device Status\n      - SIM Swap\n      - Quality of Service\n    properties:\n      - type: Documentation\n        url: https://devex-web.att.com/developer-hub/\n      - type: GettingStarted\n        url: https://devex-web.att.com/developer-hub/docs/network-api-accelerator-program\n      - type: OpenAPI\n        url: openapi/atandt-network-apis.yaml\n  - aid: atandt:att-enterprise-connectivity-apis\n    name: AT&T Enterprise Connectivity APIs\n    description: >-\n      Enterprise-grade APIs for AT&T wireline business services including\n      service qualification, quoting, ordering, and provisioning.\

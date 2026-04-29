@@ -1,5 +1,24 @@
 ---
 api_count: 4
+api_specs:
+- filename: microsoft-word-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Word API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-graph-api.yaml
+- filename: microsoft-word-javascript-api.yaml
+  format: yaml
+  label: Office JavaScript API for Word
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-javascript-api.yaml
+- filename: microsoft-word-open-xml-sdk.yaml
+  format: yaml
+  label: Open XML SDK for Word
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-open-xml-sdk.yaml
 apis:
 - description: 'REST API for interacting with Word documents in Microsoft 365 and OneDrive via the Microsoft Graph unified endpoint. Provides operations for file management, content access, sharing, permissions, and '
   name: Microsoft Graph Word API
@@ -139,6 +158,7 @@ rules:
 skills: []
 slug: microsoft-word
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: microsoft-word\nname: Microsoft Word\ndescription: >-\n  APIs for Microsoft Word document creation, manipulation, and automation\n  across Microsoft 365 cloud services, Office Add-ins, SharePoint, and\n  Open XML document processing.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Documents\n  - Microsoft 365\n  - Office\n  - Productivity\n  - Word Processing\ncreated: '2024'\nmodified: '2026-04-18'\nurl: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - name: Microsoft Graph Word API\n    description: >-\n      REST API for interacting with Word documents in Microsoft 365 and OneDrive\n      via the Microsoft Graph unified endpoint. Provides operations for file\n      management, content access, sharing, permissions, and document metadata.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL:\
   \ https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n      - Cloud\n      - Documents\n      - Microsoft Graph\n      - REST\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0\n      - type: OpenAPI\n        url: openapi/microsoft-word-graph-api.yaml\n      - type: Authentication\n        url: https://learn.microsoft.com/en-us/graph/auth/\n      - type: APIReference\n        url: https://learn.microsoft.com/en-us/graph/api/resources/driveitem?view=graph-rest-1.0\n      - type: SDK\n        url: https://www.nuget.org/packages/Microsoft.Graph\n        title: C# SDK\n      - type: SDK\n        url: https://pypi.org/project/msgraph-sdk/\n        title: Python SDK\n      - type: SDK\n        url: https://www.npmjs.com/package/@microsoft/microsoft-graph-client\n        title: JavaScript SDK\n      - type: SDK\n        url: https://github.com/microsoftgraph/msgraph-sdk-java\n\
   \        title: Java SDK\n      - type: SDK\n        url: https://github.com/microsoftgraph/msgraph-sdk-go\n        title: Go SDK\n      - type: SDK\n        url: https://github.com/microsoftgraph/msgraph-sdk-php\n        title: PHP SDK\n      - type: JSONSchema\n        url: json-schema/graph-api-drive-item-schema.json\n        title: DriveItem Schema\n      - type: JSONSchema\n        url: json-schema/graph-api-permission-schema.json\n        title: Permission Schema\n      - type: JSONStructure\n        url: json-structure/graph-api-drive-item-structure.json\n        title: DriveItem Structure\n      - type: JSONStructure\n        url: json-structure/graph-api-permission-structure.json\n        title: Permission Structure\n      - type: JSONLD\n        url: json-ld/microsoft-word-graph-api-context.jsonld\n      - type: Example\n        url: examples/graph-api-drive-item-example.json\n        title: DriveItem Example\n      - type: Example\n        url: examples/graph-api-permission-example.json\n\

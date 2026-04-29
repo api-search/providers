@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-lambda-openapi.yml
+  format: yaml
+  label: Amazon Lambda API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/openapi/amazon-lambda-openapi.yml
 apis:
 - description: Core API for managing AWS Lambda functions, event source mappings, layers, aliases, versions, and permissions. Enables creating and invoking serverless functions, configuring triggers from AWS service
   name: Amazon Lambda API
@@ -123,6 +130,7 @@ rules:
 skills: []
 slug: amazon-lambda
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Lambda\ndescription: AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers, automatically scaling and executing your code in response to events from over \n  200 AWS services and SaaS applications while you pay only for the compute time you consume.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/lambda/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon Lambda API\n  description: >-\n    Core API for managing AWS Lambda functions, event source mappings, layers,\n    aliases, versions, and permissions. Enables creating and invoking serverless\n    functions, configuring triggers from AWS services, and managing function\n    deployment packages and runtime configurations.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/lambda/\n  baseURL: https://lambda.amazonaws.com\n\
   \  tags:\n  - AWS\n  - Compute\n  - Event-Driven\n  - Functions\n  - Serverless\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-lambda-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-lambda-function-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-lambda-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/lambda/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/lambda/getting-started/\n  - type: Authentication\n    url: https://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html\n  - type: SDKs\n    url: https://aws.amazon.com/tools/\n  - type: Status\n    url: https://status.aws.amazon.com/\n  - type: Best Practices\n    url: https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html\n  - type: FAQ\n\
   \    url: https://aws.amazon.com/lambda/faqs/\n  - type: Service Level Agreement\n    url: https://aws.amazon.com/lambda/sla/\n  - type: User Guide\n    url: https://docs.aws.amazon.com/lambda/latest/dg/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/lambda/latest/api/\n  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/lambda/\n  - type: Security\n    url: https://docs.aws.amazon.com/lambda/latest/dg/lambda-security.html\n  - type: JSONSchema\n    url: json-schema/amazon-lambda-event-source-mapping-schema.json\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Portal\n  url: https://aws.amazon.com/lambda/\n- type: Documentation\n  url: https://docs.aws.amazon.com/lambda/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/compute/\n- type: GitHubOrganization\n\

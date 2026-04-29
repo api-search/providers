@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-software-foundation-projects-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Projects API
+  slug: projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-projects-api-openapi.yml
+- filename: apache-software-foundation-whimsy-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Whimsy Public Data API
+  slug: whimsy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-whimsy-api-openapi.yml
 apis:
 - description: The Apache Software Foundation Projects API provides read-only access to JSON data about ASF projects, committees, releases, and podlings. The data is served as static JSON files from projects.apache.
   name: Apache Software Foundation Projects API
@@ -70,6 +83,7 @@ rules:
 skills: []
 slug: apache-software-foundation
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-software-foundation\nname: Apache Software Foundation\ndescription: >-\n  APIs for the Apache Software Foundation (ASF), a nonprofit organization that supports the\n  development of open-source software projects under the Apache License, providing governance,\n  legal protection, and infrastructure for over 350 projects. The ASF exposes public APIs for\n  project discovery, committee governance data, member information, and organizational structure\n  through its Projects API and Whimsy Public Data API.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - ASF\n  - Open Source\n  - Governance\n  - Projects\n  - Apache\ncreated: '2025-01-01'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-software-foundation:projects-api\n    name:\
   \ Apache Software Foundation Projects API\n    description: >-\n      The Apache Software Foundation Projects API provides read-only access to JSON data about\n      ASF projects, committees, releases, and podlings. The data is served as static JSON files\n      from projects.apache.org and includes comprehensive information about the foundation's\n      structure, project metadata, committee membership, release histories, and incubating podlings.\n    humanURL: https://projects.apache.org/\n    tags:\n      - Committees\n      - Open Source\n      - Projects\n      - Releases\n      - Podlings\n    properties:\n      - type: Documentation\n        url: https://projects.apache.org/\n      - type: OpenAPI\n        url: openapi/apache-software-foundation-projects-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/apache-software-foundation-project-schema.json\n      - type: JSONSchema\n        url: json-schema/apache-software-foundation-committee-schema.json\n      - type:\
   \ JSONSchema\n        url: json-schema/apache-software-foundation-podling-schema.json\n\n  - aid: apache-software-foundation:whimsy-api\n    name: Apache Software Foundation Whimsy Public Data API\n    description: >-\n      The Apache Whimsy Public Data API provides access to publicly available information about\n      the Apache Software Foundation's organizational structure. It exposes data about committees,\n      members, committers, and ICLA (Individual Contributor License Agreement) information. The\n      data is maintained by the ASF Secretary and Whimsy tooling.\n    humanURL: https://whimsy.apache.org/public/\n    tags:\n      - Governance\n      - Members\n      - Open Source\n      - Committees\n    properties:\n      - type: Documentation\n        url: https://whimsy.apache.org/public/\n      - type: OpenAPI\n        url: openapi/apache-software-foundation-whimsy-api-openapi.yml\n\ncommon:\n  - type: Portal\n    url: https://www.apache.org/\n  - type: Blog\n    url: https://blogs.apache.org/\n\

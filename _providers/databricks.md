@@ -1,5 +1,24 @@
 ---
 api_count: 57
+api_specs:
+- filename: databricks-openapi.yml
+  format: yaml
+  label: Databricks Clusters API
+  slug: clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
+- filename: databricks-openapi.yml
+  format: yaml
+  label: Databricks Jobs API
+  slug: jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
+- filename: databricks-openapi.yml
+  format: yaml
+  label: Databricks Workspace API
+  slug: workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
 apis:
 - description: Databricks is a cloud-based data platform that simplifies and accelerates the process of preparing and analyzing large volumes of data. The platform integrates with popular data sources and tools, all
   name: Databricks
@@ -346,6 +365,7 @@ rules:
 skills: []
 slug: databricks
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: databricks\nurl: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/apis.yml\napis:\n  - aid: databricks:databricks\n    name: Databricks\n    tags:\n      - Analytics\n      - Data\n      - Visualize\n    humanURL: ' https://www.databricks.com'\n    properties:\n      - url: ' https://www.databricks.com'\n        type: Documentation\n      - url: https://docs.databricks.com/api/workspace/introduction\n        type: API Reference\n    description: >-\n      Databricks is a cloud-based data platform that simplifies and accelerates the\n      process of preparing and analyzing large volumes of data. The platform integrates\n      with popular data sources and tools, allowing data engineers and data scientists\n      to collaborate and work more efficiently. Databricks offers powerful features\n      such as data visualization, machine learning, and real-time analytics, helping\n      organizations make data-driven decisions and improve their business\
   \ outcomes.\n  - aid: databricks:clusters-api\n    name: Databricks Clusters API\n    tags:\n      - Clusters\n      - Compute\n      - Infrastructure\n    humanURL: https://docs.databricks.com/api/workspace/clusters\n    properties:\n      - url: https://docs.databricks.com/api/workspace/clusters\n        type: Documentation\n      - url: openapi/databricks-openapi.yml\n        type: OpenAPI\n      - url: json-schema/databricks-cluster-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-create-cluster-request-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-edit-cluster-request-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-cluster-details-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-spark-node-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-auto-scale-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-aws-attributes-schema.json\n\
   \        type: JSONSchema\n      - url: json-schema/databricks-azure-attributes-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-gcp-attributes-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-init-script-info-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-cluster-event-schema.json\n        type: JSONSchema\n      - url: json-schema/databricks-error-response-schema.json\n        type: JSONSchema\n      - url: json-ld/databricks-context.jsonld\n        type: JSONLD\n    description: The Databricks Clusters API allows you to create, start, edit, list, terminate, and delete clusters. Clusters are managed cloud resources that enable you to run data engineering and data science workloads on Apache Spark in the cloud. The API provides programmatic control over cluster lifecycle management, configuration, and monitoring.\n  - aid: databricks:jobs-api\n    name: Databricks Jobs API\n    tags:\n      - Jobs\n      -\

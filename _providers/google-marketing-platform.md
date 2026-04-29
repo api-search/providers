@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Marketing Platform Admin API
+  slug: admin
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/openapi/openapi.yml
 apis:
 - description: The Marketing Platform Admin API enables programmatic management of organization-level settings including links to Google Analytics accounts, service level configuration, and organization administrati
   name: Google Marketing Platform Admin API
@@ -86,6 +93,7 @@ rules:
 skills: []
 slug: google-marketing-platform
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-marketing-platform\nname: Google Marketing Platform Admin\ndescription: >-\n  The Google Marketing Platform Admin API provides programmatic access to manage\n  links between Google Marketing Platform organizations and Google Analytics\n  accounts. It enables creating, updating, deleting, and listing organization\n  links and managing service levels for integrated marketing analytics.\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/apis.yml\ncreated: '2026-03-13'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\naccess: 3rd-Party\ntags:\n  - Analytics\n  - Google Marketing Platform\n  - Marketing\n  - Organization Management\n  - Platform Administration\napis:\n  - aid: google-marketing-platform:admin\n    name: Google Marketing Platform Admin API\n    description: >-\n      The Marketing Platform Admin API enables\
   \ programmatic management of\n      organization-level settings including links to Google Analytics accounts,\n      service level configuration, and organization administration.\n    humanURL: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest\n    baseURL: https://marketingplatformadmin.googleapis.com\n    tags:\n      - Admin\n      - Analytics\n      - Organizations\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest\n      - type: OpenAPI\n        url: openapi/openapi.yml\n      - type: Authentication\n        url: https://developers.google.com/docs/api/how-tos/authorizing\n      - type: GettingStarted\n        url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest\n      - type: JSONSchema\n        url: json-schema/json-schema.yml\n      - type: JSONLD\n        url: json-ld/json-ld.yml\ncommon:\n  - type: Portal\n    url: https://marketingplatform.google.com\n\
   \  - type: GettingStarted\n    url: https://developers.google.com/marketing-platform/devguides/api/admin/v1/rest\n  - type: Documentation\n    url: https://developers.google.com/marketing-platform\n  - type: Authentication\n    url: https://developers.google.com/docs/api/how-tos/authorizing\n  - type: Pricing\n    url: https://marketingplatform.google.com/about/\n  - type: TermsOfService\n    url: https://developers.google.com/terms\n  - type: PrivacyPolicy\n    url: https://policies.google.com/privacy\n  - type: StatusPage\n    url: https://status.cloud.google.com/\n  - type: Support\n    url: https://developers.google.com/marketing-platform/support\n  - type: JSONLD\n    url: json-ld/json-ld.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/admin-api.yaml\n    title: Admin API Shared Definition\n  - type: NaftikoCapability\n    url: capabilities/marketing-analytics.yaml\n    title: Marketing Analytics Administration Workflow\n  - type: Features\n    data:\n      - name:\

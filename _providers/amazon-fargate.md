@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-fargate-openapi.yml
+  format: yaml
+  label: Amazon Fargate API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-openapi.yml
 apis:
 - description: The Amazon Fargate API is accessed through Amazon ECS and enables you to run containers without managing servers or clusters. You can define tasks, configure networking and IAM policies, and deploy co
   name: Amazon Fargate API
@@ -128,6 +135,7 @@ rules:
 skills: []
 slug: amazon-fargate
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Fargate\ndescription: >-\n  Amazon Fargate is a serverless compute engine for containers that works with\n  both Amazon ECS and Amazon EKS. Fargate removes the need to provision and\n  manage servers, letting you specify and pay for resources per application,\n  and improves security through application isolation by design.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/fargate/\ntype: Index\ncreated: '2024-01-15'\nmodified: '2026-04-19'\ntags:\n- AWS\n- Compute\n- Containers\n- ECS\n- EKS\n- Microservices\n- Serverless\napis:\n- name: Amazon Fargate API\n  description: >-\n    The Amazon Fargate API is accessed through Amazon ECS and enables you to\n    run containers without managing servers or clusters. You can define tasks,\n    configure networking and IAM policies, and deploy containerized\n    applications with serverless compute capacity.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n\
   \  humanURL: https://aws.amazon.com/fargate/\n  baseURL: https://ecs.amazonaws.com\n  tags:\n  - Compute\n  - Containers\n  - Microservices\n  - Serverless\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html\n  - type: OpenAPI\n    url: openapi/amazon-fargate-openapi.yml\n  - type: JSONSchema\n    url: json-schema/amazon-fargate-cluster-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-fargate-task-definition-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-fargate-task-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-fargate-service-schema.json\n  - type: JSONStructure\n    url: json-structure/amazon-fargate-cluster-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-fargate-task-definition-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-fargate-task-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-fargate-service-structure.json\n\
   \  - type: Example\n    url: examples/amazon-fargate-cluster-example.json\n  - type: Example\n    url: examples/amazon-fargate-task-definition-example.json\n  - type: Example\n    url: examples/amazon-fargate-task-example.json\n  - type: Example\n    url: examples/amazon-fargate-service-example.json\n  - type: Pricing\n    url: https://aws.amazon.com/fargate/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/fargate/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/fargate/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/AmazonECS/latest/APIReference/Welcome.html\ncommon:\n- type: Portal\n  url: https://console.aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/fargate/\n- type: Documentation\n  url: https://docs.aws.amazon.com/AmazonECS/latest/userguide/what-is-fargate.html\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: backblaze-b2-native-api.yaml
+  format: yaml
+  label: Backblaze B2 Cloud Storage API
+  slug: backblaze-b2-cloud-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-b2-native-api.yaml
 apis:
 - description: 'The Backblaze B2 Native API provides programmatic access to all B2 Cloud Storage functions including account authorization, bucket management, file upload and download, large file multi-part uploads, '
   name: Backblaze B2 Cloud Storage API
@@ -136,6 +143,7 @@ rules:
 skills: []
 slug: backblaze
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: backblaze\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/apis.yml\napis:\n  - aid: backblaze:backblaze-b2-cloud-storage-api\n    name: Backblaze B2 Cloud Storage API\n    tags:\n      - Cloud Storage\n      - Object Storage\n      - Storage\n    humanURL: https://www.backblaze.com/b2/cloud-storage.html\n    properties:\n      - type: Documentation\n        url: https://www.backblaze.com/apidocs/introduction-to-the-b2-native-api\n      - type: GettingStarted\n        url: https://www.backblaze.com/docs/cloud-storage-native-api\n      - type: OpenAPI\n        url: openapi/backblaze-b2-native-api.yaml\n    description: >-\n      The Backblaze B2 Native API provides programmatic access to all B2 Cloud Storage\n      functions including account authorization, bucket management, file upload and download,\n      large file multi-part uploads, application key management, lifecycle rules, replication,\n      and event notifications. Uses\
   \ HTTP Basic authentication to obtain authorization tokens\n      for subsequent API calls. API v4 is the current stable version.\n  - aid: backblaze:backblaze-s3-compatible-api\n    name: Backblaze S3-Compatible API\n    tags:\n      - Cloud Storage\n      - Object Storage\n      - S3 Compatible\n    humanURL: https://www.backblaze.com/apidocs/introduction-to-the-s3-compatible-api\n    properties:\n      - type: Documentation\n        url: https://www.backblaze.com/apidocs/introduction-to-the-s3-compatible-api\n      - type: APIReference\n        url: https://www.backblaze.com/docs/cloud-storage-call-the-s3-compatible-api\n    description: >-\n      The Backblaze S3-Compatible API allows existing applications built for Amazon S3\n      to work with Backblaze B2 Cloud Storage with minimal code changes. Supports S3\n      authentication (AWS Signature V4) and S3 API operations for bucket and object\n      management. Endpoint URLs follow the pattern s3.<region>.backblazeb2.com.\nname: Backblaze\n\
   tags:\n  - Cloud Storage\n  - Object Storage\n  - Storage\n  - Backup\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncommon:\n  - type: Website\n    url: https://www.backblaze.com\n  - type: Portal\n    url: https://www.backblaze.com/docs\n  - type: Documentation\n    url: https://www.backblaze.com/apidocs/\n  - type: GettingStarted\n    url: https://www.backblaze.com/docs/cloud-storage-native-api\n  - type: Pricing\n    url: https://www.backblaze.com/cloud-storage/pricing\n  - type: SignUp\n    url: https://www.backblaze.com/b2/sign-up.html\n  - type: Blog\n    url: https://www.backblaze.com/blog/\n  - type: StatusPage\n    url: https://status.backblaze.com\n  - type: Support\n    url: https://help.backblaze.com\n  - type: TermsOfService\n    url: https://www.backblaze.com/company/terms-of-service\n  - type: PrivacyPolicy\n    url: https://www.backblaze.com/company/privacy.html\n  - type: GitHubOrganization\n    url:\

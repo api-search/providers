@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: argo-workflows-openapi.json
+  format: json
+  label: Argo Workflows API
+  slug: argo-workflows
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-openapi.json
 apis:
 - description: The Argo Workflows REST API provides programmatic access to workflow lifecycle management, workflow templates, cron scheduling, archived workflow history, events, and cluster workflow templates. Authe
   name: Argo Workflows API
@@ -141,6 +148,7 @@ rules:
 skills: []
 slug: argo-workflows
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: argo-workflows\nname: Argo Workflows\ndescription: >-\n  Argo Workflows is an open-source, container-native workflow engine for orchestrating parallel\n  jobs on Kubernetes. It is a CNCF graduated project that allows you to define workflows where\n  each step is a container, model multi-step workflows as sequences of tasks or DAGs, and run\n  compute-intensive jobs for machine learning, data processing, and CI/CD pipelines natively\n  on Kubernetes. Governed by the Linux Foundation and the CNCF.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - CNCF\n  - Containers\n  - Data Processing\n  - Kubernetes\n  - Machine Learning\n  - Open Source\n  - Workflow Engine\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/apis.yml\ncreated: '2026-03-27'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: argo-workflows:argo-workflows\n    name: Argo Workflows API\n\
   \    description: >-\n      The Argo Workflows REST API provides programmatic access to workflow lifecycle management,\n      workflow templates, cron scheduling, archived workflow history, events, and cluster\n      workflow templates. Authentication uses JWT bearer tokens from service account secrets.\n    humanURL: https://argo-workflows.readthedocs.io/en/latest/swagger/\n    tags:\n      - Kubernetes\n      - REST API\n      - Workflow Engine\n    properties:\n      - type: Documentation\n        url: https://argo-workflows.readthedocs.io/en/latest/\n      - type: OpenAPI\n        url: openapi/argo-workflows-openapi.json\n      - type: GettingStarted\n        url: https://argo-workflows.readthedocs.io/en/latest/quick-start/\n      - type: APIReference\n        url: https://argo-workflows.readthedocs.io/en/latest/swagger/\n      - type: Authentication\n        url: https://argo-workflows.readthedocs.io/en/latest/access-token/\ncommon:\n  - type: Website\n    url: https://argoproj.github.io/workflows/\n\
   \  - type: Documentation\n    url: https://argo-workflows.readthedocs.io/en/latest/\n  - type: GettingStarted\n    url: https://argo-workflows.readthedocs.io/en/latest/quick-start/\n  - type: GitHubOrganization\n    url: https://github.com/argoproj\n  - type: GitHubRepository\n    url: https://github.com/argoproj/argo-workflows\n  - type: ReleaseNotes\n    url: https://github.com/argoproj/argo-workflows/releases\n  - type: ChangeLog\n    url: https://argo-workflows.readthedocs.io/en/latest/new-features/\n  - type: CLI\n    url: https://argo-workflows.readthedocs.io/en/latest/cli/\n  - type: SDK\n    url: https://hera.readthedocs.io/en/stable/\n  - type: Support\n    url: https://github.com/argoproj/argo-workflows/issues\n  - type: SpectralRules\n    url: rules/argo-workflows-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/workflow-orchestration.yaml\n  - type: Vocabulary\n    url: vocabulary/argo-workflows-vocabulary.yaml\n  - type: Features\n    data:\n      - name:\

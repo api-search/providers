@@ -1,5 +1,90 @@
 ---
 api_count: 19
+api_specs:
+- filename: amplitude-http-v2-api-openapi.yml
+  format: yaml
+  label: Amplitude HTTP V2 API
+  slug: http-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-http-v2-api-openapi.yml
+- filename: amplitude-identify-api-openapi.yml
+  format: yaml
+  label: Amplitude Identify API
+  slug: identify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-identify-api-openapi.yml
+- filename: amplitude-dashboard-rest-api-openapi.yml
+  format: yaml
+  label: Amplitude Dashboard REST API
+  slug: dashboard-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-dashboard-rest-api-openapi.yml
+- filename: amplitude-export-api-openapi.yml
+  format: yaml
+  label: Amplitude Export API
+  slug: export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-export-api-openapi.yml
+- filename: amplitude-behavioral-cohorts-api-openapi.yml
+  format: yaml
+  label: Amplitude Behavioral Cohorts API
+  slug: behavioral-cohorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-behavioral-cohorts-api-openapi.yml
+- filename: amplitude-taxonomy-api-openapi.yml
+  format: yaml
+  label: Amplitude Taxonomy API
+  slug: taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-taxonomy-api-openapi.yml
+- filename: amplitude-attribution-api-openapi.yml
+  format: yaml
+  label: Amplitude Attribution API
+  slug: attribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-attribution-api-openapi.yml
+- filename: amplitude-chart-annotations-api-openapi.yml
+  format: yaml
+  label: Amplitude Chart Annotations API
+  slug: chart-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-chart-annotations-api-openapi.yml
+- filename: amplitude-user-profile-api-openapi.yml
+  format: yaml
+  label: Amplitude User Profile API
+  slug: user-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-user-profile-api-openapi.yml
+- filename: amplitude-user-mapping-api-openapi.yml
+  format: yaml
+  label: Amplitude User Mapping API
+  slug: user-mapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-user-mapping-api-openapi.yml
+- filename: amplitude-scim-api-openapi.yml
+  format: yaml
+  label: Amplitude SCIM API
+  slug: scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-scim-api-openapi.yml
+- filename: amplitude-dsar-api-openapi.yml
+  format: yaml
+  label: Amplitude Data Subject Access Request API
+  slug: dsar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-dsar-api-openapi.yml
+- filename: amplitude-experiment-evaluation-api-openapi.yml
+  format: yaml
+  label: Amplitude Experiment Evaluation API
+  slug: experiment-evaluation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-experiment-evaluation-api-openapi.yml
+- filename: amplitude-experiment-management-api-openapi.yml
+  format: yaml
+  label: Amplitude Experiment Management API
+  slug: experiment-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-experiment-management-api-openapi.yml
 apis:
 - description: The Amplitude HTTP V2 API enables developers to send event data directly from servers or clients to Amplitude's analytics platform. It supports uploading individual or batched events along with user p
   name: Amplitude HTTP V2 API
@@ -287,6 +372,7 @@ rules:
 skills: []
 slug: amplitude
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amplitude\nurl: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/apis.yml\nmodified: '2026-04-19'\nname: Amplitude\ndescription: >-\n  Amplitude is a digital analytics platform that helps product teams understand\n  user behavior, run experiments, and drive growth. It provides a suite of APIs\n  for event ingestion, user management, cohort syncing, taxonomy governance,\n  A/B testing, and data export. Amplitude is widely used by product, data, and\n  engineering teams to build better digital experiences through data-driven\n  insights.\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- A/B Testing\n- Analytics\n- Experimentation\n- Feature Flags\n- Product Analytics\n- User Behavior\napis:\n- aid: amplitude:http-v2-api\n  name: Amplitude HTTP V2 API\n  tags:\n  - Analytics\n  - Events\n  - Ingestion\n  - Tracking\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL:\
   \ https://api2.amplitude.com\n  humanURL: https://amplitude.com/docs/apis/analytics/http-v2\n  properties:\n  - url: https://amplitude.com/docs/apis/analytics/http-v2\n    type: Documentation\n  - url: openapi/amplitude-http-v2-api-openapi.yml\n    type: OpenAPI\n  description: >-\n    The Amplitude HTTP V2 API enables developers to send event data directly\n    from servers or clients to Amplitude's analytics platform. It supports\n    uploading individual or batched events along with user properties, event\n    properties, and group properties. This API is the primary method for\n    server-side event ingestion and is designed for high-throughput data\n    collection with built-in validation and error reporting.\n- aid: amplitude:batch-event-upload-api\n  name: Amplitude Batch Event Upload API\n  tags:\n  - Analytics\n  - Batch\n  - Events\n  - Ingestion\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api2.amplitude.com\n  humanURL:\
   \ https://amplitude.com/docs/apis/analytics/batch-event-upload\n  properties:\n  - url: https://amplitude.com/docs/apis/analytics/batch-event-upload\n    type: Documentation\n  description: >-\n    The Amplitude Batch Event Upload API is optimized for high-volume server-side\n    event ingestion. It accepts batches of events up to 20MB per request and is\n    designed for use cases where data volume may exceed the limits of the standard\n    HTTP V2 API. The API uses the same event structure as the HTTP V2 API and is\n    recommended for data pipelines processing millions of events.\n- aid: amplitude:identify-api\n  name: Amplitude Identify API\n  tags:\n  - Analytics\n  - Identity\n  - Properties\n  - Users\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api2.amplitude.com\n  humanURL: https://amplitude.com/docs/apis/analytics/identify\n  properties:\n  - url: https://amplitude.com/docs/apis/analytics/identify\n    type: Documentation\n\

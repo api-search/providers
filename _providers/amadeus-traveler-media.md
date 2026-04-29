@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: amadeus-traveler-media-points-of-interest-openapi.yaml
+  format: yaml
+  label: Points of Interest API
+  slug: points-of-interest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-points-of-interest-openapi.yaml
+- filename: amadeus-traveler-media-hotel-ratings-openapi.yaml
+  format: yaml
+  label: Hotel Ratings API
+  slug: hotel-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-hotel-ratings-openapi.yaml
+- filename: amadeus-traveler-media-travel-recommendations-openapi.yaml
+  format: yaml
+  label: Travel Recommendations API
+  slug: travel-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-travel-recommendations-openapi.yaml
+- filename: amadeus-traveler-media-location-score-openapi.yaml
+  format: yaml
+  label: Location Score API
+  slug: location-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-location-score-openapi.yaml
 apis:
 - description: The Amadeus Points of Interest API provides data on tourist attractions, restaurants, museums, nightlife, shopping, and parks near a specified location. Returns POI name, category, geographic coordina
   name: Points of Interest API
@@ -197,6 +222,7 @@ rules:
 skills: []
 slug: amadeus-traveler-media
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amadeus-traveler-media\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/apis.yml\nname: Amadeus Traveler Media\ntags:\n  - Content\n  - Destination\n  - Media\n  - Photos\n  - Points of Interest\n  - Tourism\n  - Travel\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  The Amadeus Traveler Media APIs provide access to travel-related media and\n  destination content, including photos, ratings, and information for points of\n  interest, hotels, and destinations worldwide. These APIs power travel apps,\n  destination guides, and travel planning platforms with rich content for tourist\n  attractions, hotel sentiment ratings, travel recommendations, and location\n  scoring.\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amadeus-traveler-media:points-of-interest-api\n    name: Points of Interest API\n    description:\
   \ >-\n      The Amadeus Points of Interest API provides data on tourist attractions,\n      restaurants, museums, nightlife, shopping, and parks near a specified\n      location. Returns POI name, category, geographic coordinates, and ranking\n      scores to help travelers discover what to do at a destination.\n    humanURL: https://developers.amadeus.com/self-service/category/destination-experiences/api-doc/points-of-interest\n    baseURL: https://test.api.amadeus.com/v1\n    tags:\n      - Destinations\n      - Points of Interest\n      - Tourism\n      - Travel\n    properties:\n      - type: Documentation\n        url: https://developers.amadeus.com/self-service/category/destination-experiences/api-doc/points-of-interest\n      - type: APIReference\n        url: https://developers.amadeus.com/self-service/category/destination-experiences/api-doc/points-of-interest/api-reference\n      - type: OpenAPI\n        url: openapi/amadeus-traveler-media-points-of-interest-openapi.yaml\n  -\
   \ aid: amadeus-traveler-media:hotel-ratings-api\n    name: Hotel Ratings API\n    description: >-\n      The Amadeus Hotel Ratings API uses sentiment analysis of hotel reviews to\n      provide overall hotel ratings and ratings for specific categories including\n      location, comfort, service, staff, internet, food, facilities, pool, and\n      sleep quality. Ratings help travelers make informed accommodation decisions.\n    humanURL: https://developers.amadeus.com/self-service/category/hotels/api-doc/hotel-ratings\n    baseURL: https://test.api.amadeus.com/v2\n    tags:\n      - Hotels\n      - Ratings\n      - Reviews\n      - Sentiment\n      - Travel\n    properties:\n      - type: Documentation\n        url: https://developers.amadeus.com/self-service/category/hotels/api-doc/hotel-ratings\n      - type: APIReference\n        url: https://developers.amadeus.com/self-service/category/hotels/api-doc/hotel-ratings/api-reference\n      - type: OpenAPI\n        url: openapi/amadeus-traveler-media-hotel-ratings-openapi.yaml\n\

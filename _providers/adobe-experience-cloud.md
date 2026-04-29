@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: adobe-analytics-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics 2.0 API
+  slug: analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-analytics-api-openapi.yml
+- filename: adobe-experience-platform-api-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform API
+  slug: experience-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-platform-api-openapi.yml
+- filename: adobe-target-api-openapi.yml
+  format: yaml
+  label: Adobe Target API
+  slug: target-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-target-api-openapi.yml
+- filename: adobe-journey-optimizer-api-openapi.yml
+  format: yaml
+  label: Adobe Journey Optimizer API
+  slug: journey-optimizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-journey-optimizer-api-openapi.yml
+- filename: adobe-campaign-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign API
+  slug: campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-campaign-api-openapi.yml
+- filename: adobe-io-events-asyncapi.yml
+  format: yaml
+  label: Adobe I/O Events
+  slug: io-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/asyncapi/adobe-io-events-asyncapi.yml
 apis:
 - description: 'The Adobe Analytics 2.0 API provides programmatic access to Adobe Analytics reporting, management, and configuration capabilities. It enables developers to retrieve report data, manage report suites, '
   name: Adobe Analytics 2.0 API
@@ -189,6 +226,7 @@ rules:
 skills: []
 slug: adobe-experience-cloud
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: adobe-experience-cloud\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/apis.yml\napis:\n- aid: adobe-experience-cloud:analytics-api\n  name: Adobe Analytics 2.0 API\n  tags:\n  - Analytics\n  - Digital Marketing\n  - Reporting\n  humanURL: https://developer.adobe.com/analytics-apis/docs/2.0/\n  properties:\n  - url: https://developer.adobe.com/analytics-apis/docs/2.0/\n    type: Documentation\n  - url: openapi/adobe-analytics-api-openapi.yml\n    type: OpenAPI\n  description: >-\n    The Adobe Analytics 2.0 API provides programmatic access to Adobe\n    Analytics reporting, management, and configuration capabilities. It\n    enables developers to retrieve report data, manage report suites,\n    configure calculated metrics, segments, and dimensions, and administer\n    users and permissions within Adobe Analytics.\n- aid: adobe-experience-cloud:experience-platform-api\n  name: Adobe Experience Platform API\n  tags:\n\
   \  - Customer Profiles\n  - Data Management\n  - Platform\n  humanURL: https://developer.adobe.com/experience-platform-apis/\n  properties:\n  - url: https://developer.adobe.com/experience-platform-apis/\n    type: Documentation\n  - url: openapi/adobe-experience-platform-api-openapi.yml\n    type: OpenAPI\n  description: >-\n    The Adobe Experience Platform API provides RESTful access to core\n    platform services including data ingestion, unified profile management,\n    identity resolution, dataset management, schema registry, query service,\n    and segmentation for building real-time customer profiles and orchestrating\n    data workflows.\n- aid: adobe-experience-cloud:target-api\n  name: Adobe Target API\n  tags:\n  - Optimization\n  - Personalization\n  - Testing\n  humanURL: https://developer.adobe.com/target/\n  properties:\n  - url: https://developer.adobe.com/target/\n    type: Documentation\n  - url: openapi/adobe-target-api-openapi.yml\n    type: OpenAPI\n  description:\
   \ >-\n    The Adobe Target API provides programmatic access to Adobe Target for\n    managing A/B tests, experience targeting, multivariate tests, automated\n    personalization activities, audiences, offers, and real-time content\n    delivery for website and application personalization.\n- aid: adobe-experience-cloud:journey-optimizer-api\n  name: Adobe Journey Optimizer API\n  tags:\n  - Journey Orchestration\n  - Messaging\n  - Offer Decisioning\n  humanURL: https://developer.adobe.com/journey-optimizer-apis/\n  properties:\n  - url: https://developer.adobe.com/journey-optimizer-apis/\n    type: Documentation\n  - url: openapi/adobe-journey-optimizer-api-openapi.yml\n    type: OpenAPI\n  description: >-\n    The Adobe Journey Optimizer API enables programmatic management of\n    customer journeys, campaigns, messages, offers, placements, and content\n    templates across email, push, SMS, and in-app channels for orchestrating\n    personalized multi-channel customer experiences.\n\

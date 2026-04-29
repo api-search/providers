@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-xray-openapi-original.yaml
+  format: yaml
+  label: Amazon X-Ray REST API
+  slug: amazon-xray-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/openapi/amazon-xray-openapi-original.yaml
 apis:
 - description: RESTful API for AWS X-Ray distributed tracing operations including trace retrieval, service map generation, sampling rule management, group management, and insights analysis for application performanc
   name: Amazon X-Ray REST API
@@ -117,6 +124,7 @@ rules:
 skills: []
 slug: amazon-xray
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-xray\nname: Amazon X-Ray\ndescription: >-\n  AWS X-Ray is a distributed tracing service that helps developers analyze and\n  debug production applications, providing end-to-end visibility into requests\n  as they travel through the application. X-Ray provides service maps, trace\n  analysis, sampling rules, group filtering, and AI-powered insights for\n  identifying performance bottlenecks and errors across microservices and\n  serverless architectures.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - Application Performance\n  - AWS\n  - Debugging\n  - Distributed Tracing\n  - Monitoring\n  - Observability\napis:\n  - aid: amazon-xray:amazon-xray-rest-api\n    name: Amazon X-Ray REST API\n    description: >-\n      RESTful API for AWS\
   \ X-Ray distributed tracing operations including trace\n      retrieval, service map generation, sampling rule management, group\n      management, and insights analysis for application performance monitoring.\n      30 operations for traces, service graphs, sampling, groups, and insights.\n    humanURL: https://aws.amazon.com/xray/\n    baseURL: https://xray.amazonaws.com\n    tags:\n      - AWS\n      - Distributed Tracing\n      - Observability\n      - Tracing\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/xray/latest/api/\n      - type: OpenAPI\n        url: openapi/amazon-xray-openapi-original.yaml\n      - type: JSONSchema\n        url: json-schema/xray-trace-summary-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-xray-context.jsonld\n      - type: Pricing\n        url: https://aws.amazon.com/xray/pricing/\n      - type: GettingStarted\n        url: https://aws.amazon.com/xray/getting-started/\n      - type: Authentication\n\
   \        url: https://docs.aws.amazon.com/xray/latest/api/CommonParameters.html\n      - type: SDK\n        url: https://aws.amazon.com/tools/\n      - type: StatusPage\n        url: https://status.aws.amazon.com/\n      - type: FAQ\n        url: https://aws.amazon.com/xray/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/xray/latest/api/Welcome.html\n      - type: CodeExamples\n        url: https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-sample.html\n      - type: Security\n        url: https://docs.aws.amazon.com/xray/latest/devguide/security.html\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/\n  - type: Website\n    url: https://aws.amazon.com/xray/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/xray/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type:\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: acceldata-adoc-api.yaml
+  format: yaml
+  label: Acceldata Data Observability Cloud API
+  slug: adoc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-adoc-api.yaml
 apis:
 - description: The ADOC API provides programmatic access to data observability features including alerts, data quality rules, pipeline monitoring, data lineage, users, groups, roles, and permissions within the Accel
   name: Acceldata Data Observability Cloud API
@@ -100,6 +107,7 @@ rules:
 skills: []
 slug: acceldata
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: acceldata\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/apis.yml\nname: Acceldata\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AI Agents\n- Data Management\n- Data Observability\n- Data Pipeline\n- Data Quality\n- Intelligence\n- Observability\ndescription: >-\n  Acceldata is an agentic data management platform that helps enterprises\n  monitor, govern, and optimize data across cloud, lakehouse, and hybrid\n  environments. The platform combines AI-powered agents with data observability\n  to proactively detect issues, trace root causes, and automate remediation\n  workflows. Key products include ADM (Agentic Data Management), ADOC\n  (Acceldata Data Observability Cloud), Pulse for Hadoop environments, and\n  Agent Studio for building custom AI agents. It supports integrations with\n  Snowflake, Databricks, AWS, GCP, Azure, and Hadoop.\ncreated: '2025-02-24'\nmodified: '2026-04-19'\n\
   specificationVersion: '0.19'\napis:\n- aid: acceldata:adoc-api\n  name: Acceldata Data Observability Cloud API\n  description: >-\n    The ADOC API provides programmatic access to data observability features\n    including alerts, data quality rules, pipeline monitoring, data lineage,\n    users, groups, roles, and permissions within the Acceldata Data\n    Observability Cloud platform.\n  humanURL: https://docs.acceldata.io/api/introduction\n  baseURL: https://api.acceldata.app/v1\n  tags:\n  - Data Observability\n  - Data Quality\n  - Alerts\n  - Data Pipeline\n  properties:\n  - url: https://docs.acceldata.io/api/introduction\n    type: Documentation\n  - url: https://docs.acceldata.io/api/authentication\n    type: Authentication\n  - url: openapi/acceldata-adoc-api.yaml\n    type: OpenAPI\n  - url: json-schema/adoc-api-alert-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-alert-list-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-data-quality-rule-schema.json\n\
   \    type: JSONSchema\n  - url: json-schema/adoc-api-data-quality-rule-list-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-dataset-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-dataset-list-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-lineage-node-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-lineage-graph-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-pipeline-job-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-pipeline-job-list-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-user-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-user-list-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-role-schema.json\n    type: JSONSchema\n  - url: json-schema/adoc-api-role-list-schema.json\n    type: JSONSchema\n  - url: json-structure/adoc-api-alert-structure.json\n    type: JSONStructure\n  - url: json-structure/adoc-api-alert-list-structure.json\n\

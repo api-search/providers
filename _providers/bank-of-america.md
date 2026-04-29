@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bank-of-america-cashpro-api-openapi.yml
+  format: yaml
+  label: Bank of America CashPro API
+  slug: cashpro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-cashpro-api-openapi.yml
 apis:
 - description: 'The Bank of America CashPro API enables corporate treasury clients to programmatically access banking services including payments, account information, balance reporting, and transaction history. The '
   name: Bank of America CashPro API
@@ -89,6 +96,7 @@ rules:
 skills: []
 slug: bank-of-america
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: bank-of-america\nurl: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/apis.yml\nname: Bank of America\ntags:\n  - Banking\n  - Corporate Banking\n  - Finance\n  - Payments\n  - Treasury\n  - CashPro\nmodified: '2026-04-21'\ndescription: >-\n  Bank of America is a multinational investment bank and financial services holding company\n  providing consumer banking, wealth management, corporate banking, and investment banking\n  services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury\n  clients to automate account management, payments, balance reporting, and statement access,\n  supporting over 350 payment types and integration with TMS and ERP platforms.\napis:\n  - aid: bank-of-america:cashpro-api\n    name: Bank of America CashPro API\n    tags:\n      - Accounts\n      - Balances\n      - Banking\n      - Corporate Banking\n      - Payments\n      - Statements\n      - Treasury\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
   \    baseURL: https://api.bankofamerica.com/cashpro/v1\n    humanURL: https://developer.bankofamerica.com/\n    properties:\n      - url: https://developer.bankofamerica.com/\n        type: Documentation\n      - url: openapi/bank-of-america-cashpro-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Bank of America CashPro API enables corporate treasury clients to programmatically\n      access banking services including payments, account information, balance reporting,\n      and transaction history. The API supports over 350 payment types and integrates with\n      Treasury Management Systems (TMS) and ERP platforms.\ncommon:\n  - type: Website\n    url: https://www.bankofamerica.com/\n    name: Bank of America\n  - type: Documentation\n    url: https://developer.bankofamerica.com/\n    name: CashPro Developer Studio\n  - type: SignUp\n    url: https://developer.bankofamerica.com/\n    name: Developer Portal\n  - type: Blog\n    url: https://newsroom.bankofamerica.com/\n\
   \    name: Newsroom\n  - type: TermsOfService\n    url: https://www.bankofamerica.com/online-banking/digital-banking-agreement.go\n    name: Digital Banking Agreement\n  - type: PrivacyPolicy\n    url: https://www.bankofamerica.com/security-center/overview.go\n    name: Privacy Policy\n  - type: SpectralRules\n    url: rules/bank-of-america-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/bank-of-america-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/treasury-banking.yaml\n  - type: JSON-LD\n    url: json-ld/bank-of-america-context.jsonld\n  - name: Features\n    type: Features\n    data:\n      - name: Account Management\n        description: Programmatic access to CashPro account details and metadata.\n      - name: Balance Reporting\n        description: Real-time ledger, available, and collected balance queries.\n      - name: Transaction History\n        description: Paginated transaction history with date range filtering.\n      - name: Payment Initiation\n\

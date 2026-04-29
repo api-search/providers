@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-efs-openapi.yml
+  format: yaml
+  label: Amazon EFS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/openapi/amazon-efs-openapi.yml
 apis:
 - description: API for managing Amazon EFS file systems, mount targets, and related resources.
   name: Amazon EFS API
@@ -119,6 +126,7 @@ rules:
 skills: []
 slug: amazon-efs
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon EFS\ndescription: Amazon Elastic File System (EFS) provides a simple, serverless, set-and-forget elastic file system for use with AWS cloud services and on-premises resources. EFS is built to scale on \n  demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/efs/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\ntags:\n- Amazon Web Services\n- AWS\n- EFS\n- Elastic File System\n- File Storage\n- NFS\n- Serverless\n- Storage\napis:\n- name: Amazon EFS API\n  description: API for managing Amazon EFS file systems, mount targets, and related resources.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  url: https://aws.amazon.com/efs/\n  baseURL: https://elasticfilesystem.amazonaws.com\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/efs/latest/ug/\n\
   \  - type: OpenAPI\n    url: openapi/amazon-efs-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/elasticfilesystem/2015-02-01/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-efs-filesystem-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-efs-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/efs/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/efs/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/efs/faqs/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/efs/latest/ug/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/efs/latest/ug/API_Reference.html\n  - type: Documentation\n    url: https://docs.aws.amazon.com/cli/latest/reference/efs/\n  - type: Security\n    url: https://docs.aws.amazon.com/efs/latest/ug/security.html\n  - type: JSONStructure\n    url: json-structure/amazon-efs-filesystem-structure.json\n  - type: Example\n    url: examples/amazon-efs-filesystem-example.json\n\
   common:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: DeveloperPortal\n  url: https://aws.amazon.com/\n- type: Documentation\n  url: https://docs.aws.amazon.com/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/support/\n- type: Blog\n  url: https://aws.amazon.com/blogs/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: StatusPage\n  url: https://status.aws.amazon.com/\n- type: KnowledgeCenter\n  url: https://repost.aws/knowledge-center\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n- type: StackOverflow\n  url: https://stackoverflow.com/questions/tagged/amazon-web-services\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n\

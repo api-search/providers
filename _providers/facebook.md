@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: facebook-graph-api.yaml
+  format: yaml
+  label: Facebook Graph API
+  slug: facebook-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-graph-api.yaml
+- filename: facebook-marketing-api.yaml
+  format: yaml
+  label: Facebook Marketing API
+  slug: facebook-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-marketing-api.yaml
+- filename: facebook-instagram-api.yaml
+  format: yaml
+  label: Instagram API
+  slug: instagram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-instagram-api.yaml
+- filename: facebook-messenger-api.yaml
+  format: yaml
+  label: Messenger Platform API
+  slug: messenger-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-messenger-api.yaml
+- filename: facebook-threads-api.yaml
+  format: yaml
+  label: Threads API
+  slug: threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-threads-api.yaml
+- filename: facebook-whatsapp-api.yaml
+  format: yaml
+  label: WhatsApp Business API
+  slug: whatsapp-business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-whatsapp-api.yaml
 apis:
 - description: The primary way to read and write data to the Facebook social graph, providing access to user profiles, posts, pages, photos, videos, comments, and social interactions. Supports nodes, edges, and fiel
   name: Facebook Graph API
@@ -138,6 +175,7 @@ rules:
 skills: []
 slug: facebook
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: facebook\nname: Facebook\ndescription: >-\n  Facebook is Meta's social networking platform providing APIs for developers to\n  integrate with Facebook's ecosystem. The Facebook Graph API is the primary way\n  to read and write data to the Facebook social graph. Meta also provides APIs\n  for marketing and advertising, Instagram content management, Messenger bots,\n  Threads publishing, and WhatsApp business messaging.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Advertising\n  - Content Publishing\n  - Messaging\n  - Social Media\n  - Social Networking\nurl: https://developers.facebook.com\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\nposition: Consumer\naccess: 3rd-Party\napis:\n  - aid: facebook:facebook-graph-api\n    name: Facebook Graph API\n    description: >-\n      The primary way to read and write data to the Facebook social graph,\n      providing access to user profiles,\
   \ posts, pages, photos, videos, comments,\n      and social interactions. Supports nodes, edges, and fields for flexible\n      data access.\n    humanURL: https://developers.facebook.com/docs/graph-api\n    baseURL: https://graph.facebook.com\n    tags:\n      - Comments\n      - Graph\n      - Pages\n      - Photos\n      - Posts\n      - Social\n      - Users\n      - Videos\n    properties:\n      - type: Documentation\n        url: https://developers.facebook.com/docs/graph-api/overview\n      - type: APIReference\n        url: https://developers.facebook.com/docs/graph-api/reference\n      - type: Authentication\n        url: https://developers.facebook.com/docs/facebook-login/access-tokens\n      - type: OpenAPI\n        url: openapi/facebook-graph-api.yaml\n  - aid: facebook:facebook-marketing-api\n    name: Facebook Marketing API\n    description: >-\n      Programmatically manage Facebook ad campaigns, ad sets, ad creatives,\n      Custom Audiences, and advertising reports. Access\
   \ performance insights and\n      automate campaign optimization at scale.\n    humanURL: https://developers.facebook.com/docs/marketing-apis\n    baseURL: https://graph.facebook.com\n    tags:\n      - Ad Campaigns\n      - Advertising\n      - Audiences\n      - Insights\n      - Marketing\n    properties:\n      - type: Documentation\n        url: https://developers.facebook.com/docs/marketing-api\n      - type: APIReference\n        url: https://developers.facebook.com/docs/marketing-api/reference\n      - type: OpenAPI\n        url: openapi/facebook-marketing-api.yaml\n  - aid: facebook:instagram-api\n    name: Instagram API\n    description: >-\n      Manage Instagram Business and Creator account content including publishing\n      media, retrieving posts, managing comments, discovering mentions, and\n      accessing account insights for analytics.\n    humanURL: https://developers.facebook.com/docs/instagram-platform\n    baseURL: https://graph.facebook.com\n    tags:\n      - Content\

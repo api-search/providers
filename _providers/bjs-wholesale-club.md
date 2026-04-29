@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bjs-wholesale-club-openapi.yaml
+  format: yaml
+  label: BJ's Wholesale Club API
+  slug: bjs-wholesale-club
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-openapi.yaml
 apis:
 - description: BJ's Wholesale Club provides partner and affiliate integrations enabling access to product catalog, pricing, inventory availability, membership verification, and order management capabilities. Integra
   name: BJ's Wholesale Club API
@@ -76,6 +83,7 @@ rules:
 skills: []
 slug: bjs-wholesale-club
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: bjs-wholesale-club\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/apis.yml\nname: BJ's Wholesale Club\ndescription: >-\n  BJ's Wholesale Club is a leading operator of membership warehouse clubs concentrated\n  primarily on the eastern half of the United States. BJ's offers its members significant\n  savings on a wide assortment of merchandise, including fresh foods, groceries, household\n  essentials, and general merchandise. The company operates over 230 clubs and is focused\n  on digital transformation, offering APIs to partners for product data, inventory, pricing,\n  and order management integrations.\ntags:\n  - Ecommerce\n  - Membership\n  - Retail\n  - Wholesale\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ncreated: '2026-03-21'\nmodified: '2026-04-21'\nspecificationVersion: '0.19'\napis:\n  - aid: bjs-wholesale-club:bjs-wholesale-club\n    name: BJ's Wholesale Club\
   \ API\n    description: >-\n      BJ's Wholesale Club provides partner and affiliate integrations enabling access\n      to product catalog, pricing, inventory availability, membership verification,\n      and order management capabilities. Integrations are available through their\n      partner program and digital commerce platform.\n    humanURL: https://www.bjs.com\n    tags:\n      - Ecommerce\n      - Membership\n      - Retail\n      - Wholesale\n    properties:\n      - type: Documentation\n        url: https://www.bjs.com\n      - type: OpenAPI\n        url: openapi/bjs-wholesale-club-openapi.yaml\n      - type: JSONSchema\n        url: json-schema/bjs-product-schema.json\n      - type: JSONSchema\n        url: json-schema/bjs-membership-schema.json\n      - type: JSONSchema\n        url: json-schema/bjs-order-schema.json\n      - type: JSONStructure\n        url: json-structure/bjs-product-structure.json\n      - type: JSONStructure\n        url: json-structure/bjs-membership-structure.json\n\
   \      - type: JSONStructure\n        url: json-structure/bjs-order-structure.json\n      - type: JSONLD\n        url: json-ld/bjs-context.jsonld\n      - type: Example\n        url: examples/bjs-product-example.json\n      - type: Example\n        url: examples/bjs-membership-example.json\n      - type: Example\n        url: examples/bjs-order-example.json\n      - type: PrivacyPolicy\n        url: https://www.bjs.com/content/privacy-policy\n      - type: TermsOfService\n        url: https://www.bjs.com/content/terms-and-conditions\ncommon:\n  - type: Website\n    url: https://www.bjs.com\n  - type: PrivacyPolicy\n    url: https://www.bjs.com/content/privacy-policy\n  - type: TermsOfService\n    url: https://www.bjs.com/content/terms-and-conditions\n  - type: SignUp\n    url: https://www.bjs.com/content/membership\n  - type: Support\n    url: https://www.bjs.com/content/help-center\n  - type: SpectralRules\n    url: rules/bjs-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/bjs-wholesale-club.yaml\n\

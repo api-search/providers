@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-security-hub-openapi.yml
+  format: yaml
+  label: AWS Security Hub API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-openapi.yml
 apis:
 - description: The AWS Security Hub API provides programmatic access to manage centralized security findings across your AWS environment. It enables developers to import and manage security findings, configure secur
   name: AWS Security Hub API
@@ -145,6 +152,7 @@ rules:
 skills: []
 slug: amazon-security-hub
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Security Hub\ndescription: >-\n  AWS Security Hub is a cloud security posture management service that provides\n  a comprehensive view of your security state across AWS accounts. It aggregates,\n  organizes, and prioritizes security findings from multiple AWS services and\n  third-party tools, enabling centralized security monitoring, compliance checking,\n  and automated remediation workflows.\nurl: https://aws.amazon.com/security-hub/\nbaseURL: https://securityhub.amazonaws.com\nx-type: company\ncreated: '2024-01-15'\nmodified: '2026-04-19'\n\ntags:\n- AWS\n- Compliance\n- Monitoring\n- Security\n\napis:\n\n- name: AWS Security Hub API\n  description: >-\n    The AWS Security Hub API provides programmatic access to manage centralized\n    security findings across your AWS environment. It enables developers to\n    import and manage security findings, configure security standards and\n    controls, manage integrations with other AWS services and third-party tools,\n\
   \    and automate security workflows.\n  humanURL: https://docs.aws.amazon.com/securityhub/latest/APIReference/\n  baseURL: https://securityhub.{region}.amazonaws.com\n  tags:\n  - AWS\n  - Compliance\n  - Monitoring\n  - Security\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/securityhub/latest/APIReference/\n  - type: OpenAPI\n    url: openapi/amazon-security-hub-openapi.yml\n  - type: JSONSchema\n    url: json-schema/amazon-security-hub-finding-schema.json\n\ncommon:\n\n- type: Portal\n  url: https://aws.amazon.com/\n\n- type: GettingStarted\n  url: https://aws.amazon.com/security-hub/getting-started/\n\n- type: Documentation\n  url: https://docs.aws.amazon.com/securityhub/\n\n- type: APIReference\n  url: https://docs.aws.amazon.com/securityhub/latest/APIReference/\n\n- type: Console\n  url: https://console.aws.amazon.com/securityhub/\n\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n\n- type: Pricing\n  url: https://aws.amazon.com/security-hub/pricing/\n\
   \n- type: FAQ\n  url: https://aws.amazon.com/security-hub/faqs/\n\n- type: Blog\n  url: https://aws.amazon.com/blogs/security/\n\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n\n- type: Compliance\n  url: https://aws.amazon.com/compliance/\n\n- type: GitHubOrganization\n  url: https://github.com/aws\n\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n\n- type: StackOverflow\n  url: https://stackoverflow.com/questions/tagged/aws-security-hub\n\n- type: KnowledgeCenter\n  url: https://repost.aws/knowledge-center\n\n- type: SpectralRules\n  url: rules/amazon-security-hub-spectral-rules.yml\n\n- type: Vocabulary\n  url: vocabulary/amazon-security-hub-vocabulary.yaml\n\n- type: NaftikoCapability\n  url: capabilities/cloud-security-posture.yaml\n\

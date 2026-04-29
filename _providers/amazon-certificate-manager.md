@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-certificate-manager-openapi.yml
+  format: yaml
+  label: Amazon Certificate Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/openapi/amazon-certificate-manager-openapi.yml
 apis:
 - description: API for provisioning, managing, and deploying public and private SSL/TLS certificates for use with AWS services and your internal connected resources. Supports requesting certificates, describing cert
   name: Amazon Certificate Manager API
@@ -117,6 +124,7 @@ rules:
 skills: []
 slug: amazon-certificate-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-certificate-manager\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/apis.yml\nname: Amazon Certificate Manager\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nspecificationVersion: '0.19'\ndescription: >-\n  AWS Certificate Manager (ACM) handles the complexity of creating, storing,\n  and renewing public and private SSL/TLS X.509 certificates and keys that\n  protect your AWS websites and applications, enabling you to manage\n  certificate lifecycles centrally.\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon Certificate Manager API\n  description: >-\n    API for provisioning, managing, and deploying public and private SSL/TLS\n    certificates for use with AWS services and your internal connected\n    resources. Supports requesting certificates, describing certificate\n    details, listing certificates, importing third-party certificates,\n\
   \    and managing certificate tags.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/certificate-manager/\n  baseURL: https://acm.amazonaws.com\n  tags:\n  - AWS\n  - Certificates\n  - Encryption\n  - Security\n  - SSL\n  - TLS\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/acm/latest/APIReference/\n  - type: OpenAPI\n    url: openapi/amazon-certificate-manager-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/acm/2015-12-08/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-certificate-manager-certificate-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-certificate-manager-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/certificate-manager/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/certificate-manager/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/certificate-manager/faqs/\n\
   \  - type: Documentation\n    url: https://docs.aws.amazon.com/acm/latest/userguide/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/acm/latest/APIReference/\n  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/acm/\n  - type: Security\n    url: https://docs.aws.amazon.com/acm/latest/userguide/security.html\n  - type: JSONSchema\n    url: json-schema/certificate-manager-request-certificate-request-schema.json\n  - type: JSONSchema\n    url: json-schema/certificate-manager-request-certificate-response-schema.json\n  - type: JSONSchema\n    url: json-schema/certificate-manager-list-certificates-response-schema.json\n  - type: JSONSchema\n    url: json-schema/certificate-manager-describe-certificate-response-schema.json\n  - type: Example\n    url: examples/certificate-manager-request-certificate-request-example.json\n  - type: Example\n    url: examples/certificate-manager-request-certificate-response-example.json\n  - type: Example\n    url: examples/certificate-manager-list-certificates-response-example.json\n\

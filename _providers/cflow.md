@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: cflow-openapi.yml
+  format: yaml
+  label: Cflow Workflow API
+  slug: cflow
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-openapi.yml
 apis:
 - description: The Cflow Workflow API provides REST endpoints for retrieving workflows, creating and managing requests, approving or rejecting requests at each stage, creating draft requests, and administering users
   name: Cflow Workflow API
@@ -77,6 +84,7 @@ name: Cflow
 skills: []
 slug: cflow
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cflow\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/apis.yml\nname: Cflow\nx-type: company\ntags:\n  - Automations\n  - Business Process Automation\n  - Integrations\n  - No-Code\n  - Platform\n  - Protocols\n  - Rules\n  - Workflows\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2025-01-08'\nmodified: '2026-04-23'\nposition: Consumer\ndescription: >-\n  Cflow is a cloud-based workflow automation platform that helps organizations\n  streamline and optimize business processes. It offers a drag-and-drop\n  workflow builder, customizable forms, rule-based routing, approval flows,\n  integrations with popular business applications, and real-time analytics.\n  Cflow exposes a REST API allowing developers to list workflows, submit and\n  manage requests, approve or reject tasks, and manage users and roles\n  programmatically.\napis:\n  - aid: cflow:cflow\n    name:\
   \ Cflow Workflow API\n    tags:\n      - Approvals\n      - Automation\n      - Integrations\n      - Protocols\n      - Requests\n      - Roles\n      - Rules\n      - Users\n      - Workflows\n    humanURL: https://www.cflowapps.com\n    baseURL: https://us.cflowapps.com\n    properties:\n      - url: https://www.cflowapps.com/workflow/workflow-api/\n        type: Documentation\n      - url: openapi/cflow-openapi.yml\n        type: OpenAPI\n      - url: json-schema/workflow.json\n        type: JSONSchema\n      - url: json-schema/stage.json\n        type: JSONSchema\n      - url: json-schema/request.json\n        type: JSONSchema\n      - url: json-schema/user.json\n        type: JSONSchema\n      - url: json-schema/role.json\n        type: JSONSchema\n      - url: json-ld/cflow-context.jsonld\n        type: JSONLD\n    description: >-\n      The Cflow Workflow API provides REST endpoints for retrieving workflows,\n      creating and managing requests, approving or rejecting requests\
   \ at each\n      stage, creating draft requests, and administering users and roles. All\n      business objects and integration objects are exposed as JSON resources\n      and authentication is handled via API key, user key, and username\n      headers.\ncommon:\n  - type: Website\n    url: https://www.cflowapps.com\n  - type: Documentation\n    url: https://www.cflowapps.com/workflow/workflow-api/\n  - type: SignUp\n    url: https://www.cflowapps.com/sign-up/\n  - type: Pricing\n    url: https://www.cflowapps.com/pricing/\n  - type: Blog\n    url: https://www.cflowapps.com/blog/\n  - type: Support\n    url: https://help.cflowapps.com/\n  - type: TermsOfService\n    url: https://www.cflowapps.com/terms-of-use/\n  - type: PrivacyPolicy\n    url: https://www.cflowapps.com/privacy-policy/\n  - name: Features\n    type: Features\n    data:\n      - name: Drag-and-Drop Workflow Builder\n      - name: Custom Forms\n      - name: Conditional Rules\n      - name: Multi-Level Approvals\n     \

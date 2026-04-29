@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-managed-prometheus-openapi-original.yaml
+  format: yaml
+  label: Amazon Managed Service for Prometheus API
+  slug: amazon-managed-prometheus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-openapi-original.yaml
 apis:
 - description: 'The Amazon Managed Service for Prometheus API provides programmatic access to create and manage workspaces, alert manager definitions, rule groups namespaces, logging configurations, and scrapers for '
   name: Amazon Managed Service for Prometheus API
@@ -101,6 +108,7 @@ rules:
 skills: []
 slug: amazon-managed-prometheus
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-managed-prometheus\nname: Amazon Managed Service for Prometheus\ndescription: >-\n  Amazon Managed Service for Prometheus is a serverless, Prometheus-compatible\n  monitoring service for container metrics. It automatically scales as your\n  monitoring needs increase, works with open-source tools, and integrates with\n  Amazon EKS and other container environments. The service provides fully\n  managed workspaces, alert manager definitions, and rule group namespaces\n  for Prometheus-compatible monitoring at scale.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Containers\n  - Monitoring\n  - Observability\n  - Prometheus\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-managed-prometheus:amazon-managed-prometheus-api\n    name: Amazon\
   \ Managed Service for Prometheus API\n    description: >-\n      The Amazon Managed Service for Prometheus API provides programmatic\n      access to create and manage workspaces, alert manager definitions, rule\n      groups namespaces, logging configurations, and scrapers for\n      Prometheus-compatible monitoring. Covers the full workspace lifecycle\n      and monitoring configuration management.\n    humanURL: https://aws.amazon.com/prometheus/\n    baseURL: https://aps.amazonaws.com\n    tags:\n      - Containers\n      - Monitoring\n      - Observability\n      - Prometheus\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/prometheus/latest/userguide/AMP-APIReference.html\n      - type: OpenAPI\n        url: openapi/amazon-managed-prometheus-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/prometheus/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/prometheus/pricing/\n    \
   \  - type: FAQ\n        url: https://aws.amazon.com/prometheus/faqs/\n      - type: JSONSchema\n        url: json-schema/amazon-managed-prometheus-workspace-summary-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-managed-prometheus-workspace-summary-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-managed-prometheus-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/prometheus/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/prometheus/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/mt/tag/amazon-managed-service-for-prometheus/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/prometheus/\n  - type: SignUp\n    url:\

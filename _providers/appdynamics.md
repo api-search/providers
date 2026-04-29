@@ -1,5 +1,60 @@
 ---
 api_count: 9
+api_specs:
+- filename: appdynamics-controller-rest-api-openapi.yml
+  format: yaml
+  label: AppDynamics Controller REST API
+  slug: controller-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-controller-rest-api-openapi.yml
+- filename: appdynamics-metric-and-snapshot-api-openapi.yml
+  format: yaml
+  label: AppDynamics Metric and Snapshot API
+  slug: metric-and-snapshot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-metric-and-snapshot-api-openapi.yml
+- filename: appdynamics-alert-and-respond-api-openapi.yml
+  format: yaml
+  label: AppDynamics Alert and Respond API
+  slug: alert-and-respond-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-alert-and-respond-api-openapi.yml
+- filename: appdynamics-configuration-api-openapi.yml
+  format: yaml
+  label: AppDynamics Configuration API
+  slug: configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-configuration-api-openapi.yml
+- filename: appdynamics-analytics-events-api-openapi.yml
+  format: yaml
+  label: AppDynamics Analytics Events API
+  slug: analytics-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-analytics-events-api-openapi.yml
+- filename: appdynamics-database-agent-api-openapi.yml
+  format: yaml
+  label: AppDynamics Database Agent API
+  slug: database-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-database-agent-api-openapi.yml
+- filename: appdynamics-machine-agent-api-openapi.yml
+  format: yaml
+  label: AppDynamics Machine Agent API
+  slug: machine-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-machine-agent-api-openapi.yml
+- filename: appdynamics-cloud-observability-api-openapi.yml
+  format: yaml
+  label: Cisco Cloud Observability API
+  slug: cloud-observability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-cloud-observability-api-openapi.yml
+- filename: appdynamics-authentication-api-openapi.yml
+  format: yaml
+  label: AppDynamics OAuth Authentication API
+  slug: authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/openapi/appdynamics-authentication-api-openapi.yml
 apis:
 - description: The AppDynamics Controller REST API provides programmatic access to the AppDynamics Controller for retrieving application performance data, managing configurations, and automating monitoring workflows
   name: AppDynamics Controller REST API
@@ -138,6 +193,7 @@ name: AppDynamics
 skills: []
 slug: appdynamics
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: appdynamics\nurl: https://raw.githubusercontent.com/api-evangelist/appdynamics/refs/heads/main/apis.yml\nmodified: '2026-04-19'\napis:\n- aid: appdynamics:controller-rest-api\n  name: AppDynamics Controller REST API\n  tags:\n  - Application Performance Monitoring\n  - Metrics\n  - Monitoring\n  - Observability\n  - Snapshots\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.example.com\n  humanURL: https://docs.appdynamics.com/appd/23.x/latest/en/extend-appdynamics/appdynamics-apis/using-the-controller-apis\n  properties:\n  - url: https://docs.appdynamics.com/appd/23.x/latest/en/extend-appdynamics/appdynamics-apis/using-the-controller-apis\n    type: Documentation\n  - url: openapi/appdynamics-controller-rest-api-openapi.yml\n    type: OpenAPI\n  description: >-\n    The AppDynamics Controller REST API provides programmatic access to the\n    AppDynamics Controller for retrieving application performance data,\n\
   \    managing configurations, and automating monitoring workflows. The API\n    uses standard HTTP methods and returns data in XML or JSON format, with\n    the base URI pattern of /controller/rest/. Developers can use it to\n    query application metrics, retrieve transaction snapshots, manage\n    business transactions, and access topology information for monitored\n    applications.\n- aid: appdynamics:metric-and-snapshot-api\n  name: AppDynamics Metric and Snapshot API\n  tags:\n  - Metrics\n  - Monitoring\n  - Performance Data\n  - Snapshots\n  - Time Series\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.example.com\n  humanURL: https://docs.appdynamics.com/appd/23.x/latest/en/extend-appdynamics/appdynamics-apis/metric-and-snapshot-api\n  properties:\n  - url: https://docs.appdynamics.com/appd/23.x/latest/en/extend-appdynamics/appdynamics-apis/metric-and-snapshot-api\n    type: Documentation\n  - url: openapi/appdynamics-metric-and-snapshot-api-openapi.yml\n\
   \    type: OpenAPI\n  description: >-\n    The AppDynamics Metric and Snapshot API allows developers to retrieve\n    metric data and transaction snapshots from monitored applications. It\n    supports configurable time ranges, data aggregation through rollup\n    parameters, and access to various metric types including response times,\n    error rates, and call volumes. Developers can retrieve request snapshots\n    for detailed transaction analysis and configure metric retention periods\n    to control how long performance data is stored.\n- aid: appdynamics:alert-and-respond-api\n  name: AppDynamics Alert and Respond API\n  tags:\n  - Alerts\n  - Health Rules\n  - Incident Response\n  - Monitoring\n  - Notifications\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.example.com\n  humanURL: https://docs.appdynamics.com/appd/23.x/latest/en/extend-appdynamics/appdynamics-apis\n  properties:\n  - url: https://docs.appdynamics.com/appd/23.x/latest/en/extend-appdynamics/appdynamics-apis\n\

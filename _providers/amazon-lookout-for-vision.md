@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-lookout-for-vision-openapi-original.yaml
+  format: yaml
+  label: Amazon Lookout for Vision API
+  slug: amazon-lookout-for-vision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-openapi-original.yaml
 apis:
 - description: The Amazon Lookout for Vision API provides programmatic access to create and manage projects, datasets, models, and anomaly detection jobs for visual quality inspection using computer vision. Supports
   name: Amazon Lookout for Vision API
@@ -97,6 +104,7 @@ rules:
 skills: []
 slug: amazon-lookout-for-vision
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-lookout-for-vision\nname: Amazon Lookout for Vision\ndescription: >-\n  Amazon Lookout for Vision is a machine learning service that spots defects\n  and anomalies in visual representations using computer vision. With just a\n  small sample of images, it builds a custom computer vision model to enable\n  you to identify damaged products or issues before production issues arise.\n  It supports projects, datasets, model training, and real-time anomaly detection.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Computer Vision\n  - Machine Learning\n  - Manufacturing\n  - Quality Inspection\n  - Anomaly Detection\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-lookout-for-vision:amazon-lookout-for-vision-api\n    name: Amazon Lookout for\
   \ Vision API\n    description: >-\n      The Amazon Lookout for Vision API provides programmatic access to create\n      and manage projects, datasets, models, and anomaly detection jobs for\n      visual quality inspection using computer vision. Supports 22 operations\n      covering the full model lifecycle from dataset management through\n      real-time anomaly detection.\n    humanURL: https://aws.amazon.com/lookout-for-vision/\n    baseURL: https://lookoutvision.amazonaws.com\n    tags:\n      - Computer Vision\n      - Machine Learning\n      - Quality Inspection\n      - Anomaly Detection\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/lookout-for-vision/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-lookout-for-vision-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/lookout-for-vision/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/lookout-for-vision/pricing/\n\
   \      - type: FAQ\n        url: https://aws.amazon.com/lookout-for-vision/faqs/\n      - type: JSONSchema\n        url: json-schema/amazon-lookout-for-vision-anomaly-class-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-lookout-for-vision-anomaly-class-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-lookout-for-vision-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/lookout-for-vision/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/lookout-for-vision/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/machine-learning/tag/amazon-lookout-for-vision/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/lookoutvision/\n \

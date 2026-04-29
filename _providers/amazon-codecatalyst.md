@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-codecatalyst-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeCatalyst API
+  slug: amazon-codecatalyst-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-openapi-original.yaml
 apis:
 - description: The Amazon CodeCatalyst REST API provides programmatic access to spaces, projects, source repositories, Dev Environments, workflows, workflow runs, and user management. Build integrations, automate pr
   name: Amazon CodeCatalyst API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-codecatalyst
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-codecatalyst\nname: Amazon CodeCatalyst\ndescription: >-\n  Amazon CodeCatalyst is a unified software development service that helps teams collaborate more effectively on\n  software projects. It provides integrated tools for source code management, CI/CD workflows, issue tracking, and\n  cloud-based development environments (Dev Environments). Teams can use CodeCatalyst to accelerate development\n  velocity, standardize workflows, and integrate natively with AWS services and third-party tools.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Amazon\n  - AWS\n  - Developer Tools\n  - CI/CD\n  - Collaboration\n  - DevOps\n  - Source Control\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-codecatalyst:amazon-codecatalyst-api\n    name: Amazon CodeCatalyst\
   \ API\n    description: >-\n      The Amazon CodeCatalyst REST API provides programmatic access to spaces, projects, source repositories,\n      Dev Environments, workflows, workflow runs, and user management. Build integrations, automate project\n      workflows, and manage development environments programmatically.\n    humanURL: https://docs.aws.amazon.com/codecatalyst/latest/APIReference/Welcome.html\n    baseURL: https://codecatalyst.global.api.aws\n    tags:\n      - Amazon\n      - AWS\n      - Developer Tools\n      - CI/CD\n      - Collaboration\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/codecatalyst/latest/userguide/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/codecatalyst/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-codecatalyst-openapi-original.yaml\ncommon:\n  - type: GettingStarted\n    url: https://docs.aws.amazon.com/codecatalyst/latest/userguide/getting-started-overview.html\n\
   \  - type: Authentication\n    url: https://docs.aws.amazon.com/codecatalyst/latest/userguide/tokens-overview.html\n  - type: Pricing\n    url: https://aws.amazon.com/codecatalyst/pricing/\n  - type: Console\n    url: https://codecatalyst.aws/\n  - type: Portal\n    url: https://aws.amazon.com/codecatalyst/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/codecatalyst/latest/userguide/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Blog\n    url: https://aws.amazon.com/blogs/devops/\n  - type: SignUp\n    url: https://codecatalyst.aws/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: SpectralRules\n    url: rules/amazon-codecatalyst-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/amazon-codecatalyst-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/amazon-codecatalyst-developer-collaboration.yaml\n\

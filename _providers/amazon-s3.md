@@ -1,5 +1,24 @@
 ---
 api_count: 3
+api_specs:
+- filename: amazon-s3-rest-api-openapi.yml
+  format: yaml
+  label: Amazon S3 REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-rest-api-openapi.yml
+- filename: amazon-s3-control-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Control API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-control-api-openapi.yml
+- filename: amazon-s3-tables-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Tables API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-tables-api-openapi.yml
 apis:
 - description: RESTful API for Amazon S3 storage operations including bucket management, object operations, and access control.
   name: Amazon S3 REST API
@@ -124,6 +143,7 @@ rules:
 skills: []
 slug: amazon-s3
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon S3\ndescription: Amazon Simple Storage Service (S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/s3/\ncreated: '2024-01-15'\nmodified: '2026-04-18'\napis:\n  - name: Amazon S3 REST API\n    description: >-\n      RESTful API for Amazon S3 storage operations including bucket management, object\n      operations, and access control.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://aws.amazon.com/s3/\n    baseURL: https://s3.amazonaws.com\n    tags:\n      - AWS\n      - Cloud Storage\n      - Object Storage\n      - Storage\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/AmazonS3/latest/API/\n      - type: OpenAPI\n        url: openapi/amazon-s3-rest-api-openapi.yml\n      - type: OpenAPI\n\
   \        url: https://api.apis.guru/v2/specs/amazonaws.com/s3/2006-03-01/openapi.yaml\n      - type: JSONSchema\n        url: json-schema/amazon-s3-bucket-schema.json\n      - type: JSONSchema\n        url: json-schema/amazon-s3-object-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-s3-context.jsonld\n      - type: Pricing\n        url: https://aws.amazon.com/s3/pricing/\n      - type: GettingStarted\n        url: https://aws.amazon.com/s3/getting-started/\n      - type: Authentication\n        url: https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-authenticating-requests.html\n      - type: SDK\n        url: https://aws.amazon.com/tools/\n      - type: StatusPage\n        url: https://status.aws.amazon.com/\n      - type: BestPractices\n        url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/best-practices.html\n      - type: FAQ\n        url: https://aws.amazon.com/s3/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html\n\
   \      - type: ChangeLog\n        url: https://docs.aws.amazon.com/AmazonS3/latest/API/WhatsNew.html\n      - type: CodeExamples\n        url: https://docs.aws.amazon.com/AmazonS3/latest/API/service_code_examples.html\n      - type: Security\n        url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/security.html\n  - name: Amazon S3 Control API\n    description: Amazon S3 Control provides API operations for managing S3 account-level settings, access points, Batch Operations jobs, S3 Access Grants, Multi-Region Access Points, and Storage Lens configurations.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://docs.aws.amazon.com/AmazonS3/latest/API/API_Types_AWS_S3_Control.html\n    baseURL: https://s3-control.amazonaws.com\n    tags:\n      - Access Control\n      - AWS\n      - Batch Operations\n      - Storage\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/AmazonS3/latest/API/API_Types_AWS_S3_Control.html\n\

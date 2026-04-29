@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-cloudstack-api-openapi.yaml
+  format: yaml
+  label: Apache CloudStack API
+  slug: apache-cloudstack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-api-openapi.yaml
 apis:
 - description: The CloudStack API provides comprehensive REST endpoints for managing virtual machines, networks, storage volumes, accounts, domains, zones, and all cloud infrastructure resources using a query-parame
   name: Apache CloudStack API
@@ -98,6 +105,7 @@ rules:
 skills: []
 slug: apache-cloudstack
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-cloudstack\nname: Apache CloudStack\ndescription: >-\n  Apache CloudStack is an open-source cloud computing platform developed by the Apache Software Foundation for creating, managing, and deploying infrastructure cloud services. It provides a comprehensive IaaS platform supporting multiple hypervisors (KVM, VMware vSphere, XenServer) and a rich API for programmatic cloud resource management. CloudStack is used by service providers and enterprises to build public, private, and hybrid cloud environments with virtual machine management, networking, storage, and multi-tenancy features.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - Cloud\n  - IaaS\n  - Infrastructure\n  - Open Source\n  - Virtualization\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/apis.yml\nspecificationVersion:\
   \ '0.19'\napis:\n  - aid: apache-cloudstack:apache-cloudstack-api\n    name: Apache CloudStack API\n    description: >-\n      The CloudStack API provides comprehensive REST endpoints for managing virtual machines, networks, storage volumes, accounts, domains, zones, and all cloud infrastructure resources using a query-parameter-based command dispatch pattern with HMAC-SHA1 authentication and asynchronous job support.\n    humanURL: https://cloudstack.apache.org/api/\n    baseURL: http://localhost:8080/client/api\n    tags:\n      - Cloud\n      - IaaS\n      - REST\n      - Virtual Machines\n    properties:\n      - type: Documentation\n        url: https://cloudstack.apache.org/api/\n      - type: OpenAPI\n        url: openapi/apache-cloudstack-api-openapi.yaml\n      - type: GettingStarted\n        url: https://docs.cloudstack.apache.org/en/latest/installguide/\ncommon:\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/cloudstack\n\
   \  - type: Documentation\n    url: https://docs.cloudstack.apache.org/\n  - type: GettingStarted\n    url: https://docs.cloudstack.apache.org/en/latest/installguide/\n  - type: Support\n    url: https://cloudstack.apache.org/community/\n  - type: TermsOfService\n    url: https://www.apache.org/licenses/\n  - type: ChangeLog\n    url: https://github.com/apache/cloudstack/releases\n  - type: SpectralRules\n    url: rules/apache-cloudstack-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-cloudstack-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/cloudstack-iaas-management.yaml\n  - type: Features\n    data:\n      - name: Virtual Machine Management\n        description: Full VM lifecycle management including deploy, start, stop, reboot, migrate, and destroy across multiple hypervisors.\n      - name: Multi-Hypervisor Support\n        description: Support for KVM, VMware vSphere, XenServer, and Hyper-V hypervisors within a single CloudStack deployment.\n\

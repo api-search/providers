@@ -1,5 +1,18 @@
 ---
 api_count: 4
+api_specs:
+- filename: cta-train-tracker-openapi.yml
+  format: yaml
+  label: CTA Train Tracker API
+  slug: train-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/cta-train-tracker-openapi.yml
+- filename: cta-bus-tracker-openapi.yml
+  format: yaml
+  label: CTA Bus Tracker API
+  slug: bus-tracker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/openapi/cta-bus-tracker-openapi.yml
 apis:
 - description: The Train Tracker API provides real-time train arrival predictions and run/location information for all CTA L train lines. Endpoints include arrival predictions by station or stop, follow-this-train r
   name: CTA Train Tracker API
@@ -79,6 +92,7 @@ name: Chicago Transit Authority
 skills: []
 slug: chicago-transit-authority
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: chicago-transit-authority\nname: Chicago Transit Authority\nx-type: government\ndescription: >-\n  The Chicago Transit Authority (CTA) is the public transit operator for\n  the City of Chicago and 35 surrounding suburbs, operating the second\n  largest public transit system in the United States with bus and\n  rapid-transit (L) train services. The CTA Developer Center publishes\n  open transit data feeds and APIs for developers building rider-facing\n  applications, including the Train Tracker API for real-time L-train\n  arrivals, the Bus Tracker API for real-time bus arrivals and vehicle\n  locations, the Customer Alerts API for service status and disruptions,\n  and GTFS schedule data feeds for the entire CTA bus and rail network.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/apis.yml\n\
   tags:\n  - Bus\n  - Bus Tracker\n  - Chicago\n  - CTA\n  - Customer Alerts\n  - GTFS\n  - L Train\n  - Open Data\n  - Public Transit\n  - Real-Time\n  - Train\n  - Train Tracker\n  - Transit\n  - Transportation\ncreated: '2025-05-02'\nmodified: '2026-04-23'\nspecificationVersion: '0.20'\napis:\n  - aid: chicago-transit-authority:train-tracker-api\n    name: CTA Train Tracker API\n    description: >-\n      The Train Tracker API provides real-time train arrival predictions\n      and run/location information for all CTA L train lines. Endpoints\n      include arrival predictions by station or stop, follow-this-train\n      run tracking, and a locations service exposing the current\n      latitude/longitude of in-service trains. Authentication requires\n      a developer API key issued through the CTA Developer Center.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://www.transitchicago.com/developers/traintracker/\n    baseURL:\
   \ http://lapi.transitchicago.com/api/1.0\n    tags:\n      - L Train\n      - Real-Time\n      - Train Tracker\n      - Transit\n    properties:\n      - type: Documentation\n        url: https://www.transitchicago.com/developers/traintracker/\n      - type: APIDocs\n        url: https://www.transitchicago.com/developers/ttdocs/\n      - type: APIKeyApplication\n        url: https://www.transitchicago.com/developers/traintrackerapply/\n      - type: TermsOfUse\n        url: https://www.transitchicago.com/developers/terms/\n      - type: OpenAPI\n        url: openapi/cta-train-tracker-openapi.yml\n      - type: Spectral\n        url: spectral/chicago-transit-authority-spectral.yml\n  - aid: chicago-transit-authority:bus-tracker-api\n    name: CTA Bus Tracker API\n    description: >-\n      The Bus Tracker API series provides real-time bus arrival\n      predictions, vehicle locations, route patterns, route lists, and\n      stop directories for the CTA bus network. Endpoints support\n \

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-codeguru-reviewer-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeGuru Reviewer API
+  slug: amazon-codeguru-reviewer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-openapi-original.yaml
 apis:
 - description: The Amazon CodeGuru Reviewer REST API.
   name: Amazon CodeGuru Reviewer API
@@ -101,6 +108,7 @@ rules:
 skills: []
 slug: amazon-codeguru-reviewer
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-codeguru-reviewer\nname: Amazon CodeGuru Reviewer\ndescription: Amazon CodeGuru Reviewer is an automated code review service that uses machine learning and AWS best practices to identify security vulnerabilities, bugs, and hard-to-detect issues in \n  your Java and Python code. It provides intelligent recommendations to help improve code quality and find defects that may be difficult to detect through manual code reviews.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Amazon\n- AWS\n- Code Review\n- Security\n- DevOps\n- Machine Learning\n- Developer Tools\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-codeguru-reviewer:amazon-codeguru-reviewer-api\n  name: Amazon CodeGuru Reviewer API\n  description: The Amazon CodeGuru Reviewer REST API.\n  humanURL:\
   \ https://docs.aws.amazon.com/codeguru/latest/reviewer-api/Welcome.html\n  baseURL: https://codeguru-reviewer.us-east-1.amazonaws.com\n  tags:\n  - Amazon\n  - AWS\n  - Code Review\n  - Security\n  - DevOps\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/codegurureviewer/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/codeguru/latest/reviewer-api/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-codeguru-reviewer-openapi-original.yaml\ncommon:\n- type: GettingStarted\n  url: https://docs.aws.amazon.com/codeguru/reviewer\n- type: Pricing\n  url: https://aws.amazon.com/codegurureviewer/pricing/\n- type: Console\n  url: https://console.aws.amazon.com/codegurureviewer/\n- type: Portal\n  url: https://aws.amazon.com/codegurureviewer/\n- type: Documentation\n  url: https://docs.aws.amazon.com/codegurureviewer/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n\
   - type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Blog\n  url: https://aws.amazon.com/blogs/devops/\n- type: SignUp\n  url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: SpectralRules\n  url: rules/amazon-codeguru-reviewer-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-codeguru-reviewer-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/amazon-codeguru-reviewer-code-review.yaml\n- type: JSONLD\n  url: json-ld/amazon-codeguru-reviewer-context.jsonld\n- type: Features\n  data:\n  - name: Automated Code Review\n    description: Automatically analyze code changes in pull requests and provide recommendations for bugs, security vulnerabilities, and code quality issues.\n  - name: Security Analysis\n    description: Detect security vulnerabilities including OWASP Top 10, input validation issues, encryption problems, and AWS API security best\

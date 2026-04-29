@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-rds-openapi.yml
+  format: yaml
+  label: Amazon RDS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/openapi/amazon-rds-openapi.yml
 apis:
 - description: Core API for managing Amazon RDS database instances, clusters, snapshots, parameter groups, subnet groups, and other relational database resources across multiple database engines including MySQL, Pos
   name: Amazon RDS API
@@ -212,6 +219,7 @@ rules:
 skills: []
 slug: amazon-rds
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon RDS\ndescription: Amazon Relational Database Service (RDS) makes it easy to set up, operate, and scale a relational database in the cloud, providing cost-efficient and resizable capacity while automating \n  time-consuming administration tasks such as hardware provisioning, database setup, patching, and backups.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon RDS API\n  description: >-\n    Core API for managing Amazon RDS database instances, clusters, snapshots,\n    parameter groups, subnet groups, and other relational database resources\n    across multiple database engines including MySQL, PostgreSQL, MariaDB,\n    Oracle, SQL Server, and Amazon Aurora.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/rds/\n\
   \  baseURL: https://rds.amazonaws.com\n  tags:\n  - AWS\n  - Cloud Databases\n  - Databases\n  - Managed Databases\n  - Relational Databases\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-rds-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/rds/2014-10-31/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-rds-instance-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-rds-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/rds/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/rds/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/rds/faqs/\n  - type: Service Level Agreement\n    url: https://aws.amazon.com/rds/sla/\n  - type: User Guide\n    url: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/\n\
   \  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/rds/\n  - type: Security\n    url: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.html\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Portal\n  url: https://aws.amazon.com/rds/\n- type: Documentation\n  url: https://docs.aws.amazon.com/rds/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/database/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Portal\n  url: https://console.aws.amazon.com/rds/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: Login\n  url: https://aws.amazon.com/console/\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Knowledge Center\n  url: https://repost.aws/knowledge-center\n\

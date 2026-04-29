@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Amazon Lex API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/openapi.yml
 apis:
 - description: The Amazon Lex API provides programmatic access to manage bots, bot aliases, bot channels, intents, slots, and slot types for building conversational AI interfaces and chatbots.
   name: Amazon Lex API
@@ -117,6 +124,7 @@ rules:
 skills: []
 slug: amazon-lex
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Lex\ndescription: >-\n  Amazon Lex is a fully managed artificial intelligence (AI) service with\n  advanced natural language models to design, build, test, and deploy\n  conversational interfaces in applications. It provides the deep learning\n  functionalities of automatic speech recognition (ASR) for converting speech\n  to text, and natural language understanding (NLU) to recognize the intent of\n  the text, enabling you to build applications with highly engaging user\n  experiences and lifelike conversational interactions.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://apis.io/amazon-lex\ncreated: '2024-01-15'\nmodified: '2026-04-19'\n\napis:\n- name: Amazon Lex API\n  description: >-\n    The Amazon Lex API provides programmatic access to manage bots,\n    bot aliases, bot channels, intents, slots, and slot types for building\n    conversational AI interfaces and chatbots.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n\
   \  baseURL: https://models-v2-lex.amazonaws.com\n  properties:\n  - type: documentation\n    url: https://docs.aws.amazon.com/lex/latest/dg/what-is.html\n  - type: openapi\n    url: openapi/openapi.yml\n  - type: openapi\n    url: >-\n      https://api.apis.guru/v2/specs/amazonaws.com/models.lex.v2/latest/openapi.yaml\n  - type: json-schema\n    url: json-schema/json-schema.yml\n  - type: json-ld\n    url: json-ld/json-ld.yml\n  - type: pricing\n    url: https://aws.amazon.com/lex/pricing/\n  - type: getting-started\n    url: https://aws.amazon.com/lex/getting-started/\n  - type: faq\n    url: https://aws.amazon.com/lex/faqs/\n\n  - type: JSONSchema\n    url: json-schema/amazon-lex-bot-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-lex-intent-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-lex-context.jsonld\ncommon:\n- type: portal\n  url: https://aws.amazon.com/\n- type: website\n  url: https://aws.amazon.com/lex/\n- type: documentation\n  url: https://docs.aws.amazon.com/lex/\n\
   - type: terms-of-service\n  url: https://aws.amazon.com/service-terms/\n- type: privacy-policy\n  url: https://aws.amazon.com/privacy/\n- type: support\n  url: https://aws.amazon.com/premiumsupport/\n- type: blog\n  url: https://aws.amazon.com/blogs/machine-learning/\n- type: github\n  url: https://github.com/aws\n- type: console\n  url: https://console.aws.amazon.com/lex/\n- type: sign-up\n  url: https://portal.aws.amazon.com/billing/signup\n- type: login\n  url: https://signin.aws.amazon.com/\n- type: status\n  url: https://health.aws.amazon.com/health/status\n- type: knowledge-center\n  url: https://repost.aws/knowledge-center\n- type: youtube\n  url: https://www.youtube.com/user/AmazonWebServices\n- type: stack-overflow\n  url: https://stackoverflow.com/questions/tagged/amazon-lex\n- type: contact\n  url: https://aws.amazon.com/contact-us/\n- type: security\n  url: https://aws.amazon.com/security/\n- type: compliance\n  url: https://aws.amazon.com/compliance/\n\n- type: Features\n\

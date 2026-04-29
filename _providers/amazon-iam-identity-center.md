@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: amazon-iam-identity-center-sso-admin-openapi-original.yml
+  format: yaml
+  label: AWS IAM Identity Center SSO Admin API
+  slug: aws-sso-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-sso-admin-openapi-original.yml
+- filename: amazon-iam-identity-center-identitystore-openapi-original.yml
+  format: yaml
+  label: AWS IAM Identity Center Identity Store API
+  slug: aws-identitystore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-identitystore-openapi-original.yml
 apis:
 - description: Manages permission sets, account assignments, instances, and SSO configurations for centralized identity and access management across AWS accounts and organizations.
   name: AWS IAM Identity Center SSO Admin API
@@ -114,6 +127,7 @@ rules:
 skills: []
 slug: amazon-iam-identity-center
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iam-identity-center\nname: Amazon IAM Identity Center\ndescription: >-\n  AWS IAM Identity Center (successor to AWS Single Sign-On) is where you create,\n  or connect, your workforce identities in AWS once and manage access centrally\n  across your AWS organization. You can create user identities directly in IAM\n  Identity Center, or bring them from Microsoft Active Directory, and then use\n  IAM Identity Center to manage user access to AWS accounts and business\n  applications with single sign-on.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Access Control\n  - Authentication\n  - AWS\n  - Identity Management\n  - Single Sign-On\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iam-identity-center:aws-sso-admin-api\n    name: AWS IAM Identity\
   \ Center SSO Admin API\n    description: >-\n      Manages permission sets, account assignments, instances, and SSO\n      configurations for centralized identity and access management across\n      AWS accounts and organizations.\n    humanURL: https://aws.amazon.com/iam/identity-center/\n    baseURL: https://sso.amazonaws.com\n    tags:\n      - Access Control\n      - Identity Management\n      - Single Sign-On\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/singlesignon/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-iam-identity-center-sso-admin-openapi-original.yml\n      - type: GettingStarted\n        url: https://aws.amazon.com/iam/identity-center/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/iam/identity-center/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/iam/identity-center/faqs/\n  - aid: amazon-iam-identity-center:aws-identitystore-api\n    name:\
   \ AWS IAM Identity Center Identity Store API\n    description: >-\n      Manages users, groups, and group memberships in the IAM Identity Center\n      identity store, enabling programmatic provisioning of workforce identities.\n    humanURL: https://docs.aws.amazon.com/singlesignon/latest/IdentityStoreAPIReference/welcome.html\n    baseURL: https://identitystore.amazonaws.com\n    tags:\n      - Groups\n      - Identity Management\n      - Users\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/singlesignon/latest/IdentityStoreAPIReference/welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-iam-identity-center-identitystore-openapi-original.yml\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/iam/identity-center/\n  - type: Website\n    url: https://aws.amazon.com/iam/identity-center/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/singlesignon/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n\

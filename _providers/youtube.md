@@ -1,5 +1,102 @@
 ---
 api_count: 28
+api_specs:
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Activities API
+  slug: youtube-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Channels API
+  slug: youtube-channels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Comments API
+  slug: youtube-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Comment Threads API
+  slug: youtube-comment-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Playlists API
+  slug: youtube-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Playlist Items API
+  slug: youtube-playlist-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Search API
+  slug: youtube-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Subscriptions API
+  slug: youtube-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Videos API
+  slug: youtube-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Captions API
+  slug: youtube-captions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube Video Categories API
+  slug: youtube-video-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube I18n Languages API
+  slug: youtube-i18n-languages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-data-api-openapi.yml
+  format: yaml
+  label: Youtube I18n Regions API
+  slug: youtube-i18n-regions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-data-api-openapi.yml
+- filename: youtube-analytics-openapi.yml
+  format: yaml
+  label: YouTube Analytics API
+  slug: youtube-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-analytics-openapi.yml
+- filename: youtube-reporting-openapi.yml
+  format: yaml
+  label: YouTube Reporting API
+  slug: youtube-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-reporting-openapi.yml
+- filename: youtube-live-streaming-openapi.yml
+  format: yaml
+  label: YouTube Live Streaming API
+  slug: youtube-live-streaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/openapi/youtube-live-streaming-openapi.yml
 apis:
 - description: Manages YouTube user activities, including videos liked, channels subscribed to, and other user interactions on YouTube.
   name: Youtube Activities API
@@ -316,6 +413,7 @@ rules:
 skills: []
 slug: youtube
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: youtube\nurl: https://raw.githubusercontent.com/api-search/videos/main/_apis/youtube/apis.md\napis:\n  - aid: youtube:youtube-activities-api\n    name: Youtube Activities API\n    tags:\n      - Activities\n      - Videos\n    image: https://www.youtube.com/img/desktop/yt_1200.png\n    humanURL: https://developers.google.com/youtube/v3/docs/activities\n    baseURL: https://www.googleapis.com/youtube/v3\n    properties:\n      - url: https://developers.google.com/youtube/v3/docs/activities/list\n        type: Documentation\n      - url: https://developers.google.com/youtube/v3/getting-started\n        type: GettingStarted\n      - url: https://developers.google.com/youtube/v3/guides/authentication\n        type: Authentication\n      - url: openapi/youtube-data-api-openapi.yml\n        type: OpenAPI\n    description: Manages YouTube user activities, including videos liked, channels subscribed to, and other user interactions on YouTube.\n  - aid: youtube:youtube-channels-api\n\
   \    name: Youtube Channels API\n    tags:\n      - Channels\n      - Videos\n    image: https://www.youtube.com/img/desktop/yt_1200.png\n    humanURL: https://developers.google.com/youtube/v3/docs/channels\n    baseURL: https://www.googleapis.com/youtube/v3\n    properties:\n      - url: https://developers.google.com/youtube/v3/docs/channels/list\n        type: Documentation\n      - url: https://developers.google.com/youtube/v3/getting-started\n        type: GettingStarted\n      - url: https://developers.google.com/youtube/v3/guides/authentication\n        type: Authentication\n      - url: openapi/youtube-data-api-openapi.yml\n        type: OpenAPI\n      - url: json-schema/youtube-channel-schema.json\n        type: JSONSchema\n    description: Provides access to YouTube channel data including channel metadata, statistics, and settings for both the authenticated user and other public channels.\n  - aid: youtube:youtube-comments-api\n    name: Youtube Comments API\n    tags:\n     \
   \ - Comments\n      - Videos\n    image: https://www.youtube.com/img/desktop/yt_1200.png\n    humanURL: https://developers.google.com/youtube/v3/docs/comments\n    baseURL: https://www.googleapis.com/youtube/v3\n    properties:\n      - url: https://developers.google.com/youtube/v3/docs/comments/list\n        type: Documentation\n      - url: https://developers.google.com/youtube/v3/getting-started\n        type: GettingStarted\n      - url: https://developers.google.com/youtube/v3/guides/authentication\n        type: Authentication\n      - url: openapi/youtube-data-api-openapi.yml\n        type: OpenAPI\n    description: Manages individual comments on YouTube videos and other resources, supporting retrieval, creation, update, deletion, and moderation operations.\n  - aid: youtube:youtube-comment-threads-api\n    name: Youtube Comment Threads API\n    tags:\n      - Comments\n      - Videos\n    image: https://www.youtube.com/img/desktop/yt_1200.png\n    humanURL: https://developers.google.com/youtube/v3/docs/commentThreads\n\

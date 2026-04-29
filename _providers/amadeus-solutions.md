@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: amadeus-solutions-flight-offers-search-openapi.yaml
+  format: yaml
+  label: Flight Offers Search API
+  slug: flight-offers-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-flight-offers-search-openapi.yaml
+- filename: amadeus-solutions-flight-offers-price-openapi.yaml
+  format: yaml
+  label: Flight Offers Price API
+  slug: flight-offers-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-flight-offers-price-openapi.yaml
+- filename: amadeus-solutions-branded-fares-upsell-openapi.yaml
+  format: yaml
+  label: Branded Fares Upsell API
+  slug: branded-fares-upsell-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-branded-fares-upsell-openapi.yaml
+- filename: amadeus-solutions-seat-map-display-openapi.yaml
+  format: yaml
+  label: Seat Map Display API
+  slug: seat-map-display-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-seat-map-display-openapi.yaml
 apis:
 - description: 'The Amadeus Flight Offers Search API enables searching and comparing flight offers from over 400 airlines. Search one-way, round-trip, or multi-city itineraries with cabin class, baggage, and pricing '
   name: Flight Offers Search API
@@ -139,6 +164,7 @@ solutions:
   name: Amadeus Cytric (Corporate Travel)
 - description: Airport operations technology including baggage, passenger experience, ground handling, and border control solutions.
   name: Amadeus Airport IT
+source_filename: apis.yml
 source_yaml: "aid: amadeus-solutions\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/apis.yml\nname: Amadeus Solutions\ntags:\n  - Airlines\n  - Booking\n  - Flights\n  - GDS\n  - Hotels\n  - Travel\n  - Travel Technology\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Amadeus is a leading technology partner for the global travel industry,\n  providing technology solutions for airlines, airports, hotels, travel sellers,\n  and corporate travel. The Amadeus platform includes a global distribution\n  system (GDS), passenger service systems, airport operations, hospitality\n  management, and a suite of APIs enabling developers to search, price, book,\n  and manage travel across air, hotel, and ground transportation.\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amadeus-solutions:flight-offers-search-api\n    name: Flight Offers Search\
   \ API\n    description: >-\n      The Amadeus Flight Offers Search API enables searching and comparing\n      flight offers from over 400 airlines. Search one-way, round-trip, or\n      multi-city itineraries with cabin class, baggage, and pricing filters.\n      Returns comprehensive fare details including branded fares, ancillaries,\n      and pricing breakdowns.\n    humanURL: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-offers-search\n    baseURL: https://test.api.amadeus.com/v2\n    tags:\n      - Airlines\n      - Flights\n      - Search\n      - Travel\n    properties:\n      - type: Documentation\n        url: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-offers-search\n      - type: APIReference\n        url: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-offers-search/api-reference\n      - type: OpenAPI\n        url: openapi/amadeus-solutions-flight-offers-search-openapi.yaml\n  - aid:\
   \ amadeus-solutions:flight-offers-price-api\n    name: Flight Offers Price API\n    description: >-\n      The Amadeus Flight Offers Price API confirms the availability and price\n      of a flight offer before booking. Validates current pricing, seat\n      availability, and fare conditions for offers returned by Flight Offers\n      Search, ensuring accurate pricing at time of reservation.\n    humanURL: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-offers-price\n    baseURL: https://test.api.amadeus.com/v1\n    tags:\n      - Airlines\n      - Flights\n      - Pricing\n      - Travel\n    properties:\n      - type: Documentation\n        url: https://developers.amadeus.com/self-service/category/flights/api-doc/flight-offers-price\n      - type: OpenAPI\n        url: openapi/amadeus-solutions-flight-offers-price-openapi.yaml\n  - aid: amadeus-solutions:branded-fares-upsell-api\n    name: Branded Fares Upsell API\n    description: >-\n      The Amadeus Branded\

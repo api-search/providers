@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: google-tag-manager-api-v2-openapi.yml
+  format: yaml
+  label: Google Tag Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-api-v2-openapi.yml
 apis:
 - description: The Tag Manager API allows clients to access and modify container and tag configuration.
   name: Google Tag Manager API
@@ -128,6 +135,7 @@ rules:
 skills: []
 slug: google-tag-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-tag-manager\nname: Google Tag Manager\ndescription: Google Tag Manager is a tag management system that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.\nimage: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_tag_manager.svg\nurl: https://tagmanager.google.com/\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - Analytics\n  - Conversion Tracking\n  - Marketing\n  - Tag Management\n  - Tracking\napis:\n  - name: Google Tag Manager API\n    description: The Tag Manager API allows clients to access and modify container and tag configuration.\n    image: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_tag_manager.svg\n    humanURL: https://developers.google.com/tag-platform/tag-manager/api/v2\n    baseURL: https://tagmanager.googleapis.com\n    tags:\n      - Analytics\n      - Containers\n      - Permissions\n\
   \      - Tag Management\n      - Triggers\n      - Variables\n      - Versions\n      - Workspaces\n    properties:\n      - type: OpenAPI\n        url: openapi/google-tag-manager-api-v2-openapi.yml\n      - type: JSONSchema\n        url: json-schema/google-tag-manager-container-schema.json\n      - type: JSONLD\n        url: json-ld/google-tag-manager-context.jsonld\n      - type: Documentation\n        url: https://developers.google.com/tag-platform/tag-manager/api/v2\n      - type: APIReference\n        url: https://developers.google.com/tag-platform/tag-manager/api/reference/rest\n      - type: Authentication\n        url: https://developers.google.com/tag-platform/tag-manager/api/v2/authorization\n      - type: GettingStarted\n        url: https://developers.google.com/tag-platform/tag-manager/api/v2/devguide\n      - type: SDK\n        url: https://developers.google.com/tag-platform/tag-manager/api/v2/libraries\n      - type: RateLimits\n        url: https://developers.google.com/tag-platform/tag-manager/api/v2/limits-quotas\n\
   \      - type: ChangeLog\n        url: https://support.google.com/tagmanager/answer/4620708\n    contact:\n      - FN: Google Support\n        url: https://support.google.com/tagmanager\n        email: ''\n  - name: Google Tag Manager Server-side Tagging API\n    description: The Server-side Tagging API provides APIs for building custom tags, clients, and variables that run in a server-side container, enabling server-to-server data collection and processing.\n    image: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_tag_manager.svg\n    humanURL: https://developers.google.com/tag-platform/tag-manager/server-side\n    baseURL: https://tagmanager.googleapis.com\n    tags:\n      - Analytics\n      - Data Collection\n      - Privacy\n      - Server-Side Tagging\n      - Tag Management\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/tag-platform/tag-manager/server-side\n      - type: APIReference\n        url: https://developers.google.com/tag-platform/tag-manager/server-side/api\n\

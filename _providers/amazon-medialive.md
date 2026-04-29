@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-medialive-openapi-original.yml
+  format: yaml
+  label: Amazon MediaLive API
+  slug: medialive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/openapi/amazon-medialive-openapi-original.yml
 apis:
 - description: AWS Elemental MediaLive is a broadcast-grade live video processing service that creates high-quality video streams for delivery to broadcast televisions and internet-connected multiscreen devices.
   name: Amazon MediaLive API
@@ -98,6 +105,7 @@ rules:
 skills: []
 slug: amazon-medialive
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-medialive\nname: Amazon MediaLive\ndescription: AWS Elemental MediaLive is a broadcast-grade live video processing service that creates high-quality video streams for delivery to broadcast televisions and internet-connected multiscreen\n  devices.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Broadcasting\n- Media Processing\n- Media\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-medialive:medialive-api\n  name: Amazon MediaLive API\n  description: AWS Elemental MediaLive is a broadcast-grade live video processing service that creates high-quality video streams for delivery to broadcast televisions and internet-connected \n    multiscreen devices.\n  humanURL: https://aws.amazon.com/medialive/\n  baseURL: http://medialive.{region}.amazonaws.com\n  tags:\n\
   \  - Broadcasting\n  - Media Processing\n  - Media\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/medialive/\n  - type: OpenAPI\n    url: openapi/amazon-medialive-openapi-original.yml\n  - type: GettingStarted\n    url: https://aws.amazon.com/medialive/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/medialive/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/medialive/faqs/\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/medialive/\n- type: Documentation\n  url: https://docs.aws.amazon.com/medialive/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/media/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/medialive/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n\
   - type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: SpectralRules\n  url: rules/amazon-medialive-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-medialive-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/amazon-medialive-media-workflow.yaml\n- type: Features\n  data:\n  - name: Live Video Encoding\n    description: Broadcast-grade live video encoding supporting H.264, H.265, and other professional codecs.\n  - name: Multiple Input Types\n    description: Accept live video from RTP, RTMP, HLS pull, MediaConnect, MP4, and other source types.\n  - name: Redundant Encoding\n    description: Pipeline redundancy for high-availability live events with automatic failover.\n  - name: Dynamic Ad Insertion Markers\n    description: Insert SCTE-35 markers for downstream ad replacement in live streams.\n  - name: Multiple Output Groups\n    description: Deliver to HLS, DASH, RTMP,\

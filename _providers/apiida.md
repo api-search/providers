@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: apiida-api-control-plane-openapi.yml
+  format: yaml
+  label: APIIDA API Control Plane
+  slug: api-control-plane
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-api-control-plane-openapi.yml
+- filename: apiida-api-gateway-manager-openapi.yml
+  format: yaml
+  label: APIIDA API Gateway Manager
+  slug: api-gateway-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-api-gateway-manager-openapi.yml
 apis:
 - description: REST API for the APIIDA API Control Plane, enabling programmatic management of APIs across multiple API gateways. Supports validation of proxy specifications, API version management, and deployment to
   name: APIIDA API Control Plane
@@ -65,6 +78,7 @@ solutions:
   name: API Gateway Manager
 - description: Custom licensing with dedicated support for large-scale federated API management deployments.
   name: Enterprise
+source_filename: apis.yml
 source_yaml: "aid: apiida\nname: APIIDA\ndescription: >-\n  APIIDA provides market-leading solutions for multi-vendor, cross-platform\n  federated API management. The APIIDA API Control Plane enables enterprises\n  to discover, govern, and provision APIs from a central location, while the\n  API Gateway Manager automates API operations for Broadcom Layer7\n  environments with comprehensive deployment, migration, monitoring, and\n  alarming capabilities.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - API Gateway\n  - API Management\n  - Federated API Management\n  - Governance\n  - Layer7\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/apis.yml\ncreated: '2025-01-08'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: apiida:api-control-plane\n    name: APIIDA API Control Plane\n    description: >-\n      REST API for the APIIDA API Control Plane, enabling programmatic\n    \
   \  management of APIs across multiple API gateways. Supports validation\n      of proxy specifications, API version management, and deployment to\n      gateways from a central federated control plane.\n    humanURL: https://apiida.com/product/apiida-api-control-plane/\n    baseURL: https://api.apiida.com\n    tags:\n      - API Lifecycle\n      - API Management\n      - Federated Control Plane\n      - Governance\n    properties:\n      - type: Documentation\n        url: https://apiida.com/product/apiida-api-control-plane/\n      - type: OpenAPI\n        url: openapi/apiida-api-control-plane-openapi.yml\n      - type: JSONSchema\n        url: json-schema/apiida-api.json\n      - type: JSONSchema\n        url: json-schema/apiida-deployment.json\n      - type: JSON-LD\n        url: json-ld/apiida-context.jsonld\n  - aid: apiida:api-gateway-manager\n    name: APIIDA API Gateway Manager\n    description: >-\n      REST API for the APIIDA API Gateway Manager, enabling programmatic\n     \
   \ management of Broadcom Layer7 API gateways. Supports gateway\n      registration, API deployment and migration, monitoring and metrics\n      collection, and alarm configuration across managed gateway instances.\n    humanURL: https://apiida.com/product/apiida-api-gateway-manager/\n    baseURL: https://api.apiida.com\n    tags:\n      - API Deployments\n      - API Gateway\n      - Layer7\n      - Monitoring\n    properties:\n      - type: Documentation\n        url: https://apiida.com/product/apiida-api-gateway-manager/\n      - type: Documentation\n        url: https://apiida.atlassian.net/wiki/spaces/AAGM\n      - type: OpenAPI\n        url: openapi/apiida-api-gateway-manager-openapi.yml\n      - type: JSONSchema\n        url: json-schema/apiida-gateway.json\n      - type: JSONSchema\n        url: json-schema/apiida-deployment.json\n      - type: JSON-LD\n        url: json-ld/apiida-context.jsonld\ncommon:\n  - type: Website\n    url: https://apiida.com/\n  - type: Documentation\n\

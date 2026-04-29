@@ -1,5 +1,36 @@
 ---
 api_count: 5
+api_specs:
+- filename: boltic-gateway-api-openapi.yml
+  format: yaml
+  label: Boltic Gateway API
+  slug: gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-gateway-api-openapi.yml
+- filename: boltic-workflow-api-openapi.yml
+  format: yaml
+  label: Boltic Workflow API
+  slug: workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-workflow-api-openapi.yml
+- filename: boltic-tables-api-openapi.yml
+  format: yaml
+  label: Boltic Tables API
+  slug: tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-tables-api-openapi.yml
+- filename: boltic-pipes-api-openapi.yml
+  format: yaml
+  label: Boltic Pipes API
+  slug: pipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-pipes-api-openapi.yml
+- filename: boltic-streams-api-openapi.yml
+  format: yaml
+  label: Boltic Streams API
+  slug: streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-streams-api-openapi.yml
 apis:
 - description: The Boltic Gateway API provides a developer-friendly API gateway designed to simplify and secure how services interact across your platform. It enables seamless request routing, payload transformation
   name: Boltic Gateway API
@@ -60,6 +91,7 @@ name: Boltic
 skills: []
 slug: boltic
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: boltic\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/apis.yml\napis:\n  - aid: boltic:gateway-api\n    name: Boltic Gateway API\n    tags:\n      - Gateways\n      - Plugins\n      - Routing\n      - Security\n    humanURL: https://docs.boltic.io/gateway/intro/\n    properties:\n      - url: https://docs.boltic.io/gateway/intro/\n        type: Documentation\n      - url: openapi/boltic-gateway-api-openapi.yml\n        type: OpenAPI\n      - url: json-schema/boltic-route.json\n        type: JSONSchema\n    description: >-\n      The Boltic Gateway API provides a developer-friendly API gateway designed\n      to simplify and secure how services interact across your platform. It\n      enables seamless request routing, payload transformation, and enforcement\n      of security policies across diverse integration types including serverless\n      functions, workflows, tables, and proxy endpoints. The Gateway supports\n      dynamic URL\
   \ rewriting, path parameter injection, fine-grained\n      authentication, and real-time observability.\n  - aid: boltic:workflow-api\n    name: Boltic Workflow API\n    tags:\n      - Automation\n      - Integrations\n      - Triggers\n      - Workflows\n    humanURL: https://www.boltic.io/products/workflow\n    properties:\n      - url: https://docs.boltic.io/\n        type: Documentation\n      - url: openapi/boltic-workflow-api-openapi.yml\n        type: OpenAPI\n      - url: json-schema/boltic-workflow.json\n        type: JSONSchema\n    description: >-\n      The Boltic Workflow API enables programmatic creation, management, and\n      execution of automation workflows. Workflows are visual, no-code\n      automation sequences that connect triggers with actions across 500+\n      integrations. The API supports HTTP-triggered workflows with customizable\n      responses, scheduled executions, webhook-based triggers, and integration\n      with AI providers including Perplexity, Hugging\
   \ Face, Meta, and DeepSeek.\n  - aid: boltic:tables-api\n    name: Boltic Tables API\n    tags:\n      - CRUD\n      - Databases\n      - NoCode\n      - Tables\n    humanURL: https://www.boltic.io/products/boltic-tables\n    properties:\n      - url: https://docs.boltic.io/docs/workflow-builder/activities/tables/\n        type: Documentation\n      - url: openapi/boltic-tables-api-openapi.yml\n        type: OpenAPI\n      - url: json-schema/boltic-table.json\n        type: JSONSchema\n    description: >-\n      The Boltic Tables API provides programmatic access to Boltic Tables, a\n      no-code database for teams to organize, manage, and automate structured\n      data workflows. The API supports full CRUD operations on tables and rows,\n      SQL query execution via a built-in SQL editor with AI-powered query\n      generation, and integration with workflows for automated data processing\n      triggered by table changes.\n  - aid: boltic:pipes-api\n    name: Boltic Pipes API\n    tags:\n\

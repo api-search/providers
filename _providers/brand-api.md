@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: brandfetch-brand-api.yml
+  format: yaml
+  label: Brandfetch Brand API
+  slug: brandfetch-brand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brandfetch-brand-api.yml
 apis:
 - description: Brand API provides programmatic access to any company's brand assets through a single API call. Returns the latest logos, color schemes, fonts, images, and firmographic information. Supports lookup by
   name: Brandfetch Brand API
@@ -64,6 +71,7 @@ name: Brand API (Brandfetch)
 skills: []
 slug: brand-api
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: brand-api\nurl: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/apis.yml\nname: Brand API (Brandfetch)\ntags:\n  - Brands\n  - Logos\n  - Brand Assets\n  - Company Data\n  - Firmographics\ntype: Index\nx-type: company\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/brand-api-create-branded-experiences.png\naccess: 3rd-Party\ncreated: '2024-03-30'\nmodified: '2026-04-21'\nposition: Consuming\ndescription: >-\n  Brandfetch provides programmatic access to brand assets and company data through\n  a suite of APIs. The Brand API retrieves logos, color schemes, fonts, images, and\n  firmographic information for any company via domain, stock ticker, ISIN code, or\n  crypto symbol. The Logo Link API serves logos via CDN with support for multiple\n  formats, themes, and sizes. The Brand Search API enables autocomplete experiences\n  by matching brand names to their domains and identifiers. All APIs support Bearer\n  token authentication\
   \ with free access for development.\napis:\n  - aid: brand-api:brandfetch-brand-api\n    name: Brandfetch Brand API\n    tags:\n      - Brands\n      - Logos\n      - Colors\n      - Fonts\n      - Firmographics\n    humanURL: https://docs.brandfetch.com/docs/brand-api\n    properties:\n      - url: openapi/brandfetch-brand-api.yml\n        type: OpenAPI\n      - url: https://docs.brandfetch.com/docs/brand-api\n        type: Documentation\n    description: >-\n      Brand API provides programmatic access to any company's brand assets through\n      a single API call. Returns the latest logos, color schemes, fonts, images,\n      and firmographic information. Supports lookup by domain (e.g. nike.com),\n      stock/ETF ticker (e.g. NKE), ISIN code, or crypto symbol (e.g. BTC).\n      Base endpoint: GET /v2/brands/{identifier}. Authentication via Bearer token.\n      Free sandbox testing available on the brandfetch.com domain.\n  - aid: brand-api:brandfetch-logo-link-api\n    name: Brandfetch\
   \ Logo Link API\n    tags:\n      - Logos\n      - CDN\n      - Brand Assets\n    humanURL: https://docs.brandfetch.com/docs/logo-link\n    properties:\n      - url: https://docs.brandfetch.com/docs/logo-link\n        type: Documentation\n    description: >-\n      Logo Link delivers brand logos directly via CDN URL embedding. Supports\n      lookup by domain, stock ticker, crypto symbol, or ISIN. Parameters include\n      logo type (icon, symbol, logo), theme (light/dark), height/width, format\n      (webp, png, jpg, svg), and fallback behavior. Base CDN URL:\n      https://cdn.brandfetch.io/{identifier}?c=CLIENT_ID. Free with fair-use\n      rate limits; no attribution required.\n  - aid: brand-api:brandfetch-brand-search-api\n    name: Brandfetch Brand Search API\n    tags:\n      - Brand Search\n      - Autocomplete\n      - Domain Matching\n    humanURL: https://docs.brandfetch.com/docs/brand-search-api\n    properties:\n      - url: https://docs.brandfetch.com/docs/brand-search-api\n\

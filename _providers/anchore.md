@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: anchore-enterprise-api.yaml
+  format: yaml
+  label: Anchore Enterprise API
+  slug: anchore-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-enterprise-api.yaml
 apis:
 - description: REST API for Anchore Enterprise providing image analysis, vulnerability scanning, policy evaluation, SBOM generation, subscription management, and reporting endpoints for enterprise container security
   name: Anchore Enterprise API
@@ -103,6 +110,7 @@ rules:
 skills: []
 slug: anchore
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: anchore\nname: Anchore\ndescription: >-\n  Anchore is a container and software supply chain security company providing open source and enterprise tools for vulnerability scanning, SBOM generation, policy enforcement, and continuous compliance. Core open source products include Syft (SBOM generator for container images and filesystems), Grype (vulnerability scanner), and Grant (license scanner). The Anchore Enterprise platform adds policy engines, CI/CD integrations, registry connectors, Kubernetes admission control, and reporting. Anchore supports CycloneDX and SPDX SBOM formats and integrates with Docker, Kubernetes, GitHub Actions, Jenkins, and major cloud registries.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Container Security\n  - Containers\n  - SBOM\n  - Software Supply Chain\n  - Vulnerability Scanning\nurl: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/apis.yml\ncreated:\
   \ '2026-03-26'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: anchore:anchore-enterprise-api\n    name: Anchore Enterprise API\n    description: >-\n      REST API for Anchore Enterprise providing image analysis, vulnerability scanning, policy evaluation, SBOM generation, subscription management, and reporting endpoints for enterprise container security workflows.\n    humanURL: https://docs.anchore.com/current/docs/using/api_usage/\n    baseURL: https://anchore.example.com/v2\n    tags:\n      - Container Security\n      - Enterprise\n      - Policy\n      - Vulnerability Scanning\n    properties:\n      - type: OpenAPI\n        url: openapi/anchore-enterprise-api.yaml\n      - type: Documentation\n        url: https://docs.anchore.com/current/docs/using/api_usage/\n      - type: JSONSchema\n        url: json-schema/anchore-image-schema.json\n      - type: JSONSchema\n        url: json-schema/anchore-vulnerability-schema.json\n      - type: JSONSchema\n       \
   \ url: json-schema/anchore-sbom-schema.json\n      - type: SpectralRules\n        url: rules/anchore-spectral-rules.yml\n      - type: NaftikoCapability\n        url: capabilities/anchore-container-security.yaml\n      - type: JSONStructure\n        url: json-structure/anchore-image-structure.json\n      - type: JSONLD\n        url: json-ld/anchore-enterprise-api-context.jsonld\n      - type: Vocabulary\n        url: vocabulary/anchore-vocabulary.yaml\ncommon:\n  - type: Portal\n    url: https://anchore.com/\n  - type: Documentation\n    url: https://docs.anchore.com/\n  - type: GettingStarted\n    url: https://docs.anchore.com/current/docs/quickstart/\n  - type: Authentication\n    url: https://docs.anchore.com/current/docs/using/api_usage/\n  - type: GitHubOrganization\n    url: https://github.com/anchore\n  - type: Blog\n    url: https://anchore.com/blog/\n  - type: Support\n    url: https://anchore.com/support/\n  - type: Pricing\n    url: https://anchore.com/pricing/\n  - type: StatusPage\n\

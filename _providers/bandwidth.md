@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: bandwidth-voice-api-openapi.yml
+  format: yaml
+  label: Bandwidth Voice API
+  slug: voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-voice-api-openapi.yml
+- filename: bandwidth-messaging-api-openapi.yml
+  format: yaml
+  label: Bandwidth Messaging API
+  slug: messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-messaging-api-openapi.yml
+- filename: bandwidth-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Bandwidth Phone Numbers API
+  slug: phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-phone-numbers-api-openapi.yml
+- filename: bandwidth-mfa-api-openapi.yml
+  format: yaml
+  label: Bandwidth Multi-Factor Authentication API
+  slug: multi-factor-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-mfa-api-openapi.yml
+- filename: bandwidth-emergency-calling-api-openapi.yml
+  format: yaml
+  label: Bandwidth Emergency Calling API
+  slug: emergency-calling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-emergency-calling-api-openapi.yml
+- filename: bandwidth-toll-free-verification-api-openapi.yml
+  format: yaml
+  label: Bandwidth Toll-Free Verification API
+  slug: toll-free-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-toll-free-verification-api-openapi.yml
 apis:
 - description: The Bandwidth Voice API enables developers to programmatically make and receive phone calls, manage call recordings, and create multi-party conferences. It supports advanced call control features incl
   name: Bandwidth Voice API
@@ -133,6 +170,7 @@ rules:
 skills: []
 slug: bandwidth
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: bandwidth\nurl: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/apis.yml\nname: Bandwidth\ntags:\n  - Communications\n  - CPaaS\n  - Voice\n  - Messaging\n  - Telephony\n  - SMS\n  - MFA\nmodified: '2026-04-19'\ndescription: >-\n  Bandwidth is a leading cloud-based communications platform providing voice, messaging, emergency\n  calling, phone number management, multi-factor authentication, and toll-free verification APIs.\n  Built on Bandwidth's own Tier 1 network, the platform delivers enterprise-grade reliability\n  for CPaaS applications.\napis:\n  - aid: bandwidth:voice-api\n    name: Bandwidth Voice API\n    tags:\n      - Calls\n      - Conferences\n      - CPaaS\n      - Recordings\n      - Telephony\n      - Voice\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://voice.bandwidth.com/api/v2\n    humanURL: https://dev.bandwidth.com/docs/voice/\n    properties:\n      - url: https://dev.bandwidth.com/docs/voice/\n\
   \        type: Documentation\n      - url: openapi/bandwidth-voice-api-openapi.yml\n        type: OpenAPI\n      - url: asyncapi/bandwidth-voice-events-asyncapi.yml\n        type: AsyncAPI\n    description: >-\n      The Bandwidth Voice API enables developers to programmatically make and\n      receive phone calls, manage call recordings, and create multi-party\n      conferences. It supports advanced call control features including call\n      transfers, bridging, DTMF detection, and text-to-speech. The API uses\n      BXML (Bandwidth XML) verbs for call flow control and provides webhooks\n      for real-time event notifications on call state changes.\n  - aid: bandwidth:messaging-api\n    name: Bandwidth Messaging API\n    tags:\n      - CPaaS\n      - Messaging\n      - MMS\n      - SMS\n      - Text Messaging\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://messaging.bandwidth.com/api/v2\n    humanURL: https://dev.bandwidth.com/docs/messaging/\n\
   \    properties:\n      - url: https://dev.bandwidth.com/docs/messaging/\n        type: Documentation\n      - url: openapi/bandwidth-messaging-api-openapi.yml\n        type: OpenAPI\n      - url: asyncapi/bandwidth-messaging-events-asyncapi.yml\n        type: AsyncAPI\n    description: >-\n      The Bandwidth Messaging API allows developers to send and receive SMS\n      and MMS messages programmatically. It supports both toll-free and\n      local number messaging, group messaging, and application-to-person\n      (A2P) messaging workflows. The API provides delivery receipts via\n      webhooks, message status tracking, and media management for MMS\n      attachments. Bandwidth operates its own tier-1 network, providing\n      direct carrier connectivity for reliable message delivery.\n  - aid: bandwidth:phone-numbers-api\n    name: Bandwidth Phone Numbers API\n    tags:\n      - Number Management\n      - Phone Numbers\n      - Porting\n      - Telecom\n      - Telephone Numbers\n \

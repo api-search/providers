@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: apple-pay-js-openapi.yml
+  format: yaml
+  label: Apple Pay JS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-js-openapi.yml
+- filename: apple-pay-payment-token-openapi.yml
+  format: yaml
+  label: Apple Pay Payment Token API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-payment-token-openapi.yml
 apis:
 - description: Server-side REST API for Apple Pay on the Web, enabling merchants to validate their identity with Apple and obtain payment sessions used by the ApplePaySession JavaScript API in Safari. Supports Touch
   name: Apple Pay JS API
@@ -101,6 +114,7 @@ rules:
 skills: []
 slug: apple-pay
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Apple Pay\ndescription: >-\n  Apple Pay enables secure, frictionless payments in apps and on the web using the\n  payment cards stored in users' Apple Wallet. It supports Touch ID, Face ID, and\n  Apple Watch authentication for both in-person and online payments. Apple Pay is\n  available on iOS, watchOS, macOS, and via Safari on the web through the Apple Pay\n  JS API, with a PassKit native framework for iOS/watchOS app integration.\nimage: https://developer.apple.com/assets/elements/icons/apple-pay/apple-pay-96x96.png\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nurl: https://developer.apple.com/apple-pay/\nspecificationVersion: '0.18'\ntags:\n  - Apple\n  - Contactless Payments\n  - Digital Wallet\n  - E-Commerce\n  - Mobile Payments\n  - Payments\napis:\n  - name: Apple Pay JS API\n    description: >-\n      Server-side REST API for Apple Pay on the Web, enabling merchants to validate\n      their identity with Apple and obtain payment sessions used by the ApplePaySession\n\
   \      JavaScript API in Safari. Supports Touch ID and Face ID for frictionless web checkout.\n    image: https://developer.apple.com/assets/elements/icons/apple-pay/apple-pay-96x96.png\n    humanURL: https://developer.apple.com/documentation/apple_pay_on_the_web\n    baseURL: https://apple-pay-gateway.apple.com\n    tags:\n      - Javascript\n      - Safari\n      - Web Payments\n    properties:\n      - type: Documentation\n        url: https://developer.apple.com/documentation/apple_pay_on_the_web\n      - type: GettingStarted\n        url: https://developer.apple.com/apple-pay/implementation/\n      - type: APIReference\n        url: https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentrequest\n      - type: Sandbox\n        url: https://developer.apple.com/apple-pay/sandbox-testing/\n      - type: OpenAPI\n        url: openapi/apple-pay-js-openapi.yml\n      - type: JSONSchema\n        url: json-schema/apple-pay-payment-request-schema.json\n        title:\
   \ Payment Request Schema\n    contact:\n      - FN: Apple Developer Support\n        email: developer@apple.com\n        url: https://developer.apple.com/contact/\n  - name: PassKit Framework (Apple Pay)\n    description: >-\n      Native iOS, watchOS, and macOS framework for integrating Apple Pay into mobile\n      and desktop applications. Provides PKPaymentRequest and PKPaymentAuthorizationViewController\n      for in-app Apple Pay checkout.\n    image: https://developer.apple.com/assets/elements/icons/apple-pay/apple-pay-96x96.png\n    humanURL: https://developer.apple.com/documentation/passkit\n    baseURL: Native Framework\n    tags:\n      - iOS\n      - Mobile\n      - Native\n      - Swift\n    properties:\n      - type: Documentation\n        url: https://developer.apple.com/documentation/passkit/apple_pay\n      - type: APIReference\n        url: https://developer.apple.com/documentation/passkit/pkpaymentrequest\n      - type: CodeExamples\n        url: https://developer.apple.com/documentation/passkit/apple_pay/offering_apple_pay\n\

@@ -1,5 +1,72 @@
 ---
 api_count: 15
+api_specs:
+- filename: salesforce-rest-api-openapi.json
+  format: json
+  label: Salesforce REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-rest-api-openapi.json
+- filename: salesforce-bulk-api-openapi.json
+  format: json
+  label: Salesforce Bulk API 2.0
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-bulk-api-openapi.json
+- filename: salesforce-streaming-api-openapi.json
+  format: json
+  label: Salesforce Streaming API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-streaming-api-openapi.json
+- filename: salesforce-platform-events-api-openapi.json
+  format: json
+  label: Salesforce Platform Events API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-platform-events-api-openapi.json
+- filename: salesforce-analytics-api-openapi.json
+  format: json
+  label: Salesforce Analytics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-analytics-api-openapi.json
+- filename: salesforce-tooling-api-openapi.json
+  format: json
+  label: Salesforce Tooling API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-tooling-api-openapi.json
+- filename: salesforce-connect-rest-api-openapi.json
+  format: json
+  label: Salesforce Connect REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-connect-rest-api-openapi.json
+- filename: salesforce-change-data-capture-api-openapi.json
+  format: json
+  label: Salesforce Change Data Capture API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-change-data-capture-api-openapi.json
+- filename: salesforce-invocable-actions-api-openapi.json
+  format: json
+  label: Salesforce Invocable Actions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-invocable-actions-api-openapi.json
+- filename: salesforce-composite-api-openapi.json
+  format: json
+  label: Salesforce Composite API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-composite-api-openapi.json
+- filename: salesforce-apex-rest-api-openapi.json
+  format: json
+  label: Salesforce Apex REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/openapi/salesforce-apex-rest-api-openapi.json
 apis:
 - description: Core REST API for accessing Salesforce data and metadata programmatically.
   name: Salesforce REST API
@@ -205,6 +272,7 @@ rules:
 skills: []
 slug: salesforce-automation
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Salesforce Automation\ndescription: >-\n  A collection of Salesforce APIs for automating business processes, sales operations,\n  and customer relationship management.\nimage: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\nurl: https://developer.salesforce.com\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.16'\ntags:\n  - Automation\n  - Cloud\n  - CRM\n  - Enterprise\n  - Sales\napis:\n  - name: Salesforce REST API\n    description: >-\n      Core REST API for accessing Salesforce data and metadata programmatically.\n    image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\n    humanURL: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/\n    baseURL: https://yourInstance.salesforce.com/services/data\n    tags:\n      - CRUD\n      - Data\n      - REST\n    properties:\n      - type: Documentation\n        url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/\n\
   \      - type: OpenAPI\n        url: openapi/salesforce-rest-api-openapi.json\n      - type: JSONSchema\n        url: json-schema/salesforce-automation-flow-schema.json\n      - type: JSONLD\n        url: json-ld/salesforce-automation-context.jsonld\n      - type: Authentication\n        url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_oauth_and_connected_apps.htm\n      - type: Getting Started\n        url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart.htm\n      - type: API Reference\n        url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_list.htm\n      - type: Rate Limits\n        url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_limits.htm\n      - type: Change Log\n        url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/rest_rns.htm\n      - type: Postman Collection\n        url: https://www.postman.com/salesforce-developers/workspace/salesforce-developers/overview\n\
   \    contact:\n      - FN: Salesforce Developer Support\n        email: developer@salesforce.com\n        url: https://developer.salesforce.com/support\n  - name: Salesforce SOAP API\n    description: >-\n      Enterprise-grade SOAP API for complex integrations and bulk operations.\n    image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\n    humanURL: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/\n    baseURL: https://yourInstance.salesforce.com/services/Soap/c\n    tags:\n      - Enterprise\n      - Integration\n      - SOAP\n    properties:\n      - type: Documentation\n        url: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/\n      - type: WSDL\n        url: https://yourInstance.salesforce.com/services/wsdl/enterprise\n      - type: Authentication\n        url: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_login.htm\n    contact:\n      - FN: Salesforce Developer Support\n    \

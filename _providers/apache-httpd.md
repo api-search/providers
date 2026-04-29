@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-httpd-status-openapi.yml
+  format: yaml
+  label: Apache HTTP Server Status API
+  slug: apache-httpd-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-status-openapi.yml
 apis:
 - description: Status and monitoring API for Apache HTTP Server (httpd) provided by mod_status, exposing server metrics, worker state, and load balancer information via HTTP endpoints.
   name: Apache HTTP Server Status API
@@ -84,6 +91,7 @@ rules:
 skills: []
 slug: apache-httpd
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-httpd\nname: Apache HTTP Server\ndescription: >-\n  Apache HTTP Server (httpd) is the world's most widely used web server software. It serves static and dynamic content, acts as a reverse proxy and load balancer, and exposes a mod_status monitoring API and balancer-manager management interface for operational visibility.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - Load Balancer\n  - Open Source\n  - Proxy\n  - Reverse Proxy\n  - Web Server\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-httpd:apache-httpd-status-api\n    name: Apache HTTP Server Status API\n    description: >-\n      Status and monitoring API for Apache HTTP Server (httpd) provided by mod_status, exposing server metrics, worker state,\
   \ and load balancer information via HTTP endpoints.\n    humanURL: https://httpd.apache.org/docs/current/mod/mod_status.html\n    baseURL: http://localhost:80\n    tags:\n      - Balancer\n      - Metrics\n      - Monitoring\n      - REST\n      - Status\n    properties:\n      - type: Documentation\n        url: https://httpd.apache.org/docs/current/mod/mod_status.html\n      - type: OpenAPI\n        url: openapi/apache-httpd-status-openapi.yml\n      - type: JSONSchema\n        url: json-schema/httpd-serverstatus-schema.json\n      - type: JSON-LD\n        url: json-ld/apache-httpd-status-context.jsonld\n\n  - aid: apache-httpd:apache-httpd-config-api\n    name: Apache HTTP Server Configuration Reference\n    description: >-\n      Configuration directive reference for Apache HTTP Server covering VirtualHost, mod_ssl, mod_rewrite, mod_proxy, and all core directives for web server, proxy, and SSL configuration.\n    humanURL: https://httpd.apache.org/docs/current/mod/directives.html\n\
   \    tags:\n      - Configuration\n      - Reference\n    properties:\n      - type: Documentation\n        url: https://httpd.apache.org/docs/current/mod/directives.html\n\ncommon:\n  - type: Documentation\n    url: https://httpd.apache.org/docs/current/\n  - type: GettingStarted\n    url: https://httpd.apache.org/docs/current/getting-started.html\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/httpd\n  - type: SpectralRules\n    url: rules/apache-httpd-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-httpd-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/httpd-server-monitoring.yaml\n  - type: Features\n    data:\n      - name: mod_status Monitoring\n        description: Real-time server status endpoint providing request rates, worker states, and CPU usage.\n      - name: mod_proxy Reverse Proxy\n        description: Full-featured reverse proxy with HTTP, HTTPS, WebSocket,\

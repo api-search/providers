@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: microsoft-visio-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Visio API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-graph-api.yaml
 apis:
 - description: REST API for accessing and interacting with Visio files stored in SharePoint Online and OneDrive for Business through Microsoft Graph. Supports reading pages, shapes, shape data, comments, and hyperli
   name: Microsoft Graph Visio API
@@ -83,6 +90,7 @@ rules:
 skills: []
 slug: microsoft-visio
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: microsoft-visio\nname: Microsoft Visio\ndescription: >-\n  APIs and resources for Microsoft Visio, a diagramming and vector graphics\n  application that helps visualize data-connected business process flows.\n  Provides programmatic access to diagrams, pages, shapes, data items,\n  comments, and hyperlinks through Microsoft Graph and JavaScript APIs.\nimage: https://learn.microsoft.com/en-us/graph/images/visio-logo.png\nurl: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/apis.yml\nhumanURL: https://www.microsoft.com/en-us/microsoft-365/visio/microsoft-visio-plans-and-pricing-compare-visio-options\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - Business Process\n  - Diagramming\n  - Flowcharts\n  - Microsoft 365\n  - Visualization\napis:\n  - name: Microsoft Graph Visio API\n    description: >-\n      REST API for accessing and interacting with Visio files stored in\n      SharePoint Online\
   \ and OneDrive for Business through Microsoft Graph.\n      Supports reading pages, shapes, shape data, comments, and hyperlinks.\n    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/visio\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n      - Microsoft Graph\n      - OneDrive\n      - REST API\n      - SharePoint\n      - Visio Files\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/graph/api/resources/visio\n      - type: OpenAPI\n        url: openapi/microsoft-visio-graph-api.yaml\n      - type: Authentication\n        url: https://learn.microsoft.com/en-us/graph/auth/\n      - type: GettingStarted\n        url: https://learn.microsoft.com/en-us/graph/api/resources/visio\n      - type: JSONSchema\n        url: json-schema/visio-graph-api-visio-page-schema.json\n      - type: JSONSchema\n        url: json-schema/visio-graph-api-visio-shape-schema.json\n      - type: JSONSchema\n        url: json-schema/visio-graph-api-shape-data-item-schema.json\n\
   \      - type: JSONSchema\n        url: json-schema/visio-graph-api-visio-comment-schema.json\n      - type: JSONSchema\n        url: json-schema/visio-graph-api-visio-hyperlink-schema.json\n      - type: JSONStructure\n        url: json-structure/visio-graph-api-visio-page-structure.json\n      - type: JSON-LD\n        url: json-ld/microsoft-visio-graph-api-context.jsonld\n      - type: Example\n        url: examples/visio-graph-api-visio-page-example.json\n      - type: Example\n        url: examples/visio-graph-api-visio-shape-example.json\n  - name: Visio JavaScript API\n    description: >-\n      JavaScript API for building add-ins and extending Visio functionality\n      in the browser with access to documents, pages, shapes, and comments.\n    humanURL: https://learn.microsoft.com/en-us/javascript/api/visio\n    baseURL: https://learn.microsoft.com/en-us/javascript/api/visio\n    tags:\n      - Add-Ins\n      - Browser\n      - JavaScript\n      - Office Add-Ins\n    properties:\n\

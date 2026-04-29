@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: alpha-vantage-openapi.yml
+  format: yaml
+  label: Alpha Vantage Market Data API
+  slug: market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-openapi.yml
 apis:
 - description: 'Real-time and historical stock market data API supporting time series, global quotes, symbol search, fundamental data, technical indicators, forex/crypto exchange rates, economic indicators, and news '
   name: Alpha Vantage Market Data API
@@ -80,6 +87,7 @@ rules:
 skills: []
 slug: alpha-vantage
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: alpha-vantage\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/apis.yml\nname: Alpha Vantage\ntags:\n  - Financial\n  - Market Data\n  - Stocks\n  - Technical Indicators\n  - Economic Data\n  - Sentiment Analysis\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Alpha Vantage is a financial data platform providing real-time and historical\n  market data for stocks, options, cryptocurrencies, forex, commodities, and\n  economic indicators. The API supports 50+ technical indicators, fundamental\n  data, Alpha Intelligence sentiment analysis, and earnings data, all accessed\n  through a single query endpoint using function-based routing.\ncreated: '2024-11-07'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: alpha-vantage:market-data-api\n    name: Alpha Vantage Market Data API\n    description: >-\n      Real-time and historical stock market data\
   \ API supporting time series,\n      global quotes, symbol search, fundamental data, technical indicators,\n      forex/crypto exchange rates, economic indicators, and news sentiment\n      analysis via function-based query parameter routing.\n    humanURL: https://www.alphavantage.co/documentation/\n    baseURL: https://www.alphavantage.co\n    tags:\n      - Financial\n      - Market Data\n      - Stocks\n      - Technical Indicators\n      - Economic Data\n      - Sentiment Analysis\n    properties:\n      - type: Documentation\n        url: https://www.alphavantage.co/documentation/\n      - type: Portal\n        url: https://www.alphavantage.co/\n      - type: OpenAPI\n        url: openapi/alpha-vantage-openapi.yml\n      - type: JSONSchema\n        url: json-schema/alpha-vantage-global_quote-schema.json\n      - type: JSONStructure\n        url: json-structure/alpha-vantage-global_quote-structure.json\n      - type: JSONLD\n        url: json-ld/alpha-vantage-context.jsonld\n    \
   \  - type: Example\n        url: examples/alpha-vantage-global_quote-example.json\n      - type: NaftikoCapability\n        url: capabilities/shared/market-data.yaml\n\ncommon:\n  - url: https://www.alphavantage.co/\n    type: Website\n  - url: https://www.alphavantage.co/documentation/\n    type: Documentation\n  - url: https://www.alphavantage.co/support/#support\n    type: Support\n  - url: https://www.alphavantage.co/support/#api-key\n    type: SignUp\n  - url: https://www.alphavantage.co/premium/\n    type: Pricing\n  - url: rules/alpha-vantage-spectral-rules.yml\n    type: SpectralRules\n  - url: vocabulary/alpha-vantage-vocabulary.yaml\n    type: Vocabulary\n  - url: capabilities/financial-data-analytics.yaml\n    type: NaftikoCapability\n  - type: Features\n    data:\n      - name: Stock Time Series\n        description: >-\n          Intraday (1min to 60min), daily, weekly, and monthly OHLCV stock price\n          data for 20+ years of history with compact and full output modes.\n\

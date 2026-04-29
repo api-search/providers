@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-mainframe-modernization-openapi-original.yaml
+  format: yaml
+  label: AWS Mainframe Modernization API
+  slug: aws-mainframe-modernization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-openapi-original.yaml
 apis:
 - description: 'The AWS Mainframe Modernization API provides programmatic access to create and manage applications, environments, deployments, and batch job executions for mainframe application modernization on AWS. '
   name: AWS Mainframe Modernization API
@@ -99,6 +106,7 @@ rules:
 skills: []
 slug: amazon-mainframe-modernization
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-mainframe-modernization\nname: Amazon Mainframe Modernization\ndescription: >-\n  AWS Mainframe Modernization provides tools and resources to help you plan and\n  implement migration and modernization of your mainframe applications to AWS.\n  It supports automated refactoring and replatforming of COBOL applications\n  to run natively on AWS with managed runtime environments, deployment pipelines,\n  and batch job execution capabilities.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - COBOL\n  - Mainframe\n  - Migration\n  - Modernization\n  - Batch Processing\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-mainframe-modernization:aws-mainframe-modernization-api\n    name: AWS Mainframe Modernization API\n    description: >-\n  \
   \    The AWS Mainframe Modernization API provides programmatic access to\n      create and manage applications, environments, deployments, and batch\n      job executions for mainframe application modernization on AWS. Covers\n      25 paths and 33 operations for the full modernization lifecycle.\n    humanURL: https://aws.amazon.com/mainframe-modernization/\n    baseURL: https://m2.amazonaws.com\n    tags:\n      - Mainframe\n      - Migration\n      - Modernization\n      - COBOL\n      - Batch Processing\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/m2/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-mainframe-modernization-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/mainframe-modernization/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/mainframe-modernization/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/mainframe-modernization/faqs/\n\
   \      - type: JSONSchema\n        url: json-schema/amazon-mainframe-modernization-application-summary-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-mainframe-modernization-application-summary-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-mainframe-modernization-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/mainframe-modernization/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/m2/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/modernizing-with-aws/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/m2/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n\

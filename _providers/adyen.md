@@ -1,5 +1,186 @@
 ---
 api_count: 30
+api_specs:
+- filename: accounting-notifications-openapi-original.yml
+  format: yaml
+  label: Adyen Accounting Notifications API
+  slug: adyen-accounting-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/accounting-notifications-openapi-original.yml
+- filename: accounts-openapi-original.yml
+  format: yaml
+  label: Adyen Account API
+  slug: adyen-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/accounts-openapi-original.yml
+- filename: authentication-webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Authentication Webhooks API
+  slug: adyen-authentication-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/authentication-webhooks-openapi-original.yml
+- filename: balance-control-openapi-original.yml
+  format: yaml
+  label: Adyen Balance Control API
+  slug: adyen-balance-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/balance-control-openapi-original.yml
+- filename: binlookup-openapi-original.yml
+  format: yaml
+  label: Adyen BinLookup API
+  slug: adyen-binlookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/binlookup-openapi-original.yml
+- filename: checkout-openapi-original.yml
+  format: yaml
+  label: Adyen Checkout API
+  slug: adyen-checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/checkout-openapi-original.yml
+- filename: configuration-openapi-original.yml
+  format: yaml
+  label: Adyen Configuration API
+  slug: adyen-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/configuration-openapi-original.yml
+- filename: configuration-webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Configuration Webhooks API
+  slug: adyen-configuration-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/configuration-webhooks-openapi-original.yml
+- filename: data-protection-openapi-original.yml
+  format: yaml
+  label: Adyen Data Protection API
+  slug: adyen-data-protection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/data-protection-openapi-original.yml
+- filename: disputes-openapi-original.yml
+  format: yaml
+  label: Adyen Disputes API
+  slug: adyen-disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/disputes-openapi-original.yml
+- filename: funds-openapi-original.yml
+  format: yaml
+  label: Adyen Funds API
+  slug: adyen-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/funds-openapi-original.yml
+- filename: hosted-onboarding-openapi-original.yml
+  format: yaml
+  label: Adyen Hosted Onboarding API
+  slug: adyen-hosted-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/hosted-onboarding-openapi-original.yml
+- filename: legal-entity-openapi-original.yml
+  format: yaml
+  label: Adyen Legal Entity API
+  slug: adyen-legal-entity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/legal-entity-openapi-original.yml
+- filename: management-openapi-original.yml
+  format: yaml
+  label: Adyen Management API
+  slug: adyen-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/management-openapi-original.yml
+- filename: management-webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Management Webhooks API
+  slug: adyen-management-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/management-webhooks-openapi-original.yml
+- filename: notification-configurations-openapi-original.yml
+  format: yaml
+  label: Adyen Notification Configuration API
+  slug: adyen-notification-configuration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/notification-configurations-openapi-original.yml
+- filename: notification-webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Notification Webhooks API
+  slug: adyen-notification-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/notification-webhooks-openapi-original.yml
+- filename: notifications-openapi-original.yml
+  format: yaml
+  label: Adyen Notifications API
+  slug: adyen-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/notifications-openapi-original.yml
+- filename: payments-openapi-original.yml
+  format: yaml
+  label: Adyen Payments API
+  slug: adyen-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/payments-openapi-original.yml
+- filename: payouts-openapi-original.yml
+  format: yaml
+  label: Adyen Payouts API
+  slug: adyen-payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/payouts-openapi-original.yml
+- filename: pos-terminal-openapi-original.yml
+  format: yaml
+  label: Adyen POS Terminal API
+  slug: adyen-pos-terminal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/pos-terminal-openapi-original.yml
+- filename: recurring-openapi-original.yml
+  format: yaml
+  label: Adyen Recurring API
+  slug: adyen-recurring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/recurring-openapi-original.yml
+- filename: report-webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Report Webhooks API
+  slug: adyen-report-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/report-webhooks-openapi-original.yml
+- filename: stored-value-openapi-original.yml
+  format: yaml
+  label: Adyen Stored Value API
+  slug: adyen-stored-value-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/stored-value-openapi-original.yml
+- filename: terminal-openapi-original.yml
+  format: yaml
+  label: Adyen Terminal API
+  slug: adyen-terminal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/terminal-openapi-original.yml
+- filename: test-cards-openapi-original.yml
+  format: yaml
+  label: Adyen Test Cards API
+  slug: adyen-test-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/test-cards-openapi-original.yml
+- filename: transaction-webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Transaction Webhooks API
+  slug: adyen-transaction-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/transaction-webhooks-openapi-original.yml
+- filename: transfer-webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Transfer Webhooks API
+  slug: adyen-transfer-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/transfer-webhooks-openapi-original.yml
+- filename: transfers-openapi-original.yml
+  format: yaml
+  label: Adyen Transfers API
+  slug: adyen-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/transfers-openapi-original.yml
+- filename: webhooks-openapi-original.yml
+  format: yaml
+  label: Adyen Webhooks API
+  slug: adyen-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/openapi/webhooks-openapi-original.yml
 apis:
 - description: Adyen sends notifications through webhooks to inform your system about incoming and outgoing transfers in your platform. You can use these webhooks to build your implementation. For example, you can u
   name: Adyen Accounting Notifications API
@@ -3689,6 +3870,7 @@ rules:
 skills: []
 slug: adyen
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: adyen\nurl: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/apis.yml\nname: Adyen\ntags:\n  - Payments\n  - Financial Services\n  - Fintech\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ncreated: '2023-11-13'\nmodified: '2026-04-19'\ndescription: >-\n  Adyen is a global payment company that provides businesses with a single platform\n  to accept payments from customers worldwide. Their technology enables companies\n  to accept a wide range of payment methods, including credit cards, digital wallets,\n  and local payment methods, in multiple currencies and countries. Adyen also offers\n  services such as fraud prevention, data analytics, and optimization tools to help\n  businesses streamline their payment processes and improve their overall performance.\nspecificationVersion: '0.16'\nmaintainers:\n  - FN: API Evangelist\n    url: http://apievangelist.com\n    email: info@apievangelist.com\napis:\n  - aid: adyen:adyen-accounting-notifications-api\n\
   \    name: Adyen Accounting Notifications API\n    tags:\n      - Accounting\n      - Notifications\n      - Webhooks\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://cal-test.adyen.com\n    humanURL: https://docs.adyen.com/marketplaces-and-platforms/classic/configure-notifications/\n    description: >-\n      Adyen sends notifications through webhooks to inform your system about\n      incoming and outgoing transfers in your platform. You can use these\n      webhooks to build your implementation. For example, you can use this\n      information to update balances in your own dashboards or to keep track of\n      incoming funds.\n    properties:\n      - url: https://docs.adyen.com/marketplaces-and-platforms/classic/configure-notifications/\n        type: Documentation\n      - url: openapi/accounting-notifications-openapi-original.yml\n        type: OpenAPI\n  - aid: adyen:adyen-account-api\n    name: Adyen Account API\n   \
   \ tags:\n      - Account\n      - Accounts\n      - Bank\n      - Holders\n      - Shareholders\n      - Verification\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://cal-test.adyen.com\n    humanURL: https://docs.adyen.com/api-explorer/Account/6/overview\n    description: >-\n      This API is used for the classic integration. The Account API provides\n      endpoints for managing account-related entities on your platform. These\n      related entities include account holders, accounts, bank accounts,\n      shareholders, and verification-related documents. The management operations\n      include actions such as creation, retrieval, updating, and deletion of them.\n    properties:\n      - url: https://docs.adyen.com/api-explorer/Account/6/overview\n        type: Documentation\n      - url: openapi/accounts-openapi-original.yml\n        type: OpenAPI\n  - aid: adyen:adyen-authentication-webhooks-api\n    name: Adyen Authentication\

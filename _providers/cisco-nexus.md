@@ -1,5 +1,12 @@
 ---
 api_count: 12
+api_specs:
+- filename: cisco-nexus-nxapi-rest.yml
+  format: yaml
+  label: Cisco NX-API REST
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-nxapi-rest.yml
 apis:
 - description: RESTful API for programmatic access to Nexus switches using HTTP/HTTPS.
   name: Cisco NX-API REST
@@ -121,6 +128,7 @@ rules:
 skills: []
 slug: cisco-nexus
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Cisco Nexus Dashboard\ndescription: APIs for managing and monitoring Cisco Nexus data center switches and network infrastructure.\nimage: https://www.cisco.com/c/en/us/products/switches/nexus-series-switches/index.jpg\nurl: https://developer.cisco.com/site/nexus/\ncreated: '2024'\nmodified: '2026-04-19'\ntags:\n  - Data Center\n  - Infrastructure\n  - Network Automation\n  - Networking\n  - SDN\n  - Switches\napis:\n  - name: Cisco NX-API REST\n    description: RESTful API for programmatic access to Nexus switches using HTTP/HTTPS.\n    image: https://www.cisco.com/c/en/us/products/switches/nexus-series-switches/index.jpg\n    humanURL: https://developer.cisco.com/docs/nx-os/\n    baseURL: https://{switch-ip}/api\n    tags:\n      - CLI\n      - Configuration\n      - Monitoring\n      - REST\n    properties:\n      - type: Documentation\n        url: https://developer.cisco.com/docs/nx-os/#!working-with-nx-api\n      - type: OpenAPI\n        url: openapi/cisco-nexus-nxapi-rest.yml\n\
   \      - type: Authentication\n        url: https://developer.cisco.com/docs/nx-os/#!authentication\n      - type: SDK\n        url: https://developer.cisco.com/docs/cisco-nexus-3000-and-9000-series-nx-api-rest-sdk-user-guide-and-api-reference/latest/\n      - type: GettingStarted\n        url: https://developer.cisco.com/docs/cisco-nexus-3000-and-9000-series-nx-api-rest-sdk-user-guide-and-api-reference/latest/getting-started-with-the-cisco-nexus-3000-and-9000-series-nx-api-rest-sdk/\n      - type: APIReference\n        url: https://developer.cisco.com/docs/nexus-model/latest/\n    contact:\n      - FN: Cisco DevNet Support\n        email: support@cisco.com\n        url: https://developer.cisco.com/site/support/\n  - name: Cisco NX-API CLI\n    description: API that accepts show commands and configuration commands in CLI format.\n    image: https://www.cisco.com/c/en/us/products/switches/nexus-series-switches/index.jpg\n    humanURL: https://developer.cisco.com/docs/nx-os/#!working-with-nx-api-cli\n\
   \    baseURL: https://{switch-ip}/ins\n    tags:\n      - CLI\n      - Configuration\n      - Show Commands\n    properties:\n      - type: Documentation\n        url: https://developer.cisco.com/docs/nx-os/#!nx-api-cli\n      - type: SDK\n        url: https://github.com/CiscoDevNet/nxapi-learning-labs\n      - type: Sandbox\n        url: https://devnetsandbox.cisco.com/RM/Topology\n    contact:\n      - FN: Cisco DevNet Support\n        email: support@cisco.com\n        url: https://developer.cisco.com/site/support/\n  - name: Cisco Nexus Dashboard REST API\n    description: Unified API for Nexus Dashboard Insights, Orchestrator, and Fabric Controller.\n    image: https://www.cisco.com/c/en/us/products/switches/nexus-series-switches/index.jpg\n    humanURL: https://developer.cisco.com/docs/nexus-dashboard/latest/\n    baseURL: https://{nexus-dashboard}/api/v1\n    tags:\n      - ACI\n      - Dashboard\n      - Fabric Controller\n      - Insights\n      - Orchestration\n    properties:\n\

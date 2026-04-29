@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-comprehend-openapi.yml
+  format: yaml
+  label: Amazon Comprehend API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/openapi/amazon-comprehend-openapi.yml
 apis:
 - description: The Amazon Comprehend API provides programmatic access to natural language processing capabilities including sentiment analysis, entity recognition, key phrase extraction, language detection, topic mo
   name: Amazon Comprehend API
@@ -120,6 +127,7 @@ rules:
 skills: []
 slug: amazon-comprehend
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-comprehend\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/apis.yml\nname: Amazon Comprehend\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nspecificationVersion: '0.19'\ndescription: >-\n  Amazon Comprehend is a natural language processing (NLP) service that uses\n  machine learning to uncover information in unstructured data. The service\n  can identify critical elements in data, including references to language,\n  people, and places. It provides entity recognition, sentiment analysis, key\n  phrase extraction, language detection, topic modeling, PII detection, and\n  custom classification capabilities for text documents at scale.\ncreated: '2024-01-15'\nmodified: '2026-04-19'\ntags:\n  - AWS\n  - Machine Learning\n  - Natural Language Processing\n  - NLP\n  - Text Analysis\napis:\n  - name: Amazon Comprehend API\n    description: >-\n      The Amazon Comprehend API\
   \ provides programmatic access to natural language\n      processing capabilities including sentiment analysis, entity recognition,\n      key phrase extraction, language detection, topic modeling, PII detection,\n      and syntax analysis for text documents. The API supports real-time and\n      batch processing with 84 operations covering detection, async jobs, custom\n      model training, and flywheel management for continuous learning.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://aws.amazon.com/comprehend/\n    baseURL: https://comprehend.amazonaws.com\n    tags:\n      - AWS\n      - Machine Learning\n      - Natural Language Processing\n      - NLP\n      - Text Analysis\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/comprehend/latest/dg/\n      - type: OpenAPI\n        url: openapi/amazon-comprehend-openapi.yml\n      - type: APIReference\n        url: https://docs.aws.amazon.com/comprehend/latest/APIReference/\n\
   \      - type: Pricing\n        url: https://aws.amazon.com/comprehend/pricing/\n      - type: GettingStarted\n        url: https://aws.amazon.com/comprehend/getting-started/\n      - type: FAQ\n        url: https://aws.amazon.com/comprehend/faqs/\n      - type: JSONSchema\n        url: json-schema/comprehend-entity-schema.json\n      - type: JSONStructure\n        url: json-structure/comprehend-entity-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-comprehend-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/\n  - type: Website\n    url: https://aws.amazon.com/comprehend/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/comprehend/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/support/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/machine-learning/\n  - type: GitHubOrganization\n\

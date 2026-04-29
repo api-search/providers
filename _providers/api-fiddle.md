@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: api-fiddle-api-fiddle-openapi.yml
+  format: yaml
+  label: API-Fiddle
+  slug: api-fiddle
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-api-fiddle-openapi.yml
 apis:
 - description: The API Fiddle API provides programmatic access to the API Fiddle design platform, enabling management of projects, specifications, workspaces, sharing, and export capabilities. It allows developers t
   name: API-Fiddle
@@ -46,6 +53,7 @@ name: API-Fiddle
 skills: []
 slug: api-fiddle
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: api-fiddle\nname: API-Fiddle\ndescription: >-\n  API-Fiddle is an interactive, collaborative API design platform for creating\n  professional APIs based on OpenAPI. It provides first-class support for\n  OpenAPI 3.x, data transfer objects, API versioning, suggested response codes,\n  parameter serialization, pagination patterns, and response structuring best\n  practices. API-Fiddle enables seamless sharing of API definitions with teams\n  without requiring user accounts, making it accessible for collaboration\n  throughout the API design lifecycle.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - API Design\n  - OpenAPI\n  - Collaboration\n  - Documentation\n  - Platform\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/apis.yml\ncreated: '2025-01-08'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: api-fiddle:api-fiddle\n    name: API-Fiddle\n    description:\
   \ >-\n      The API Fiddle API provides programmatic access to the API Fiddle design\n      platform, enabling management of projects, specifications, workspaces,\n      sharing, and export capabilities. It allows developers to automate API\n      design workflows, collaborate on OpenAPI specifications, and integrate\n      API Fiddle into their development pipelines.\n    humanURL: https://api-fiddle.com/\n    tags:\n      - API Design\n      - OpenAPI\n      - Collaboration\n    properties:\n      - type: Documentation\n        url: https://api-fiddle.com/\n      - type: OpenAPI\n        url: openapi/api-fiddle-api-fiddle-openapi.yml\n      - type: JSONSchema\n        url: json-schema/api-fiddle-project-schema.json\n      - type: JSONSchema\n        url: json-schema/api-fiddle-specification-schema.json\n      - type: JSONSchema\n        url: json-schema/api-fiddle-workspace-schema.json\n      - type: JSONLD\n        url: json-ld/api-fiddle-context.jsonld\ncommon:\n  - type: Website\n\
   \    url: https://api-fiddle.com/\n  - type: Blog\n    url: https://blog.api-fiddle.com/\n  - type: GitHubRepository\n    url: https://github.com/apps/api-fiddle\n  - type: Features\n    data:\n      - name: OpenAPI-First Design\n        description: >-\n          Design professional REST APIs directly in the OpenAPI specification\n          format with first-class support for OpenAPI 3.x standards.\n      - name: Collaborative Playground\n        description: >-\n          Share API definitions with teams without requiring user accounts,\n          enabling frictionless collaboration across the API design process.\n      - name: Data Transfer Object Support\n        description: >-\n          First-class support for data transfer objects, enabling well-structured\n          API schemas and reusable component definitions.\n      - name: API Versioning\n        description: >-\n          Built-in guidance and support for API versioning strategies to\n          help teams manage API evolution\

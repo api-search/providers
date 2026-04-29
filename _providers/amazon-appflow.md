@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-appflow-openapi.yml
+  format: yaml
+  label: Amazon AppFlow API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-openapi.yml
 apis:
 - description: The Amazon AppFlow API enables programmatic creation and management of data flows between SaaS applications and AWS services, including configuring connectors, flow definitions, triggers, and data map
   name: Amazon AppFlow API
@@ -144,6 +151,7 @@ rules:
 skills: []
 slug: amazon-appflow
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-appflow\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/apis.yml\nname: Amazon AppFlow\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nspecificationVersion: '0.19'\ndescription: >-\n  Amazon AppFlow is a fully managed integration service that enables you to\n  securely transfer data between SaaS applications like Salesforce, SAP,\n  Zendesk, Slack, and ServiceNow, and AWS services like Amazon S3 and\n  Amazon Redshift, in just a few clicks.\ncreated: '2024-01-15'\nmodified: '2026-04-19'\ntags:\n- AWS\n- Connectors\n- Data Flow\n- Data Integration\n- ETL\n- Integration\n- SaaS\n- Data Transfer\napis:\n- name: Amazon AppFlow API\n  description: >-\n    The Amazon AppFlow API enables programmatic creation and management of\n    data flows between SaaS applications and AWS services, including\n    configuring connectors, flow definitions, triggers, and data mappings.\n  image:\
   \ https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/appflow/\n  baseURL: https://appflow.amazonaws.com\n  tags:\n  - Connectors\n  - Data Integration\n  - Data Transfer\n  - ETL\n  - Integration\n  - SaaS\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html\n  - type: OpenAPI\n    url: openapi/amazon-appflow-openapi.yml\n  - type: APIReference\n    url: https://docs.aws.amazon.com/appflow/1.0/APIReference/Welcome.html\n  - type: Pricing\n    url: https://aws.amazon.com/appflow/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/appflow/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/appflow/faqs/\n  - type: JSONSchema\n    url: json-schema/amazon-appflow-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-cancel-flow-executions-request-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-cancel-flow-executions-response-schema.json\n\
   \  - type: JSONSchema\n    url: json-schema/appflow-connector-detail-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-connector-entity-field-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-connector-entity-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-connector-profile-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-create-connector-profile-request-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-create-connector-profile-response-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-create-flow-request-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-create-flow-response-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-delete-connector-profile-request-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-delete-flow-request-schema.json\n  - type: JSONSchema\n    url: json-schema/appflow-describe-connector-entity-request-schema.json\n  - type: JSONSchema\n  \

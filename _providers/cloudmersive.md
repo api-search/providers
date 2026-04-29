@@ -1,5 +1,12 @@
 ---
 api_count: 18
+api_specs:
+- filename: cloudmersive-virus-scan-openapi.json
+  format: json
+  label: Cloudmersive Virus Scan API
+  slug: cloudmersive-virus-scan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-virus-scan-openapi.json
 apis:
 - description: Scan files and content for viruses, malware, executables, scripts, macros, password-protected files, and other content threats. Includes both basic and advanced (multi-engine) scan modes and a website
   name: Cloudmersive Virus Scan API
@@ -106,6 +113,7 @@ rules:
 skills: []
 slug: cloudmersive
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cloudmersive\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/apis.yml\nname: Cloudmersive\ntags:\n  - Barcodes\n  - Conversions\n  - Documents\n  - Image Recognition\n  - Natural Language\n  - OCR\n  - Processing\n  - Validation\n  - Virus Scanning\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2024-11-13'\nmodified: '2026-04-26'\nposition: Consumer\nx-type: company\nx-company: Cloudmersive\ndescription: >-\n  Cloudmersive provides a portfolio of utility APIs covering virus and\n  malware scanning, document conversion, OCR, image recognition, NLP,\n  validation, security threat detection (spam, phishing, fraud, DLP, CDR),\n  speech, video, barcode, currency, and data integration. Each API is\n  documented with a Swagger 2.0 / OpenAPI specification, has SDKs in\n  multiple languages, and is consumable on api.cloudmersive.com behind an\n  API key (`Apikey`\
   \ header).\napis:\n  - aid: cloudmersive:cloudmersive-virus-scan-api\n    name: Cloudmersive Virus Scan API\n    tags:\n      - Antivirus\n      - Malware\n      - Security\n      - Virus Scanning\n    humanURL: https://cloudmersive.com/virus-api\n    properties:\n      - url: https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Virus%20Scan%20API\n        type: Documentation\n      - url: https://api-console.cloudmersive.com/swagger/api/virus\n        type: OpenAPI\n      - url: openapi/cloudmersive-virus-scan-openapi.json\n        type: OpenAPI\n    description: >-\n      Scan files and content for viruses, malware, executables, scripts,\n      macros, password-protected files, and other content threats. Includes\n      both basic and advanced (multi-engine) scan modes and a website scan.\n  - aid: cloudmersive:cloudmersive-security-threat-detection-api\n    name: Cloudmersive Security Threat Detection API\n    tags:\n      - Security\n      - SQL Injection\n    \
   \  - Threat Detection\n      - XSS\n    humanURL: https://cloudmersive.com/security-threat-detection-api\n    properties:\n      - url: https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Security%20API\n        type: Documentation\n      - url: https://api-console.cloudmersive.com/swagger/api/security\n        type: OpenAPI\n    description: >-\n      Detect SQL injection, XSS, XXE, SSRF, command injection, and other\n      content-borne attacks against text and HTML inputs.\n  - aid: cloudmersive:cloudmersive-spam-api\n    name: Cloudmersive Spam Detection API\n    tags:\n      - Email\n      - Spam\n    humanURL: https://cloudmersive.com/spam-detection-api\n    properties:\n      - url: https://api-console.cloudmersive.com/swagger/index.html?urls.primaryName=Spam%20API\n        type: Documentation\n      - url: https://api-console.cloudmersive.com/swagger/api/spam\n        type: OpenAPI\n    description: AI-powered spam detection for email and message content.\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 13
+api_specs:
+- filename: adobe-pdf-services-api-openapi.yml
+  format: yaml
+  label: Adobe PDF Services API
+  slug: adobe-pdf-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/openapi/adobe-pdf-services-api-openapi.yml
 apis:
 - description: Create, manipulate, and export PDF documents programmatically.
   name: Adobe PDF Services API
@@ -151,6 +158,7 @@ rules:
 skills: []
 slug: adobe
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: adobe\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/apis.yml\nname: Adobe\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Analytics\n  - Creative Cloud\n  - Digital Asset Management\n  - Document Services\n  - E-Commerce\n  - E-Signatures\n  - Experience Cloud\n  - Generative AI\n  - Marketing\n  - PDF\n  - Work Management\ndescription: >-\n  Adobe provides APIs and developer resources for its creative, document, and\n  experience cloud platforms. Developers can integrate with PDF services,\n  Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures,\n  and many other Adobe products and services.\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\napis:\n  - aid: adobe:adobe-pdf-services-api\n    name: Adobe PDF Services API\n    tags:\n      - Conversion\n      - Documents\n      - PDF\n    humanURL: https://developer.adobe.com/document-services/apis/pdf-services/\n\
   \    baseURL: https://pdf-services.adobe.io\n    properties:\n      - type: Documentation\n        url: https://developer.adobe.com/document-services/docs/overview/pdf-services-api/\n      - type: GettingStarted\n        url: https://developer.adobe.com/document-services/docs/overview/pdf-services-api/gettingstarted/\n      - type: ChangeLog\n        url: https://developer.adobe.com/document-services/docs/overview/releasenotes/\n      - type: OpenAPI\n        url: openapi/adobe-pdf-services-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/adobe-pdf-services-asset-upload-request-schema.json\n      - type: JSONLD\n        url: json-ld/adobe-pdf-services-context.jsonld\n    description: >-\n      Create, manipulate, and export PDF documents programmatically.\n  - aid: adobe:adobe-pdf-extract-api\n    name: Adobe PDF Extract API\n    tags:\n      - AI\n      - Extraction\n      - PDF\n    humanURL: https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/\n\
   \    baseURL: https://pdf-services.adobe.io\n    properties:\n      - type: Documentation\n        url: https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/\n      - type: GettingStarted\n        url: https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/gettingstarted/\n    description: >-\n      Extract text, images, tables, and more from native and scanned PDFs into\n      structured JSON using AI technology.\n  - aid: adobe:adobe-acrobat-sign-api\n    name: Adobe Acrobat Sign API\n    tags:\n      - Documents\n      - E-Signatures\n    humanURL: https://developer.adobe.com/document-services/apis/sign-api/\n    baseURL: https://api.adobesign.com\n    properties:\n      - type: Documentation\n        url: https://opensource.adobe.com/acrobat-sign/developer_guide/index.html\n      - type: APIReference\n        url: https://opensource.adobe.com/acrobat-sign/developer_guide/apiusage.html\n      - type: GettingStarted\n        url: https://opensource.adobe.com/acrobat-sign/developer_guide/gstarted.html\n\

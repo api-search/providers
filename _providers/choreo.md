@@ -1,5 +1,24 @@
 ---
 api_count: 3
+api_specs:
+- filename: choreo-api-management-openapi.yml
+  format: yaml
+  label: Choreo API Management API
+  slug: api-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-api-management-openapi.yml
+- filename: choreo-developer-portal-openapi.yml
+  format: yaml
+  label: Choreo Developer Portal API
+  slug: developer-portal
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-developer-portal-openapi.yml
+- filename: choreo-insights-openapi.yml
+  format: yaml
+  label: Choreo Insights API
+  slug: insights
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-insights-openapi.yml
 apis:
 - description: The Choreo API Management API provides programmatic access to manage the full lifecycle of APIs on the WSO2 Choreo platform. It allows API creators to create, publish, version, and manage APIs, manage
   name: Choreo API Management API
@@ -96,6 +115,7 @@ name: Choreo
 skills: []
 slug: choreo
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: choreo\nname: Choreo\nx-type: company\ndescription: >-\n  WSO2 Choreo is an enterprise-grade Internal Developer Platform (IDP) and\n  application orchestration platform that helps organizations build, deploy,\n  manage, and observe APIs, microservices, integrations, and AI applications\n  across multi-cloud Kubernetes infrastructure (AWS, Azure, GCP, Vultr, or\n  upstream Kubernetes). Choreo combines API management, CI/CD, GitOps,\n  observability, FinOps, and platform engineering into a single AI-guided\n  experience. Developers connect Git repos and deploy instantly, while\n  platform teams use Choreo to enforce security, governance, and compliance\n  with PCI DSS and SOC 2 Type 2 certifications. The platform orchestrates\n  CNCF tools including Kubernetes, Argo CD, Cilium, Envoy, Helm, Prometheus,\n  OpenSearch, Flux, and KEDA, and exposes APIs for API management,\n  developer portal/marketplace consumption, and observability insights.\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/apis.yml\n\
   type: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AI Apps\n  - API Management\n  - CI/CD\n  - Cloud Native\n  - DevOps\n  - Developer Portal\n  - FinOps\n  - IDE\n  - Internal Developer Platform\n  - Kubernetes\n  - Lifecycle\n  - Observability\n  - Orchestration\n  - Platform Engineering\n  - Pro-Code API Composition\n  - Unified\n  - WSO2\n  - Workflows\ncreated: '2025-06-05'\nmodified: '2026-04-23'\nspecificationVersion: '0.20'\napis:\n  - aid: choreo:api-management\n    name: Choreo API Management API\n    description: >-\n      The Choreo API Management API provides programmatic access to manage\n      the full lifecycle of APIs on the WSO2 Choreo platform. It allows\n      API creators to create, publish, version, and manage APIs, manage\n      organizations, projects, components, builds, and deployments.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
   \    humanURL: https://wso2.com/choreo/docs/\n    tags:\n      - API Management\n      - Builds\n      - Components\n      - Deployments\n      - Lifecycle\n      - Organizations\n      - Projects\n    properties:\n      - type: Documentation\n        url: https://wso2.com/choreo/docs/\n      - type: OpenAPI\n        url: openapi/choreo-api-management-openapi.yml\n      - type: JSONSchema\n        url: json-schema/choreo-organization.json\n      - type: JSONSchema\n        url: json-schema/choreo-project.json\n      - type: JSONSchema\n        url: json-schema/choreo-component.json\n      - type: JSONSchema\n        url: json-schema/choreo-api.json\n      - type: JSONSchema\n        url: json-schema/choreo-build.json\n      - type: JSONSchema\n        url: json-schema/choreo-deployment.json\n      - type: JSONSchema\n        url: json-schema/choreo-environment.json\n  - aid: choreo:developer-portal\n    name: Choreo Developer Portal API\n    description: >-\n      The Choreo Developer\

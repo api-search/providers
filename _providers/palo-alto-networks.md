@@ -1,5 +1,258 @@
 ---
 api_count: 51
+api_specs:
+- filename: palo-alto-pan-os-rest-api-openapi-original.yml
+  format: yaml
+  label: PAN-OS REST API
+  slug: pan-os-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-pan-os-rest-api-openapi-original.yml
+- filename: palo-alto-strata-cloud-manager-api-openapi-original.yml
+  format: yaml
+  label: Strata Cloud Manager API
+  slug: strata-cloud-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-strata-cloud-manager-api-openapi-original.yml
+- filename: palo-alto-cloud-ngfw-api-openapi-original.yml
+  format: yaml
+  label: Cloud NGFW API
+  slug: cloud-ngfw-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloud-ngfw-api-openapi-original.yml
+- filename: palo-alto-wildfire-api-openapi-original.yml
+  format: yaml
+  label: WildFire API
+  slug: wildfire-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-wildfire-api-openapi-original.yml
+- filename: palo-alto-threat-vault-api-openapi-original.yml
+  format: yaml
+  label: Threat Vault API
+  slug: threat-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-threat-vault-api-openapi-original.yml
+- filename: palo-alto-iot-security-api-openapi-original.yml
+  format: yaml
+  label: IoT Security API
+  slug: iot-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-iot-security-api-openapi-original.yml
+- filename: palo-alto-dlp-api-openapi-original.yml
+  format: yaml
+  label: Data Loss Prevention API
+  slug: dlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dlp-api-openapi-original.yml
+- filename: palo-alto-prisma-access-api-openapi-original.yml
+  format: yaml
+  label: Prisma Access API
+  slug: prisma-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-access-api-openapi-original.yml
+- filename: palo-alto-autonomous-dem-api-openapi-original.yml
+  format: yaml
+  label: Autonomous DEM API
+  slug: autonomous-dem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-autonomous-dem-api-openapi-original.yml
+- filename: palo-alto-prisma-sd-wan-api-openapi-original.yml
+  format: yaml
+  label: Prisma SD-WAN API
+  slug: prisma-sd-wan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-sd-wan-api-openapi-original.yml
+- filename: palo-alto-prisma-cloud-cspm-api-openapi-original.yml
+  format: yaml
+  label: Prisma Cloud CSPM API
+  slug: prisma-cloud-cspm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-cloud-cspm-api-openapi-original.yml
+- filename: palo-alto-prisma-cloud-compute-api-openapi-original.yml
+  format: yaml
+  label: Prisma Cloud Compute API
+  slug: prisma-cloud-compute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-cloud-compute-api-openapi-original.yml
+- filename: palo-alto-prisma-cloud-code-security-api-openapi-original.yml
+  format: yaml
+  label: Prisma Cloud Code Security API
+  slug: prisma-cloud-code-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-cloud-code-security-api-openapi-original.yml
+- filename: palo-alto-cortex-xdr-api-openapi-original.yml
+  format: yaml
+  label: Cortex XDR API
+  slug: cortex-xdr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cortex-xdr-api-openapi-original.yml
+- filename: palo-alto-cortex-xsoar-api-openapi-original.yml
+  format: yaml
+  label: Cortex XSOAR API
+  slug: cortex-xsoar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cortex-xsoar-api-openapi-original.yml
+- filename: palo-alto-cortex-xsiam-api-openapi-original.yml
+  format: yaml
+  label: Cortex XSIAM API
+  slug: cortex-xsiam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cortex-xsiam-api-openapi-original.yml
+- filename: palo-alto-prisma-airs-api-openapi-original.yml
+  format: yaml
+  label: Prisma AIRS AI Runtime Security API
+  slug: prisma-airs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-api-openapi-original.yml
+- filename: palo-alto-security-advisory-api-openapi-original.yml
+  format: yaml
+  label: Security Advisory API
+  slug: security-advisory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-security-advisory-api-openapi-original.yml
+- filename: palo-alto-cortex-xpanse-api-openapi-original.yml
+  format: yaml
+  label: Cortex Xpanse API
+  slug: cortex-xpanse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cortex-xpanse-api-openapi-original.yml
+- filename: palo-alto-dns-security-api-openapi-original.yml
+  format: yaml
+  label: DNS Security API
+  slug: dns-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-dns-security-api-openapi-original.yml
+- filename: palo-alto-email-dlp-api-openapi-original.yml
+  format: yaml
+  label: Email DLP API
+  slug: email-dlp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-email-dlp-api-openapi-original.yml
+- filename: palo-alto-saas-security-api-openapi-original.yml
+  format: yaml
+  label: SaaS Security API
+  slug: saas-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-saas-security-api-openapi-original.yml
+- filename: palo-alto-sspm-api-openapi-original.yml
+  format: yaml
+  label: SaaS Security Posture Management API
+  slug: sspm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sspm-api-openapi-original.yml
+- filename: palo-alto-ztna-connector-api-openapi-original.yml
+  format: yaml
+  label: ZTNA Connector API
+  slug: ztna-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-ztna-connector-api-openapi-original.yml
+- filename: palo-alto-prisma-access-browser-api-openapi-original.yml
+  format: yaml
+  label: Prisma Access Browser API
+  slug: prisma-access-browser-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-access-browser-api-openapi-original.yml
+- filename: palo-alto-sase-tenancy-api-openapi-original.yml
+  format: yaml
+  label: SASE Tenancy Service API
+  slug: sase-tenancy-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-tenancy-api-openapi-original.yml
+- filename: palo-alto-sase-iam-api-openapi-original.yml
+  format: yaml
+  label: SASE IAM API
+  slug: sase-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-iam-api-openapi-original.yml
+- filename: palo-alto-sase-subscription-api-openapi-original.yml
+  format: yaml
+  label: SASE Subscription Service API
+  slug: sase-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-subscription-api-openapi-original.yml
+- filename: palo-alto-sase-aggregate-monitoring-api-openapi-original.yml
+  format: yaml
+  label: SASE Aggregate Monitoring API
+  slug: sase-aggregate-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-aggregate-monitoring-api-openapi-original.yml
+- filename: palo-alto-aiops-ngfw-bpa-api-openapi-original.yml
+  format: yaml
+  label: AIOps for NGFW BPA API
+  slug: aiops-ngfw-bpa-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-aiops-ngfw-bpa-api-openapi-original.yml
+- filename: palo-alto-strata-logging-service-api-openapi-original.yml
+  format: yaml
+  label: Strata Logging Service API
+  slug: strata-logging-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-strata-logging-service-api-openapi-original.yml
+- filename: palo-alto-sase-config-orchestration-api-openapi-original.yml
+  format: yaml
+  label: Configuration Orchestration API
+  slug: sase-config-orchestration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-config-orchestration-api-openapi-original.yml
+- filename: palo-alto-prisma-cloud-dspm-api-openapi-original.yml
+  format: yaml
+  label: Prisma Cloud DSPM API
+  slug: prisma-cloud-dspm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-cloud-dspm-api-openapi-original.yml
+- filename: palo-alto-sase-5g-api-openapi-original.yml
+  format: yaml
+  label: SASE 5G Manage Services API
+  slug: sase-5g-manage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-5g-api-openapi-original.yml
+- filename: palo-alto-prisma-airs-ai-red-teaming-api-openapi-original.yml
+  format: yaml
+  label: Prisma AIRS AI Red Teaming API
+  slug: prisma-airs-ai-red-teaming-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-airs-ai-red-teaming-api-openapi-original.yml
+- filename: palo-alto-identity-security-posture-management-api-openapi-original.yml
+  format: yaml
+  label: Identity Security Posture Management API
+  slug: identity-security-posture-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-identity-security-posture-management-api-openapi-original.yml
+- filename: palo-alto-sase-5g-monitor-api-openapi-original.yml
+  format: yaml
+  label: SASE 5G Monitor Services API
+  slug: sase-5g-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-5g-monitor-api-openapi-original.yml
+- filename: palo-alto-sase-multitenant-notifications-api-openapi-original.yml
+  format: yaml
+  label: SASE Multitenant Notifications API
+  slug: sase-multitenant-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-multitenant-notifications-api-openapi-original.yml
+- filename: palo-alto-sase-multitenant-interconnect-api-openapi-original.yml
+  format: yaml
+  label: SASE Multitenant Interconnect API
+  slug: sase-multitenant-interconnect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-sase-multitenant-interconnect-api-openapi-original.yml
+- filename: palo-alto-cloud-identity-engine-api-openapi-original.yml
+  format: yaml
+  label: Cloud Identity Engine API
+  slug: cloud-identity-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-cloud-identity-engine-api-openapi-original.yml
+- filename: palo-alto-prisma-cloud-mssp-api-openapi-original.json
+  format: json
+  label: Prisma Cloud MSSP API
+  slug: prisma-cloud-mssp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-cloud-mssp-api-openapi-original.json
+- filename: palo-alto-prisma-access-insights-api-openapi-original.yml
+  format: yaml
+  label: Prisma Access Insights API
+  slug: prisma-access-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/openapi/palo-alto-prisma-access-insights-api-openapi-original.yml
 apis:
 - description: A RESTful API for managing PAN-OS next-generation firewalls including security policies, network objects, address groups, and device configuration. The REST API provides simplified JSON-based access t
   name: PAN-OS REST API
@@ -699,6 +952,7 @@ solutions:
   name: Prisma AIRS
 - description: Threat research and intelligence services including Threat Vault, WildFire malware analysis, DNS Security, and security advisory feeds.
   name: Unit 42 Threat Intelligence
+source_filename: apis.yml
 source_yaml: "aid: palo-alto-networks\nname: Palo Alto Networks\ndescription: >-\n  Palo Alto Networks is a global cybersecurity leader providing advanced security\n  platforms and services across network security, cloud security, and security operations.\n  Its developer platform at pan.dev offers REST and XML APIs for PAN-OS firewalls,\n  Strata Cloud Manager, Prisma Cloud (CSPM, CWPP, code security), Prisma Access and\n  SD-WAN for SASE, Cortex XDR/XSOAR/XSIAM for security operations, and cloud-delivered\n  security services including WildFire, Threat Vault, IoT Security, and DLP.\nurl: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/apis.yml\ntags:\n- Cloud Security\n- Cybersecurity\n- Firewall\n- Network Security\n- SASE\n- SOAR\n- Threat Intelligence\n- XDR\ncreated: '2024-01-01'\nmodified: '2026-04-17'\nmaintainers:\n- name: Kin Lane\n  email: kin@apievangelist.com\napis:\n- aid: palo-alto-networks:pan-os-rest-api\n  name: PAN-OS REST API\n  tags:\n\
   \  - Configuration\n  - Firewall\n  - Network Security\n  - Policies\n  - REST API\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://{firewall}/restapi/v10.2\n  humanURL: https://pan.dev/panos/docs/restapi/\n  properties:\n  - url: https://pan.dev/panos/docs/restapi/\n    type: Documentation\n  - url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-panorama-api/get-started-with-the-pan-os-rest-api\n    type: GettingStarted\n  - url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-panorama-api/pan-os-rest-api-reference\n    type: APIReference\n  - url: https://docs.paloaltonetworks.com/pan-os/10-2/pan-os-panorama-api/get-started-with-the-pan-os-rest-api/get-your-api-key\n    type: Authentication\n  - url: openapi/palo-alto-pan-os-rest-api-openapi-original.yml\n    type: OpenAPI\n  - url: json-schema/pan-os-rest-api-address-group-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-address-schema.json\n \
   \   type: JSONSchema\n  - url: json-schema/pan-os-rest-api-commit-status-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-nat-rule-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-pan-os-response-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-qos-rule-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-security-rule-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-service-group-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-service-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-tag-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-rest-api-virtual-system-schema.json\n    type: JSONSchema\n  - url: json-schema/pan-os-security-rule-schema.json\n    type: JSONSchema\n  - url: json-structure/pan-os-rest-api-address-group-structure.json\n    type: JSONStructure\n  - url: json-structure/pan-os-rest-api-address-structure.json\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-robomaker-openapi.yml
+  format: yaml
+  label: AWS RoboMaker API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-openapi.yml
 apis:
 - description: The AWS RoboMaker API provides programmatic access to create and manage robotics applications, simulation jobs, and fleet deployments. It enables developers to build robot applications, run simulation
   name: AWS RoboMaker API
@@ -2269,6 +2276,7 @@ rules:
 skills: []
 slug: amazon-robomaker
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon RoboMaker\ndescription: AWS RoboMaker is a cloud-based service that makes it easy to develop, simulate, and deploy intelligent robotics applications. RoboMaker extends the most widely used open-source robotics \n  software framework, Robot Operating System (ROS), with connectivity to cloud services, providing tools for building, testing, and deploying robotics applications at scale.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: AWS RoboMaker API\n  description: >-\n    The AWS RoboMaker API provides programmatic access to create and manage\n    robotics applications, simulation jobs, and fleet deployments. It enables\n    developers to build robot applications, run simulation jobs for testing,\n    manage simulation worlds, and deploy applications to physical robots\
   \ at\n    scale.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/robomaker/\n  baseURL: https://robomaker.amazonaws.com\n  tags:\n  - AWS\n  - Robotics\n  - Simulation\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/robomaker/\n  - type: OpenAPI\n    url: openapi/amazon-robomaker-openapi.yml\n  - type: Pricing\n    url: https://aws.amazon.com/robomaker/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/robomaker/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/robomaker/faqs/\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Portal\n  url: https://aws.amazon.com/robomaker/\n- type: Documentation\n  url: https://docs.aws.amazon.com/robomaker/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n\
   - type: GitHubOrganization\n  url: https://github.com/aws\n- type: Portal\n  url: https://console.aws.amazon.com/robomaker/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: Login\n  url: https://aws.amazon.com/console/\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: JSON-LD\n  url: json-ld/amazon-robomaker-context-context.jsonld\n- type: JSONSchema\n  url: json-schema/amazon-robomaker-openapi-architecture-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-robomaker-openapi-arn-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-robomaker-openapi-arns-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-robomaker-openapi-batch-delete-worlds-request-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-robomaker-openapi-batch-delete-worlds-response-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-robomaker-openapi-batch-describe-simulation-job-request-schema.json\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-cloudtrail-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-openapi.yml
 apis:
 - description: API for creating and managing CloudTrail trails, event data stores, and channels for capturing AWS API activity and storing audit logs.
   name: Amazon CloudTrail API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-cloudtrail
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-cloudtrail\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/apis.yml\nname: Amazon CloudTrail\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nspecificationVersion: '0.19'\ndescription: >-\n  AWS CloudTrail enables governance, compliance, operational auditing, and risk auditing of your AWS account by tracking user activity and API usage across AWS environments, hybrid setups, and multicloud\n  deployments with immutable audit trails.\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon CloudTrail API\n  description: API for creating and managing CloudTrail trails, event data stores, and channels for capturing AWS API activity and storing audit logs.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/cloudtrail/\n  baseURL: https://cloudtrail.us-east-1.amazonaws.com\n  tags:\n  - AWS\n\
   \  - CloudTrail\n  - Audit\n  - Compliance\n  - Security\n  properties:\n  - type: OpenAPI\n    url: openapi/amazon-cloudtrail-openapi.yml\n  - type: Documentation\n    url: https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/\n  - type: GettingStarted\n    url: https://aws.amazon.com/cloudtrail/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/cloudtrail/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/cloudtrail/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/\n  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/cloudtrail/\n  - type: JSONSchema\n    url: json-schema/cloudtrail-create-trail-request-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudtrail-create-trail-response-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudtrail-describe-trails-response-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudtrail-lookup-events-request-schema.json\n\
   \  - type: JSONSchema\n    url: json-schema/cloudtrail-lookup-events-response-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-cloudtrail-context.jsonld\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/cloudtrail/\n- type: Documentation\n  url: https://docs.aws.amazon.com/awscloudtrail/latest/APIReference/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/security/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/cloudtrail/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n- type: StackOverflow\n\

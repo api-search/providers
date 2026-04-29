@@ -1,5 +1,84 @@
 ---
 api_count: 41
+api_specs:
+- filename: gitlab-api-v4-groups-openapi-original.yml
+  format: yaml
+  label: GitLab Groups API
+  slug: apiv4groups
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-groups-openapi-original.yml
+- filename: gitlab-api-v4-projects-openapi-original.yml
+  format: yaml
+  label: GitLab Projects API
+  slug: apiv4projects
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-projects-openapi-original.yml
+- filename: gitlab-api-v4-admin-openapi-original.yml
+  format: yaml
+  label: GitLab Admin API
+  slug: apiv4admin
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-admin-openapi-original.yml
+- filename: gitlab-api-v4-applications-openapi-original.yml
+  format: yaml
+  label: GitLab Applications API
+  slug: apiv4applications
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-applications-openapi-original.yml
+- filename: gitlab-api-v4-avatar-openapi-original.yml
+  format: yaml
+  label: GitLab Avatar API
+  slug: apiv4avatar
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-avatar-openapi-original.yml
+- filename: gitlab-api-v4-broadcast-messages-openapi-original.yml
+  format: yaml
+  label: GitLab Broadcast Messages API
+  slug: apiv4broadcast-messages
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-broadcast-messages-openapi-original.yml
+- filename: gitlab-api-v4-bulk-imports-openapi-original.yml
+  format: yaml
+  label: GitLab Bulk Imports API
+  slug: apiv4bulk-imports
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-bulk-imports-openapi-original.yml
+- filename: gitlab-api-v4-application-openapi-original.yml
+  format: yaml
+  label: GitLab Application Settings API
+  slug: apiv4application
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-application-openapi-original.yml
+- filename: gitlab-api-v4-metadata-openapi-original.yml
+  format: yaml
+  label: GitLab Metadata API
+  slug: apiv4metadata
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-metadata-openapi-original.yml
+- filename: gitlab-api-v4-version-openapi-original.yml
+  format: yaml
+  label: GitLab Version API
+  slug: apiv4version
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-api-v4-version-openapi-original.yml
+- filename: gitlab-openapi-original.yml
+  format: yaml
+  label: GitLab REST API
+  slug: gitlab-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-openapi-original.yml
+- filename: gitlab-oauth2-openapi.yml
+  format: yaml
+  label: GitLab OAuth 2.0 API
+  slug: gitlab-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-oauth2-openapi.yml
+- filename: gitlab-webhooks-openapi.yml
+  format: yaml
+  label: GitLab Webhooks
+  slug: gitlab-webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-webhooks-openapi.yml
 apis:
 - description: 'GraphQL is a query language for APIs. You can use it to request the exact data you need, and therefore limit the number of requests you need. GraphQL data is arranged in types, so your client can use '
   name: GitLab GraphQL API
@@ -310,6 +389,7 @@ solutions:
   name: GitLab Ultimate
 - description: Single-tenant SaaS deployment with dedicated infrastructure and enhanced security.
   name: GitLab Dedicated
+source_filename: apis.yml
 source_yaml: "aid: gitlab\nurl: https://raw.githubusercontent.com/api-search/code/main/_apis/gitlab/apis.md\napis:\n  - aid: gitlab:gitlab-graphql-api\n    name: GitLab GraphQL API\n    tags:\n      - Data\n      - GraphQL\n      - Query Language\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://gitlab.com/api/graphql\n    humanURL: https://docs.gitlab.com/ee/api/graphql/\n    overlays: []\n    properties:\n      - url: https://docs.gitlab.com/ee/api/graphql/\n        type: Documentation\n      - url: >-\n          https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process\n        type: Deprecation\n      - url: >-\n          https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process\n        type: Documentation\n      - url: https://docs.gitlab.com/ee/api/graphql/#limits\n        type: RateLimits\n      - url: https://docs.gitlab.com/api/rest/authentication/\n        type: Authentication\n      - url:\
   \ https://docs.gitlab.com/api/graphql/reference/\n        type: APIReference\n      - url: https://docs.gitlab.com/api/graphql/getting_started/\n        type: GettingStarted\n    description: >-\n      GraphQL is a query language for APIs. You can use it to request the exact data\n      you need, and therefore limit the number of requests you need. GraphQL data\n      is arranged in types, so your client can use client-side GraphQL libraries to\n      consume the API and avoid manual parsing. There are no fixed endpoints and no\n      data model, so you can add to the API without creating breaking changes. This\n      enables us to have a versionless API.\n  - aid: gitlab:apiv4groups\n    name: GitLab Groups API\n    tags:\n      - Access Control\n      - Groups\n      - Organizations\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://gitlab.com/api/v4\n    humanURL: https://docs.gitlab.com/api/groups/\n    overlays:\n      - url:\
   \ overlays/gitlab-api-v4-groups-openapi-search.yml\n        type: OpenAPI\n    properties:\n      - url: openapi/gitlab-api-v4-groups-openapi-original.yml\n        type: OpenAPI\n      - url: https://docs.gitlab.com/api/groups/\n        type: Documentation\n      - url: https://docs.gitlab.com/api/rest/authentication/\n        type: Authentication\n    description: >-\n      The GitLab Groups API allows you to create, read, update, and delete\n      groups and subgroups. Groups are used to manage access control and organize\n      projects within a GitLab instance, enabling teams to collaborate with\n      shared access permissions and settings.\n  - aid: gitlab:apiv4projects\n    name: GitLab Projects API\n    tags:\n      - Projects\n      - Repositories\n      - Source Control\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://gitlab.com/api/v4\n    humanURL: https://docs.gitlab.com/api/projects/\n    overlays:\n      - url:\

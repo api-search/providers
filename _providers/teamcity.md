@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: teamcity-rest-api.yml
+  format: yaml
+  label: TeamCity REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/openapi/teamcity-rest-api.yml
 apis:
 - description: The primary REST API for interacting with TeamCity server, allowing you to manage builds, projects, build configurations, agents, users, VCS roots, changes, tests, investigations, mutes, cloud infrast
   name: TeamCity REST API
@@ -120,6 +127,7 @@ name: TeamCity
 skills: []
 slug: teamcity
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: TeamCity\ndescription: >-\n  JetBrains TeamCity is a powerful continuous integration and deployment server\n  that helps development teams build, test, and deploy software efficiently.\n  TeamCity provides a comprehensive REST API for automating CI/CD workflows,\n  managing projects, build configurations, agents, and infrastructure.\nimage: https://www.jetbrains.com/teamcity/img/teamcity-logo.svg\nurl: https://github.com/api-evangelist/teamcity\nhumanURL: https://www.jetbrains.com/teamcity/\nbaseURL: https://teamcity.example.com/app/rest\ntags:\n  - Build Automation\n  - CI/CD\n  - Continuous Integration\n  - Deployment\n  - DevOps\n  - Testing\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.18'\ntype: Index\naid: teamcity\naccess: 3rd-Party\napis:\n  - name: TeamCity REST API\n    description: >-\n      The primary REST API for interacting with TeamCity server, allowing you to\n      manage builds, projects, build configurations, agents, users,\
   \ VCS roots,\n      changes, tests, investigations, mutes, cloud infrastructure, and more.\n    image: https://www.jetbrains.com/teamcity/img/teamcity-logo.svg\n    humanURL: https://www.jetbrains.com/help/teamcity/rest-api.html\n    baseURL: https://teamcity.example.com/app/rest\n    tags:\n      - Agents\n      - Automation\n      - Builds\n      - CI/CD\n      - Projects\n      - REST\n      - Testing\n    properties:\n      - type: Documentation\n        url: https://www.jetbrains.com/help/teamcity/rest-api.html\n      - type: APIReference\n        url: https://www.jetbrains.com/help/teamcity/rest-api-reference.html\n      - type: Authentication\n        url: https://www.jetbrains.com/help/teamcity/rest-api.html#REST+Authentication\n      - type: OpenAPI\n        url: openapi/teamcity-rest-api.yml\n      - type: JSONSchema\n        url: json-schema/teamcity-rest-api.json\n      - type: JSONLD\n        url: json-ld/teamcity-rest-api.jsonld\n    contact:\n      - type: Support\n    \
   \    url: https://www.jetbrains.com/support/teamcity/\ncommon:\n  - type: GettingStarted\n    url: https://www.jetbrains.com/help/teamcity/getting-started-with-teamcity.html\n  - type: Documentation\n    url: https://www.jetbrains.com/help/teamcity/teamcity-documentation.html\n  - type: Pricing\n    url: https://www.jetbrains.com/teamcity/buy/\n  - type: Blog\n    url: https://blog.jetbrains.com/teamcity/\n  - type: X\n    url: https://twitter.com/teamcity\n  - type: GitHubOrganization\n    url: https://github.com/JetBrains\n  - type: GitHubRepository\n    url: https://github.com/JetBrains/teamcity-rest-client\n  - type: StatusPage\n    url: https://teamcity-support.jetbrains.com/hc/en-us/categories/200595559-Known-Issues\n  - type: Marketplace\n    url: https://plugins.jetbrains.com/teamcity\n  - type: Support\n    url: https://www.jetbrains.com/support/teamcity/\n  - type: ChangeLog\n    url: https://www.jetbrains.com/help/teamcity/what-s-new-in-teamcity.html\n  - type: CLI\n    url:\

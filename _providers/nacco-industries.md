@@ -19,6 +19,7 @@ name: NACCO Industries
 skills: []
 slug: nacco-industries
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: nacco-industries\nurl: https://raw.githubusercontent.com/api-evangelist/nacco-industries/refs/heads/main/apis.yml\nname: NACCO Industries\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Mining\n  - Housewares\n  - Industrial\ndescription: >-\n  NACCO Industries is a major US corporation and Fortune 1000 company. The NACCO Industries API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.\ncreated: '2026-04-19'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: nacco-industries:nacco-industries-api\n    name: NACCO Industries API\n    tags:\n      - Mining\n      - Housewares\n      - Industrial\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.nacco.com\n    humanURL: https://developer.nacco.com\n    properties:\n      - url: https://developer.nacco.com/docs\n     \
   \   type: Documentation\n    description: >-\n      The NACCO Industries API provides access to platform services and data for enterprise integration and automation.\ncommon:\n  - type: Website\n    url: https://www.nacco.com\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacco-industries/refs/heads/main/apis.yml

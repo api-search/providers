@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-iot-twinmaker-openapi-original.yml
+  format: yaml
+  label: AWS IoT TwinMaker API
+  slug: aws-iot-twinmaker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-openapi-original.yml
 apis:
 - description: The AWS IoT TwinMaker API provides access to workspaces, scenes, entities, components, and sync jobs for building and managing digital twin applications.
   name: AWS IoT TwinMaker API
@@ -102,6 +109,7 @@ rules:
 skills: []
 slug: amazon-iot-twinmaker
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iot-twinmaker\nname: Amazon IoT TwinMaker\ndescription: >-\n  AWS IoT TwinMaker makes it easier for developers to create digital twins of real-world systems such as buildings, factories, and industrial equipment. You can use AWS IoT TwinMaker to build operational digital twin applications to visualize, monitor, and diagnose complex operational systems.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - 3D Visualization\n  - Digital Twin\n  - Industrial IoT\n  - IoT\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iot-twinmaker:aws-iot-twinmaker-api\n    name: AWS IoT TwinMaker API\n    description: >-\n      The AWS IoT TwinMaker API provides access to workspaces, scenes, entities, components, and sync jobs for building and managing digital twin\
   \ applications.\n    humanURL: https://aws.amazon.com/iot-twinmaker/\n    baseURL: https://iottwinmaker.amazonaws.com\n    tags:\n      - 3D Visualization\n      - Digital Twin\n      - IoT\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/iot-twinmaker/latest/apireference/\n      - type: OpenAPI\n        url: openapi/amazon-iot-twinmaker-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/iot-twinmaker/latest/guide/twinmaker-gs.html\n      - type: Pricing\n        url: https://aws.amazon.com/iot-twinmaker/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/iot-twinmaker/faqs/\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/iot-twinmaker/\n  - type: Website\n    url: https://aws.amazon.com/iot-twinmaker/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/iot-twinmaker/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n   \
   \ url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/iot/tag/aws-iot-twinmaker/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/iottwinmaker/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-iot-twinmaker-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/iot-twinmaker.yaml\n  - type: NaftikoCapability\n    url: capabilities/digital-twin-management.yaml\n  - type: Vocabulary\n    url: vocabulary/amazon-iot-twinmaker-vocabulary.yaml\n  - type: JSONLD\n    url: json-ld/amazon-iot-twinmaker-context.jsonld\n  - type:\

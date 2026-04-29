@@ -1,5 +1,132 @@
 ---
 api_count: 31
+api_specs:
+- filename: rest-api.yml
+  format: yaml
+  label: PeopleSoft REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/rest-api.yml
+- filename: application-services-framework.yml
+  format: yaml
+  label: PeopleSoft Application Services Framework API
+  slug: application-services-framework-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/application-services-framework.yml
+- filename: integration-broker.yml
+  format: yaml
+  label: PeopleSoft Integration Broker
+  slug: integration-broker
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/integration-broker.yml
+- filename: query.yml
+  format: yaml
+  label: PeopleSoft Query API
+  slug: query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/query.yml
+- filename: component-interface.yml
+  format: yaml
+  label: PeopleSoft Component Interface API
+  slug: component-interface-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/component-interface.yml
+- filename: search-framework.yml
+  format: yaml
+  label: PeopleSoft Search Framework API
+  slug: search-framework-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/search-framework.yml
+- filename: notification-framework.yml
+  format: yaml
+  label: PeopleSoft Notification Framework API
+  slug: notification-framework-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/notification-framework.yml
+- filename: chatbot-integration.yml
+  format: yaml
+  label: PeopleSoft Chatbot Integration Framework API
+  slug: chatbot-integration-framework-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/chatbot-integration.yml
+- filename: approval-workflow-engine.yml
+  format: yaml
+  label: PeopleSoft Approval Workflow Engine API
+  slug: approval-workflow-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/approval-workflow-engine.yml
+- filename: process-scheduler.yml
+  format: yaml
+  label: PeopleSoft Process Scheduler API
+  slug: process-scheduler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/process-scheduler.yml
+- filename: cloud-manager.yml
+  format: yaml
+  label: PeopleSoft Cloud Manager API
+  slug: cloud-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/cloud-manager.yml
+- filename: update-manager.yml
+  format: yaml
+  label: PeopleSoft Update Manager API
+  slug: update-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/update-manager.yml
+- filename: pivot-grid.yml
+  format: yaml
+  label: PeopleSoft Pivot Grid API
+  slug: pivot-grid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/pivot-grid.yml
+- filename: hcm.yml
+  format: yaml
+  label: PeopleSoft HCM API
+  slug: hcm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/hcm.yml
+- filename: recruiting-talent-management.yml
+  format: yaml
+  label: PeopleSoft Recruiting and Talent Management API
+  slug: recruiting-and-talent-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/recruiting-talent-management.yml
+- filename: financials.yml
+  format: yaml
+  label: PeopleSoft Financials API
+  slug: financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/financials.yml
+- filename: supply-chain-management.yml
+  format: yaml
+  label: PeopleSoft Supply Chain Management API
+  slug: supply-chain-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/supply-chain-management.yml
+- filename: crm.yml
+  format: yaml
+  label: PeopleSoft CRM API
+  slug: crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/crm.yml
+- filename: campus-solutions.yml
+  format: yaml
+  label: PeopleSoft Campus Solutions API
+  slug: campus-solutions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/campus-solutions.yml
+- filename: enterprise-performance-management.yml
+  format: yaml
+  label: PeopleSoft Enterprise Performance Management API
+  slug: enterprise-performance-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/enterprise-performance-management.yml
+- filename: interaction-hub.yml
+  format: yaml
+  label: PeopleSoft Interaction Hub API
+  slug: interaction-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/openapi/interaction-hub.yml
 apis:
 - description: RESTful web services for PeopleSoft applications enabling integration with external systems via the PeopleTools platform.
   name: PeopleSoft REST API
@@ -252,6 +379,7 @@ solutions:
   name: PeopleSoft Campus Solutions
 - description: Customer Relationship Management for sales, marketing, and service automation.
   name: PeopleSoft CRM
+source_filename: apis.yml
 source_yaml: "name: PeopleSoft\ndescription: Collection of Oracle PeopleSoft Enterprise application APIs for Human\n  Capital Management, Financial Management, Supply Chain Management, CRM, Campus Solutions,\n  and engineering intelligence across PeopleTools platform services.\nimage: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg\ncreated: '2024-01-15'\nmodified: '2026-04-17'\nspecificationVersion: '0.19'\nurl: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/apis.yml\ntags:\n- Campus Solutions\n- CRM\n- Enterprise Software\n- ERP\n- Financial Management\n- HCM\n- Supply Chain Management\napis:\n- name: PeopleSoft REST API\n  description: RESTful web services for PeopleSoft applications enabling integration\n    with external systems via the PeopleTools platform.\n  image: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg\n  humanURL: https://docs.oracle.com/en/applications/peoplesoft/\n  baseURL: https://{hostname}:{port}/psft/api/v1\n  tags:\n  - Integration\n\
   \  - REST\n  - Web Services\n  properties:\n  - type: Documentation\n    url: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/tpcl/index.html\n  - type: Authentication\n    url: https://docs.oracle.com/cd/F30998_01/pt858pbr2/eng/pt/tsec/concept_UnderstandingOAuth2_0.html\n  - type: OpenAPI\n    url: openapi/rest-api.yml\n  contact:\n  - FN: Oracle Support\n    email: support@oracle.com\n    url: https://support.oracle.com\n  aid: peoplesoft:rest-api\n- name: PeopleSoft Application Services Framework API\n  description: Modern REST API layer introduced in PeopleTools 8.59 that produces\n    fully compliant OpenAPI/Swagger specifications, supports proper HTTP status codes,\n    uniform URLs, and JSON payloads for integration with Oracle Integration Cloud,\n    mobile apps, and microservices.\n  image: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg\n  humanURL: https://docs.oracle.com/cd/E52319_01/infoportal/asf.html\n  baseURL: https://{hostname}:{port}/psft/asf/v1\n  tags:\n\
   \  - Integration\n  - Modern\n  - OpenAPI\n  - REST\n  properties:\n  - type: Documentation\n    url: https://docs.oracle.com/cd/E52319_01/infoportal/asf.html\n  - type: OpenAPI\n    url: openapi/application-services-framework.yml\n  contact:\n  - FN: Oracle Support\n    email: support@oracle.com\n    url: https://support.oracle.com\n  aid: peoplesoft:application-services-framework-api\n- name: PeopleSoft Integration Broker\n  description: Message-based integration framework for synchronous and asynchronous\n    communication supporting both SOAP and REST protocols.\n  image: https://www.oracle.com/a/ocom/img/cb71-psft-logo.jpg\n  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/tibr/index.html\n  baseURL: https://{hostname}:{port}/PSIGW/RESTListeningConnector\n  tags:\n  - Integration\n  - Messaging\n  - REST\n  - SOAP\n  properties:\n  - type: Documentation\n    url: https://docs.oracle.com/en/applications/peoplesoft/integration-broker/\n  - type: OpenAPI\n    url: openapi/integration-broker.yml\n\

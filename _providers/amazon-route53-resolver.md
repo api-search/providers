@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-route53-resolver-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/openapi/amazon-route53-resolver-openapi.yml
 apis:
 - description: The Amazon Route 53 Resolver API provides programmatic access to manage DNS resolution across hybrid cloud environments. It enables developers to create and manage resolver endpoints, configure forwar
   name: Amazon Route 53 Resolver API
@@ -2023,6 +2030,7 @@ rules:
 skills: []
 slug: amazon-route53-resolver
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Route 53 Resolver\ndescription: Amazon Route 53 Resolver provides DNS resolution for hybrid cloud environments, enabling DNS queries between your VPCs and on-premises networks. It allows you to configure DNS forwarding \n  rules, manage resolver endpoints, and set up conditional forwarding to resolve domain names across your hybrid infrastructure seamlessly.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon Route 53 Resolver API\n  description: >-\n    The Amazon Route 53 Resolver API provides programmatic access to manage DNS\n    resolution across hybrid cloud environments. It enables developers to create\n    and manage resolver endpoints, configure forwarding rules, associate VPCs\n    with resolver rules, and manage DNS firewall rule groups for filtering\
   \ DNS\n    queries.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/route53/\n  baseURL: https://route53resolver.amazonaws.com\n  tags:\n  - AWS\n  - DNS\n  - Hybrid Cloud\n  - Networking\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html\n  - type: OpenAPI\n    url: openapi/amazon-route53-resolver-openapi.yml\n  - type: Pricing\n    url: https://aws.amazon.com/route53/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/route53/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/route53/faqs/\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Portal\n  url: https://aws.amazon.com/route53/\n- type: Documentation\n  url: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver.html\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n\
   - type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Portal\n  url: https://console.aws.amazon.com/route53resolver/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: Login\n  url: https://aws.amazon.com/console/\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: JSON-LD\n  url: json-ld/amazon-route53-resolver-context-context.jsonld\n- type: JSONSchema\n  url: json-schema/amazon-route53-resolver-openapi-access-denied-exception-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-route53-resolver-openapi-account-id-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-route53-resolver-openapi-action-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-route53-resolver-openapi-arn-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-route53-resolver-openapi-associate-firewall-rule-group-request-schema.json\n\

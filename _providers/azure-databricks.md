@@ -1,5 +1,30 @@
 ---
 api_count: 39
+api_specs:
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Azure Databricks REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Clusters API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Jobs API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Workspace API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
 apis:
 - description: Core REST API for managing Azure Databricks workspaces, clusters, jobs, notebooks, and other resources programmatically.
   name: Azure Databricks REST API
@@ -234,6 +259,7 @@ rules:
 skills: []
 slug: azure-databricks
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Azure Databricks\ndescription: >-\n  Azure Databricks is an Apache Spark-based analytics platform optimized for Microsoft\n  Azure. It provides a collaborative workspace for data engineers, data scientists,\n  and analysts to work together on big data and machine learning workloads.\nimage: https://azure.microsoft.com/svghandler/databricks/\ntags:\n  - Analytics\n  - Apache Spark\n  - Big Data\n  - Data Engineering\n  - Machine Learning\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nurl: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - name: Azure Databricks REST API\n    description: >-\n      Core REST API for managing Azure Databricks workspaces, clusters, jobs, notebooks,\n      and other resources programmatically.\n    image: https://azure.microsoft.com/svghandler/databricks/\n    humanURL: https://learn.microsoft.com/azure/databricks/\n    baseURL: https://<databricks-instance>.azuredatabricks.net/api\n\
   \    tags:\n      - Clusters\n      - Jobs\n      - Notebooks\n      - Workspace\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/azure/databricks/dev-tools/api/latest/\n      - type: OpenAPI\n        url: openapi/azure-databricks-openapi.yml\n      - type: Authentication\n        url: https://learn.microsoft.com/azure/databricks/dev-tools/api/latest/authentication\n      - type: APIReference\n        url: https://docs.databricks.com/api/azure/workspace/introduction\n      - type: JSONSchema\n        url: json-schema/azure-databricks-cluster-schema.json\n      - type: JSONLD\n        url: json-ld/azure-databricks-context.jsonld\n    contact:\n      - type: Support\n        url: https://learn.microsoft.com/answers/tags/166/azure-databricks\n  - name: Clusters API\n    description: >-\n      Manage Databricks clusters for running Spark jobs including creating, starting,\n      editing, listing, terminating, and deleting clusters.\n    baseURL: https://<databricks-instance>.azuredatabricks.net/api/2.0/clusters\n\
   \    tags:\n      - Clusters\n      - Compute\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/azure/databricks/dev-tools/api/latest/clusters\n      - type: OpenAPI\n        url: openapi/azure-databricks-openapi.yml\n      - type: JSONSchema\n        url: json-schema/azure-databricks-cluster-schema.json\n      - type: APIReference\n        url: https://docs.databricks.com/api/azure/workspace/clusters\n  - name: Jobs API\n    description: >-\n      Create, manage, and run jobs on Databricks clusters including scheduling,\n      listing runs, and managing job permissions.\n    baseURL: https://<databricks-instance>.azuredatabricks.net/api/2.1/jobs\n    tags:\n      - Automation\n      - Jobs\n      - Scheduling\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/azure/databricks/dev-tools/api/latest/jobs\n      - type: OpenAPI\n        url: openapi/azure-databricks-openapi.yml\n      - type: APIReference\n       \

@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: codehooks-database-rest-api-openapi.yml
+  format: yaml
+  label: Codehooks Database REST API
+  slug: codehooks-database-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-database-rest-api-openapi.yml
+- filename: codehooks-events-asyncapi.yml
+  format: yaml
+  label: Codehooks Events (AsyncAPI)
+  slug: codehooks-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/asyncapi/codehooks-events-asyncapi.yml
 apis:
 - description: Auto-generated, secure REST API for Codehooks NoSQL collections, the built-in key-value store, and queue topics. Supports MongoDB-style query operators ($gt, $lt, $in, $nin, $exists, $regex, $or, $and
   name: Codehooks Database REST API
@@ -83,6 +96,7 @@ rules:
 skills: []
 slug: codehooks
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: codehooks\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/apis.yml\nname: Codehooks\ntags:\n  - Backend\n  - Database\n  - Events\n  - Hooks\n  - JavaScript\n  - NoSQL\n  - Queues\n  - Serverless\n  - Webhooks\n  - Workers\n  - Workflows\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\nx-type: company\ncreated: '2025-02-08'\nmodified: '2026-04-26'\nposition: Consumer\ndescription: >-\n  Codehooks is a JavaScript-native serverless backend platform that bundles a\n  NoSQL document database, key-value store, persistent queues with workers,\n  CRON jobs, blob storage, frontend hosting, and an automatic CRUD REST API\n  in a single CLI-deployable runtime. Developers write small Node.js handler\n  files and Codehooks generates a secure REST API, OpenAPI documentation,\n  and event hooks (onBefore/onAfter Create/Read/Update/Delete) without\n  managing servers. The platform\
   \ targets agent-native and AI backend use\n  cases where simple, fast, MongoDB-style data access and event-driven\n  automation matter.\napis:\n  - aid: codehooks:codehooks-database-rest-api\n    name: Codehooks Database REST API\n    tags:\n      - CRUD\n      - Database\n      - Documents\n      - Key-Value\n      - NoSQL\n      - Queues\n      - REST\n    humanURL: https://codehooks.io/docs/\n    baseURL: https://{projectId}.api.codehooks.io/{space}\n    properties:\n      - url: https://codehooks.io/docs/\n        type: Documentation\n      - url: https://codehooks.io/docs/restapi\n        type: APIReference\n      - url: openapi/codehooks-database-rest-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      Auto-generated, secure REST API for Codehooks NoSQL collections, the\n      built-in key-value store, and queue topics. Supports MongoDB-style\n      query operators ($gt, $lt, $in, $nin, $exists, $regex, $or, $and),\n      pagination, sorting, field selection, bulk\
   \ update/delete by query,\n      counts, and increment/decrement on key-value entries. Authenticated\n      via API key.\n    x-features:\n      - Automatic CRUD REST API via app.crudlify()\n      - MongoDB-like query language with $gt/$lt/$in/$exists/$regex/$or/$and\n      - Pagination, sort, field selection\n      - Bulk updateByQuery and deleteByQuery\n      - Key-value cache with TTL plus increment/decrement\n      - Persistent queue API for asynchronous job processing\n      - Auto-generated OpenAPI/Swagger from schema\n      - Sub-5-second deploys via the codehooks CLI\n    x-use-cases:\n      - Internal CRUD apps and admin dashboards\n      - Webhook receivers (Stripe, GitHub, Shopify) with persistent queues\n      - Headless content backends for SPA/PWA hosting\n      - AI agent state and memory backends\n      - Lightweight microservices replacing custom Node.js + MongoDB stacks\n\n  - aid: codehooks:codehooks-events\n    name: Codehooks Events (AsyncAPI)\n    tags:\n      - Async\n\

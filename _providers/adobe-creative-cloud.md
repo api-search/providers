@@ -1,5 +1,36 @@
 ---
 api_count: 17
+api_specs:
+- filename: adobe-firefly-api-openapi-original.yml
+  format: yaml
+  label: Adobe Firefly API
+  slug: firefly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-firefly-api-openapi-original.yml
+- filename: adobe-cc-libraries-api-openapi-original.yml
+  format: yaml
+  label: Creative Cloud Libraries API
+  slug: cc-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-cc-libraries-api-openapi-original.yml
+- filename: adobe-stock-api-openapi-original.yml
+  format: yaml
+  label: Adobe Stock API
+  slug: stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-stock-api-openapi-original.yml
+- filename: adobe-pdf-services-api-openapi-original.yml
+  format: yaml
+  label: Adobe PDF Services API
+  slug: pdf-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-pdf-services-api-openapi-original.yml
+- filename: adobe-io-events-asyncapi-original.yml
+  format: yaml
+  label: Adobe I/O Events
+  slug: io-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/asyncapi/adobe-io-events-asyncapi-original.yml
 apis:
 - description: The Adobe Firefly API provides programmatic access to generative AI capabilities for image creation and manipulation. Key endpoints include text-to-image generation, generative fill for inpainting mas
   name: Adobe Firefly API
@@ -198,6 +229,7 @@ solutions:
   name: Adobe Acrobat Services
 - description: Full-stack application framework for building custom enterprise extensions on Adobe infrastructure.
   name: Adobe App Builder
+source_filename: apis.yml
 source_yaml: "aid: adobe-creative-cloud\nname: Adobe Creative Cloud\ndescription: >-\n  Adobe Creative Cloud is a suite of software and cloud services for graphic design,\n  video editing, web development, photography, and 3D content creation. Its developer\n  platform provides APIs for generative AI via Firefly Services, cloud storage and\n  asset management, PDF document processing, electronic signatures, stock asset licensing,\n  font delivery, and embeddable creative tools via the Express Embed SDK.\nurl: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/apis.yml\ntags:\n  - AI/ML\n  - Cloud\n  - Creative\n  - Design\n  - Documents\n  - Photography\n  - SaaS\n  - Video\ncreated: '2025-02-26'\nmodified: '2026-04-17'\nspecificationVersion: '0.19'\ntype: Index\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\napis:\n  - aid: adobe-creative-cloud:firefly-api\n    name: Adobe Firefly API\n    tags:\n      - AI/ML\n      - Generative AI\n\
   \      - Generative Fill\n      - Image Generation\n      - Text-To-Image\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://firefly-api.adobe.io/v2\n    humanURL: https://developer.adobe.com/firefly-services/docs/firefly-api/\n    properties:\n      - url: https://developer.adobe.com/firefly-services/docs/firefly-api/\n        type: Documentation\n      - url: https://developer.adobe.com/firefly-services/docs/firefly-api/guides/\n        type: GettingStarted\n      - url: https://developer.adobe.com/firefly-services/docs/firefly-api/guides/api/\n        type: APIReference\n      - url: openapi/adobe-firefly-api-openapi-original.yml\n        type: OpenAPI\n    description: >-\n      The Adobe Firefly API provides programmatic access to generative AI capabilities\n      for image creation and manipulation. Key endpoints include text-to-image generation,\n      generative fill for inpainting masked regions, image expansion for extending\n\
   \      content beyond original boundaries, and style transfer for matching visual aesthetics.\n  - aid: adobe-creative-cloud:express-embed-sdk\n    name: Adobe Express Embed SDK\n    tags:\n      - Editor\n      - Embed SDK\n      - JavaScript\n      - Quick Actions\n      - Web Components\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developer.adobe.com/express/embed-sdk/docs/guides/\n    properties:\n      - url: https://developer.adobe.com/express/embed-sdk/docs/guides/\n        type: Documentation\n      - url: https://developer.adobe.com/express/embed-sdk/docs/guides/quickstart/\n        type: GettingStarted\n      - url: https://developer.adobe.com/express/embed-sdk/docs/v4/\n        type: APIReference\n      - url: https://github.com/AdobeDocs/cc-everywhere\n        type: GitHubRepository\n    description: >-\n      A JavaScript SDK for embedding Adobe Express creative editing tools\

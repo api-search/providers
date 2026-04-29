@@ -1,5 +1,24 @@
 ---
 api_count: 3
+api_specs:
+- filename: basecamp-api-openapi.yml
+  format: yaml
+  label: Basecamp API
+  slug: basecamp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-api-openapi.yml
+- filename: basecamp-webhooks-asyncapi.yml
+  format: yaml
+  label: Basecamp Webhooks
+  slug: basecamp-webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/asyncapi/basecamp-webhooks-asyncapi.yml
+- filename: basecamp-oauth-openapi.yml
+  format: yaml
+  label: Basecamp OAuth
+  slug: basecamp-oauth
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-oauth-openapi.yml
 apis:
 - description: The Basecamp API is a REST API providing programmatic access to Basecamp's project management platform. Manage projects, to-do lists, messages, documents, schedules, and team members. Uses OAuth 2.0 f
   name: Basecamp API
@@ -96,6 +115,7 @@ rules:
 skills: []
 slug: basecamp
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: basecamp\nurl: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/apis.yml\nname: Basecamp\ntags:\n  - Collaboration\n  - Project Management\n  - REST\n  - SaaS\n  - Team Communication\nmodified: '2026-04-21'\ndescription: >-\n  Basecamp is a project management and team collaboration platform developed by 37signals.\n  The Basecamp REST API (bc3-api) provides programmatic access to projects, to-do lists,\n  messages, documents, schedules, and team members. OAuth2 authentication via the 37signals\n  Launchpad is required. The API returns JSON and is documented on GitHub at\n  github.com/basecamp/bc3-api.\napis:\n  - aid: basecamp:basecamp-api\n    name: Basecamp API\n    tags:\n      - Collaboration\n      - Project Management\n      - REST\n      - Team Communication\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://3.basecampapi.com\n    humanURL: https://github.com/basecamp/bc3-api\n  \
   \  properties:\n      - url: https://github.com/basecamp/bc3-api\n        type: Documentation\n      - url: openapi/basecamp-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Basecamp API is a REST API providing programmatic access to Basecamp's\n      project management platform. Manage projects, to-do lists, messages, documents,\n      schedules, and team members. Uses OAuth 2.0 for authentication and returns JSON.\n  - aid: basecamp:basecamp-webhooks\n    name: Basecamp Webhooks\n    tags:\n      - Events\n      - Notifications\n      - Project Management\n      - Webhooks\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://3.basecampapi.com\n    humanURL: https://github.com/basecamp/bc3-api/blob/master/sections/webhooks.md\n    properties:\n      - url: https://github.com/basecamp/bc3-api/blob/master/sections/webhooks.md\n        type: Documentation\n      - url: asyncapi/basecamp-webhooks-asyncapi.yml\n\
   \        type: AsyncAPI\n    description: >-\n      Basecamp Webhooks deliver real-time HTTP notifications when events occur within\n      a project. Configure webhooks per project with an HTTPS payload URL and resource types.\n  - aid: basecamp:basecamp-oauth\n    name: Basecamp OAuth\n    tags:\n      - Authentication\n      - Authorization\n      - OAuth\n      - Security\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://launchpad.37signals.com\n    humanURL: https://github.com/basecamp/bc3-api/blob/master/sections/authentication.md\n    properties:\n      - url: https://github.com/basecamp/bc3-api/blob/master/sections/authentication.md\n        type: Documentation\n      - url: openapi/basecamp-oauth-openapi.yml\n        type: OpenAPI\n    description: >-\n      OAuth 2.0 authentication for Basecamp API access via the 37signals Launchpad.\n      Register at launchpad.37signals.com for a client ID and secret, then implement\n\

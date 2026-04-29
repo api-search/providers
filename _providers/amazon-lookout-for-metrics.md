@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-lookout-for-metrics-openapi-original.yaml
+  format: yaml
+  label: Amazon Lookout for Metrics API
+  slug: amazon-lookout-for-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/openapi/amazon-lookout-for-metrics-openapi-original.yaml
 apis:
 - description: The Amazon Lookout for Metrics API provides programmatic access to create and manage anomaly detectors, anomaly groups, alerts, and datasets for automated anomaly detection in business metrics. Suppor
   name: Amazon Lookout for Metrics API
@@ -109,6 +116,7 @@ rules:
 skills: []
 slug: amazon-lookout-for-metrics
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-lookout-for-metrics\nname: Amazon Lookout for Metrics\ndescription: >-\n  Amazon Lookout for Metrics uses machine learning to automatically detect\n  anomalies in business and operational metrics such as revenue performance,\n  customer engagement, and user activity. It continuously monitors data from\n  various sources including Amazon S3, CloudWatch, RDS, Redshift, Athena, and\n  AppFlow, providing root cause analysis and alert notifications when anomalies\n  are detected.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Anomaly Detection\n  - AWS\n  - Business Intelligence\n  - Machine Learning\n  - Metrics\n  - Monitoring\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-lookout-for-metrics:amazon-lookout-for-metrics-api\n    name: Amazon Lookout\
   \ for Metrics API\n    description: >-\n      The Amazon Lookout for Metrics API provides programmatic access to\n      create and manage anomaly detectors, anomaly groups, alerts, and datasets\n      for automated anomaly detection in business metrics. Supports detector\n      lifecycle management, metric set configuration, alert creation, anomaly\n      analysis, feedback collection, and resource tagging across 30 operations.\n    humanURL: https://aws.amazon.com/lookout-for-metrics/\n    baseURL: https://lookoutmetrics.amazonaws.com\n    tags:\n      - Anomaly Detection\n      - Machine Learning\n      - Metrics\n      - Monitoring\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/lookoutmetrics/latest/api/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-lookout-for-metrics-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/lookout-for-metrics/getting-started/\n      - type: Pricing\n       \
   \ url: https://aws.amazon.com/lookout-for-metrics/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/lookout-for-metrics/faqs/\n      - type: JSONSchema\n        url: json-schema/amazon-lookout-for-metrics-activate-anomaly-detector-response-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-lookout-for-metrics-activate-anomaly-detector-response-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-lookout-for-metrics-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/lookout-for-metrics/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/lookoutmetrics/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/machine-learning/tag/amazon-lookout-for-metrics/\n  - type: GitHubOrganization\n    url:\

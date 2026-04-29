@@ -1,5 +1,18 @@
 ---
 api_count: 4
+api_specs:
+- filename: cisco-expressway-configuration-api-openapi.yml
+  format: yaml
+  label: Cisco Expressway Configuration API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-configuration-api-openapi.yml
+- filename: cisco-expressway-status-api-openapi.yml
+  format: yaml
+  label: Cisco Expressway Status API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/openapi/cisco-expressway-status-api-openapi.yml
 apis:
 - description: RESTful API for configuring and managing Cisco Expressway systems including zones, search rules, transforms, DNS, NTP, and system settings. Uses JSON Schema version 4 for request and response schemas.
   name: Cisco Expressway Configuration API
@@ -97,6 +110,7 @@ rules:
 skills: []
 slug: cisco-expressway
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cisco-expressway\nname: Cisco Expressway\ndescription: API definitions for Cisco Expressway, a session border controller and firewall traversal solution for Unified Communications that provides secure remote and mobile access for collaboration workloads including video, voice, content, and presence. Programmatic access spans a REST API for configuration (/api/provisioning), a REST API for status and observability (/api/status), an SNMP MIB for metrics, and a legacy XML API for systems still in transition.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntype: Index\naccess: 3rd-Party\nposition: Consumer\ncreated: '2024-01-01'\nmodified: '2026-04-23'\nspecificationVersion: '0.19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/apis.yml\ntags:\n  - Collaboration\n  - Firewall Traversal\n  - H.323\n  - Session Border Controller\n  - SIP\n  - Unified Communications\n  - Video Conferencing\napis:\n\
   \  - name: Cisco Expressway Configuration API\n    description: RESTful API for configuring and managing Cisco Expressway systems including zones, search rules, transforms, DNS, NTP, and system settings. Uses JSON Schema version 4 for request and response schemas.\n    image: https://www.cisco.com/c/dam/en/us/products/collateral/unified-communications/expressway-series/datasheet-c78-733751.jpg\n    humanURL: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-2/rest-api/exwy_b_cisco-expressway-rest-api-summary-guide--x142/exwy_m_using-the-expressway-rest-api.html\n    baseURL: https://expressway.example.com/api/provisioning\n    tags:\n      - Configuration\n      - Management\n      - Provisioning\n      - REST\n      - Unified Communications\n    properties:\n      - type: Documentation\n        url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-2/rest-api/exwy_b_cisco-expressway-rest-api-summary-guide--x142/exwy_m_using-the-expressway-rest-api.html\n\
   \      - type: Reference\n        url: https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-programming-reference-guides-list.html\n      - type: Authentication\n        url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-2/rest-api/exwy_b_cisco-expressway-rest-api-summary-guide--x142/exwy_m_using-the-expressway-rest-api.html\n      - type: Getting Started\n        url: https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-installation-and-configuration-guides-list.html\n      - type: Change Log\n        url: https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-release-notes-list.html\n      - type: OpenAPI\n        url: openapi/cisco-expressway-configuration-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/cisco-expressway-zone-schema.json\n      - type: JSONSchema\n        url: json-schema/cisco-expressway-search-rule-schema.json\n\

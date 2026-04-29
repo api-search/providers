@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-simspace-weaver.yaml
+  format: yaml
+  label: AWS SimSpace Weaver API
+  slug: aws-simspace-weaver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver.yaml
 apis:
 - description: The AWS SimSpace Weaver API provides programmatic access to create and manage simulations, simulation apps, snapshots, and clocks for running large-scale spatial simulations in the cloud.
   name: AWS SimSpace Weaver API
@@ -90,6 +97,7 @@ rules:
 skills: []
 slug: amazon-simspace-weaver
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-simspace-weaver\nname: Amazon SimSpace Weaver\ndescription: >-\n  AWS SimSpace Weaver is a managed service that helps you build and run\n  large-scale spatial simulations in the AWS Cloud. It provides tools to\n  run custom spatial simulation logic at scale and use simulation workloads\n  for defense, urban planning, and other real-world system simulations.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Defense\n- Digital Twin\n- Simulation\n- Spatial Simulation\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-simspace-weaver:aws-simspace-weaver-api\n  name: AWS SimSpace Weaver API\n  description: >-\n    The AWS SimSpace Weaver API provides programmatic access to create and\n    manage simulations, simulation apps, snapshots, and clocks for\
   \ running\n    large-scale spatial simulations in the cloud.\n  humanURL: https://aws.amazon.com/simspace-weaver/\n  baseURL: https://simspaceweaver.amazonaws.com\n  tags:\n  - Digital Twin\n  - Simulation\n  - Spatial Simulation\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/simspaceweaver/latest/userguide/what-is.html\n  - type: OpenAPI\n    url: openapi/amazon-simspace-weaver.yaml\n  - type: GettingStarted\n    url: https://aws.amazon.com/simspaceweaver/\n  - type: Pricing\n    url: https://aws.amazon.com/simspaceweaver/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/simspaceweaver/faqs/\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/simspaceweaver/\n- type: Documentation\n  url: https://docs.aws.amazon.com/simspaceweaver/latest/userguide/what-is.html\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n\
   - type: Blog\n  url: https://aws.amazon.com/blogs/hpc/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/simspaceweaver/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: SpectralRules\n  url: rules/amazon-simspace-weaver-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-simspace-weaver-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-simspace-weaver.yaml\n- type: Features\n  data:\n  - name: Large-scale Simulations\n    description: Run spatial simulations at city or country scale with millions of agents.\n  - name: Managed Infrastructure\n    description: Fully managed compute infrastructure for simulation workloads.\n  - name: App Framework\n    description: Deploy\

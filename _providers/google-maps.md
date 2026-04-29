@@ -1,5 +1,24 @@
 ---
 api_count: 38
+api_specs:
+- filename: google-maps-geocoding-api.yml
+  format: yaml
+  label: Geocoding API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api.yml
+- filename: google-maps-places-api.yml
+  format: yaml
+  label: Places API (New)
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-places-api.yml
+- filename: google-maps-directions-api.yml
+  format: yaml
+  label: Directions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api.yml
 apis:
 - description: Embed customizable maps in web pages with the JavaScript API.
   name: Maps JavaScript API
@@ -228,6 +247,7 @@ rules:
 skills: []
 slug: google-maps
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-maps\nname: Google Maps Platform\ndescription: >-\n  Google Maps Platform offers APIs and SDKs for maps, routes, and places functionality.\nimage: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png\nurl: https://developers.google.com/maps\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - Environment\n  - Geocoding\n  - Geolocation\n  - Maps\n  - Navigation\n  - Places\n  - Routing\n  - Solar\napis:\n  - name: Maps JavaScript API\n    description: >-\n      Embed customizable maps in web pages with the JavaScript API.\n    image: https://developers.google.com/maps/images/maps-icon.svg\n    humanUrl: https://developers.google.com/maps/documentation/javascript\n    baseUrl: https://maps.googleapis.com/maps/api/js\n    tags:\n      - Javascript\n      - Maps\n      - Visualization\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/maps/documentation/javascript\n\
   \      - type: OpenAPI\n        url: https://api.example.com/openapi/maps-js.yaml\n      - type: GettingStarted\n        url: https://developers.google.com/maps/documentation/javascript/overview\n      - type: ReleaseNotes\n        url: https://developers.google.com/maps/documentation/javascript/releases\n      - type: Support\n        url: https://developers.google.com/maps/documentation/javascript/support\n    contact:\n      - FN: Google Maps Support\n        email: maps-api-support@google.com\n  - name: Maps SDK for Android\n    description: >-\n      Add maps to Android and Wear OS applications with customizable markers, polylines,\n      and user interaction support.\n    humanUrl: https://developers.google.com/maps/documentation/android-sdk\n    tags:\n      - Android\n      - Maps\n      - Mobile\n      - Sdk\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/maps/documentation/android-sdk\n      - type: GettingStarted\n        url: https://developers.google.com/maps/documentation/android-sdk/overview\n\
   \      - type: ReleaseNotes\n        url: https://developers.google.com/maps/documentation/android-sdk/release-notes\n  - name: Maps SDK for iOS\n    description: >-\n      Add maps to iOS applications with automatic server access, map display, and\n      gesture handling.\n    humanUrl: https://developers.google.com/maps/documentation/ios-sdk\n    tags:\n      - Ios\n      - Maps\n      - Mobile\n      - Sdk\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/maps/documentation/ios-sdk\n      - type: GettingStarted\n        url: https://developers.google.com/maps/documentation/ios-sdk/overview\n      - type: ReleaseNotes\n        url: https://developers.google.com/maps/documentation/ios-sdk/release-notes\n  - name: Google Maps for Flutter\n    description: >-\n      Add Google Maps to Flutter applications across Android, iOS, and web platforms.\n    humanUrl: https://developers.google.com/maps/flutter-package/overview\n    tags:\n      - Cross-Platform\n\

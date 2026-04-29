@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: agilent-ilab-operations-api.yaml
+  format: yaml
+  label: Agilent iLab Operations API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-ilab-operations-api.yaml
 apis:
 - description: The iLab API enables customers to seamlessly integrate outside applications with iLab's billing and reporting modules. It leverages a RESTful application architecture with HATEOAS (Hypermedia as the E
   name: Agilent iLab Operations API
@@ -96,6 +103,7 @@ rules:
 skills: []
 slug: agilent-technologies
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: agilent-technologies\nurl: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/apis.yml\nmodified: '2026-04-19'\ndescription: >-\n  Agilent Technologies is a global leader in life sciences, diagnostics, and\n  applied chemical markets, providing instruments, software, services, and\n  consumables for laboratory workflows. Agilent offers APIs for laboratory\n  operations management including iLab for core facility billing and scheduling,\n  SLIMS for laboratory information management, CrossLab Asset Manager for\n  instrument management, and VWorks for laboratory automation.\ntags:\n  - Life Sciences\n  - Diagnostics\n  - Laboratory\n  - Scientific Instruments\n  - LIMS\n  - Laboratory Automation\napis:\n  - name: Agilent iLab Operations API\n    description: >-\n      The iLab API enables customers to seamlessly integrate outside applications\n      with iLab's billing and reporting modules. It leverages a RESTful\n      application architecture\
   \ with HATEOAS (Hypermedia as the Engine of\n      Application State) and OAuth2 for secure access. The API supports\n      integrations with institutional financial systems such as SAP,\n      Oracle/PeopleSoft, Lawson, and Banner, as well as identity management\n      systems and LIMS.\n    humanURL: https://help.ilab.agilent.com/ilab-api\n    baseURL: https://api.ilabsolutions.com/v1\n    tags:\n      - Laboratory Operations\n      - Billing\n      - Core Facilities\n      - Scheduling\n    properties:\n      - type: Documentation\n        url: https://help.ilab.agilent.com/ilab-api\n      - type: Authentication\n        url: https://help.ilab.agilent.com/ilab-api\n      - type: OpenAPI\n        url: openapi/agilent-ilab-operations-api.yaml\n      - type: JSONSchema\n        url: json-schema/ilab-operations-api-core-schema.json\n        title: Core Schema\n      - type: JSONSchema\n        url: json-schema/ilab-operations-api-service-schema.json\n        title: Service Schema\n    \
   \  - type: JSONSchema\n        url: json-schema/ilab-operations-api-service-request-schema.json\n        title: Service Request Schema\n      - type: JSONSchema\n        url: json-schema/ilab-operations-api-reservation-schema.json\n        title: Reservation Schema\n      - type: JSONSchema\n        url: json-schema/ilab-operations-api-invoice-schema.json\n        title: Invoice Schema\n      - type: JSONSchema\n        url: json-schema/ilab-operations-api-member-schema.json\n        title: Member Schema\n      - type: JSONSchema\n        url: json-schema/ilab-operations-api-project-schema.json\n        title: Project Schema\n      - type: JSONStructure\n        url: json-structure/ilab-operations-api-core-structure.json\n        title: Core Structure\n      - type: JSONStructure\n        url: json-structure/ilab-operations-api-service-request-structure.json\n        title: Service Request Structure\n      - type: JSON-LD\n        url: json-ld/agilent-ilab-operations-api-context.jsonld\n\

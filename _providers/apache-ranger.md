@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-ranger-rest-api.yaml
+  format: yaml
+  label: Apache Ranger REST API
+  slug: apache-ranger-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-rest-api.yaml
 apis:
 - description: 'The Ranger REST API provides endpoints for policy management, service management, user/group management, audit log retrieval, and security zone administration, with plugin APIs for enforcing policies '
   name: Apache Ranger REST API
@@ -76,6 +83,7 @@ rules:
 skills: []
 slug: apache-ranger
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-ranger\nname: Apache Ranger\ndescription: >-\n  Apache Ranger is a framework to enable, monitor, and manage comprehensive data security across the Hadoop platform. It provides centralized security administration for fine-grained authorization policies\n  across Hadoop ecosystem components.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Access Control\n- Authorization\n- Hadoop\n- Policy Management\n- Security\n- Apache\n- Open Source\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n- aid: apache-ranger:apache-ranger-rest-api\n  name: Apache Ranger REST API\n  description: >-\n    The Ranger REST API provides endpoints for policy management, service management, user/group management, audit log retrieval, and security zone administration,\
   \ with plugin APIs for enforcing policies\n    in HDFS, Hive, HBase, and other services.\n  humanURL: https://ranger.apache.org/apidocs/index.html\n  tags:\n  - Access Control\n  - Policy Management\n  - REST\n  - Apache\n  - Open Source\n  properties:\n  - type: Documentation\n    url: https://ranger.apache.org/apidocs/index.html\n  - type: Documentation\n    url: https://ranger.apache.org/\n  - type: OpenAPI\n    url: openapi/apache-ranger-rest-api.yaml\nmaintainers:\n- FN: Kin Lane\n  email: info@apievangelist.com\ncommon:\n- type: GitHubOrganization\n  url: https://github.com/apache/ranger\n- type: Documentation\n  url: https://ranger.apache.org/\n- type: SpectralRules\n  url: rules/apache-ranger-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/apache-ranger-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/ranger-workflow.yaml\n- type: JSON-LD\n  url: json-ld/apache-ranger-context.jsonld\n- type: Features\n  data:\n  - name: Centralized Policy Management\n \
   \   description: Manage security policies for all Hadoop services from a single interface\n  - name: Fine-Grained Access Control\n    description: Column-level, row-level, and data masking policies for Hive and HBase\n  - name: Attribute-Based Access Control\n    description: Context-aware policies based on user attributes and tag classifications\n  - name: Audit Logging\n    description: Comprehensive audit trail of all resource access events\n  - name: Multi-Service Support\n    description: Supports HDFS, Hive, HBase, Kafka, Storm, Solr, Kudu, and more\n  - name: LDAP/AD Integration\n    description: Sync users and groups from Active Directory or LDAP\n  - name: Security Zones\n    description: Delegate policy administration with security zones\n- type: UseCases\n  data:\n  - name: Data Lake Security\n    description: Enforce column and row-level security on Hadoop data lake\n  - name: Regulatory Compliance\n    description: Meet GDPR, HIPAA, and SOX requirements with audit logs and\

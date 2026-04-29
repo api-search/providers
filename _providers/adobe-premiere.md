@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: adobe-premiere-creative-cloud-libraries-openapi.yml
+  format: yaml
+  label: Adobe Creative Cloud Libraries API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-creative-cloud-libraries-openapi.yml
 apis:
 - description: Adobe Premiere Pro extension APIs using UXP (Unified Extensibility Platform) and CEP (Common Extensibility Platform) for building plugins and panels that automate video editing workflows, add custom e
   name: Adobe Premiere Pro API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: adobe-premiere
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: adobe-premiere\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/apis.yml\nname: Adobe Premiere Pro\ndescription: >-\n  APIs for Adobe Premiere Pro, a professional video editing software that enables\n  programmatic access to video editing, project management, and content creation workflows.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntype: Index\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- name: Adobe Premiere Pro API\n  description: >-\n    Adobe Premiere Pro extension APIs using UXP (Unified Extensibility Platform) and CEP (Common Extensibility Platform) for building plugins and panels that automate video editing workflows, add custom\n    effects, integrate with external hardware, and extend the Premiere Pro user interface.\n  image: https://www.adobe.com/content/dam/cc/icons/premiere.svg\n  humanURL: https://developer.adobe.com/premiere-pro/\n\
   \  baseURL: https://api.adobe.io/premiere\n  tags:\n  - Automation\n  - Creative Cloud\n  - Media\n  - Video Editing\n  - Video Production\n  properties:\n  - type: Documentation\n    url: https://developer.adobe.com/premiere-pro/docs/\n  - type: SDK\n    url: https://developer.adobe.com/developer-console/docs/guides/\n  - type: Authentication\n    url: https://developer.adobe.com/developer-console/docs/guides/authentication/\n  - type: GettingStarted\n    url: https://developer.adobe.com/premiere-pro/docs/getting-started/\n- name: Adobe Creative Cloud Libraries API\n  description: >-\n    REST API for accessing and managing Adobe Creative Cloud Libraries that store shared design assets (colors, graphics, fonts, brushes, patterns, and videos) for use across Adobe Creative applications\n    including Premiere Pro, Photoshop, Illustrator, and After Effects.\n  humanURL: https://developer.adobe.com/creative-cloud-libraries/docs/\n  baseURL: https://api.adobe.io/libraries\n  tags:\n  - Assets\n\
   \  - Creative Cloud\n  - Libraries\n  - Media Management\n  properties:\n  - type: Documentation\n    url: https://developer.adobe.com/creative-cloud-libraries/docs/\n  - type: OpenAPI\n    url: openapi/adobe-premiere-creative-cloud-libraries-openapi.yml\n  - type: Authentication\n    url: https://developer.adobe.com/developer-console/docs/guides/authentication/\n  - type: JSONSchema\n    url: json-schema/creative-cloud-libraries-element-input-schema.json\n  - type: JSONSchema\n    url: json-schema/creative-cloud-libraries-element-list-schema.json\n  - type: JSONSchema\n    url: json-schema/creative-cloud-libraries-element-schema.json\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\ntags:\n- Adobe\n- Automation\n- Creative Cloud\n- Media\n- Premiere Pro\n- Video Editing\n- Video Production\ncommon:\n- type: Portal\n  url: https://developer.adobe.com/premiere-pro/\n- type: Documentation\n  url: https://developer.adobe.com/premiere-pro/docs/\n- type: Blog\n  url: https://blog.developer.adobe.com/\n\

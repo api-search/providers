@@ -1,5 +1,12 @@
 ---
 api_count: 11
+api_specs:
+- filename: bigip-icontrol-rest.yml
+  format: yaml
+  label: F5 BIG-IP iControl REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/bigip-icontrol-rest.yml
 apis:
 - description: The iControl REST API provides programmatic access to manage and configure F5 BIG-IP devices. Enables automation of network, security, and application delivery services.
   name: F5 BIG-IP iControl REST API
@@ -142,6 +149,7 @@ rules:
 skills: []
 slug: f5-networks
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: F5 Networks\ndescription: F5 Networks is a leader in application delivery networking technology that specializes in application availability, acceleration, and security solutions.\nimage: https://www.f5.com/content/dam/f5-com/global-assets/images/f5-logo.svg\nurl: https://www.f5.com/apis\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.18'\ntype: Index\naccess: 3rd-Party\nposition: Consumer\nsegments:\n  - Gateways\ntags:\n  - API Gateway\n  - Application Delivery\n  - Automation\n  - Edge Computing\n  - Kubernetes\n  - Load Balancing\n  - Multi-Cloud\n  - NGINX\n  - Security\n  - WAF\napis:\n  - name: F5 BIG-IP iControl REST API\n    description: The iControl REST API provides programmatic access to manage and configure F5 BIG-IP devices. Enables automation of network, security, and application delivery services.\n    image: https://www.f5.com/content/dam/f5-com/global-assets/images/f5-logo.svg\n    humanURL: https://www.f5.com/services/resources/api\n\
   \    baseURL: https://{{bigip_host}}/mgmt/tm\n    tags:\n      - ADC\n      - Application Delivery\n      - Load Balancing\n      - Network Management\n      - Security\n    properties:\n      - type: Documentation\n        url: https://clouddocs.f5.com/api/icontrol-rest/\n      - type: OpenAPI\n        url: openapi/bigip-icontrol-rest.yml\n      - type: OpenAPI\n        url: https://clouddocs.f5.com/api/icontrol-rest/APIRef_tm_ltm.html\n      - type: JSONSchema\n        url: json-schema/f5-virtual-server-schema.json\n      - type: JSONLD\n        url: json-ld/f5-networks-context.jsonld\n      - type: JSONLD\n        url: json-ld/bigip-icontrol-rest-context.jsonld\n      - type: Authentication\n        url: https://clouddocs.f5.com/api/icontrol-rest/Authentication.html\n      - type: APIReference\n        url: https://clouddocs.f5.com/api/icontrol-rest/APIRef.html\n      - type: GettingStarted\n        url: https://clouddocs.f5.com/api/\n      - type: SDK\n        url: https://github.com/F5Networks/f5-icontrol-rest-python\n\
   \        title: Python SDK\n      - type: SDK\n        url: https://f5-sdk.readthedocs.io/\n        title: Python SDK Docs\n    contact:\n      - FN: F5 Support\n        email: support@f5.com\n        url: https://www.f5.com/company/contact/regional-offices\n  - name: F5 Distributed Cloud API\n    description: API for F5 Distributed Cloud Services providing multi-cloud networking, application security, and edge computing capabilities.\n    image: https://www.f5.com/content/dam/f5-com/global-assets/images/f5-logo.svg\n    humanURL: https://docs.cloud.f5.com/docs/api\n    baseURL: https://{{tenant}}.console.ves.volterra.io/api\n    tags:\n      - API Security\n      - CDN\n      - Edge Computing\n      - Multi-Cloud\n      - WAF\n    properties:\n      - type: Documentation\n        url: https://docs.cloud.f5.com/docs/api\n      - type: OpenAPI\n        url: https://docs.cloud.f5.com/docs/api/swagger\n      - type: Console\n        url: https://console.ves.volterra.io/\n      - type: GettingStarted\n\

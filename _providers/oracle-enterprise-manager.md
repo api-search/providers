@@ -1,5 +1,12 @@
 ---
 api_count: 17
+api_specs:
+- filename: oracle-enterprise-manager-cloud-control-openapi.yml
+  format: yaml
+  label: Oracle Enterprise Manager Cloud Control REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-cloud-control-openapi.yml
 apis:
 - description: 'REST API for Oracle Enterprise Manager Cloud Control providing access to monitoring, configuration, and administration capabilities including targets, metrics, incidents, blackouts, credentials, user '
   name: Oracle Enterprise Manager Cloud Control REST API
@@ -143,6 +150,7 @@ rules:
 skills: []
 slug: oracle-enterprise-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: oracle-enterprise-manager\nname: Oracle Enterprise Manager\ndescription: >-\n  Oracle Enterprise Manager (OEM) provides a comprehensive management platform\n  for managing Oracle IT infrastructure and applications. The APIs enable\n  programmatic access to monitoring, administration, and automation capabilities.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntags:\n  - Cloud Management\n  - Database Management\n  - Enterprise Management\n  - Infrastructure Management\n  - Monitoring\n  - Oracle\napis:\n  - name: Oracle Enterprise Manager Cloud Control REST API\n    description: REST API for Oracle Enterprise Manager Cloud Control providing access to monitoring, configuration, and administration capabilities\
   \ including targets, metrics, incidents, blackouts, credentials, user management, and deployment procedures.\n    image: https://www.oracle.com/a/ocom/img/oracle-enterprise-manager.jpg\n    humanURL: https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.5/emrest/APIOverview.html\n    baseURL: https://<em-host>:<port>/em/api\n    tags:\n      - Administration\n      - Cloud Control\n      - Monitoring\n      - REST API\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.5/emrest/APIOverview.html\n      - type: OpenAPI\n        url: openapi/oracle-enterprise-manager-cloud-control-openapi.yml\n      - type: JSONSchema\n        url: json-schema/oracle-enterprise-manager-target-schema.json\n      - type: JSONLD\n        url: json-ld/oracle-enterprise-manager-context.jsonld\n      - type: Authentication\n        url: https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.5/emrest/Authentication.html\n\
   \      - type: APIReference\n        url: https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.5/emrest/rest-endpoints.html\n      - type: GettingStarted\n        url: https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.5/emrest/SendRequests.html\n    contact:\n      - FN: Oracle Support\n        email: support@oracle.com\n        url: https://www.oracle.com/support/\n  - name: Enterprise Manager Command Line Interface (EM CLI)\n    description: Command-line interface providing scriptable access to Enterprise Manager functionality including target management, job operations, patching, provisioning, and administration tasks through verbs that can be used in shell scripts, Perl, and Python.\n    image: https://www.oracle.com/a/ocom/img/oracle-enterprise-manager.jpg\n    humanURL: https://docs.oracle.com/en/enterprise-manager/cloud-control/enterprise-manager-cloud-control/13.5/emcli/\n    baseURL: https://<em-host>:<port>/em\n\

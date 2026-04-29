@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-well-architected-tool-openapi-original.yaml
+  format: yaml
+  label: AWS Well-Architected Tool API
+  slug: aws-well-architected-tool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-openapi-original.yaml
 apis:
 - description: The AWS Well-Architected Tool API provides programmatic access to create and manage workloads, lenses, milestones, profiles, review templates, and review reports. It enables integration of the Well-Ar
   name: AWS Well-Architected Tool API
@@ -112,6 +119,7 @@ rules:
 skills: []
 slug: amazon-well-architected-tool
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-well-architected-tool\nname: Amazon Well-Architected Tool\ndescription: >-\n  The AWS Well-Architected Tool helps you review your workloads and compare them\n  to the latest AWS architectural best practices. It provides a consistent\n  process for evaluating architectures and implementing designs that scale over\n  time across five pillars: operational excellence, security, reliability,\n  performance efficiency, and cost optimization. The tool offers lens catalogs,\n  custom lenses, profiles, review templates, and API-driven extensibility for\n  integration into governance workflows.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Architecture\n  - AWS\n  - Best Practices\n  - Cloud Governance\n  - Well-Architected\n  - Workloads\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion:\
   \ '0.19'\napis:\n  - aid: amazon-well-architected-tool:aws-well-architected-tool-api\n    name: AWS Well-Architected Tool API\n    description: >-\n      The AWS Well-Architected Tool API provides programmatic access to create\n      and manage workloads, lenses, milestones, profiles, review templates, and\n      review reports. It enables integration of the Well-Architected review\n      process into DevOps workflows and automation pipelines for continuous\n      architecture assessment. The API supports 56 operations covering\n      workload management, lens operations, lens reviews, answers, milestones,\n      profiles, review templates, notifications, checks, and administration.\n    humanURL: https://aws.amazon.com/well-architected-tool/\n    baseURL: https://wellarchitected.amazonaws.com\n    tags:\n      - Architecture\n      - AWS\n      - Best Practices\n      - Cloud Governance\n      - Workloads\n      - Lenses\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/wellarchitected/latest/userguide/\n\
   \      - type: APIReference\n        url: https://docs.aws.amazon.com/wellarchitected/latest/APIReference/\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/wellarchitected/latest/userguide/getting-started.html\n      - type: Pricing\n        url: https://aws.amazon.com/well-architected-tool/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/well-architected-tool/faqs/\n      - type: OpenAPI\n        url: openapi/amazon-well-architected-tool-openapi-original.yaml\n      - type: JSONSchema\n        url: json-schema/well-architected-tool-workload-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-well-architected-tool-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/\n  - type: Website\n    url: https://aws.amazon.com/well-architected-tool/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/wellarchitected/latest/userguide/\n  - type: Console\n    url: https://console.aws.amazon.com/wellarchitected/\n \

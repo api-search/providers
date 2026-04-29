@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bankruptcywatch-pacer-api-openapi.yml
+  format: yaml
+  label: BankruptcyWatch PACER API
+  slug: pacer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-pacer-api-openapi.yml
 apis:
 - description: The BankruptcyWatch PACER API provides a comprehensive collection of services for interacting with US bankruptcy court data. Search cases across all districts, retrieve dockets and claims registers, f
   name: BankruptcyWatch PACER API
@@ -75,6 +82,7 @@ rules:
 skills: []
 slug: bankruptcywatch
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: bankruptcywatch\nurl: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/apis.yml\nname: BankruptcyWatch\ntags:\n  - Bankruptcy\n  - Compliance\n  - Court Data\n  - Legal\n  - Lending\n  - PACER\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2024-11-25'\nmodified: '2026-04-21'\nposition: Consumer\ndescription: >-\n  BankruptcyWatch is the proven creditor bankruptcy platform built with machine learning\n  and intelligent automation to elevate every bankruptcy interaction. The PACER API provides\n  access to US bankruptcy court data enabling creditors, lenders, and legal teams to search\n  for cases, retrieve dockets, manage claims, file Proof of Claim documents, and automate\n  bankruptcy monitoring across all federal bankruptcy court districts.\napis:\n  - aid: bankruptcywatch:pacer-api\n    name: BankruptcyWatch PACER API\n    tags:\n      - Bankruptcy\n      -\
   \ Claims\n      - Court Filings\n      - PACER\n      - Monitoring\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.bankruptcywatch.com/v1\n    humanURL: https://www.bankruptcywatch.com/products/pacer-api\n    properties:\n      - url: https://www.bankruptcywatch.com/products/pacer-api\n        type: Documentation\n      - url: https://www.bankruptcywatch.com/api-kickoff\n        type: GettingStarted\n      - url: https://documenter.getpostman.com/view/13540419/TVmLAxnr\n        type: PostmanCollection\n      - url: openapi/bankruptcywatch-pacer-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The BankruptcyWatch PACER API provides a comprehensive collection of services for\n      interacting with US bankruptcy court data. Search cases across all districts, retrieve\n      dockets and claims registers, file Proof of Claim documents, and set up automated\n      monitoring alerts for bankruptcy filings.\ncommon:\n\
   \  - type: Website\n    url: https://www.bankruptcywatch.com/\n    name: BankruptcyWatch\n  - type: Documentation\n    url: https://www.bankruptcywatch.com/api-kickoff\n    name: API Kickoff Guide\n  - type: TermsOfService\n    url: https://www.bankruptcywatch.com/terms\n    name: Terms of Service\n  - type: SpectralRules\n    url: rules/bankruptcywatch-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/bankruptcywatch-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/bankruptcy-monitoring.yaml\n  - type: JSON-LD\n    url: json-ld/bankruptcywatch-context.jsonld\n  - name: Features\n    type: Features\n    data:\n      - name: Case Search\n        description: Search for bankruptcy cases across all US federal bankruptcy court districts.\n      - name: Docket Retrieval\n        description: Retrieve case docket entries and court filings via PACER.\n      - name: Claims Register\n        description: Access the full claims register for any bankruptcy case.\n \

@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-hudi-timeline-openapi.yml
+  format: yaml
+  label: Apache Hudi Timeline Server API
+  slug: apache-hudi-timeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-timeline-openapi.yml
 apis:
 - description: REST API for the Apache Hudi Timeline Server providing table timeline management, commit metadata inspection, and table administration for Hudi data lake tables.
   name: Apache Hudi Timeline Server API
@@ -84,6 +91,7 @@ rules:
 skills: []
 slug: apache-hudi
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-hudi\nname: Apache Hudi\ndescription: >-\n  Apache Hudi is a data lake platform that provides incremental data processing primitives including upserts and incremental queries. It manages storage of large analytical datasets on distributed file systems with ACID transactions, timeline-based versioning, and integrations for Spark, Flink, and Hive.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - ACID\n  - Apache\n  - Big Data\n  - Data Lake\n  - Incremental Processing\n  - Lakehouse\n  - Open Source\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-hudi:apache-hudi-timeline-api\n    name: Apache Hudi Timeline Server API\n    description: >-\n      REST API for the Apache Hudi Timeline Server providing table timeline management,\
   \ commit metadata inspection, and table administration for Hudi data lake tables.\n    humanURL: https://hudi.apache.org/docs/timeline\n    baseURL: http://localhost:9090\n    tags:\n      - Commits\n      - Data Lake\n      - REST\n      - Tables\n      - Timeline\n    properties:\n      - type: Documentation\n        url: https://hudi.apache.org/docs/timeline\n      - type: OpenAPI\n        url: openapi/apache-hudi-timeline-openapi.yml\n      - type: JSONSchema\n        url: json-schema/hudi-huditableconfig-schema.json\n      - type: JSON-LD\n        url: json-ld/apache-hudi-timeline-context.jsonld\n\n  - aid: apache-hudi:apache-hudi-java-api\n    name: Apache Hudi Java API\n    description: >-\n      Java API for writing Hudi tables with upserts, inserts, and deletes, plus timeline management, compaction, and Spark/Flink DataSource integration APIs.\n    humanURL: https://hudi.apache.org/docs/writing_data\n    tags:\n      - Java\n      - SDK\n      - Spark\n      - Flink\n    properties:\n\
   \      - type: Documentation\n        url: https://hudi.apache.org/docs/writing_data\n      - type: SDK\n        url: https://search.maven.org/artifact/org.apache.hudi/hudi-spark3.5-bundle_2.12\n        title: Java SDK (Maven Central)\n\ncommon:\n  - type: Documentation\n    url: https://hudi.apache.org/docs/overview\n  - type: GettingStarted\n    url: https://hudi.apache.org/docs/quick-start-guide\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/hudi\n  - type: SpectralRules\n    url: rules/apache-hudi-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-hudi-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/hudi-lakehouse-management.yaml\n  - type: Features\n    data:\n      - name: ACID Upserts\n        description: Atomically insert or update records in data lake tables with ACID guarantees using record keys.\n      - name: Hudi Timeline\n        description: Immutable\

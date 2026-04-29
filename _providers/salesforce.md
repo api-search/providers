@@ -1,5 +1,54 @@
 ---
 api_count: 43
+api_specs:
+- filename: salesforce-openapi.yml
+  format: yaml
+  label: Salesforce REST API
+  slug: salesforce-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-openapi.yml
+- filename: salesforce-bulk-api-2-openapi.yml
+  format: yaml
+  label: Salesforce Bulk API 2.0
+  slug: salesforce-bulk-api-2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-bulk-api-2-openapi.yml
+- filename: salesforce-streaming-asyncapi.yml
+  format: yaml
+  label: Salesforce Streaming API
+  slug: salesforce-streaming-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/asyncapi/salesforce-streaming-asyncapi.yml
+- filename: salesforce-platform-events-asyncapi.yml
+  format: yaml
+  label: Salesforce Platform Events API
+  slug: salesforce-platform-events-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/asyncapi/salesforce-platform-events-asyncapi.yml
+- filename: salesforce-change-data-capture-asyncapi.yml
+  format: yaml
+  label: Salesforce Change Data Capture API
+  slug: salesforce-change-data-capture-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/asyncapi/salesforce-change-data-capture-asyncapi.yml
+- filename: salesforce-ui-api-openapi.yml
+  format: yaml
+  label: Salesforce UI API
+  slug: salesforce-ui-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-ui-api-openapi.yml
+- filename: salesforce-marketing-cloud-rest-openapi.yml
+  format: yaml
+  label: Salesforce Marketing Cloud REST API
+  slug: salesforce-marketing-cloud-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-marketing-cloud-rest-openapi.yml
+- filename: salesforce-openapi.yml
+  format: yaml
+  label: Salesforce
+  slug: salesforce-salesforce
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-openapi.yml
 apis:
 - description: The Salesforce REST API provides a simple and powerful web service interface to interact with Salesforce org data. It supports creating, reading, updating, deleting, and querying records using SOQL an
   name: Salesforce REST API
@@ -368,6 +417,7 @@ rules:
 skills: []
 slug: salesforce
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: salesforce\nurl: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/apis.yml\napis:\n  - aid: salesforce:salesforce-rest-api\n    name: Salesforce REST API\n    tags:\n      - CRM\n      - Objects\n      - Records\n      - REST\n      - SOQL\n      - SOSL\n    image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\n    humanURL: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/\n    baseURL: https://{instance}.salesforce.com/services/data\n    properties:\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/\n        type: Documentation\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/quickstart.htm\n        type: GettingStarted\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_versions.htm\n        type: APIReference\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_understanding_authentication.htm\n\
   \        type: Authentication\n      - url: openapi/salesforce-openapi.yml\n        type: OpenAPI\n      - url: openapi/salesforce-rest-api-openapi.yml\n        type: OpenAPI\n      - url: json-schema/salesforce-sobject-schema.json\n        type: JSONSchema\n      - url: json-schema/salesforce-query-result-schema.json\n        type: JSONSchema\n    description: The Salesforce REST API provides a simple and powerful web service interface to interact with Salesforce org data. It supports creating, reading, updating, deleting, and querying records using SOQL and SOSL, and is the primary API for building connected applications against Salesforce.\n  - aid: salesforce:salesforce-soap-api\n    name: Salesforce SOAP API\n    tags:\n      - CRM\n      - Enterprise\n      - Objects\n      - Records\n      - SOAP\n    image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\n    humanURL: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/\n    baseURL: https://{instance}.salesforce.com/services/Soap\n\
   \    properties:\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/\n        type: Documentation\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_quickstart_intro.htm\n        type: GettingStarted\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_list.htm\n        type: APIReference\n      - url: https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_concepts_security.htm\n        type: Authentication\n    description: The Salesforce SOAP API enables developers to use SOAP calls to create, retrieve, update, and delete records such as accounts, leads, and custom objects. It provides robust enterprise-grade integration capabilities and supports batch processing of records.\n  - aid: salesforce:salesforce-bulk-api\n    name: Salesforce Bulk API\n    tags:\n      - Bulk\n      - CRM\n      - Data Loading\n      - ETL\n      - Records\n    image: https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg\n\

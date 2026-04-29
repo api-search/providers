@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-lake-formation-openapi.yml
+  format: yaml
+  label: Amazon Lake Formation API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/openapi/amazon-lake-formation-openapi.yml
 apis:
 - description: The AWS Lake Formation API provides programmatic access to create and manage data lakes, configure data permissions and access controls, register data sources, and manage data catalog resources for ce
   name: Amazon Lake Formation API
@@ -109,6 +116,7 @@ rules:
 skills: []
 slug: amazon-lake-formation
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Lake Formation\nsegments:\n- Data Lakes\n- Analytics\ndescription: AWS Lake Formation is a service that makes it easy to set up a secure data lake in days, providing centralized governance and security for data stored in Amazon S3 and other AWS data \n  stores with fine-grained access control.\nurl: https://aws.amazon.com/lake-formation/\ntype: Index\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\ntags:\n- Access Control\n- Analytics\n- AWS\n- Data Governance\n- Data Lake\n- S3\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon Lake Formation API\n  description: The AWS Lake Formation API provides programmatic access to create and manage data lakes, configure data permissions and access controls, register data sources, and manage data catalog \n    resources for centralized data governance.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/lake-formation/\n\
   \  baseURL: https://lakeformation.amazonaws.com\n  tags:\n  - Access Control\n  - Data Governance\n  - Data Lake\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/lakeformation/2017-03-31/openapi.yaml\n  - type: Pricing\n    url: https://aws.amazon.com/lake-formation/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/lake-formation/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/lake-formation/faqs/\n  - type: Features\n    url: https://aws.amazon.com/lake-formation/features/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html\n  - type: APIReference\n    url: https://docs.aws.amazon.com/lake-formation/latest/APIReference/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-lake-formation-openapi.yml\n  - type: JSONLD\n    url: json-ld/amazon-lake-formation-context.jsonld\n\
   \  - type: JSONSchema\n    url: json-schema/amazon-lake-formation-resource-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-lake-formation-permission-schema.json\ncommon:\n- type: Blog\n  url: https://aws.amazon.com/blogs/big-data/category/analytics/aws-lake-formation/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Console\n  url: https://console.aws.amazon.com/lakeformation/home\n- type: CLI\n  url: https://docs.aws.amazon.com/cli/latest/reference/lakeformation/\n- type: SDK\n  url: https://aws.amazon.com/tools/\n- type: StatusPage\n  url: https://status.aws.amazon.com/\n- type: Compliance\n  url: https://aws.amazon.com/compliance/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: Portal\n  url: https://aws.amazon.com/lake-formation/\n- type: Documentation\n  url: https://docs.aws.amazon.com/lake-formation/\n- type: Pricing\n  url: https://aws.amazon.com/lake-formation/pricing/\n- type: GettingStarted\n  url: https://aws.amazon.com/lake-formation/getting-started/\n\

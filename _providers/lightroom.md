@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: lightroom-services-openapi.yml
+  format: yaml
+  label: Lightroom Services API
+  slug: lightroom-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-services-openapi.yml
+- filename: lightroom-firefly-services-openapi.yml
+  format: yaml
+  label: Adobe Lightroom API (Firefly Services)
+  slug: lightroom-firefly-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-firefly-services-openapi.yml
 apis:
 - description: Core partner API for accessing Lightroom cloud catalog data, albums, and assets. Partner applications authenticate Lightroom customers through Adobe Identity Management System using a standard OAuth 2
   name: Lightroom Services API
@@ -93,6 +106,7 @@ rules:
 skills: []
 slug: lightroom
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: lightroom\nname: Adobe Lightroom\ndescription: >-\n  APIs for Adobe Lightroom cloud services, enabling developers to access and\n  manipulate photos, albums, and metadata programmatically. The Lightroom APIs\n  are also available as part of Adobe Firefly Services for AI-powered image\n  editing operations such as auto tone, auto straighten, and preset application.\ntype: Contract\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Cloud Storage\n  - Image Editing\n  - Metadata\n  - Photo Management\n  - Photography\nurl: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\napis:\n  - aid: lightroom:lightroom-services-api\n    name: Lightroom Services API\n    description: >-\n      Core partner API for accessing Lightroom cloud catalog data, albums, and\n      assets. Partner applications authenticate Lightroom customers\
   \ through Adobe\n      Identity Management System using a standard OAuth 2.0 workflow.\n    humanURL: https://developer.adobe.com/lightroom/lightroom-api-docs/\n    tags:\n      - Albums\n      - Assets\n      - Catalogs\n      - Photos\n    properties:\n      - type: Documentation\n        url: https://developer.adobe.com/lightroom/lightroom-api-docs/api/\n      - type: Authentication\n        url: https://developer.adobe.com/developer-console/docs/guides/authentication/\n      - type: GettingStarted\n        url: https://developer.adobe.com/lightroom/lightroom-api-docs/getting-started/\n      - type: ChangeLog\n        url: https://developer.adobe.com/lightroom/lightroom-api-docs/release-notes/\n      - type: OpenAPI\n        url: openapi/lightroom-services-openapi.yml\n  - aid: lightroom:lightroom-firefly-services-api\n    name: Adobe Lightroom API (Firefly Services)\n    description: >-\n      AI-powered image editing API available through Adobe Firefly Services.\n      Provides auto\
   \ tone, auto straighten, preset application, and\n      programmatic editing capabilities using REST endpoints.\n    humanURL: https://developer.adobe.com/firefly-services/docs/lightroom/\n    tags:\n      - AI\n      - Auto Tone\n      - Image Editing\n      - Presets\n    properties:\n      - type: Documentation\n        url: https://developer.adobe.com/firefly-services/docs/lightroom/\n      - type: GettingStarted\n        url: https://developer.adobe.com/firefly-services/docs/lightroom/getting_started/\n      - type: OpenAPI\n        url: openapi/lightroom-firefly-services-openapi.yml\ncommon:\n  - url: https://developer.adobe.com/firefly-services/docs/lightroom/\n    type: Features\n  - url: https://developer.adobe.com/lightroom/lightroom-api-docs/\n    type: UseCases\n  - url: https://developer.adobe.com/firefly-services/docs/lightroom/\n    type: Integrations\n  - url: https://developer.adobe.com/lightroom/lightroom-api-docs/\n    type: Documentation\n  - url: https://developer.adobe.com/developer-console/docs/guides/authentication/\n\

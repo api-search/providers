@@ -1,5 +1,24 @@
 ---
 api_count: 3
+api_specs:
+- filename: cargodocs-partner-openapi.yml
+  format: yaml
+  label: CargoDocs Partner API
+  slug: partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-partner-openapi.yml
+- filename: cargodocs-issuer-openapi.yml
+  format: yaml
+  label: CargoDocs Issuer API
+  slug: issuer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-issuer-openapi.yml
+- filename: cargodocs-customer-openapi.yml
+  format: yaml
+  label: CargoDocs Customer Data/Docs API
+  slug: customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-customer-openapi.yml
 apis:
 - description: The CargoDocs Partner API enables platform providers and trade finance/trade management platforms to embed CargoDocs DocEx functionality, including original electronic bills of lading (eBoL) and wareh
   name: CargoDocs Partner API
@@ -60,6 +79,7 @@ name: CargoDocs
 skills: []
 slug: cargodocs
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cargodocs\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/apis.yml\nname: CargoDocs\ndescription: >-\n  CargoDocs, operated by EssDocs, is a digital trade documentation\n  platform that eliminates paper-based shipping documents by letting\n  carriers, shippers, banks, and partner platforms issue, sign,\n  transfer, and surrender original electronic bills of lading (eBoL),\n  sea waybills (SWB), warehouse warrants (eWW), and supporting trade\n  documents. CargoDocs DocEx is used by container lines, NVOCCs,\n  bulk/tanker carriers, commodity shippers, and trade finance banks\n  to move documents in minutes rather than days while retaining\n  negotiability and legal effect. Developers interact with CargoDocs\n  through three OpenAPI-described REST APIs hosted on ReadMe - the\n  Partner API (embed DocEx in third-party platforms), the Issuer API\n  (carrier/NVOCC issuance and amendments), and the Customer Data/Docs\n  API (exporter drafting\
   \ and back-office integration).\ntype: Index\nx-type: company\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Bills of Lading\n  - Documentation\n  - eBoL\n  - EssDocs\n  - MLETR\n  - Shipping\n  - Supply Chain\n  - Trade\n  - Trade Finance\n  - Warehouse Warrants\ncreated: '2025-01-08'\nmodified: '2026-04-23'\nspecificationVersion: '0.19'\napis:\n  - aid: cargodocs:partner-api\n    name: CargoDocs Partner API\n    description: >-\n      The CargoDocs Partner API enables platform providers and trade\n      finance/trade management platforms to embed CargoDocs DocEx\n      functionality, including original electronic bills of lading\n      (eBoL) and warehouse warrants (eWW). The API exposes Partner\n      Exchange endpoints to retrieve customer, counterparty, document,\n      and transaction data using conditions and filters, and Action\n      endpoints to perform operations over transactions such as\
   \ signing,\n      transferring, and surrendering documents.\n    humanURL: https://cargodocs-partner.readme.io/\n    baseURL: https://api.essdocs.com\n    tags:\n      - Bills of Lading\n      - Shipping\n      - Trade\n    properties:\n      - url: https://cargodocs-partner.readme.io/\n        type: Documentation\n      - url: https://cargodocs-partner.readme.io/docs/api-environments\n        type: GettingStarted\n      - url: openapi/cargodocs-partner-openapi.yml\n        type: OpenAPI\n      - url: json-schema/cargodocs-customer.json\n        type: JSONSchema\n      - url: json-schema/cargodocs-counterparty.json\n        type: JSONSchema\n    x-features:\n      - Retrieve customer, counterparty, and transaction data with filters\n      - Perform signing, transferring, and surrendering actions\n      - Embed DocEx workflows in partner platforms\n      - Sandbox and production API environments\n      - JSON document retrieval plus PDF rendering\n      - Partner-scoped authentication and\

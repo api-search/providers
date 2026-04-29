@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: google-forms-api.yaml
+  format: yaml
+  label: Google Forms API v1
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-api.yaml
 apis:
 - description: Create and modify Google Forms, read form responses and structure, set up watches for change notifications, and integrate forms with external applications via Cloud Pub/Sub.
   name: Google Forms API v1
@@ -94,6 +101,7 @@ rules:
 skills: []
 slug: google-forms
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-forms\nname: Google Forms\ndescription: >-\n  The Google Forms API is a RESTful interface that lets you create and modify\n  Google Forms programmatically, read form responses, set up watches for\n  notifications on form changes and new responses, and integrate forms with\n  external applications.\nurl: https://developers.google.com/forms/api\ntype: Index\nimage: https://www.gstatic.com/images/branding/product/2x/forms_2020q4_48dp.png\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntags:\n  - Data Collection\n  - Forms\n  - Google\n  - Google Workspace\n  - Questionnaires\n  - Responses\n  - Surveys\napis:\n  - name: Google Forms API v1\n    description: >-\n      Create and modify Google Forms, read form responses and structure, set up\n      watches for change notifications, and integrate forms with external\n      applications via Cloud Pub/Sub.\n    image: https://www.gstatic.com/images/branding/product/2x/forms_2020q4_48dp.png\n\
   \    humanURL: https://developers.google.com/forms/api\n    baseURL: https://forms.googleapis.com/v1\n    tags:\n      - Forms\n      - Google\n      - Questionnaires\n      - Responses\n      - Surveys\n      - Watches\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/forms/api/reference/rest\n      - type: OpenAPI\n        url: openapi/google-forms-api.yaml\n      - type: JSONSchema\n        url: json-schema/google-forms-api-form-schema.json\n      - type: JSONSchema\n        url: json-schema/google-forms-api-form-response-schema.json\n      - type: JSONSchema\n        url: json-schema/google-forms-api-watch-schema.json\n      - type: JSONSchema\n        url: json-schema/google-forms-api-question-schema.json\n      - type: JSONStructure\n        url: json-structure/google-forms-api-form-structure.json\n      - type: JSONStructure\n        url: json-structure/google-forms-api-form-response-structure.json\n      - type: JSONStructure\n        url:\
   \ json-structure/google-forms-api-watch-structure.json\n      - type: JSONStructure\n        url: json-structure/google-forms-api-question-structure.json\n      - type: Example\n        url: examples/google-forms-api-form-example.json\n      - type: Example\n        url: examples/google-forms-api-form-response-example.json\n      - type: Example\n        url: examples/google-forms-api-watch-example.json\n      - type: Example\n        url: examples/google-forms-api-question-example.json\n      - type: APIReference\n        url: https://developers.google.com/forms/api/reference/rest\n      - type: Quickstart\n        url: https://developers.google.com/forms/api/quickstart/python\n      - type: Authentication\n        url: https://developers.google.com/forms/api/guides/auth\n    contact:\n      - type: Support\n        url: https://support.google.com/docs/answer/6281888\ncommon:\n  - type: Console\n    url: https://console.cloud.google.com/apis/library/forms.googleapis.com\n  - type: GettingStarted\n\

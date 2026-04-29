@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-iot-core-openapi-original.yml
+  format: yaml
+  label: AWS IoT Core API
+  slug: aws-iot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-openapi-original.yml
 apis:
 - description: The AWS IoT Core API provides programmatic access to manage things, policies, certificates, rules, and MQTT messaging for IoT device connectivity.
   name: AWS IoT Core API
@@ -106,6 +113,7 @@ rules:
 skills: []
 slug: amazon-iot-core
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iot-core\nname: Amazon IoT Core\ndescription: >-\n  AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices. It can support billions of devices and trillions of messages, routing those messages to AWS endpoints and other devices reliably and securely.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Device Management\n  - IoT\n  - MQTT\n  - Message Routing\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iot-core:aws-iot-api\n    name: AWS IoT Core API\n    description: >-\n      The AWS IoT Core API provides programmatic access to manage things, policies, certificates, rules, and MQTT messaging for IoT device connectivity.\n    humanURL: https://aws.amazon.com/iot-core/\n\
   \    baseURL: https://iot.amazonaws.com\n    tags:\n      - Device Management\n      - IoT\n      - MQTT\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/iot/latest/apireference/\n      - type: OpenAPI\n        url: openapi/amazon-iot-core-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/iot/latest/developerguide/iot-gs.html\n      - type: Pricing\n        url: https://aws.amazon.com/iot-core/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/iot-core/faqs/\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/iot-core/\n  - type: Website\n    url: https://aws.amazon.com/iot-core/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/iot/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/iot/\n\
   \  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/iot/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-iot-core-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/iot-core.yaml\n  - type: NaftikoCapability\n    url: capabilities/iot-device-connectivity.yaml\n  - type: Vocabulary\n    url: vocabulary/amazon-iot-core-vocabulary.yaml\n  - type: JSONLD\n    url: json-ld/amazon-iot-core-context.jsonld\n  - type: Features\n    data:\n      - name: Secure Device Connectivity\n        description: Connects IoT devices to AWS using MQTT, HTTPS, and WebSocket protocols with mutual TLS authentication.\n      - name: Message Broker\n\

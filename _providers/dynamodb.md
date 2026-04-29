@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: dynamodb-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/openapi/dynamodb-openapi.yml
+- filename: dynamodb-streams-asyncapi.yml
+  format: yaml
+  label: Amazon DynamoDB Streams API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
 apis:
 - description: RESTful API for interacting with DynamoDB tables and items.
   name: Amazon DynamoDB API
@@ -92,6 +105,7 @@ rules:
 skills: []
 slug: dynamodb
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon DynamoDB\ndescription: >-\n  A fully managed NoSQL database service that provides fast and predictable performance\n  with seamless scalability.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\ntags:\n  - AWS\n  - Cloud\n  - Database\n  - Document Store\n  - Key-Value\n  - Managed Service\n  - NoSQL\n  - Serverless\ncreated: '2024'\nmodified: '2026-04-18'\nurl: https://aws.amazon.com/dynamodb/\nspecificationVersion: '0.18'\napis:\n  - name: Amazon DynamoDB API\n    description: >-\n      RESTful API for interacting with DynamoDB tables and items.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://aws.amazon.com/dynamodb/\n    baseURL: https://dynamodb.{region}.amazonaws.com\n    tags:\n      - Database\n      - Items\n      - Managed Service\n      - NoSQL\n      - Queries\n      - Tables\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/dynamodb/\n\
   \      - type: OpenAPI\n        url: openapi/dynamodb-openapi.yml\n      - type: APIReference\n        url: https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/Welcome.html\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html\n      - type: SDK\n        url: https://aws.amazon.com/tools/\n      - type: Pricing\n        url: https://aws.amazon.com/dynamodb/pricing/\n      - type: Console\n        url: https://console.aws.amazon.com/dynamodb/\n      - type: BestPractices\n        url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html\n      - type: FAQ\n        url: https://aws.amazon.com/dynamodb/faqs/\n      - type: StatusPage\n        url: https://status.aws.amazon.com/\n      - type: Security\n        url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/security.html\n      - type: Features\n        url: https://aws.amazon.com/dynamodb/features/\n\
   \      - type: JSONSchema\n        url: json-schema/dynamodb-item-schema.json\n      - type: JSONLD\n        url: json-ld/dynamodb-context.jsonld\n    contact:\n      - type: Support\n        url: https://aws.amazon.com/premiumsupport/\n  - name: Amazon DynamoDB Streams API\n    description: >-\n      API for capturing and processing change data from DynamoDB tables in near real-time,\n      providing time-ordered sequences of item-level modifications.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html\n    baseURL: https://streams.dynamodb.{region}.amazonaws.com\n    tags:\n      - Change Data Capture\n      - Event-Driven\n      - Real-Time\n      - Streams\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.html\n      - type: AsyncAPI\n        url: asyncapi/dynamodb-streams-asyncapi.yml\n\

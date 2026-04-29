@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: google-analytics-data-api.yaml
+  format: yaml
+  label: Google Analytics Data API (GA4)
+  slug: google-analytics-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-data-api.yaml
+- filename: google-analytics-admin-api.yaml
+  format: yaml
+  label: Google Analytics Admin API
+  slug: google-analytics-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-admin-api.yaml
+- filename: google-analytics-measurement-protocol.yaml
+  format: yaml
+  label: Google Analytics Measurement Protocol (GA4)
+  slug: google-analytics-measurement-protocol
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-measurement-protocol.yaml
+- filename: google-analytics-user-deletion-api.yaml
+  format: yaml
+  label: Google Analytics User Deletion API
+  slug: google-analytics-user-deletion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-deletion-api.yaml
+- filename: google-analytics-reporting-api-v4.yaml
+  format: yaml
+  label: Google Analytics Reporting API v4 (Universal Analytics)
+  slug: google-analytics-reporting-api-v4
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-reporting-api-v4.yaml
+- filename: google-analytics-management-api-v3.yaml
+  format: yaml
+  label: Google Analytics Management API v3
+  slug: google-analytics-management-api-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-management-api-v3.yaml
 apis:
 - description: The Google Analytics Data API provides programmatic access to Google Analytics 4 (GA4) report data including standard reports, pivot reports, real-time reports, funnel reports, and audience exports.
   name: Google Analytics Data API (GA4)
@@ -279,6 +316,7 @@ solutions:
   name: Analytics 360
 - description: Integrated advertising and analytics platform combining Analytics 360 with advertising products for enterprise marketing.
   name: Google Marketing Platform
+source_filename: apis.yml
 source_yaml: "aid: google-analytics\nname: Google Analytics\ndescription: Google Analytics provides data and insights about website and app usage, enabling businesses to understand their audience and optimize their digital properties through customer-centric measurement, machine learning insights, and cross-platform attribution.\ntype: Index\nimage: https://www.google.com/analytics/images/google-analytics-logo.png\nurl: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-04-17'\nspecificationVersion: '0.19'\ntags:\n  - Analytics\n  - Data\n  - Google\n  - Metrics\n  - Reporting\n  - Web Analytics\n  - Machine Learning\n  - Attribution\napis:\n  - aid: google-analytics:google-analytics-data-api\n    name: Google Analytics Data API (GA4)\n    description: The Google Analytics Data API provides programmatic access to Google Analytics 4 (GA4) report data including standard reports, pivot reports, real-time reports,\
   \ funnel reports, and audience exports.\n    image: https://www.google.com/analytics/images/google-analytics-logo.png\n    humanURL: https://developers.google.com/analytics/devguides/reporting/data/v1\n    baseURL: https://analyticsdata.googleapis.com\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/analytics/devguides/reporting/data/v1\n      - type: OpenAPI\n        url: openapi/google-analytics-data-api.yaml\n      - type: APIReference\n        url: https://developers.google.com/analytics/devguides/reporting/data/v1/rest\n      - type: Quickstart\n        url: https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart\n      - type: Authentication\n        url: https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries\n      - type: RateLimits\n        url: https://developers.google.com/analytics/devguides/reporting/data/v1/quotas\n      - type: SDK\n        url: https://pypi.org/project/google-analytics-data/\n\
   \        title: Python SDK\n      - type: SDK\n        url: https://www.npmjs.com/package/@google-analytics/data\n        title: Node.js SDK\n      - type: SDK\n        url: https://central.sonatype.com/artifact/com.google.analytics/google-analytics-data\n        title: Java SDK\n      - type: SDK\n        url: https://www.nuget.org/packages/Google.Analytics.Data.V1Beta\n        title: .NET SDK\n      - type: SDK\n        url: https://packagist.org/packages/google/analytics-data\n        title: PHP SDK\n      - type: CodeExamples\n        url: https://github.com/googleanalytics/python-docs-samples\n        title: Python Samples\n      - type: CodeExamples\n        url: https://github.com/googleanalytics/java-docs-samples\n        title: Java Samples\n      - type: CodeExamples\n        url: https://github.com/googleanalytics/nodejs-docs-samples\n        title: Node.js Samples\n      - type: CodeExamples\n        url: https://github.com/googleanalytics/dotnet-docs-samples\n        title:\

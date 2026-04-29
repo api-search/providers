@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-iot-device-management-openapi-original.yml
+  format: yaml
+  label: AWS IoT Device Management API
+  slug: aws-iot-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-openapi-original.yml
 apis:
 - description: The AWS IoT Device Management API provides access to thing groups, jobs, bulk registration, fleet indexing, and remote device management capabilities.
   name: AWS IoT Device Management API
@@ -104,6 +111,7 @@ rules:
 skills: []
 slug: amazon-iot-device-management
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iot-device-management\nname: Amazon IoT Device Management\ndescription: >-\n  AWS IoT Device Management makes it easy to securely onboard, organize, monitor, and remotely manage your IoT devices at scale. You can register your connected devices individually or in bulk, and easily manage permissions so your devices remain secure throughout their lifecycle.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Device Management\n  - Fleet Management\n  - IoT\n  - OTA Updates\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iot-device-management:aws-iot-management-api\n    name: AWS IoT Device Management API\n    description: >-\n      The AWS IoT Device Management API provides access to thing groups, jobs, bulk registration, fleet indexing,\
   \ and remote device management capabilities.\n    humanURL: https://aws.amazon.com/iot-device-management/\n    baseURL: https://iot.amazonaws.com\n    tags:\n      - Device Management\n      - Fleet Management\n      - IoT\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/iot/latest/developerguide/iot-jobs.html\n      - type: OpenAPI\n        url: openapi/amazon-iot-device-management-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/iot/latest/developerguide/iot-thing-management.html\n      - type: Pricing\n        url: https://aws.amazon.com/iot-device-management/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/iot-device-management/faqs/\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/iot-device-management/\n  - type: Website\n    url: https://aws.amazon.com/iot-device-management/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/iot/latest/developerguide/iot-thing-management.html\n\
   \  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/iot/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/iot/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-iot-device-management-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/iot-device-management.yaml\n  - type: NaftikoCapability\n    url: capabilities/iot-fleet-management.yaml\n  - type: Vocabulary\n    url: vocabulary/amazon-iot-device-management-vocabulary.yaml\n\

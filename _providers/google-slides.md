@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: google-slides-api-openapi.yml
+  format: yaml
+  label: Google Slides API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-api-openapi.yml
 apis:
 - description: Create and edit presentations programmatically.
   name: Google Slides API
@@ -107,6 +114,7 @@ rules:
 skills: []
 slug: google-slides
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-slides\nname: Google Slides\ndescription: >-\n  An API for creating, reading, and editing Google Slides presentations.\nimage: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png\nurl: https://developers.google.com/slides\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - Collaboration\n  - Google Workspace\n  - Presentations\n  - Productivity\n  - Slides\napis:\n  - name: Google Slides API\n    description: >-\n      Create and edit presentations programmatically.\n    image: https://www.gstatic.com/images/branding/product/2x/slides_2020q4_48dp.png\n    humanURL: https://developers.google.com/slides\n    baseURL: https://slides.googleapis.com\n    tags:\n      - Presentations\n      - REST\n      - Slides\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/slides/api/reference/rest\n      - type: OpenAPI\n        url: https://slides.googleapis.com/$discovery/rest?version=v1\n\
   \        title: Discovery Document\n      - type: OpenAPI\n        url: openapi/google-slides-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/google-slides-presentation-schema.json\n      - type: JSONLD\n        url: json-ld/google-slides-context.jsonld\n      - type: Authentication\n        url: https://developers.google.com/slides/api/guides/authorizing\n      - type: Quickstart\n        url: https://developers.google.com/slides/api/quickstart/python\n        title: Python Quickstart\n      - type: Documentation\n        url: https://developers.google.com/slides/api/guides/concepts\n        title: Concepts Guide\n      - type: CodeExamples\n        url: https://developers.google.com/slides/api/samples\n      - type: Pricing\n        url: https://developers.google.com/slides/api/limits\n      - type: TermsOfService\n        url: https://developers.google.com/terms\n      - type: Support\n        url: https://developers.google.com/slides/api/support\n      - type: Documentation\n\
   \        url: https://developers.google.com/workspace/slides/api/guides/overview\n        title: Overview\n      - type: SDK\n        url: https://developers.google.com/workspace/slides/api/guides/libraries\n        title: Client Libraries\n      - type: ReleaseNotes\n        url: https://developers.google.com/workspace/slides/release-notes\n      - type: Documentation\n        url: https://developers.google.com/workspace/slides/api/scopes\n        title: Scopes\n      - type: Troubleshooting\n        url: https://developers.google.com/workspace/slides/api/troubleshoot-authentication-authorization\n      - type: Quickstart\n        url: https://developers.google.com/slides/api/quickstart/java\n        title: Java Quickstart\n      - type: Quickstart\n        url: https://developers.google.com/workspace/slides/api/quickstart/nodejs\n        title: Node.js Quickstart\n      - type: Quickstart\n        url: https://developers.google.com/workspace/slides/api/quickstart/javascript\n       \

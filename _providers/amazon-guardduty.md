@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-guardduty-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty API
+  slug: amazon-guardduty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/openapi/amazon-guardduty-openapi.yml
 apis:
 - description: The Amazon GuardDuty API provides programmatic access to manage detectors, findings, filters, trusted IP sets, and threat intelligence for continuous threat detection across AWS accounts and workloads
   name: Amazon GuardDuty API
@@ -98,6 +105,7 @@ rules:
 skills: []
 slug: amazon-guardduty
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-guardduty\nname: Amazon GuardDuty\ndescription: >-\n  Amazon GuardDuty is an intelligent threat detection service that continuously\n  monitors your AWS accounts, workloads, and data for malicious activity. It\n  uses machine learning, anomaly detection, and integrated threat intelligence\n  to identify and prioritize potential threats to your AWS environment.\ntype: Index\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\ntags:\n  - Anomaly Detection\n  - AWS\n  - Compliance\n  - Machine Learning\n  - Monitoring\n  - Security\n  - Threat Detection\napis:\n  - aid: amazon-guardduty:amazon-guardduty-api\n    name: Amazon GuardDuty API\n    description: >-\n      The Amazon GuardDuty API provides programmatic access to manage detectors,\n      findings, filters,\
   \ trusted IP sets, and threat intelligence for continuous\n      threat detection across AWS accounts and workloads.\n    humanURL: https://aws.amazon.com/guardduty/\n    baseURL: https://guardduty.amazonaws.com\n    tags:\n      - Security\n      - Threat Detection\n      - Machine Learning\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/guardduty/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-guardduty-openapi.yml\n      - type: GettingStarted\n        url: https://aws.amazon.com/guardduty/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/guardduty/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/guardduty/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/guardduty/latest/APIReference/Welcome.html\n      - type: Authentication\n        url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html\n      - type: JSONSchema\n \
   \       url: json-schema/guardduty-finding-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-guardduty-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/guardduty/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/guardduty/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/security/tag/amazon-guardduty/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/guardduty/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-guardduty-spectral-rules.yml\n  -\

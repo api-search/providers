@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: hugging-face-inference-api.yml
+  format: yaml
+  label: Hugging Face Inference API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-inference-api.yml
+- filename: hugging-face-hub-api.yml
+  format: yaml
+  label: Hugging Face Hub API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-hub-api.yml
+- filename: hugging-face-inference-endpoints-api.yml
+  format: yaml
+  label: Hugging Face Inference Endpoints API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-inference-endpoints-api.yml
+- filename: hugging-face-inference-providers-api.yml
+  format: yaml
+  label: Hugging Face Inference Providers API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-inference-providers-api.yml
+- filename: hugging-face-dataset-viewer-api.yml
+  format: yaml
+  label: Hugging Face Dataset Viewer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-dataset-viewer-api.yml
+- filename: hugging-face-text-generation-inference-api.yml
+  format: yaml
+  label: Hugging Face Text Generation Inference API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-text-generation-inference-api.yml
 apis:
 - description: Run inference on 200,000+ machine learning models with a simple HTTP request.
   name: Hugging Face Inference API
@@ -184,6 +221,7 @@ rules:
 skills: []
 slug: hugging-face
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Hugging Face\ndescription: >-\n  The AI community building the future with open-source machine learning models, datasets,\n  and applications.\nimage: https://huggingface.co/front/assets/huggingface_logo.svg\nurl: https://huggingface.co\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.18'\napis:\n  - name: Hugging Face Inference API\n    description: >-\n      Run inference on 200,000+ machine learning models with a simple HTTP request.\n    image: https://huggingface.co/front/assets/huggingface_logo.svg\n    humanURL: https://huggingface.co/docs/api-inference/index\n    baseURL: https://api-inference.huggingface.co\n    tags:\n      - AI\n      - Inference\n      - Machine Learning\n      - Models\n    properties:\n      - type: Documentation\n        url: https://huggingface.co/docs/api-inference/index\n      - type: OpenAPI\n        url: https://huggingface.co/api-inference/openapi.json\n      - type: OpenAPI\n        url: openapi/hugging-face-inference-api.yml\n\
   \      - type: Authentication\n        url: https://huggingface.co/docs/api-inference/quicktour#authentication\n      - type: GettingStarted\n        url: https://huggingface.co/docs/api-inference/quicktour\n      - type: RateLimits\n        url: https://huggingface.co/docs/api-inference/en/rate-limits\n      - type: FAQ\n        url: https://huggingface.co/docs/api-inference/faq\n    contact:\n      - type: Support\n        url: https://huggingface.co/support\n  - name: Hugging Face Hub API\n    description: >-\n      Programmatically interact with the Hugging Face Hub - manage models, datasets,\n      and spaces.\n    image: https://huggingface.co/front/assets/huggingface_logo.svg\n    humanURL: https://huggingface.co/docs/hub/api\n    baseURL: https://huggingface.co/api\n    tags:\n      - Datasets\n      - Hub\n      - Models\n      - Repository Management\n    properties:\n      - type: Documentation\n        url: https://huggingface.co/docs/hub/api\n      - type: OpenAPI\n      \
   \  url: https://huggingface.co/.well-known/openapi.json\n      - type: OpenAPI\n        url: openapi/hugging-face-hub-api.yml\n      - type: SDK\n        url: https://huggingface.co/docs/huggingface_hub/index\n      - type: SDK\n        url: https://huggingface.co/docs/huggingface.js/hub/README\n      - type: Authentication\n        url: https://huggingface.co/docs/hub/security-tokens\n      - type: RateLimits\n        url: https://huggingface.co/docs/hub/en/rate-limits\n    contact:\n      - type: Support\n        url: https://huggingface.co/support\n  - name: Hugging Face Inference Endpoints API\n    description: >-\n      Deploy and scale machine learning models with dedicated, secure infrastructure.\n    image: https://huggingface.co/front/assets/huggingface_logo.svg\n    humanURL: https://huggingface.co/docs/inference-endpoints/index\n    baseURL: https://api.endpoints.huggingface.cloud\n    tags:\n      - Deployment\n      - Enterprise\n      - Inference\n      - Managed Service\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-managed-blockchain-openapi-original.yaml
+  format: yaml
+  label: Amazon Managed Blockchain API
+  slug: amazon-managed-blockchain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/openapi/amazon-managed-blockchain-openapi-original.yaml
 apis:
 - description: The Amazon Managed Blockchain API provides a fully managed service for creating and managing scalable blockchain networks using open-source frameworks such as Hyperledger Fabric and Ethereum. Covers 2
   name: Amazon Managed Blockchain API
@@ -92,6 +99,7 @@ rules:
 skills: []
 slug: amazon-managed-blockchain
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-managed-blockchain\nname: Amazon Managed Blockchain\ndescription: >-\n  Amazon Managed Blockchain is a fully managed service that allows you to create and manage\n  scalable blockchain networks using popular open-source frameworks such as Hyperledger Fabric\n  and Ethereum. It eliminates the overhead required to create the network or join a public\n  network, and automatically scales to meet the demands of thousands of applications running\n  millions of transactions.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Blockchain\n  - Distributed Ledger\n  - Hyperledger Fabric\n  - Ethereum\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-managed-blockchain:amazon-managed-blockchain-api\n    name: Amazon Managed Blockchain API\n    description:\
   \ >-\n      The Amazon Managed Blockchain API provides a fully managed service for creating and managing\n      scalable blockchain networks using open-source frameworks such as Hyperledger Fabric and\n      Ethereum. Covers 27 operations for networks, members, nodes, proposals, invitations, and\n      accessors management.\n    humanURL: https://aws.amazon.com/managed-blockchain/\n    baseURL: https://managedblockchain.amazonaws.com\n    tags:\n      - Blockchain\n      - Distributed Ledger\n      - Hyperledger Fabric\n      - Ethereum\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/managed-blockchain/\n      - type: OpenAPI\n        url: openapi/amazon-managed-blockchain-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/managed-blockchain/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/managed-blockchain/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/managed-blockchain/faqs/\n\
   \      - type: JSONSchema\n        url: json-schema/amazon-managed-blockchain-network-schema.json\n      - type: JSON-LD\n        url: json-ld/amazon-managed-blockchain-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/managed-blockchain/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/managed-blockchain/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/managedblockchain/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url:\

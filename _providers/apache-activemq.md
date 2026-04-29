@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: apache-activemq-rest-openapi.yaml
+  format: yaml
+  label: Apache ActiveMQ REST API
+  slug: apache-activemq-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-rest-openapi.yaml
 apis:
 - description: The ActiveMQ REST API provides HTTP-based access to messaging operations, allowing clients to produce and consume messages from queues and topics without a native JMS client. It supports sending messa
   name: Apache ActiveMQ REST API
@@ -119,6 +126,7 @@ rules:
 skills: []
 slug: apache-activemq
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-activemq\nname: Apache ActiveMQ\ndescription: >-\n  Apache ActiveMQ is an open-source, high-performance message broker written in Java, developed by the Apache Software Foundation. It implements the Jakarta Messaging (JMS) API and supports multiple messaging protocols including AMQP, STOMP, MQTT, OpenWire, and HTTP/WebSocket, enabling reliable asynchronous messaging between distributed applications and microservices. ActiveMQ provides features such as network of brokers, message persistence (KahaDB, JDBC), high availability, message scheduling, and a web console with REST and Jolokia management APIs.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AMQP\n  - Apache\n  - Java\n  - JMS\n  - Message Broker\n  - Messaging\n  - MQTT\n  - Open Source\n  - STOMP\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/apis.yml\n\
   specificationVersion: '0.19'\napis:\n  - aid: apache-activemq:apache-activemq-rest-api\n    name: Apache ActiveMQ REST API\n    description: >-\n      The ActiveMQ REST API provides HTTP-based access to messaging operations, allowing clients to produce and consume messages from queues and topics without a native JMS client. It supports sending messages via POST, receiving via GET, and subscribing with client IDs for persistent consumption.\n    humanURL: https://activemq.apache.org/components/classic/documentation/rest\n    baseURL: http://localhost:8161/api/message\n    tags:\n      - Messaging\n      - REST\n    properties:\n      - type: Documentation\n        url: https://activemq.apache.org/components/classic/documentation/rest\n      - type: OpenAPI\n        url: openapi/apache-activemq-rest-openapi.yaml\n  - aid: apache-activemq:apache-activemq-jolokia-api\n    name: Apache ActiveMQ Jolokia Management API\n    description: >-\n      The Jolokia JMX-HTTP bridge API provides HTTP\
   \ access to JMX metrics and management operations for the ActiveMQ broker, enabling monitoring of broker health, queue depths, consumer counts, and other operational metrics without requiring a JMX client.\n    humanURL: https://activemq.apache.org/components/classic/documentation/web-console\n    baseURL: http://localhost:8161/api/jolokia\n    tags:\n      - Management\n      - Monitoring\n      - JMX\n    properties:\n      - type: Documentation\n        url: https://activemq.apache.org/components/classic/documentation/web-console\n  - aid: apache-activemq:apache-activemq-broker\n    name: Apache ActiveMQ Broker\n    description: >-\n      The ActiveMQ Classic broker provides high-performance asynchronous messaging through multiple protocol interfaces including OpenWire, AMQP, STOMP, and MQTT. It includes a web-based management console, message persistence, network of brokers for load distribution, and high availability configurations.\n    humanURL: https://activemq.apache.org/components/classic/documentation\n\

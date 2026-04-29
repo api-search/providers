@@ -1,5 +1,12 @@
 ---
 api_count: 14
+api_specs:
+- filename: netapp-ontap-openapi.yml
+  format: yaml
+  label: NetApp ONTAP REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-ontap-openapi.yml
 apis:
 - description: API for managing NetApp Cloud Volumes ONTAP and cloud data services.
   name: NetApp Cloud Manager API
@@ -92,6 +99,7 @@ rules:
 skills: []
 slug: netapp
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: NetApp\ndescription: >-\n  Collection of NetApp APIs for cloud data services, storage management, and infrastructure.\nimage: https://www.netapp.com/media/na_logo_black_rgb_reg-mark_tcm19-21014.jpg\nurl: https://www.netapp.com\ncreated: '2024'\nmodified: '2026-04-19'\nspecificationVersion: '0.18'\ntype: Index\naccess: 3rd-Party\ntags:\n  - Cloud\n  - Data Management\n  - Hybrid Cloud\n  - Infrastructure\n  - Storage\napis:\n  - name: NetApp Cloud Manager API\n    description: >-\n      API for managing NetApp Cloud Volumes ONTAP and cloud data services.\n    image: https://www.netapp.com/media/na_logo_black_rgb_reg-mark_tcm19-21014.jpg\n    baseURL: https://cloudmanager.cloud.netapp.com\n    humanURL: https://docs.netapp.com/us-en/cloud-manager-automation/\n    tags:\n      - Automation\n      - Cloud Management\n      - ONTAP\n    properties:\n      - type: Documentation\n        url: https://docs.netapp.com/us-en/cloud-manager-automation/\n      - type: OpenAPI\n  \
   \      url: https://docs.netapp.com/us-en/cloud-manager-automation/api/openapi.yaml\n      - type: Authentication\n        url: https://docs.netapp.com/us-en/cloud-manager-automation/platform/get_identifiers.html\n      - type: GettingStarted\n        url: https://docs.netapp.com/us-en/cloud-manager-automation/cm/your_api_call.html\n  - name: NetApp ONTAP REST API\n    description: >-\n      REST API for NetApp ONTAP storage management system.\n    image: https://www.netapp.com/media/na_logo_black_rgb_reg-mark_tcm19-21014.jpg\n    baseURL: https://<cluster-management-ip>/api\n    humanURL: https://docs.netapp.com/us-en/ontap-automation/\n    tags:\n      - ONTAP\n      - REST API\n      - Storage Management\n    properties:\n      - type: Documentation\n        url: https://docs.netapp.com/us-en/ontap-automation/\n      - type: APIReference\n        url: https://docs.netapp.com/us-en/ontap-automation/reference/api_reference.html\n      - type: GettingStarted\n        url: https://docs.netapp.com/us-en/ontap-automation/getting_started_with_the_ontap_rest_api.html\n\
   \      - type: Authentication\n        url: https://docs.netapp.com/us-en/ontap-automation/rest/authentication.html\n      - type: ReleaseNotes\n        url: https://docs.netapp.com/us-en/ontap-automation/whats-new.html\n      - type: APIReference\n        url: https://docs.netapp.com/us-en/ontap-restapi/\n      - type: GitHubRepository\n        url: https://github.com/NetApp/ontap-rest-python\n      - type: OpenAPI\n        url: openapi/netapp-ontap-openapi.yml\n      - type: JSONSchema\n        url: json-schema/netapp-volume-schema.json\n      - type: JSONLD\n        url: json-ld/netapp-context.jsonld\n  - name: NetApp Cloud Volumes Service API\n    description: >-\n      API for managing NetApp Cloud Volumes Service in major cloud providers.\n    image: https://www.netapp.com/media/na_logo_black_rgb_reg-mark_tcm19-21014.jpg\n    baseURL: https://cloudvolumesgcp-api.netapp.com\n    humanURL: https://cloud.google.com/architecture/partners/netapp-cloud-volumes/api\n    tags:\n      - AWS\n\

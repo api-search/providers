@@ -1,5 +1,72 @@
 ---
 api_count: 41
+api_specs:
+- filename: zoom-chat--openapi-original.yml
+  format: yaml
+  label: Zoom Chat API
+  slug: zoom-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-chat--openapi-original.yml
+- filename: zoom-group--openapi-original.yml
+  format: yaml
+  label: Zoom Group API
+  slug: zoom-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-group--openapi-original.yml
+- filename: zoom-device--openapi-original.yml
+  format: yaml
+  label: Zoom Device API
+  slug: zoom-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-device--openapi-original.yml
+- filename: zoom-im--openapi-original.yml
+  format: yaml
+  label: Zoom Instant Message API
+  slug: zoom-instant-message-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-im--openapi-original.yml
+- filename: zoom-account--openapi-original.yml
+  format: yaml
+  label: Zoom Account API
+  slug: zoom-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-account--openapi-original.yml
+- filename: zoom-recording--openapi-original.yml
+  format: yaml
+  label: Zoom Recording API
+  slug: zoom-recording-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-recording--openapi-original.yml
+- filename: zoom-meeting--openapi-original.yml
+  format: yaml
+  label: Zoom Meeting API
+  slug: zoom-meeting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-meeting--openapi-original.yml
+- filename: zoom-metrics--openapi-original.yml
+  format: yaml
+  label: Zoom Metrics API
+  slug: zoom-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-metrics--openapi-original.yml
+- filename: zoom-report--openapi-original.yml
+  format: yaml
+  label: Zoom Report API
+  slug: zoom-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-report--openapi-original.yml
+- filename: zoom-user--openapi-original.yml
+  format: yaml
+  label: Zoom User API
+  slug: zoom-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-user--openapi-original.yml
+- filename: zoom-webinar--openapi-original.yml
+  format: yaml
+  label: Zoom Webinar API
+  slug: zoom-webinar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/openapi/zoom-webinar--openapi-original.yml
 apis:
 - description: Developers can use the Zoom Chat API to access chat and chat channel data to build private services or public applications on the Zoom App Marketplace.
   name: Zoom Chat API
@@ -251,6 +318,7 @@ rules:
 skills: []
 slug: zoom
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: zoom\nurl: https://raw.githubusercontent.com/api-search/videos/main/_apis/zoom/apis.md\nname: Zoom\ndescription: >-\n  Zoom is a communications platform that allows users to connect with video, audio,\n  phone, and chat. The Zoom API provides programmatic access to Zoom's core features\n  including meetings, webinars, recordings, users, and more.\nimage: https://st1.zoom.us/static/5.16.6-1642/image/new/ZoomLogo.png\ntags:\n  - Chat\n  - Collaboration\n  - Communications\n  - Meetings\n  - Video Conferencing\n  - Videos\n  - Webinars\ncreated: '2024-04-14'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\naccess: 3rd-Party\nposition: Consumer\napis:\n  - aid: zoom:zoom-chat-api\n    name: Zoom Chat API\n    description: Developers can use the Zoom Chat API to access chat and chat channel data to build private services or public applications on the Zoom App Marketplace.\n    humanURL: https://developers.zoom.us/docs/api/rest/chat-api/\n    baseURL: https://api.zoom.us/v2\n\
   \    tags:\n      - Chat\n    properties:\n      - type: OpenAPI\n        url: openapi/zoom-chat--openapi-original.yml\n      - type: Documentation\n        url: https://developers.zoom.us/docs/api/rest/chat-api/\n  - aid: zoom:zoom-group-api\n    name: Zoom Group API\n    description: For managing Zoom groups.\n    humanURL: https://developers.zoom.us/docs/api/\n    baseURL: https://api.zoom.us/v2\n    tags:\n      - Edit\n      - Groups\n      - Members\n    properties:\n      - type: OpenAPI\n        url: openapi/zoom-group--openapi-original.yml\n      - type: Documentation\n        url: https://developers.zoom.us/docs/api/rest/reference/user/methods/\n  - aid: zoom:zoom-device-api\n    name: Zoom Device API\n    description: You can access information from Zoom with Zoom Phone APIs to build private services or public applications on the Zoom App Marketplace.\n    humanURL: https://developers.zoom.us/docs/api/rest/zoom-phone-api/\n    baseURL: https://api.zoom.us/v2\n    tags:\n   \
   \   - Device\n      - H323\n    properties:\n      - type: OpenAPI\n        url: openapi/zoom-device--openapi-original.yml\n      - type: Documentation\n        url: https://developers.zoom.us/docs/api/rest/zoom-phone-api/\n  - aid: zoom:zoom-instant-message-api\n    name: Zoom Instant Message API\n    description: Provides the ability to instant message.\n    humanURL: https://developers.zoom.us/docs/api/\n    baseURL: https://api.zoom.us/v2\n    tags:\n      - Edit\n      - Groups\n      - Members\n    properties:\n      - type: OpenAPI\n        url: openapi/zoom-im--openapi-original.yml\n      - type: Documentation\n        url: https://developers.zoom.us/docs/api/\n  - aid: zoom:zoom-account-api\n    name: Zoom Account API\n    description: The Zoom Account API lets developers access data related to Accounts, Dashboards, Information Barriers, and Roles. Use this API to build private services or public applications on the Zoom App Marketplace. Learn how to get your credentials and create\

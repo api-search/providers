@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-mechanical-turk-openapi-original.yaml
+  format: yaml
+  label: Amazon Mechanical Turk API
+  slug: amazon-mturk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/openapi/amazon-mechanical-turk-openapi-original.yaml
 apis:
 - description: 'The Amazon Mechanical Turk API provides programmatic access to create and manage HITs, qualifications, workers, assignments, and bonuses for coordinating crowdsourced human intelligence tasks. Covers '
   name: Amazon Mechanical Turk API
@@ -100,6 +107,7 @@ rules:
 skills: []
 slug: amazon-mechanical-turk
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-mechanical-turk\nname: Amazon Mechanical Turk\ndescription: >-\n  Amazon Mechanical Turk (MTurk) is a crowdsourcing marketplace that makes it\n  easier for individuals and businesses to coordinate the use of human\n  intelligence to perform tasks that computers are currently unable to do well.\n  It enables access to a global, on-demand, 24x7 workforce for data labeling,\n  content moderation, surveys, transcription, and machine learning training\n  data collection.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Crowdsourcing\n  - Human Intelligence\n  - Labor\n  - Machine Learning\n  - Tasks\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-mechanical-turk:amazon-mturk-api\n    name: Amazon Mechanical Turk API\n    description: >-\n   \
   \   The Amazon Mechanical Turk API provides programmatic access to create\n      and manage HITs, qualifications, workers, assignments, and bonuses for\n      coordinating crowdsourced human intelligence tasks. Covers 39 operations\n      for the complete HIT lifecycle from creation through assignment review,\n      worker management, and payment processing.\n    humanURL: https://www.mturk.com/\n    baseURL: https://mturk-requester.amazonaws.com\n    tags:\n      - Crowdsourcing\n      - Human Intelligence\n      - Machine Learning\n      - Tasks\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/AWSMechTurk/latest/AWSMturkAPI/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-mechanical-turk-openapi-original.yaml\n      - type: GettingStarted\n        url: https://www.mturk.com/get-started\n      - type: Pricing\n        url: https://www.mturk.com/pricing\n      - type: FAQ\n        url: https://www.mturk.com/faqs\n      - type: JSONSchema\n\
   \        url: json-schema/amazon-mechanical-turk-hit-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-mechanical-turk-hit-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-mechanical-turk-context.jsonld\ncommon:\n  - type: Portal\n    url: https://www.mturk.com/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/mturk/\n  - type: TermsOfService\n    url: https://www.mturk.com/participation-agreement\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://www.mturk.com/contact\n  - type: Blog\n    url: https://blog.mturk.com/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: SignUp\n    url: https://www.mturk.com/get-started\n  - type: Login\n    url: https://requester.mturk.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://www.mturk.com/contact\n  - type: SpectralRules\n    url: rules/amazon-mechanical-turk-spectral-rules.yml\n\

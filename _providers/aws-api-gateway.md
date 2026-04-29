@@ -1,5 +1,24 @@
 ---
 api_count: 3
+api_specs:
+- filename: aws-api-gateway-v1-openapi.yml
+  format: yaml
+  label: Amazon API Gateway V1 (REST)
+  slug: aws-api-gateway-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-v1-openapi.yml
+- filename: aws-api-gateway-v2-openapi.yml
+  format: yaml
+  label: Amazon API Gateway V2 (HTTP and WebSocket)
+  slug: aws-api-gateway-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-v2-openapi.yml
+- filename: aws-api-gateway-management-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Management API
+  slug: aws-api-gateway-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-management-openapi.yml
 apis:
 - description: The API Gateway V1 control plane API is used to create, deploy, and manage REST APIs in Amazon API Gateway. It exposes resources for RestApis, Resources, Methods, Stages, Deployments, Authorizers, API
   name: Amazon API Gateway V1 (REST)
@@ -257,6 +276,7 @@ rules:
 skills: []
 slug: aws-api-gateway
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: aws-api-gateway\nname: Amazon API Gateway\ndescription: >-\n  Amazon API Gateway is a fully managed service that makes it easy to create,\n  publish, maintain, monitor, and secure APIs at any scale. It acts as the front\n  door for applications to access backend services, supporting REST APIs, HTTP\n  APIs, and WebSocket APIs with built-in traffic management, authorization,\n  monitoring, and API version management. API Gateway integrates natively with\n  AWS Lambda, CloudWatch, CloudFront, IAM, and Cognito for comprehensive\n  serverless and secure API deployment.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - API Gateway\n  - AWS\n  - Cloud\n  - REST\n  - WebSocket\n  - Serverless\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/apis.yml\ncreated: '2026-03-27'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: aws-api-gateway:aws-api-gateway-v1\n\
   \    name: Amazon API Gateway V1 (REST)\n    description: >-\n      The API Gateway V1 control plane API is used to create, deploy, and manage\n      REST APIs in Amazon API Gateway. It exposes resources for RestApis,\n      Resources, Methods, Stages, Deployments, Authorizers, API keys, usage\n      plans, and related configuration.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html\n    baseURL: https://apigateway.{region}.amazonaws.com\n    tags:\n      - API Gateway\n      - AWS\n      - REST\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/apigateway/latest/developerguide/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/apigateway/latest/api/Welcome.html\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/apigateway/latest/developerguide/getting-started.html\n      - type: Authentication\n\
   \        url: https://docs.aws.amazon.com/apigateway/latest/developerguide/permissions.html\n      - type: OpenAPI\n        url: openapi/aws-api-gateway-v1-openapi.yml\n  - aid: aws-api-gateway:aws-api-gateway-v2\n    name: Amazon API Gateway V2 (HTTP and WebSocket)\n    description: >-\n      The API Gateway V2 control plane API is used to create, deploy, and manage\n      HTTP APIs and WebSocket APIs in Amazon API Gateway. It provides resources\n      for Apis, Routes, Integrations, Stages, Deployments, and Authorizers for\n      the newer HTTP and WebSocket API types.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html\n    baseURL: https://apigateway.{region}.amazonaws.com\n    tags:\n      - API Gateway\n      - AWS\n      - HTTP\n      - WebSocket\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html\n\

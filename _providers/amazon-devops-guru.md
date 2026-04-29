@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-devops-guru-openapi.yaml
+  format: yaml
+  label: Amazon DevOps Guru API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/openapi/amazon-devops-guru-openapi.yaml
 apis:
 - description: The Amazon DevOps Guru API provides programmatic access to manage resource collections, insights, anomalies, and recommendations for improving application operational performance and availability. Cov
   name: Amazon DevOps Guru API
@@ -110,6 +117,7 @@ rules:
 skills: []
 slug: amazon-devops-guru
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon DevOps Guru\ndescription: >-\n  Amazon DevOps Guru is a machine learning-powered service that makes it easy\n  to improve an application's operational performance and availability. It\n  detects behaviors that deviate from normal operating patterns so you can\n  identify operational issues long before they impact your customers.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/devops-guru/\ncreated: '2026-03-16'\nmodified: '2026-04-19'\napis:\n  - name: Amazon DevOps Guru API\n    description: >-\n      The Amazon DevOps Guru API provides programmatic access to manage resource\n      collections, insights, anomalies, and recommendations for improving\n      application operational performance and availability. Covers 31 operations\n      including insight management, anomaly investigation, remediation recommendations,\n      notification configuration, and AWS Organizations integration.\n    humanURL:\
   \ https://aws.amazon.com/devops-guru/\n    baseURL: https://devops-guru.amazonaws.com\n    tags:\n      - Anomaly Detection\n      - DevOps\n      - Machine Learning\n      - Operational Intelligence\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/devops-guru/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-devops-guru-openapi.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/devops-guru/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/devops-guru/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/devops-guru/faqs/\n      - type: JSONSchema\n        url: json-schema/amazon-devops-guru-proactive-insight-schema.json\n      - type: JSONSchema\n        url: json-schema/amazon-devops-guru-reactive-insight-schema.json\n      - type: JSONSchema\n        url: json-schema/amazon-devops-guru-recommendation-schema.json\n      - type: JSONSchema\n        url:\
   \ json-schema/amazon-devops-guru-proactive-anomaly-schema.json\n      - type: JSONSchema\n        url: json-schema/amazon-devops-guru-reactive-anomaly-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-devops-guru-proactive-insight-structure.json\n      - type: JSONStructure\n        url: json-structure/amazon-devops-guru-reactive-insight-structure.json\n      - type: JSONStructure\n        url: json-structure/amazon-devops-guru-recommendation-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-devops-guru-context.jsonld\n      - type: Example\n        url: examples/amazon-devops-guru-proactive-insight-example.json\n      - type: Example\n        url: examples/amazon-devops-guru-reactive-insight-example.json\n      - type: Example\n        url: examples/amazon-devops-guru-recommendation-example.json\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/devops-guru/\n  - type: Website\n    url: https://aws.amazon.com/devops-guru/\n  - type:\

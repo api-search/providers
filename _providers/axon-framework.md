@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: axon-server-api.yml
+  format: yaml
+  label: Axon Framework
+  slug: axon-framework
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-server-api.yml
 apis:
 - description: Axon Framework is a Java framework for building event-driven microservices using CQRS and event sourcing patterns, providing infrastructure components for command handling, event processing, and query
   name: Axon Framework
@@ -93,6 +100,7 @@ rules:
 skills: []
 slug: axon-framework
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: axon-framework\nname: Axon Framework\ndescription: >-\n  Axon Framework is a Java framework for building event-driven microservices\n  using CQRS (Command Query Responsibility Segregation) and event sourcing\n  patterns, providing the building blocks to implement scalable and\n  maintainable distributed systems.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- CQRS\n- Event Sourcing\n- Event-Driven\n- Java\n- Messaging\n- Microservices\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/apis.yml\ncreated: '2026-03-26'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: axon-framework:axon-framework\n  name: Axon Framework\n  description: >-\n    Axon Framework is a Java framework for building event-driven\n    microservices using CQRS and event sourcing patterns, providing\n    infrastructure components for command handling, event processing, and\n    query\
   \ handling in distributed systems.\n  humanURL: https://www.axoniq.io/products/axon-framework\n  tags:\n  - CQRS\n  - Event Sourcing\n  - Event-Driven\n  - Java\n  - Messaging\n  - Microservices\n  properties:\n  - type: OpenAPI\n    url: openapi/axon-server-api.yml\n  - type: APIReference\n    url: https://docs.axoniq.io/axon-server/administration/axon-server-api\n  baseURL: https://axonserver:8024\ncommon:\n- type: Website\n  url: https://www.axoniq.io/\n- type: Documentation\n  url: https://docs.axoniq.io/\n- type: GettingStarted\n  url: https://docs.axoniq.io/axon-framework/getting-started\n- type: GitHubRepository\n  url: https://github.com/AxonFramework/AxonFramework\n- type: Blog\n  url: https://www.axoniq.io/blog\n- type: Pricing\n  url: https://www.axoniq.io/pricing\n- type: TermsOfService\n  url: https://www.axoniq.io/terms-and-conditions\n- type: StatusPage\n  url: https://status.axoniq.io/\n- type: SpectralRules\n  url: rules/axon-framework-spectral-rules.yml\n- type: Vocabulary\n\
   \  url: vocabulary/axon-framework-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/event-driven-workflow.yaml\n- type: Features\n  data:\n  - name: CQRS Pattern\n    description: Separate command and query models for scalable, maintainable \n      architecture.\n  - name: Event Sourcing\n    description: Store application state as a sequence of events for full audit \n      trail and time-travel debugging.\n  - name: Domain-Driven Design\n    description: First-class support for DDD patterns including aggregates, \n      sagas, and bounded contexts.\n  - name: Axon Server Integration\n    description: Zero-configuration event store and message router with Axon \n      Server.\n  - name: Distributed Systems Support\n    description: Built-in routing for commands, events, and queries across \n      distributed services.\n  - name: Spring Boot Integration\n    description: Seamless Spring Boot auto-configuration for rapid application \n      development.\n  - name: Testing\

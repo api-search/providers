@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-healthlake-openapi.yaml
+  format: yaml
+  label: Amazon HealthLake API
+  slug: amazon-healthlake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/openapi/amazon-healthlake-openapi.yaml
 apis:
 - description: The Amazon HealthLake API provides programmatic access to create and manage FHIR datastores, import and export health data, and run analytics on FHIR-formatted health records.
   name: Amazon HealthLake API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-healthlake
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-healthlake\nname: Amazon HealthLake\ndescription: >-\n  Amazon HealthLake is a HIPAA-eligible service that gives healthcare providers,\n  health insurance companies, and pharmaceutical companies the ability to store,\n  transform, query, and analyze health data at scale in the cloud. It uses the\n  Fast Healthcare Interoperability Resources (FHIR) standard.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - FHIR\n  - Health Data\n  - Healthcare\n  - HIPAA\n  - Cloud Computing\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-healthlake:amazon-healthlake-api\n    name: Amazon HealthLake API\n    description: >-\n      The Amazon HealthLake API provides programmatic access to create and\n      manage FHIR datastores, import and export health data,\
   \ and run analytics\n      on FHIR-formatted health records.\n    humanURL: https://aws.amazon.com/healthlake/\n    baseURL: https://healthlake.amazonaws.com\n    tags:\n      - FHIR\n      - Health Data\n      - Healthcare\n      - HIPAA\n      - Datastores\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/healthlake/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-healthlake-openapi.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/healthlake/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/healthlake/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/healthlake/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/healthlake/latest/APIReference/Welcome.html\n      - type: Authentication\n        url: https://docs.aws.amazon.com/healthlake/latest/APIReference/CommonParameters.html\n      - type: JSONSchema\n        url: json-schema/healthlake-create-fhir-datastore-request-schema.json\n\
   \      - type: JSONLD\n        url: json-ld/amazon-healthlake-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/healthlake/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/healthlake/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/industries/healthcare/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/healthlake/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SDK\n    url: https://aws.amazon.com/developer/tools/\n  - type: CLI\n    url: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/healthlake/index.html\n\

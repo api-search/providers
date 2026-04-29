@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-flume-monitoring-openapi.yml
+  format: yaml
+  label: Apache Flume Monitoring API
+  slug: apache-flume-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/openapi/apache-flume-monitoring-openapi.yml
 apis:
 - description: REST API for monitoring Apache Flume agents, retrieving component metrics for sources, channels, and sinks, and accessing agent health information.
   name: Apache Flume Monitoring API
@@ -86,6 +93,7 @@ rules:
 skills: []
 slug: apache-flume
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-flume\nname: Apache Flume\ndescription: >-\n  Apache Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log and event data. It provides a simple and flexible architecture based on streaming data flows with pluggable sources, channels, and sinks, plus a REST monitoring API for agent metrics.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - Data Collection\n  - ETL\n  - Log Aggregation\n  - Open Source\n  - Streaming\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-flume:apache-flume-monitoring-api\n    name: Apache Flume Monitoring API\n    description: >-\n      REST API for monitoring Apache Flume agents, retrieving component metrics\
   \ for sources, channels, and sinks, and accessing agent health information.\n    humanURL: https://flume.apache.org/FlumeUserGuide.html\n    baseURL: http://localhost:41414\n    tags:\n      - Monitoring\n      - Metrics\n      - REST API\n    properties:\n      - type: Documentation\n        url: https://flume.apache.org/FlumeUserGuide.html\n      - type: OpenAPI\n        url: openapi/apache-flume-monitoring-openapi.yml\n      - type: JSONSchema\n        url: json-schema/flume-monitoring-agent-metrics-schema.json\n      - type: JSON-LD\n        url: json-ld/apache-flume-monitoring-context.jsonld\n\n  - aid: apache-flume:apache-flume-java-api\n    name: Apache Flume Java API\n    description: >-\n      Java API for building custom Flume sources, channels, sinks, and interceptors. Provides interfaces for developing pluggable data ingestion components.\n    humanURL: https://flume.apache.org/FlumeDeveloperGuide.html\n    tags:\n      - Java\n      - SDK\n      - Extension\n    properties:\n\
   \      - type: Documentation\n        url: https://flume.apache.org/FlumeDeveloperGuide.html\n      - type: SDK\n        url: https://search.maven.org/artifact/org.apache.flume/flume-ng-core\n        title: Java SDK (Maven Central)\n\ncommon:\n  - type: Documentation\n    url: https://flume.apache.org/documentation.html\n  - type: GettingStarted\n    url: https://flume.apache.org/FlumeUserGuide.html\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/flume\n  - type: SpectralRules\n    url: rules/apache-flume-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-flume-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/flume-log-collection.yaml\n  - type: Features\n    data:\n      - name: Pluggable Sources\n        description: Extensible source architecture supporting Avro, Thrift, Exec, Taildir, Kafka, HTTP, Syslog, and custom sources.\n      - name: Durable Channels\n      \

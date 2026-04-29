@@ -1,5 +1,12 @@
 ---
 api_count: 5
+api_specs:
+- filename: red-hat-satellite-api.yml
+  format: yaml
+  label: Red Hat Satellite REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-api.yml
 apis:
 - description: The main REST API for Red Hat Satellite 6.x, providing programmatic access to all Satellite functions including host management, content management, provisioning, and configuration.
   name: Red Hat Satellite REST API
@@ -139,6 +146,7 @@ rules:
 skills: []
 slug: red-hat-satellite
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: red-hat-satellite\nname: Red Hat Satellite\ndescription: Red Hat Satellite is a systems management product that helps deploy, configure, and maintain systems across physical, virtual, and cloud environments.\ntype: Index\nimage: https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo.png\nurl: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/apis.yml\ntags:\n  - Configuration Management\n  - Lifecycle Management\n  - Patch Management\n  - Subscription Management\n  - Systems Management\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\napis:\n  - name: Red Hat Satellite REST API\n    description: The main REST API for Red Hat Satellite 6.x, providing programmatic access to all Satellite functions including host management, content management, provisioning, and configuration.\n    image: https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo.png\n    baseURL: https://satellite.example.com/api/v2\n\
   \    humanURL: https://access.redhat.com/documentation/en-us/red_hat_satellite/\n    tags:\n      - Automation\n      - REST API\n      - Systems Management\n    properties:\n      - type: Documentation\n        url: https://docs.redhat.com/en/documentation/red_hat_satellite/6.16/html-single/using_the_satellite_rest_api/index\n      - type: OpenAPI\n        url: https://satellite.example.com/apidoc/v2.json\n      - type: OpenAPI\n        url: openapi/red-hat-satellite-api.yml\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-host-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-host-create-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-host-update-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-host-interface-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-host-interface-create-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-content-view-schema.json\n\
   \      - type: JSONSchema\n        url: json-schema/red-hat-satellite-content-view-create-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-content-view-update-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-subscription-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-lifecycle-environment-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-organization-schema.json\n      - type: JSONSchema\n        url: json-schema/red-hat-satellite-foreman-task-schema.json\n      - type: JSONStructure\n        url: json-structure/red-hat-satellite-host-structure.json\n      - type: JSONStructure\n        url: json-structure/red-hat-satellite-host-create-structure.json\n      - type: JSONStructure\n        url: json-structure/red-hat-satellite-host-update-structure.json\n      - type: JSONStructure\n        url: json-structure/red-hat-satellite-host-interface-structure.json\n\

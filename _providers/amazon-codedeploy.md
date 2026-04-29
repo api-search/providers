@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-codedeploy-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeDeploy API
+  slug: amazon-codedeploy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/openapi/amazon-codedeploy-openapi-original.yaml
 apis:
 - description: 'The Amazon CodeDeploy REST API enables programmatic management of applications, deployment groups, deployment configurations, and deployments. Create and update deployment groups, trigger deployments '
   name: Amazon CodeDeploy API
@@ -119,6 +126,7 @@ rules:
 skills: []
 slug: amazon-codedeploy
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-codedeploy\nname: Amazon CodeDeploy\ndescription: >-\n  AWS CodeDeploy is a fully managed deployment service that automates software deployments to various compute\n  services such as Amazon EC2, AWS Fargate, AWS Lambda, and on-premises servers. CodeDeploy makes it easier to\n  rapidly release new features, helps avoid downtime during application deployment, and handles the complexity of\n  updating your applications with in-place, blue/green, and canary deployment strategies.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Amazon\n  - AWS\n  - Deployment\n  - DevOps\n  - CI/CD\n  - Release Management\n  - Blue/Green Deployment\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-codedeploy:amazon-codedeploy-api\n    name: Amazon CodeDeploy API\n    description:\
   \ >-\n      The Amazon CodeDeploy REST API enables programmatic management of applications, deployment groups, deployment\n      configurations, and deployments. Create and update deployment groups, trigger deployments to EC2, Lambda, ECS,\n      and on-premises targets, monitor deployment status, and manage deployment lifecycle hooks and rollback policies.\n    humanURL: https://docs.aws.amazon.com/codedeploy/latest/APIReference/Welcome.html\n    baseURL: https://codedeploy.us-east-1.amazonaws.com\n    tags:\n      - Amazon\n      - AWS\n      - Deployment\n      - DevOps\n      - CI/CD\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html\n      - type: APIReference\n        url: https://docs.aws.amazon.com/codedeploy/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-codedeploy-openapi-original.yaml\ncommon:\n  - type: GettingStarted\n    url: https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-codedeploy.html\n\
   \  - type: Authentication\n    url: https://docs.aws.amazon.com/codedeploy/latest/userguide/auth-and-access-control.html\n  - type: Pricing\n    url: https://aws.amazon.com/codedeploy/pricing/\n  - type: Console\n    url: https://console.aws.amazon.com/codedeploy/\n  - type: Portal\n    url: https://aws.amazon.com/codedeploy/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/codedeploy/latest/userguide/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Blog\n    url: https://aws.amazon.com/blogs/devops/\n  - type: FAQ\n    url: https://aws.amazon.com/codedeploy/faqs/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: SpectralRules\n    url: rules/amazon-codedeploy-spectral-rules.yml\n\

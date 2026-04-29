@@ -1,5 +1,24 @@
 ---
 api_count: 3
+api_specs:
+- filename: agstack-openagri-weather-service-openapi.yml
+  format: yaml
+  label: OpenAgri Weather Service
+  slug: openagri-weather-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-openagri-weather-service-openapi.yml
+- filename: agstack-openagri-farm-calendar-openapi.yml
+  format: yaml
+  label: OpenAgri Farm Calendar
+  slug: openagri-farm-calendar
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-openagri-farm-calendar-openapi.yml
+- filename: agstack-asset-registry-openapi.yml
+  format: yaml
+  label: AgStack Asset Registry
+  slug: asset-registry
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-asset-registry-openapi.yml
 apis:
 - description: FastAPI-based weather service providing 5-day forecasts, current conditions, Temperature-Humidity Index (THI) for livestock heat stress, UAV flight condition forecasts, and spray condition assessments
   name: OpenAgri Weather Service
@@ -97,6 +116,7 @@ rules:
 skills: []
 slug: agstack
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: agstack\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/apis.yml\napis:\n  - aid: agstack:openagri-weather-service\n    name: OpenAgri Weather Service\n    tags:\n      - Agriculture\n      - Weather\n      - Open Source\n      - Linux Foundation\n    humanURL: https://github.com/agstack/OpenAgri-WeatherService\n    properties:\n      - url: https://github.com/agstack/OpenAgri-WeatherService\n        type: Documentation\n      - url: https://github.com/agstack/OpenAgri-WeatherService/blob/main/README.md\n        type: GettingStarted\n      - url: openapi/agstack-openagri-weather-service-openapi.yml\n        type: OpenAPI\n      - url: json-schema/agstack-openagri-weather-service-predictionout-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-weatherdataout-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-thidataout-schema.json\n        type:\
   \ JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-sprayforecastresponse-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-flightstatusforecastresponse-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-geojsonout-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-jsonldgraph-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-authtoken-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-pointout-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-validationerror-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-httpvalidationerror-schema.json\n        type: JSONSchema\n      - url: json-schema/agstack-openagri-weather-service-body-token-auth-token-post-schema.json\n\
   \        type: JSONSchema\n      - url: json-structure/agstack-openagri-weather-service-predictionout-structure.json\n        type: JSONStructure\n      - url: json-structure/agstack-openagri-weather-service-weatherdataout-structure.json\n        type: JSONStructure\n      - url: json-structure/agstack-openagri-weather-service-thidataout-structure.json\n        type: JSONStructure\n      - url: json-structure/agstack-openagri-weather-service-sprayforecastresponse-structure.json\n        type: JSONStructure\n      - url: json-structure/agstack-openagri-weather-service-flightstatusforecastresponse-structure.json\n        type: JSONStructure\n      - url: json-structure/agstack-openagri-weather-service-geojsonout-structure.json\n        type: JSONStructure\n      - url: json-structure/agstack-openagri-weather-service-jsonldgraph-structure.json\n        type: JSONStructure\n      - url: json-structure/agstack-openagri-weather-service-authtoken-structure.json\n        type: JSONStructure\n\

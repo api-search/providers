@@ -1,5 +1,384 @@
 ---
 api_count: 63
+api_specs:
+- filename: bunq-activity-map-place-public-itemid-openapi-original.yml
+  format: yaml
+  label: Bunq Activity Map Place API
+  slug: bunq-activity-map-place-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-activity-map-place-public-itemid-openapi-original.yml
+- filename: bunq-attachment-public-attachment-publicuuid-content-openapi-original.yml
+  format: yaml
+  label: Bunq Attachment Content API
+  slug: bunq-attachment-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-attachment-public-attachment-publicuuid-content-openapi-original.yml
+- filename: bunq-user-userid-attachment-openapi-original.yml
+  format: yaml
+  label: Bunq Attachments API
+  slug: bunq-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-attachment-openapi-original.yml
+- filename: bunq-avatar--openapi-original.yml
+  format: yaml
+  label: Bunq Avatar API
+  slug: bunq-avatar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-avatar--openapi-original.yml
+- filename: bunq-user-userid-billing-contract-subscription-openapi-original.yml
+  format: yaml
+  label: Bunq Billing Contract Subscription API
+  slug: bunq-billing-contract-subscription-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-billing-contract-subscription-openapi-original.yml
+- filename: bunq-user-userid-card-openapi-original.yml
+  format: yaml
+  label: Bunq Card API
+  slug: bunq-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-card-openapi-original.yml
+- filename: bunq-user-userid-certificate-pinned-openapi-original.yml
+  format: yaml
+  label: Bunq Certificate Pinning API
+  slug: bunq-certificate-pinning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-certificate-pinned-openapi-original.yml
+- filename: bunq-user-userid-challenge-request-openapi-original.yml
+  format: yaml
+  label: Bunq Challenge Request API
+  slug: bunq-challenge-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-challenge-request-openapi-original.yml
+- filename: bunq-user-userid-chat-conversation-openapi-original.yml
+  format: yaml
+  label: Bunq Chat Conversation API
+  slug: bunq-chat-conversation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-chat-conversation-openapi-original.yml
+- filename: bunq-user-userid-company-openapi-original.yml
+  format: yaml
+  label: Bunq Company API
+  slug: bunq-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-company-openapi-original.yml
+- filename: bunq-user-userid-confirmation-of-funds-openapi-original.yml
+  format: yaml
+  label: Bunq Confirmation of Funds API
+  slug: bunq-confirmation-of-funds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-confirmation-of-funds-openapi-original.yml
+- filename: bunq-device--openapi-original.yml
+  format: yaml
+  label: Bunq Device API
+  slug: bunq-device-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-device--openapi-original.yml
+- filename: bunq-device-server--openapi-original.yml
+  format: yaml
+  label: Bunq Device Server API
+  slug: bunq-device-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-device-server--openapi-original.yml
+- filename: bunq-user-userid-export-annual-overview-openapi-original.yml
+  format: yaml
+  label: Bunq Export Annual Overview API
+  slug: bunq-export-annual-overview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-export-annual-overview-openapi-original.yml
+- filename: bunq-user-userid-bunqme-fundraiser-profile-openapi-original.yml
+  format: yaml
+  label: Bunq Fundraiser Profile API
+  slug: bunq-fundraiser-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-bunqme-fundraiser-profile-openapi-original.yml
+- filename: bunq-installation--openapi-original.yml
+  format: yaml
+  label: Bunq Installation API
+  slug: bunq-installation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-installation--openapi-original.yml
+- filename: bunq-installation-installationid-server-public-key-openapi-original.yml
+  format: yaml
+  label: Bunq Installation Installation Server Public Key API
+  slug: bunq-installation-installation-server-public-key-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-installation-installationid-server-public-key-openapi-original.yml
+- filename: bunq-user-userid-monetary-account-openapi-original.yml
+  format: yaml
+  label: Bunq Monetary Account API
+  slug: bunq-monetary-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-monetary-account-openapi-original.yml
+- filename: bunq-user-userid-oauth-client-openapi-original.yml
+  format: yaml
+  label: Bunq Oauth Client API
+  slug: bunq-oauth-client-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-oauth-client-openapi-original.yml
+- filename: bunq-payment-service-provider-credential--openapi-original.yml
+  format: yaml
+  label: Bunq Payment Service Provider Credential API
+  slug: bunq-payment-service-provider-credential-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-payment-service-provider-credential--openapi-original.yml
+- filename: bunq-registry-import-splitwise-csv--openapi-original.yml
+  format: yaml
+  label: Bunq Registry Import Splitwise Csv API
+  slug: bunq-registry-import-splitwise-csv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-registry-import-splitwise-csv--openapi-original.yml
+- filename: bunq-sandbox-user-company--openapi-original.yml
+  format: yaml
+  label: Bunq Sandbox User Company API
+  slug: bunq-sandbox-user-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-sandbox-user-company--openapi-original.yml
+- filename: bunq-sandbox-user-person--openapi-original.yml
+  format: yaml
+  label: Bunq Sandbox User Person API
+  slug: bunq-sandbox-user-person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-sandbox-user-person--openapi-original.yml
+- filename: bunq-server-error--openapi-original.yml
+  format: yaml
+  label: Bunq Server Error API
+  slug: bunq-server-error-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-server-error--openapi-original.yml
+- filename: bunq-session-itemid--openapi-original.yml
+  format: yaml
+  label: Bunq Session Item API
+  slug: bunq-session-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-session-itemid--openapi-original.yml
+- filename: bunq-session-server--openapi-original.yml
+  format: yaml
+  label: Bunq Session Server API
+  slug: bunq-session-server-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-session-server--openapi-original.yml
+- filename: bunq-user-userid-additional-transaction-information-category-openapi-original.yml
+  format: yaml
+  label: Bunq Transaction Categories API
+  slug: bunq-transaction-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-additional-transaction-information-category-openapi-original.yml
+- filename: bunq-user-company-itemid--openapi-original.yml
+  format: yaml
+  label: Bunq User Company Item API
+  slug: bunq-user-company-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-company-itemid--openapi-original.yml
+- filename: bunq-user-company-user-companyid-name-openapi-original.yml
+  format: yaml
+  label: Bunq User Company User Company Name API
+  slug: bunq-user-company-user-company-name-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-company-user-companyid-name-openapi-original.yml
+- filename: bunq-user-userid-credential-password-ip-openapi-original.yml
+  format: yaml
+  label: Bunq User Credential Password Ip API
+  slug: bunq-user-credential-password-ip-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-credential-password-ip-openapi-original.yml
+- filename: bunq-user-userid-currency-cloud-beneficiary-openapi-original.yml
+  format: yaml
+  label: Bunq User Currency Cloud Beneficiary API
+  slug: bunq-user-currency-cloud-beneficiary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-currency-cloud-beneficiary-openapi-original.yml
+- filename: bunq-user-userid-event-openapi-original.yml
+  format: yaml
+  label: Bunq User Event API
+  slug: bunq-user-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-event-openapi-original.yml
+- filename: bunq-user-userid-feature-announcement-openapi-original.yml
+  format: yaml
+  label: Bunq User Feature Announcement API
+  slug: bunq-user-feature-announcement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-feature-announcement-openapi-original.yml
+- filename: bunq-user-userid-insight-preference-date-openapi-original.yml
+  format: yaml
+  label: Bunq User Insight Preference Date API
+  slug: bunq-user-insight-preference-date-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-insight-preference-date-openapi-original.yml
+- filename: bunq-user-userid-insights-openapi-original.yml
+  format: yaml
+  label: Bunq User Insights API
+  slug: bunq-user-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-insights-openapi-original.yml
+- filename: bunq-user-userid-invoice-openapi-original.yml
+  format: yaml
+  label: Bunq User Invoice API
+  slug: bunq-user-invoice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-invoice-openapi-original.yml
+- filename: bunq-user-itemid--openapi-original.yml
+  format: yaml
+  label: Bunq User Item API
+  slug: bunq-user-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-itemid--openapi-original.yml
+- filename: bunq-user-userid-legal-name-openapi-original.yml
+  format: yaml
+  label: Bunq User Legal Name API
+  slug: bunq-user-legal-name-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-legal-name-openapi-original.yml
+- filename: bunq-user-userid-limit-openapi-original.yml
+  format: yaml
+  label: Bunq User Limit API
+  slug: bunq-user-limit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-limit-openapi-original.yml
+- filename: bunq-user-userid-monetary-account-bank-openapi-original.yml
+  format: yaml
+  label: Bunq User Monetary Account Bank API
+  slug: bunq-user-monetary-account-bank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-monetary-account-bank-openapi-original.yml
+- filename: bunq-user-userid-monetary-account-card-openapi-original.yml
+  format: yaml
+  label: Bunq User Monetary Account Card API
+  slug: bunq-user-monetary-account-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-monetary-account-card-openapi-original.yml
+- filename: bunq-user-userid-monetary-account-external-openapi-original.yml
+  format: yaml
+  label: Bunq User Monetary Account External API
+  slug: bunq-user-monetary-account-external-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-monetary-account-external-openapi-original.yml
+- filename: bunq-user-userid-monetary-account-joint-openapi-original.yml
+  format: yaml
+  label: Bunq User Monetary Account Joint API
+  slug: bunq-user-monetary-account-joint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-monetary-account-joint-openapi-original.yml
+- filename: bunq-user-userid-monetary-account-savings-openapi-original.yml
+  format: yaml
+  label: Bunq User Monetary Account Savings API
+  slug: bunq-user-monetary-account-savings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-monetary-account-savings-openapi-original.yml
+- filename: bunq-user-userid-notification-filter-email-openapi-original.yml
+  format: yaml
+  label: Bunq User Notification Filter Email API
+  slug: bunq-user-notification-filter-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-notification-filter-email-openapi-original.yml
+- filename: bunq-user-userid-notification-filter-failure-openapi-original.yml
+  format: yaml
+  label: Bunq User Notification Filter Failure API
+  slug: bunq-user-notification-filter-failure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-notification-filter-failure-openapi-original.yml
+- filename: bunq-user-userid-notification-filter-push-openapi-original.yml
+  format: yaml
+  label: Bunq User Notification Filter Push API
+  slug: bunq-user-notification-filter-push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-notification-filter-push-openapi-original.yml
+- filename: bunq-user-userid-notification-filter-url-openapi-original.yml
+  format: yaml
+  label: Bunq User Notification Filter Url API
+  slug: bunq-user-notification-filter-url-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-notification-filter-url-openapi-original.yml
+- filename: bunq-user-userid-payment-auto-allocate-openapi-original.yml
+  format: yaml
+  label: Bunq User Payment Auto Allocate API
+  slug: bunq-user-payment-auto-allocate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-payment-auto-allocate-openapi-original.yml
+- filename: bunq-user-userid-payment-service-provider-draft-payment-openapi-original.yml
+  format: yaml
+  label: Bunq User Payment Service Provider Draft Payment API
+  slug: bunq-user-payment-service-provider-draft-payment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-payment-service-provider-draft-payment-openapi-original.yml
+- filename: bunq-user-userid-payment-service-provider-issuer-transaction-openapi-original.yml
+  format: yaml
+  label: Bunq User Payment Service Provider Issuer Transaction API
+  slug: bunq-user-payment-service-provider-issuer-transaction-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-payment-service-provider-issuer-transaction-openapi-original.yml
+- filename: bunq-user-payment-service-provider-itemid--openapi-original.yml
+  format: yaml
+  label: Bunq User Payment Service Provider Item API
+  slug: bunq-user-payment-service-provider-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-payment-service-provider-itemid--openapi-original.yml
+- filename: bunq-user-person-itemid--openapi-original.yml
+  format: yaml
+  label: Bunq User Person Item API
+  slug: bunq-user-person-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-person-itemid--openapi-original.yml
+- filename: bunq-user-userid-registry-openapi-original.yml
+  format: yaml
+  label: Bunq User Registry API
+  slug: bunq-user-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-registry-openapi-original.yml
+- filename: bunq-user-userid-schedule-openapi-original.yml
+  format: yaml
+  label: Bunq User Schedule API
+  slug: bunq-user-schedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-schedule-openapi-original.yml
+- filename: bunq-user-userid-share-invite-monetary-account-response-openapi-original.yml
+  format: yaml
+  label: Bunq User Share Invite Monetary Account Response API
+  slug: bunq-user-share-invite-monetary-account-response-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-share-invite-monetary-account-response-openapi-original.yml
+- filename: bunq-user-userid-token-qr-request-ideal-openapi-original.yml
+  format: yaml
+  label: Bunq User Token Qr Request Eal API
+  slug: bunq-user-token-qr-request-eal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-token-qr-request-ideal-openapi-original.yml
+- filename: bunq-user-userid-token-qr-request-sofort-openapi-original.yml
+  format: yaml
+  label: Bunq User Token Qr Request Sofort API
+  slug: bunq-user-token-qr-request-sofort-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-token-qr-request-sofort-openapi-original.yml
+- filename: bunq-user-userid-transferwise-currency-openapi-original.yml
+  format: yaml
+  label: Bunq User Transferwise Currency API
+  slug: bunq-user-transferwise-currency-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-transferwise-currency-openapi-original.yml
+- filename: bunq-user-userid-transferwise-quote-openapi-original.yml
+  format: yaml
+  label: Bunq User Transferwise Quote API
+  slug: bunq-user-transferwise-quote-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-transferwise-quote-openapi-original.yml
+- filename: bunq-user-userid-transferwise-user-openapi-original.yml
+  format: yaml
+  label: Bunq User Transferwise User API
+  slug: bunq-user-transferwise-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-transferwise-user-openapi-original.yml
+- filename: bunq-user-userid-tree-progress-openapi-original.yml
+  format: yaml
+  label: Bunq User Tree Progress API
+  slug: bunq-user-tree-progress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-tree-progress-openapi-original.yml
+- filename: bunq-user-userid-whitelist-sdd-openapi-original.yml
+  format: yaml
+  label: Bunq User Whitelist Sdd API
+  slug: bunq-user-whitelist-sdd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/openapi/bunq-user-userid-whitelist-sdd-openapi-original.yml
 apis:
 - description: The Bunq Activity Map Place API is a powerful tool that allows developers to easily integrate location-based information into their applications. With this API, users can access detailed information a
   name: Bunq Activity Map Place API
@@ -283,6 +662,7 @@ name: Bunq
 skills: []
 slug: bunq
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: bunq\nurl: https://raw.githubusercontent.com/api-search/banking/main/_apis/bunq/apis.md\napis:\n  - aid: bunq:bunq-activity-map-place-api\n    name: Bunq Activity Map Place API\n    tags: []\n    score: 85\n    baseURL: https://public-api.sandbox.bunq.com/\n    humanURL: https://doc.bunq.com/#/activity-map-place-public\n    properties:\n      - url: openapi/bunq-activity-map-place-public-itemid-openapi-original.yml\n        type: OpenAPI\n      - url: https://doc.bunq.com/\n        type: Documentation\n    description: >-\n      The Bunq Activity Map Place API is a powerful tool that allows developers to\n      easily integrate location-based information into their applications. With this\n      API, users can access detailed information about various points of interest,\n      such as restaurants, shops, and attractions, as well as real-time data on traffic\n      and weather conditions.\n  - aid: bunq:bunq-attachment-content-api\n    name: Bunq Attachment Content API\n\
   \    tags:\n      - Attachments\n      - Content\n      - Public\n    score: 87\n    humanURL: https://doc.bunq.com/#/content\n    properties:\n      - url: >-\n          openapi/bunq-attachment-public-attachment-publicuuid-content-openapi-original.yml\n        type: OpenAPI\n      - url: https://doc.bunq.com/\n        type: Documentation\n    description: >-\n      The Bunq Attachment Content API is a tool that allows developers to easily manage\n      and access content attached to transactions within the Bunq banking system.\n      This API enables users to retrieve, update, and delete various types of attachments,\n      such as receipts, invoices, and images, linked to their transactions.\n  - aid: bunq:bunq-attachments-api\n    name: Bunq Attachments API\n    tags:\n      - Attachments\n      - Content\n      - Items\n      - Users\n    baseURL: https://public-api.sandbox.bunq.com/\n    humanURL: https://doc.bunq.com/#/attachment\n    properties:\n      - url: openapi/bunq-user-userid-attachment-openapi-original.yml\n\
   \        type: OpenAPI\n      - url: https://doc.bunq.com/\n        type: Documentation\n    description: >-\n      Bunq Attachments API is a tool that allows developers to easily integrate file\n      attachments into their applications. With this API, users can upload and download\n      various types of files, such as images, documents, and videos, directly from\n      their Bunq accounts. This feature enhances the user experience by providing\n      a seamless way to manage and access important attachments within the Bunq platform.\n  - aid: bunq:bunq-avatar-api\n    name: Bunq Avatar API\n    tags:\n      - Avatars\n      - Items\n    score: 86\n    humanURL: https://doc.bunq.com/#/avatar\n    properties:\n      - url: openapi/bunq-avatar--openapi-original.yml\n        type: OpenAPI\n      - url: https://doc.bunq.com/\n        type: Documentation\n    description: >-\n      The Bunq Avatar API is a tool that allows users to easily add personalized avatars\n      to their Bunq accounts.\

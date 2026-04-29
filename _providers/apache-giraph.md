@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-giraph-job-openapi.yml
+  format: yaml
+  label: Apache Giraph Job Monitoring API
+  slug: apache-giraph-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/openapi/apache-giraph-job-openapi.yml
 apis:
 - description: Monitoring API for Apache Giraph graph processing jobs via the YARN ResourceManager REST API, providing job status, progress tracking, and cluster capacity metrics.
   name: Apache Giraph Job Monitoring API
@@ -84,6 +91,7 @@ rules:
 skills: []
 slug: apache-giraph
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-giraph\nname: Apache Giraph\ndescription: >-\n  Apache Giraph is an iterative graph processing system built for high scalability on Apache Hadoop. It is modeled after Google's Pregel and provides a simple yet flexible Java API for graph algorithms at massive scale using the Bulk Synchronous Parallel (BSP) model. Note - Apache Giraph has been retired as of 2024.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - Big Data\n  - BSP\n  - Graph Processing\n  - Hadoop\n  - Open Source\n  - Retired\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-giraph:apache-giraph-job-api\n    name: Apache Giraph Job Monitoring API\n    description: >-\n      Monitoring API for Apache Giraph graph processing jobs via the YARN ResourceManager\
   \ REST API, providing job status, progress tracking, and cluster capacity metrics.\n    humanURL: https://giraph.apache.org/quick_start.html\n    baseURL: http://localhost:8088\n    tags:\n      - BSP\n      - Graph\n      - Hadoop\n      - Job Management\n      - YARN\n    properties:\n      - type: Documentation\n        url: https://giraph.apache.org/quick_start.html\n      - type: OpenAPI\n        url: openapi/apache-giraph-job-openapi.yml\n      - type: JSONSchema\n        url: json-schema/giraph-job-application-info-schema.json\n      - type: JSON-LD\n        url: json-ld/apache-giraph-job-context.jsonld\n\n  - aid: apache-giraph:apache-giraph-java-api\n    name: Apache Giraph Java API\n    description: >-\n      Java API based on the Bulk Synchronous Parallel (BSP) model for implementing graph algorithms, with Vertex, Edge, and Master compute APIs for distributed graph processing on Hadoop.\n    humanURL: https://giraph.apache.org/apidocs/\n    tags:\n      - BSP\n      - Graph\n\
   \      - Java\n      - SDK\n    properties:\n      - type: Documentation\n        url: https://giraph.apache.org/apidocs/\n      - type: SDK\n        url: https://search.maven.org/artifact/org.apache.giraph/giraph-core\n        title: Java SDK (Maven Central)\n\ncommon:\n  - type: Documentation\n    url: https://giraph.apache.org/\n  - type: GettingStarted\n    url: https://giraph.apache.org/quick_start.html\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/giraph\n  - type: SpectralRules\n    url: rules/apache-giraph-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-giraph-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/giraph-graph-processing.yaml\n  - type: Features\n    data:\n      - name: Bulk Synchronous Parallel (BSP) Model\n        description: Google Pregel-inspired BSP computation model where vertices communicate through supersteps.\n      - name: Vertex-Centric\

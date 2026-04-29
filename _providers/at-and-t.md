@@ -1,5 +1,24 @@
 ---
 api_count: 5
+api_specs:
+- filename: at-and-t-sms-api.yaml
+  format: yaml
+  label: AT&T SMS API
+  slug: att-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-sms-api.yaml
+- filename: at-and-t-in-app-messaging-api.yaml
+  format: yaml
+  label: AT&T In-App Messaging API
+  slug: att-in-app-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-in-app-messaging-api.yaml
+- filename: at-and-t-mvnx-api.yaml
+  format: yaml
+  label: AT&T MVNX API
+  slug: att-mvnx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-mvnx-api.yaml
 apis:
 - description: A RESTful API enabling established businesses to broadcast SMS short code messages to AT&T subscribers in the United States. Supports sending to up to 50 recipients per call and up to 1 million messag
   name: AT&T SMS API
@@ -121,6 +140,7 @@ rules:
 skills: []
 slug: at-and-t
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: at-and-t\nname: AT&T\ndescription: >-\n  AT&T is a multinational telecommunications holding company providing wireless\n  and wireline telecommunications services, broadband, and digital entertainment\n  to consumers and businesses worldwide. AT&T offers a suite of developer APIs\n  spanning messaging, speech, mobile virtual network operations, business voice,\n  wholesale service qualification, enterprise wireline ordering, and mobility\n  management, enabling developers and enterprise partners to integrate AT&T\n  network capabilities into applications and systems.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Telecommunications\n  - Wireless\n  - Wireline\n  - Messaging\n  - Speech\n  - Mobile\n  - Broadband\n  - Enterprise\nurl: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/apis.yml\ncreated: '2026-03-21'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: at-and-t:att-sms-api\n\
   \    name: AT&T SMS API\n    description: >-\n      A RESTful API enabling established businesses to broadcast SMS short code\n      messages to AT&T subscribers in the United States. Supports sending to up\n      to 50 recipients per call and up to 1 million messaging API calls monthly.\n      Includes delivery status callbacks and GSMA OneAPI-compatible endpoints.\n    humanURL: https://developer.att.com/sms\n    baseURL: https://api.att.com\n    tags:\n      - SMS\n      - Messaging\n      - Short Code\n      - Notifications\n    properties:\n      - type: Documentation\n        url: https://developer.att.com/sms/docs\n      - type: APIReference\n        url: https://developer.att.com/sms/docs/v2\n      - type: Authentication\n        url: https://developer.att.com/oauth-2/docs\n      - type: GettingStarted\n        url: https://developer.att.com/sms\n      - type: OpenAPI\n        url: openapi/at-and-t-sms-api.yaml\n  - aid: at-and-t:att-in-app-messaging-api\n    name: AT&T In-App\
   \ Messaging API\n    description: >-\n      A messaging API enabling applications to send, receive, update, and delete\n      MMS and SMS messages on behalf of users with explicit consent. Supports\n      messages to phone numbers, short codes, and email addresses across AT&T\n      and other carriers, with inbox management and delta synchronization.\n    humanURL: https://developer.att.com/in-app-messaging\n    baseURL: https://api.att.com\n    tags:\n      - MMS\n      - SMS\n      - Messaging\n      - In-App\n      - Inbox\n    properties:\n      - type: Documentation\n        url: https://developer.att.com/in-app-messaging/docs\n      - type: Authentication\n        url: https://developer.att.com/oauth-2/docs\n      - type: OpenAPI\n        url: openapi/at-and-t-in-app-messaging-api.yaml\n  - aid: at-and-t:att-oauth-api\n    name: AT&T OAuth 2.0 API\n    description: >-\n      AT&T OAuth 2.0 authentication API providing access tokens for all AT&T\n      REST APIs. Supports Authorization\

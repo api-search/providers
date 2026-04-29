@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: astrology-api-openapi.yml
+  format: yaml
+  label: Astrology API
+  slug: astrology-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-openapi.yml
 apis:
 - description: The Astrology API provides comprehensive astrological data including Indian (Vedic) astrology with panchang and dosha data, Western astrology with planetary transits and synastry, daily and monthly ho
   name: Astrology API
@@ -42,6 +49,7 @@ name: Astrology API
 skills: []
 slug: astrology-api
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: astrology-api\nname: Astrology API\ndescription: >-\n  Astrology API (astrologyapi.com) is a powerful tool that provides developers\n  with access to accurate and reliable astrological data. The API offers Indian\n  (Vedic) astrology, Western astrology, horoscope predictions, tarot readings,\n  and PDF report generation. It provides planetary positions, zodiac sign\n  information, birth chart calculations, compatibility analysis, panchang data,\n  moon phases, and daily/monthly horoscope predictions. The API is JSON-based\n  with SDK support and Postman collections available for testing.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Astrology\n  - Horoscopes\n  - Zodiac\n  - Vedic Astrology\n  - Western Astrology\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/apis.yml\ncreated: '2025-01-07'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: astrology-api:astrology-api\n\
   \    name: Astrology API\n    description: >-\n      The Astrology API provides comprehensive astrological data including\n      Indian (Vedic) astrology with panchang and dosha data, Western astrology\n      with planetary transits and synastry, daily and monthly horoscope\n      predictions, tarot readings, and PDF report generation in both Western\n      and Indian formats.\n    humanURL: https://astrologyapi.com/docs\n    baseURL: https://json.astrologyapi.com/v1\n    tags:\n      - Astrology\n      - Horoscopes\n      - Vedic\n      - Western\n    properties:\n      - type: Documentation\n        url: https://astrologyapi.com/docs\n      - type: GettingStarted\n        url: https://astrologyapi.com/docs/quickstart\n      - type: OpenAPI\n        url: openapi/astrology-api-openapi.yml\ncommon:\n  - type: Portal\n    url: https://astrologyapi.com/\n    title: Astrology API Website\n  - type: Documentation\n    url: https://astrologyapi.com/docs\n    title: Documentation\n  - type: SignUp\n\
   \    url: https://astrologyapi.com/signup\n    title: Sign Up\n  - type: Pricing\n    url: https://astrologyapi.com/pricing\n    title: Pricing\n  - type: Features\n    data:\n      - name: Indian (Vedic) Astrology\n        description: >-\n          Vedic astrology data including birth chart basics, horoscope dosha\n          analysis, yearly predictions (Varshaphal), daily nakshatra forecasts,\n          and panchang (Hindu almanac) data.\n      - name: Western Astrology\n        description: >-\n          Western astrology data including birth chart basics, numerology,\n          synastry (relationship analysis), moon phases, planetary transits,\n          and zodiac compatibility.\n      - name: Horoscope Predictions\n        description: >-\n          Daily, weekly, and monthly horoscope predictions for all sun signs\n          in both Western and Vedic astrology traditions.\n      - name: Tarot API\n        description: >-\n          General tarot card readings and yes/no tarot predictions\

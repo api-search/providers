@@ -1,5 +1,48 @@
 ---
 api_count: 8
+api_specs:
+- filename: automation-anywhere-control-room-openapi.yml
+  format: yaml
+  label: Automation Anywhere Control Room API
+  slug: control-room-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-control-room-openapi.yml
+- filename: automation-anywhere-bot-deploy-openapi.yml
+  format: yaml
+  label: Automation Anywhere Bot Deploy API
+  slug: bot-deploy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-bot-deploy-openapi.yml
+- filename: automation-anywhere-workload-management-openapi.yml
+  format: yaml
+  label: Automation Anywhere Workload Management API
+  slug: workload-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-workload-management-openapi.yml
+- filename: automation-anywhere-bot-insight-openapi.yml
+  format: yaml
+  label: Automation Anywhere Bot Insight API
+  slug: bot-insight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-bot-insight-openapi.yml
+- filename: automation-anywhere-api-task-execution-openapi.yml
+  format: yaml
+  label: Automation Anywhere API Task Execution API
+  slug: api-task-execution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-api-task-execution-openapi.yml
+- filename: automation-anywhere-credential-vault-openapi.yml
+  format: yaml
+  label: Automation Anywhere Credential Vault API
+  slug: credential-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-credential-vault-openapi.yml
+- filename: automation-anywhere-repository-management-openapi.yml
+  format: yaml
+  label: Automation Anywhere Repository Management API
+  slug: repository-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/openapi/automation-anywhere-repository-management-openapi.yml
 apis:
 - description: 'The Automation Anywhere Control Room API is a comprehensive set of RESTful APIs that enable programmatic management and administration of the Automation 360 RPA platform. It provides endpoints across '
   name: Automation Anywhere Control Room API
@@ -98,6 +141,7 @@ name: automation-anywhere
 skills: []
 slug: automation-anywhere
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: automation-anywhere\nurl: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/apis.yml\napis:\n  - aid: automation-anywhere:control-room-api\n    name: Automation Anywhere Control Room API\n    tags:\n      - Automation\n      - Bot Management\n      - Enterprise\n      - REST\n      - RPA\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://automationanywhere-be-prod.automationanywhere.com\n    humanURL: https://docs.automationanywhere.com/bundle/enterprise-v2019/page/enterprise-cloud/topics/control-room/control-room-api/cloud-control-room-apis.html\n    properties:\n      - url: https://docs.automationanywhere.com/bundle/enterprise-v2019/page/enterprise-cloud/topics/control-room/control-room-api/cloud-control-room-apis.html\n        type: Documentation\n      - url: openapi/automation-anywhere-control-room-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Automation\
   \ Anywhere Control Room API is a comprehensive set of RESTful APIs\n      that enable programmatic management and administration of the Automation 360\n      RPA platform. It provides endpoints across multiple versioned groups covering\n      authentication, user management, credential vault, repository management, device\n      pools, licensing, policy management, and scheduled automations.\n\n  - aid: automation-anywhere:bot-deploy-api\n    name: Automation Anywhere Bot Deploy API\n    tags:\n      - Automation\n      - Bot Deployment\n      - Enterprise\n      - Orchestration\n      - RPA\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://automationanywhere-be-prod.automationanywhere.com\n    humanURL: https://docs.automationanywhere.com/bundle/enterprise-v2019/page/deploy-api-supported-v4.html\n    properties:\n      - url: https://docs.automationanywhere.com/bundle/enterprise-v2019/page/deploy-api-supported-v4.html\n      \
   \  type: Documentation\n      - url: openapi/automation-anywhere-bot-deploy-openapi.yml\n        type: OpenAPI\n      - url: json-schema/automation-anywhere-deployment-schema.json\n        type: JSONSchema\n    description: >-\n      The Automation Anywhere Bot Deploy API (v3/v4) enables external applications\n      and workflows to programmatically trigger the deployment of bots to unattended\n      Bot Runner devices. It supports deploying bots from the public workspace, specifying\n      target devices or device pools, and passing input variables at runtime. This\n      API is typically combined with the Authentication API to obtain a JWT token\n      before invoking deployment endpoints.\n\n  - aid: automation-anywhere:workload-management-api\n    name: Automation Anywhere Workload Management API\n    tags:\n      - Automation\n      - Queues\n      - RPA\n      - Work Items\n      - Workload Management\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\

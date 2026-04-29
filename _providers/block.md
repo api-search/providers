@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: block-square-api-openapi.yaml
+  format: yaml
+  label: Square API
+  slug: block-square-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-square-api-openapi.yaml
 apis:
 - description: RESTful API for building commerce applications on the Square platform. Provides payment processing, order management, catalog management, customer profiles, loyalty programs, invoicing, and merchant o
   name: Square API
@@ -98,6 +105,7 @@ rules:
 skills: []
 slug: block
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: block\nurl: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/apis.yml\nname: Block\ndescription: >-\n  Block, Inc. is a global technology company building economic empowerment tools\n  through a family of products including Square (commerce and payments), Cash App\n  (personal finance and investing), Afterpay (buy now pay later), TIDAL (music\n  streaming), and Spiral (open-source Bitcoin development). The Square API enables\n  developers to build commerce applications with payment processing, order management,\n  catalog, customer engagement, and business operations capabilities.\ntags:\n  - Commerce\n  - Cryptocurrency\n  - eCommerce\n  - Fintech\n  - Payments\n  - Point Of Sale\n  - Square\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2024-09-27'\nmodified: '2026-04-19'\nposition: Consuming\nspecificationVersion: '0.19'\napis:\n  - aid: block:block-square-api\n    name:\
   \ Square API\n    description: >-\n      RESTful API for building commerce applications on the Square platform. Provides\n      payment processing, order management, catalog management, customer profiles,\n      loyalty programs, invoicing, and merchant operations. Supports OAuth 2.0 and\n      personal access token authentication. Available in sandbox and production environments.\n    humanURL: https://developer.squareup.com/\n    tags:\n      - Commerce\n      - eCommerce\n      - Payments\n      - Point Of Sale\n      - Square\n    properties:\n      - type: Documentation\n        url: https://developer.squareup.com/docs\n      - type: OpenAPI\n        url: openapi/block-square-api-openapi.yaml\n      - type: NaftikoCapability\n        url: capabilities/block-square-commerce.yaml\n      - type: SpectralRules\n        url: rules/block-spectral-rules.yml\n      - type: Vocabulary\n        url: vocabulary/block-vocabulary.yaml\ncommon:\n  - type: Website\n    url: https://www.block.xyz\n\
   \  - type: Documentation\n    url: https://developer.squareup.com/docs\n  - type: GettingStarted\n    url: https://developer.squareup.com/docs/get-started\n  - type: Pricing\n    url: https://squareup.com/us/en/payments/our-rates\n  - type: StatusPage\n    url: https://www.issquareup.com/\n  - type: Support\n    url: https://developer.squareup.com/forums\n  - type: GitHubOrganization\n    url: https://github.com/square\n  - type: TermsOfService\n    url: https://squareup.com/us/en/legal/developer\n  - type: PrivacyPolicy\n    url: https://squareup.com/us/en/legal/privacy\n  - type: Login\n    url: https://developer.squareup.com/apps\n  - type: SDK\n    url: https://developer.squareup.com/docs/sdks\n    title: Square SDKs\n  - type: SpectralRules\n    url: rules/block-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/block-square-commerce.yaml\n  - type: Vocabulary\n    url: vocabulary/block-vocabulary.yaml\n  - type: Features\n    data:\n      - name: Payment Processing\n\

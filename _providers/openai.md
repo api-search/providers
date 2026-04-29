@@ -1,5 +1,72 @@
 ---
 api_count: 22
+api_specs:
+- filename: assistants-openapi-original.yml
+  format: yaml
+  label: OpenAI Assistants API
+  slug: openai-assistants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/assistants-openapi-original.yml
+- filename: audio-openapi-original.yml
+  format: yaml
+  label: OpenAI Audio API
+  slug: openai-audio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/audio-openapi-original.yml
+- filename: chat-openapi-original.yml
+  format: yaml
+  label: OpenAI Chat API
+  slug: openai-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/chat-openapi-original.yml
+- filename: openai-chat-completions-openapi.yml
+  format: yaml
+  label: OpenAI Chat Completions API
+  slug: openai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chat-completions-openapi.yml
+- filename: embeddings-openapi-original.yml
+  format: yaml
+  label: OpenAI Embeddings API
+  slug: openai-embeddings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/embeddings-openapi-original.yml
+- filename: files-openapi-original.yml
+  format: yaml
+  label: OpenAI Files API
+  slug: openai-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/files-openapi-original.yml
+- filename: fine-tuning-openapi-original.yml
+  format: yaml
+  label: OpenAI Fine Tuning API
+  slug: openai-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/fine-tuning-openapi-original.yml
+- filename: images-openapi-original.yml
+  format: yaml
+  label: OpenAI Images API
+  slug: openai-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/images-openapi-original.yml
+- filename: models-openapi-original.yml
+  format: yaml
+  label: OpenAI Models API
+  slug: openai-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/models-openapi-original.yml
+- filename: threads-openapi-original.yml
+  format: yaml
+  label: OpenAI Threads API
+  slug: openai-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/threads-openapi-original.yml
+- filename: completions-openapi-original.yml
+  format: yaml
+  label: OpenAI Completions API
+  slug: openai-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/completions-openapi-original.yml
 apis:
 - description: The Assistants API allows you to build AI assistants within your own applications. An Assistant has instructions and can leverage models, tools, and knowledge to respond to user queries. The Assistant
   name: OpenAI Assistants API
@@ -332,6 +399,7 @@ rules:
 skills: []
 slug: openai
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: openai\nurl: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/apis.yml\napis:\n  - aid: openai:openai-assistants-api\n    name: OpenAI Assistants API\n    tags:\n      - Assistants\n    score: 1329\n    baseURL: https://api.openai.com\n    humanURL: https://platform.openai.com/docs/assistants/overview\n    properties:\n      - url: https://platform.openai.com/docs/assistants/overview\n        type: Documentation\n      - url: https://platform.openai.com/docs/api-reference/assistants\n        type: Documentation\n      - url: openapi/assistants-openapi-original.yml\n        type: OpenAPI\n    description: >-\n      The Assistants API allows you to build AI assistants within your own applications.\n      An Assistant has instructions and can leverage models, tools, and knowledge\n      to respond to user queries. The Assistants API currently supports three types\n      of tools - Code Interpreter, Retrieval, and Function calling. In the future,\n \
   \     we plan to release more OpenAI-built tools, and allow you to provide your own\n      tools on our platform.\n  - aid: openai:openai-audio-api\n    name: OpenAI Audio API\n    tags:\n      - Audio\n    score: 128\n    baseURL: https://api.openai.com\n    humanURL: https://platform.openai.com/docs/guides/text-to-speech\n    properties:\n      - url: https://platform.openai.com/docs/guides/text-to-speech\n        type: Documentation\n      - url: https://platform.openai.com/docs/api-reference/audio\n        type: Documentation\n      - url: https://platform.openai.com/docs/guides/speech-to-text\n        type: Documentation\n      - url: https://developers.openai.com/api/docs/guides/audio/\n        type: Documentation\n      - url: https://developers.openai.com/api/docs/guides/voice-agents/\n        type: Documentation\n      - url: openapi/audio-openapi-original.yml\n        type: OpenAPI\n      - url: openapi/openai-audio-openapi.yml\n        type: OpenAPI\n      - url: json-ld/openai-context.jsonld\n\
   \        type: JSONLD\n    description: >-\n      The Audio API provides two speech to text endpoints, transcriptions and translations,\n      based on our state-of-the-art open source large-v2 Whisper model.\n  - aid: openai:openai-chat-api\n    name: OpenAI Chat API\n    tags:\n      - Chat\n    score: 149\n    baseURL: https://api.openai.com\n    humanURL: https://platform.openai.com/docs/api-reference/chat\n    properties:\n      - url: https://platform.openai.com/docs/api-reference/chat\n        type: Documentation\n      - url: openapi/chat-openapi-original.yml\n        type: OpenAPI\n      - url: openapi/openai-chat-completions-openapi.yml\n        type: OpenAPI\n      - url: json-schema/openai-chat-completion-schema.json\n        type: JSONSchema\n      - url: json-ld/openai-context.jsonld\n        type: JSONLD\n    description: >-\n      Given a list of messages comprising a conversation, the model will return a\n      response., providing an AI chat interface you can use to engage\

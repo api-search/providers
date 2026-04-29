@@ -1,5 +1,12 @@
 ---
 api_count: 13
+api_specs:
+- filename: tableau-rest-api-openapi.yml
+  format: yaml
+  label: Tableau REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-rest-api-openapi.yml
 apis:
 - description: The Tableau REST API allows you to manage and change Tableau Server, Tableau Cloud site, and Tableau Prep Conductor resources programmatically, using HTTP.
   name: Tableau REST API
@@ -155,6 +162,7 @@ rules:
 skills: []
 slug: tableau
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Tableau\ndescription: Tableau is a visual analytics platform transforming the way we use data to solve problems—empowering people and organizations to make the most of their data.\nimage: https://www.tableau.com/sites/default/files/tableau_logo_800.png\ntags:\n  - Analytics\n  - Business Intelligence\n  - Dashboards\n  - Data Visualization\ncreated: '2024'\nmodified: '2026-04-18'\nurl: https://www.tableau.com\nspecificationVersion: '0.18'\napis:\n  - name: Tableau REST API\n    description: The Tableau REST API allows you to manage and change Tableau Server, Tableau Cloud site, and Tableau Prep Conductor resources programmatically, using HTTP.\n    image: https://www.tableau.com/sites/default/files/tableau_logo_800.png\n    humanURL: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm\n    baseURL: https://[server]/api/[api-version]\n    tags:\n      - Data Sources\n      - REST\n      - Server Management\n      - Sites\n      - Workbooks\n    properties:\n\
   \      - type: Documentation\n        url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api.htm\n      - type: OpenAPI\n        url: openapi/tableau-rest-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/tableau-workbook-schema.json\n      - type: JSONLD\n        url: json-ld/tableau-context.jsonld\n      - type: Authentication\n        url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_concepts_auth.htm\n      - type: Versioning\n        url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_concepts_versions.htm\n      - type: ChangeLog\n        url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_whats_new.htm\n      - type: GettingStarted\n        url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_get_started_tutorial_part_1.htm\n      - type: APIReference\n        url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref.htm\n      - type: CodeExamples\n  \
   \      url: https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_samples.htm\n      - type: SDK\n        url: https://tableau.github.io/server-client-python/\n      - type: GitHubRepository\n        url: https://github.com/tableau/rest-api-samples\n  - name: Tableau Metadata API\n    description: GraphQL-based API for querying metadata about Tableau content, data sources, and lineage information.\n    image: https://www.tableau.com/sites/default/files/tableau_logo_800.png\n    humanURL: https://help.tableau.com/current/api/metadata_api/en-us/index.html\n    baseURL: https://[server]/api/metadata/graphql\n    tags:\n      - Data Catalog\n      - GraphQL\n      - Lineage\n      - Metadata\n    properties:\n      - type: Documentation\n        url: https://help.tableau.com/current/api/metadata_api/en-us/index.html\n      - type: APIReference\n        url: https://help.tableau.com/current/api/metadata_api/en-us/reference/index.html\n      - type: CodeExamples\n        url: https://help.tableau.com/current/api/metadata_api/en-us/docs/use-cases.html\n\

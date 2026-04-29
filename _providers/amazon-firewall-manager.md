@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-firewall-manager-openapi.yml
+  format: yaml
+  label: AWS Firewall Manager API
+  slug: aws-firewall-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/openapi/amazon-firewall-manager-openapi.yml
 apis:
 - description: The AWS Firewall Manager API provides programmatic access to create and manage security policies, compliance status, and protection configurations for AWS WAF, Shield, and VPC security groups across y
   name: AWS Firewall Manager API
@@ -118,6 +125,7 @@ rules:
 skills: []
 slug: amazon-firewall-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-firewall-manager\nname: Amazon Firewall Manager\ndescription: >-\n  AWS Firewall Manager is a security management service that allows you to\n  centrally configure and manage firewall rules across your accounts and\n  applications in AWS Organizations. It makes it easier to bring new\n  applications and resources into compliance with security policies.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Compliance\n- Firewall\n- Network Security\n- Security\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-firewall-manager:aws-firewall-manager-api\n  name: AWS Firewall Manager API\n  description: >-\n    The AWS Firewall Manager API provides programmatic access to create and\n    manage security policies, compliance status, and protection configurations\n\
   \    for AWS WAF, Shield, and VPC security groups across your organization.\n  humanURL: https://aws.amazon.com/firewall-manager/\n  baseURL: https://fms.amazonaws.com\n  tags:\n  - Firewall Management\n  - Network Security\n  - Security\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/fms/latest/APIReference/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-firewall-manager-openapi.yml\n  - type: JSONSchema\n    url: json-schema/amazon-firewall-manager-policy-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-firewall-manager-compliance-violator-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-firewall-manager-resource-set-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-firewall-manager-security-service-policy-data-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-firewall-manager-tag-schema.json\n  - type: JSONStructure\n    url: json-structure/amazon-firewall-manager-policy-structure.json\n  -\
   \ type: JSONStructure\n    url: json-structure/amazon-firewall-manager-compliance-violator-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-firewall-manager-resource-set-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-firewall-manager-security-service-policy-data-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-firewall-manager-tag-structure.json\n  - type: Example\n    url: examples/amazon-firewall-manager-policy-example.json\n  - type: Example\n    url: examples/amazon-firewall-manager-compliance-violator-example.json\n  - type: Example\n    url: examples/amazon-firewall-manager-resource-set-example.json\n  - type: Example\n    url: examples/amazon-firewall-manager-security-service-policy-data-example.json\n  - type: Example\n    url: examples/amazon-firewall-manager-tag-example.json\n  - type: GettingStarted\n    url: https://aws.amazon.com/firewall-manager/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/firewall-manager/pricing/\n\

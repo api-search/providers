@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-compute-optimizer-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-openapi.yml
 apis:
 - description: The Amazon Compute Optimizer API provides 21 operations for analyzing resource utilization and generating rightsizing recommendations for EC2 instances, Auto Scaling groups, EBS volumes, Lambda functi
   name: Amazon Compute Optimizer API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-compute-optimizer
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-compute-optimizer\nname: Amazon Compute Optimizer\ndescription: >-\n  Amazon Compute Optimizer analyzes the configuration and utilization metrics of\n  your AWS resources and provides recommendations to help you identify optimal\n  AWS resource configurations. It uses machine learning to analyze historical\n  utilization metrics and generates rightsizing recommendations for EC2 instances,\n  Auto Scaling groups, EBS volumes, Lambda functions, ECS services on Fargate,\n  and RDS instances to help reduce costs and improve performance.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Cost Optimization\n  - FinOps\n  - Machine Learning\n  - Resource Recommendations\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - name: Amazon Compute Optimizer API\n  \
   \  description: >-\n      The Amazon Compute Optimizer API provides 21 operations for analyzing\n      resource utilization and generating rightsizing recommendations for EC2\n      instances, Auto Scaling groups, EBS volumes, Lambda functions, ECS services,\n      and RDS instances. Includes enrollment management and recommendation export\n      capabilities.\n    humanURL: https://aws.amazon.com/compute-optimizer/\n    baseURL: https://compute-optimizer.amazonaws.com\n    tags:\n      - AWS\n      - Cost Optimization\n      - FinOps\n      - Machine Learning\n      - Resource Recommendations\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/compute-optimizer/latest/ug/\n      - type: OpenAPI\n        url: openapi/amazon-compute-optimizer-openapi.yml\n      - type: APIReference\n        url: https://docs.aws.amazon.com/compute-optimizer/latest/APIReference/\n      - type: Pricing\n        url: https://aws.amazon.com/compute-optimizer/pricing/\n  \
   \    - type: GettingStarted\n        url: https://docs.aws.amazon.com/compute-optimizer/latest/ug/getting-started.html\n      - type: FAQ\n        url: https://aws.amazon.com/compute-optimizer/faqs/\n      - type: JSONSchema\n        url: json-schema/compute-optimizer-instance-recommendation-schema.json\n      - type: JSONStructure\n        url: json-structure/compute-optimizer-instance-recommendation-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-compute-optimizer-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/\n  - type: Website\n    url: https://aws.amazon.com/compute-optimizer/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/compute-optimizer/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/aws/\n  - type: GitHubOrganization\n\

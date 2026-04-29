@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-documentdb-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/openapi/amazon-documentdb-openapi.yml
 apis:
 - description: API for managing Amazon DocumentDB clusters, instances, parameter groups, subnet groups, snapshots, and related resources.
   name: Amazon DocumentDB API
@@ -125,6 +132,7 @@ rules:
 skills: []
 slug: amazon-documentdb
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon DocumentDB\ndescription: Amazon DocumentDB is a fully managed, MongoDB-compatible document database service that makes it easy to set up, operate, and scale MongoDB-compatible databases in the cloud. DocumentDB \n  is designed from the ground up to give you the performance, scalability, and availability you need when operating mission-critical MongoDB workloads at scale.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/documentdb/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\ntags:\n- Amazon Web Services\n- AWS\n- Database\n- Document Database\n- DocumentDB\n- Managed Database\n- MongoDB\n- NoSQL\napis:\n- name: Amazon DocumentDB API\n  description: API for managing Amazon DocumentDB clusters, instances, parameter groups, subnet groups, snapshots, and related resources.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/documentdb/\n\
   \  baseURL: https://rds.amazonaws.com\n  tags:\n  - AWS\n  - Database\n  - Document Database\n  - MongoDB\n  - NoSQL\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/documentdb/latest/developerguide/\n  - type: OpenAPI\n    url: openapi/amazon-documentdb-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/docdb/2014-10-31/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-documentdb-dbcluster-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-documentdb-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/documentdb/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/documentdb/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/documentdb/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/documentdb/latest/developerguide/API_Reference.html\n  - type: Authentication\n    url: https://docs.aws.amazon.com/documentdb/latest/developerguide/security.html\n\
   \  - type: RateLimits\n    url: https://docs.aws.amazon.com/documentdb/latest/developerguide/limits.html\n  - type: JSONStructure\n    url: json-structure/amazon-documentdb-dbcluster-structure.json\n  - type: Example\n    url: examples/amazon-documentdb-dbcluster-example.json\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: DeveloperPortal\n  url: https://aws.amazon.com/developer/\n- type: Documentation\n  url: https://docs.aws.amazon.com/documentdb/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/support/\n- type: Blog\n  url: https://aws.amazon.com/blogs/database/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/docdb/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n\

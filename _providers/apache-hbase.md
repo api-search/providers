@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-hbase-rest-openapi.yml
+  format: yaml
+  label: Apache HBase REST API
+  slug: apache-hbase-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/openapi/apache-hbase-rest-openapi.yml
 apis:
 - description: REST API (Stargate) for Apache HBase distributed NoSQL database, providing table management, row and cell operations, and table scanning via HTTP with JSON or XML encoding.
   name: Apache HBase REST API
@@ -84,6 +91,7 @@ rules:
 skills: []
 slug: apache-hbase
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-hbase\nname: Apache HBase\ndescription: >-\n  Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable. It provides random, real-time read/write access to big data and runs on top of Apache Hadoop HDFS, offering a REST API (Stargate), Thrift API, and Java client API for table and cell-level operations.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - Big Data\n  - Bigtable\n  - Database\n  - Hadoop\n  - NoSQL\n  - Open Source\n  - Wide Column\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-hbase:apache-hbase-rest-api\n    name: Apache HBase REST API\n    description: >-\n      REST API (Stargate) for Apache HBase distributed NoSQL database, providing\
   \ table management, row and cell operations, and table scanning via HTTP with JSON or XML encoding.\n    humanURL: https://hbase.apache.org/book.html#_rest\n    baseURL: http://localhost:8080\n    tags:\n      - Cells\n      - NoSQL\n      - REST\n      - Rows\n      - Tables\n    properties:\n      - type: Documentation\n        url: https://hbase.apache.org/book.html#_rest\n      - type: OpenAPI\n        url: openapi/apache-hbase-rest-openapi.yml\n      - type: JSONSchema\n        url: json-schema/hbase-rest-tableschema-schema.json\n      - type: JSON-LD\n        url: json-ld/apache-hbase-rest-context.jsonld\n\n  - aid: apache-hbase:apache-hbase-java-api\n    name: Apache HBase Java Client API\n    description: >-\n      Java client API for all HBase data operations including table administration, filters, coprocessors, batch operations, and async client for high-throughput workloads.\n    humanURL: https://hbase.apache.org/apidocs/\n    tags:\n      - Java\n      - NoSQL\n      - SDK\n\
   \    properties:\n      - type: Documentation\n        url: https://hbase.apache.org/apidocs/\n      - type: SDK\n        url: https://search.maven.org/artifact/org.apache.hbase/hbase-client\n        title: Java SDK (Maven Central)\n\ncommon:\n  - type: Documentation\n    url: https://hbase.apache.org/book.html\n  - type: GettingStarted\n    url: https://hbase.apache.org/book.html#quickstart\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/hbase\n  - type: SpectralRules\n    url: rules/apache-hbase-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-hbase-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/hbase-data-access.yaml\n  - type: Features\n    data:\n      - name: Wide-Column NoSQL Storage\n        description: Store sparse, semi-structured data in a distributed wide-column table model inspired by Google Bigtable.\n      - name: REST API (Stargate)\n        description:\

@@ -1,5 +1,12 @@
 ---
 api_count: 10
+api_specs:
+- filename: perforce-helix-swarm-openapi.yml
+  format: yaml
+  label: Perforce Helix Swarm API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-helix-swarm-openapi.yml
 apis:
 - description: REST API for Helix Core version control system, providing programmatic access to repository operations, file management, and versioning capabilities.
   name: Perforce Helix Core API
@@ -115,6 +122,7 @@ rules:
 skills: []
 slug: perforce
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: perforce\nname: Perforce\ndescription: Perforce Software provides enterprise-scale development tools, including version control, application lifecycle management, agile planning, and static analysis solutions for development teams.\nimage: https://www.perforce.com/sites/default/files/perforce-logo.png\nurl: https://www.perforce.com\ntype: Index\nposition: Consumer\naccess: 3rd-Party\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\napis:\n  - name: Perforce Helix Core API\n    description: REST API for Helix Core version control system, providing programmatic access to repository operations, file management, and versioning capabilities.\n    image: https://www.perforce.com/sites/default/files/helix-core-icon.png\n    humanURL: https://www.perforce.com/products/helix-core\n    baseURL: https://api.perforce.com/helix-core/v1\n    tags:\n      - DevOps\n      - SCM\n      - Source Control\n      - Version Control\n    properties:\n      - type:\
   \ Documentation\n        url: https://www.perforce.com/manuals/p4api/\n      - type: OpenAPI\n        url: https://api.perforce.com/helix-core/openapi.json\n      - type: Authentication\n        url: https://www.perforce.com/manuals/p4api/Content/P4API/authentication.html\n      - type: GettingStarted\n        url: https://www.perforce.com/products/helix-core/learning-resources\n  - name: Perforce P4 REST API\n    description: Technology Preview REST API introduced with P4 Server 2025.2, providing a new way to automate workflows and integrate P4 with other tools via standard HTTP endpoints for server info, depots, files, and changelists.\n    image: https://www.perforce.com/sites/default/files/helix-core-icon.png\n    humanURL: https://help.perforce.com/helix-core/server-apps/p4sag/current/Content/P4SAG/p4-rest-api.html\n    baseURL: https://p4server.example.com/api/v0\n    tags:\n      - Automation\n      - DevOps\n      - REST API\n      - Version Control\n    properties:\n      - type:\
   \ Documentation\n        url: https://help.perforce.com/helix-core/server-apps/p4sag/current/Content/P4SAG/p4-rest-api.html\n      - type: ChangeLog\n        url: https://help.perforce.com/helix-core/server-apps/cmdref/2025.2/Content/CmdRef/whats-new-2025-2.html\n  - name: Perforce Helix Swarm API\n    description: REST API for Helix Swarm code review and collaboration platform, enabling automated code review workflows and team collaboration.\n    image: https://www.perforce.com/sites/default/files/helix-swarm-icon.png\n    humanURL: https://www.perforce.com/products/helix-swarm\n    baseURL: https://swarm.example.com/api/v10\n    tags:\n      - Code Review\n      - Collaboration\n      - Workflow\n    properties:\n      - type: Documentation\n        url: https://www.perforce.com/manuals/swarm/Content/Swarm/swarm-apidoc.html\n      - type: APIReference\n        url: https://www.perforce.com/manuals/swarm/api/index.html\n      - type: Authentication\n        url: https://www.perforce.com/manuals/swarm/Content/Swarm/swarm-apidoc_endpoints.html\n\

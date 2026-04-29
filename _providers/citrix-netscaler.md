@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: citrix-netscaler-nitro-openapi.yml
+  format: yaml
+  label: Citrix ADC (NetScaler) NITRO API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/openapi/citrix-netscaler-nitro-openapi.yml
 apis:
 - description: The NITRO API provides programmatic access to configure and monitor NetScaler appliances. It supports REST-based operations for comprehensive management of ADC features including load balancing, conte
   name: Citrix ADC (NetScaler) NITRO API
@@ -109,6 +116,7 @@ rules:
 skills: []
 slug: citrix-netscaler
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Citrix NetScaler\nsegments:\n  - Gateways\ndescription: Citrix NetScaler is an application delivery controller (ADC) that provides load balancing, traffic management, application security, and application acceleration capabilities for web applications and services.\nimage: https://www.citrix.com/content/dam/citrix/en_us/images/logos/citrix-logo.svg\nurl: https://www.citrix.com/products/citrix-adc/\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.16'\ntags:\n  - API Gateway\n  - Application Delivery Controller\n  - Application Security\n  - Load Balancing\n  - SSL Offloading\n  - Traffic Management\n  - Web Application Firewall\napis:\n  - name: Citrix ADC (NetScaler) NITRO API\n    description: The NITRO API provides programmatic access to configure and monitor NetScaler appliances. It supports REST-based operations for comprehensive management of ADC features including load balancing, content switching, SSL, and more.\n    image: https://www.citrix.com/content/dam/citrix/en_us/images/logos/citrix-logo.svg\n\
   \    humanURL: https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release.html\n    baseURL: https://<netscaler-ip>/nitro/v1\n    tags:\n      - Automation\n      - Configuration\n      - Monitoring\n      - REST API\n    properties:\n      - type: Documentation\n        url: https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release.html\n      - type: OpenAPI\n        url: openapi/citrix-netscaler-nitro-openapi.yml\n      - type: JSONSchema\n        url: json-schema/citrix-netscaler-vserver-schema.json\n      - type: JSONLD\n        url: json-ld/citrix-netscaler-context.jsonld\n      - type: OpenAPI\n        url: https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release/api-reference.html\n      - type: Authentication\n        url: https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release/performing-basic-netscaler-operations.html\n      - type: GettingStarted\n        url: https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release/before-you-begin.html\n\
   \      - type: SDK\n        url: https://www.citrix.com/downloads/citrix-adc/sdks/\n      - type: ChangeLog\n        url: https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release/nitro-changes-across-releases/\n    contact:\n      - type: Support\n        url: https://support.citrix.com/\n      - type: DeveloperPortal\n        url: https://developer-docs.netscaler.com/\n  - name: NetScaler ADM NITRO API\n    description: The NetScaler Application Delivery Management (ADM) NITRO API provides programmatic access to manage, monitor, and orchestrate multiple NetScaler instances from a centralized platform, covering analytics, configuration audit, and system management.\n    image: https://www.citrix.com/content/dam/citrix/en_us/images/logos/citrix-logo.svg\n    humanURL: https://developer-docs.netscaler.com/en-us/citrix-adm-nitro-api-reference/\n    baseURL: https://<adm-ip>/nitro/v1\n    tags:\n      - Analytics\n      - Management\n      - Orchestration\n      - REST API\n\

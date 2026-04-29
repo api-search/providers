@@ -1,5 +1,24 @@
 ---
 api_count: 12
+api_specs:
+- filename: boomi-platform-rest-api-openapi.yml
+  format: yaml
+  label: Boomi Platform REST API
+  slug: platform-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-platform-rest-api-openapi.yml
+- filename: boomi-datahub-api-openapi.yml
+  format: yaml
+  label: Boomi DataHub API
+  slug: datahub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-datahub-api-openapi.yml
+- filename: boomi-event-streams-openapi.yml
+  format: yaml
+  label: Boomi Event Streams REST API
+  slug: event-streams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/openapi/boomi-event-streams-openapi.yml
 apis:
 - description: Boomi API Management supports the full lifecycle of APIs in any environment. Configure APIs and expose real-time integrations effortlessly.
   name: Boomi
@@ -571,6 +590,7 @@ name: Boomi
 skills: []
 slug: boomi
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: boomi\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/apis.yml\napis:\n  - aid: boomi:boomi\n    name: Boomi\n    tags: []\n    humanURL: https://boomi.com/platform/api-management/\n    properties:\n      - url: https://boomi.com/platform/api-management/\n        type: Documentation\n    description: >-\n      Boomi API Management supports the full lifecycle of APIs in any\n      environment. Configure APIs and expose real-time integrations\n      effortlessly.\n  - aid: boomi:platform-rest-api\n    name: Boomi Platform REST API\n    tags:\n      - Integration\n      - Platform\n      - REST\n    humanURL: https://developer.boomi.com/docs/APIs/PlatformAPI/Introduction/Platform_API\n    properties:\n      - url: https://developer.boomi.com/docs/APIs/PlatformAPI/Introduction/Platform_API\n        type: Documentation\n      - url: https://developer.boomi.com/docs/APIs/PlatformAPI/APIReference/Platform_APIs_Overview\n        type: APIReference\n\
   \      - url: https://developer.boomi.com/docs/category/platform-rest-api-reference\n        type: APIReference\n      - url: https://developer.boomi.com/docs/APIs/PlatformAPI/Introduction/OpenAPI_3_0\n        type: OpenAPI\n      - url: https://developer.boomi.com/docs/category/introduction-to-boomi-platform-apis\n        type: GettingStarted\n      - url: openapi/boomi-platform-rest-api-openapi.yml\n        type: OpenAPI\n      - url: json-schema/boomi-process-schema.json\n        type: JSONSchema\n    description: >-\n      The Boomi Platform REST API provides programmatic access to the Boomi\n      Enterprise Platform functionality. It allows for control of many objects\n      associated with your account including account administration, cloud\n      management, component management, deployment, environment management,\n      execution statistics, integration packs, process execution, and runtime\n      management.\n  - aid: boomi:platform-partner-api\n    name: Boomi Platform Partner\
   \ API\n    tags:\n      - Partners\n      - Platform\n      - REST\n    humanURL: https://developer.boomi.com/api/platformpartnerapi\n    properties:\n      - url: https://developer.boomi.com/api/platformpartnerapi\n        type: Documentation\n      - url: https://developer.boomi.com/docs/APIs/PlatformPartnerAPI/APIReference/Platform_Partner_APIs_Overview\n        type: APIReference\n      - url: https://developer.boomi.com/docs/APIs/PlatformAPI/Introduction/OpenAPI_3_0\n        type: OpenAPI\n    description: >-\n      The Boomi Platform Partner API provides partners with programmatic access\n      to the secondary accounts that they manage. It builds upon the standard\n      Boomi Enterprise Platform API with additional capabilities including\n      account CREATE and DELETE operations and account provisioning.\n  - aid: boomi:api-management-api\n    name: Boomi API Management API\n    tags:\n      - API Management\n      - GraphQL\n      - REST\n      - SOAP\n    humanURL: https://help.boomi.com/docs/Atomsphere/API%20Management/Topics/r-api-API_Management_APIs_4307dcc3-1662-4e2a-9a82-d03ca043f340\n\

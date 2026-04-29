@@ -1,5 +1,24 @@
 ---
 api_count: 10
+api_specs:
+- filename: active-directory-users-openapi.yaml
+  format: yaml
+  label: Microsoft Graph Users API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-users-openapi.yaml
+- filename: active-directory-groups-openapi.yaml
+  format: yaml
+  label: Microsoft Graph Groups API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-groups-openapi.yaml
+- filename: active-directory-applications-openapi.yaml
+  format: yaml
+  label: Microsoft Graph Applications and Service Principals API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-applications-openapi.yaml
 apis:
 - description: Manage the entire lifecycle of users in Microsoft Entra ID, including creating, reading, updating, and deleting user accounts, managing licenses, group memberships, authentication methods, and profile
   name: Microsoft Graph Users API
@@ -164,6 +183,7 @@ rules:
 skills: []
 slug: active-directory
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Microsoft Active Directory\ndescription: >-\n  Microsoft Active Directory and Microsoft Entra ID provide identity and access management\n  for organizations of all sizes. Microsoft Graph API is the unified REST API gateway\n  for accessing and managing Microsoft Entra ID (formerly Azure Active Directory), including\n  users, groups, applications, devices, conditional access policies, identity governance,\n  and directory administration. Legacy on-premises Active Directory is managed through LDAP,\n  Kerberos, and PowerShell protocols; cloud identity is managed through Microsoft Graph.\nimage: https://learn.microsoft.com/en-us/entra/media/index/active-directory.svg\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\ntags:\n  - Active Directory\n  - Authentication\n  - Authorization\n  - Directory Services\n  - Identity Management\n  - Microsoft Entra\n  - Zero Trust\napis:\n  - name: Microsoft Graph Users API\n    description: >-\n      Manage\
   \ the entire lifecycle of users in Microsoft Entra ID, including creating,\n      reading, updating, and deleting user accounts, managing licenses, group memberships,\n      authentication methods, and profile photos. Supports both v1.0 and beta endpoints.\n    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/users\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n      - Directory Services\n      - Identity Management\n      - Users\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/graph/api/resources/users\n      - type: OpenAPI\n        url: openapi/active-directory-users-openapi.yaml\n      - type: JSONSchema\n        url: json-schema/users-user-schema.json\n      - type: JSONSchema\n        url: json-schema/users-password-profile-schema.json\n      - type: JSONStructure\n        url: json-structure/users-user-structure.json\n      - type: Example\n        url: examples/users-user-example.json\n      - type: NaftikoCapability\n\
   \        url: capabilities/shared/active-directory-users.yaml\n\n  - name: Microsoft Graph Groups API\n    description: >-\n      Create and manage Microsoft Entra security groups, Microsoft 365 groups, and\n      distribution lists. Manage group memberships, owners, and settings. Groups\n      enable efficient entitlement management for users, licensing, and resource access.\n    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/groups-overview\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n      - Directory Services\n      - Groups\n      - Identity Management\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/graph/api/resources/groups-overview\n      - type: OpenAPI\n        url: openapi/active-directory-groups-openapi.yaml\n      - type: JSONSchema\n        url: json-schema/groups-group-schema.json\n      - type: JSONStructure\n        url: json-structure/groups-group-structure.json\n      - type: Example\n     \

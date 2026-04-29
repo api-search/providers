@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: at-t-developer-hub-network-insights-api.yaml
+  format: yaml
+  label: AT&T Network Insights API
+  slug: att-network-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-network-insights-api.yaml
+- filename: at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
+  format: yaml
+  label: AT&T Mobility Threat and Anomaly Detection API
+  slug: att-mobility-threat-anomaly-detection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
+- filename: at-t-developer-hub-sim-swap-api.yaml
+  format: yaml
+  label: AT&T SIM Swap API
+  slug: att-sim-swap-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-sim-swap-api.yaml
+- filename: at-t-developer-hub-device-status-api.yaml
+  format: yaml
+  label: AT&T Device Status API
+  slug: att-device-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-device-status-api.yaml
+- filename: at-t-developer-hub-quality-on-demand-api.yaml
+  format: yaml
+  label: AT&T Quality on Demand API
+  slug: att-quality-on-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-quality-on-demand-api.yaml
+- filename: at-t-developer-hub-number-verification-api.yaml
+  format: yaml
+  label: AT&T Number Verification API
+  slug: att-number-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/openapi/at-t-developer-hub-number-verification-api.yaml
 apis:
 - description: Delivers performance metrics and device-level network data, providing developers with insights into network conditions, signal quality, and performance indicators for connected devices on the AT&T net
   name: AT&T Network Insights API
@@ -125,6 +162,7 @@ rules:
 skills: []
 slug: at-t-developer-hub
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: at-t-developer-hub\nname: AT&T Developer Hub\ndescription: >-\n  The AT&T Developer Hub provides access to cutting-edge network APIs including\n  5G, edge computing, and CAMARA industry-standard APIs. The Network API\n  Accelerator Program offers early adopters pre-release, invite-only access to\n  network capabilities spanning device status, SIM swap detection, number\n  verification, quality of service on demand, network insights, and mobility\n  threat detection. AT&T's network APIs enable developers to build advanced\n  applications leveraging the U.S. mobile network for authentication, fraud\n  prevention, performance optimization, and security.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - 5G\n  - Network APIs\n  - CAMARA\n  - Connectivity\n  - Telecommunications\n  - Edge Computing\n  - Device Status\n  - SIM Swap\nurl: https://raw.githubusercontent.com/api-evangelist/at-t-developer-hub/refs/heads/main/apis.yml\n\
   created: '2025-05-02'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: at-t-developer-hub:att-network-insights-api\n    name: AT&T Network Insights API\n    description: >-\n      Delivers performance metrics and device-level network data, providing\n      developers with insights into network conditions, signal quality, and\n      performance indicators for connected devices on the AT&T network.\n    humanURL: https://devex-web.att.com/developer-hub/\n    baseURL: https://api.att.com\n    tags:\n      - Network Performance\n      - Metrics\n      - 5G\n      - Monitoring\n    properties:\n      - type: Documentation\n        url: https://devex-web.att.com/developer-hub/\n      - type: GettingStarted\n        url: https://devex-web.att.com/developer-hub/docs/network-api-accelerator-program\n      - type: OpenAPI\n        url: openapi/at-t-developer-hub-network-insights-api.yaml\n  - aid: at-t-developer-hub:att-mobility-threat-anomaly-detection-api\n    name: AT&T\
   \ Mobility Threat and Anomaly Detection API\n    description: >-\n      Uses machine learning to identify threats and unusual activity on mobile\n      devices on the AT&T network. Provides real-time threat detection signals\n      to applications for enhanced security, fraud prevention, and anomaly\n      detection across subscriber devices.\n    humanURL: https://devex-web.att.com/developer-hub/\n    baseURL: https://api.att.com\n    tags:\n      - Security\n      - Fraud Detection\n      - Machine Learning\n      - Anomaly Detection\n      - Threat Intelligence\n    properties:\n      - type: Documentation\n        url: https://devex-web.att.com/developer-hub/\n      - type: GettingStarted\n        url: https://devex-web.att.com/developer-hub/docs/network-api-accelerator-program\n      - type: OpenAPI\n        url: openapi/at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml\n  - aid: at-t-developer-hub:att-sim-swap-api\n    name: AT&T SIM Swap API\n    description: >-\n  \

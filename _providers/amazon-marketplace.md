@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-marketplace-openapi-original.yaml
+  format: yaml
+  label: AWS Marketplace Catalog API
+  slug: aws-marketplace-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-openapi-original.yaml
 apis:
 - description: The AWS Marketplace Catalog API provides programmatic access to manage entities and change sets for publishing and updating software products, data products, and machine learning products on AWS Marke
   name: AWS Marketplace Catalog API
@@ -101,6 +108,7 @@ rules:
 skills: []
 slug: amazon-marketplace
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-marketplace\nname: Amazon Marketplace\ndescription: >-\n  AWS Marketplace is a curated digital catalog that makes it easy to find,\n  buy, deploy, and manage third-party software, data, and services that run\n  on AWS. It offers thousands of software listings from independent software\n  vendors. The Marketplace Catalog API enables programmatic management of\n  marketplace entities including products, offers, and data products through\n  change sets and entity description operations.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Commerce\n  - ISV\n  - Marketplace\n  - Software Catalog\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-marketplace:aws-marketplace-catalog-api\n    name: AWS Marketplace Catalog API\n    description: >-\n      The\
   \ AWS Marketplace Catalog API provides programmatic access to manage\n      entities and change sets for publishing and updating software products,\n      data products, and machine learning products on AWS Marketplace. Covers\n      13 operations for entity discovery, change set lifecycle management,\n      resource policies, and resource tagging.\n    humanURL: https://aws.amazon.com/marketplace/\n    baseURL: https://catalog.marketplace.amazonaws.com\n    tags:\n      - Commerce\n      - ISV\n      - Marketplace\n      - Software Catalog\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/marketplace-catalog/latest/api-reference/welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-marketplace-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/marketplace/management/portal/\n      - type: Pricing\n        url: https://aws.amazon.com/marketplace/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/marketplace/help/\n\
   \      - type: JSONSchema\n        url: json-schema/amazon-marketplace-change-set-summary-list-item-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-marketplace-change-set-summary-list-item-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-marketplace-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/marketplace/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/marketplace/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/awsmarketplace/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/marketplace/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n\

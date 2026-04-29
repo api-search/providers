@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-monitron-openapi-original.yml
+  format: yaml
+  label: Amazon Monitron API
+  slug: monitron-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-openapi-original.yml
 apis:
 - description: Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal behavior in industrial machinery. It includes sensors, a gateway, and the Monitron mobile app to enable predictive
   name: Amazon Monitron API
@@ -94,6 +101,7 @@ rules:
 skills: []
 slug: amazon-monitron
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-monitron\nname: Amazon Monitron\ndescription: Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal behavior in industrial machinery. It includes sensors, a gateway, and the Monitron mobile app to \n  enable predictive maintenance and reduce unplanned downtime.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Broadcasting\n- Media Processing\n- Media\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-monitron:monitron-api\n  name: Amazon Monitron API\n  description: Amazon Monitron is an end-to-end system that uses machine learning to detect abnormal behavior in industrial machinery. It includes sensors, a gateway, and the Monitron mobile app to \n    enable predictive maintenance and reduce unplanned downtime.\n  humanURL: https://aws.amazon.com/monitron/\n\
   \  baseURL: https://monitron.us-east-1.amazonaws.com\n  tags:\n  - Broadcasting\n  - Media Processing\n  - Media\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/monitron/\n  - type: OpenAPI\n    url: openapi/amazon-monitron-openapi-original.yml\n  - type: GettingStarted\n    url: https://aws.amazon.com/monitron/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/monitron/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/monitron/faqs/\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/monitron/\n- type: Documentation\n  url: https://docs.aws.amazon.com/monitron/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/media/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/monitron/\n\
   - type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: SpectralRules\n  url: rules/amazon-monitron-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-monitron-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/amazon-monitron-media-workflow.yaml\n- type: Features\n  data:\n  - name: ML-Based Anomaly Detection\n    description: Machine learning models trained on industrial machinery data to detect abnormal behavior automatically.\n  - name: Project Management\n    description: Organize machine monitoring deployments into projects with access control.\n  - name: End-to-End System\n    description: Integrated hardware sensors, gateway, cloud processing, and mobile app in one solution.\n  - name: Predictive Maintenance\n    description: Identify potential equipment failures before they occur to schedule proactive\

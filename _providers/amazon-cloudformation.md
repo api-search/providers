@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-cloudformation-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-openapi.yml
 apis:
 - description: API for creating, updating, and managing CloudFormation stacks, stack sets, and change sets for infrastructure-as-code deployments across AWS accounts and regions.
   name: Amazon CloudFormation API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-cloudformation
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-cloudformation\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/apis.yml\nname: Amazon CloudFormation\ntags:\n- AWS\n- CloudFormation\n- Infrastructure as Code\n- DevOps\n- IaC\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  AWS CloudFormation is an infrastructure-as-code service that speeds up cloud provisioning by enabling developers to define and manage AWS resources programmatically through templates. Scale infrastructure\n  globally and manage resources across all AWS accounts and regions through a single operation.\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- name: Amazon CloudFormation API\n  description: API for creating, updating, and managing CloudFormation stacks, stack sets, and change sets for infrastructure-as-code deployments across AWS accounts and regions.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n\
   \  humanURL: https://aws.amazon.com/cloudformation/\n  baseURL: https://cloudformation.us-east-1.amazonaws.com\n  tags:\n  - AWS\n  - CloudFormation\n  - Infrastructure as Code\n  - DevOps\n  properties:\n  - type: OpenAPI\n    url: openapi/amazon-cloudformation-openapi.yml\n  - type: Documentation\n    url: https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/\n  - type: GettingStarted\n    url: https://aws.amazon.com/cloudformation/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/cloudformation/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/cloudformation/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/\n  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/cloudformation/\n  - type: JSONSchema\n    url: json-schema/cloudformation-stack-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudformation-change-set-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudformation-stack-resource-schema.json\n\
   \  - type: JSONSchema\n    url: json-schema/cloudformation-parameter-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudformation-output-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-cloudformation-context.jsonld\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/cloudformation/\n- type: Documentation\n  url: https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/devops/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/cloudformation/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type:\

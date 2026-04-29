@@ -1,5 +1,12 @@
 ---
 api_count: 15
+api_specs:
+- filename: moodys-data-buffet-api-openapi.yml
+  format: yaml
+  label: Moody's Data Buffet API
+  slug: data-buffet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-data-buffet-api-openapi.yml
 apis:
 - description: With evolving regulatory pressures and bad actors becoming increasingly adept at concealing themselves, the need for deep understanding of business partners, customers, and other third parties is more
   name: Moody's KYC API
@@ -141,6 +148,7 @@ rules:
 skills: []
 slug: moodys
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: moodys\nurl: https://github.com/api-search/moodys/apis.yml\napis:\n  - aid: moodys:moodys\n    name: Moody's KYC API\n    tags:\n      - Anti-Money Laundering\n      - Compliance\n      - Entity Verification\n      - KYC\n      - Risk\n      - Screening\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://www.kompany.com/kycapi/discover\n    properties:\n      - url: https://www.kompany.com/kycapi/console-v2\n        type: Documentation\n      - url: >2-\n\n          https://www.kompany.com/kycapi/docs/resources/resources/customer-facing-documents/generate-a-client-from-openapi-definition\n        type: OpenAPI\n    description: \"With evolving regulatory pressures and bad actors becoming increasingly adept at concealing themselves, the need for deep understanding of business partners, customers, and other third parties is more critical than ever to mitigate reputational damage and risk exposure. Moody\\x19 s KYC\
   \ technology, data, and analytical capabilities provide industry-leading customer solutions for Know Your Customer, anti-money laundering, compliance, and counter-party risk.\"\n  - aid: moodys:data-buffet-api\n    name: Moody's Data Buffet API\n    tags:\n      - Demographics\n      - Economic Data\n      - Forecasts\n      - Time Series\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.economy.com\n    contact:\n      - FN: API Evangelist\n        email: kin@apievangelist.com\n    humanURL: https://www.economy.com/products/tools/data-buffet\n    properties:\n      - url: https://api.economy.com/data/v1/swagger\n        type: Documentation\n      - url: https://github.com/moodysanalytics/databuffet-api-codesamples\n        type: GitHubOrganization\n      - url: openapi/moodys-data-buffet-api-openapi.yml\n        type: OpenAPI\n      - url: json-schema/moodys-time-series-schema.json\n        type: JSONSchema\n      - url: json-ld/moodys-context.jsonld\n\
   \        type: JSONLD\n    description: >-\n      Moody's Analytics Data Buffet application program interface enables you to\n      retrieve economic, demographic and financial time series directly from the\n      Data Buffet repository, including international and subnational economic\n      and demographic time series data and forecasts.\n  - aid: moodys:scenario-studio-api\n    name: Moody's Scenario Studio API\n    tags:\n      - Economic Models\n      - Forecasting\n      - Macroeconomic\n      - Scenarios\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.economy.com\n    contact:\n      - FN: API Evangelist\n        email: kin@apievangelist.com\n    humanURL: https://hub.moodysanalytics.com/products\n    properties:\n      - url: https://api.economy.com/scenario-studio/v2/swagger\n        type: Documentation\n      - url: https://github.com/moodysanalytics/scenario-studio-api-codesamples\n        type: GitHubOrganization\n\

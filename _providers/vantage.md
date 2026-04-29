@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: vantage-cost-management-api-openapi.yml
+  format: yaml
+  label: Vantage Cost Management API
+  slug: cost-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/openapi/vantage-cost-management-api-openapi.yml
+- filename: vantage-cloud-pricing-api-openapi.yml
+  format: yaml
+  label: Vantage Cloud Pricing API
+  slug: cloud-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/openapi/vantage-cloud-pricing-api-openapi.yml
 apis:
 - description: The Vantage Cost Management API (v2) provides programmatic access to cloud cost data and enables automation of cost management workflows. Create and manage Cost Reports, Folders, Dashboards, Saved Fil
   name: Vantage Cost Management API
@@ -126,6 +139,7 @@ rules:
 skills: []
 slug: vantage
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: vantage\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/apis.yml\napis:\n  - aid: vantage:cost-management-api\n    name: Vantage Cost Management API\n    tags:\n      - Anomaly Detection\n      - Budgets\n      - Cloud Costs\n      - Cost Reports\n      - Dashboards\n      - FinOps\n    humanURL: https://docs.vantage.sh/api\n    properties:\n      - url: https://vantage.readme.io/reference/general\n        type: Documentation\n      - url: openapi/vantage-cost-management-api-openapi.yml\n        type: OpenAPI\n      - url: https://api.vantage.sh/v2/oas_v3.json\n        type: OpenAPI\n      - url: https://api.vantage.sh/v2/swagger.json\n        type: OpenAPI\n      - url: json-schema/cost-report.json\n        type: JSONSchema\n      - url: json-schema/cost.json\n        type: JSONSchema\n      - url: json-schema/folder.json\n        type: JSONSchema\n      - url: json-schema/dashboard.json\n        type: JSONSchema\n      - url: json-schema/saved-filter.json\n\
   \        type: JSONSchema\n      - url: json-schema/workspace.json\n        type: JSONSchema\n      - url: json-schema/team.json\n        type: JSONSchema\n      - url: json-schema/access-grant.json\n        type: JSONSchema\n      - url: json-schema/budget-alert.json\n        type: JSONSchema\n      - url: json-schema/anomaly-alert.json\n        type: JSONSchema\n      - url: json-schema/recommendation.json\n        type: JSONSchema\n      - url: json-schema/segment.json\n        type: JSONSchema\n      - url: json-schema/integration.json\n        type: JSONSchema\n      - url: json-schema/managed-account.json\n        type: JSONSchema\n      - url: json-schema/cost-provider.json\n        type: JSONSchema\n      - url: json-schema/business-metric.json\n        type: JSONSchema\n      - url: json-schema/resource-report.json\n        type: JSONSchema\n      - url: json-schema/resource.json\n        type: JSONSchema\n      - url: json-schema/network-flow-report.json\n        type: JSONSchema\n\
   \      - url: json-schema/financial-commitment-report.json\n        type: JSONSchema\n      - url: json-schema/kubernetes-efficiency-report.json\n        type: JSONSchema\n      - url: json-ld/vantage-context.jsonld\n        type: JSONLD\n    description: >-\n      The Vantage Cost Management API (v2) provides programmatic access to cloud\n      cost data and enables automation of cost management workflows. Create and\n      manage Cost Reports, Folders, Dashboards, Saved Filters, Teams, Budgets,\n      Anomaly Alerts, Business Metrics, Network Flow Reports, Financial\n      Commitment Reports, Resource Reports, Segments, Integrations, and more.\n      Supports the Vantage Query Language (VQL) for filtering cost data across\n      multiple cloud providers.\n    baseURL: https://api.vantage.sh/v2\n  - aid: vantage:cloud-pricing-api\n    name: Vantage Cloud Pricing API\n    tags:\n      - AWS\n      - Azure\n      - Cloud Pricing\n      - GCP\n      - Infrastructure Pricing\n    humanURL:\

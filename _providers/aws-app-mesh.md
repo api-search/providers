@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: aws-app-mesh-openapi.yaml
+  format: yaml
+  label: AWS App Mesh API
+  slug: aws-app-mesh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-openapi.yaml
 apis:
 - description: API for creating and managing App Mesh service meshes, virtual services, virtual nodes, virtual routers, routes, and gateway routes. The service is based on Envoy proxy and provides service discovery,
   name: AWS App Mesh API
@@ -180,6 +187,7 @@ rules:
 skills: []
 slug: aws-app-mesh
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: aws-app-mesh\nname: AWS App Mesh\ndescription: >-\n  AWS App Mesh is a service mesh based on the Envoy proxy that provides\n  application-level networking to make it easy for services to communicate with\n  each other across multiple types of compute infrastructure including Amazon\n  ECS, EKS, EC2, and Fargate. App Mesh standardizes service communication,\n  giving end-to-end visibility and helping ensure high availability. Note: AWS\n  App Mesh is deprecated; Amazon ECS Service Connect is the recommended\n  replacement for new workloads.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Deprecated\n  - Envoy\n  - Microservices\n  - Networking\n  - Service Mesh\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: aws-app-mesh:aws-app-mesh-api\n    name: AWS App Mesh\
   \ API\n    description: >-\n      API for creating and managing App Mesh service meshes, virtual services,\n      virtual nodes, virtual routers, routes, and gateway routes. The service\n      is based on Envoy proxy and provides service discovery, traffic routing,\n      and observability for microservices.\n    humanURL: https://aws.amazon.com/app-mesh/\n    baseURL: https://appmesh.amazonaws.com\n    tags:\n      - Deprecated\n      - Envoy\n      - Microservices\n      - Networking\n      - Service Mesh\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/app-mesh/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/aws-app-mesh-openapi.yaml\n      - type: APIReference\n        url: https://docs.aws.amazon.com/app-mesh/latest/APIReference/Welcome.html\n      - type: Authentication\n        url: https://docs.aws.amazon.com/app-mesh/latest/userguide/security-iam.html\n      - type: Quickstart\n        url: https://docs.aws.amazon.com/app-mesh/latest/userguide/getting-started-ecs.html\n\
   \      - type: Documentation\n        url: https://aws.amazon.com/blogs/containers/migrating-from-aws-app-mesh-to-amazon-ecs-service-connect/\n        title: Migration Guide to ECS Service Connect\ncommon:\n  - type: Website\n    url: https://aws.amazon.com/app-mesh/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/app-mesh/\n  - type: GettingStarted\n    url: https://docs.aws.amazon.com/app-mesh/latest/userguide/getting_started.html\n  - type: Pricing\n    url: https://aws.amazon.com/app-mesh/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/app-mesh/faqs/\n  - type: Authentication\n    url: https://docs.aws.amazon.com/app-mesh/latest/userguide/security-iam.html\n  - type: Console\n    url: https://console.aws.amazon.com/appmesh/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: StatusPage\n    url:\

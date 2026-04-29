@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-managed-grafana-openapi-original.yaml
+  format: yaml
+  label: Amazon Managed Grafana API
+  slug: amazon-managed-grafana-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-openapi-original.yaml
 apis:
 - description: The Amazon Managed Grafana API provides programmatic access to create and manage Grafana workspaces, users, SAML configurations, and workspace API keys for managed Grafana deployments. Covers workspac
   name: Amazon Managed Grafana API
@@ -105,6 +112,7 @@ rules:
 skills: []
 slug: amazon-managed-grafana
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-managed-grafana\nname: Amazon Managed Grafana\ndescription: >-\n  Amazon Managed Grafana is a fully managed service for open source Grafana\n  developed in collaboration with Grafana Labs. It enables interactive data\n  visualizations and dashboards for operational metrics, logs, and traces from\n  multiple sources including AWS services, third-party ISVs, and on-premises data.\n  The service handles provisioning, setup, scaling, and maintenance of Grafana,\n  allowing teams to focus on creating dashboards and analyzing data.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Dashboards\n  - Monitoring\n  - Observability\n  - Visualization\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-managed-grafana:amazon-managed-grafana-api\n    name:\
   \ Amazon Managed Grafana API\n    description: >-\n      The Amazon Managed Grafana API provides programmatic access to create\n      and manage Grafana workspaces, users, SAML configurations, and workspace\n      API keys for managed Grafana deployments. Covers workspace lifecycle\n      management, authentication configuration, license association, and\n      access control across all managed Grafana resources.\n    humanURL: https://aws.amazon.com/grafana/\n    baseURL: https://grafana.amazonaws.com\n    tags:\n      - Dashboards\n      - Monitoring\n      - Observability\n      - Visualization\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/grafana/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-managed-grafana-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/grafana/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/grafana/pricing/\n     \
   \ - type: FAQ\n        url: https://aws.amazon.com/grafana/faqs/\n      - type: JSONSchema\n        url: json-schema/amazon-managed-grafana-workspace-summary-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-managed-grafana-workspace-summary-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-managed-grafana-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/grafana/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/grafana/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/mt/tag/amazon-managed-grafana/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/grafana/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n\

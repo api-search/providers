@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: 42crunch-scand-manager.yaml
+  format: yaml
+  label: 42Crunch API Conformance Scan Jobs Manager
+  slug: 42crunch-scand-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/openapi/42crunch-scand-manager.yaml
 apis:
 - description: 'The 42Crunch API Security Audit performs automated static analysis of API definitions (OpenAPI 2, 3.0, 3.1 and GraphQL), running over 200 checks across format validation, data definition quality, and '
   name: 42Crunch API Security Audit
@@ -149,6 +156,7 @@ rules:
 skills: []
 slug: 42crunch
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: 42crunch\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/apis.yml\nname: 42Crunch\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - API Security\n  - Platform\n  - Scanning\n  - Security\n  - OpenAPI\n  - DevSecOps\ndescription: >-\n  42Crunch is a leading API security company that specializes in protecting and securing\n  APIs. They provide innovative solutions that help organizations safeguard their\n  sensitive data and critical assets from potential cyber threats. With their comprehensive\n  API security platform, 42Crunch offers a range of services such as API scanning,\n  traffic monitoring, and runtime protection to ensure that APIs are secure and compliant\n  with industry standards. Their platform covers the full API security lifecycle from\n  design and audit through dynamic testing and runtime firewall protection.\ncreated: '2025-01-08'\nmodified: '2026-04-19'\nspecificationVersion:\
   \ '0.19'\napis:\n  - aid: 42crunch:42crunch-api-security-audit\n    name: 42Crunch API Security Audit\n    tags:\n      - API Security\n      - Static Analysis\n      - OpenAPI\n      - Vulnerability Scanning\n    humanURL: https://docs.42crunch.com/latest/content/concepts/api_contract_security_audit.htm\n    properties:\n      - url: https://docs.42crunch.com/latest/content/concepts/api_contract_security_audit.htm\n        type: Documentation\n      - url: https://docs.42crunch.com/latest/content/home.htm\n        type: APIReference\n    description: >-\n      The 42Crunch API Security Audit performs automated static analysis of API\n      definitions (OpenAPI 2, 3.0, 3.1 and GraphQL), running over 200 checks across\n      format validation, data definition quality, and security analysis. APIs are\n      scored 0-100 with recommendations to reach 70+ before runtime protection is\n      applied. Integrates with CI/CD pipelines for continuous monitoring.\n\n  - aid: 42crunch:42crunch-api-scan\n\
   \    name: 42Crunch API Scan\n    tags:\n      - API Security\n      - Dynamic Testing\n      - DAST\n      - Contract Testing\n    humanURL: https://docs.42crunch.com/latest/content/home.htm\n    properties:\n      - url: https://docs.42crunch.com/latest/content/home.htm\n        type: Documentation\n    description: >-\n      42Crunch API Scan performs dynamic API security testing (DAST) that evaluates\n      runtime API behavior against its OpenAPI specification. It tests how well an\n      API adheres to its contract and identifies vulnerabilities that only appear\n      at runtime. Supports integration with CI/CD pipelines and Kubernetes via\n      the scand-manager Kubernetes wrapper.\n\n  - aid: 42crunch:42crunch-api-protection\n    name: 42Crunch API Protection\n    tags:\n      - API Security\n      - Runtime Protection\n      - Firewall\n      - API Gateway\n    humanURL: https://docs.42crunch.com/latest/content/home.htm\n    properties:\n      - url: https://docs.42crunch.com/latest/content/home.htm\n\

@@ -1,5 +1,36 @@
 ---
 api_count: 5
+api_specs:
+- filename: apigee-api-management-openapi.yml
+  format: yaml
+  label: Apigee API Management
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-management-openapi.yml
+- filename: apigee-api-hub-openapi.yml
+  format: yaml
+  label: Apigee API Hub API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-hub-openapi.yml
+- filename: apigee-integrations-openapi.yml
+  format: yaml
+  label: Apigee Integrations API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-integrations-openapi.yml
+- filename: apigee-apim-openapi.yml
+  format: yaml
+  label: Apigee API Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-apim-openapi.yml
+- filename: apigee-registry-openapi.yml
+  format: yaml
+  label: Apigee Registry API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-registry-openapi.yml
 apis:
 - description: APIs for programmatically managing Apigee organizations, API proxies, products, developers, apps, environments, deployments, and analytics. Provides full lifecycle management of APIs on the Apigee pla
   name: Apigee API Management
@@ -145,6 +176,7 @@ rules:
 skills: []
 slug: apigee
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Apigee\ndescription: >-\n  Apigee is Google Cloud's native API management platform for building,\n  managing, and securing APIs across any use case, environment, or scale.\n  It provides API proxies, security, rate limiting, quotas, analytics,\n  monetization, and developer portal capabilities.\nimage: https://www.apigee.com/about/sites/default/files/apigee-logo.png\nurl: https://cloud.google.com/apigee\ncreated: '2024-01-01'\nmodified: '2026-04-20'\njsonLdUrl: json-ld/apigee-context.jsonld\nspecificationVersion: '0.18'\nsegments:\n  - Gateways\napis:\n  - name: Apigee API Management\n    description: >-\n      APIs for programmatically managing Apigee organizations, API proxies,\n      products, developers, apps, environments, deployments, and analytics.\n      Provides full lifecycle management of APIs on the Apigee platform.\n    image: https://www.apigee.com/about/sites/default/files/apigee-logo.png\n    humanURL: https://cloud.google.com/apigee/docs\n    baseURL:\
   \ https://apigee.googleapis.com\n    tags:\n      - Analytics\n      - API Management\n      - API Proxies\n      - Developers\n      - Environments\n    properties:\n      - type: Documentation\n        url: https://cloud.google.com/apigee/docs/api-platform/get-started/what-apigee\n      - type: OpenAPI\n        url: openapi/apigee-api-management-openapi.yml\n      - type: JSONSchema\n        url: json-schema/apigee-organization-schema.json\n      - type: JSONSchema\n        url: json-schema/apigee-api-proxy-schema.json\n      - type: JSONSchema\n        url: json-schema/apigee-api-product-schema.json\n      - type: JSONSchema\n        url: json-schema/apigee-developer-schema.json\n      - type: JSONSchema\n        url: json-schema/apigee-developer-app-schema.json\n      - type: JSONSchema\n        url: json-schema/apigee-environment-schema.json\n      - type: JSONSchema\n        url: json-schema/apigee-deployment-schema.json\n      - type: Authentication\n        url: https://cloud.google.com/apigee/docs/api-platform/system-administration/auth-tools\n\
   \      - type: Pricing\n        url: https://cloud.google.com/apigee/pricing\n      - type: Status\n        url: https://status.cloud.google.com/\n      - type: Support\n        url: https://cloud.google.com/apigee/support\n      - type: Getting Started\n        url: https://cloud.google.com/apigee/docs/api-platform/get-started/overview\n      - type: SDKs\n        url: https://cloud.google.com/apigee/docs/api-platform/reference/apis\n      - type: Terms of Service\n        url: https://cloud.google.com/terms\n      - type: Privacy Policy\n        url: https://cloud.google.com/terms/cloud-privacy-notice\n      - type: API Reference\n        url: https://cloud.google.com/apigee/docs/reference/apis/apigee/rest\n      - type: Tutorials\n        url: https://cloud.google.com/apigee/docs/api-platform/get-started/tutorials\n      - type: Release Notes\n        url: https://cloud.google.com/apigee/docs/release-notes\n      - type: Quickstart\n        url: https://cloud.google.com/apigee/docs/api-platform/get-started/get-started\n\

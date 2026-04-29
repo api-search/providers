@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bizapi-business-intelligence-api-openapi.yml
+  format: yaml
+  label: BizAPI Business Intelligence API
+  slug: bizapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/openapi/bizapi-business-intelligence-api-openapi.yml
 apis:
 - description: Real-time REST API from the NAICS Association that returns firmographic data on over 220 million US and international business locations. Provides DUNS numbers, SIC codes, NAICS codes, company details
   name: BizAPI Business Intelligence API
@@ -75,6 +82,7 @@ rules:
 skills: []
 slug: bizapi
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: bizapi\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/apis.yml\nname: BizAPI\ndescription: >-\n  BizAPI is a real-time Business Intelligence API from the NAICS Association that\n  provides firmographic data on over 220 million US and international business\n  entities. It enables businesses to enrich CRM records, power customer acquisition\n  workflows, and append NAICS codes, SIC codes, DUNS numbers, company details,\n  sales volume, employee counts, and corporate hierarchy information to any business\n  record via a simple REST API.\ntags:\n  - Business Intelligence\n  - Company Data\n  - CRM\n  - Firmographic Data\n  - NAICS\n  - SIC\ntype: Contract\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2025-02-24'\nmodified: '2026-04-19'\nposition: Consuming\nspecificationVersion: '0.19'\napis:\n  - aid: bizapi:bizapi\n    name: BizAPI Business Intelligence API\n    description:\
   \ >-\n      Real-time REST API from the NAICS Association that returns firmographic data\n      on over 220 million US and international business locations. Provides DUNS\n      numbers, SIC codes, NAICS codes, company details, contact information, sales\n      volume, employee counts, and corporate hierarchy. Supports both live production\n      and test (sandbox) endpoints. Rate limited to 3 requests per rolling second.\n      Authentication via HTTP Basic with credentials provided at account activation.\n    humanURL: https://www.naics.com/business-intelligence-api/\n    tags:\n      - Business Intelligence\n      - Company Data\n      - Firmographic Data\n      - NAICS\n      - SIC\n    properties:\n      - type: Documentation\n        url: https://www.naics.com/business-intelligence-api/\n      - type: OpenAPI\n        url: openapi/bizapi-business-intelligence-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/bizapi-company-schema.json\n      - type: JSONStructure\n\
   \        url: json-structure/bizapi-company-structure.json\n      - type: JSONLD\n        url: json-ld/bizapi-context.jsonld\n      - type: Example\n        url: examples/bizapi-company-example.json\ncommon:\n  - type: Website\n    url: https://www.naics.com/\n  - type: Documentation\n    url: https://www.naics.com/business-intelligence-api/\n  - type: SignUp\n    url: https://www.naics.com/bizapi-details/\n  - type: Authentication\n    url: https://www.naics.com/business-intelligence-api/\n  - type: SpectralRules\n    url: rules/bizapi-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/bizapi-business-intelligence.yaml\n  - type: Vocabulary\n    url: vocabulary/bizapi-vocabulary.yaml\n  - type: Features\n    data:\n      - name: Real-Time Firmographic Data\n        description: >-\n          Returns live firmographic data on over 220 million US and international\n          business entities in real time.\n      - name: NAICS and SIC Classification\n        description:\

@@ -1,5 +1,102 @@
 ---
 api_count: 20
+api_specs:
+- filename: hcm.yml
+  format: yaml
+  label: Workday HCM API
+  slug: hcm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/hcm.yml
+- filename: financialManagement.yml
+  format: yaml
+  label: Workday Financial Management API
+  slug: financial-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/financialManagement.yml
+- filename: recruiting.yml
+  format: yaml
+  label: Workday Recruiting API
+  slug: recruiting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/recruiting.yml
+- filename: timeTracking.yml
+  format: yaml
+  label: Workday Time Tracking API
+  slug: time-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/timeTracking.yml
+- filename: benefits.yml
+  format: yaml
+  label: Workday Benefits API
+  slug: benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/benefits.yml
+- filename: absenceManagement.yml
+  format: yaml
+  label: Workday Absence Management API
+  slug: absence-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/absenceManagement.yml
+- filename: compensation.yml
+  format: yaml
+  label: Workday Compensation API
+  slug: compensation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/compensation.yml
+- filename: payroll.yml
+  format: yaml
+  label: Workday Payroll API
+  slug: payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/payroll.yml
+- filename: person.yml
+  format: yaml
+  label: Workday Person API
+  slug: person-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/person.yml
+- filename: performanceManagement.yml
+  format: yaml
+  label: Workday Performance Management API
+  slug: performance-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/performanceManagement.yml
+- filename: talent.yml
+  format: yaml
+  label: Workday Talent Management API
+  slug: talent-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/talent.yml
+- filename: common.yml
+  format: yaml
+  label: Workday Common API
+  slug: common-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/common.yml
+- filename: staffing.yml
+  format: yaml
+  label: Workday Staffing API
+  slug: staffing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/staffing.yml
+- filename: prismAnalytics.yml
+  format: yaml
+  label: Workday Prism Analytics API
+  slug: prism-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/prismAnalytics.yml
+- filename: raas.yml
+  format: yaml
+  label: Workday Report-as-a-Service API
+  slug: raas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/raas.yml
+- filename: wql.yml
+  format: yaml
+  label: Workday WQL API
+  slug: wql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/openapi/wql.yml
 apis:
 - description: Human Capital Management API for managing workforce data, recruiting, talent management, and payroll. Provides RESTful endpoints for core HR operations.
   name: Workday HCM API
@@ -260,6 +357,7 @@ rules:
 skills: []
 slug: workday
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: workday\nspecificationVersion: '0.19'\ntype: Index\nname: Workday\ndescription: >-\n  Collection of Workday REST and SOAP APIs for human capital management,\n  financial management, enterprise planning, analytics, and platform\n  extensibility.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-18'\ntags:\n  - Cloud Computing\n  - Enterprise Software\n  - Financial Management\n  - HCM\n  - SaaS\napis:\n  - aid: workday:hcm-api\n    name: Workday HCM API\n    description: >-\n      Human Capital Management API for managing workforce data, recruiting,\n      talent management, and payroll. Provides RESTful endpoints for core HR\n      operations.\n    image: https://www.workday.com/content/dam/web/images/logo/workday-logo.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html\n\
   \    baseURL: https://wd2-impl-services1.workday.com/ccx/api/\n    tags:\n      - Human Capital Management\n      - Human Resources\n      - Payroll\n      - Talent Management\n      - Workforce\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html\n      - type: OpenAPI\n        url: openapi/hcm.yml\n      - type: JSONSchema\n        url: json-schema/worker.json\n      - type: JSONSchema\n        url: json-schema/organization.json\n      - type: JSONLD\n        url: json-ld/hcm-context.jsonld\n      - type: Authentication\n        url: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html#authentication\n    contact:\n      - FN: Workday Support\n        email: support@workday.com\n        url: https://www.workday.com/en-us/customer-service/support.html\n  - aid: workday:financial-management-api\n    name: Workday Financial Management API\n    description: >-\n      Financial\
   \ Management API for accounting, procurement, expenses, and\n      financial reporting. Enables programmatic access to financial data and\n      workflows.\n    image: https://www.workday.com/content/dam/web/images/logo/workday-logo.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/api/financialManagement/\n    tags:\n      - Accounting\n      - Expenses\n      - Financial Management\n      - Procurement\n      - Revenue\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/restapi/index.html\n      - type: OpenAPI\n        url: openapi/financialManagement.yml\n      - type: JSONLD\n        url: json-ld/financialManagement-context.jsonld\n  - aid: workday:recruiting-api\n    name: Workday Recruiting API\n    description: >-\n      Recruiting API for managing job postings, candidates, applications, and\n      hiring\

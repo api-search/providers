@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-ecr-openapi.yml
+  format: yaml
+  label: Amazon ECR API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-openapi.yml
 apis:
 - description: API for managing Amazon ECR repositories, images, and related resources.
   name: Amazon ECR API
@@ -121,6 +128,7 @@ rules:
 skills: []
 slug: amazon-ecr
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon ECR\ndescription: Amazon Elastic Container Registry (ECR) is a fully managed container registry that makes it easy to store, manage, share, and deploy container images and artifacts. ECR eliminates the \n  need to operate your own container repositories or worry about scaling the underlying infrastructure, and integrates with Amazon ECS and Amazon EKS for simplified development to production \n  workflows.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/ecr/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\ntags:\n- Amazon Web Services\n- AWS\n- Container Images\n- Container Registry\n- Containers\n- Docker\n- ECR\n- OCI\napis:\n- name: Amazon ECR API\n  description: API for managing Amazon ECR repositories, images, and related resources.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  url: https://aws.amazon.com/ecr/\n  baseURL: https://api.ecr.amazonaws.com\n\
   \  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/AmazonECR/latest/userguide/\n  - type: OpenAPI\n    url: openapi/amazon-ecr-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/ecr/2015-09-21/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-ecr-repository-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-ecr-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/ecr/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/ecr/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/ecr/faqs/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/AmazonECR/latest/userguide/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/AmazonECR/latest/APIReference/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/cli/latest/reference/ecr/\n  - type: Security\n    url: https://docs.aws.amazon.com/AmazonECR/latest/userguide/security.html\n  - type: JSONStructure\n\
   \    url: json-structure/amazon-ecr-repository-structure.json\n  - type: Example\n    url: examples/amazon-ecr-repository-example.json\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: DeveloperPortal\n  url: https://aws.amazon.com/\n- type: Documentation\n  url: https://docs.aws.amazon.com/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/support/\n- type: Blog\n  url: https://aws.amazon.com/blogs/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: StatusPage\n  url: https://status.aws.amazon.com/\n- type: KnowledgeCenter\n  url: https://repost.aws/knowledge-center\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n- type: StackOverflow\n\

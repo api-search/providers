@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: microsoft-project-rest-api.yaml
+  format: yaml
+  label: Microsoft Project Online REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-rest-api.yaml
 apis:
 - description: REST API for accessing and managing Microsoft Project Online and Project Server data including projects, tasks, resources, assignments, calendars, custom fields, timesheets, lookup tables, and workflo
   name: Microsoft Project Online REST API
@@ -138,6 +145,7 @@ rules:
 skills: []
 slug: microsoft-project
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: microsoft-project\nname: Microsoft Project\ndescription: >-\n  Microsoft Project is a project management software product developed by\n  Microsoft. It provides tools for developing plans, assigning resources to\n  tasks, tracking progress, managing budgets, and analyzing workloads. Microsoft\n  Project offers REST APIs via SharePoint/Project Online, a Client-Side Object\n  Model (CSOM), OData reporting feeds, and JavaScript APIs for building add-ins\n  and integrations.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Budgeting\n  - Gantt Charts\n  - Microsoft\n  - Portfolio Management\n  - Project Management\n  - Resource Management\n  - Scheduling\n  - Task Management\nurl: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\napis:\n  - aid: microsoft-project:rest-api\n    name: Microsoft Project\
   \ Online REST API\n    description: >-\n      REST API for accessing and managing Microsoft Project Online and Project\n      Server data including projects, tasks, resources, assignments, calendars,\n      custom fields, timesheets, lookup tables, and workflow activities. Uses\n      SharePoint-based REST endpoints via the ProjectServer service.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://learn.microsoft.com/en-us/office/client-developer/project/client-side-object-model-csom-for-project-2013\n    baseURL: https://{tenant}.sharepoint.com/sites/pwa/_api/ProjectServer\n    tags:\n      - Assignments\n      - Calendars\n      - Custom Fields\n      - Projects\n      - Resources\n      - REST\n      - Tasks\n      - Timesheets\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/office/client-developer/project/client-side-object-model-csom-for-project-2013\n      - type: APIReference\n\
   \        url: https://learn.microsoft.com/en-us/office/client-developer/project/javascript-library-and-rest-reference-for-project-server-2013\n      - type: Authentication\n        url: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins\n      - type: CodeExamples\n        url: https://github.com/OfficeDev/Project-Samples/tree/main/O365-Project-Online-REST-Samples\n      - type: CodeExamples\n        url: https://github.com/OfficeDev/Project-Add-in-REST-BasicDataOperations\n        title: REST CRUD Operations Sample\n      - type: OpenAPI\n        url: openapi/microsoft-project-rest-api.yaml\n      - type: JSONSchema\n        url: json-schema/rest-api-project-schema.json\n        title: Project Schema\n      - type: JSONSchema\n        url: json-schema/rest-api-task-schema.json\n        title: Task Schema\n      - type: JSONSchema\n        url: json-schema/rest-api-enterprise-resource-schema.json\n        title: Enterprise\

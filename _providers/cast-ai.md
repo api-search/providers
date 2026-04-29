@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: cast-ai-kubernetes-cost-optimization-openapi.yml
+  format: yaml
+  label: CAST AI Kubernetes Cost Optimization API
+  slug: kubernetes-cost-optimization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-kubernetes-cost-optimization-openapi.yml
 apis:
 - description: 'The CAST AI REST API provides comprehensive access to the Kubernetes cost optimization platform: cluster management, autoscaling and Karpenter integration, node configuration and templates, workload r'
   name: CAST AI Kubernetes Cost Optimization API
@@ -131,6 +138,7 @@ name: CAST AI
 skills: []
 slug: cast-ai
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cast-ai\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/apis.yml\nname: CAST AI\ntags:\n  - Autoscaling\n  - Cloud Infrastructure\n  - Cost Optimization\n  - DevOps\n  - FinOps\n  - Kubernetes\n  - Observability\ntype: Index\nimage: >-\n  https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-n0PWZL5D.png\naccess: 3rd-Party\ncreated: '2024-07-02'\nmodified: '2026-04-23'\nposition: Consumer\ndescription: >-\n  CAST AI is an Application Performance Automation (APA) platform for\n  Kubernetes that automates cost optimization, autoscaling, workload\n  rightsizing, GPU/LLM workload placement, spot instance selection, and\n  security posture analysis. The platform works across AWS, GCP, Azure,\n  Oracle Cloud, IBM Cloud, AliCloud and on-premises distributions (EKS,\n  GKE, AKS, OpenShift, Rancher, kOps). Everything available in the console\n  UI is also accessible via the REST API at api.cast.ai.\napis:\n  - aid: cast-ai:kubernetes-cost-optimization-api\n\
   \    name: CAST AI Kubernetes Cost Optimization API\n    tags:\n      - Autoscaling\n      - Clusters\n      - Cost Optimization\n      - FinOps\n      - Hibernation\n      - Karpenter\n      - Kubernetes\n      - LLM\n      - Metrics\n      - Node Templates\n      - Nodes\n      - Policies\n      - Pricing\n      - Rebalancing\n      - Security\n      - Spot Instances\n      - Workloads\n    image: >-\n      https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/swagger-ui-n0PWZL5D.png\n    baseURL: https://api.cast.ai\n    humanURL: https://docs.cast.ai/docs/api\n    properties:\n      - url: https://docs.cast.ai/docs/api\n        type: Documentation\n      - url: openapi/cast-ai-kubernetes-cost-optimization-openapi.yml\n        type: OpenAPI\n      - url: https://api.cast.ai/v1/spec/\n        type: Swagger\n      - url: https://docs.cast.ai/docs/authentication\n        type: Authentication\n      - url: https://docs.cast.ai/changelog\n        type: ChangeLog\n      - url: json-schema/cluster.json\n\
   \        type: JSONSchema\n      - url: json-schema/node.json\n        type: JSONSchema\n      - url: json-schema/node-template.json\n        type: JSONSchema\n      - url: json-schema/workload.json\n        type: JSONSchema\n      - url: json-schema/rebalancing-schedule.json\n        type: JSONSchema\n      - url: json-schema/cost-report.json\n        type: JSONSchema\n      - url: json-ld/cast-ai-context.jsonld\n        type: JSONLD\n    description: >-\n      The CAST AI REST API provides comprehensive access to the Kubernetes\n      cost optimization platform: cluster management, autoscaling and\n      Karpenter integration, node configuration and templates, workload\n      rightsizing, scheduled rebalancing, cost reporting, security insights,\n      hibernation schedules, AI enabler / LLM workload optimization, and\n      GPU/OMNI compute features. Authentication uses API keys and the API is\n      served at api.cast.ai.\ncommon:\n  - type: Website\n    url: https://cast.ai/\n  -\

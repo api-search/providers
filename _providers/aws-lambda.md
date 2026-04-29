@@ -1,5 +1,12 @@
 ---
 api_count: 5
+api_specs:
+- filename: aws-lambda-api-openapi.yml
+  format: yaml
+  label: AWS Lambda API
+  slug: aws-lambda-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-api-openapi.yml
 apis:
 - description: The AWS Lambda REST API enables you to create, manage, and invoke Lambda functions programmatically. Supports function management, event source mappings, aliases, versions, and layer operations.
   name: AWS Lambda API
@@ -115,6 +122,7 @@ rules:
 skills: []
 slug: aws-lambda
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: aws-lambda\nname: AWS Lambda\ndescription: >-\n  AWS Lambda is a serverless, event-driven compute service that lets you run\n  code for virtually any type of application or backend service without\n  provisioning or managing servers. Lambda runs your code on high-availability\n  compute infrastructure and performs all of the administration of the compute\n  resources, including server and operating system maintenance, capacity\n  provisioning and automatic scaling, and logging.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - aid: aws-lambda:aws-lambda-api\n    name: AWS Lambda API\n    description: >-\n      The AWS Lambda REST API enables you to create, manage, and invoke Lambda\n      functions programmatically. Supports function management,\
   \ event source\n      mappings, aliases, versions, and layer operations.\n    image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n    humanURL: https://aws.amazon.com/lambda/\n    baseURL: https://lambda.{region}.amazonaws.com\n    tags:\n      - Compute\n      - Event-Driven\n      - FaaS\n      - Functions\n      - Serverless\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/lambda/latest/dg/welcome.html\n      - type: OpenAPI\n        url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.json\n      - type: OpenAPI\n        url: openapi/aws-lambda-api-openapi.yml\n      - type: AsyncAPI\n        url: asyncapi/aws-lambda-event-triggers-asyncapi.yml\n      - type: JSONSchema\n        url: json-schema/aws-lambda-function-schema.json\n      - type: JSONLD\n        url: json-ld/aws-lambda-context.jsonld\n      - type: APIReference\n        url: https://docs.aws.amazon.com/lambda/latest/api/welcome.html\n\
   \      - type: Pricing\n        url: https://aws.amazon.com/lambda/pricing/\n      - type: GettingStarted\n        url: https://aws.amazon.com/lambda/getting-started/\n      - type: SDK\n        url: https://aws.amazon.com/tools/\n      - type: Console\n        url: https://console.aws.amazon.com/lambda/\n      - type: StatusPage\n        url: https://health.aws.amazon.com/health/status\n      - type: RateLimits\n        url: https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html\n      - type: BestPractices\n        url: https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html\n      - type: Security\n        url: https://docs.aws.amazon.com/lambda/latest/dg/lambda-security.html\n      - type: Tutorials\n        url: https://aws.amazon.com/lambda/resources/\n      - type: CLI\n        url: https://docs.aws.amazon.com/cli/latest/reference/lambda/\n      - type: CodeExamples\n        url: https://docs.aws.amazon.com/lambda/latest/dg/service_code_examples.html\n\

@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: alation-data-catalog-openapi.yaml
+  format: yaml
+  label: Alation Data Catalog API
+  slug: data-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-data-catalog-openapi.yaml
+- filename: alation-lineage-openapi.yaml
+  format: yaml
+  label: Alation Lineage API
+  slug: lineage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-lineage-openapi.yaml
+- filename: alation-governance-openapi.yaml
+  format: yaml
+  label: Alation Governance API
+  slug: governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-governance-openapi.yaml
+- filename: alation-search-openapi.yaml
+  format: yaml
+  label: Alation Search API
+  slug: search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-search-openapi.yaml
 apis:
 - description: REST API for managing data sources, schemas, tables, columns, and custom field values in the Alation data catalog. Supports metadata retrieval and batch updates for catalog objects.
   name: Alation Data Catalog API
@@ -105,6 +130,7 @@ rules:
 skills: []
 slug: alation
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: alation\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/apis.yml\nname: Alation\ntags:\n  - Data Catalog\n  - Data Governance\n  - Data Intelligence\n  - Data Lineage\n  - Data Quality\n  - Business Glossary\n  - Metadata Management\n  - AI\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Alation is a data intelligence platform that helps organizations harness the\n  power of their data by providing a centralized platform for data cataloging,\n  governance, and collaboration. By enabling users to easily search, understand,\n  and trust their data, Alation empowers organizations to make data-driven\n  decisions with confidence. Through advanced analytics and AI capabilities,\n  Alation helps organizations uncover insights, improve data quality, and drive\n  innovation.\ncreated: '2025-01-08'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: alation:data-catalog-api\n\
   \    name: Alation Data Catalog API\n    tags:\n      - Data Catalog\n      - Metadata\n      - Data Sources\n      - Schemas\n      - Tables\n      - Columns\n    properties:\n      - url: https://developer.alation.com\n        type: Documentation\n      - url: openapi/alation-data-catalog-openapi.yaml\n        type: OpenAPI\n      - url: json-schema/alation-alation-data-catalog-data-source-schema.json\n        type: JSONSchema\n      - url: json-schema/alation-alation-data-catalog-schema-schema.json\n        type: JSONSchema\n      - url: json-schema/alation-alation-data-catalog-table-schema.json\n        type: JSONSchema\n      - url: json-schema/alation-alation-data-catalog-column-schema.json\n        type: JSONSchema\n      - url: json-schema/alation-alation-data-catalog-custom-field-value-schema.json\n        type: JSONSchema\n      - url: json-structure/alation-alation-data-catalog-data-source-structure.json\n        type: JSONStructure\n      - url: json-structure/alation-alation-data-catalog-schema-structure.json\n\
   \        type: JSONStructure\n      - url: json-structure/alation-alation-data-catalog-table-structure.json\n        type: JSONStructure\n      - url: json-structure/alation-alation-data-catalog-column-structure.json\n        type: JSONStructure\n      - url: json-structure/alation-alation-data-catalog-custom-field-value-structure.json\n        type: JSONStructure\n      - url: examples/alation-alation-data-catalog-data-source-example.json\n        type: Example\n      - url: examples/alation-alation-data-catalog-schema-example.json\n        type: Example\n      - url: examples/alation-alation-data-catalog-table-example.json\n        type: Example\n      - url: examples/alation-alation-data-catalog-column-example.json\n        type: Example\n      - url: examples/alation-alation-data-catalog-custom-field-value-example.json\n        type: Example\n    humanURL: https://developer.alation.com\n    baseURL: https://your-instance.alation.com/integration/v2\n    description: >-\n      REST API\

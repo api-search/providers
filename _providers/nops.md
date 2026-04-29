@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: nops-nops-openapi.yml
+  format: yaml
+  label: nOps
+  slug: nops
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-nops-openapi.yml
 apis:
 - description: nOps is an AWS-focused cloud management platform that helps engineering and FinOps teams cut costs, improve governance, and keep environments well-architected. It ingests AWS billing and telemetry dat
   name: nOps
@@ -72,6 +79,7 @@ rules:
 skills: []
 slug: nops
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: nops\nurl: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/apis.yml\napis:\n  - aid: nops:nops\n    name: nOps\n    tags:\n      - Costs\n      - FinOps\n    humanURL: ' https://www.nops.io/'\n    baseURL: https://app.nops.io\n    properties:\n      - url: ' https://www.nops.io/'\n        type: Documentation\n      - url: https://app.nops.io/public_redoc/\n        type: Documentation\n      - url: openapi/nops-nops-openapi.yml\n        type: OpenAPI\n      - url: json-schema/map-migration-project.json\n        type: JSONSchema\n      - url: json-schema/map-migration-product.json\n        type: JSONSchema\n      - url: json-schema/map-migration-resource.json\n        type: JSONSchema\n      - url: json-schema/scheduler.json\n        type: JSONSchema\n      - url: json-ld/nops-context.jsonld\n        type: JSONLD\n    description: >-\n      nOps is an AWS-focused cloud management platform that helps engineering and\n      FinOps teams cut costs, improve\
   \ governance, and keep environments well-architected.\n      It ingests AWS billing and telemetry data (such as CUR, CloudTrail, and CloudWatch)\n      to surface real-time insights, flag anomalies, and recommend actions like rightsizing,\n      eliminating idle resources, scheduling non‑production workloads, optimizing\n      EBS/S3, and increasing efficient use of Spot.\nname: nOps\ntags:\n  - Costs\n  - FinOps\ntype: Contract\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2026-01-02'\nmodified: '2026-04-18'\nposition: Consuming\ndescription: >-\n  nOps is an AI-powered cloud cost visibility and optimization platform that helps\n  organizations reduce their AWS spending by 50% or more through autonomous management\n  and automation. The platform provides 100% visibility into cloud costs across AWS,\n  GCP, Azure, Kubernetes, GenAI, and SaaS applications, enabling teams to allocate\n  and track spending by customer, product,\
   \ cost center, or any other dimension even\n  without complete tagging.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\ncommon:\n  - name: Technical Blogs & Tutorials | nOps\n    description: 'null'\n    url: https://www.nops.io/blog/\n    type: Blog\n  - name: Webcasts and Podcasts | Live & On-Demand | nOps\n    description: 'null'\n    url: https://www.nops.io/webinars-and-workshops/\n    type: Webinars\n  - name: nCast | nOps\n    description: 'null'\n    url: https://www.nops.io/ncast/\n    type: Resources\n  - name: Welcome to the nOps Docs | nOps docs\n    description: 'null'\n    url: https://help.nops.io/docs/introduction/platform-introduction\n    type: Documentation\n  - name: nOps Customer Service SLAs | nOps docs\n    description: 'null'\n    url: https://help.nops.io/docs/support/customer-service-sla\n    type: Documentation\n  - name: Open a support case with nOps | nOps docs\n    description: 'null'\n    url: https://help.nops.io/docs/support/open-support-case\n\

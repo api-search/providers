@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: google-campaign-manager-openapi.yml
+  format: yaml
+  label: Campaign Manager 360 API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-openapi.yml
 apis:
 - description: Manage your DoubleClick Campaign Manager ad campaigns and reports programmatically. Create, retrieve, update, and delete campaigns, creatives, placements, and generate comprehensive reporting data.
   name: Campaign Manager 360 API
@@ -92,6 +99,7 @@ rules:
 skills: []
 slug: google-campaign-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-campaign-manager\nname: Google Campaign Manager\ndescription: >-\n  The Campaign Manager 360 API allows developers to programmatically manage\n  campaigns, creatives, reports, and other advertising operations in Google's\n  Campaign Manager 360 platform.\nimage: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png\nurl: https://developers.google.com/doubleclick-advertisers\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - Advertising\n  - Analytics\n  - Campaign Management\n  - Digital Marketing\n  - Reporting\napis:\n  - name: Campaign Manager 360 API\n    description: >-\n      Manage your DoubleClick Campaign Manager ad campaigns and reports\n      programmatically. Create, retrieve, update, and delete campaigns,\n      creatives, placements, and generate comprehensive reporting data.\n    image: https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png\n    humanURL: https://developers.google.com/doubleclick-advertisers\n\
   \    baseURL: https://dfareporting.googleapis.com\n    tags:\n      - Advertising\n      - Analytics\n      - Campaign Management\n      - Conversions\n      - Creatives\n      - Digital Marketing\n      - Floodlight\n      - Placements\n      - Reporting\n      - Trafficking\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/doubleclick-advertisers/v4\n      - type: Documentation\n        url: https://developers.google.com/doubleclick-advertisers/rest\n      - type: OpenAPI\n        url: openapi/google-campaign-manager-openapi.yml\n      - type: OpenAPI\n        url: https://dfareporting.googleapis.com/$discovery/rest?version=v4\n      - type: OpenAPI\n        url: https://dfareporting.googleapis.com/$discovery/rest?version=v5\n      - type: Authentication\n        url: https://developers.google.com/doubleclick-advertisers/guides/authorizing\n      - type: Pricing\n        url: https://marketingplatform.google.com/about/campaign-manager-360/pricing/\n\
   \      - type: Quickstart\n        url: https://developers.google.com/doubleclick-advertisers/getting_started\n      - type: Support\n        url: https://support.google.com/campaignmanager\n      - type: Console\n        url: https://console.cloud.google.com/apis/library/dfareporting.googleapis.com\n      - type: TermsOfService\n        url: https://developers.google.com/terms\n      - type: RateLimits\n        url: https://developers.google.com/doubleclick-advertisers/quotas\n      - type: ReleaseNotes\n        url: https://developers.google.com/doubleclick-advertisers/rel_notes\n      - type: SDK\n        url: https://developers.google.com/doubleclick-advertisers/libraries\n        title: Client Libraries\n      - type: JSONSchema\n        url: json-schema/google-campaign-manager-campaign-schema.json\n      - type: JSONSchema\n        url: json-schema/google-campaign-manager-ad-schema.json\n      - type: JSONSchema\n        url: json-schema/google-campaign-manager-placement-schema.json\n\

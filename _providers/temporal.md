@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: cloud-ops-api.yml
+  format: yaml
+  label: Temporal Cloud Ops API
+  slug: cloud-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/cloud-ops-api.yml
 apis:
 - description: The Temporal Server Frontend API provides gRPC services for interacting with the Temporal Server, including WorkflowService for managing workflow executions, OperatorService for cluster operations, an
   name: Temporal Server Frontend API
@@ -117,6 +124,7 @@ rules:
 skills: []
 slug: temporal
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: temporal\nname: Temporal\nsegments:\n  - ProCode_API_Composition\n  - Workflows\ndescription: >-\n  Temporal is an open-source durable execution platform for building reliable long-running distributed workflows and microservices.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - ProCode_API_Composition\n  - Workflows\ncreated: '2026-03-03'\nmodified: '2026-04-19'\nurl: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: temporal:server-frontend-api\n    name: Temporal Server Frontend API\n    description: >-\n      The Temporal Server Frontend API provides gRPC services for interacting\n      with the Temporal Server, including WorkflowService for managing workflow\n      executions, OperatorService for cluster operations, and HealthService for\n      health checks. Client SDKs and the Temporal CLI\
   \ use these gRPC services\n      under the hood.\n    humanURL: https://docs.temporal.io/self-hosted-guide/server-frontend-api-reference\n    tags:\n      - Durable Execution\n      - gRPC\n      - Workflows\n    properties:\n      - type: Documentation\n        url: https://docs.temporal.io/self-hosted-guide/server-frontend-api-reference\n      - type: GitHubRepository\n        url: https://github.com/temporalio/api\n  - aid: temporal:cloud-ops-api\n    name: Temporal Cloud Ops API\n    description: >-\n      The Temporal Cloud Operations API is an open source, public HTTP API and\n      gRPC API for programmatically managing Temporal Cloud control plane\n      resources, including Namespaces, Users, Service Accounts, API keys, and\n      other infrastructure components.\n    humanURL: https://docs.temporal.io/ops\n    tags:\n      - Cloud\n      - Operations\n      - Workflows\n    properties:\n      - type: Documentation\n        url: https://docs.temporal.io/ops\n      - type: APIReference\n\
   \        url: https://saas-api.tmprl.cloud/docs/httpapi.html\n      - type: GitHubRepository\n        url: https://github.com/temporalio/cloud-api\n      - type: OpenAPI\n        url: openapi/cloud-ops-api.yml\ncommon:\n  - type: Portal\n    url: https://temporal.io/\n  - type: Documentation\n    url: https://docs.temporal.io/\n  - type: GettingStarted\n    url: https://docs.temporal.io/cloud/get-started\n  - type: Quickstart\n    url: https://docs.temporal.io/quickstarts\n  - type: SDK\n    url: https://docs.temporal.io/develop\n  - type: CLI\n    url: https://docs.temporal.io/cli\n  - type: Pricing\n    url: https://temporal.io/pricing\n  - type: Blog\n    url: https://temporal.io/blog\n  - type: ChangeLog\n    url: https://temporal.io/change-log\n  - type: StatusPage\n    url: https://status.temporal.io\n  - type: Security\n    url: https://temporal.io/security\n  - type: TermsOfService\n    url: https://temporal.io/terms-of-service\n  - type: PrivacyPolicy\n    url: https://temporal.io/global-privacy-policy\n\

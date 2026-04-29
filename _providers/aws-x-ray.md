@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: aws-x-ray-openapi.yml
+  format: yaml
+  label: AWS X-Ray
+  slug: aws-x-ray
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-openapi.yml
 apis:
 - description: AWS X-Ray is a service that helps developers analyze and debug distributed applications by providing end-to-end tracing of requests as they travel through the application, identifying performance bott
   name: AWS X-Ray
@@ -103,6 +110,7 @@ rules:
 skills: []
 slug: aws-x-ray
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: aws-x-ray\nname: AWS X-Ray\ndescription: >-\n  AWS X-Ray is a service that helps developers analyze and debug distributed\n  applications by providing end-to-end tracing of requests as they travel\n  through the application, identifying performance bottlenecks and errors. It is\n  now part of Amazon CloudWatch Application Signals for unified observability.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Debugging\n  - Distributed Tracing\n  - Microservices\n  - Observability\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/apis.yml\ncreated: '2026-03-26'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: aws-x-ray:aws-x-ray\n    name: AWS X-Ray\n    description: >-\n      AWS X-Ray is a service that helps developers analyze and debug distributed\n      applications by providing end-to-end tracing of requests as they travel\n      through the application,\
   \ identifying performance bottlenecks and errors.\n      It is now part of Amazon CloudWatch Application Signals for unified\n      observability.\n    humanURL: https://aws.amazon.com/xray/\n    baseURL: https://xray.{region}.amazonaws.com\n    tags:\n      - AWS\n      - Debugging\n      - Distributed Tracing\n      - Microservices\n      - Observability\n    properties:\n      - type: OpenAPI\n        url: openapi/aws-x-ray-openapi.yml\n      - type: JSONSchema\n        url: json-schema/aws-x-ray-trace-segment.yml\n      - type: Documentation\n        url: https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html\n      - type: APIReference\n        url: https://docs.aws.amazon.com/xray/latest/api/Welcome.html\ncommon:\n  - type: Website\n    url: https://aws.amazon.com/xray/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html\n  - type: GettingStarted\n    url: https://aws.amazon.com/xray/getting-started/\n  - type: Pricing\n    url:\
   \ https://aws.amazon.com/xray/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/xray/faqs/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/devops/category/management-tools/aws-x-ray/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: SpectralRules\n    url: rules/aws-x-ray-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/aws-x-ray-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/distributed-tracing-workflow.yaml\n  - type: Features\n    data:\n      - name: End-to-End Tracing\n        description: Trace requests from client to backend across all services in your distributed application.\n      - name: Service Map\n        description: Visualize service dependencies and real-time health indicators in\

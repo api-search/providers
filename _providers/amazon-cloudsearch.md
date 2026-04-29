@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-cloudsearch-openapi.yml
+  format: yaml
+  label: Amazon CloudSearch API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/openapi/amazon-cloudsearch-openapi.yml
 apis:
 - description: API for creating and managing CloudSearch domains, uploading documents, configuring search fields and suggesters, and executing search queries.
   name: Amazon CloudSearch API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-cloudsearch
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon CloudSearch\ndescription: Amazon CloudSearch is a managed search service that makes it easy to set up, manage, and scale a search solution for your website or application. Supports full-text search, Boolean \n  search, faceted search, autocomplete, geospatial search, and 34 languages.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/cloudsearch/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon CloudSearch API\n  description: API for creating and managing CloudSearch domains, uploading documents, configuring search fields and suggesters, and executing search queries.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/cloudsearch/\n  baseURL: https://cloudsearch.us-east-1.amazonaws.com\n  tags:\n  - AWS\n  - CloudSearch\n  - Search\n  - Full-Text Search\n  properties:\n  - type: OpenAPI\n    url: openapi/amazon-cloudsearch-openapi.yml\n\
   \  - type: Documentation\n    url: https://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html\n  - type: GettingStarted\n    url: https://aws.amazon.com/cloudsearch/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/cloudsearch/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/cloudsearch/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html\n  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/cloudsearch/\n  - type: JSONSchema\n    url: json-schema/cloudsearch-create-domain-request-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudsearch-create-domain-response-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudsearch-describe-domains-response-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudsearch-delete-domain-response-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudsearch-domain-status-schema.json\n\
   \  - type: JSONLD\n    url: json-ld/amazon-cloudsearch-context.jsonld\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/cloudsearch/\n- type: Documentation\n  url: https://docs.aws.amazon.com/cloudsearch/latest/developerguide/what-is-cloudsearch.html\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/compute/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/cloudsearch/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n- type: StackOverflow\n  url: https://stackoverflow.com/questions/tagged/amazon-cloudsearch\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apify-api.yaml
+  format: yaml
+  label: Apify API
+  slug: apify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-api.yaml
 apis:
 - description: The Apify REST API (v2) provides programmatic access to the Apify platform, allowing you to manage actors, run scraping tasks, access datasets, key-value stores, and request queues. Authentication use
   name: Apify API
@@ -91,6 +98,7 @@ rules:
 skills: []
 slug: apify
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apify\nname: Apify\ndescription: >-\n  Apify is a full-stack web scraping and browser automation platform that\n  enables developers to build, run, and scale web scrapers, crawlers, and\n  data extraction tools using a cloud-based infrastructure with built-in\n  proxy management, scheduling, and storage. The platform hosts thousands\n  of ready-made Actors for scraping social media, search engines, maps,\n  e-commerce sites, and more.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Actors\n  - Browser Automation\n  - Crawling\n  - Data Aggregation\n  - Data Extraction\n  - Web Automation\n  - Web Scraping\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/apis.yml\ncreated: '2026-03-26'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: apify:apify-api\n    name: Apify API\n    description: >-\n      The Apify REST API (v2) provides programmatic access to the\
   \ Apify\n      platform, allowing you to manage actors, run scraping tasks, access\n      datasets, key-value stores, and request queues. Authentication uses\n      Bearer tokens. Rate limits: 250,000 requests/minute globally, 60-400\n      requests/second per resource.\n    humanURL: https://apify.com\n    baseURL: https://api.apify.com/v2\n    tags:\n      - Actors\n      - Automation\n      - Crawling\n      - Data Extraction\n      - Datasets\n      - Web Scraping\n    properties:\n      - type: Documentation\n        url: https://docs.apify.com/api/v2\n      - type: OpenAPI\n        url: openapi/apify-api.yaml\n      - type: GettingStarted\n        url: https://docs.apify.com/api/v2/getting-started\n      - type: Authentication\n        url: https://docs.apify.com/api/v2#authentication\n      - type: RateLimits\n        url: https://docs.apify.com/api/v2#rate-limiting-and-scaling\n      - type: JSONSchema\n        url: json-schema/apify-actor-schema.json\n      - type: JSONSchema\n\
   \        url: json-schema/apify-run-schema.json\n      - type: JSONSchema\n        url: json-schema/apify-dataset-schema.json\n      - type: JSONSchema\n        url: json-schema/apify-key-value-store-schema.json\n      - type: JSON-LD\n        url: json-ld/apify-context.jsonld\n      - type: SDK\n        url: https://www.npmjs.com/package/apify-client\n        title: Node.js Client\n      - type: SDK\n        url: https://pypi.org/project/apify-client/\n        title: Python Client\ncommon:\n  - type: Website\n    url: https://apify.com\n  - type: Documentation\n    url: https://docs.apify.com\n  - type: GettingStarted\n    url: https://docs.apify.com/api/v2/getting-started\n  - type: Pricing\n    url: https://apify.com/pricing\n  - type: Blog\n    url: https://blog.apify.com\n  - type: SignUp\n    url: https://console.apify.com/sign-up\n  - type: Login\n    url: https://console.apify.com/sign-in\n  - type: Academy\n    url: https://docs.apify.com/academy\n  - type: Support\n    url: https://help.apify.com\n\

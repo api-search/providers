@@ -1,5 +1,12 @@
 ---
 api_count: 11
+api_specs:
+- filename: academy-software-foundation-opencue.yaml
+  format: yaml
+  label: OpenCue
+  slug: opencue
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-opencue.yaml
 apis:
 - description: OpenEXR is an open standard high-dynamic-range (HDR) image file format specification and reference implementation developed by Industrial Light and Magic. It is the industry standard for visual effect
   name: OpenEXR
@@ -118,6 +125,7 @@ rules:
 skills: []
 slug: academy-software-foundation
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: academy-software-foundation\nname: Academy Software Foundation\ndescription: >-\n  The Academy Software Foundation (ASWF) is a Linux Foundation project that\n  supports open source software development for the motion picture, visual\n  effects, and animation industries. ASWF hosts a portfolio of production-proven\n  open source projects including OpenEXR, OpenVDB, OpenColorIO, OpenTimelineIO,\n  OpenShadingLanguage, MaterialX, and more. These projects form the backbone of\n  modern film and media production pipelines worldwide.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Animation\n- Color Management\n- Film\n- Linux Foundation\n- Open Source\n- Rendering\n- Standards\n- Visual Effects\n- VFX\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/apis.yml\nspecificationVersion:\
   \ '0.19'\napis:\n- aid: academy-software-foundation:openexr\n  name: OpenEXR\n  description: >-\n    OpenEXR is an open standard high-dynamic-range (HDR) image file format\n    specification and reference implementation developed by Industrial Light\n    and Magic. It is the industry standard for visual effects and animation\n    and provides a C++ library for reading and writing EXR image files.\n  humanURL: https://openexr.com/\n  tags:\n  - Image Format\n  - HDR\n  - Standards\n  - C++\n  properties:\n  - type: Documentation\n    url: https://openexr.com/\n  - type: GitHubRepository\n    url: https://github.com/AcademySoftwareFoundation/openexr\n\n- aid: academy-software-foundation:openvdb\n  name: OpenVDB\n  description: >-\n    OpenVDB is an Academy Award-winning open source C++ library for efficient\n    storage and manipulation of sparse volumetric data discretized on\n    three-dimensional grids. It is the industry standard for volumetric\n    effects in film and visual effects\
   \ production.\n  humanURL: https://www.openvdb.org/\n  tags:\n  - Volumetric Data\n  - C++\n  - Rendering\n  - Standards\n  properties:\n  - type: Documentation\n    url: https://www.openvdb.org/documentation/\n  - type: GitHubRepository\n    url: https://github.com/AcademySoftwareFoundation/openvdb\n\n- aid: academy-software-foundation:opencolorio\n  name: OpenColorIO\n  description: >-\n    OpenColorIO (OCIO) is a complete color management solution geared towards\n    motion picture production, enabling color transforms and image display to\n    be handled in a consistent manner across many applications. It is used by\n    major VFX studios and DCC tools including Maya, Nuke, and Houdini.\n  humanURL: https://opencolorio.org/\n  tags:\n  - Color Management\n  - Standards\n  - C++\n  properties:\n  - type: Documentation\n    url: https://opencolorio.readthedocs.io/\n  - type: GitHubRepository\n    url: https://github.com/AcademySoftwareFoundation/OpenColorIO\n\n- aid: academy-software-foundation:opentimelineio\n\

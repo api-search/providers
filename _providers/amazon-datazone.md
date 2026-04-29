@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-datazone-openapi.yml
+  format: yaml
+  label: Amazon DataZone API
+  slug: amazon-datazone-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/openapi/amazon-datazone-openapi.yml
 apis:
 - description: The Amazon DataZone API provides programmatic access to create and manage data domains, data assets, data catalogs, projects, subscriptions, and governance policies for enterprise-wide data management
   name: Amazon DataZone API
@@ -111,6 +118,7 @@ rules:
 skills: []
 slug: amazon-datazone
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-datazone\nname: Amazon DataZone\ndescription: >-\n  Amazon DataZone is a data management service that helps you catalog, discover,\n  govern, share, and analyze your data across your organization and beyond.\n  It enables data producers and consumers to collaborate, with built-in\n  governance, data catalog capabilities, and a business data catalog to organize\n  and share data across your AWS environment. DataZone provides domain-based\n  governance, project workspaces, subscription-based access control, and\n  integration with AWS analytics services.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Data Catalog\n  - Data Governance\n  - Data Management\n  - Data Sharing\n  - Analytics\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-datazone:amazon-datazone-api\n\
   \    name: Amazon DataZone API\n    description: >-\n      The Amazon DataZone API provides programmatic access to create and manage\n      data domains, data assets, data catalogs, projects, subscriptions, and\n      governance policies for enterprise-wide data management and sharing.\n      Supports domain-based governance, asset cataloging, subscription workflows,\n      and environment provisioning for data analytics access.\n    humanURL: https://aws.amazon.com/datazone/\n    baseURL: https://datazone.amazonaws.com\n    tags:\n      - Data Catalog\n      - Data Governance\n      - Data Sharing\n      - Analytics\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/datazone/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-datazone-openapi.yml\n      - type: OpenAPI\n        url: https://api.apis.guru/v2/specs/amazonaws.com/datazone/2018-05-10/openapi.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/datazone/getting-started/\n\
   \      - type: Pricing\n        url: https://aws.amazon.com/datazone/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/datazone/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/datazone/latest/APIReference/\n      - type: JSONSchema\n        url: json-schema/domain-schema.json\n      - type: JSONSchema\n        url: json-schema/project-schema.json\n      - type: JSONSchema\n        url: json-schema/asset-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-datazone-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/datazone/\n  - type: DeveloperPortal\n    url: https://aws.amazon.com/datazone/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/datazone/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/big-data/\n\

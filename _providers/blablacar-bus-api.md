@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: blablacar-bus-api-openapi.yaml
+  format: yaml
+  label: BlaBlaCar Bus API
+  slug: blablacar-bus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/openapi/blablacar-bus-api-openapi.yaml
 apis:
 - description: REST API for integrating with BlaBlaCar Bus (formerly BlaBlaBus) coach booking platform. Enables partners to search routes, check seat availability, create bookings, manage tickets, and receive bookin
   name: BlaBlaCar Bus API
@@ -74,6 +81,7 @@ rules:
 skills: []
 slug: blablacar-bus-api
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: blablacar-bus-api\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/apis.yml\nname: BlaBlaCar Bus API\ndescription: >-\n  BlaBlaCar Bus API enables transport operators, OTAs, and travel aggregators to\n  integrate with BlaBlaCar's coach and bus booking platform across Europe. The API\n  provides access to route search, seat availability, booking creation, ticket\n  management, and passenger notifications. BlaBlaCar Bus operates coach services\n  across France, Germany, Poland, Spain, Italy, Ukraine, and other European markets\n  under the BlaBlaBus brand.\ntags:\n  - Booking\n  - Buses\n  - Coach\n  - Europe\n  - Mobility\n  - Ticketing\n  - Transportation\n  - Travel\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2024-11-14'\nmodified: '2026-04-19'\nposition: Consumer\nspecificationVersion: '0.19'\napis:\n  - aid: blablacar-bus-api:blablacar-bus-api\n\
   \    name: BlaBlaCar Bus API\n    description: >-\n      REST API for integrating with BlaBlaCar Bus (formerly BlaBlaBus) coach booking\n      platform. Enables partners to search routes, check seat availability, create\n      bookings, manage tickets, and receive booking confirmations. Targeted at OTAs,\n      travel aggregators, mobility platforms, and enterprise travel management companies\n      operating in European markets.\n    humanURL: https://bus-api.blablacar.com/\n    tags:\n      - Booking\n      - Buses\n      - Coach\n      - Europe\n      - Ticketing\n      - Transportation\n    properties:\n      - type: Documentation\n        url: https://bus-api.blablacar.com/\n      - type: OpenAPI\n        url: openapi/blablacar-bus-api-openapi.yaml\ncommon:\n  - type: Website\n    url: https://www.blablacar.com/bus\n  - type: Documentation\n    url: https://bus-api.blablacar.com/\n  - type: GitHubOrganization\n    url: https://github.com/blablacar\n  - type: TermsOfService\n    url:\
   \ https://www.blablacar.com/about-us/terms-and-conditions\n  - type: PrivacyPolicy\n    url: https://www.blablacar.com/about-us/privacy-policy\n  - type: SpectralRules\n    url: rules/blablacar-bus-api-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/blablacar-bus-booking.yaml\n  - type: Vocabulary\n    url: vocabulary/blablacar-bus-api-vocabulary.yaml\n  - type: Features\n    data:\n      - name: Route Search\n        description: >-\n          Search available coach routes between origin and destination stations\n          across European markets with departure dates and passenger counts.\n      - name: Seat Availability\n        description: >-\n          Check real-time seat availability and pricing for specific routes,\n          trips, and departure times.\n      - name: Booking Creation\n        description: >-\n          Create confirmed bookings for passengers with seat selection, passenger\n          details, and payment processing integration.\n      -\

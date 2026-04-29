@@ -1,5 +1,42 @@
 ---
 api_count: 8
+api_specs:
+- filename: isg-rest-api.yml
+  format: yaml
+  label: Oracle EBS Integrated SOA Gateway REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/isg-rest-api.yml
+- filename: financial-services-api.yml
+  format: yaml
+  label: Oracle EBS Financial Services API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/financial-services-api.yml
+- filename: supply-chain-api.yml
+  format: yaml
+  label: Oracle EBS Supply Chain Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/supply-chain-api.yml
+- filename: human-resources-api.yml
+  format: yaml
+  label: Oracle EBS Human Resources API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/human-resources-api.yml
+- filename: manufacturing-api.yml
+  format: yaml
+  label: Oracle EBS Manufacturing API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/manufacturing-api.yml
+- filename: ecommerce-gateway-api.yml
+  format: yaml
+  label: Oracle EBS e-Commerce Gateway API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/ecommerce-gateway-api.yml
 apis:
 - description: 'RESTful web services for Oracle E-Business Suite modules exposed through the Integrated SOA Gateway (ISG). PL/SQL APIs, Java Bean Services, Application Module Services, and other interface types from '
   name: Oracle EBS Integrated SOA Gateway REST API
@@ -162,6 +199,7 @@ rules:
 skills: []
 slug: oracle-e-business-suite
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: oracle-e-business-suite\nname: Oracle E-Business Suite\ndescription: >-\n  A collection of APIs for Oracle E-Business Suite (EBS), Oracle's comprehensive\n  suite of integrated, global business applications that supports today's evolving\n  business models across financials, human capital management, supply chain, and\n  manufacturing.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Business Applications\n  - E-Business Suite\n  - Enterprise\n  - ERP\n  - Oracle\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/apis.yml\napis:\n  - name: Oracle EBS Integrated SOA Gateway REST API\n    description: RESTful web services for Oracle E-Business Suite modules exposed through the Integrated SOA Gateway (ISG). PL/SQL APIs, Java Bean Services, Application\
   \ Module Services, and other interface types from the Integration Repository can be deployed as lightweight REST services.\n    image: https://www.oracle.com/a/ocom/img/oracle-logo.svg\n    baseURL: https://{instance}.oracle.com/webservices/rest/\n    humanURL: https://docs.oracle.com/cd/E26401_01/doc.122/e20927/T511473T516479.htm\n    tags:\n      - Enterprise\n      - Integration\n      - Rest Services\n      - Soa Gateway\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/cd/E26401_01/doc.122/e20927/toc.htm\n      - type: GettingStarted\n        url: https://docs.oracle.com/cd/E26401_01/doc.122/e69284/T660136T660140.htm\n      - type: APIReference\n        url: https://docs.oracle.com/cd/E26401_01/doc.122/e20925/T511175T513043.htm\n      - type: OpenAPI\n        url: openapi/isg-rest-api.yml\n      - type: JSONLD\n        url: json-ld/context.jsonld\n    contact:\n      - FN: Oracle Support\n        email: support@oracle.com\n        url: https://support.oracle.com\n\
   \  - name: Oracle EBS Integrated SOA Gateway SOAP Web Services\n    description: SOAP-based web services for Oracle E-Business Suite exposed through the Integrated SOA Gateway. Supports synchronous and asynchronous interaction patterns for PL/SQL APIs, Concurrent Programs, and Business Service Objects deployed to Oracle SOA Suite.\n    image: https://www.oracle.com/a/ocom/img/oracle-logo.svg\n    baseURL: https://{instance}.oracle.com/webservices/SOAProvider/\n    humanURL: https://docs.oracle.com/cd/E26401_01/doc.122/e20927/toc.htm\n    tags:\n      - Integration\n      - Soa Gateway\n      - Soap Services\n      - Web Services\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/cd/E26401_01/doc.122/e20927/toc.htm\n      - type: APIReference\n        url: https://docs.oracle.com/cd/E26401_01/doc.122/e20923/T291171T291173.htm\n      - type: GettingStarted\n        url: https://docs.oracle.com/cd/E26401_01/doc.122/e20925/T511175T513043.htm\n      - type:\

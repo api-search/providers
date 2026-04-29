@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apigen-apigen-openapi.yml
+  format: yaml
+  label: APIGen
+  slug: apigen
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-apigen-openapi.yml
 apis:
 - description: ApiGen is an easy to use and modern PHP API documentation generator that automatically builds API documentation from PHP source code with full support for PHP 7.1+ features including typed properties,
   name: APIGen
@@ -61,6 +68,7 @@ rules:
 skills: []
 slug: apigen
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apigen\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/apis.yml\nname: APIGen\ndescription: >-\n  ApiGen is an open source PHP API documentation generator that automatically\n  produces smart and simple documentation from PHP source code. It supports\n  PHP 7.1+ including all PHP 8.3 features like enums, union types, readonly\n  classes, and intersection types. ApiGen is maintained by the ApiGen GitHub\n  organization and can be installed via Docker, Phar binary, or Composer.\ntags:\n  - Code\n  - Documentation\n  - Generation\n  - Open Source\n  - PHP\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2025-01-08'\nmodified: '2026-04-19'\nposition: Consumer\nspecificationVersion: '0.19'\napis:\n  - aid: apigen:apigen\n    name: APIGen\n    tags:\n      - Documentation\n      - Generation\n      - PHP\n    humanURL: https://github.com/ApiGen/ApiGen\n    baseURL:\
   \ https://api.apigen.com/v1\n    properties:\n      - url: https://github.com/ApiGen/ApiGen\n        type: GitHubRepository\n      - url: https://packagist.org/packages/apigen/apigen\n        type: SDK\n        title: Composer Package\n      - url: openapi/apigen-apigen-openapi.yml\n        type: OpenAPI\n      - url: json-schema/apigen-project-schema.json\n        type: JSONSchema\n      - url: json-schema/apigen-api-schema.json\n        type: JSONSchema\n      - url: json-schema/apigen-endpoint-schema.json\n        type: JSONSchema\n      - url: json-schema/apigen-deployment-schema.json\n        type: JSONSchema\n      - url: json-ld/apigen-context.jsonld\n        type: JSON-LD\n    description: >-\n      ApiGen is an easy to use and modern PHP API documentation generator\n      that automatically builds API documentation from PHP source code\n      with full support for PHP 7.1+ features including typed properties,\n      enums, union types, readonly classes, and typed class constants.\n\
   common:\n  - url: https://github.com/ApiGen/ApiGen\n    type: GitHubOrganization\n  - url: https://packagist.org/packages/apigen/apigen\n    type: SDK\n  - url: https://hub.docker.com/r/apigen/apigen\n    type: Docker\n  - type: Features\n    data:\n      - name: PHP Documentation Generation\n        description: Automatically generates API documentation from PHP source code with phpDoc support.\n      - name: Modern PHP Support\n        description: Full support for PHP 7.1+ including typed properties, enums, union types, readonly classes, and PHP 8.3 features.\n      - name: Advanced Type Systems\n        description: Supports intersection types, disjunctive normal form types, constructor property promotion, and all PHPStan-supported types.\n      - name: Flexible Installation\n        description: Available via Docker, Phar binary, or Composer for flexible integration into any PHP project workflow.\n      - name: Template-Based Output\n        description: Uses Latte templating for\

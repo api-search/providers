@@ -1,5 +1,12 @@
 ---
 api_count: 8
+api_specs:
+- filename: cisco-systems-cisco-api-openapi.yml
+  format: yaml
+  label: Cisco DevNet API Catalog
+  slug: devnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-cisco-api-openapi.yml
 apis:
 - description: Cisco DevNet is the unified developer portal for Cisco Systems products, exposing APIs, SDKs, sandboxes, and learning resources for networking, security, collaboration, and cloud infrastructure. The D
   name: Cisco DevNet API Catalog
@@ -97,6 +104,7 @@ rules:
 skills: []
 slug: cisco-systems
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cisco-systems\nname: Cisco Systems\nurl: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/apis.yml\ncreated: '2026-03-21'\nmodified: '2026-04-23'\ntype: Index\naccess: 3rd-Party\nposition: Consumer\nspecificationVersion: '0.19'\ntags:\n  - Collaboration\n  - Infrastructure\n  - Networking\n  - Security\ndescription: >-\n  Cisco Systems is a global technology company providing networking,\n  security, collaboration, and cloud infrastructure products. Cisco\n  exposes its programmable surface through Cisco DevNet, a single\n  developer portal that aggregates documentation, sandboxes, code\n  exchange, and learning labs across the company's hardware and software\n  portfolio. Major API domains include Catalyst Center and Meraki for\n  network management, IOS XE RESTCONF for device-level programmability,\n  Webex for collaboration, Secure Firewall and ISE for security, ThousandEyes\n  and AppDynamics for observability, and Intersight for cloud-managed\n\
   \  infrastructure. Authentication models vary by product line and include\n  OAuth 2.0, API keys, basic-auth token exchange, and HTTP signature\n  authentication.\napis:\n  - aid: cisco-systems:devnet-api\n    name: Cisco DevNet API Catalog\n    tags:\n      - Collaboration\n      - DevNet\n      - Infrastructure\n      - Networking\n      - Security\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://developer.cisco.com/api\n    humanURL: https://developer.cisco.com/\n    properties:\n      - url: https://developer.cisco.com/\n        type: Documentation\n      - url: https://developer.cisco.com/docs/\n        type: API Reference\n      - url: openapi/cisco-systems-cisco-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      Cisco DevNet is the unified developer portal for Cisco Systems\n      products, exposing APIs, SDKs, sandboxes, and learning resources\n      for networking, security, collaboration, and cloud infrastructure.\n\
   \      The DevNet catalog is the entry point for discovering and\n      authenticating against the broader Cisco API surface.\n  - aid: cisco-systems:catalyst-center\n    name: Cisco Catalyst Center\n    tags:\n      - Catalyst\n      - DNA Center\n      - Network Management\n      - SDN\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.cisco.com/docs/dna-center/\n    properties:\n      - url: https://developer.cisco.com/docs/dna-center/\n        type: Documentation\n    description: >-\n      Cisco Catalyst Center (formerly Cisco DNA Center) provides\n      programmable management of Cisco enterprise networks, including\n      discovery, inventory, provisioning, and assurance.\n  - aid: cisco-systems:meraki\n    name: Cisco Meraki Dashboard\n    tags:\n      - Cloud Managed\n      - Dashboard\n      - Wireless\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.meraki.com/api/v1\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apipark-api.yaml
+  format: yaml
+  label: APIPark API
+  slug: apipark-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/openapi/apipark-api.yaml
 apis:
 - description: The APIPark API provides programmatic access to manage the APIPark AI gateway and developer portal, including AI model integration, service management, team administration, and API publishing workflow
   name: APIPark API
@@ -56,6 +63,7 @@ solutions:
   name: Cloud
 - description: Enterprise support, SLA guarantees, and professional services for large-scale deployments.
   name: Enterprise
+source_filename: apis.yml
 source_yaml: "aid: apipark\nname: APIPark\ndescription: >-\n  APIPark is an open-source, cloud-native AI gateway and API developer portal\n  that helps developers and enterprises manage, integrate, and deploy AI and\n  API services. It supports 100+ AI models from all major AI providers,\n  provides API lifecycle management, authentication, rate limiting, and cluster\n  deployment for large-scale traffic. Teams can combine AI models with custom\n  prompts to create new AI-powered services such as sentiment analysis,\n  translation, or data analysis.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AI Gateway\n  - API Gateway\n  - API Management\n  - Developer Portal\n  - LLM\n  - Open Source\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apipark/refs/heads/main/apis.yml\ncreated: '2025-03-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: apipark:apipark-api\n    name: APIPark API\n    description:\
   \ >-\n      The APIPark API provides programmatic access to manage the APIPark AI gateway\n      and developer portal, including AI model integration, service management,\n      team administration, and API publishing workflows.\n    humanURL: https://apipark.com/\n    baseURL: https://api.apipark.com/v1\n    tags:\n      - AI Gateway\n      - API Gateway\n      - API Management\n      - Developer Portal\n      - LLM\n    properties:\n      - type: Documentation\n        url: https://docs.apipark.com/docs/overview\n      - type: GitHubRepository\n        url: https://github.com/APIParkLab/APIPark\n      - type: ChangeLog\n        url: https://docs.apipark.com/docs/release\n      - type: OpenAPI\n        url: openapi/apipark-api.yaml\n      - type: JSONSchema\n        url: json-schema/apipark-service-schema.json\n      - type: JSONSchema\n        url: json-schema/apipark-ai-model-schema.json\n      - type: JSON-LD\n        url: json-ld/apipark-context.jsonld\ncommon:\n  - type: Website\n\
   \    url: https://apipark.com/\n  - type: Documentation\n    url: https://docs.apipark.com/docs/overview\n  - type: GitHubOrganization\n    url: https://github.com/APIParkLab\n  - type: Blog\n    url: https://apipark.com/blog\n  - type: ChangeLog\n    url: https://docs.apipark.com/docs/release\n  - type: Features\n    data:\n      - name: AI Gateway\n        description: Unified AI gateway supporting 100+ AI models from OpenAI, Anthropic, Google, Meta, Mistral, and other major providers.\n      - name: Prompt Engineering\n        description: Combine AI models with custom system prompts to create new API services for specific use cases.\n      - name: API Developer Portal\n        description: Full-featured developer portal for publishing, discovering, and subscribing to API services.\n      - name: Multi-Tenant Teams\n        description: Team-based multi-tenancy for separating API services and subscriptions across organizational units.\n      - name: API Lifecycle Management\n      \

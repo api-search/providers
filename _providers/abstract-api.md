@@ -1,5 +1,90 @@
 ---
 api_count: 14
+api_specs:
+- filename: abstract-api-email-reputation.yaml
+  format: yaml
+  label: Email Reputation API
+  slug: email-reputation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-email-reputation.yaml
+- filename: abstract-api-phone-intelligence.yaml
+  format: yaml
+  label: Phone Intelligence API
+  slug: phone-intelligence
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-phone-intelligence.yaml
+- filename: abstract-api-ip-geolocation.yaml
+  format: yaml
+  label: IP Geolocation API
+  slug: ip-geolocation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-ip-geolocation.yaml
+- filename: abstract-api-ip-intelligence.yaml
+  format: yaml
+  label: IP Intelligence API
+  slug: ip-intelligence
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-ip-intelligence.yaml
+- filename: abstract-api-company-enrichment.yaml
+  format: yaml
+  label: Company Enrichment API
+  slug: company-enrichment
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-company-enrichment.yaml
+- filename: abstract-api-exchange-rates.yaml
+  format: yaml
+  label: Exchange Rates API
+  slug: exchange-rates
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-exchange-rates.yaml
+- filename: abstract-api-public-holidays.yaml
+  format: yaml
+  label: Public Holidays API
+  slug: public-holidays
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-public-holidays.yaml
+- filename: abstract-api-timezones.yaml
+  format: yaml
+  label: Timezone API
+  slug: timezones
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-timezones.yaml
+- filename: abstract-api-vat-validation.yaml
+  format: yaml
+  label: VAT Validation API
+  slug: vat-validation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-vat-validation.yaml
+- filename: abstract-api-iban-validation.yaml
+  format: yaml
+  label: IBAN Validation API
+  slug: iban-validation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-iban-validation.yaml
+- filename: abstract-api-website-screenshot.yaml
+  format: yaml
+  label: Website Screenshot API
+  slug: website-screenshot
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-website-screenshot.yaml
+- filename: abstract-api-image-processing.yaml
+  format: yaml
+  label: Image Processing API
+  slug: image-processing
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-image-processing.yaml
+- filename: abstract-api-web-scraping.yaml
+  format: yaml
+  label: Web Scraping API
+  slug: web-scraping
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-web-scraping.yaml
+- filename: abstract-api-avatars.yaml
+  format: yaml
+  label: Avatars API
+  slug: avatars
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/openapi/abstract-api-avatars.yaml
 apis:
 - description: Validate email addresses for deliverability, detect disposable or risky domains, verify SMTP/MX records, and enrich email data with sender information, breach history, and risk scoring.
   name: Email Reputation API
@@ -196,6 +281,7 @@ rules:
 skills: []
 slug: abstract-api
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: abstract-api\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/apis.yml\nname: Abstract API\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Avatars\n- Company Enrichment\n- Contacts\n- Currencies\n- Email Validation\n- Exchange Rates\n- IBAN Validation\n- Image Processing\n- IP Geolocation\n- IP Intelligence\n- Phone Validation\n- Public Holidays\n- Screenshots\n- Timezones\n- VAT Validation\n- Web Scraping\ndescription: >-\n  Abstract API is a platform that offers a wide range of API services for\n  developers to easily integrate various functionalities into their applications.\n  Services include IP geolocation, IP intelligence, email validation, phone\n  validation, currency exchange, website screenshots, image processing, web\n  scraping, company enrichment, public holidays, timezone lookup, VAT\n  validation, IBAN validation, and user avatar generation. Abstract API provides\n\
   \  a seamless way for developers to access powerful features without having to\n  build them from scratch.\ncreated: '2025-02-24'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: abstract-api:email-reputation\n  name: Email Reputation API\n  tags:\n  - Email Validation\n  - Email Reputation\n  - Fraud Detection\n  humanURL: https://www.abstractapi.com/api/email-verification-validation-api\n  baseURL: https://emailreputation.abstractapi.com/v1/\n  properties:\n  - url: https://docs.abstractapi.com/api/email-reputation.md\n    type: Documentation\n  - url: openapi/abstract-api-email-reputation.yaml\n    type: OpenAPI\n  - url: json-schema/email-reputation-breach-info-schema.json\n    type: JSONSchema\n  - url: examples/email-reputation-breach-info-example.json\n    type: Example\n  description: >-\n    Validate email addresses for deliverability, detect disposable or risky\n    domains, verify SMTP/MX records, and enrich email data with sender\n    information, breach\
   \ history, and risk scoring.\n\n- aid: abstract-api:phone-intelligence\n  name: Phone Intelligence API\n  tags:\n  - Phone Validation\n  - Phone Intelligence\n  - Fraud Detection\n  humanURL: https://www.abstractapi.com/api/phone-validation-api\n  baseURL: https://phoneintelligence.abstractapi.com/v1/\n  properties:\n  - url: https://docs.abstractapi.com/api/phone-intelligence.md\n    type: Documentation\n  - url: openapi/abstract-api-phone-intelligence.yaml\n    type: OpenAPI\n  - url: json-schema/phone-intelligence-phone-country-schema.json\n    type: JSONSchema\n  - url: examples/phone-intelligence-phone-country-example.json\n    type: Example\n  description: >-\n    Identify carrier, line type, validity, location, and get deep insights\n    including line status, VoIP detection, and risk scoring for any phone\n    number globally.\n\n- aid: abstract-api:ip-geolocation\n  name: IP Geolocation API\n  tags:\n  - IP Geolocation\n  - IP Addresses\n  - Geolocation\n  humanURL: https://www.abstractapi.com/api/ip-geolocation-api\n\

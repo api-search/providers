@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: akri-metrics-openapi.yaml
+  format: yaml
+  label: Akri Metrics API
+  slug: metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/openapi/akri-metrics-openapi.yaml
 apis:
 - description: Akri exposes Prometheus metrics on port 8080 at /metrics for the Agent, Controller, and broker pods. Metrics include instance count, discovery response results and latency, and broker pod count. Suppo
   name: Akri Metrics API
@@ -107,6 +114,7 @@ rules:
 skills: []
 slug: akri
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: akri\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/apis.yml\nname: Akri\ntags:\n  - Device Management\n  - Edge Computing\n  - IoT\n  - Kubernetes\n  - CNCF\n  - Open Source\n  - OPC UA\n  - ONVIF\n  - udev\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Akri is a CNCF Sandbox project that exposes heterogeneous leaf devices (such\n  as IP cameras and USB devices) as resources in a Kubernetes cluster. It\n  enables dynamic discovery and utilization of IoT edge devices through\n  protocol-specific Discovery Handlers for ONVIF, OPC UA, and udev, with\n  automatic workload scheduling and high availability.\ncreated: '2025-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: akri:metrics-api\n    name: Akri Metrics API\n    tags:\n      - Monitoring\n      - Prometheus\n      - Metrics\n      - Observability\n    properties:\n      - url: https://docs.akri.sh/\n\
   \        type: Documentation\n      - url: https://github.com/project-akri/akri\n        type: GitHubRepository\n      - url: openapi/akri-metrics-openapi.yaml\n        type: OpenAPI\n      - url: json-schema/akri-prometheus-metrics-schema.json\n        type: JSONSchema\n      - url: json-schema/akri-akri-instance-count-schema.json\n        type: JSONSchema\n      - url: json-schema/akri-akri-discovery-response-result-schema.json\n        type: JSONSchema\n      - url: json-schema/akri-akri-discovery-response-time-schema.json\n        type: JSONSchema\n      - url: json-schema/akri-akri-broker-pod-count-schema.json\n        type: JSONSchema\n      - url: json-schema/akri-akri-configuration-schema.json\n        type: JSONSchema\n      - url: json-schema/akri-akri-instance-schema.json\n        type: JSONSchema\n      - url: json-structure/akri-prometheus-metrics-structure.json\n        type: JSONStructure\n      - url: json-structure/akri-akri-instance-count-structure.json\n        type:\
   \ JSONStructure\n      - url: json-structure/akri-akri-discovery-response-result-structure.json\n        type: JSONStructure\n      - url: json-structure/akri-akri-discovery-response-time-structure.json\n        type: JSONStructure\n      - url: json-structure/akri-akri-broker-pod-count-structure.json\n        type: JSONStructure\n      - url: json-structure/akri-akri-configuration-structure.json\n        type: JSONStructure\n      - url: json-structure/akri-akri-instance-structure.json\n        type: JSONStructure\n      - url: examples/akri-prometheus-metrics-example.json\n        type: Example\n      - url: examples/akri-akri-instance-count-example.json\n        type: Example\n      - url: examples/akri-akri-discovery-response-result-example.json\n        type: Example\n      - url: examples/akri-akri-discovery-response-time-example.json\n        type: Example\n      - url: examples/akri-akri-broker-pod-count-example.json\n        type: Example\n      - url: examples/akri-akri-configuration-example.json\n\

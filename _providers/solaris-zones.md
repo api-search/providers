@@ -1,5 +1,60 @@
 ---
 api_count: 9
+api_specs:
+- filename: solaris-zones-management-openapi.yml
+  format: yaml
+  label: Solaris Zones Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-zones-management-openapi.yml
+- filename: solaris-zone-configuration-openapi.yml
+  format: yaml
+  label: Zone Configuration API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-zone-configuration-openapi.yml
+- filename: solaris-zone-administration-openapi.yml
+  format: yaml
+  label: Zone Administration API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-zone-administration-openapi.yml
+- filename: solaris-zone-monitoring-openapi.yml
+  format: yaml
+  label: Zone Monitoring API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-zone-monitoring-openapi.yml
+- filename: solaris-rad-zonemgr-openapi.yml
+  format: yaml
+  label: RAD Zone Management REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-rad-zonemgr-openapi.yml
+- filename: solaris-zone-stats-openapi.yml
+  format: yaml
+  label: Zones Monitoring Statistics API (libzonestat)
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-zone-stats-openapi.yml
+- filename: solaris-kernel-zones-openapi.yml
+  format: yaml
+  label: Oracle Solaris Kernel Zones API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-kernel-zones-openapi.yml
+- filename: solaris-statsstore-openapi.yml
+  format: yaml
+  label: Oracle Solaris StatsStore and Analytics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-statsstore-openapi.yml
+- filename: solaris-unified-archives-openapi.yml
+  format: yaml
+  label: Oracle Solaris Unified Archives Zones API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solaris-zones/refs/heads/main/openapi/solaris-unified-archives-openapi.yml
 apis:
 - description: Core API for creating, managing, and monitoring Solaris Zones.
   name: Solaris Zones Management API
@@ -172,6 +227,7 @@ rules:
 skills: []
 slug: solaris-zones
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Solaris Zones\ndescription: >-\n  API for managing Solaris Zones (containers) and virtualization on Oracle Solaris\n  systems.\nimage: https://www.oracle.com/a/ocom/img/cb71-solaris.jpg\ncreated: '2024'\nmodified: '2026-04-18'\nurl: https://docs.oracle.com/en/operating-systems/solaris.html\nspecificationVersion: '0.18'\napis:\n  - name: Solaris Zones Management API\n    description: >-\n      Core API for creating, managing, and monitoring Solaris Zones.\n    image: https://www.oracle.com/a/ocom/img/cb71-solaris.jpg\n    humanURL: https://docs.oracle.com/cd/E88353_01/html/E37839/zones.html\n    baseURL: https://solaris-host.example.com/api/v1\n    tags:\n      - Containers\n      - Oracle\n      - Solaris\n      - Virtualization\n      - Zones\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/cd/E88353_01/html/E37839/zones.html\n      - type: OpenAPI\n        url: openapi/solaris-zones-management-openapi.yml\n    contact:\n      - FN:\
   \ Oracle Solaris Support\n        email: solaris-support@oracle.com\n        url: https://www.oracle.com/solaris/support/\n  - name: Zone Configuration API\n    description: >-\n      API endpoints for zone configuration and resource management.\n    humanURL: https://docs.oracle.com/cd/E88353_01/html/E37839/zonecfg-1m.html\n    baseURL: https://solaris-host.example.com/api/v1/zones\n    tags:\n      - Configuration\n      - Networking\n      - Resources\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/cd/E88353_01/html/E37839/zonecfg-1m.html\n      - type: Documentation\n        url: https://docs.oracle.com/cd/E37838_01/html/E61040/\n      - type: OpenAPI\n        url: openapi/solaris-zone-configuration-openapi.yml\n    contact:\n      - FN: Oracle Solaris Support\n        email: solaris-support@oracle.com\n        url: https://www.oracle.com/solaris/support/\n  - name: Zone Administration API\n    description: >-\n      API for zone lifecycle management\
   \ including install, boot, halt, and delete\n      operations.\n    humanURL: https://docs.oracle.com/cd/E88353_01/html/E37839/zoneadm-1m.html\n    baseURL: https://solaris-host.example.com/api/v1/zones/admin\n    tags:\n      - Administration\n      - Lifecycle\n      - Management\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/cd/E88353_01/html/E37839/zoneadm-1m.html\n      - type: Documentation\n        url: https://docs.oracle.com/cd/E37838_01/html/E61038/gqhar.html\n      - type: OpenAPI\n        url: openapi/solaris-zone-administration-openapi.yml\n    contact:\n      - FN: Oracle Solaris Support\n        email: solaris-support@oracle.com\n        url: https://www.oracle.com/solaris/support/\n  - name: Zone Monitoring API\n    description: >-\n      API for monitoring zone status, resource usage, and performance metrics.\n    humanURL: https://docs.oracle.com/cd/E88353_01/html/E37839/zonestat-1.html\n    baseURL: https://solaris-host.example.com/api/v1/zones/monitoring\n\

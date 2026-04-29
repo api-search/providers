@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: agromonitoring-openapi.yml
+  format: yaml
+  label: Agromonitoring
+  slug: agromonitoring
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-openapi.yml
 apis:
 - description: The Agromonitoring Agro API provides satellite imagery, vegetation index time series (NDVI, EVI, DSWI, LSWI), weather data, soil conditions, and UV index for registered agricultural field polygons. En
   name: Agromonitoring
@@ -90,6 +97,7 @@ rules:
 skills: []
 slug: agromonitoring
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: agromonitoring\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/apis.yml\napis:\n  - aid: agromonitoring:agromonitoring\n    name: Agromonitoring\n    tags:\n      - Agriculture\n      - Satellite Imagery\n      - Vegetation Indices\n      - Weather\n      - Precision Agriculture\n    humanURL: https://agromonitoring.com/\n    properties:\n      - url: https://agromonitoring.com/\n        type: Documentation\n      - url: https://agromonitoring.com/api/\n        type: APIReference\n      - url: https://agromonitoring.com/api/agro/#auth\n        type: Authentication\n      - url: https://agromonitoring.com/subscriptions\n        type: Pricing\n      - url: openapi/agromonitoring-openapi.yml\n        type: OpenAPI\n      - url: json-schema/agromonitoring-polygon-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-geojson-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-satelliteimage-schema.json\n\
   \        type: JSONSchema\n      - url: json-schema/agromonitoring-ndvirecord-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-vegetationstats-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-weatherdata-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-temperaturerange-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-soildata-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-uvindexdata-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-polygoncreaterequest-schema.json\n        type: JSONSchema\n      - url: json-schema/agromonitoring-errorresponse-schema.json\n        type: JSONSchema\n      - url: json-structure/agromonitoring-polygon-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-geojson-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-satelliteimage-structure.json\n\
   \        type: JSONStructure\n      - url: json-structure/agromonitoring-ndvirecord-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-vegetationstats-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-weatherdata-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-temperaturerange-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-soildata-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-uvindexdata-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-polygoncreaterequest-structure.json\n        type: JSONStructure\n      - url: json-structure/agromonitoring-errorresponse-structure.json\n        type: JSONStructure\n      - url: examples/agromonitoring-polygon-example.json\n        type: Example\n      - url: examples/agromonitoring-geojson-example.json\n        type:\

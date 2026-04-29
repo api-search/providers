@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: zoominfo-openapi.yml
+  format: yaml
+  label: ZoomInfo
+  slug: zoominfo
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-openapi.yml
 apis:
 - description: The ZoomInfo API is a set of HTTPS endpoints you can use to programmatically retrieve and integrate ZoomInfo data into your existing technology stack and ...
   name: ZoomInfo
@@ -157,6 +164,7 @@ rules:
 skills: []
 slug: zoominfo
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: zoominfo\nurl: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/apis.yml\napis:\n- aid: zoominfo:zoominfo\n  name: ZoomInfo\n  tags:\n  - Authentication\n  - Contact Search\n  - Company Search\n  - Contact Enrich\n  - Company Enrich\n  - Intent Search\n  - News Search\n  - Scoop Search\n  - Technology Enrich\n  - Webhooks\n  - Bulk Operations\n  - WebSights\n  - Compliance\n  - Lookup\n  - Corporate Hierarchy\n  - Org Chart\n  humanURL: https://www.zoominfo.com/\n  properties:\n  - url: https://www.zoominfo.com/solutions/data-as-a-service/enterprise-api\n    type: Documentation\n  - type: OpenAPI\n    url: openapi/zoominfo-openapi.yml\n  - type: SDK\n    url: https://github.com/Zoominfo/api-auth-python-client\n    title: Python SDK\n  - type: SDK\n    url: https://github.com/Zoominfo/api-auth-java-client\n    title: Java SDK\n  - type: SDK\n    url: https://github.com/Zoominfo/api-auth-nodejs-client\n    title: Node.js SDK\n  - type: SDK\n    url:\
   \ https://github.com/Zoominfo/api-auth-csharp-client\n    title: C# SDK\n  - type: JSONSchema\n    url: json-schema/zoominfo-address-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-authenticate-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-bulk-company-enrich-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-bulk-company-search-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-bulk-contact-enrich-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-bulk-contact-search-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-bulk-job-results-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-bulk-job-status-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-enrich-input-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-enrich-output-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-enrich-request-schema.json\n\
   \  - type: JSONSchema\n    url: json-schema/zoominfo-company-funding-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-master-data-enrich-input-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-master-data-enrich-output-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-master-data-enrich-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-search-input-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-company-search-request-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-competitor-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-compliance-output-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-contact-enrich-input-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-contact-enrich-output-schema.json\n  - type: JSONSchema\n    url: json-schema/zoominfo-contact-enrich-request-schema.json\n  - type: JSONSchema\n    url:\

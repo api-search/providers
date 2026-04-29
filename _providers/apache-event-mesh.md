@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: eventmesh-admin.yml
+  format: yaml
+  label: Apache EventMesh Admin API
+  slug: eventmesh-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/eventmesh-admin.yml
+- filename: eventmesh-messaging.yml
+  format: yaml
+  label: Apache EventMesh Messaging API
+  slug: eventmesh-messaging-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/asyncapi/eventmesh-messaging.yml
 apis:
 - description: HTTP endpoints for managing the EventMesh runtime including topic management, subscription management, event publishing via HTTP, client monitoring, and runtime metrics.
   name: Apache EventMesh Admin API
@@ -90,6 +103,7 @@ rules:
 skills: []
 slug: apache-event-mesh
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-event-mesh\nname: Apache EventMesh\ndescription: >-\n  Apache EventMesh is a dynamic event-driven application runtime used to decouple the application and backend middleware layer, providing a serverless platform for building distributed event-driven architectures with support for CloudEvents and multiple messaging protocols including HTTP, TCP, and gRPC.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - CloudEvents\n  - Event-Driven\n  - Messaging\n  - Open Source\n  - Pub-Sub\n  - Serverless\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/apis.yml\ncreated: '2026-03-26'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: apache-event-mesh:eventmesh-admin-api\n    name: Apache EventMesh Admin API\n    description: >-\n      HTTP endpoints for managing the EventMesh runtime including topic management, subscription management, event\
   \ publishing via HTTP, client monitoring, and runtime metrics.\n    humanURL: https://eventmesh.apache.org/docs/instruction/quickstart\n    baseURL: http://localhost:10106\n    tags:\n      - Admin\n      - CloudEvents\n      - REST API\n      - Topics\n    properties:\n      - type: Documentation\n        url: https://eventmesh.apache.org/docs/introduction\n      - type: OpenAPI\n        url: openapi/eventmesh-admin.yml\n      - type: JSONSchema\n        url: json-schema/eventmesh-admin-cloud-event-schema.json\n      - type: JSON-LD\n        url: json-ld/apache-event-mesh-admin-context.jsonld\n  - aid: apache-event-mesh:eventmesh-messaging-api\n    name: Apache EventMesh Messaging API\n    description: >-\n      Event-driven messaging via TCP, HTTP, and gRPC protocols. Events follow the CloudEvents specification. Supports pub-sub, request-reply, and broadcast messaging patterns.\n    humanURL: https://eventmesh.apache.org/docs/sdk-java/tcp-sdk-usage\n    tags:\n      - CloudEvents\n \
   \     - Event-Driven\n      - Messaging\n      - Pub-Sub\n    properties:\n      - type: Documentation\n        url: https://eventmesh.apache.org/docs/sdk-java/tcp-sdk-usage\n      - type: AsyncAPI\n        url: asyncapi/eventmesh-messaging.yml\ncommon:\n  - type: Documentation\n    url: https://eventmesh.apache.org/docs/introduction\n  - type: GettingStarted\n    url: https://eventmesh.apache.org/docs/instruction/quickstart\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/eventmesh\n  - type: Blog\n    url: https://eventmesh.apache.org/blog\n  - type: Support\n    url: https://eventmesh.apache.org/community\n  - type: SpectralRules\n    url: rules/apache-event-mesh-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-event-mesh-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/eventmesh-event-streaming.yaml\n  - type: Features\n    data:\n      - name: CloudEvents Support\n\

@@ -1,5 +1,54 @@
 ---
 api_count: 49
+api_specs:
+- filename: red-hat-openshift-cluster-manager-openapi.yml
+  format: yaml
+  label: Red Hat OpenShift Cluster Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-openshift-cluster-manager-openapi.yml
+- filename: red-hat-ansible-automation-platform-openapi.yml
+  format: yaml
+  label: Red Hat Ansible Automation Platform API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-ansible-automation-platform-openapi.yml
+- filename: red-hat-quay-openapi.yml
+  format: yaml
+  label: Red Hat Quay API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-quay-openapi.yml
+- filename: red-hat-insights-openapi.yml
+  format: yaml
+  label: Red Hat Insights API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-insights-openapi.yml
+- filename: red-hat-satellite-openapi.yml
+  format: yaml
+  label: Red Hat Satellite API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-satellite-openapi.yml
+- filename: red-hat-keycloak-admin-openapi.yml
+  format: yaml
+  label: Red Hat Build of Keycloak Admin REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-keycloak-admin-openapi.yml
+- filename: red-hat-kafka-bridge-asyncapi.yml
+  format: yaml
+  label: Red Hat Streams for Apache Kafka Bridge API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/asyncapi/red-hat-kafka-bridge-asyncapi.yml
+- filename: red-hat-notifications-webhooks-asyncapi.yml
+  format: yaml
+  label: Red Hat Notifications API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/asyncapi/red-hat-notifications-webhooks-asyncapi.yml
 apis:
 - description: RESTful API for managing OpenShift clusters, applications, and resources on Red Hat's enterprise Kubernetes platform.
   name: Red Hat OpenShift API
@@ -326,6 +375,7 @@ rules:
 skills: []
 slug: red-hat
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: red-hat\nname: Red Hat\ndescription: APIs and developer resources from Red Hat, a leading provider of enterprise open source solutions including Linux, cloud, container, and Kubernetes technologies.\ntype: Index\nimage: https://www.redhat.com/cms/managed-files/Logo-Red_Hat-A-Standard-RGB.svg\nurl: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntags:\n  - Cloud\n  - Containers\n  - Enterprise\n  - Hybrid Cloud\n  - Kubernetes\n  - Linux\n  - Open Source\napis:\n  - name: Red Hat OpenShift API\n    description: RESTful API for managing OpenShift clusters, applications, and resources on Red Hat's enterprise Kubernetes platform.\n    image: https://www.redhat.com/cms/managed-files/openshift-logo.png\n    humanUrl: https://docs.openshift.com/container-platform/latest/rest_api/index.html\n    baseUrl: https://api.openshift.com\n    tags:\n      - Cloud Native\n  \
   \    - Containers\n      - Kubernetes\n      - Platform as a Service\n    properties:\n      - type: Documentation\n        url: https://docs.openshift.com/container-platform/latest/rest_api/index.html\n      - type: OpenAPI\n        url: https://api.openshift.com/api/clusters_mgmt/v1/openapi\n      - type: Authentication\n        url: https://docs.openshift.com/container-platform/latest/authentication/index.html\n      - type: GettingStarted\n        url: https://docs.openshift.com/container-platform/latest/getting_started/openshift-overview.html\n      - type: ChangeLog\n        url: https://docs.openshift.com/container-platform/latest/release_notes/ocp-4-release-notes.html\n    contact:\n      - type: Support\n        url: https://access.redhat.com/support\n  - name: Red Hat OpenShift Cluster Manager API\n    description: API for provisioning, managing, and monitoring OpenShift clusters across cloud providers through the Red Hat Hybrid Cloud Console. Supports cluster lifecycle operations\
   \ including creation, scaling, and upgrades.\n    image: https://www.redhat.com/cms/managed-files/openshift-logo.png\n    humanUrl: https://api.openshift.com/\n    baseUrl: https://api.openshift.com\n    tags:\n      - Cluster Management\n      - Hybrid Cloud\n      - Kubernetes\n      - Provisioning\n    properties:\n      - type: Documentation\n        url: https://docs.redhat.com/en/documentation/openshift_cluster_manager/1-latest/html/managing_clusters/assembly-managing-clusters\n      - type: OpenAPI\n        url: https://api.openshift.com/api/clusters_mgmt/v1/openapi\n      - type: OpenAPI\n        url: openapi/red-hat-openshift-cluster-manager-openapi.yml\n      - type: GettingStarted\n        url: https://access.redhat.com/articles/6114701\n      - type: GitHubRepository\n        url: https://github.com/openshift-online/ocm-api-model\n    contact:\n      - type: Support\n        url: https://access.redhat.com/support\n  - name: Red Hat Ansible Automation Platform API\n    description:\

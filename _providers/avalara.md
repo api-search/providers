@@ -1,5 +1,96 @@
 ---
 api_count: 20
+api_specs:
+- filename: avalara-avatax-rest-openapi.yml
+  format: yaml
+  label: AvaTax APIs
+  slug: avatax-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-avatax-rest-openapi.yml
+- filename: avalara-communications-openapi.yml
+  format: yaml
+  label: Communications Tax API
+  slug: communications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-communications-openapi.yml
+- filename: avalara-excise-openapi.yml
+  format: yaml
+  label: Excise Platform API
+  slug: excise-tax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-excise-openapi.yml
+- filename: avalara-item-classification-openapi.yml
+  format: yaml
+  label: Item Classification API
+  slug: item-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-item-classification-openapi.yml
+- filename: avalara-avatax-brazil-openapi.yml
+  format: yaml
+  label: AvaTax Brazil API
+  slug: avatax-brazil-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-avatax-brazil-openapi.yml
+- filename: avalara-vat-reporting-openapi.yml
+  format: yaml
+  label: VAT Reporting API
+  slug: vat-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-vat-reporting-openapi.yml
+- filename: avalara-mylodgetax-openapi.yml
+  format: yaml
+  label: MyLodgeTax API
+  slug: mylodgetax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-mylodgetax-openapi.yml
+- filename: avalara-certcapture-openapi.yml
+  format: yaml
+  label: CertCapture API
+  slug: certcapture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-certcapture-openapi.yml
+- filename: avalara-e-invoicing-openapi.yml
+  format: yaml
+  label: E-Invoicing REST API
+  slug: e-invoicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-e-invoicing-openapi.yml
+- filename: avalara-activation-service-openapi.yml
+  format: yaml
+  label: Activation Service API
+  slug: activation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-activation-service-openapi.yml
+- filename: avalara-business-openapi.yml
+  format: yaml
+  label: Avalara Business API
+  slug: business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-business-openapi.yml
+- filename: avalara-portal-oauth-openapi.yml
+  format: yaml
+  label: Portal OAuth API
+  slug: portal-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-portal-oauth-openapi.yml
+- filename: avalara-shared-company-service-openapi.yml
+  format: yaml
+  label: Shared Company Service API
+  slug: shared-company-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-shared-company-service-openapi.yml
+- filename: avalara-hs-code-classification-openapi.yml
+  format: yaml
+  label: Automated Tariff Code Classification API
+  slug: hs-code-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-hs-code-classification-openapi.yml
+- filename: avalara-1099-w9-openapi.yml
+  format: yaml
+  label: 1099 & W-9 API
+  slug: 1099-w9-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-1099-w9-openapi.yml
 apis:
 - description: Automate compliance with Avalara MCP servers for AI-driven tax workflows and APIs. Have your agent call our agent.
   name: Avalara
@@ -279,6 +370,7 @@ rules:
 skills: []
 slug: avalara
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: avalara\nurl: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/apis.yml\napis:\n  - aid: avalara:avalara\n    name: Avalara\n    tags:\n      - Taxes\n    humanURL: ' https://developer.avalara.com/'\n    properties:\n      - url: ' https://developer.avalara.com/'\n        type: Documentation\n    description: >-\n      Automate compliance with Avalara MCP servers for AI-driven tax workflows and\n      APIs. Have your agent call our agent.\n  - aid: avalara:avatax-apis\n    name: AvaTax APIs\n    tags:\n      - Sales Tax\n      - Taxes\n      - VAT\n    humanURL: https://developer.avalara.com/api-reference/avatax/rest/v2/\n    description: >-\n      The AvaTax API is a set of application programming interfaces provided by Avalara\n      that allows businesses to integrate automated, real-time sales and use tax,\n      VAT, and GST calculations directly into their own software applications. This\n      allows for seamless and accurate tax compliance\
   \ for every transaction, regardless\n      of jurisdiction or product type.\n    properties:\n      - url: https://developer.avalara.com/api-reference/avatax/rest/v2/\n        type: Documentation\n      - type: OpenAPI\n        url: openapi/avalara-avatax-rest-openapi.yml\n  - aid: avalara:avatax-soap-api\n    name: AvaTax SOAP API\n    tags:\n      - SOAP\n      - Taxes\n    humanURL: https://developer.avalara.com/api-reference/avatax/soap/\n    description: The AvaTax SOAP API exposes the most commonly used features for interacting with the AvaTax service, allowing calculation of tax, modification of documents, and validation of addresses.\n    properties:\n      - url: https://developer.avalara.com/api-reference/avatax/soap/\n        type: Documentation\n  - aid: avalara:communications-api\n    name: Communications Tax API\n    tags:\n      - Communications\n      - Taxes\n      - Telecom\n    humanURL: https://developer.avalara.com/api-reference/communications/v2/\n    description:\
   \ The Avalara Communications Tax API (SaasPro) provides communications tax calculations using information provided by jurisdiction codes, enabling tax calculations on invoices and line items, jurisdiction determination via geocoding, and profile customization.\n    properties:\n      - url: https://developer.avalara.com/api-reference/communications/v2/\n        type: Documentation\n      - type: OpenAPI\n        url: openapi/avalara-communications-openapi.yml\n  - aid: avalara:excise-tax-api\n    name: Excise Platform API\n    tags:\n      - Excise\n      - Taxes\n    humanURL: https://developer.avalara.com/api-reference/excise/v1/\n    description: The Excise Platform API provides an external programmatic interface for the Avalara Excise application, enabling excise tax calculation and management, business entity imports, location management, and other tax compliance operations through REST API endpoints.\n    properties:\n      - url: https://developer.avalara.com/api-reference/excise/v1/\n\

@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: albato-automations-openapi.yaml
+  format: yaml
+  label: Albato Automations API
+  slug: automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-automations-openapi.yaml
+- filename: albato-embedded-openapi.yaml
+  format: yaml
+  label: Albato Embedded API
+  slug: embedded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-embedded-openapi.yaml
 apis:
 - description: REST API for managing multi-step automation workflows in Albato. Supports creating, enabling, disabling, and monitoring automation executions across 1,000+ connected apps.
   name: Albato Automations API
@@ -123,6 +136,7 @@ rules:
 skills: []
 slug: albato
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: albato\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/apis.yml\nname: Albato\ntags:\n  - No-Code Automation\n  - Workflow Automation\n  - Embedded iPaaS\n  - App Integration\n  - Integrations\n  - Webhooks\n  - White-Label\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Albato is a no-code automation platform and embedded iPaaS that enables\n  businesses to automate workflows by connecting 1,000+ apps without writing\n  code. Supports multi-step automations with triggers, actions, conditions,\n  and delays. Albato Embedded allows SaaS companies to offer white-label\n  native integrations to their customers.\ncreated: '2025-06-06'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: albato:automations-api\n    name: Albato Automations API\n    tags:\n      - Automation\n      - Workflow\n      - No-Code\n      - Executions\n    properties:\n      - url:\
   \ https://albato.com\n        type: Documentation\n      - url: openapi/albato-automations-openapi.yaml\n        type: OpenAPI\n      - url: json-schema/albato-albato-automations-automation-schema.json\n        type: JSONSchema\n      - url: json-schema/albato-albato-automations-automation-step-schema.json\n        type: JSONSchema\n      - url: json-schema/albato-albato-automations-execution-schema.json\n        type: JSONSchema\n      - url: json-structure/albato-albato-automations-automation-structure.json\n        type: JSONStructure\n      - url: json-structure/albato-albato-automations-automation-step-structure.json\n        type: JSONStructure\n      - url: json-structure/albato-albato-automations-execution-structure.json\n        type: JSONStructure\n      - url: examples/albato-albato-automations-automation-example.json\n        type: Example\n      - url: examples/albato-albato-automations-automation-step-example.json\n        type: Example\n      - url: examples/albato-albato-automations-execution-example.json\n\
   \        type: Example\n    humanURL: https://albato.com\n    baseURL: https://albato.com/api/v1\n    description: >-\n      REST API for managing multi-step automation workflows in Albato. Supports\n      creating, enabling, disabling, and monitoring automation executions across\n      1,000+ connected apps.\n\n  - aid: albato:embedded-api\n    name: Albato Embedded API\n    tags:\n      - Embedded iPaaS\n      - White-Label\n      - Teams\n      - Connectors\n      - Templates\n    properties:\n      - url: https://albato.com/embedded\n        type: Documentation\n      - url: openapi/albato-embedded-openapi.yaml\n        type: OpenAPI\n      - url: json-schema/albato-albato-embedded-team-schema.json\n        type: JSONSchema\n      - url: json-schema/albato-albato-embedded-user-schema.json\n        type: JSONSchema\n      - url: json-schema/albato-albato-embedded-connector-schema.json\n        type: JSONSchema\n      - url: json-schema/albato-albato-embedded-template-schema.json\n \

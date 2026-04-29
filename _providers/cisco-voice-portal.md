@@ -1,5 +1,36 @@
 ---
 api_count: 5
+api_specs:
+- filename: cisco-voice-portal-call-control-openapi.yml
+  format: yaml
+  label: Cisco Voice Portal Call Control API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-call-control-openapi.yml
+- filename: cisco-voice-portal-reporting-openapi.yml
+  format: yaml
+  label: Cisco Voice Portal Reporting API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-reporting-openapi.yml
+- filename: cisco-voice-portal-administration-openapi.yml
+  format: yaml
+  label: Cisco Voice Portal Administration API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-administration-openapi.yml
+- filename: cisco-voice-portal-vxml-services-openapi.yml
+  format: yaml
+  label: Cisco Voice Portal VXML Services API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-vxml-services-openapi.yml
+- filename: cisco-voice-portal-call-events-asyncapi.yml
+  format: yaml
+  label: Cisco Voice Portal Call Events API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/asyncapi/cisco-voice-portal-call-events-asyncapi.yml
 apis:
 - description: Provides programmatic access to call control functions on the CVP Call Server including active call management, call routing, transfers, SIP session monitoring, and health status of the call processin
   name: Cisco Voice Portal Call Control API
@@ -110,6 +141,7 @@ rules:
 skills: []
 slug: cisco-voice-portal
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Cisco Voice Portal\ndescription: Cisco Voice Portal (CVP) is an enterprise-class Voice XML (VXML) browser and call control platform that enables self-service applications for voice, video, and multimodal interactions.\nimage: https://www.cisco.com/c/en/us/products/customer-collaboration/unified-contact-center-enterprise/index.html\ntags:\n  - Contact Center\n  - IVR\n  - Telephony\n  - Voice\n  - VXML\ncreated: '2024'\nmodified: '2026-04-19'\nspecificationVersion: '0.18'\nurl: https://www.cisco.com/c/en/us/products/customer-collaboration/voice-portal/index.html\napis:\n  - name: Cisco Voice Portal Call Control API\n    description: Provides programmatic access to call control functions on the CVP Call Server including active call management, call routing, transfers, SIP session monitoring, and health status of the call processing component.\n    image: https://www.cisco.com/c/en/us/products/customer-collaboration/voice-portal/index.html\n    humanURL: https://developer.cisco.com/docs/voice-portal/\n\
   \    baseURL: https://cvp-callserver.example.com:8000/cvp/rest\n    tags:\n      - Call Control\n      - Routing\n      - Session Management\n      - SIP\n    properties:\n      - type: Documentation\n        url: https://www.cisco.com/c/en/us/support/customer-collaboration/voice-portal/products-programming-reference-guides-list.html\n      - type: OpenAPI\n        url: openapi/cisco-voice-portal-call-control-openapi.yml\n  - name: Cisco Voice Portal Reporting API\n    description: Access to call detail records (CDRs), real-time call statistics, historical reporting data, and report template execution through the CVP Reporting Server.\n    image: https://www.cisco.com/c/en/us/products/customer-collaboration/voice-portal/index.html\n    humanURL: https://developer.cisco.com/docs/voice-portal/\n    baseURL: https://cvp-reporting.example.com:8111/cvp-reporting/rest\n    tags:\n      - Analytics\n      - CDR\n      - Reporting\n      - Statistics\n    properties:\n      - type: Documentation\n\
   \        url: https://www.cisco.com/c/en/us/support/customer-collaboration/voice-portal/products-programming-reference-guides-list.html\n      - type: OpenAPI\n        url: openapi/cisco-voice-portal-reporting-openapi.yml\n  - name: Cisco Voice Portal Administration API\n    description: The CVP OAMP (Operations, Administration, Maintenance, and Provisioning) REST API for managing devices, applications, dialed number patterns, SIP server groups, system configuration, user management, and deployment operations.\n    image: https://www.cisco.com/c/en/us/products/customer-collaboration/voice-portal/index.html\n    humanURL: https://developer.cisco.com/docs/voice-portal/\n    baseURL: https://cvp-oamp.example.com:9443/oamp/rest\n    tags:\n      - Administration\n      - Configuration\n      - Management\n      - OAMP\n      - Provisioning\n    properties:\n      - type: Documentation\n        url: https://www.cisco.com/c/en/us/support/customer-collaboration/voice-portal/products-programming-reference-guides-list.html\n\

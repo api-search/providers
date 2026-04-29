@@ -1,5 +1,144 @@
 ---
 api_count: 65
+api_specs:
+- filename: github-app-api-openapi.yml
+  format: yaml
+  label: GitHub App API
+  slug: github-app-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-app-api-openapi.yml
+- filename: github-auth-api-openapi.yml
+  format: yaml
+  label: GitHub Authorization API
+  slug: github-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-auth-api-openapi.yml
+- filename: github-code-of-conduct-api-openapi.yml
+  format: yaml
+  label: GitHub Code of Conduct API
+  slug: github-code-of-conduct-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-code-of-conduct-api-openapi.yml
+- filename: github-emojis-openapi.yml
+  format: yaml
+  label: GitHub Emojis API
+  slug: github-emojis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-emojis-openapi.yml
+- filename: github-events-api-openapi.yml
+  format: yaml
+  label: GitHub Events API
+  slug: github-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-events-api-openapi.yml
+- filename: github-issues-api-openapi.yml
+  format: yaml
+  label: GitHub Issues API
+  slug: github-issues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-issues-api-openapi.yml
+- filename: github-repos-api-openapi.yml
+  format: yaml
+  label: GitHub Repos API
+  slug: github-repos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repos-api-openapi.yml
+- filename: github-scim-openapi.yml
+  format: yaml
+  label: GitHub SCIM API
+  slug: github-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-scim-openapi.yml
+- filename: github-search-api-openapi.yml
+  format: yaml
+  label: GitHub Search API
+  slug: github-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-search-api-openapi.yml
+- filename: github-setup-openapi.yml
+  format: yaml
+  label: GitHub Setup API
+  slug: github-setup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-setup-openapi.yml
+- filename: github-teams-openapi.yml
+  format: yaml
+  label: GitHub Teams API
+  slug: github-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-teams-openapi.yml
+- filename: github-zen-openapi.yml
+  format: yaml
+  label: GitHub Zen API
+  slug: github-zen-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-zen-openapi.yml
+- filename: github-users-api-openapi.yml
+  format: yaml
+  label: GitHub User API
+  slug: github-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-users-api-openapi.yml
+- filename: github-repo-actions-api-openapi.yml
+  format: yaml
+  label: GitHub Actions API
+  slug: github-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-actions-api-openapi.yml
+- filename: github-repo-branches-api-openapi.yml
+  format: yaml
+  label: GitHub Branches API
+  slug: github-branches-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-branches-api-openapi.yml
+- filename: github-repo-code-scanning-api-openapi.yml
+  format: yaml
+  label: GitHub Code Scanning API
+  slug: github-code-scanning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-code-scanning-api-openapi.yml
+- filename: github-repo-collaborators-api-openapi.yml
+  format: yaml
+  label: GitHub Collaborators API
+  slug: github-collaborators-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-collaborators-api-openapi.yml
+- filename: github-repo-dependabot-api-openapi.yml
+  format: yaml
+  label: GitHub Dependabot API
+  slug: github-dependabot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-dependabot-api-openapi.yml
+- filename: github-repo-hooks-api-openapi.yml
+  format: yaml
+  label: GitHub Webhooks API
+  slug: github-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-hooks-api-openapi.yml
+- filename: github-repo-pulls-api-openapi.yml
+  format: yaml
+  label: GitHub Pull Requests API
+  slug: github-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-pulls-api-openapi.yml
+- filename: github-repo-tags-api-openapi.yml
+  format: yaml
+  label: GitHub Tags API
+  slug: github-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-tags-api-openapi.yml
+- filename: github-repo-autolinks-api-openapi.yml
+  format: yaml
+  label: GitHub Autolinks API
+  slug: github-autolinks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-autolinks-api-openapi.yml
+- filename: github-repo-invitations-api-openapi.yml
+  format: yaml
+  label: GitHub Repository Invitations API
+  slug: github-repository-invitations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/openapi/github-repo-invitations-api-openapi.yml
 apis:
 - description: 'The GitHub App API is the set of REST/GraphQL endpoints and webhooks that lets a GitHub App securely integrate with and automate work across GitHub. Apps authenticate with a shortlived JSON Web Token '
   name: GitHub App API
@@ -413,6 +552,7 @@ solutions:
   name: GitHub Team
 - description: Enterprise features with SAML SSO, audit log streaming, and advanced security.
   name: GitHub Enterprise
+source_filename: apis.yml
 source_yaml: "aid: github\nurl: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml\napis:\n- aid: github:github-app-api\n  name: GitHub App API\n  tags:\n  - Applications\n  baseURL: https://api.github.com\n  humanURL: https://docs.github.com/en/rest/apps?apiVersion=2022-11-28\n  overlays:\n  - url: overlays/github-app-openapi-search.yml\n    type: OpenAPI\n  properties:\n  - url: openapi/github-app-api-openapi.yml\n    type: OpenAPI\n  - url: https://docs.github.com/en/rest/apps\n    type: Documentation\n  description: The GitHub App API is the set of REST/GraphQL endpoints and webhooks\n    that lets a GitHub App securely integrate with and automate work across GitHub.\n    Apps authenticate with a shortlived JSON Web Token and exchange it for installation\n    access tokens to act on specific repositories or organizations with finegrained,\n    leastprivilege permissions, or use user-to-server OAuth to act on behalf of a\n    user when needed.\n- aid: github:github-auth-api\n\
   \  name: GitHub Authorization API\n  tags:\n  - Authentication\n  - Authorization\n  baseURL: https://api.github.com\n  humanURL: https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api?apiVersion=2022-11-28\n  properties:\n  - url: openapi/github-auth-api-openapi.yml\n    type: OpenAPI\n  - url: '\n\n      https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api'\n    type: Documentation\n  description: The GitHub Authorization (OAuth Authorizations) API historically let\n    you programmatically create, list, inspect, and revoke access tokens for a user\n    or OAuth applicationsetting scopes, verifying token validity, rotating or deleting\n    tokens, and generally managing what an app could do on a users behalf. It was\n    commonly used with basic authentication (and 2FA) to mint personal access tokens\n    and to manage OAuth app grants.\n- aid: github:github-code-of-conduct-api\n  name: GitHub Code of Conduct API\n  tags:\n  - Code of Conduct\n\
   \  baseURL: https://api.github.com\n  humanURL: https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct?apiVersion=2022-11-28\n  properties:\n  - url: openapi/github-code-of-conduct-api-openapi.yml\n    type: OpenAPI\n  - url: https://docs.github.com/en/rest/codes-of-conduct/codes-of-conduct\n    type: Documentation\n  description: GitHubs Code of Conduct API lets apps discover and retrieve the community\n    codes of conduct that GitHub supports and see which one a repository has adopted.\n    Through REST endpoints, clients can list available templates (like the Contributor\n    Covenant), fetch a specific code by key, and read a repositorys code-of-conduct\n    metadata and text, including fields such as name, key, URL, and body. This enables\n    tooling to display community standards, audit or report adoption, and bootstrap\n    repo files.\n- aid: github:github-emojis-api\n  name: GitHub Emojis API\n  tags:\n  - Emojis\n  baseURL: https://api.github.com\n  humanURL: https://docs.github.com/en/rest/emojis?apiVersion=2022-11-28\n\

@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: advance-auto-parts-catalog-api-openapi.yml
+  format: yaml
+  label: Advance Auto Parts Catalog API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-catalog-api-openapi.yml
+- filename: advance-auto-parts-commerce-api-openapi.yml
+  format: yaml
+  label: Advance Auto Parts Commerce API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-commerce-api-openapi.yml
 apis:
 - description: The Advance Auto Parts Catalog API provides programmatic access to the full product catalog including parts, accessories, batteries, and fluids. Supports vehicle fitment lookups by year/make/model/eng
   name: Advance Auto Parts Catalog API
@@ -93,6 +106,7 @@ rules:
 skills: []
 slug: advance-auto-parts
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: advance-auto-parts\nurl: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/apis.yml\nmodified: '2026-04-19'\napis:\n- name: Advance Auto Parts Catalog API\n  description: The Advance Auto Parts Catalog API provides programmatic access to the full product catalog including parts, accessories, batteries, and fluids. Supports vehicle fitment lookups by year/make/model/engine, part number searches, availability checks, pricing, and store inventory queries for professional and DIY customers.\n  humanURL: https://www.advanceautoparts.com\n  baseURL: https://api.advanceautoparts.com/v1\n  tags:\n  - Automotive\n  - Parts Catalog\n  - Inventory\n  - Vehicle Fitment\n  properties:\n  - type: Documentation\n    url: https://www.advanceautoparts.com/i/policies/terms-and-conditions\n  - type: OpenAPI\n    url: openapi/advance-auto-parts-catalog-api-openapi.yml\n  - type: JSONSchema\n    url: json-schema/\n  - type: JSONStructure\n    url: json-structure/\n\
   \  - type: JSONLD\n    url: json-ld/advance-auto-parts-catalog-api-context.jsonld\n  - type: SpectralRules\n    url: rules/advance-auto-parts-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/catalog-api.yaml\n  - type: Vocabulary\n    url: vocabulary/advance-auto-parts-vocabulary.yaml\n- name: Advance Auto Parts Commerce API\n  description: The Advance Auto Parts Commerce API enables ordering, cart management, loyalty program integration, and order fulfillment for commercial accounts. Supports creating orders, managing Speed Perks loyalty points, tracking shipments, and accessing purchase history for fleet and professional installer accounts.\n  humanURL: https://www.advanceautoparts.com/i/help/commercial-accounts\n  baseURL: https://api.advanceautoparts.com/commerce/v1\n  tags:\n  - Automotive\n  - E-Commerce\n  - Loyalty\n  - Order Management\n  properties:\n  - type: Documentation\n    url: https://www.advanceautoparts.com/i/help/commercial-accounts\n  -\
   \ type: OpenAPI\n    url: openapi/advance-auto-parts-commerce-api-openapi.yml\n  - type: JSONSchema\n    url: json-schema/\n  - type: JSONStructure\n    url: json-structure/\n  - type: JSONLD\n    url: json-ld/advance-auto-parts-commerce-api-context.jsonld\n  - type: SpectralRules\n    url: rules/advance-auto-parts-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/auto-parts-shopping.yaml\n  - type: Vocabulary\n    url: vocabulary/advance-auto-parts-vocabulary.yaml\ncommon:\n- type: Website\n  url: https://www.advanceautoparts.com\n- type: Portal\n  url: https://www.advanceautoparts.com/i/help\n- type: Support\n  url: https://www.advanceautoparts.com/i/help/customer-service\n- type: Blog\n  url: https://www.advanceautoparts.com/gearhead\n- type: TermsOfService\n  url: https://www.advanceautoparts.com/i/policies/terms-and-conditions\n- type: PrivacyPolicy\n  url: https://www.advanceautoparts.com/i/policies/privacy\n- type: Login\n  url: https://www.advanceautoparts.com/myaccount/login\n\

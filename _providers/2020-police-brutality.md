@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: 2020-police-brutality-openapi.yml
+  format: yaml
+  label: 2020 Police Brutality API
+  slug: 2020-police-brutality
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/openapi/2020-police-brutality-openapi.yml
 apis:
 - description: This repository accumulates and contextualizes evidence of police brutality during the 2020 George Floyd protests. Data is available as JSON and CSV files from the data_build branch, including geoloca
   name: 2020 Police Brutality API
@@ -64,6 +71,7 @@ rules:
 skills: []
 slug: 2020-police-brutality
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: 2020-police-brutality\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/apis.yml\nname: 2020 Police Brutality\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Brutality\n  - Civil Rights\n  - Policing\n  - Public Data\ndescription: >-\n  This repository accumulates and contextualizes evidence of police brutality\n  during the 2020 George Floyd protests. The goal is to assist journalists,\n  politicians, prosecutors, activists and concerned individuals who can use the\n  evidence accumulated here for political campaigns, news reporting, public\n  education and prosecution of criminal police officers.\ncreated: '2024-11-13'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: 2020-police-brutality:2020-police-brutality\n    name: 2020 Police Brutality API\n    tags:\n      - Brutality\n      - Civil Rights\n      - Incidents\n      - Policing\n   \
   \ humanURL: https://github.com/2020PB/police-brutality/tree/data_build\n    baseURL: https://raw.githubusercontent.com/2020PB/police-brutality/data_build\n    properties:\n      - url: https://github.com/2020PB/police-brutality/tree/data_build\n        type: Documentation\n      - url: openapi/2020-police-brutality-openapi.yml\n        type: OpenAPI\n      - url: json-schema/2020-police-brutality-incident-schema.json\n        type: JSONSchema\n      - url: json-schema/2020-police-brutality-incident-collection-schema.json\n        type: JSONSchema\n      - url: json-ld/2020-police-brutality-context.jsonld\n        type: JSON-LD\n    description: >-\n      This repository accumulates and contextualizes evidence of police\n      brutality during the 2020 George Floyd protests. Data is available as\n      JSON and CSV files from the data_build branch, including geolocation,\n      tags, dates, and source links for each incident.\ncommon:\n  - type: GitHubOrganization\n    url: https://github.com/2020PB\n\
   \  - type: GitHubRepository\n    url: https://github.com/2020PB/police-brutality\n  - type: Documentation\n    url: https://github.com/2020PB/police-brutality/blob/main/README.md\n  - type: SpectralRules\n    url: rules/2020-police-brutality-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/2020-police-brutality-incident-research.yaml\n  - type: Vocabulary\n    url: vocabulary/2020-police-brutality-vocabulary.yaml\n  - type: Features\n    data:\n      - name: Incident Documentation\n        description: Documented evidence of police brutality with descriptions, dates, locations, and source links\n      - name: Location Data\n        description: GPS geolocation coordinates for each incident, enabling geographic analysis\n      - name: Tag Classification\n        description: Categorical tags classifying incident types (foam-bullet, tear-gas, pepper-spray, etc.)\n      - name: Multiple Data Formats\n        description: Data available in JSON (v1 and v2) and CSV formats\

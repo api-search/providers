@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-iam-access-analyzer-openapi-original.yml
+  format: yaml
+  label: AWS IAM Access Analyzer API
+  slug: aws-access-analyzer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-openapi-original.yml
 apis:
 - description: The AWS IAM Access Analyzer API provides programmatic access to create and manage analyzers, findings, archive rules, and policy validations to identify and remediate unintended resource access across
   name: AWS IAM Access Analyzer API
@@ -112,6 +119,7 @@ rules:
 skills: []
 slug: amazon-iam-access-analyzer
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iam-access-analyzer\nname: Amazon IAM Access Analyzer\ndescription: >-\n  AWS IAM Access Analyzer helps you set, verify, and refine your IAM policies\n  by providing a suite of capabilities including findings for external, internal,\n  and unused access, basic and custom policy checks for validating policies, and\n  policy generation to generate fine-grained policies. It uses automated reasoning\n  to identify resources shared with external entities and helps implement least\n  privilege access across your AWS environment.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Access Control\n  - AWS\n  - Compliance\n  - IAM\n  - Policy Management\n  - Security\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iam-access-analyzer:aws-access-analyzer-api\n\
   \    name: AWS IAM Access Analyzer API\n    description: >-\n      The AWS IAM Access Analyzer API provides programmatic access to create and\n      manage analyzers, findings, archive rules, and policy validations to\n      identify and remediate unintended resource access across AWS accounts and\n      organizations.\n    humanURL: https://aws.amazon.com/iam/features/analyze-access/\n    baseURL: https://access-analyzer.amazonaws.com\n    tags:\n      - Access Control\n      - IAM\n      - Policy Management\n      - Security\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/access-analyzer/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-iam-access-analyzer-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html\n      - type: Pricing\n        url: https://aws.amazon.com/iam/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/iam/faqs/\n\
   \      - type: JSONSchema\n        url: json-schema/iam-access-analyzer-analyzer-schema.json\n      - type: JSONStructure\n        url: json-structure/iam-access-analyzer-analyzer-structure.json\n      - type: Example\n        url: examples/iam-access-analyzer-analyzer-example.json\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/iam/features/analyze-access/\n  - type: Website\n    url: https://aws.amazon.com/iam/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/security/tag/iam-access-analyzer/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/access-analyzer/\n  - type: SignUp\n\

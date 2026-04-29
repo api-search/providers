@@ -1,5 +1,36 @@
 ---
 api_count: 17
+api_specs:
+- filename: new-relic-openapi.yml
+  format: yaml
+  label: New Relic REST API v2
+  slug: new-relic-rest-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-openapi.yml
+- filename: new-relic-metric-api-openapi.yml
+  format: yaml
+  label: New Relic Metric API
+  slug: new-relic-metric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-metric-api-openapi.yml
+- filename: new-relic-event-api-openapi.yml
+  format: yaml
+  label: New Relic Event API
+  slug: new-relic-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-event-api-openapi.yml
+- filename: new-relic-log-api-openapi.yml
+  format: yaml
+  label: New Relic Log API
+  slug: new-relic-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-log-api-openapi.yml
+- filename: new-relic-trace-api-openapi.yml
+  format: yaml
+  label: New Relic Trace API
+  slug: new-relic-trace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-trace-api-openapi.yml
 apis:
 - description: The New Relic REST API v2 is the original HTTP REST interface for querying application performance data, configuring alerts, and managing account settings. New Relic recommends NerdGraph (GraphQL) for
   name: New Relic REST API v2
@@ -360,6 +391,7 @@ rules:
 skills: []
 slug: new-relic
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: new-relic\nurl: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/apis.yml\napis:\n- aid: new-relic:new-relic-rest-api-v2\n  name: New Relic REST API v2\n  description: >-\n    The New Relic REST API v2 is the original HTTP REST interface for querying\n    application performance data, configuring alerts, and managing account\n    settings. New Relic recommends NerdGraph (GraphQL) for new integrations,\n    as the REST API v2 is in maintenance mode with minimal ongoing development.\n  image: https://newrelic.com/themes/custom/erno/assets/mediakit/new_relic_logo_horizontal.png\n  humanURL: https://docs.newrelic.com/docs/apis/rest-api-v2/get-started/introduction-new-relic-rest-api-v2/\n  baseURL: https://api.newrelic.com/v2/\n  properties:\n  - type: Documentation\n    url: https://docs.newrelic.com/docs/apis/rest-api-v2/get-started/introduction-new-relic-rest-api-v2/\n  - type: OpenAPI\n    url: openapi/new-relic-openapi.yml\n  - type: Authentication\n\
   \    url: https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/\n  - type: APIReference\n    url: https://docs.newrelic.com/docs/apis/rest-api-v2/api-explorer-v2/introduction-new-relics-rest-api-explorer/\n  - type: JSONSchema\n    url: json-schema/openapi-mobile-application-response-type-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-synthetics-condition-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-metric-parser-response-type-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-application-links-response-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-external-service-condition-body-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-label-body-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-label-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-external-service-condition-response-type-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-metric-data-response-schema.json\n\
   \  - type: JSONSchema\n    url: json-schema/openapi-policy-channels-response-type-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-deployment-response-type-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-application-instance-response-type-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-app-summary-data-response-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-deployment-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-browser-application-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-app-summary-response-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-policy-response-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-application-instance-links-response-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-policy-channels-response-schema.json\n  - type: JSONSchema\n    url: json-schema/openapi-incident-response-type-schema.json\n  - type: JSONSchema\n    url:\

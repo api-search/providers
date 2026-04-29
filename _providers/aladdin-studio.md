@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: aladdin-studio-graph-openapi.yaml
+  format: yaml
+  label: Aladdin Graph API
+  slug: graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-graph-openapi.yaml
+- filename: aladdin-studio-data-cloud-openapi.yaml
+  format: yaml
+  label: Aladdin Data Cloud API
+  slug: data-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-data-cloud-openapi.yaml
+- filename: aladdin-studio-trading-openapi.yaml
+  format: yaml
+  label: Aladdin Trading API
+  slug: trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-trading-openapi.yaml
+- filename: aladdin-studio-investment-research-openapi.yaml
+  format: yaml
+  label: Aladdin Investment Research API
+  slug: investment-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-investment-research-openapi.yaml
 apis:
 - description: The Aladdin Graph API provides RESTful access to portfolio data, securities, positions, risk analytics, and other Aladdin platform capabilities. Powers the AladdinSDK Python client with OAuth and Basi
   name: Aladdin Graph API
@@ -111,6 +136,7 @@ rules:
 skills: []
 slug: aladdin-studio
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: aladdin-studio\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/apis.yml\nname: Aladdin Studio\ntags:\n  - Financial\n  - Investment Management\n  - Portfolio Analytics\n  - Risk Management\n  - Asset Management\n  - BlackRock\n  - Data Cloud\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Aladdin Studio is BlackRock's developer platform enabling institutional\n  investors, asset managers, and wealth managers to build custom solutions on\n  top of the Aladdin investment operating system. APIs provide access to\n  portfolio data, risk analytics, trading, investment research, and the Aladdin\n  Data Cloud, supporting approximately $25 trillion in assets managed on the\n  platform.\ncreated: '2024-03-05'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: aladdin-studio:graph-api\n    name: Aladdin Graph API\n    tags:\n      - Portfolio Data\n\
   \      - Investment Management\n      - REST\n    properties:\n      - url: https://www.blackrock.com/aladdin/products/apis\n        type: Documentation\n      - url: https://www.blackrock.com/aladdin/products/apis\n        type: APIReference\n      - url: openapi/aladdin-studio-graph-openapi.yaml\n        type: OpenAPI\n      - url: json-schema/aladdin-studio-graph-portfolio-schema.json\n        type: JSONSchema\n      - url: json-schema/aladdin-studio-graph-portfolio-list-schema.json\n        type: JSONSchema\n      - url: json-schema/aladdin-studio-graph-position-schema.json\n        type: JSONSchema\n      - url: json-schema/aladdin-studio-graph-position-list-schema.json\n        type: JSONSchema\n      - url: json-schema/aladdin-studio-graph-factor-exposure-schema.json\n        type: JSONSchema\n      - url: json-schema/aladdin-studio-graph-portfolio-risk-schema.json\n        type: JSONSchema\n      - url: json-schema/aladdin-studio-graph-security-schema.json\n        type: JSONSchema\n\
   \      - url: json-structure/aladdin-studio-graph-portfolio-structure.json\n        type: JSONStructure\n      - url: json-structure/aladdin-studio-graph-position-structure.json\n        type: JSONStructure\n      - url: json-structure/aladdin-studio-graph-portfolio-risk-structure.json\n        type: JSONStructure\n      - url: json-structure/aladdin-studio-graph-security-structure.json\n        type: JSONStructure\n      - url: examples/aladdin-studio-graph-portfolio-example.json\n        type: Example\n      - url: examples/aladdin-studio-graph-position-example.json\n        type: Example\n      - url: examples/aladdin-studio-graph-portfolio-risk-example.json\n        type: Example\n      - url: examples/aladdin-studio-graph-security-example.json\n        type: Example\n    humanURL: https://www.blackrock.com/aladdin/products/apis\n    baseURL: https://api.blackrock.com/v1\n    description: >-\n      The Aladdin Graph API provides RESTful access to portfolio data,\n      securities,\

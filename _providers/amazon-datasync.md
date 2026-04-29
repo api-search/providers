@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-datasync-api-openapi.yml
+  format: yaml
+  label: Amazon DataSync REST API
+  slug: amazon-datasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/openapi/amazon-datasync-api-openapi.yml
 apis:
 - description: RESTful API for AWS DataSync enabling management of data transfer tasks, locations, agents, and task executions for automated data movement between on-premises storage systems and AWS cloud storage. S
   name: Amazon DataSync REST API
@@ -117,6 +124,7 @@ rules:
 skills: []
 slug: amazon-datasync
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-datasync\nname: Amazon DataSync\ndescription: >-\n  AWS DataSync is an online data transfer service that simplifies, automates,\n  and accelerates moving data between on-premises storage systems, AWS storage\n  services, and other cloud storage. DataSync can transfer data at speeds up to\n  10 times faster than open-source tools by using purpose-built network protocol\n  and parallel multi-threaded architecture. It supports NFS, SMB, HDFS, S3,\n  EFS, FSx, and more as transfer endpoints.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Data Transfer\n  - Migration\n  - Storage\n  - Automation\n  - Hybrid Cloud\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-datasync:amazon-datasync-api\n    name: Amazon DataSync REST API\n    description: >-\n\
   \      RESTful API for AWS DataSync enabling management of data transfer tasks,\n      locations, agents, and task executions for automated data movement between\n      on-premises storage systems and AWS cloud storage. Supports NFS, SMB, S3,\n      EFS, FSx, and HDFS as transfer endpoints.\n    humanURL: https://aws.amazon.com/datasync/\n    baseURL: https://datasync.amazonaws.com\n    tags:\n      - Data Transfer\n      - Migration\n      - Storage\n      - Automation\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/datasync/latest/userguide/API_Reference.html\n      - type: OpenAPI\n        url: openapi/amazon-datasync-api-openapi.yml\n      - type: OpenAPI\n        url: https://api.apis.guru/v2/specs/amazonaws.com/datasync/2018-11-09/openapi.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/datasync/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/datasync/pricing/\n      - type: FAQ\n        url:\
   \ https://aws.amazon.com/datasync/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/datasync/latest/userguide/API_Reference.html\n      - type: Authentication\n        url: https://docs.aws.amazon.com/datasync/latest/userguide/security.html\n      - type: JSONSchema\n        url: json-schema/task-schema.json\n      - type: JSONSchema\n        url: json-schema/location-schema.json\n      - type: JSONSchema\n        url: json-schema/agent-schema.json\n      - type: JSONSchema\n        url: json-schema/task-execution-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-datasync-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/datasync/\n  - type: DeveloperPortal\n    url: https://aws.amazon.com/datasync/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/datasync/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n\

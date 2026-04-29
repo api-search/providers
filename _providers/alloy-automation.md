@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: alloy-automation-embedded.yaml
+  format: yaml
+  label: Alloy Automation Embedded API
+  slug: embedded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-embedded.yaml
+- filename: alloy-automation-connectivity.yaml
+  format: yaml
+  label: Alloy Automation Connectivity API
+  slug: connectivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-connectivity.yaml
 apis:
 - description: The Alloy Embedded API enables SaaS companies to embed native integration workflows directly in their products. Manage end users, retrieve available integrations, trigger events, monitor workflow exec
   name: Alloy Automation Embedded API
@@ -113,6 +126,7 @@ rules:
 skills: []
 slug: alloy-automation
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: alloy-automation\nname: Alloy Automation\ndescription: >-\n  Alloy Automation is the all-in-one integration infrastructure platform for\n  SaaS and AI, offering embedded iPaaS, unified API, and connectivity API\n  products that let companies launch native integrations, build workflows, and\n  connect to 1000+ apps with a single endpoint.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Automation\n  - Embedded Integrations\n  - Integrations\n  - iPaaS\n  - Unified API\n  - Workflows\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: alloy-automation:embedded-api\n    name: Alloy Automation Embedded API\n    description: >-\n      The Alloy Embedded API enables SaaS companies to embed native integration\n      workflows directly in their products. Manage end users, retrieve\
   \ available\n      integrations, trigger events, monitor workflow execution, and control workflow\n      lifecycle for your embedded iPaaS experience.\n    humanURL: https://docs.runalloy.com/embedded/quick-start\n    baseURL: https://embedded.runalloy.com/2025-09\n    tags:\n      - Embedded\n      - iPaaS\n      - Workflows\n      - Users\n    properties:\n      - type: Documentation\n        url: https://docs.runalloy.com/embedded/quick-start\n      - type: OpenAPI\n        url: openapi/alloy-automation-embedded.yaml\n      - type: JSONSchema\n        url: json-schema/alloy-embedded-user-schema.json\n      - type: JSONStructure\n        url: json-structure/alloy-embedded-user-structure.json\n      - type: JSONLD\n        url: json-ld/alloy-automation-embedded-context.jsonld\n      - type: Example\n        url: examples/alloy-embedded-user-example.json\n      - type: NaftikoCapability\n        url: capabilities/shared/embedded.yaml\n\n  - aid: alloy-automation:connectivity-api\n    name:\
   \ Alloy Automation Connectivity API\n    description: >-\n      The Alloy Connectivity API enables companies to build native integration UIs\n      with a single API endpoint. Manage users, discover connector resources, configure\n      credentials, and execute connector actions across 1000+ third-party applications.\n    humanURL: https://docs.runalloy.com/connectivity-api/quick-start\n    baseURL: https://production.runalloy.com\n    tags:\n      - Connectivity\n      - Integrations\n      - Unified API\n      - Connectors\n    properties:\n      - type: Documentation\n        url: https://docs.runalloy.com/connectivity-api/quick-start\n      - type: OpenAPI\n        url: openapi/alloy-automation-connectivity.yaml\n      - type: JSONSchema\n        url: json-schema/alloy-connectivity-connector-schema.json\n      - type: JSONStructure\n        url: json-structure/alloy-connectivity-connector-structure.json\n      - type: JSONLD\n        url: json-ld/alloy-automation-connectivity-context.jsonld\n\

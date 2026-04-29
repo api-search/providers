@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-geode-rest-openapi.yml
+  format: yaml
+  label: Apache Geode REST API
+  slug: apache-geode-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-rest-openapi.yml
 apis:
 - description: REST API for accessing and managing data in Apache Geode in-memory data grid, including region operations, OQL queries, function execution, and cluster monitoring.
   name: Apache Geode REST API
@@ -89,6 +96,7 @@ rules:
 skills: []
 slug: apache-geode
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-geode\nname: Apache Geode\ndescription: >-\n  Apache Geode is an in-memory data management platform that provides real-time, consistent access to data-intensive applications throughout widely distributed cloud architectures. It pools memory, CPU, network resources, and local disk storage across multiple processes, offering a REST API for data access, OQL queries, function execution, and cluster management.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - Caching\n  - Data Grid\n  - Distributed Systems\n  - In-Memory\n  - Open Source\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-geode:apache-geode-rest-api\n    name: Apache Geode REST API\n    description: >-\n      REST API for accessing and managing data\
   \ in Apache Geode in-memory data grid, including region operations, OQL queries, function execution, and cluster monitoring.\n    humanURL: https://geode.apache.org/docs/guide/latest/rest_apps/chapter_overview.html\n    baseURL: http://localhost:8080\n    tags:\n      - Cache\n      - Data Grid\n      - In-Memory\n      - OQL\n      - REST\n    properties:\n      - type: Documentation\n        url: https://geode.apache.org/docs/guide/latest/rest_apps/chapter_overview.html\n      - type: OpenAPI\n        url: openapi/apache-geode-rest-openapi.yml\n      - type: JSONSchema\n        url: json-schema/geode-rest-region-info-schema.json\n      - type: JSON-LD\n        url: json-ld/apache-geode-rest-context.jsonld\n\n  - aid: apache-geode:apache-geode-java-api\n    name: Apache Geode Java Client API\n    description: >-\n      Java API for cache operations, continuous queries, function execution, and data serialization in Apache Geode clusters.\n    humanURL: https://geode.apache.org/docs/guide/latest/developing/book_intro.html\n\
   \    tags:\n      - Java\n      - SDK\n      - Cache\n      - Continuous Query\n    properties:\n      - type: Documentation\n        url: https://geode.apache.org/docs/guide/latest/developing/book_intro.html\n      - type: SDK\n        url: https://search.maven.org/artifact/org.apache.geode/geode-core\n        title: Java SDK (Maven Central)\n\ncommon:\n  - type: Documentation\n    url: https://geode.apache.org/docs/\n  - type: GettingStarted\n    url: https://geode.apache.org/docs/guide/latest/getting_started/book_intro.html\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/geode\n  - type: Blog\n    url: https://geode.apache.org/blog/\n  - type: SpectralRules\n    url: rules/apache-geode-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-geode-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/geode-data-management.yaml\n  - type: Features\n    data:\n      - name: In-Memory\

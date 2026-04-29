@@ -1,5 +1,36 @@
 ---
 api_count: 5
+api_specs:
+- filename: score-openapi.yml
+  format: yaml
+  label: Score Workload Specification API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/score-openapi.yml
+- filename: cloud-native-application-bundle-openapi.yml
+  format: yaml
+  label: Cloud Native Application Bundle API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/cloud-native-application-bundle-openapi.yml
+- filename: open-component-model-openapi.yml
+  format: yaml
+  label: Open Component Model API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/open-component-model-openapi.yml
+- filename: open-resource-discovery-openapi.yml
+  format: yaml
+  label: Open Resource Discovery API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/open-resource-discovery-openapi.yml
+- filename: radius-openapi.yml
+  format: yaml
+  label: Radius Application Platform API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/radius-openapi.yml
 apis:
 - description: Score is a platform-agnostic workload specification that enables developers to define their workloads once and deploy them across multiple platforms including Kubernetes, Docker, and Helm. The API man
   name: Score Workload Specification API
@@ -76,6 +107,7 @@ rules:
 skills: []
 slug: application-research
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: application-research\nname: Application Research\ndescription: >-\n  Application Research is a topic collection focused on specifications for declaring\n  application service integration dependencies. It covers five specification formats:\n  Score (platform-agnostic workload specs), Cloud Native Application Bundle (CNAB),\n  Open Component Model (OCM), Open Resource Discovery (ORD), and Radius — all aimed\n  at enabling deployment teams to understand what services (APIs, databases, caches,\n  message buses, blob stores) an application requires.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Application Dependencies\n  - Cloud Native\n  - Integration\n  - Research\n  - Specifications\n  - Workload Specifications\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - name:\
   \ Score Workload Specification API\n    description: >-\n      Score is a platform-agnostic workload specification that enables developers to\n      define their workloads once and deploy them across multiple platforms including\n      Kubernetes, Docker, and Helm. The API manages workload spec lifecycle and platform\n      translations.\n    humanURL: https://score.dev\n    baseURL: https://api.score.dev/v1\n    tags:\n      - Platform Agnostic\n      - Score\n      - Workload Specification\n    properties:\n      - type: Documentation\n        url: https://docs.score.dev\n      - type: OpenAPI\n        url: openapi/score-openapi.yml\n      - type: JSONSchema\n        url: json-schema/score.yml\n      - type: CodeExamples\n        url: examples/score-ecommerce.yml\n        title: E-Commerce Example\n      - type: CodeExamples\n        url: examples/score-ai-ml-inference-platform.yml\n        title: AI/ML Inference Example\n      - type: CodeExamples\n        url: examples/score-data-processing-pipeline.yml\n\
   \        title: Data Processing Example\n  - name: Cloud Native Application Bundle API\n    description: >-\n      CNAB (Cloud Native Application Bundle) is a specification for packaging and\n      distributing cloud-native applications. The API manages bundle lifecycle including\n      installation, upgrading, and uninstalling bundled applications across cloud environments.\n    humanURL: https://cnab.io\n    baseURL: https://api.cnab.io/v1\n    tags:\n      - Application Bundles\n      - Cloud Native\n      - Distribution\n    properties:\n      - type: Documentation\n        url: https://cnab.io/docs\n      - type: OpenAPI\n        url: openapi/cloud-native-application-bundle-openapi.yml\n      - type: JSONSchema\n        url: json-schema/cloud-native-application-bundle-schema.yml\n      - type: CodeExamples\n        url: examples/cloud-native-application-bundle-example-wordpress.yml\n        title: WordPress Bundle Example\n      - type: CodeExamples\n        url: examples/cloud-native-application-bundle-example-cassandra-cluster.yml\n\

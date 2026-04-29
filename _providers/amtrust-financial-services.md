@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amtrust-financial-services-commercial-lines-api.yaml
+  format: yaml
+  label: AmTrust Commercial Lines API
+  slug: commercial-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-commercial-lines-api.yaml
 apis:
 - description: The AmTrust Commercial Lines API enables insurance agents, brokers, and technology partners to programmatically review coverage appetite, generate quotes, and bind commercial lines policies. It suppor
   name: AmTrust Commercial Lines API
@@ -102,6 +109,7 @@ rules:
 skills: []
 slug: amtrust-financial-services
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amtrust-financial-services\nurl: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/apis.yml\nmodified: '2026-04-19'\nname: AmTrust Financial Services\ndescription: AmTrust Financial Services is a multinational specialty property and casualty insurer focused on small to mid-sized businesses. AmTrust provides APIs that enable insurance agents, \n  brokers, and technology partners to review appetite, generate quotes, and bind policies programmatically. The API platform processes over 12 million API calls daily with 99.68% availability and \n  supports workers' compensation, business owners' policies, general liability, and other commercial insurance products across 300+ eligible class codes.\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Commercial Insurance\n- Insurance\n- Property And Casualty\n- Small Business\n- Workers Compensation\napis:\n- aid: amtrust-financial-services:commercial-lines-api\n\
   \  name: AmTrust Commercial Lines API\n  description: The AmTrust Commercial Lines API enables insurance agents, brokers, and technology partners to programmatically review coverage appetite, generate quotes, and bind commercial lines \n    policies. It supports workers' compensation, business owners' policy, general liability, and commercial package products across 300+ eligible class codes.\n  tags:\n  - Commercial Lines\n  - Commercial Package\n  - General Liability\n  - Insurance\n  - Workers Compensation\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.amtrustservices.com\n  humanURL: https://amtrustfinancial.com/api\n  properties:\n  - url: https://amtrustfinancial.com/api\n    type: Documentation\n  - url: https://utapiportal.amtrustgroup.com\n    type: Portal\n  - url: https://utapiportal.amtrustgroup.com/authentication\n    type: Authentication\n  - url: openapi/amtrust-financial-services-commercial-lines-api.yaml\n \
   \   type: OpenAPI\ncommon:\n- type: Portal\n  url: https://amtrustfinancial.com\n- type: DeveloperPortal\n  url: https://utapiportal.amtrustgroup.com\n- type: Documentation\n  url: https://amtrustfinancial.com/api\n- type: Authentication\n  url: https://utapiportal.amtrustgroup.com/authentication\n- type: SignUp\n  url: https://amtrustfinancial.com/api\n- type: Support\n  url: https://amtrustfinancial.com/contact-us\n- type: TermsOfService\n  url: https://amtrustfinancial.com/terms-of-use\n- type: PrivacyPolicy\n  url: https://amtrustfinancial.com/privacy-policy\n- type: Features\n  data:\n  - name: Appetite Check\n    description: Review coverage eligibility for specific business classes and risk profiles.\n  - name: Instant Quoting\n    description: Generate commercial lines quotes in real time via API.\n  - name: Online Binding\n    description: Bind policies programmatically for eligible class codes.\n  - name: 300+ Class Codes\n    description: Access over 300 bind-online eligible\

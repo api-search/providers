@@ -1,5 +1,18 @@
 ---
 api_count: 5
+api_specs:
+- filename: cilium-api-openapi.yml
+  format: yaml
+  label: Cilium API
+  slug: cilium-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/openapi/cilium-api-openapi.yml
+- filename: cilium-hubble-asyncapi.yml
+  format: yaml
+  label: Hubble API
+  slug: hubble-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/asyncapi/cilium-hubble-asyncapi.yml
 apis:
 - description: 'The Cilium REST API provides access to Cilium daemon and agent endpoints for managing Kubernetes network policy, security, and connectivity. The API is served by the cilium-agent process over a local '
   name: Cilium API
@@ -97,6 +110,7 @@ name: Cilium
 skills: []
 slug: cilium
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cilium\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/apis.yml\nname: Cilium\ntags:\n  - Cloud Native\n  - eBPF\n  - Kubernetes\n  - Networking\n  - Security\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2026-03-16'\nmodified: '2026-04-23'\nposition: Consumer\ndescription: >-\n  Cilium is an open source, cloud native solution for providing, securing, and\n  observing network connectivity between workloads, fueled by the revolutionary\n  kernel technology eBPF. Cilium provides network security, load balancing,\n  and observability for Kubernetes clusters.\napis:\n  - aid: cilium:cilium-api\n    name: Cilium API\n    tags:\n      - eBPF\n      - Kubernetes\n      - Networking\n      - Security\n    humanURL: https://docs.cilium.io/en/stable/api/\n    baseURL: https://localhost/v1\n    properties:\n      - url: https://docs.cilium.io/en/stable/api/\n       \
   \ type: Documentation\n      - url: https://github.com/cilium/cilium/blob/main/api/v1/openapi.yaml\n        type: OpenAPI\n      - url: openapi/cilium-api-openapi.yml\n        type: OpenAPI\n      - url: https://docs.cilium.io/en/stable/gettingstarted/\n        type: Getting Started\n      - url: https://github.com/cilium/cilium/releases\n        type: Change Log\n    description: >-\n      The Cilium REST API provides access to Cilium daemon and agent endpoints\n      for managing Kubernetes network policy, security, and connectivity. The\n      API is served by the cilium-agent process over a local Unix domain socket\n      and HTTP interface, and covers endpoints, identities, cluster nodes, and\n      health status.\n  - aid: cilium:hubble-api\n    name: Hubble API\n    tags:\n      - eBPF\n      - Kubernetes\n      - Networking\n      - Observability\n    humanURL: https://docs.cilium.io/en/stable/observability/hubble/index.html\n    properties:\n      - url: https://docs.cilium.io/en/stable/observability/hubble/index.html\n\
   \        type: Documentation\n      - url: https://docs.cilium.io/en/stable/internals/hubble/\n        type: Reference\n      - url: asyncapi/cilium-hubble-asyncapi.yml\n        type: AsyncAPI\n      - url: https://github.com/cilium/hubble\n        type: GitHubRepository\n      - url: https://github.com/cilium/hubble/releases\n        type: Change Log\n    description: >-\n      The Hubble API is a gRPC-based observability API built on top of Cilium\n      and eBPF that provides deep visibility into network flows, DNS queries,\n      HTTP requests, and service communication within Kubernetes clusters. It\n      exposes Observer and Peer gRPC services for querying flows, nodes,\n      namespaces, and server status across single nodes or entire clusters via\n      Hubble Relay.\n  - aid: cilium:tetragon-api\n    name: Tetragon API\n    tags:\n      - eBPF\n      - Kubernetes\n      - Observability\n      - Security\n    humanURL: https://tetragon.io/docs/reference/grpc-api/\n    properties:\n\

@@ -1,5 +1,78 @@
 ---
 api_count: 12
+api_specs:
+- filename: clickup-tasks-openapi.yml
+  format: yaml
+  label: ClickUp Tasks API
+  slug: tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-tasks-openapi.yml
+- filename: clickup-spaces-openapi.yml
+  format: yaml
+  label: ClickUp Spaces API
+  slug: spaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-spaces-openapi.yml
+- filename: clickup-lists-openapi.yml
+  format: yaml
+  label: ClickUp Lists API
+  slug: lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-lists-openapi.yml
+- filename: clickup-folders-openapi.yml
+  format: yaml
+  label: ClickUp Folders API
+  slug: folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-folders-openapi.yml
+- filename: clickup-goals-openapi.yml
+  format: yaml
+  label: ClickUp Goals API
+  slug: goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-goals-openapi.yml
+- filename: clickup-comments-openapi.yml
+  format: yaml
+  label: ClickUp Comments API
+  slug: comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-comments-openapi.yml
+- filename: clickup-teams-openapi.yml
+  format: yaml
+  label: ClickUp Teams (Workspaces) API
+  slug: teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-teams-openapi.yml
+- filename: clickup-webhooks-openapi.yml
+  format: yaml
+  label: ClickUp Webhooks API
+  slug: webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-webhooks-openapi.yml
+- filename: clickup-custom-fields-openapi.yml
+  format: yaml
+  label: ClickUp Custom Fields API
+  slug: custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-custom-fields-openapi.yml
+- filename: clickup-time-tracking-openapi.yml
+  format: yaml
+  label: ClickUp Time Tracking API
+  slug: time-tracking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-time-tracking-openapi.yml
+- filename: clickup-views-openapi.yml
+  format: yaml
+  label: ClickUp Views API
+  slug: views-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-views-openapi.yml
+- filename: clickup-oauth-openapi.yml
+  format: yaml
+  label: ClickUp OAuth API
+  slug: oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/openapi/clickup-oauth-openapi.yml
 apis:
 - description: The ClickUp Tasks API allows developers to create, read, update, and delete tasks within ClickUp workspaces. Tasks are the core unit of work in ClickUp and can include custom fields, assignees, due da
   name: ClickUp Tasks API
@@ -67,6 +140,7 @@ name: clickup
 skills: []
 slug: clickup
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: clickup\nurl: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/apis.yml\nmodified: '2026-03-20'\napis:\n  - aid: clickup:tasks-api\n    name: ClickUp Tasks API\n    tags:\n      - Collaboration\n      - Productivity\n      - Project Management\n      - Tasks\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.clickup.com\n    humanURL: https://developer.clickup.com/docs/tasks\n    properties:\n      - url: https://developer.clickup.com/docs/tasks\n        type: Documentation\n      - url: openapi/clickup-tasks-openapi.yml\n        type: OpenAPI\n    description: >-\n      The ClickUp Tasks API allows developers to create, read, update, and\n      delete tasks within ClickUp workspaces. Tasks are the core unit of work\n      in ClickUp and can include custom fields, assignees, due dates, tags,\n      priorities, and attachments. The API supports filtering tasks by list,\n      space, or\
   \ project, and enables bulk operations for managing large\n      numbers of tasks programmatically.\n  - aid: clickup:spaces-api\n    name: ClickUp Spaces API\n    tags:\n      - Organization\n      - Project Management\n      - Workspaces\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.clickup.com\n    humanURL: https://developer.clickup.com/reference/get-spaces\n    properties:\n      - url: https://developer.clickup.com/reference/get-spaces\n        type: Documentation\n      - url: openapi/clickup-spaces-openapi.yml\n        type: OpenAPI\n    description: >-\n      The ClickUp Spaces API provides endpoints for managing Spaces, which\n      are the top-level organizational containers within a ClickUp Workspace.\n      Spaces contain Folders and Lists that organize tasks into logical\n      groupings. Developers can create, update, and delete Spaces, as well\n      as retrieve Space details and configure Space-level settings\
   \ such as\n      enabled features and statuses.\n  - aid: clickup:lists-api\n    name: ClickUp Lists API\n    tags:\n      - Lists\n      - Project Management\n      - Task Organization\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.clickup.com\n    humanURL: https://developer.clickup.com/reference/get-lists\n    properties:\n      - url: https://developer.clickup.com/reference/get-lists\n        type: Documentation\n      - url: openapi/clickup-lists-openapi.yml\n        type: OpenAPI\n    description: >-\n      The ClickUp Lists API enables developers to manage Lists, which are\n      containers that hold tasks within a Space or Folder. Lists define the\n      workflow statuses available to tasks and serve as the primary grouping\n      mechanism for related work items. The API supports creating, updating,\n      and deleting Lists, as well as retrieving List details and the tasks\n      they contain.\n  - aid: clickup:folders-api\n\

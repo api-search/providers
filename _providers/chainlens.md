@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: chainlens-openapi.yml
+  format: yaml
+  label: Chainlens Blockchain Explorer API
+  slug: chainlens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/openapi/chainlens-openapi.yml
 apis:
 - description: 'The Chainlens REST API exposes block explorer data for EVM chains including transactions, internal transactions, events, blocks, addresses, tokens, NFTs, and smart contract metadata. Endpoints follow '
   name: Chainlens Blockchain Explorer API
@@ -95,6 +102,7 @@ name: Chainlens
 skills: []
 slug: chainlens
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: chainlens\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/apis.yml\nname: Chainlens\nx-type: company\ntags:\n  - Analytics\n  - Blockchain\n  - Block Explorer\n  - Cryptocurrencies\n  - DeFi\n  - Ethereum\n  - EVM\n  - NFTs\n  - Smart Contracts\n  - Web3\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2024-11-07'\nmodified: '2026-04-23'\nposition: Consumer\ndescription: >-\n  Chainlens, built by Web3 Labs, is a blockchain explorer and analytics\n  platform for EVM-compatible public and private chains (Ethereum,\n  Hyperledger Besu, Quorum, Polygon, Avalanche, BNB Chain, etc.) as well\n  as Substrate-based chains. It combines a user-friendly block explorer\n  with powerful REST APIs for real-time transaction monitoring, smart\n  contract verification, token and NFT tracking (ERC-20, ERC-721,\n  ERC-1155), and integration of on-chain data with existing analytics\
   \ and\n  reporting pipelines. The API follows the EIP-3091 block explorer route\n  conventions and is offered both as SaaS and self-hosted.\napis:\n  - aid: chainlens:chainlens-api\n    name: Chainlens Blockchain Explorer API\n    tags:\n      - Blockchain\n      - Block Explorer\n      - EIP-3091\n      - Events\n      - NFTs\n      - Smart Contracts\n      - Tokens\n      - Transactions\n    humanURL: https://www.chainlens.com/\n    baseURL: https://api.chainlens.com\n    properties:\n      - url: https://docs.chainlens.com/\n        type: Documentation\n      - url: https://www.chainlens.com/features/blockchain-api\n        type: Overview\n      - url: openapi/chainlens-openapi.yml\n        type: OpenAPI\n      - url: https://eips.ethereum.org/EIPS/eip-3091\n        type: Specification\n    description: >-\n      The Chainlens REST API exposes block explorer data for EVM chains\n      including transactions, internal transactions, events, blocks,\n      addresses, tokens, NFTs, and\
   \ smart contract metadata. Endpoints\n      follow OpenAPI 3 conventions and the EIP-3091 block explorer route\n      standard, supporting real-time on-chain analytics, wallet\n      inspection, contract verification look-up, and reporting pipelines.\ncommon:\n  - type: Website\n    url: https://www.chainlens.com/\n  - type: Documentation\n    url: https://docs.chainlens.com/\n  - type: GettingStarted\n    url: https://www.chainlens.com/documentation-categories/getting-started\n  - type: SignUp\n    url: https://www.chainlens.com/free-sign-up\n  - type: Pricing\n    url: https://www.chainlens.com/plans\n  - type: Blog\n    url: https://www.chainlens.com/blog\n  - type: GitHub\n    url: https://github.com/web3labs/chainlens-free\n  - type: ParentCompany\n    url: https://www.web3labs.com/\n  - type: Contact\n    url: https://www.chainlens.com/contact\n  - type: TermsOfService\n    url: https://www.chainlens.com/terms\n  - type: PrivacyPolicy\n    url: https://www.chainlens.com/privacy-policy\n\

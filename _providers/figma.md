@@ -1,5 +1,114 @@
 ---
 api_count: 18
+api_specs:
+- filename: figma-api-openapi.yml
+  format: yaml
+  label: Figma API
+  slug: figma-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-api-openapi.yml
+- filename: figma-rest-api-openapi.yml
+  format: yaml
+  label: Figma REST API
+  slug: figma-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
+- filename: figma-files-api-openapi.yml
+  format: yaml
+  label: Figma Files API
+  slug: figma-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-files-api-openapi.yml
+- filename: figma-images-api-openapi.yml
+  format: yaml
+  label: Figma Images API
+  slug: figma-images-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-images-api-openapi.yml
+- filename: figma-teams-api-openapi.yml
+  format: yaml
+  label: Figma Teams API
+  slug: figma-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-teams-api-openapi.yml
+- filename: figma-projects-api-openapi.yml
+  format: yaml
+  label: Figma Projects API
+  slug: figma-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-projects-api-openapi.yml
+- filename: figma-me-api-openapi.yml
+  format: yaml
+  label: Figma Me API
+  slug: figma-me-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-me-api-openapi.yml
+- filename: figma-rest-api-openapi.yml
+  format: yaml
+  label: Figma Components API
+  slug: figma-components-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
+- filename: figma-component-sets-api-openapi.yml
+  format: yaml
+  label: Figma Component Sets API
+  slug: figma-component-sets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-component-sets-api-openapi.yml
+- filename: figma-styles-api-openapi.yml
+  format: yaml
+  label: Figma Styles API
+  slug: figma-styles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-styles-api-openapi.yml
+- filename: figma-activity-logs-api-openapi.yml
+  format: yaml
+  label: Figma Activity Logs API
+  slug: figma-activity-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-activity-logs-api-openapi.yml
+- filename: figma-payments-api-openapi.yml
+  format: yaml
+  label: Figma Payments API
+  slug: figma-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-payments-api-openapi.yml
+- filename: figma-dev-resources-api-openapi.yml
+  format: yaml
+  label: Figma Dev Resources API
+  slug: figma-dev-resources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-dev-resources-api-openapi.yml
+- filename: figma-analytics-api-openapi.yml
+  format: yaml
+  label: Figma Analytics API
+  slug: figma-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-analytics-api-openapi.yml
+- filename: figma-rest-api-openapi.yml
+  format: yaml
+  label: Figma Comments API
+  slug: figma-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
+- filename: figma-rest-api-openapi.yml
+  format: yaml
+  label: Figma Version History API
+  slug: figma-version-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
+- filename: figma-rest-api-openapi.yml
+  format: yaml
+  label: Figma Variables API
+  slug: figma-variables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
+- filename: figma-rest-api-openapi.yml
+  format: yaml
+  label: Figma Library Analytics API
+  slug: figma-library-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-rest-api-openapi.yml
 apis:
 - description: 'Figma allows designers to create and prototype their digital experiences - together in real-time and in one place - helping them turn their ideas and visions into products, faster. Figma''s mission is '
   name: Figma API
@@ -256,6 +365,7 @@ rules:
 skills: []
 slug: figma
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: figma\nname: Figma\ndescription: Figma is a collaborative interface design tool with a comprehensive REST API for accessing and manipulating design files, projects, and teams.\nurl: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/apis.yml\nimage: https://www.figma.com/favicon.ico\ntags:\n  - Collaboration\n  - Design\n  - Graphics\n  - Interfaces\n  - Prototypes\n  - Prototyping\n  - UI/UX\ncreated: '2023-11-22'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - aid: figma:figma-api\n    name: Figma API\n    description: >-\n      Figma allows designers to create and prototype their digital experiences - together\n      in real-time and in one place - helping them turn their ideas and visions into\n      products, faster. Figma's mission is to make design accessible to everyone.\n      The Figma API is one of the ways we aim to do that.\n    image: https://www.figma.com/favicon.ico\n    baseURL: https://api.figma.com\n\
   \    humanURL: https://www.figma.com/developers\n    tags:\n      - Design\n      - Users\n    properties:\n      - type: OpenAPI\n        url: openapi/figma-api-openapi.yml\n      - type: OpenAPI\n        url: openapi/figma-rest-api-openapi.yml\n        title: Figma REST API\n      - type: AsyncAPI\n        url: asyncapi/figma-webhooks-asyncapi.yml\n      - type: JSONSchema\n        url: json-schema/figma-file-schema.json\n      - type: JSONSchema\n        url: json-schema/figma-component-schema.json\n      - type: JSONSchema\n        url: json-schema/figma-user-schema.json\n      - type: JSONSchema\n        url: json-schema/figma-error-response-payload-schema.json\n      - type: JSONSchema\n        url: json-schema/figma-get-me-response-body-schema.json\n      - type: JSONStructure\n        url: json-structure/figma-get-me-response-body-structure.json\n      - type: JSONStructure\n        url: json-structure/figma-error-response-payload-structure.json\n      - type: JSONStructure\n \
   \       url: json-structure/figma-user-structure.json\n      - type: JSONLD\n        url: json-ld/figma-context.jsonld\n      - type: Documentation\n        url: https://developers.figma.com/docs/rest-api/\n  - aid: figma:figma-rest-api\n    name: Figma REST API\n    description: >-\n      The Figma REST API provides programmatic access to Figma files, comments,\n      components, and related resources. It enables developers to read and interact\n      with design data, export assets, manage comments and reactions, and query\n      published components and styles from team libraries.\n    image: https://www.figma.com/favicon.ico\n    baseURL: https://api.figma.com\n    humanURL: https://developers.figma.com/docs/rest-api/\n    tags:\n      - Comments\n      - Components\n      - Files\n      - Projects\n      - Users\n    properties:\n      - type: OpenAPI\n        url: openapi/figma-rest-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/figma-rest-get-file-response-schema.json\n\

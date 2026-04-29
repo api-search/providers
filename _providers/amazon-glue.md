@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-glue-openapi.yml
+  format: yaml
+  label: Amazon Glue API
+  slug: amazon-glue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/openapi/amazon-glue-openapi.yml
 apis:
 - description: The Amazon Glue API enables programmatic access to create and manage ETL jobs, crawlers, data catalogs, connections, and development endpoints. You can discover data sources, transform data, and orche
   name: Amazon Glue API
@@ -106,6 +113,7 @@ rules:
 skills: []
 slug: amazon-glue
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-glue\nname: Amazon Glue\ndescription: >-\n  Amazon Glue is a serverless data integration service that makes it simple\n  to discover, prepare, move, and integrate data from multiple sources for\n  analytics, machine learning, and application development. It provides both\n  visual and code-based interfaces for ETL operations and includes a Data Catalog\n  for unified metadata management.\ntype: Index\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/apis.yml\ntype: Index\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\ntags:\n  - Analytics\n  - AWS\n  - Data Catalog\n  - Data Integration\n  - Data Pipeline\n  - ETL\n  - Serverless\napis:\n  - aid: amazon-glue:amazon-glue-api\n    name: Amazon Glue API\n    description: >-\n      The Amazon Glue API enables programmatic access to create and manage ETL\n      jobs, crawlers,\
   \ data catalogs, connections, and development endpoints.\n      You can discover data sources, transform data, and orchestrate data\n      integration workflows across multiple data stores.\n    humanURL: https://aws.amazon.com/glue/\n    baseURL: https://glue.amazonaws.com\n    tags:\n      - Analytics\n      - Data Catalog\n      - Data Integration\n      - ETL\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api.html\n      - type: OpenAPI\n        url: openapi/amazon-glue-openapi.yml\n      - type: GettingStarted\n        url: https://aws.amazon.com/glue/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/glue/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/glue/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api.html\n      - type: Authentication\n        url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html\n\
   \      - type: JSONSchema\n        url: json-schema/glue-job-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-glue-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/glue/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/glue/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/big-data/tag/aws-glue/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/glue/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-glue-spectral-rules.yml\n  - type: Vocabulary\n\

@@ -1,5 +1,54 @@
 ---
 api_count: 8
+api_specs:
+- filename: brevo-transactional-email-openapi.yml
+  format: yaml
+  label: Brevo Transactional Email API
+  slug: transactional-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-transactional-email-openapi.yml
+- filename: brevo-email-campaigns-openapi.yml
+  format: yaml
+  label: Brevo Email Campaigns API
+  slug: email-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-email-campaigns-openapi.yml
+- filename: brevo-contacts-openapi.yml
+  format: yaml
+  label: Brevo Contacts API
+  slug: contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-contacts-openapi.yml
+- filename: brevo-transactional-sms-openapi.yml
+  format: yaml
+  label: Brevo Transactional SMS API
+  slug: transactional-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-transactional-sms-openapi.yml
+- filename: brevo-whatsapp-openapi.yml
+  format: yaml
+  label: Brevo WhatsApp API
+  slug: whatsapp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-whatsapp-openapi.yml
+- filename: brevo-ecommerce-openapi.yml
+  format: yaml
+  label: Brevo eCommerce API
+  slug: ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-ecommerce-openapi.yml
+- filename: brevo-conversations-openapi.yml
+  format: yaml
+  label: Brevo Conversations API
+  slug: conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-conversations-openapi.yml
+- filename: brevo-webhooks-openapi.yml
+  format: yaml
+  label: Brevo Webhooks API
+  slug: webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-webhooks-openapi.yml
 apis:
 - description: 'The Brevo Transactional Email API allows developers to send transactional emails such as order confirmations, password resets, and account notifications programmatically. It supports single and batch '
   name: Brevo Transactional Email API
@@ -58,6 +107,7 @@ name: brevo
 skills: []
 slug: brevo
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: brevo\nurl: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/apis.yml\napis:\n  - aid: brevo:transactional-email-api\n    name: Brevo Transactional Email API\n    tags:\n      - Email\n      - Messaging\n      - SMTP\n      - Transactional\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.brevo.com/v3\n    humanURL: https://developers.brevo.com/docs/send-a-transactional-email\n    properties:\n      - url: https://developers.brevo.com/docs/send-a-transactional-email\n        type: Documentation\n      - url: openapi/brevo-transactional-email-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Brevo Transactional Email API allows developers to send transactional\n      emails such as order confirmations, password resets, and account\n      notifications programmatically. It supports single and batch sending,\n      scheduled deliveries, template-based emails, and attachment\
   \ handling. The\n      API also provides endpoints for tracking email activity including opens,\n      clicks, bounces, and delivery status through detailed event logs and\n      real-time webhooks.\n  - aid: brevo:email-campaigns-api\n    name: Brevo Email Campaigns API\n    tags:\n      - Automation\n      - Campaigns\n      - Email\n      - Marketing\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.brevo.com/v3\n    humanURL: https://developers.brevo.com/docs/getting-started\n    properties:\n      - url: https://developers.brevo.com/docs/getting-started\n        type: Documentation\n      - url: openapi/brevo-email-campaigns-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Brevo Email Campaigns API enables developers to create, manage, and\n      send marketing email campaigns programmatically. It provides endpoints for\n      building campaigns with HTML content or templates, scheduling sends,\n    \
   \  segmenting audiences, and managing sender identities. Developers can\n      retrieve campaign statistics including open rates, click rates, and\n      unsubscribes to measure performance and optimize future campaigns.\n  - aid: brevo:contacts-api\n    name: Brevo Contacts API\n    tags:\n      - Contacts\n      - CRM\n      - Lists\n      - Segmentation\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.brevo.com/v3\n    humanURL: https://developers.brevo.com/docs/how-it-works\n    properties:\n      - url: https://developers.brevo.com/docs/how-it-works\n        type: Documentation\n      - url: openapi/brevo-contacts-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Brevo Contacts API provides programmatic access to contact management\n      features including creating, updating, and deleting contacts. Developers\n      can organize contacts into lists, apply attributes and tags, import\n      contacts in\

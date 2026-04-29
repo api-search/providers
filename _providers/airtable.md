@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: airtable-airtable-api-openapi.yml
+  format: yaml
+  label: Airtable API
+  slug: airtable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-airtable-api-openapi.yml
+- filename: airtable-metadata-api-openapi.yml
+  format: yaml
+  label: Airtable Metadata API
+  slug: airtable-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-metadata-api-openapi.yml
+- filename: airtable-enterprise-api-openapi.yml
+  format: yaml
+  label: Airtable Enterprise API
+  slug: airtable-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-enterprise-api-openapi.yml
+- filename: airtable-scim-api-openapi.yml
+  format: yaml
+  label: Airtable SCIM API
+  slug: airtable-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-scim-api-openapi.yml
+- filename: airtable-audit-logs-api-openapi.yml
+  format: yaml
+  label: Airtable Audit Logs API
+  slug: airtable-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-audit-logs-api-openapi.yml
+- filename: airtable-shares-api-openapi.yml
+  format: yaml
+  label: Airtable Shares API
+  slug: airtable-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-shares-api-openapi.yml
 apis:
 - description: The Airtable API can be used to integrate your data in Airtable with any external system. The API closely follows REST semantics, uses JSON to encode objects, and relies on standard HTTP codes to sign
   name: Airtable API
@@ -208,6 +245,7 @@ rules:
 skills: []
 slug: airtable
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: airtable\nurl: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/apis.yml\napis:\n- aid: airtable:airtable-api\n  name: Airtable API\n  tags:\n  - Bases\n  - Collaborators\n  - Comments\n  - Fields\n  - Records\n  - Tables\n  - Views\n  - Webhooks\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.airtable.com\n  humanURL: https://airtable.com/developers/web/api/introduction\n  properties:\n  - url: https://airtable.com/developers/web/api/introduction\n    type: Documentation\n  - url: https://support.airtable.com/docs/getting-started-with-airtables-web-api\n    type: GettingStarted\n  - url: https://airtable.com/developers/web/api/authentication\n    type: Authentication\n  - url: https://airtable.com/developers/web/guides/personal-access-tokens\n    type: Authentication\n  - url: https://airtable.com/developers/web/guides/oauth-integrations\n    type: Authentication\n  - url: https://airtable.com/developers/web/api/webhooks-overview\n\
   \    type: AsyncAPI\n  - url: https://github.com/Airtable/airtable.js\n    type: SDK\n  - url: https://www.npmjs.com/package/airtable\n    type: SDK\n  - url: https://airtable.com/developers/web/api/list-records\n    type: APIReference\n  - url: https://airtable.com/developers/web/api/update-record\n    type: APIReference\n  - url: https://airtable.com/developers/web/api/rate-limits\n    type: RateLimits\n  - url: https://airtable.com/developers/web/api/errors\n    type: Errors\n  - url: https://airtable.com/developers/web/api/cursor-pagination\n    type: Documentation\n  - url: https://airtable.com/developers/web/api/field-model\n    type: Documentation\n  - url: openapi/airtable-airtable-api-openapi.yml\n    type: OpenAPI\n  - url: json-schema/airtable-record-schema.json\n    type: JSONSchema\n  - url: json-schema/airtable-comment-schema.json\n    type: JSONSchema\n  - url: json-schema/airtable-webhook-schema.json\n    type: JSONSchema\n  - url: json-ld/airtable-context.jsonld\n    type:\
   \ JSON-LD\n  description: The Airtable API can be used to integrate your data in Airtable with any external system. The API closely follows REST semantics, uses JSON to encode objects, and relies on standard \n    HTTP codes to signal operation outcomes.\n- aid: airtable:airtable-metadata-api\n  name: Airtable Metadata API\n  tags:\n  - Bases\n  - Fields\n  - Metadata\n  - Schema\n  - Tables\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.airtable.com/v0/meta\n  humanURL: https://airtable.com/developers/web/api/list-bases\n  properties:\n  - url: https://airtable.com/developers/web/api/list-bases\n    type: Documentation\n  - url: https://airtable.com/developers/web/api/get-base-schema\n    type: Documentation\n  - url: https://airtable.com/developers/web/api/create-base\n    type: Documentation\n  - url: https://airtable.com/developers/web/api/create-table\n    type: Documentation\n  - url: https://airtable.com/developers/web/api/create-field\n\

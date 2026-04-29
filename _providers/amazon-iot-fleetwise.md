@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-iot-fleetwise-openapi-original.yml
+  format: yaml
+  label: AWS IoT FleetWise API
+  slug: aws-iot-fleetwise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/openapi/amazon-iot-fleetwise-openapi-original.yml
 apis:
 - description: The AWS IoT FleetWise API provides access to vehicle data modeling, fleet management, signal catalogs, campaigns, and data collection for connected vehicle platforms.
   name: AWS IoT FleetWise API
@@ -102,6 +109,7 @@ rules:
 skills: []
 slug: amazon-iot-fleetwise
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iot-fleetwise\nname: Amazon IoT FleetWise\ndescription: >-\n  AWS IoT FleetWise is a managed service that makes it easy for automotive manufacturers to collect, transform, and transfer vehicle data to the cloud in near-real time. It provides tools for vehicle data modeling, intelligent data collection, and cloud-based analytics.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Automotive\n  - AWS\n  - Connected Vehicles\n  - IoT\n  - Telematics\n  - Vehicle Data\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iot-fleetwise:aws-iot-fleetwise-api\n    name: AWS IoT FleetWise API\n    description: >-\n      The AWS IoT FleetWise API provides access to vehicle data modeling, fleet management, signal catalogs, campaigns, and data collection for connected\
   \ vehicle platforms.\n    humanURL: https://aws.amazon.com/iot-fleetwise/\n    baseURL: https://iotfleetwise.amazonaws.com\n    tags:\n      - Automotive\n      - IoT\n      - Vehicle Data\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/iot-fleetwise/latest/APIReference/\n      - type: OpenAPI\n        url: openapi/amazon-iot-fleetwise-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/iot-fleetwise/latest/developerguide/getting-started.html\n      - type: Pricing\n        url: https://aws.amazon.com/iot-fleetwise/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/iot-fleetwise/faqs/\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/iot-fleetwise/\n  - type: Website\n    url: https://aws.amazon.com/iot-fleetwise/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/iot-fleetwise/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n\
   \    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/iot/tag/aws-iot-fleetwise/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/iotfleetwise/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-iot-fleetwise-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/iot-fleetwise.yaml\n  - type: NaftikoCapability\n    url: capabilities/vehicle-fleet-management.yaml\n  - type: Vocabulary\n    url: vocabulary/amazon-iot-fleetwise-vocabulary.yaml\n  - type: JSONLD\n    url: json-ld/amazon-iot-fleetwise-context.jsonld\n  - type:\

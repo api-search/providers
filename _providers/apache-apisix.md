@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: apache-apisix-admin-api-openapi.yml
+  format: yaml
+  label: Apache APISIX Admin API
+  slug: apache-apisix-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-admin-api-openapi.yml
+- filename: apache-apisix-control-api-openapi.yml
+  format: yaml
+  label: Apache APISIX Control API
+  slug: apache-apisix-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/openapi/apache-apisix-control-api-openapi.yml
 apis:
 - description: Apache APISIX provides rich traffic management features including load balancing, dynamic upstream configuration, canary releases, circuit breaking, authentication, observability plugins, and more. It
   name: Apache APISIX Gateway
@@ -140,6 +153,7 @@ rules:
 skills: []
 slug: apache-apisix
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-apisix\nname: Apache APISIX\ndescription: >-\n  Apache APISIX is a dynamic, real-time, high-performance cloud-native API gateway built on NGINX and etcd, developed by the Apache Software Foundation. It supports Lua and multi-language plugins for traffic management, authentication, observability, and security. APISIX provides a RESTful Admin API for dynamic configuration of routes, upstreams, services, consumers, SSL certificates, and plugins, and a Control API for health monitoring and schema introspection.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Apache\n  - API Gateway\n  - Cloud Native\n  - Kubernetes\n  - Lua\n  - NGINX\n  - Open Source\n  - Traffic Management\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/apis.yml\ncreated: '2026-03-18'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: apache-apisix:apache-apisix-gateway\n\
   \    name: Apache APISIX Gateway\n    description: >-\n      Apache APISIX provides rich traffic management features including load balancing, dynamic upstream configuration, canary releases, circuit breaking, authentication, observability plugins, and more. It is built on NGINX for high performance with etcd for distributed configuration.\n    humanURL: https://apisix.apache.org/\n    tags:\n      - API Gateway\n      - Apache\n      - Cloud Native\n    properties:\n      - type: Documentation\n        url: https://apisix.apache.org/docs/apisix/getting-started/\n      - type: GettingStarted\n        url: https://apisix.apache.org/docs/apisix/getting-started/README/\n  - aid: apache-apisix:apache-apisix-admin-api\n    name: Apache APISIX Admin API\n    description: >-\n      The Apache APISIX Admin API provides a RESTful interface to dynamically control and configure a running APISIX instance. It supports management of routes, services, upstreams, consumers, SSL certificates, global rules,\
   \ plugin configurations, consumer groups, and secrets, and listens by default on port 9180 with API key authentication.\n    humanURL: https://apisix.apache.org/docs/apisix/admin-api/\n    tags:\n      - Admin\n      - Configuration\n      - Management\n      - REST\n    properties:\n      - type: Documentation\n        url: https://apisix.apache.org/docs/apisix/admin-api/\n      - type: OpenAPI\n        url: openapi/apache-apisix-admin-api-openapi.yml\n      - type: Authentication\n        url: https://apisix.apache.org/docs/apisix/admin-api/#using-the-admin-api\n  - aid: apache-apisix:apache-apisix-control-api\n    name: Apache APISIX Control API\n    description: >-\n      The Apache APISIX Control API provides internal status and health check endpoints for monitoring and introspecting a running APISIX instance. It listens by default on port 9090, is accessible only from localhost, and exposes endpoints for health checking, schema retrieval, and runtime diagnostics.\n    humanURL: https://apisix.apache.org/docs/apisix/control-api/\n\

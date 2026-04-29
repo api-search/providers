@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-private-ca-openapi-original.yaml
+  format: yaml
+  label: AWS Private CA API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/openapi/amazon-private-ca-openapi-original.yaml
 apis:
 - description: The AWS Private CA API provides programmatic access to create and manage private certificate authorities, issue X.509 certificates, manage certificate revocation lists, configure audit reports, and co
   name: AWS Private CA API
@@ -738,6 +745,7 @@ rules:
 skills: []
 slug: amazon-private-ca
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Private CA\ndescription: AWS Private Certificate Authority (AWS Private CA) is a highly available, fully managed private CA service that helps you easily and securely manage the lifecycle of your private \n  certificates. It allows you to create private CA hierarchies and issue X.509 certificates for your internal resources including TLS certificates for microservices, IoT devices, and user \n  authentication.\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/apis.yml\ntype: Index\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\ntags:\n- AWS\n- Certificate Authority\n- Certificates\n- PKI\n- Security\n- X.509\n- TLS\n- IoT\ncreated: '2026-03-16'\nmodified: '2026-04-19'\napis:\n- name: AWS Private CA API\n  description: The AWS Private CA API provides programmatic access to create and manage private certificate authorities, issue X.509 certificates, manage certificate revocation lists, configure\
   \ audit \n    reports, and control permissions and policies for private PKI infrastructure.\n  humanURL: https://aws.amazon.com/private-ca/\n  baseURL: https://acm-pca.amazonaws.com\n  tags:\n  - Certificates\n  - PKI\n  - Security\n  - Certificate Authority\n  - X.509\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/privateca/latest/APIReference/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-private-ca-openapi-original.yaml\n  - type: GettingStarted\n    url: https://aws.amazon.com/private-ca/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/private-ca/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/private-ca/faqs/\n  - type: Authentication\n    url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html\n  - type: RateLimits\n    url: https://docs.aws.amazon.com/privateca/latest/userguide/PcaLimits.html\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/private-ca/\n- type: Documentation\n  url:\
   \ https://docs.aws.amazon.com/privateca/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/security/tag/aws-certificate-manager-private-ca/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/acm-pca/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: SpectralRules\n  url: rules/amazon-private-ca-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/pki-management.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-private-ca-vocabulary.yaml\n- type: Features\n  data:\n  - name: Private CA Hierarchy\n    description: Create root and subordinate CA hierarchies for complete control over your PKI infrastructure.\n  - name:\

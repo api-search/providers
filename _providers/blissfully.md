@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: blissfully-vendr-catalog-api-openapi.yaml
+  format: yaml
+  label: Vendr Catalog API
+  slug: vendr-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-vendr-catalog-api-openapi.yaml
 apis:
 - description: Provides structured product catalog attributes derived from thousands of unstructured software quotes. Enables buyers to understand product breadth, available add-ons, pricing tiers, and feature compa
   name: Vendr Catalog API
@@ -87,6 +94,7 @@ rules:
 skills: []
 slug: blissfully
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: blissfully\nname: Blissfully\ndescription: >-\n  Blissfully was a SaaS management platform providing SaaS discovery, spend optimization,\n  and workflow automation for IT and finance teams. Blissfully was acquired by Vendr in 2022\n  and integrated into the Vendr platform. Vendr is now a leading SaaS buying and management\n  platform that helps companies control software spend through vendor negotiations, pricing\n  intelligence, and procurement automation. The Vendr API provides access to software\n  catalog data, pricing intelligence, and scope management capabilities.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Procurement\n  - SaaS Discovery\n  - SaaS Management\n  - Software Procurement\n  - Spend Optimization\n  - Vendor Management\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/apis.yml\ncreated: '2026-03-27'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\n\
   apis:\n  - aid: blissfully:vendr-catalog-api\n    name: Vendr Catalog API\n    description: >-\n      Provides structured product catalog attributes derived from thousands of unstructured\n      software quotes. Enables buyers to understand product breadth, available add-ons,\n      pricing tiers, and feature comparisons across the Vendr software catalog.\n    humanURL: https://developers.vendr.com\n    tags:\n      - Procurement\n      - SaaS Management\n      - Software Catalog\n    properties:\n      - type: Documentation\n        url: https://developers.vendr.com\n      - type: OpenAPI\n        url: openapi/blissfully-vendr-catalog-api-openapi.yaml\n  - aid: blissfully:vendr-pricing-api\n    name: Vendr Pricing API\n    description: >-\n      Delivers actionable pricing insights including fair price predictions and negotiation\n      guidance tailored to the buyer's specific requirements, contract size, and vendor\n      relationship. Powered by Vendr's database of real software purchases\
   \ and negotiated prices.\n    humanURL: https://developers.vendr.com\n    tags:\n      - Pricing\n      - Procurement\n      - SaaS Management\n    properties:\n      - type: Documentation\n        url: https://developers.vendr.com\n  - aid: blissfully:vendr-scope-api\n    name: Vendr Scope API\n    description: >-\n      Enables communication of detailed purchasing needs in text or file format,\n      whether for complex enterprise software requirements or uploaded quotes from vendors.\n      Supports both simple and complex procurement scope definitions.\n    humanURL: https://developers.vendr.com\n    tags:\n      - Procurement\n      - SaaS Management\n      - Scope\n    properties:\n      - type: Documentation\n        url: https://developers.vendr.com\n  - aid: blissfully:vendr-webhooks-api\n    name: Vendr Webhooks API\n    description: >-\n      Facilitates creation and management of webhooks for monitoring Vendr's data processing\n      events, enabling integration with procurement\

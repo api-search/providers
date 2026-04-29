@@ -1,5 +1,24 @@
 ---
 api_count: 8
+api_specs:
+- filename: azure-kubernetes-service-openapi.yml
+  format: yaml
+  label: Azure Kubernetes Service REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-kubernetes-service/refs/heads/main/openapi/azure-kubernetes-service-openapi.yml
+- filename: azure-kubernetes-service-openapi.yml
+  format: yaml
+  label: Azure Kubernetes Service Managed Clusters API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-kubernetes-service/refs/heads/main/openapi/azure-kubernetes-service-openapi.yml
+- filename: azure-kubernetes-service-openapi.yml
+  format: yaml
+  label: Azure Kubernetes Service Agent Pools API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-kubernetes-service/refs/heads/main/openapi/azure-kubernetes-service-openapi.yml
 apis:
 - description: REST API for managing Azure Kubernetes Service clusters.
   name: Azure Kubernetes Service REST API
@@ -157,6 +176,7 @@ rules:
 skills: []
 slug: azure-kubernetes-service
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Azure Kubernetes Service\ndescription: Azure Kubernetes Service (AKS) simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure. As a hosted Kubernetes service, Azure handles critical tasks, like health monitoring and maintenance.\nimage: https://azure.microsoft.com/images/aks-icon.png\nurl: https://azure.microsoft.com/en-us/services/kubernetes-service/\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.18'\ntags:\n  - Azure\n  - Cloud\n  - Containers\n  - DevOps\n  - Kubernetes\n  - Orchestration\napis:\n  - name: Azure Kubernetes Service REST API\n    description: >-\n      REST API for managing Azure Kubernetes Service clusters.\n    image: https://azure.microsoft.com/images/aks-icon.png\n    humanURL: https://learn.microsoft.com/en-us/rest/api/aks/\n    baseURL: https://management.azure.com\n    tags:\n      - Containers\n      - Kubernetes\n      - Management\n    properties:\n      - type: Documentation\n\
   \        url: https://learn.microsoft.com/en-us/azure/aks/\n      - type: OpenAPI\n        url: openapi/azure-kubernetes-service-openapi.yml\n      - type: JSONSchema\n        url: json-schema/azure-kubernetes-service-cluster-schema.json\n      - type: JSONLD\n        url: json-ld/azure-kubernetes-service-context.jsonld\n      - type: Authentication\n        url: https://learn.microsoft.com/en-us/azure/aks/concepts-identity\n      - type: Pricing\n        url: https://azure.microsoft.com/en-us/pricing/details/kubernetes-service/\n      - type: RateLimits\n        url: https://learn.microsoft.com/en-us/azure/aks/quotas-skus-regions\n      - type: GettingStarted\n        url: https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal\n      - type: ChangeLog\n        url: https://github.com/Azure/AKS/blob/master/CHANGELOG.md\n      - type: ReleaseNotes\n        url: https://learn.microsoft.com/en-us/azure/aks/release-tracker\n      - type: SDK\n        url: https://learn.microsoft.com/en-us/python/api/overview/azure/mgmt-containerservice-readme\n\
   \        title: Python SDK\n      - type: SDK\n        url: https://learn.microsoft.com/en-us/javascript/api/overview/azure/container-service\n        title: JavaScript SDK\n      - type: SDK\n        url: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/resourcemanager.containerservice-readme\n        title: .NET SDK\n      - type: SDK\n        url: https://learn.microsoft.com/en-us/java/api/overview/azure/resourcemanager-containerservice-readme\n        title: Java SDK\n      - type: SDK\n        url: https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/containerservice/armcontainerservice/v6\n        title: Go SDK\n  - name: Azure Kubernetes Service Managed Clusters API\n    description: REST API for creating, updating, deleting, and managing AKS managed clusters including cluster configuration, upgrades, credentials, and run commands.\n    image: https://azure.microsoft.com/images/aks-icon.png\n    humanURL: https://learn.microsoft.com/en-us/rest/api/aks/managed-clusters\n\

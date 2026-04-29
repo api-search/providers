@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: ariba-guided-buying-catalog-shop-api.yaml
+  format: yaml
+  label: Ariba Guided Buying - Public Catalogs Shop API
+  slug: ariba-guided-buying-catalog-shop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-catalog-shop-api.yaml
+- filename: ariba-guided-buying-asset-management-api.yaml
+  format: yaml
+  label: Ariba Guided Buying - Asset Management API
+  slug: ariba-guided-buying-asset-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-asset-management-api.yaml
 apis:
 - description: The Public Catalogs Shop API enables applications to retrieve data related to catalog items, filter facets, and matching search suggestions from public catalogs on SAP Business Network. This API suppo
   name: Ariba Guided Buying - Public Catalogs Shop API
@@ -100,6 +113,7 @@ rules:
 skills: []
 slug: ariba-guided-buying
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: ariba-guided-buying\nname: Ariba Guided Buying\ndescription: >-\n  SAP Ariba Guided Buying provides a consumer-like shopping experience for\n  enterprise procurement, enabling employees to find and purchase goods and\n  services through an intuitive catalog-driven interface with built-in approval\n  workflows and policy compliance.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - B2B\n  - Catalog\n  - ERP\n  - Procurement\n  - Requisitions\n  - SAP\n  - Supply Chain\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: ariba-guided-buying:ariba-guided-buying-catalog-shop-api\n    name: Ariba Guided Buying - Public Catalogs Shop API\n    description: >-\n      The Public Catalogs Shop API enables applications to retrieve data related\n      to catalog items, filter facets,\
   \ and matching search suggestions from\n      public catalogs on SAP Business Network. This API supports SAP Ariba\n      Buying, base edition, integrated with SAP S/4HANA Cloud Public Edition.\n    humanURL: https://help.sap.com/docs/ariba-apis\n    baseURL: https://openapi.ariba.com/api/catalog-shop/v1/prod\n    tags:\n      - Catalog\n      - Procurement\n      - Shopping\n    properties:\n      - type: Documentation\n        url: https://help.sap.com/doc/f2393ece78554efab2087b984c6fa90b/cloud/en-US/5e12bd6c87f24e0781a5fcdfb410ddc6.pdf\n      - type: OpenAPI\n        url: openapi/ariba-guided-buying-catalog-shop-api.yaml\n      - type: JSONSchema\n        url: json-schema/catalog-shop-api-shop-response-schema.json\n      - type: JSONSchema\n        url: json-schema/catalog-shop-api-catalog-item-schema.json\n      - type: JSONSchema\n        url: json-schema/catalog-shop-api-facet-schema.json\n      - type: JSONSchema\n        url: json-schema/catalog-shop-api-items-response-schema.json\n\
   \      - type: JSONSchema\n        url: json-schema/catalog-shop-api-auto-complete-response-schema.json\n      - type: JSONStructure\n        url: json-structure/catalog-shop-api-shop-response-structure.json\n      - type: JSONStructure\n        url: json-structure/catalog-shop-api-catalog-item-structure.json\n      - type: JSON-LD\n        url: json-ld/ariba-guided-buying-catalog-shop-api-context.jsonld\n  - aid: ariba-guided-buying:ariba-guided-buying-asset-management-api\n    name: Ariba Guided Buying - Asset Management API\n    description: >-\n      The Asset Management API enables developers to retrieve purchase\n      requisitions consisting of asset items and update asset data on those\n      requisitions. This API is applicable for SAP ERP-integrated sites that\n      have enabled the asset management feature.\n    humanURL: https://help.sap.com/docs/ariba-apis\n    baseURL: https://openapi.ariba.com/api/asset-management/v1/prod\n    tags:\n      - Asset Management\n      - ERP\n\

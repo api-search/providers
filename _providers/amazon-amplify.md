@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-amplify-openapi.yaml
+  format: yaml
+  label: Amazon Amplify REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-openapi.yaml
 apis:
 - description: RESTful API for AWS Amplify enabling management of apps, branches, domain associations, backend environments, and deployments for full-stack web and mobile applications.
   name: Amazon Amplify REST API
@@ -109,6 +116,7 @@ rules:
 skills: []
 slug: amazon-amplify
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-amplify\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/apis.yml\nname: Amazon Amplify\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nspecificationVersion: '0.19'\ndescription: AWS Amplify is a set of tools and services for building secure, scalable full-stack applications powered by AWS. It provides frontend and mobile developers with a complete workflow for \n  building, deploying, and hosting cloud-powered applications.\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon Amplify REST API\n  description: RESTful API for AWS Amplify enabling management of apps, branches, domain associations, backend environments, and deployments for full-stack web and mobile applications.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/amplify/\n  baseURL: https://amplify.amazonaws.com\n  tags:\n\
   \  - AWS\n  - Frontend\n  - Full Stack\n  - Mobile Development\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/amplify/latest/APIReference/\n  - type: OpenAPI\n    url: openapi/amazon-amplify-openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-amplify-app-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-amplify-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/amplify/pricing/\n  - type: Getting Started\n    url: https://aws.amazon.com/amplify/getting-started/\n  - type: Authentication\n    url: https://docs.aws.amazon.com/amplify/latest/APIReference/Welcome.html\n  - type: SDKs\n    url: https://aws.amazon.com/tools/\n  - type: FAQ\n    url: https://aws.amazon.com/amplify/faqs/\n  - type: User Guide\n    url: https://docs.aws.amazon.com/amplify/latest/userguide/welcome.html\n  - type: API Reference\n    url: https://docs.aws.amazon.com/amplify/latest/APIReference/Welcome.html\n  - type: Service Level Agreement\n    url:\
   \ https://aws.amazon.com/amplify/sla/\n  - type: Status\n    url: https://status.aws.amazon.com/\n  - type: JSONSchema\n    url: json-schema/amazon-amplify-app-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-amplify-branch-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-amplify-createapprequest-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-amplify-createappresult-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-amplify-createbranchrequest-schema.json\n  - type: JSONStructure\n    url: json-structure/amazon-amplify-app-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-amplify-branch-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-amplify-createapprequest-structure.json\n  - type: JSONLD\n    url: json-ld/amazon-amplify-context.jsonld\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/amplify/\n- type: Documentation\n  url: https://docs.aws.amazon.com/amplify/\n\

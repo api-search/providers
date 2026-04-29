@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-healthomics-openapi.yaml
+  format: yaml
+  label: AWS HealthOmics API
+  slug: aws-healthomics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-openapi.yaml
 apis:
 - description: The AWS HealthOmics API provides programmatic access to manage omics storage, workflows, run groups, annotation stores, and variant stores for genomics and other omics data analysis.
   name: AWS HealthOmics API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-healthomics
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-healthomics\nname: Amazon HealthOmics\ndescription: >-\n  AWS HealthOmics is a purpose-built service for healthcare and life sciences\n  organizations that helps store, query, and analyze genomic, transcriptomic,\n  and other omics data to generate insights and accelerate scientific\n  discoveries and improve healthcare.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Bioinformatics\n  - Genomics\n  - Healthcare\n  - Life Sciences\n  - Cloud Computing\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-healthomics:aws-healthomics-api\n    name: AWS HealthOmics API\n    description: >-\n      The AWS HealthOmics API provides programmatic access to manage omics\n      storage, workflows, run groups, annotation stores, and variant stores\n      for\
   \ genomics and other omics data analysis.\n    humanURL: https://aws.amazon.com/healthomics/\n    baseURL: https://omics.amazonaws.com\n    tags:\n      - Genomics\n      - Healthcare\n      - Life Sciences\n      - Bioinformatics\n      - Workflows\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/omics/latest/api/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-healthomics-openapi.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/healthomics/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/healthomics/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/healthomics/faqs/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/omics/latest/api/Welcome.html\n      - type: Authentication\n        url: https://docs.aws.amazon.com/omics/latest/api/CommonParameters.html\n      - type: JSONSchema\n        url: json-schema/healthomics-abort-multipart-read-set-upload-request-schema.json\n\
   \      - type: JSONLD\n        url: json-ld/amazon-healthomics-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/healthomics/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/omics/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/industries/healthcare/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/omics/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SDK\n    url: https://aws.amazon.com/developer/tools/\n  - type: CLI\n    url: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/omics/index.html\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: cat-openapi.yml
+  format: yaml
+  label: CAT Digital Marketplace API
+  slug: cat-digital-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/openapi/cat-openapi.yml
 apis:
 - description: 'Explore the Cat Digital API catalog, subscribe to APIs, and execute calls against the Cat Digital products. Coverage includes fleet and asset management, telematics (VisionLink), fuel and utilization '
   name: CAT Digital Marketplace API
@@ -64,6 +71,7 @@ name: CAT
 skills: []
 slug: cat
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cat\nurl: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/apis.yml\nname: CAT\ntags:\n  - Construction\n  - Engines\n  - Equipment\n  - Heavy Equipment\n  - Locomotives\n  - Manufacturing\n  - Mining\n  - Telematics\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncreated: '2025-01-07'\nmodified: '2026-04-23'\nposition: Consumer\ndescription: >-\n  CAT is the brand name and ticker symbol for Caterpillar Inc. (NYSE: CAT),\n  the world's leading manufacturer of construction and mining equipment,\n  off-highway diesel and natural gas engines, industrial gas turbines, and\n  diesel-electric locomotives. Cat Digital publishes a public API catalog at\n  digital.cat.com that exposes fleet, asset, telematics, and fuel data APIs\n  built on the Cat Connect and VisionLink platforms.\napis:\n  - aid: cat:cat-digital-marketplace-api\n    name: CAT Digital Marketplace API\n    tags:\n      - Assets\n\
   \      - Construction\n      - Heavy Equipment\n      - Telematics\n      - VisionLink\n    humanURL: https://digital.cat.com/api-catalog-overview\n    properties:\n      - url: https://digital.cat.com/api-catalog-overview\n        type: Documentation\n      - url: openapi/cat-openapi.yml\n        type: OpenAPI\n      - url: https://digital.cat.com/\n        type: Portal\n      - url: https://digital.cat.com/release-notes-manager\n        type: ChangeLog\n    description: >-\n      Explore the Cat Digital API catalog, subscribe to APIs, and execute\n      calls against the Cat Digital products. Coverage includes fleet and\n      asset management, telematics (VisionLink), fuel and utilization data,\n      hours/odometer events, and geofencing.\ncommon:\n  - type: Portal\n    url: https://digital.cat.com/\n  - type: Website\n    url: https://www.cat.com/\n  - type: Login\n    url: https://digital.cat.com/\n  - type: Applications\n    url: https://digital.cat.com/applications\n  - type: FAQ\n\
   \    url: https://digital.cat.com/knowledge-hub/faq\n  - type: News\n    url: https://digital.cat.com/news-announcements-list\n  - type: ChangeLog\n    url: https://digital.cat.com/release-notes-manager\n  - type: TermsOfService\n    url: https://digital.cat.com/legal\n  - type: PrivacyPolicy\n    url: https://digital.cat.com/privacy\n  - type: InvestorRelations\n    url: https://www.caterpillar.com/en/investors.html\n  - type: PressReleases\n    url: https://www.caterpillar.com/en/news.html\n  - type: Careers\n    url: https://www.caterpillar.com/en/careers.html\n  - name: Features\n    type: Features\n    data:\n      - name: Fleet Management\n      - name: Asset Telematics\n      - name: VisionLink\n      - name: Cat Connect\n      - name: Fuel Data\n      - name: Utilization\n      - name: Hours and Odometer\n      - name: Location and Geofencing\n      - name: Equipment Health\n      - name: Service and Maintenance\n      - name: Parts Catalog\n      - name: Dealer Integrations\n\

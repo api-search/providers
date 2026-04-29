@@ -1,5 +1,24 @@
 ---
 api_count: 6
+api_specs:
+- filename: best-buy-products-api.yaml
+  format: yaml
+  label: Best Buy Products API
+  slug: products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-products-api.yaml
+- filename: best-buy-stores-api.yaml
+  format: yaml
+  label: Best Buy Stores API
+  slug: stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-stores-api.yaml
+- filename: best-buy-recommendations-api.yaml
+  format: yaml
+  label: Best Buy Recommendations API
+  slug: recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-recommendations-api.yaml
 apis:
 - description: Access over one million current and historical Best Buy products with real-time pricing, availability, specifications, images, customer reviews, and categorization data. Supports detailed queries by S
   name: Best Buy Products API
@@ -117,6 +136,7 @@ rules:
 skills: []
 slug: best-buy
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: best-buy\nurl: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/apis.yml\nname: Best Buy\ntags:\n  - Retail\n  - Consumer Electronics\n  - E-Commerce\n  - Products\n  - Stores\nx-type: company\ncreated: '2026-04-19'\nmodified: '2026-04-19'\ndescription: >-\n  Best Buy is a multinational consumer electronics retailer offering technology products,\n  services, and solutions through stores, online, and in-home consultations. Best Buy\n  provides a developer API giving access to product data, store locations, categories,\n  recommendations, open box offers, and commerce capabilities for partners and developers\n  building retail integrations and applications.\napis:\n  - aid: best-buy:products-api\n    name: Best Buy Products API\n    tags:\n      - Products\n      - Retail\n      - Electronics\n      - Pricing\n      - Inventory\n    humanURL: https://bestbuyapis.github.io/api-documentation/#products-api\n    properties:\n      - type: Documentation\n\
   \        url: https://bestbuyapis.github.io/api-documentation/#products-api\n      - type: OpenAPI\n        url: openapi/best-buy-products-api.yaml\n    description: >-\n      Access over one million current and historical Best Buy products with real-time\n      pricing, availability, specifications, images, customer reviews, and categorization\n      data. Supports detailed queries by SKU, keyword search, and filtering across\n      all product attributes.\n\n  - aid: best-buy:stores-api\n    name: Best Buy Stores API\n    tags:\n      - Stores\n      - Locations\n      - Retail\n      - Geolocation\n    humanURL: https://bestbuyapis.github.io/api-documentation/#stores-api\n    properties:\n      - type: Documentation\n        url: https://bestbuyapis.github.io/api-documentation/#stores-api\n      - type: OpenAPI\n        url: openapi/best-buy-stores-api.yaml\n    description: >-\n      Retrieve comprehensive store location and operational data for 1,587+ Best Buy\n      locations across\
   \ the United States and Puerto Rico. Supports area-based searches\n      by postal code or latitude/longitude, store hours, services, and in-store product\n      availability.\n\n  - aid: best-buy:categories-api\n    name: Best Buy Categories API\n    tags:\n      - Categories\n      - Taxonomy\n      - Products\n    humanURL: https://bestbuyapis.github.io/api-documentation/#categories-api\n    properties:\n      - type: Documentation\n        url: https://bestbuyapis.github.io/api-documentation/#categories-api\n    description: >-\n      Navigate Best Buy's product taxonomy with access to 4,328+ product categories.\n      Browse hierarchical category paths from root to specific categories and integrate\n      with product searches for category-specific filtering.\n\n  - aid: best-buy:recommendations-api\n    name: Best Buy Recommendations API\n    tags:\n      - Recommendations\n      - Personalization\n      - Products\n    humanURL: https://bestbuyapis.github.io/api-documentation/#recommendations-api\n\

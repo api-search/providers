@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: amd-developer-cloud-api-openapi.yml
+  format: yaml
+  label: AMD Developer Cloud API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/amd-developer-cloud-api-openapi.yml
+- filename: amd-rocm-management-api-openapi.yml
+  format: yaml
+  label: AMD ROCm API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/amd-rocm-management-api-openapi.yml
 apis:
 - description: The AMD Developer Cloud API provides access to AMD Instinct GPU instances for AI inference, training, and HPC workloads. Supports managing compute instances, deploying AI models, monitoring GPU utiliz
   name: AMD Developer Cloud API
@@ -104,6 +117,7 @@ rules:
 skills: []
 slug: advanced-micro-devices
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: advanced-micro-devices\nurl: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/apis.yml\nmodified: '2026-04-19'\napis:\n- name: AMD Developer Cloud API\n  description: The AMD Developer Cloud API provides access to AMD Instinct GPU instances for AI inference, training, and HPC workloads. Supports managing compute instances, deploying AI models, monitoring GPU utilization, and integrating with ROCm-compatible frameworks including PyTorch, TensorFlow, and vLLM.\n  humanURL: https://developer.amd.com\n  baseURL: https://api.developer.amd.com/v1\n  tags:\n  - AI\n  - Cloud Computing\n  - GPU\n  - HPC\n  - Instinct\n  properties:\n  - type: Documentation\n    url: https://developer.amd.com\n  - type: OpenAPI\n    url: openapi/amd-developer-cloud-api-openapi.yml\n  - type: JSONSchema\n    url: json-schema/\n  - type: JSONStructure\n    url: json-structure/\n  - type: JSONLD\n    url: json-ld/amd-developer-cloud-api-context.jsonld\n  - type:\
   \ SpectralRules\n    url: rules/amd-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/developer-cloud-api.yaml\n  - type: Vocabulary\n    url: vocabulary/advanced-micro-devices-vocabulary.yaml\n- name: AMD ROCm API\n  description: The AMD ROCm (Radeon Open Compute) platform provides the runtime and library APIs for GPU-accelerated computing on AMD hardware. Includes HIP (Heterogeneous-compute Interface for Portability), math libraries (rocBLAS, rocFFT, rocRAND), and communication libraries (RCCL) for high-performance computing and AI workloads.\n  humanURL: https://rocm.docs.amd.com\n  baseURL: https://rocm.docs.amd.com/en/latest\n  tags:\n  - GPU\n  - HPC\n  - Machine Learning\n  - ROCm\n  - SDK\n  properties:\n  - type: Documentation\n    url: https://rocm.docs.amd.com\n  - type: OpenAPI\n    url: openapi/amd-rocm-management-api-openapi.yml\n  - type: JSONSchema\n    url: json-schema/\n  - type: JSONStructure\n    url: json-structure/\n  - type: JSONLD\n \
   \   url: json-ld/amd-rocm-management-api-context.jsonld\n  - type: SpectralRules\n    url: rules/amd-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/ai-gpu-computing.yaml\n  - type: Vocabulary\n    url: vocabulary/advanced-micro-devices-vocabulary.yaml\ncommon:\n- type: Website\n  url: https://www.amd.com\n- type: Portal\n  url: https://developer.amd.com\n- type: Documentation\n  url: https://rocm.docs.amd.com\n- type: GettingStarted\n  url: https://developer.amd.com/resources/rocm-resources/\n- type: Support\n  url: https://developer.amd.com/support/\n- type: Blog\n  url: https://www.amd.com/en/corporate/blog.html\n- type: TermsOfService\n  url: https://www.amd.com/en/legal/terms-and-conditions.html\n- type: PrivacyPolicy\n  url: https://www.amd.com/en/legal/privacy.html\n- type: GitHubOrganization\n  url: https://github.com/ROCm\n- type: Academy\n  url: https://academy.amd.com\n- type: SignUp\n  url: https://developer.amd.com/amd-developer-cloud/\n- type: Features\n\

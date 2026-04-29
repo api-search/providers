@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: appyway-availability-realtime-api-openapi.yml
+  format: yaml
+  label: AppyWay Availability RealTime API
+  slug: appyway-availability-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-availability-realtime-api-openapi.yml
+- filename: appyway-traffic-data-api-openapi.yml
+  format: yaml
+  label: AppyWay Traffic Data API
+  slug: appyway-traffic-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-traffic-data-api-openapi.yml
+- filename: appyway-explorer-api-openapi.yml
+  format: yaml
+  label: AppyWay Explorer API
+  slug: appyway-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-explorer-api-openapi.yml
+- filename: appyway-platform-api-openapi.yml
+  format: yaml
+  label: AppyWay Platform API
+  slug: appyway-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-platform-api-openapi.yml
 apis:
 - description: AppyWay Availability RealTime API allows businesses to access real-time data on parking availability, traffic congestion, and road closure information. This API provides up-to-the-minute updates on pa
   name: AppyWay Availability RealTime API
@@ -67,6 +92,7 @@ rules:
 skills: []
 slug: appyway
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: appyway\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/apis.yml\napis:\n- aid: appyway:appyway-availability-realtime-api\n  name: AppyWay Availability RealTime API\n  tags:\n  - Congestion\n  - Parking\n  - Road Closure\n  - Traffic\n  humanURL: >-\n    https://docs.appyway.com/docs/public-docs/dc52a602db4c8-availability-real-time\n  properties:\n  - url: openapi/appyway-availability-realtime-api-openapi.yml\n    type: OpenAPI\n  - url: https://docs.appyway.com/docs/public-docs/dc52a602db4c8-availability-real-time\n    type: Documentation\n  - url: json-schema/parking-availability-schema.json\n    type: JSONSchema\n  - url: json-structure/parking-availability-structure.json\n    type: JSONStructure\n  - url: examples/parking-availability-example.json\n    type: Example\n  - url: json-ld/appyway-context.jsonld\n    type: JSONLD\n  - url: rules/appyway-spectral-rules.yml\n    type: SpectralRules\n  - url: capabilities/shared/appyway-api.yaml\n\
   \    type: NaftikoCapability\n  - url: capabilities/smart-parking.yaml\n    type: NaftikoCapability\n  - url: vocabulary/appyway-vocabulary.yaml\n    type: Vocabulary\n  description: >-\n    AppyWay Availability RealTime API allows businesses to access real-time data\n    on parking availability, traffic congestion, and road closure information. This\n    API provides up-to-the-minute updates on parking spots, helping users find and\n    reserve parking spaces quickly and easily. By providing this information in\n    real-time, businesses can improve customer satisfaction and reduce the frustration\n    of searching for parking.\n- aid: appyway:appyway-traffic-data-api\n  name: AppyWay Traffic Data API\n  tags:\n  - Historical\n  - Real-Time\n  - Traffic\n  humanURL: https://docs.appyway.com/docs/public-docs/7cb87b08d16a7-traffic-data\n  properties:\n  - url: openapi/appyway-traffic-data-api-openapi.yml\n    type: OpenAPI\n  - url: https://docs.appyway.com/docs/public-docs\n    type: Documentation\n\
   \  description: >-\n    The AppyWay Traffic Data API provides real-time and historical traffic data\n    for developers to integrate into their applications. This data includes information\n    on traffic congestion, accidents, road closures, and other key events that can\n    impact a driver's journey. By utilizing this API, developers can provide their\n    users with up-to-date traffic information, optimize routes for more efficient\n    travel, and enhance overall road safety.\n- aid: appyway:appyway-explorer-api\n  name: AppyWay Explorer API\n  tags:\n  - Electrical Vehicle Charging\n  - Parking\n  humanURL: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer\n  properties:\n  - url: openapi/appyway-explorer-api-openapi.yml\n    type: OpenAPI\n  - url: https://docs.appyway.com/docs/public-docs/c655badabdcf0-explorer-api\n    type: Documentation\n  description: >-\n    The AppyWay Explorer API allows developers to access a wealth of data related\n    to parking and electric\

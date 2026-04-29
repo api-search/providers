@@ -1,5 +1,12 @@
 ---
 api_count: 36
+api_specs:
+- filename: cloud-resource-manager-openapi.yml
+  format: yaml
+  label: Google Cloud Resource Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/cloud-resource-manager-openapi.yml
 apis:
 - description: Creates and runs virtual machines on Google Cloud Platform.
   name: Google Compute Engine API
@@ -251,6 +258,7 @@ rules:
 skills: []
 slug: google-cloud-platform
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-cloud-platform\nname: Google Cloud Platform\ndescription: >-\n  Google Cloud Platform enables developers to build, test, and deploy applications\n  on Google's highly-scalable and reliable infrastructure.\nimage: https://cloud.google.com/_static/images/cloud/icons/favicons/onecloud/super_cloud.png\nurl: https://cloud.google.com\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - API Management\n  - Cloud Computing\n  - Infrastructure\n  - Platform as a Service\napis:\n  - name: Google Compute Engine API\n    description: >-\n      Creates and runs virtual machines on Google Cloud Platform.\n    image: https://cloud.google.com/images/products/compute-engine.png\n    humanURL: https://cloud.google.com/compute/\n    baseURL: https://compute.googleapis.com\n    tags:\n      - Compute\n      - Infrastructure\n      - Virtual Machines\n    properties:\n      - type: Documentation\n        url: https://cloud.google.com/compute/docs/reference/rest/v1\n\
   \      - type: OpenAPI\n        url: https://compute.googleapis.com/$discovery/rest?version=v1\n      - type: Authentication\n        url: https://cloud.google.com/docs/authentication\n      - type: Pricing\n        url: https://cloud.google.com/compute/pricing\n      - type: Console\n        url: https://console.cloud.google.com/compute\n      - type: GettingStarted\n        url: https://cloud.google.com/compute/docs/quickstart\n      - type: SDK\n        url: https://cloud.google.com/compute/docs/reference/libraries\n      - type: RateLimits\n        url: https://cloud.google.com/compute/quotas\n      - type: ReleaseNotes\n        url: https://cloud.google.com/compute/docs/release-notes\n  - name: Google Cloud Storage API\n    description: >-\n      Store and retrieve any amount of data at any time from anywhere on the web.\n    image: https://cloud.google.com/images/products/storage.png\n    humanURL: https://cloud.google.com/storage/\n    baseURL: https://storage.googleapis.com\n \
   \   tags:\n      - Files\n      - Object Storage\n      - Storage\n    properties:\n      - type: Documentation\n        url: https://cloud.google.com/storage/docs/json_api\n      - type: OpenAPI\n        url: https://storage.googleapis.com/$discovery/rest?version=v1\n      - type: Authentication\n        url: https://cloud.google.com/storage/docs/authentication\n      - type: Pricing\n        url: https://cloud.google.com/storage/pricing\n      - type: Console\n        url: https://console.cloud.google.com/storage\n      - type: GettingStarted\n        url: https://cloud.google.com/storage/docs/quickstart-console\n      - type: SDK\n        url: https://cloud.google.com/storage/docs/reference/libraries\n      - type: RateLimits\n        url: https://cloud.google.com/storage/quotas\n      - type: ReleaseNotes\n        url: https://cloud.google.com/storage/docs/release-notes\n  - name: Google Cloud Functions API\n    description: >-\n      Execute your code in response to events without\

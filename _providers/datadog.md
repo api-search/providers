@@ -1,5 +1,42 @@
 ---
 api_count: 85
+api_specs:
+- filename: datadog-api-openapi.yml
+  format: yaml
+  label: Datadog API
+  slug: datadog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-api-openapi.yml
+- filename: datadog-metrics-openapi.yml
+  format: yaml
+  label: Datadog Metrics API
+  slug: datadog-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-metrics-openapi.yml
+- filename: datadog-logs-openapi.yml
+  format: yaml
+  label: Datadog Logs API
+  slug: datadog-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-logs-openapi.yml
+- filename: datadog-events-openapi.yml
+  format: yaml
+  label: Datadog Events API
+  slug: datadog-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-events-openapi.yml
+- filename: datadog-monitors-openapi.yml
+  format: yaml
+  label: Datadog Monitors API
+  slug: datadog-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-monitors-openapi.yml
+- filename: datadog-incidents-openapi.yml
+  format: yaml
+  label: Datadog Incidents API
+  slug: datadog-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-incidents-openapi.yml
 apis:
 - description: The Datadog API is an HTTP REST API. The API uses resource-oriented URLs to call the API, uses status codes to indicate the success or failure of requests, returns JSON from all requests, and uses sta
   name: Datadog API
@@ -492,6 +529,7 @@ solutions:
   name: Datadog Logs
 - description: Cloud security posture management and threat detection.
   name: Datadog Security
+source_filename: apis.yml
 source_yaml: "aid: datadog\nurl: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/apis.yml\napis:\n- aid: datadog:datadog-api\n  name: Datadog API\n  tags:\n  - Monitoring\n  - Observability\n  humanURL: https://docs.datadoghq.com/api/latest/\n  baseURL: https://api.datadoghq.com\n  image: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\n  properties:\n  - url: openapi/datadog-api-openapi.yml\n    type: OpenAPI\n  - url: https://docs.datadoghq.com/api/latest/\n    type: Documentation\n  - url: https://docs.datadoghq.com/api/latest/authentication/\n    type: Authentication\n  description: The Datadog API is an HTTP REST API. The API uses resource-oriented\n    URLs to call the API, uses status codes to indicate the success or failure of\n    requests, returns JSON from all requests, and uses standard HTTP response codes.\n    Use the Datadog API to access the Datadog platform programmatically.\n- aid: datadog:datadog-metrics-api\n  name: Datadog Metrics API\n \
   \ tags:\n  - Metrics\n  - Monitoring\n  - Timeseries\n  humanURL: https://docs.datadoghq.com/api/latest/metrics/\n  baseURL: https://api.datadoghq.com\n  image: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\n  properties:\n  - url: openapi/datadog-metrics-openapi.yml\n    type: OpenAPI\n  - url: json-schema/datadog-metric-schema.json\n    type: JSONSchema\n  - url: https://docs.datadoghq.com/api/latest/metrics/\n    type: Documentation\n  - url: https://docs.datadoghq.com/metrics/\n    type: Reference\n  description: The Metrics API allows you to post metrics data to be graphed on Datadog\n    dashboards, query metrics from any time period as timeseries or scalar values,\n    and modify tag configurations for metrics. It also supports viewing tags and volumes\n    for metrics.\n- aid: datadog:datadog-logs-api\n  name: Datadog Logs API\n  tags:\n  - Log Management\n  - Logs\n  - Search\n  humanURL: https://docs.datadoghq.com/api/latest/logs/\n  baseURL: https://api.datadoghq.com\n\
   \  image: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\n  properties:\n  - url: openapi/datadog-logs-openapi.yml\n    type: OpenAPI\n  - url: json-schema/datadog-log-event-schema.json\n    type: JSONSchema\n  - url: https://docs.datadoghq.com/api/latest/logs/\n    type: Documentation\n  - url: https://docs.datadoghq.com/logs/\n    type: Reference\n  description: The Logs API allows you to search and send log events to the Datadog\n    platform over HTTP. It supports querying and aggregating log data from the Log\n    Management product.\n- aid: datadog:datadog-events-api\n  name: Datadog Events API\n  tags:\n  - Event Management\n  - Events\n  humanURL: https://docs.datadoghq.com/api/latest/events/\n  baseURL: https://api.datadoghq.com\n  image: https://imgix.datadoghq.com/img/dd_logo_n_70x75.png\n  properties:\n  - url: openapi/datadog-events-openapi.yml\n    type: OpenAPI\n  - url: json-schema/datadog-event-schema.json\n    type: JSONSchema\n  - url: https://docs.datadoghq.com/api/latest/events/\n\

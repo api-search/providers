@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: 1factory-openapi.json
+  format: json
+  label: 1Factory API
+  slug: 1factory
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-openapi.json
 apis:
 - description: This API allows you to create and query a number of objects in your 1Factory account. The API accepts and returns request and response bodies as JSON, using UTF-8 encoding. Supports part master manage
   name: 1Factory API
@@ -84,6 +91,7 @@ rules:
 skills: []
 slug: 1factory
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: 1factory\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/apis.yml\nname: 1Factory\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Analytics\n  - Data Collection\n  - Manufacturing\n  - Monitoring\n  - Quality\ndescription: >-\n  1Factory is a leading provider of quality management software solutions for manufacturing\n  companies. The platform helps businesses streamline their operations, improve efficiency,\n  and ensure product quality at every stage of the production process. Features include\n  real-time monitoring, automated data collection, advanced analytics, and integration\n  with ERP and PLM systems via a REST API.\ncreated: '2025-02-08'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: 1factory:1factory\n    name: 1Factory API\n    tags:\n      - Manufacturing\n      - Quality\n      - Inspections\n    humanURL: https://www.1factory.com/api-doc/index.html\n\
   \    baseURL: https://www.1factory.com/api/v1\n    properties:\n      - url: https://www.1factory.com/api-doc/index.html\n        type: Documentation\n      - url: openapi/1factory-openapi.json\n        type: OpenAPI\n      - url: json-schema/1factory-part-master-schema.json\n        type: JSONSchema\n      - url: json-schema/1factory-inspection-schema.json\n        type: JSONSchema\n      - url: json-schema/1factory-plan-schema.json\n        type: JSONSchema\n      - url: json-schema/1factory-fai-schema.json\n        type: JSONSchema\n      - url: json-schema/1factory-capa-schema.json\n        type: JSONSchema\n      - url: json-schema/1factory-ncr-schema.json\n        type: JSONSchema\n      - url: json-schema/1factory-complaint-schema.json\n        type: JSONSchema\n      - url: json-schema/1factory-supplier-schema.json\n        type: JSONSchema\n    description: >-\n      This API allows you to create and query a number of objects in your\n      1Factory account. The API accepts and\
   \ returns request and response bodies\n      as JSON, using UTF-8 encoding. Supports part master management, manufacturing\n      and receiving inspections, supplier quality, first article inspections (FAI),\n      and quality management system records (NCRs, CAPAs, complaints).\ncommon:\n  - type: Website\n    url: https://www.1factory.com/\n  - type: Documentation\n    url: https://www.1factory.com/api-doc/index.html\n  - type: Security\n    url: https://www.1factory.com/technical-overview.html\n  - type: Support\n    url: https://1factoryhelp.zendesk.com/hc/en-us\n  - type: TermsOfService\n    url: https://www.1factory.com/resources/TOS%20May%2020%202021.pdf\n  - type: RateLimits\n    url: https://www.1factory.com/api-doc/index.html\n    data:\n      - name: Minute Limit\n        description: 60 requests per minute\n      - name: Daily Limit\n        description: 1000 requests per day\n  - type: SpectralRules\n    url: rules/1factory-spectral-rules.yml\n  - type: NaftikoCapability\n\

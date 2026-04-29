@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: activepieces.json
+  format: json
+  label: Activepieces API
+  slug: activepieces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces.json
 apis:
 - description: The Activepieces API provides programmatic access to the automation platform, enabling management of flows, connections, projects, users, folders, pieces, templates, and execution monitoring. Uses Bea
   name: Activepieces API
@@ -121,6 +128,7 @@ solutions:
   name: Business
 - description: Custom pricing with unlimited flows, SSO, audit logs, and custom AI model support.
   name: Enterprise
+source_filename: apis.yml
 source_yaml: "aid: activepieces\nname: Activepieces\ndescription: >-\n  Activepieces is an open-source, no-code automation platform that enables users to streamline\n  workflows by connecting various applications and automating tasks. It supports over 400 MCP\n  servers and integrations, allowing developers to build custom TypeScript-based pieces. The\n  platform offers AI agents, MCPs, and workflow automation capabilities with both cloud and\n  self-hosted deployment options.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Automation\n  - No-Code\n  - Open Source\n  - Workflow\n  - AI Agents\n  - MCP\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: activepieces:activepieces-api\n    name: Activepieces API\n    tags:\n      - Automation\n      - Workflow\n      - No-Code\n    humanURL: https://www.activepieces.com/docs/endpoints/overview\n\
   \    baseURL: https://cloud.activepieces.com/api/v1\n    properties:\n      - url: https://www.activepieces.com/docs/endpoints/overview\n        type: Documentation\n      - url: https://www.activepieces.com/docs/endpoints/overview\n        type: APIReference\n      - url: openapi/activepieces.json\n        type: OpenAPI\n      - url: json-schema/activepieces-flow-schema.json\n        type: JSONSchema\n        title: Flow\n      - url: json-schema/activepieces-flow-run-schema.json\n        type: JSONSchema\n        title: Flow Run\n      - url: json-schema/activepieces-connection-schema.json\n        type: JSONSchema\n        title: Connection\n      - url: json-schema/activepieces-project-schema.json\n        type: JSONSchema\n        title: Project\n      - url: json-structure/activepieces-flow-structure.json\n        type: JSONStructure\n        title: Flow\n      - url: json-structure/activepieces-flow-run-structure.json\n        type: JSONStructure\n        title: Flow Run\n     \
   \ - url: examples/activepieces-flow-example.json\n        type: Example\n        title: Flow Example\n      - url: examples/activepieces-flow-run-example.json\n        type: Example\n        title: Flow Run Example\n    description: >-\n      The Activepieces API provides programmatic access to the automation platform, enabling\n      management of flows, connections, projects, users, folders, pieces, templates, and\n      execution monitoring. Uses Bearer token authentication.\ncommon:\n  - type: Portal\n    url: https://www.activepieces.com/\n  - type: Documentation\n    url: https://www.activepieces.com/docs/\n  - type: GettingStarted\n    url: https://www.activepieces.com/docs/getting-started/introduction\n  - type: Authentication\n    url: https://www.activepieces.com/docs/endpoints/overview\n  - type: Pricing\n    url: https://www.activepieces.com/pricing\n  - type: GitHubOrganization\n    url: https://github.com/activepieces\n  - type: GitHubRepository\n    url: https://github.com/activepieces/activepieces\n\

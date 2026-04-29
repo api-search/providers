@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-codeartifact-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeArtifact API
+  slug: amazon-codeartifact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/openapi/amazon-codeartifact-openapi-original.yaml
 apis:
 - description: The Amazon CodeArtifact REST API enables programmatic management of artifact repositories, domains, packages, and package versions. Manage domains and repositories, control permissions policies, publi
   name: Amazon CodeArtifact API
@@ -134,6 +141,7 @@ rules:
 skills: []
 slug: amazon-codeartifact
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-codeartifact\nname: Amazon CodeArtifact\ndescription: >-\n  Amazon CodeArtifact is a fully managed, secure artifact repository service that helps organizations store, publish,\n  and share software packages used in their software development process. CodeArtifact works with popular build tools\n  and package managers including npm, yarn, pip, twine, Maven, Gradle, NuGet, and more. It supports Cargo, generic,\n  Maven, npm, NuGet, PyPI, Ruby, and Swift package formats and integrates natively with AWS IAM, AWS KMS, AWS\n  CloudTrail, and Amazon EventBridge.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Amazon\n  - AWS\n  - Artifact Repository\n  - Package Management\n  - DevOps\n  - Software Supply Chain\n  - npm\n  - Maven\n  - PyPI\n  - NuGet\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion:\
   \ '0.19'\napis:\n  - aid: amazon-codeartifact:amazon-codeartifact-api\n    name: Amazon CodeArtifact API\n    description: >-\n      The Amazon CodeArtifact REST API enables programmatic management of artifact repositories, domains, packages,\n      and package versions. Manage domains and repositories, control permissions policies, publish and copy package\n      versions, retrieve authorization tokens, and manage external connections to public package registries such as\n      npmjs, PyPI, Maven Central, NuGet Gallery, and RubyGems.\n    humanURL: https://docs.aws.amazon.com/codeartifact/latest/APIReference/Welcome.html\n    baseURL: https://codeartifact.us-east-1.amazonaws.com\n    tags:\n      - Amazon\n      - AWS\n      - Artifact Repository\n      - Package Management\n      - REST API\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/codeartifact/latest/ug/welcome.html\n      - type: APIReference\n        url: https://docs.aws.amazon.com/codeartifact/latest/APIReference/Welcome.html\n\
   \      - type: OpenAPI\n        url: openapi/amazon-codeartifact-openapi-original.yaml\n      - type: JSONSchema\n        url: json-schema/codeartifact-domain-description-schema.json\n      - type: JSONSchema\n        url: json-schema/codeartifact-repository-description-schema.json\n      - type: JSONSchema\n        url: json-schema/codeartifact-package-version-description-schema.json\ncommon:\n  - type: GettingStarted\n    url: https://docs.aws.amazon.com/codeartifact/latest/ug/getting-started.html\n  - type: Authentication\n    url: https://docs.aws.amazon.com/codeartifact/latest/ug/tokens-authentication.html\n  - type: Pricing\n    url: https://aws.amazon.com/codeartifact/pricing/\n  - type: Console\n    url: https://console.aws.amazon.com/codesuite/codeartifact/start\n  - type: Portal\n    url: https://aws.amazon.com/codeartifact/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/codeartifact/latest/ug/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n\

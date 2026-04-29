@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-iot-sitewise-openapi-original.yml
+  format: yaml
+  label: AWS IoT SiteWise API
+  slug: aws-iot-sitewise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-openapi-original.yml
 apis:
 - description: The AWS IoT SiteWise API provides access to asset model management, asset data ingestion, time-series data queries, portals, and dashboards for industrial IoT monitoring.
   name: AWS IoT SiteWise API
@@ -104,6 +111,7 @@ rules:
 skills: []
 slug: amazon-iot-sitewise
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-iot-sitewise\nname: Amazon IoT SiteWise\ndescription: >-\n  AWS IoT SiteWise is a managed service that makes it easy to collect, store, organize, and monitor industrial data at scale. It provides tools to create asset models representing your industrial operations and analyze equipment performance across your facilities.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Asset Management\n  - Industrial IoT\n  - IoT\n  - Time Series Data\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-iot-sitewise:aws-iot-sitewise-api\n    name: AWS IoT SiteWise API\n    description: >-\n      The AWS IoT SiteWise API provides access to asset model management, asset data ingestion, time-series data queries, portals, and dashboards for industrial IoT monitoring.\n\
   \    humanURL: https://aws.amazon.com/iot-sitewise/\n    baseURL: https://iotsitewise.amazonaws.com\n    tags:\n      - Asset Management\n      - Industrial IoT\n      - IoT\n      - Time Series\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/iot-sitewise/latest/APIReference/\n      - type: OpenAPI\n        url: openapi/amazon-iot-sitewise-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/iot-sitewise/latest/userguide/getting-started.html\n      - type: Pricing\n        url: https://aws.amazon.com/iot-sitewise/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/iot-sitewise/faqs/\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/iot-sitewise/\n  - type: Website\n    url: https://aws.amazon.com/iot-sitewise/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/iot-sitewise/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n\
   \    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/iot/tag/aws-iot-sitewise/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/iotsitewise/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-iot-sitewise-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/iot-sitewise.yaml\n  - type: NaftikoCapability\n    url: capabilities/industrial-asset-management.yaml\n  - type: Vocabulary\n    url: vocabulary/amazon-iot-sitewise-vocabulary.yaml\n  - type: JSONLD\n    url: json-ld/amazon-iot-sitewise-context.jsonld\n  - type:\

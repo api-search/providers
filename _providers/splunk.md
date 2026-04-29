@@ -1,5 +1,12 @@
 ---
 api_count: 13
+api_specs:
+- filename: splunk-enterprise-rest-api.yml
+  format: yaml
+  label: Splunk Enterprise REST API
+  slug: splunk-enterprise-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-enterprise-rest-api.yml
 apis:
 - description: API monitoring checks to see if API-connected resources are available, working properly and responding to calls.
   name: Splunk
@@ -216,6 +223,7 @@ rules:
 skills: []
 slug: splunk
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: splunk\nname: Splunk\ndescription: Splunk is a platform for searching, monitoring, and analyzing machine-generated big data via a web-style interface.\nimage: https://www.splunk.com/content/dam/splunk2/images/icons/favicons/favicon.ico\nurl: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/apis.yml\ncreated: '2025-01-08'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\naccess: 3rd-Party\nposition: Consumer\ntags:\n  - Analytics\n  - Data Analysis\n  - Logging\n  - Machine Data\n  - Monitoring\n  - Observability\n  - Platform\n  - Security\n  - SIEM\napis:\n  - aid: splunk:splunk\n    name: Splunk\n    description: API monitoring checks to see if API-connected resources are available, working properly and responding to calls.\n    humanURL: https://www.splunk.com/en_us/blog/learn/api-monitoring.html\n    tags: []\n    properties:\n      - type: Documentation\n        url: https://www.splunk.com/en_us/blog/learn/api-monitoring.html\n\
   \  - aid: splunk:splunk-enterprise-rest-api\n    name: Splunk Enterprise REST API\n    description: The Splunk Enterprise REST API provides programmatic access to the same information and functionality available to core system software and Splunk Web. It supports GET, POST, and DELETE operations over HTTPS on the splunkd management port 8089.\n    humanURL: https://docs.splunk.com/Documentation/Splunk/latest/RESTREF/RESTprolog\n    tags:\n      - Data\n      - Enterprise\n      - Management\n      - REST\n      - Search\n    properties:\n      - type: Documentation\n        url: https://docs.splunk.com/Documentation/Splunk/latest/RESTREF/RESTprolog\n      - type: GettingStarted\n        url: https://docs.splunk.com/Documentation/Splunk/latest/RESTUM/RESTusing\n      - type: APIReference\n        url: https://dev.splunk.com/enterprise/reference\n      - type: APIReference\n        url: https://help.splunk.com/en/splunk-enterprise/leverage-rest-apis/rest-api-reference/10.2/introduction/endpoints-reference-list\n\
   \        title: Endpoints Reference List\n      - type: Authentication\n        url: https://docs.splunk.com/Documentation/Splunk/latest/RESTUM/RESTusing\n      - type: Documentation\n        url: https://docs.splunk.com/Documentation/Splunk/latest/RESTREF/RESTsearch\n        title: Search REST Reference\n      - type: OpenAPI\n        url: openapi/splunk-enterprise-rest-api.yml\n      - type: JSONSchema\n        url: json-schema/splunk-search-job-schema.json\n      - type: JSONSchema\n        url: json-schema/splunk-event-schema.json\n      - type: JSONLD\n        url: json-ld/splunk-context.jsonld\n  - aid: splunk:splunk-cloud-platform-rest-api\n    name: Splunk Cloud Platform REST API\n    description: The Splunk Cloud Platform REST API provides a subset of the Splunk Enterprise REST API endpoints for managing and interacting with your Splunk Cloud Platform deployment. Access requires port 8089 to be opened by Splunk Support.\n    humanURL: https://help.splunk.com/en/splunk-cloud-platform/rest-api-reference\n\

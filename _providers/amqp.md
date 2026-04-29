@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amqp-messaging.yml
+  format: yaml
+  label: AMQP Messaging API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/asyncapi/amqp-messaging.yml
 apis:
 - description: AsyncAPI specification for AMQP messaging patterns including publish/subscribe, request/reply, and point-to-point messaging via exchanges, queues, and bindings.
   name: AMQP Messaging API
@@ -127,6 +134,7 @@ rules:
 skills: []
 slug: amqp
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: AMQP\ndescription: AMQP (Advanced Message Queuing Protocol) is an open standard for message-oriented middleware governed by OASIS and standardized as ISO/IEC 19464. AMQP 1.0 enables interoperable, \n  asynchronous communication between applications across different platforms and vendors. It defines a wire-level protocol supporting reliable queuing, flexible routing, publish/subscribe, and \n  request/reply messaging patterns. Major implementations include Apache ActiveMQ/Artemis, RabbitMQ, Azure Service Bus, Red Hat AMQ, and Apache Qpid.\nurl: https://www.amqp.org/\ntags:\n- AMQP\n- Asynchronous\n- Message Queue\n- Messaging\n- Middleware\n- Open Standard\n- Publish Subscribe\ncreated: '2025'\nmodified: '2026-04-19'\napis:\n- name: AMQP Messaging API\n  description: AsyncAPI specification for AMQP messaging patterns including publish/subscribe, request/reply, and point-to-point messaging via exchanges, queues, and bindings.\n  properties:\n  - type: AsyncAPI\n    url:\
   \ asyncapi/amqp-messaging.yml\n  tags:\n  - AMQP\n  - AsyncAPI\n  - Messaging\n  - Point to Point\n  - Publish Subscribe\n  - Request Reply\n  humanURL: https://www.amqp.org/\ncommon:\n- type: JSONSchema\n  title: AMQP Message\n  url: json-schema/amqp-message.json\n  description: JSON Schema describing the structure of an AMQP message including properties, headers, and payload body.\n- type: JSONSchema\n  title: AMQP Message Properties\n  url: json-schema/amqp-message-properties.json\n  description: JSON Schema describing the standard AMQP 0-9-1 Basic.Properties including content type, delivery mode, correlation ID, and reply-to.\n- type: JSONSchema\n  title: AMQP Exchange\n  url: json-schema/amqp-exchange.json\n  description: JSON Schema describing an AMQP exchange with type, durability, auto-delete, and argument configuration.\n- type: JSONSchema\n  title: AMQP Queue\n  url: json-schema/amqp-queue.json\n  description: JSON Schema describing an AMQP queue with support for TTL, dead-lettering,\
   \ priority, and overflow policies.\n- type: JSONSchema\n  title: AMQP Binding\n  url: json-schema/amqp-binding.json\n  description: JSON Schema describing an AMQP binding that links exchanges to queues or other exchanges using routing keys.\n- type: JSONLD\n  title: AMQP JSON-LD Context\n  url: json-ld/amqp-context.jsonld\n  description: JSON-LD context mapping AMQP concepts (messages, exchanges, queues, bindings, channels) to linked data vocabularies including Schema.org and Dublin Core.\n- type: Portal\n  url: https://www.amqp.org/\n- type: Documentation\n  url: https://www.amqp.org/resources/specifications\n- type: GitHubOrganization\n  url: https://github.com/amqp\n- type: GitHubOrganization\n  url: https://github.com/apache\n  title: Apache Qpid\n- type: Features\n  data:\n  - name: Reliable Messaging\n    description: Guaranteed delivery with acknowledgment and persistence support.\n  - name: Flexible Routing\n    description: Exchange types (direct, fanout, topic, headers) for flexible\

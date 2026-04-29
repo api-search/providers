@@ -1,5 +1,12 @@
 ---
 api_count: 14
+api_specs:
+- filename: microsoft-entra-graph-identity-openapi.yml
+  format: yaml
+  label: Microsoft Entra ID (Azure AD) API
+  slug: graph-identity
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-graph-identity-openapi.yml
 apis:
 - description: Core identity and access management API for user authentication, authorization, and directory management.
   name: Microsoft Entra ID (Azure AD) API
@@ -160,6 +167,7 @@ rules:
 skills: []
 slug: microsoft-entra
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: microsoft-entra\nname: Microsoft Entra\ndescription: Microsoft Entra (formerly Azure Active Directory) provides identity and access management services including authentication, authorization, and directory services.\nurl: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/apis.yml\nimage: https://www.microsoft.com/en-us/security/content/dam/microsoft/final/security/includes/microsoft-entra-logo.svg\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\naccess: 3rd-Party\ntags:\n  - Access Management\n  - Authentication\n  - Azure AD\n  - Entra\n  - Identity\n  - Identity Governance\n  - Microsoft\n  - Network Security\n  - Security\n  - Zero Trust\napis:\n  - aid: microsoft-entra:graph-identity\n    name: Microsoft Entra ID (Azure AD) API\n    description: >-\n      Core identity and access management API for user authentication, authorization,\n      and directory management.\n    image: https://www.microsoft.com/en-us/security/content/dam/microsoft/final/security/includes/microsoft-entra-logo.svg\n\
   \    humanURL: https://learn.microsoft.com/en-us/graph/azuread-identity-access-management-concept-overview\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n      - Authentication\n      - Authorization\n      - Directory\n      - Groups\n      - Identity\n      - Users\n    properties:\n      - type: OpenAPI\n        url: openapi/microsoft-entra-graph-identity-openapi.yml\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/entra/identity/\n      - type: Authentication\n        url: https://learn.microsoft.com/en-us/graph/auth/\n      - type: SDK\n        url: https://learn.microsoft.com/en-us/graph/sdks/sdks-overview\n      - type: Pricing\n        url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing\n      - type: GettingStarted\n        url: https://learn.microsoft.com/en-us/graph/tutorial-applications-basics\n      - type: APIReference\n        url: https://learn.microsoft.com/en-us/graph/api/resources/identity-network-access-overview\n\
   \  - aid: microsoft-entra:id-protection\n    name: Microsoft Entra ID Protection API\n    description: >-\n      API for identity risk detection, investigation, and remediation.\n    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/identityprotection-overview\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n      - Identity Protection\n      - Risk Detection\n      - Security\n      - Threat Protection\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/entra/id-protection/\n      - type: APIReference\n        url: https://learn.microsoft.com/en-us/graph/api/resources/identityprotectionroot\n  - aid: microsoft-entra:conditional-access\n    name: Microsoft Entra Conditional Access API\n    description: >-\n      API for managing conditional access policies and controls.\n    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/conditionalaccessroot\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n  \

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-kms-openapi.yml
+  format: yaml
+  label: Amazon KMS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-openapi.yml
 apis:
 - description: The AWS Key Management Service API provides programmatic access to create and manage cryptographic keys, encrypt and decrypt data, generate data keys, and manage key policies and grants for controllin
   name: Amazon KMS API
@@ -113,6 +120,7 @@ rules:
 skills: []
 slug: amazon-kms
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon KMS\nsegments:\n- Security\n- Encryption\ndescription: AWS Key Management Service (KMS) is a managed service that makes it easy to create and control the cryptographic keys used to protect your data, integrated with other AWS services to \n  simplify encryption of data stored and managed in those services.\nurl: https://aws.amazon.com/kms/\ntype: Index\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\ntags:\n- AWS\n- Cryptography\n- Data Protection\n- Encryption\n- Key Management\n- Security\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon KMS API\n  description: The AWS Key Management Service API provides programmatic access to create and manage cryptographic keys, encrypt and decrypt data, generate data keys, and manage key policies and grants\n    for controlling access to encryption operations.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/kms/\n\
   \  baseURL: https://kms.amazonaws.com\n  tags:\n  - Cryptography\n  - Encryption\n  - Key Management\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/kms/latest/developerguide/overview.html\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/kms/2014-11-01/openapi.yaml\n  - type: Pricing\n    url: https://aws.amazon.com/kms/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/kms/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/kms/faqs/\n  - type: Features\n    url: https://aws.amazon.com/kms/features/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/kms/latest/developerguide/overview.html\n  - type: APIReference\n    url: https://docs.aws.amazon.com/kms/latest/APIReference/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-kms-openapi.yml\n  - type: JSONLD\n    url: json-ld/amazon-kms-context.jsonld\n  - type: JSONSchema\n    url: json-schema/amazon-kms-key-schema.json\ncommon:\n- type:\
   \ Blog\n  url: https://aws.amazon.com/blogs/security/category/security-identity-compliance/aws-key-management-service/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Console\n  url: https://console.aws.amazon.com/kms/home\n- type: CLI\n  url: https://docs.aws.amazon.com/cli/latest/reference/kms/\n- type: SDK\n  url: https://aws.amazon.com/tools/\n- type: StatusPage\n  url: https://status.aws.amazon.com/\n- type: Compliance\n  url: https://aws.amazon.com/compliance/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: Portal\n  url: https://aws.amazon.com/kms/\n- type: Documentation\n  url: https://docs.aws.amazon.com/kms/\n- type: Pricing\n  url: https://aws.amazon.com/kms/pricing/\n- type: GettingStarted\n  url: https://aws.amazon.com/kms/getting-started/\n- type: FAQ\n  url: https://aws.amazon.com/kms/faqs/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n\

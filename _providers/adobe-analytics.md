@@ -1,5 +1,30 @@
 ---
 api_count: 6
+api_specs:
+- filename: adobe-analytics-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-api-openapi.yml
+- filename: adobe-analytics-bulk-data-insertion-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics Bulk Data Insertion API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-bulk-data-insertion-api-openapi.yml
+- filename: adobe-analytics-livestream-asyncapi.yml
+  format: yaml
+  label: Adobe Analytics Livestream API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/asyncapi/adobe-analytics-livestream-asyncapi.yml
+- filename: adobe-analytics-data-repair-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics Data Repair API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-data-repair-api-openapi.yml
 apis:
 - description: The Adobe Analytics 2.0 APIs provide programmatic access to data, reports, and administration features within Adobe Analytics. They allow you to perform almost any action available in the Analytics us
   name: Adobe Analytics API
@@ -178,6 +203,7 @@ rules:
 skills: []
 slug: adobe-analytics
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: adobe-analytics\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/apis.yml\nname: Adobe Analytics\ndescription: Adobe Analytics provides real-time analytics and detailed segmentation capabilities across all marketing channels, enabling organizations to discover high-value audiences and power \n  customer intelligence.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ncreated: 2024-01-01 00:00:00+00:00\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\napis:\n- name: Adobe Analytics API\n  description: The Adobe Analytics 2.0 APIs provide programmatic access to data, reports, and administration features within Adobe Analytics. They allow you to perform almost any action available in \n    the Analytics user interface, including reporting, segment management, calculated metrics, and component administration.\n  image: https://www.adobe.com/content/dam/cc/icons/analytics.svg\n  baseUrl: https://analytics.adobe.io/api\n\
   \  tags:\n  - Analytics\n  - Data\n  - Marketing\n  - Metrics\n  - Reporting\n  properties:\n  - type: Documentation\n    url: https://developer.adobe.com/analytics-apis/docs/2.0/\n  - type: APIReference\n    url: https://developer.adobe.com/analytics-apis/docs/2.0/apis/\n  - type: OpenAPI\n    url: https://raw.githubusercontent.com/AdobeDocs/analytics-2.0-apis/main/docs/swagger.json\n  - type: OpenAPI\n    url: openapi/adobe-analytics-api-openapi.yml\n  - type: Authentication\n    url: https://developer.adobe.com/analytics-apis/docs/2.0/guides/authentication/\n  - type: GettingStarted\n    url: https://developer.adobe.com/analytics-apis/docs/2.0/guides/\n  - type: RateLimits\n    url: https://developer.adobe.com/analytics-apis/docs/2.0/guides/rate-limits/\n  - type: GettingStarted\n    url: https://developer.adobe.com/analytics-apis/docs/2.0/guides/migration/\n    title: Migration Guide\n  - type: GitHubRepository\n    url: https://github.com/AdobeDocs/analytics-2.0-apis\n  contact:\n\
   \  - type: Support\n    url: https://experienceleague.adobe.com/docs/analytics.html\n  - type: Support\n    url: https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community\n    title: Community\n  humanURL: https://developer.adobe.com/analytics-apis/docs/2.0/\n- name: Adobe Analytics Bulk Data Insertion API\n  description: The Bulk Data Insertion API (BDIA) lets you upload server-side call data in batches of compressed CSV files instead of using client-side libraries such as AppMeasurement. It is the \n    recommended successor to the single-event Data Insertion API for high-volume server-side data collection.\n  image: https://www.adobe.com/content/dam/cc/icons/analytics.svg\n  baseUrl: https://analytics-collection.adobe.io/aa/collect/v1\n  tags:\n  - Analytics\n  - Batch Processing\n  - Data Collection\n  - Server-Side\n  properties:\n  - type: Documentation\n    url: https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/\n\

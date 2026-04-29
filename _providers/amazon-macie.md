@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-macie-openapi-original.yaml
+  format: yaml
+  label: Amazon Macie API
+  slug: amazon-macie-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-openapi-original.yaml
 apis:
 - description: The Amazon Macie API provides programmatic access to create and manage the resources, data, and activities for discovering, classifying, and protecting sensitive data stored in Amazon S3 buckets. Cove
   name: Amazon Macie API
@@ -103,6 +110,7 @@ rules:
 skills: []
 slug: amazon-macie
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-macie\nname: Amazon Macie\ndescription: >-\n  Amazon Macie is a data security service that discovers sensitive data by using machine\n  learning and pattern matching, provides visibility into data security risks, and\n  enables automated protection against those risks. Macie automates the discovery\n  of sensitive data, such as personally identifiable information (PII) and financial\n  data, to provide you with a better understanding of the data that your organization\n  stores in Amazon S3.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Data Security\n  - Sensitive Data\n  - Privacy\n  - Compliance\n  - Machine Learning\n  - S3\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-macie:amazon-macie-api\n    name: Amazon Macie API\n    description: >-\n\
   \      The Amazon Macie API provides programmatic access to create and manage\n      the resources, data, and activities for discovering, classifying, and\n      protecting sensitive data stored in Amazon S3 buckets. Covers 54 paths\n      and 79 operations for findings management, classification jobs, bucket\n      security, custom identifiers, multi-account administration, and allow lists.\n    humanURL: https://aws.amazon.com/macie/\n    baseURL: https://macie2.amazonaws.com\n    tags:\n      - Data Security\n      - Sensitive Data\n      - Privacy\n      - Compliance\n      - S3\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html\n      - type: OpenAPI\n        url: openapi/amazon-macie-openapi-original.yaml\n      - type: GettingStarted\n        url: https://aws.amazon.com/macie/getting-started/\n      - type: Pricing\n        url: https://aws.amazon.com/macie/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/macie/faq/\n\
   \      - type: JSONSchema\n        url: json-schema/amazon-macie-finding-schema.json\n      - type: JSONStructure\n        url: json-structure/amazon-macie-finding-structure.json\n      - type: JSON-LD\n        url: json-ld/amazon-macie-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/macie/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/macie/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/security/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/macie/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n\

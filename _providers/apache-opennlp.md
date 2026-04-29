@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-opennlp-tools.yaml
+  format: yaml
+  label: Apache OpenNLP
+  slug: apache-opennlp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-tools.yaml
 apis:
 - description: OpenNLP provides a Java API for NLP tasks including tokenization, sentence detection, POS tagging, named entity recognition, chunking, parsing, and language detection, with support for training custom
   name: Apache OpenNLP
@@ -85,6 +92,7 @@ rules:
 skills: []
 slug: apache-opennlp
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-opennlp\nname: Apache OpenNLP\ndescription: >-\n  Apache OpenNLP is a machine learning based toolkit for the processing of natural language text. It supports common NLP tasks such as tokenization, sentence segmentation, part-of-speech tagging, named\n  entity extraction, chunking, parsing, and coreference resolution.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Machine Learning\n- Natural Language Processing\n- NLP\n- Text Processing\n- Apache\n- Open Source\n- Java\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n- aid: apache-opennlp:apache-opennlp\n  name: Apache OpenNLP\n  description: >-\n    OpenNLP provides a Java API for NLP tasks including tokenization, sentence detection, POS tagging, named entity recognition, chunking,\
   \ parsing, and language detection, with support for training custom\n    models.\n  humanURL: https://opennlp.apache.org/docs/\n  tags:\n  - Java\n  - NLP\n  - Text Processing\n  - Apache\n  - Open Source\n  - Machine Learning\n  properties:\n  - type: Documentation\n    url: https://opennlp.apache.org/docs/\n  - type: OpenAPI\n    url: openapi/apache-opennlp-tools.yaml\nmaintainers:\n- FN: Kin Lane\n  email: info@apievangelist.com\ncommon:\n- type: GitHubOrganization\n  url: https://github.com/apache/opennlp\n- type: Documentation\n  url: https://opennlp.apache.org/\n- type: GettingStarted\n  url: https://opennlp.apache.org/docs/\n- type: SpectralRules\n  url: rules/apache-opennlp-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/apache-opennlp-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/nlp-pipeline-workflow.yaml\n- type: JSON-LD\n  url: json-ld/apache-opennlp-context.jsonld\n- type: Features\n  data:\n  - name: Language Detection\n    description: Detects\
   \ document language using ISO-639-3 classification\n  - name: Sentence Detection\n    description: Splits text into individual sentences with character offsets\n  - name: Tokenization\n    description: Segments text into words and punctuation with position tracking\n  - name: Named Entity Recognition\n    description: Detects persons, locations, organizations, and other named entities\n  - name: POS Tagging\n    description: Assigns Penn Treebank POS tags to each token\n  - name: Lemmatization\n    description: Reduces tokens to their dictionary base forms\n  - name: Chunking\n    description: Identifies noun phrases, verb phrases, and other syntactic chunks\n  - name: Parsing\n    description: Builds full syntactic parse trees using constituency parsing\n  - name: Document Categorization\n    description: Classifies documents into predefined categories\n  - name: Custom Model Training\n    description: Train custom models with Maxent, Perceptron, or Naive Bayes algorithms\n- type: UseCases\n\

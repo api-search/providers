@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-ec2-openapi.yml
+  format: yaml
+  label: Amazon EC2 API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-openapi.yml
 apis:
 - description: Core API for managing Amazon EC2 instances, AMIs, key pairs, security groups, Elastic IPs, launch templates, spot instances, capacity reservations, and other compute resources.
   name: Amazon EC2 API
@@ -123,6 +130,7 @@ rules:
 skills: []
 slug: amazon-ec2
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon EC2\ndescription: Amazon Elastic Compute Cloud (EC2) provides resizable compute capacity in the cloud, allowing you to launch virtual server instances, manage networking, and configure storage with \n  complete control over your computing resources.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/ec2/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon EC2 API\n  description: >-\n    Core API for managing Amazon EC2 instances, AMIs, key pairs, security\n    groups, Elastic IPs, launch templates, spot instances, capacity\n    reservations, and other compute resources.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/ec2/\n  baseURL: https://ec2.amazonaws.com\n  tags:\n  - AWS\n  - Cloud Computing\n  - Compute\n  - Instances\n  - Virtual Machines\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.html\n\
   \  - type: OpenAPI\n    url: openapi/amazon-ec2-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/ec2/2016-11-15/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-ec2-instance-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-ec2-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/ec2/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/ec2/getting-started/\n  - type: Authentication\n    url: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/Query-Requests.html\n  - type: SDK\n    url: https://aws.amazon.com/tools/\n  - type: StatusPage\n    url: https://status.aws.amazon.com/\n  - type: BestPractices\n    url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-best-practices.html\n  - type: FAQ\n    url: https://aws.amazon.com/ec2/faqs/\n  - type: TermsOfService\n    url: https://aws.amazon.com/ec2/sla/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/\n\
   \  - type: APIReference\n    url: https://docs.aws.amazon.com/AWSEC2/latest/APIReference/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/cli/latest/reference/ec2/\n  - type: Security\n    url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security.html\n  - type: JSONStructure\n    url: json-structure/amazon-ec2-instance-structure.json\n  - type: Example\n    url: examples/amazon-ec2-instance-example.json\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: DeveloperPortal\n  url: https://aws.amazon.com/ec2/\n- type: Documentation\n  url: https://docs.aws.amazon.com/ec2/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/compute/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/ec2/\n- type:\

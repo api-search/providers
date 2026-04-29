@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-ec2-auto-scaling-openapi.yaml
+  format: yaml
+  label: Amazon EC2 Auto Scaling API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/openapi/amazon-ec2-auto-scaling-openapi.yaml
 apis:
 - description: The Amazon EC2 Auto Scaling API provides programmatic access to create and manage Auto Scaling groups, launch configurations, scaling policies, scheduled actions, lifecycle hooks, and warm pools for a
   name: Amazon EC2 Auto Scaling API
@@ -125,6 +132,7 @@ rules:
 skills: []
 slug: amazon-ec2-auto-scaling
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon EC2 Auto Scaling\ndescription: Amazon EC2 Auto Scaling helps you maintain application availability and lets you automatically add or remove EC2 instances according to conditions you define. You can use fleet management\n  features to maintain the health and availability of your fleet, and use dynamic and predictive scaling to add or remove EC2 instances to meet demand.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/ec2/autoscaling/\ncreated: '2026-03-16'\nmodified: '2026-04-19'\ntags:\n- Amazon Web Services\n- Auto Scaling\n- AWS\n- Compute\n- EC2\n- High Availability\n- Scaling\napis:\n- name: Amazon EC2 Auto Scaling API\n  description: The Amazon EC2 Auto Scaling API provides programmatic access to create and manage Auto Scaling groups, launch configurations, scaling policies, scheduled actions, lifecycle hooks, and \n    warm pools for automatic capacity management.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n\
   \  humanURL: https://aws.amazon.com/ec2/autoscaling/\n  baseURL: https://autoscaling.amazonaws.com\n  tags:\n  - Auto Scaling\n  - Capacity Management\n  - Compute\n  - EC2\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/autoscaling/ec2/APIReference/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-ec2-auto-scaling-openapi.yaml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/autoscaling/2011-01-01/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/ec2-auto-scaling-auto-scaling-group-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-ec2-auto-scaling-context.jsonld\n  - type: GettingStarted\n    url: https://docs.aws.amazon.com/autoscaling/ec2/userguide/get-started-with-ec2-auto-scaling.html\n  - type: Pricing\n    url: https://aws.amazon.com/ec2/autoscaling/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/ec2/autoscaling/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/autoscaling/ec2/APIReference/\n\
   \  - type: Authentication\n    url: https://docs.aws.amazon.com/autoscaling/ec2/APIReference/CommonParameters.html\n  - type: RateLimits\n    url: https://docs.aws.amazon.com/autoscaling/ec2/APIReference/ec2-auto-scaling-api-throttling.html\n  - type: JSONSchema\n    url: json-schema/ec2-auto-scaling-accelerator-count-request-schema.json\n  - type: JSONStructure\n    url: json-structure/ec2-auto-scaling-accelerator-count-request-structure.json\n  - type: Example\n    url: examples/ec2-auto-scaling-accelerator-count-request-example.json\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: DeveloperPortal\n  url: https://aws.amazon.com/developer/\n- type: Documentation\n  url: https://docs.aws.amazon.com/autoscaling/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/support/\n- type: Blog\n  url: https://aws.amazon.com/blogs/compute/category/compute/auto-scaling/\n\

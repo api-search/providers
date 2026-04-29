@@ -1,5 +1,12 @@
 ---
 api_count: 10
+api_specs:
+- filename: google-chrome-management-api-openapi.json
+  format: json
+  label: Chrome Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-management-api-openapi.json
 apis:
 - description: APIs for building Chrome browser extensions.
   name: Chrome Extensions API
@@ -117,6 +124,7 @@ name: Google Chrome
 skills: []
 slug: google-chrome
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-chrome\nname: Google Chrome\ndescription: >-\n  Collection of APIs and resources for the Google Chrome browser and Chrome platform.\nimage: https://www.google.com/chrome/static/images/chrome-logo.svg\nurl: https://www.google.com/chrome/\ntype: Index\nspecificationVersion: '0.19'\ntags:\n  - Browser\n  - Chrome Extensions\n  - Developer Tools\n  - Web Platform\ncreated: '2024'\nmodified: '2026-04-18'\napis:\n  - name: Chrome Extensions API\n    description: >-\n      APIs for building Chrome browser extensions.\n    image: https://www.google.com/chrome/static/images/chrome-logo.svg\n    humanUrl: https://developer.chrome.com/docs/extensions/\n    baseUrl: chrome://extensions/\n    tags:\n      - Add-Ons\n      - Browser\n      - Extensions\n    properties:\n      - type: Documentation\n        url: https://developer.chrome.com/docs/extensions/reference/\n      - type: GettingStarted\n        url: https://developer.chrome.com/docs/extensions/mv3/getstarted/\n    \
   \  - type: CodeExamples\n        url: https://github.com/GoogleChrome/chrome-extensions-samples\n      - type: APIReference\n        url: https://developer.chrome.com/docs/extensions/reference/api\n      - type: APIReference\n        url: https://developer.chrome.com/docs/extensions/reference\n      - type: Documentation\n        url: https://developer.chrome.com/docs/extensions/develop/migrate\n    contact:\n      - type: Support\n        url: https://support.google.com/chrome/\n  - name: Chrome DevTools Protocol\n    description: >-\n      Instrument, inspect, debug and profile Chromium, Chrome and other Blink-based\n      browsers.\n    humanUrl: https://chromedevtools.github.io/devtools-protocol/\n    baseUrl: ws://localhost:9222/devtools/browser\n    tags:\n      - Automation\n      - Debugging\n      - DevTools\n      - Testing\n    properties:\n      - type: Documentation\n        url: https://chromedevtools.github.io/devtools-protocol/\n      - type: APIReference\n        url:\
   \ https://chromedevtools.github.io/devtools-protocol/tot/\n      - type: GitHubRepository\n        url: https://github.com/ChromeDevTools/devtools-protocol\n      - type: Resources\n        url: https://github.com/ChromeDevTools/awesome-chrome-devtools\n    contact:\n      - type: GitHub Issues\n        url: https://github.com/ChromeDevTools/devtools-protocol/issues\n  - name: Chrome Web Store API\n    description: >-\n      API for publishing and managing extensions in the Chrome Web Store.\n    humanUrl: https://developer.chrome.com/docs/webstore/\n    baseUrl: https://www.googleapis.com/chromewebstore/v1.1/\n    tags:\n      - Distribution\n      - Publishing\n      - Web Store\n    properties:\n      - type: Documentation\n        url: https://developer.chrome.com/docs/webstore/using_webstore_api/\n      - type: APIReference\n        url: https://developer.chrome.com/docs/webstore/webstore_api/items/\n      - type: Console\n        url: https://chrome.google.com/webstore/devconsole\n\

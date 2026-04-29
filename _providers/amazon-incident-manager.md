@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-incident-manager-openapi-original.yml
+  format: yaml
+  label: AWS Systems Manager Incident Manager API
+  slug: aws-ssm-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-openapi-original.yml
 apis:
 - description: The AWS Systems Manager Incident Manager API provides programmatic access to create and manage response plans, incidents, timelines, related items, and replication sets for automated incident response
   name: AWS Systems Manager Incident Manager API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-incident-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-incident-manager\nname: Amazon Incident Manager\ndescription: >-\n  AWS Systems Manager Incident Manager is an incident management console\n  designed to help users mitigate and recover from incidents affecting their\n  AWS-hosted applications. It enables faster incident resolution by automating\n  response plans and engaging responders across notification channels.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Automation\n  - AWS\n  - DevOps\n  - Incident Management\n  - Operations\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-incident-manager:aws-ssm-incidents-api\n    name: AWS Systems Manager Incident Manager API\n    description: >-\n      The AWS Systems Manager Incident Manager API provides programmatic access\n      to create and manage\
   \ response plans, incidents, timelines, related items,\n      and replication sets for automated incident response.\n    humanURL: https://aws.amazon.com/systems-manager/features/#Incident_Manager\n    baseURL: https://ssm-incidents.amazonaws.com\n    tags:\n      - DevOps\n      - Incident Management\n      - Operations\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/incident-manager/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-incident-manager-openapi-original.yml\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/incident-manager/latest/userguide/getting-started.html\n      - type: Pricing\n        url: https://aws.amazon.com/systems-manager/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/systems-manager/faq/\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/systems-manager/features/#Incident_Manager\n  - type: Website\n    url: https://aws.amazon.com/systems-manager/\n\
   \  - type: Documentation\n    url: https://docs.aws.amazon.com/incident-manager/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/mt/tag/aws-systems-manager-incident-manager/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n  - type: Console\n    url: https://console.aws.amazon.com/systems-manager/incidents/\n  - type: SignUp\n    url: https://portal.aws.amazon.com/billing/signup\n  - type: Login\n    url: https://signin.aws.amazon.com/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: SpectralRules\n    url: rules/amazon-incident-manager-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/ssm-incidents.yaml\n  - type: NaftikoCapability\n\

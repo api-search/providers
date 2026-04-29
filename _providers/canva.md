@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: canva-connect-api-openapi.yml
+  format: yaml
+  label: Canva Connect API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-connect-api-openapi.yml
 apis:
 - description: Enables users to create and edit Canva designs directly from your application, with support for templates, autofill, and design management.
   name: Canva Connect API
@@ -166,6 +173,7 @@ rules:
 skills: []
 slug: canva
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: canva\nname: Canva\ndescription: >-\n  APIs for the Canva design platform, enabling developers to integrate Canva's design\n  tools and functionality into their applications.\nimage: https://www.canva.com/favicon.ico\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\nurl: https://www.canva.com/developers/apis.json\ntags:\n  - Apps\n  - Automation\n  - Brand Management\n  - Collaboration\n  - Design\n  - Graphics\n  - Marketing\n  - Print\n  - Templates\n  - Visual Content\napis:\n  - name: Canva Connect API\n    description: >-\n      Enables users to create and edit Canva designs directly from your application,\n      with support for templates, autofill, and design management.\n    image: https://www.canva.com/favicon.ico\n    humanURL: https://www.canva.com/developers/\n    baseURL: https://api.canva.com\n    tags:\n      - Assets\n      - Autofill\n      - Brand Templates\n      - Collaboration\n      - Comments\n      - Design\n\
   \      - Design Import\n      - Exports\n      - Folders\n      - Graphics\n      - Resizes\n      - Templates\n      - Users\n      - Webhooks\n    properties:\n      - type: Documentation\n        url: https://www.canva.com/developers/docs/connect-api/\n      - type: OpenAPI\n        url: https://www.canva.com/developers/docs/connect-api/openapi/\n      - type: Authentication\n        url: https://www.canva.com/developers/docs/connect-api/authentication/\n      - type: GettingStarted\n        url: https://www.canva.com/developers/docs/connect-api/get-started/\n      - type: APIReference\n        url: https://www.canva.com/developers/docs/connect-api/api-reference/\n      - type: OpenAPI\n        url: https://www.canva.dev/sources/connect/api/latest/api.yml\n        title: Latest OpenAPI Spec\n      - type: Documentation\n        url: https://www.canva.dev/docs/connect/\n      - type: Quickstart\n        url: https://www.canva.dev/docs/connect/quickstart/\n      - type: Authentication\n\
   \        url: https://www.canva.dev/docs/connect/authentication/\n      - type: ChangeLog\n        url: https://www.canva.dev/docs/connect/changelog/\n      - type: Documentation\n        url: https://www.canva.dev/docs/connect/webhooks/\n        title: Webhooks\n      - type: RateLimits\n        url: https://www.canva.dev/docs/connect/api-requests-responses/\n      - type: Security\n        url: https://www.canva.dev/docs/connect/guidelines/security/\n      - type: Documentation\n        url: https://www.canva.dev/docs/connect/appendix/scopes/\n        title: Scopes\n      - type: Documentation\n        url: https://www.canva.dev/docs/connect/canva-concepts/\n        title: Concepts\n      - type: Documentation\n        url: https://www.canva.dev/docs/connect/autofill-guide/\n        title: Autofill Guide\n      - type: Versioning\n        url: https://www.canva.dev/docs/connect/versions/\n      - type: Documentation\n        url: https://www.canva.dev/docs/connect/creating-integrations/\n\

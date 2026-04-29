@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: microsoft-teams-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Teams API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-graph-api.yaml
 apis:
 - description: Core REST API for accessing Teams data including teams, channels, messages, tabs, apps, members, online meetings, and calls through Microsoft Graph.
   name: Microsoft Graph Teams API
@@ -105,6 +112,7 @@ rules:
 skills: []
 slug: microsoft-teams
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: microsoft-teams\nname: Microsoft Teams\ndescription: >-\n  Microsoft Teams is a collaboration platform that combines workplace chat,\n  meetings, file storage, and application integration. It provides APIs for\n  building custom integrations, managing teams and channels, sending messages,\n  scheduling meetings, and initiating calls through Microsoft Graph.\nimage: https://learn.microsoft.com/en-us/graph/images/teams-logo.png\nurl: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/apis.yml\nhumanURL: https://www.microsoft.com/en-us/microsoft-teams\ncreated: '2024'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\ntags:\n  - Chat\n  - Collaboration\n  - Communication\n  - Microsoft 365\n  - Productivity\n  - Video Conferencing\napis:\n  - name: Microsoft Graph Teams API\n    description: >-\n      Core REST API for accessing Teams data including teams, channels, messages,\n      tabs, apps, members, online meetings, and calls\
   \ through Microsoft Graph.\n    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/teams-api-overview\n    baseURL: https://graph.microsoft.com/v1.0\n    tags:\n      - Channels\n      - Messages\n      - Microsoft Graph\n      - REST API\n      - Teams\n    properties:\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/graph/api/resources/teams-api-overview\n      - type: OpenAPI\n        url: openapi/microsoft-teams-graph-api.yaml\n      - type: Authentication\n        url: https://learn.microsoft.com/en-us/graph/auth/\n      - type: SDK\n        url: https://learn.microsoft.com/en-us/graph/sdks/sdks-overview\n      - type: RateLimits\n        url: https://learn.microsoft.com/en-us/graph/throttling\n      - type: JSONSchema\n        url: json-schema/teams-graph-api-team-schema.json\n      - type: JSONSchema\n        url: json-schema/teams-graph-api-channel-schema.json\n      - type: JSONSchema\n        url: json-schema/teams-graph-api-chat-message-schema.json\n\
   \      - type: JSONSchema\n        url: json-schema/teams-graph-api-conversation-member-schema.json\n      - type: JSONSchema\n        url: json-schema/teams-graph-api-online-meeting-schema.json\n      - type: JSONSchema\n        url: json-schema/teams-graph-api-call-schema.json\n      - type: JSONStructure\n        url: json-structure/teams-graph-api-team-structure.json\n      - type: JSON-LD\n        url: json-ld/microsoft-teams-graph-api-context.jsonld\n      - type: Example\n        url: examples/teams-graph-api-team-example.json\n      - type: Example\n        url: examples/teams-graph-api-channel-example.json\n      - type: Example\n        url: examples/teams-graph-api-chat-message-example.json\n  - name: Microsoft Teams Bot Framework API\n    description: >-\n      API for building conversational bots that interact with users in\n      Microsoft Teams through the Bot Framework.\n    humanURL: https://learn.microsoft.com/en-us/microsoftteams/platform/bots/what-are-bots\n    baseURL:\

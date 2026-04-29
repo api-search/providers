@@ -1,5 +1,42 @@
 ---
 api_count: 6
+api_specs:
+- filename: oracle-goldengate-rest-api-openapi.yml
+  format: yaml
+  label: Oracle GoldenGate REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-rest-api-openapi.yml
+- filename: oracle-goldengate-big-data-rest-api-openapi.yml
+  format: yaml
+  label: Oracle GoldenGate for Big Data REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-big-data-rest-api-openapi.yml
+- filename: oracle-goldengate-veridata-rest-api-openapi.yml
+  format: yaml
+  label: Oracle GoldenGate Veridata REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-veridata-rest-api-openapi.yml
+- filename: oracle-goldengate-cloud-service-api-openapi.yml
+  format: yaml
+  label: Oracle GoldenGate Cloud Service API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-cloud-service-api-openapi.yml
+- filename: oracle-goldengate-stream-analytics-rest-api-openapi.yml
+  format: yaml
+  label: Oracle GoldenGate Stream Analytics REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-stream-analytics-rest-api-openapi.yml
+- filename: oracle-goldengate-data-streams-rest-api-openapi.yml
+  format: yaml
+  label: Oracle GoldenGate Data Streams REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-data-streams-rest-api-openapi.yml
 apis:
 - description: RESTful API for managing Oracle GoldenGate Microservices Architecture, including deployment configuration, process management, and monitoring.
   name: Oracle GoldenGate REST API
@@ -156,6 +193,7 @@ rules:
 skills: []
 slug: oracle-goldengate
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: oracle-goldengate\nname: Oracle GoldenGate\ndescription: >-\n  Oracle GoldenGate enables real-time data integration and replication in\n  heterogeneous IT environments. These APIs provide programmatic access to\n  manage and monitor GoldenGate deployments, processes, and configurations.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/apis.yml\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\napis:\n  - name: Oracle GoldenGate REST API\n    description: >-\n      RESTful API for managing Oracle GoldenGate Microservices Architecture, including\n      deployment configuration, process management, and monitoring.\n    image: https://www.oracle.com/a/ocom/img/cb71-oracle-goldengate.jpg\n    humanURL: https://docs.oracle.com/en/middleware/goldengate/core/\n    baseURL:\
   \ https://<goldengate-host>:<port>/services/v2\n    tags:\n      - CDC\n      - Data Replication\n      - ETL\n      - Microservices\n      - Real-Time Data Integration\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/en/middleware/goldengate/core/21.3/oggra/index.html\n      - type: OpenAPI\n        url: openapi/oracle-goldengate-rest-api-openapi.yml\n      - type: Authentication\n        url: https://docs.oracle.com/en/middleware/goldengate/core/21.3/oggra/authentication.html\n      - type: Documentation\n        url: https://docs.oracle.com/en/database/goldengate/core/26/oggra/index.html\n      - type: Authentication\n        url: https://docs.oracle.com/en/database/goldengate/core/26/oggra/authenticate.html\n      - type: GettingStarted\n        url: https://docs.oracle.com/en/database/goldengate/core/26/\n      - type: Tutorials\n        url: https://docs.oracle.com/en/database/goldengate/core/26/tutorials.html\n      - type: ChangeLog\n        url:\
   \ https://docs.oracle.com/en/database/goldengate/core/26/release-notes/\n    contact:\n      - type: Support\n        url: https://support.oracle.com\n  - name: Oracle GoldenGate for Big Data REST API\n    description: >-\n      API for managing Oracle GoldenGate for Big Data deployments, allowing integration\n      with Hadoop, Kafka, and other big data targets.\n    image: https://www.oracle.com/a/ocom/img/cb71-oracle-goldengate.jpg\n    humanURL: https://docs.oracle.com/en/middleware/goldengate/big-data/\n    baseURL: https://<goldengate-host>:<port>/services/v2\n    tags:\n      - Big Data\n      - Hadoop\n      - Kafka\n      - NoSQL\n      - Streaming\n    properties:\n      - type: Documentation\n        url: https://docs.oracle.com/en/middleware/goldengate/big-data/21.3/gadbd/index.html\n      - type: OpenAPI\n        url: openapi/oracle-goldengate-big-data-rest-api-openapi.yml\n      - type: GettingStarted\n        url: https://docs.oracle.com/en/middleware/goldengate/big-data/21.3/gadbd/getting-started.html\n\

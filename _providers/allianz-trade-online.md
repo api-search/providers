@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: allianz-trade-payment-overdues.yaml
+  format: yaml
+  label: Allianz Trade Payment Overdues API
+  slug: payment-overdues-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-payment-overdues.yaml
+- filename: allianz-trade-company-grade.yaml
+  format: yaml
+  label: Allianz Trade Company Grade API
+  slug: company-grade-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-company-grade.yaml
+- filename: allianz-trade-claims.yaml
+  format: yaml
+  label: Allianz Trade Claims API
+  slug: claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-claims.yaml
+- filename: allianz-trade-policy.yaml
+  format: yaml
+  label: Allianz Trade Policy API
+  slug: policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-policy.yaml
 apis:
 - description: 'Report payment overdues, request extension periods, and manage debt rescheduling for trade credit insurance policies. Supports three overdue category types: OVD (report default), EXP (extension period'
   name: Allianz Trade Payment Overdues API
@@ -106,6 +131,7 @@ rules:
 skills: []
 slug: allianz-trade-online
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: allianz-trade-online\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/apis.yml\nname: Allianz Trade\ntags:\n  - Credit Insurance\n  - Insurance\n  - Risk Management\n  - Trade Credit\n  - E-Commerce\n  - Surety\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Allianz Trade APIs enable businesses to automate trade credit insurance\n  management including cover requests, credit limit monitoring, payment overdue\n  reporting, claims management, and company credit grading. Built on secure\n  REST architecture with OAuth2, the APIs support three business lines: Trade\n  Credit Insurance, E-Commerce B2B, and Surety/Guarantee.\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: allianz-trade-online:payment-overdues-api\n    name: Allianz Trade Payment Overdues API\n    tags:\n      - Trade Credit\n      - Payment\n      -\
   \ Overdues\n      - Risk Management\n    properties:\n      - url: https://developers.allianz-trade.com/welcome-trade-credit-insurance-api-world/payment-overdues\n        type: Documentation\n      - url: https://developers.allianz-trade.com/\n        type: Portal\n      - url: openapi/allianz-trade-payment-overdues.yaml\n        type: OpenAPI\n      - url: json-schema/trade-payment-overdues-overdue-schema.json\n        type: JSONSchema\n      - url: json-structure/trade-payment-overdues-overdue-structure.json\n        type: JSONStructure\n      - url: json-ld/allianz-trade-payment-overdues-context.jsonld\n        type: JSONLD\n      - url: examples/trade-payment-overdues-overdue-example.json\n        type: Example\n      - url: examples/trade-payment-overdues-job_response-example.json\n        type: Example\n      - url: capabilities/shared/payment-overdues.yaml\n        type: NaftikoCapability\n    description: >-\n      Report payment overdues, request extension periods, and manage\
   \ debt\n      rescheduling for trade credit insurance policies. Supports three overdue\n      category types: OVD (report default), EXP (extension period), and RES\n      (rescheduling/repayment plan).\n    humanURL: https://developers.allianz-trade.com/welcome-trade-credit-insurance-api-world/payment-overdues\n    baseURL: https://api.allianz-trade.com/v1\n\n  - aid: allianz-trade-online:company-grade-api\n    name: Allianz Trade Company Grade API\n    tags:\n      - Credit Rating\n      - Risk Assessment\n      - Trade Credit\n    properties:\n      - url: https://developers.allianz-trade.com/api-catalogue\n        type: Documentation\n      - url: openapi/allianz-trade-company-grade.yaml\n        type: OpenAPI\n      - url: json-schema/trade-company-grade-company_grade-schema.json\n        type: JSONSchema\n      - url: json-structure/trade-company-grade-company_grade-structure.json\n        type: JSONStructure\n      - url: json-ld/allianz-trade-company-grade-context.jsonld\n     \

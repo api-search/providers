@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-workspaces-web-openapi-original.yaml
+  format: yaml
+  label: Amazon WorkSpaces Web API
+  slug: amazon-workspaces-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/openapi/amazon-workspaces-web-openapi-original.yaml
 apis:
 - description: 'The Amazon WorkSpaces Web API provides programmatic access to create and manage web portals, network settings, user access logging, user settings, browser settings, and trust store configurations for '
   name: Amazon WorkSpaces Web API
@@ -102,6 +109,7 @@ rules:
 skills: []
 slug: amazon-workspaces-web
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-workspaces-web\nname: Amazon WorkSpaces Web\ndescription: >-\n  Amazon WorkSpaces Web is a purpose-built, low-cost, fully managed service\n  that enables secure browser access to internal websites and SaaS applications.\n  It provides persistent browser sessions with built-in security controls,\n  preventing users from downloading content to local devices while maintaining\n  a seamless browsing experience. The service offers 58 API operations for\n  managing portals, user settings, browser policies, network settings, trust\n  stores, and IP access controls.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - End User Computing\n  - Secure Browser\n  - Virtual Desktop\n  - Zero Trust\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-workspaces-web:amazon-workspaces-web-api\n\
   \    name: Amazon WorkSpaces Web API\n    description: >-\n      The Amazon WorkSpaces Web API provides programmatic access to create and\n      manage web portals, network settings, user access logging, user settings,\n      browser settings, and trust store configurations for secure browser\n      deployments. 58 operations covering portals, user settings, browser\n      policies, network settings, trust stores, and IP access controls.\n    humanURL: https://aws.amazon.com/workspaces/web/\n    baseURL: https://workspaces-web.amazonaws.com\n    tags:\n      - AWS\n      - End User Computing\n      - Secure Browser\n      - Zero Trust\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/workspaces-web/latest/adminguide/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/workspaces-web/latest/APIReference/\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/workspaces-web/latest/adminguide/getting-started.html\n \
   \     - type: Pricing\n        url: https://aws.amazon.com/workspaces/web/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/workspaces/web/faqs/\n      - type: OpenAPI\n        url: openapi/amazon-workspaces-web-openapi-original.yaml\n      - type: JSONSchema\n        url: json-schema/workspaces-web-portal-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-workspaces-web-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/\n  - type: Website\n    url: https://aws.amazon.com/workspaces/web/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/workspaces-web/latest/adminguide/\n  - type: Console\n    url: https://console.aws.amazon.com/workspaces-web/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: SignUp\n    url: https://signin.aws.amazon.com/signup?request_type=register\n\

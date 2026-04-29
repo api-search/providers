@@ -1,5 +1,30 @@
 ---
 api_count: 15
+api_specs:
+- filename: apideck-accounting-openapi.yml
+  format: yaml
+  label: Apideck Accounting API
+  slug: accounting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-accounting-openapi.yml
+- filename: apideck-crm-openapi.yml
+  format: yaml
+  label: Apideck CRM API
+  slug: crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-crm-openapi.yml
+- filename: apideck-hris-openapi.yml
+  format: yaml
+  label: Apideck HRIS API
+  slug: hris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-hris-openapi.yml
+- filename: apideck-file-storage-openapi.yml
+  format: yaml
+  label: Apideck File Storage API
+  slug: file-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-file-storage-openapi.yml
 apis:
 - description: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.
   name: Apideck
@@ -354,6 +379,7 @@ name: Apideck
 skills: []
 slug: apideck
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apideck\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/apis.yml\napis:\n  - aid: apideck:apideck\n    name: Apideck\n    tags:\n      - Integrations\n      - Unified API\n    humanURL: ' https://www.apideck.com/'\n    baseURL: https://unify.apideck.com\n    properties:\n      - url: ' https://www.apideck.com/'\n        type: Documentation\n      - url: https://developers.apideck.com/apis\n        type: Documentation\n      - url: https://developers.apideck.com/get-started\n        type: GettingStarted\n    description: >-\n      Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.\n  - aid: apideck:accounting-api\n    name: Apideck Accounting API\n    tags:\n      - Accounting\n      - Invoices\n      - Payments\n      - Unified API\n    humanURL: https://developers.apideck.com/apis/accounting/reference\n   \
   \ baseURL: https://unify.apideck.com\n    properties:\n      - url: https://developers.apideck.com/apis/accounting/reference\n        type: Documentation\n      - url: openapi/apideck-accounting-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Apideck Accounting API is a unified API for managing financial\n      operations including invoices, customers, bills, payments, and financial\n      reporting across multiple accounting platforms such as QuickBooks, Xero,\n      FreshBooks, and Sage.\n  - aid: apideck:crm-api\n    name: Apideck CRM API\n    tags:\n      - Contacts\n      - CRM\n      - Leads\n      - Unified API\n    humanURL: https://developers.apideck.com/apis/crm/reference\n    baseURL: https://unify.apideck.com\n    properties:\n      - url: https://developers.apideck.com/apis/crm/reference\n        type: Documentation\n      - url: openapi/apideck-crm-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Apideck CRM API is a unified API for managing\
   \ customer relationships\n      through opportunities, companies, leads, contacts, pipelines, notes, and\n      activities across multiple CRM platforms such as Salesforce, HubSpot,\n      Pipedrive, and Zoho CRM.\n  - aid: apideck:hris-api\n    name: Apideck HRIS API\n    tags:\n      - Employees\n      - HRIS\n      - Human Resources\n      - Unified API\n    humanURL: https://developers.apideck.com/apis/hris/reference\n    baseURL: https://unify.apideck.com\n    properties:\n      - url: https://developers.apideck.com/apis/hris/reference\n        type: Documentation\n      - url: openapi/apideck-hris-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Apideck HRIS API is a unified API for managing human resources data\n      for employees, companies, departments, and time-off requests across\n      multiple HR platforms such as BambooHR, Personio, Workday, and SAP\n      SuccessFactors.\n  - aid: apideck:ats-api\n    name: Apideck ATS API\n    tags:\n      - Applicant\

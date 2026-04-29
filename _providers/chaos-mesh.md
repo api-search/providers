@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: chaos-mesh-dashboard-api-openapi.yml
+  format: yaml
+  label: Chaos Mesh API
+  slug: chaos-mesh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/openapi/chaos-mesh-dashboard-api-openapi.yml
 apis:
 - description: Chaos Mesh provides Kubernetes Custom Resources and a REST API for orchestrating chaos experiments including network faults, pod failures, IO chaos, stress testing, kernel chaos, DNS chaos, time chaos
   name: Chaos Mesh API
@@ -111,6 +118,7 @@ name: Chaos Mesh
 skills: []
 slug: chaos-mesh
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: chaos-mesh\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/chaos-mesh/refs/heads/main/apis.yml\nname: Chaos Mesh\nx-type: opensource\ntags:\n  - Chaos Engineering\n  - Cloud Native\n  - CNCF\n  - Fault Injection\n  - Kubernetes\n  - Observability\n  - Open Source\n  - Reliability\n  - Resilience\n  - Testing\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: Open Source\ncreated: '2025-01-01'\nmodified: '2026-04-23'\nposition: Consumer\ndescription: >-\n  Chaos Mesh is a CNCF graduated cloud-native chaos engineering platform\n  that orchestrates chaos experiments on Kubernetes to test system\n  resilience and reliability. It exposes Kubernetes Custom Resource\n  Definitions (CRDs) for a wide range of chaos kinds (network, pod, IO,\n  stress, DNS, time, kernel, JVM, HTTP), along with a Chaos Dashboard web\n  UI backed by a REST API for creating, managing, and monitoring chaos\n  experiments and workflows.\
   \ Chaos Mesh integrates with Kubernetes, Argo\n  Workflows, Prometheus, Grafana, and CI/CD pipelines to run experiments\n  safely in staging and production environments.\napis:\n  - aid: chaos-mesh:chaos-mesh-api\n    name: Chaos Mesh API\n    tags:\n      - Chaos Engineering\n      - CRDs\n      - Dashboard\n      - Experiments\n      - Fault Injection\n      - Kubernetes\n      - Workflows\n    humanURL: https://chaos-mesh.org/docs/\n    properties:\n      - url: https://chaos-mesh.org/docs/\n        type: Documentation\n      - type: Getting Started\n        url: https://chaos-mesh.org/docs/quick-start/\n      - type: GitHubRepository\n        url: https://github.com/chaos-mesh/chaos-mesh\n      - type: OpenAPI\n        url: openapi/chaos-mesh-dashboard-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/chaos-mesh-experiment-schema.json\n      - type: JSONLD\n        url: json-ld/chaos-mesh-context.jsonld\n    description: >-\n      Chaos Mesh provides Kubernetes Custom\
   \ Resources and a REST API for\n      orchestrating chaos experiments including network faults, pod\n      failures, IO chaos, stress testing, kernel chaos, DNS chaos, time\n      chaos, JVM chaos, and HTTP request injection. The Chaos Dashboard\n      exposes a REST API for creating, running, scheduling, and observing\n      experiments and multi-step workflows, with RBAC and event auditing.\ncommon:\n  - type: Website\n    url: https://chaos-mesh.org/\n  - type: Documentation\n    url: https://chaos-mesh.org/docs/\n  - type: GettingStarted\n    url: https://chaos-mesh.org/docs/quick-start/\n  - type: Blog\n    url: https://chaos-mesh.org/blog/\n  - type: ChangeLog\n    url: https://github.com/chaos-mesh/chaos-mesh/blob/master/CHANGELOG.md\n  - type: GitHub\n    url: https://github.com/chaos-mesh\n  - type: GitHubRepository\n    url: https://github.com/chaos-mesh/chaos-mesh\n  - type: Community\n    url: https://chaos-mesh.org/community/\n  - type: License\n    url: https://github.com/chaos-mesh/chaos-mesh/blob/master/LICENSE\n\

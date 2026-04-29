@@ -1,5 +1,30 @@
 ---
 api_count: 17
+api_specs:
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Outlook Mail API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Outlook Calendar API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Office 365 Groups API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
 apis:
 - description: Unified API endpoint to access data, intelligence, and insights from Microsoft 365, Windows, and Enterprise Mobility + Security.
   name: Microsoft Graph API
@@ -176,6 +201,7 @@ rules:
 skills: []
 slug: microsoft-office-365
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: microsoft-office-365\nname: Microsoft Office 365\ndescription: >-\n  A collection of APIs provided by Microsoft Office 365 for productivity, collaboration,\n  and enterprise services.\nimage: https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2020/04/Microsoft-365.png\nurl: https://www.microsoft.com/en-us/microsoft-365\ncreated: '2024-01-15'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntags:\n  - Cloud\n  - Collaboration\n  - Enterprise\n  - Microsoft\n  - Productivity\napis:\n  - name: Microsoft Graph API\n    description: >-\n      Unified API endpoint to access data, intelligence, and insights from Microsoft\n      365, Windows, and Enterprise Mobility + Security.\n    image: https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png\n    humanURL: https://developer.microsoft.com/en-us/graph\n    baseURL: https://graph.microsoft.com\n    tags:\n      - Calendar\n      - Graph\n      - Groups\n      - Mail\n      - Unified\n\
   \      - Users\n    properties:\n      - type: Documentation\n        url: https://docs.microsoft.com/en-us/graph/overview\n      - type: OpenAPI\n        url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/openapi.yaml\n      - type: OpenAPI\n        url: openapi/microsoft-graph-api-openapi.yml\n      - type: JSONLD\n        url: json-ld/microsoft-office-365-context.jsonld\n      - type: Pricing\n        url: https://azure.microsoft.com/en-us/pricing/details/active-directory/\n      - type: Authentication\n        url: https://docs.microsoft.com/en-us/graph/auth/\n      - type: Documentation\n        url: https://www.postman.com/microsoftgraph/workspace/microsoft-graph/overview\n        title: Postman Collection\n      - type: TermsOfService\n        url: https://docs.microsoft.com/en-us/legal/microsoft-apis/terms-of-use\n      - type: RateLimits\n        url: https://docs.microsoft.com/en-us/graph/throttling\n      - type: GettingStarted\n\
   \        url: https://learn.microsoft.com/en-us/graph/use-the-api\n      - type: SDK\n        url: https://learn.microsoft.com/en-us/graph/sdks/sdks-overview\n      - type: Documentation\n        url: https://learn.microsoft.com/en-us/graph/change-notifications-overview\n        title: Change Notifications\n      - type: Versioning\n        url: https://learn.microsoft.com/en-us/graph/versioning-and-support\n      - type: Console\n        url: https://developer.microsoft.com/en-us/graph/graph-explorer\n        title: Graph Explorer\n  - name: Outlook Mail API\n    description: >-\n      Access to Outlook email, including reading, sending, and managing messages.\n    humanURL: https://docs.microsoft.com/en-us/graph/api/resources/mail-api-overview\n    baseURL: https://graph.microsoft.com/v1.0/me/messages\n    tags:\n      - Email\n      - Mail\n      - Messages\n      - Outlook\n    properties:\n      - type: Documentation\n        url: https://docs.microsoft.com/en-us/graph/api/resources/message\n\

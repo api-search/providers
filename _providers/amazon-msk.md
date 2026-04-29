@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-msk-openapi-original.yml
+  format: yaml
+  label: Amazon MSK API
+  slug: msk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-openapi-original.yml
 apis:
 - description: Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service that enables you to build and run applications that use Apache Kafka to process streaming data, with the infrastructur
   name: Amazon MSK API
@@ -100,6 +107,7 @@ rules:
 skills: []
 slug: amazon-msk
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-msk\nname: Amazon MSK\ndescription: Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service that enables you to build and run applications that use Apache Kafka to process streaming data, with the \n  infrastructure management handled by AWS.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Broadcasting\n- Media Processing\n- Media\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-msk:msk-api\n  name: Amazon MSK API\n  description: Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a fully managed service that enables you to build and run applications that use Apache Kafka to process streaming data, with \n    the infrastructure management handled by AWS.\n  humanURL: https://aws.amazon.com/msk/\n  baseURL: http://kafka.{region}.amazonaws.com\n\
   \  tags:\n  - Broadcasting\n  - Media Processing\n  - Media\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/msk/\n  - type: OpenAPI\n    url: openapi/amazon-msk-openapi-original.yml\n  - type: GettingStarted\n    url: https://aws.amazon.com/msk/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/msk/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/msk/faqs/\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/msk/\n- type: Documentation\n  url: https://docs.aws.amazon.com/msk/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/media/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/msk/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: StatusPage\n\
   \  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: SpectralRules\n  url: rules/amazon-msk-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-msk-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/amazon-msk-media-workflow.yaml\n- type: Features\n  data:\n  - name: Fully Managed Kafka\n    description: Automatically provisions, configures, and maintains Apache Kafka clusters without operational overhead.\n  - name: High Durability\n    description: Multi-AZ deployments with automatic replication and failover for data durability.\n  - name: MSK Serverless\n    description: Serverless cluster mode that automatically scales capacity to match streaming demand.\n  - name: MSK Connect\n    description: Fully managed Kafka Connect to stream data to and from databases and other services.\n  - name: Tiered Storage\n    description: Offload older data to low-cost Amazon S3 storage while keeping recent\

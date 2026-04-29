@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-entity-resolution-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-openapi.yml
 apis:
 - description: API for creating and managing matching workflows, schema mappings, and ID mapping tables for matching and linking related records across data sources.
   name: Amazon Entity Resolution API
@@ -121,6 +128,7 @@ rules:
 skills: []
 slug: amazon-entity-resolution
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Entity Resolution\ndescription: Amazon Entity Resolution is a service that helps you match and link related records across multiple applications, channels, and data stores using machine learning and configurable \n  matching techniques to identify and consolidate records that refer to the same entity.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/entity-resolution/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\ntags:\n- Amazon Web Services\n- AWS\n- Data Integration\n- Data Matching\n- Entity Resolution\n- Machine Learning\napis:\n- name: Amazon Entity Resolution API\n  description: API for creating and managing matching workflows, schema mappings, and ID mapping tables for matching and linking related records across data sources.\n  humanURL: https://aws.amazon.com/entity-resolution/\n  baseURL: https://entityresolution.amazonaws.com\n  tags:\n  - Data Integration\n\
   \  - Data Matching\n  - Entity Resolution\n  - Machine Learning\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/entityresolution/latest/userguide/\n  - type: OpenAPI\n    url: openapi/amazon-entity-resolution-openapi.yml\n  - type: APIReference\n    url: https://docs.aws.amazon.com/entityresolution/latest/apireference/\n  - type: GettingStarted\n    url: https://aws.amazon.com/entity-resolution/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/entity-resolution/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/entity-resolution/faqs/\n  - type: JSONSchema\n    url: json-schema/amazon-entity-resolution-access-denied-exception-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-entity-resolution-attribute-matching-model-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-entity-resolution-attribute-name-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-entity-resolution-context.jsonld\ncommon:\n- type: Portal\n\
   \  url: https://aws.amazon.com/\n- type: DeveloperPortal\n  url: https://aws.amazon.com/entity-resolution/\n- type: Documentation\n  url: https://docs.aws.amazon.com/entity-resolution/\n- type: Blog\n  url: https://aws.amazon.com/blogs/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/entityresolution/\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Support\n  url: https://aws.amazon.com/support/\n- type: FAQ\n  url: https://aws.amazon.com/entity-resolution/faqs/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Compliance\n  url: https://aws.amazon.com/compliance/\n- type: Security\n  url: https://aws.amazon.com/security/\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n\

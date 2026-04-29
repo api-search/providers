@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-dynamodb-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-openapi.yml
 apis:
 - description: Core API for managing Amazon DynamoDB tables, items, indexes, and performing data plane operations including single-item actions, queries, scans, batch operations, and transactions.
   name: Amazon DynamoDB API
@@ -123,6 +130,7 @@ rules:
 skills: []
 slug: amazon-dynamodb
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon DynamoDB\ndescription: Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability, allowing you to store and retrieve any amount of data \n  and serve any level of request traffic using key-value and document data models.\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\nurl: https://aws.amazon.com/dynamodb/\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon DynamoDB API\n  description: >-\n    Core API for managing Amazon DynamoDB tables, items, indexes, and\n    performing data plane operations including single-item actions,\n    queries, scans, batch operations, and transactions.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/dynamodb/\n  baseURL: https://dynamodb.amazonaws.com\n  tags:\n  - AWS\n  - Database\n  - Document Store\n  - Key-Value\n  - NoSQL\n  properties:\n\
   \  - type: Documentation\n    url: https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/\n  - type: OpenAPI\n    url: openapi/amazon-dynamodb-openapi.yml\n  - type: OpenAPI\n    url: https://api.apis.guru/v2/specs/amazonaws.com/dynamodb/2012-08-10/openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-dynamodb-table-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-dynamodb-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/dynamodb/pricing/\n  - type: GettingStarted\n    url: https://aws.amazon.com/dynamodb/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/dynamodb/faqs/\n  - type: TermsOfService\n    url: https://aws.amazon.com/dynamodb/sla/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/cli/latest/reference/dynamodb/\n\
   \  - type: Security\n    url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/security.html\n  - type: JSONStructure\n    url: json-structure/amazon-dynamodb-table-structure.json\n  - type: Example\n    url: examples/amazon-dynamodb-table-example.json\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: DeveloperPortal\n  url: https://aws.amazon.com/dynamodb/\n- type: Documentation\n  url: https://docs.aws.amazon.com/dynamodb/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/database/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/dynamodbv2/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: Login\n  url: https://aws.amazon.com/console/\n- type: StatusPage\n\

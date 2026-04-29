@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: albertsons-retail-media-api-openapi.yml
+  format: yaml
+  label: Albertsons Media Collective API
+  slug: retail-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-retail-media-api-openapi.yml
 apis:
 - description: The Albertsons Media Collective API enables advertisers to integrate with Albertsons retail media network for campaign management and performance analytics. The API provides near-real-time access to c
   name: Albertsons Media Collective API
@@ -82,6 +89,7 @@ rules:
 skills: []
 slug: albertsons
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: albertsons\nurl: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/apis.yml\ncreated: '2026-03-23'\nmodified: '2026-04-19'\napis:\n  - aid: albertsons:retail-media-api\n    name: Albertsons Media Collective API\n    tags:\n      - Advertising\n      - Grocery\n      - Retail\n      - Retail Media\n      - Campaigns\n      - Analytics\n    baseURL: https://api.albertsons.com\n    humanURL: https://portal-prod.apim.azwestus.stratus.albertsons.com/\n    description: >-\n      The Albertsons Media Collective API enables advertisers to integrate with\n      Albertsons retail media network for campaign management and performance\n      analytics. The API provides near-real-time access to campaign performance\n      data, allowing advertisers to bring data into their own measurement\n      models for analysis. The developer portal, built on Microsoft Azure API\n      Management, provides API documentation, code samples, and an interactive\n      console\
   \ for testing.\n    properties:\n      - type: Documentation\n        url: https://portal-prod.apim.azwestus.stratus.albertsons.com/\n      - type: OpenAPI\n        url: openapi/albertsons-retail-media-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/retail-media-api-campaign-schema.json\n        title: Campaign Schema\n      - type: JSONSchema\n        url: json-schema/retail-media-api-performance-metric-schema.json\n        title: Performance Metric Schema\n      - type: JSONSchema\n        url: json-schema/retail-media-api-audience-schema.json\n        title: Audience Schema\n      - type: JSONSchema\n        url: json-schema/retail-media-api-report-request-schema.json\n        title: Report Request Schema\n      - type: JSONSchema\n        url: json-schema/retail-media-api-report-response-schema.json\n        title: Report Response Schema\ncommon:\n  - type: Website\n    url: https://www.albertsons.com\n  - type: Portal\n    url: https://portal-prod.apim.azwestus.stratus.albertsons.com/\n\
   \  - type: Authentication\n    url: https://portal-prod.apim.azwestus.stratus.albertsons.com/\n  - type: TermsOfService\n    url: https://www.albertsons.com/terms-and-conditions/\n  - type: PrivacyPolicy\n    url: https://www.albertsons.com/privacy-policy/\n  - type: SpectralRules\n    url: rules/albertsons-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/retail-media-advertising.yaml\n    title: Retail Media Advertising Workflow\n  - type: NaftikoCapability\n    url: capabilities/shared/retail-media-api.yaml\n    title: Retail Media API Shared Definition\n  - type: Vocabulary\n    url: vocabulary/albertsons-vocabulary.yaml\n  - type: JSONLD\n    url: json-ld/albertsons-retail-media-api-context.jsonld\n  - type: Features\n    data:\n      - name: Near-Real-Time Campaign Performance\n        description: Access advertising campaign performance data in near-real-time to bring metrics into custom dashboards and measurement models.\n      - name: Audience Targeting\n\

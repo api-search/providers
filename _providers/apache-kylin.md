@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: apache-kylin-rest-api.yaml
+  format: yaml
+  label: Apache Kylin REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-rest-api.yaml
 apis:
 - description: The Kylin REST API provides endpoints for SQL query execution, model management, project management, job management, and table management for administering the Kylin OLAP engine.
   name: Apache Kylin REST API
@@ -90,6 +97,7 @@ rules:
 skills: []
 slug: apache-kylin
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-kylin\nname: Apache Kylin\ndescription: >-\n  Apache Kylin is an open-source distributed analytics engine designed to provide a SQL interface and multi-dimensional analysis (OLAP) on large-scale datasets. It provides sub-second query latency on trillion-record datasets via pre-computed cubes and works on top of Hadoop, Spark, and cloud storage.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Analytics\n  - Big Data\n  - Cube\n  - OLAP\n  - Open Source\n  - SQL\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-kylin:rest-api\n    name: Apache Kylin REST API\n    description: >-\n      The Kylin REST API provides endpoints for SQL query execution, model management, project management, job management, and table management\
   \ for administering the Kylin OLAP engine.\n    humanURL: https://kylin.apache.org/docs/restapi/\n    tags:\n      - JDBC\n      - OLAP\n      - REST\n      - SQL\n    properties:\n      - type: Documentation\n        url: https://kylin.apache.org/docs/restapi/\n      - type: OpenAPI\n        url: openapi/apache-kylin-rest-api.yaml\n\n  - aid: apache-kylin:jdbc-driver\n    name: Apache Kylin JDBC Driver\n    description: >-\n      The Kylin JDBC driver provides SQL-over-Kylin access for BI tools and SQL clients, enabling standard JDBC connectivity to Kylin OLAP cubes.\n    humanURL: https://kylin.apache.org/docs/tutorial/jdbc.html\n    tags:\n      - JDBC\n      - SQL\n    properties:\n      - type: Documentation\n        url: https://kylin.apache.org/docs/tutorial/jdbc.html\n\ncommon:\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/kylin\n  - type: Documentation\n    url: https://kylin.apache.org/docs/\n\
   \  - type: GettingStarted\n    url: https://kylin.apache.org/docs/tutorial/kylin_sample.html\n  - type: TermsOfService\n    url: https://www.apache.org/licenses/LICENSE-2.0\n  - type: Versioning\n    url: https://kylin.apache.org/download/\n  - type: SpectralRules\n    url: rules/apache-kylin-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/apache-kylin-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/olap-analytics.yaml\n  - type: Features\n    data:\n      - name: Sub-Second OLAP Queries\n        description: Pre-computed cubes enable sub-second query response on trillion-record datasets.\n      - name: SQL Interface\n        description: ANSI SQL interface for business analysts using existing SQL skills.\n      - name: Cube Pre-computation\n        description: Build cubes with aggregates pre-calculated for instant query response.\n      - name: Hadoop and Cloud Integration\n        description: Works on top of Hadoop, Spark, and cloud object storage.\n\

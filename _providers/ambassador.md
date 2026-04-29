@@ -1,5 +1,12 @@
 ---
 api_count: 6
+api_specs:
+- filename: ambassador-openapi.yml
+  format: yaml
+  label: Ambassador Edge Stack API Gateway
+  slug: edge-stack-api-gateway
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-openapi.yml
 apis:
 - description: 'Ambassador offers a suite of products designed to deliver API developer experiences that fuel innovation. These products, Blackbird API Development Platform, Edge Stack API Gateway, and Telepresence, '
   name: Ambassador
@@ -133,6 +140,7 @@ rules:
 skills: []
 slug: ambassador
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: ambassador\nurl: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/apis.yml\napis:\n  - aid: ambassador:ambassador\n    name: Ambassador\n    tags:\n      - Gateways\n      - Mocking\n      - Testing\n    humanURL: https://www.getambassador.io/\n    properties:\n      - url: https://www.getambassador.io/\n        type: Documentation\n    description: Ambassador offers a suite of products designed to deliver API developer experiences that fuel innovation. These products, Blackbird API Development Platform, Edge Stack API Gateway, and Telepresence, accelerate development, expedite testing, and optimize the delivery of API resources.\n  - aid: ambassador:edge-stack-api-gateway\n    name: Ambassador Edge Stack API Gateway\n    tags:\n      - API Management\n      - Envoy\n      - Gateways\n      - Ingress\n      - Kubernetes\n    humanURL: https://www.getambassador.io/products/edge-stack/api-gateway\n    properties:\n      - url: https://www.getambassador.io/products/edge-stack/api-gateway\n\
   \        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/tutorials/getting-started/\n        type: GettingStarted\n      - url: https://www.getambassador.io/docs/edge-stack/latest/topics/install/\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/topics/install/helm/\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/topics/using/intro-mappings\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/topics/running/host-crd\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/topics/using/rate-limits\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/topics/using/filters/oauth2\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/topics/using/filters/apikeys\n        type: Documentation\n      - url:\
   \ https://www.getambassador.io/docs/edge-stack/latest/topics/using/gateway-api\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/about/changes-2.x\n        type: Documentation\n      - url: https://www.getambassador.io/docs/edge-stack/latest/tutorials/quickstart-demo\n        type: GettingStarted\n      - url: https://github.com/datawire/edge-stack\n        type: GitHubRepository\n      - url: openapi/ambassador-openapi.yml\n        type: OpenAPI\n    description: Ambassador Edge Stack is a Kubernetes-native API gateway built on Envoy Proxy that provides routing, load balancing, authentication, rate limiting, and observability for microservices. It supports custom resource definitions (CRDs) including Mapping, Host, TLSContext, and RateLimit for declarative configuration.\n  - aid: ambassador:emissary-ingress\n    name: Emissary-Ingress\n    tags:\n      - CNCF\n      - Envoy\n      - Gateways\n      - Ingress\n      - Kubernetes\n      - Open\

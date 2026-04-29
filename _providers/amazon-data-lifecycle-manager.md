@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-data-lifecycle-manager-openapi.yml
+  format: yaml
+  label: Amazon Data Lifecycle Manager API
+  slug: amazon-dlm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/openapi/amazon-data-lifecycle-manager-openapi.yml
 apis:
 - description: The Amazon Data Lifecycle Manager API enables programmatic management of lifecycle policies for automating the creation, retention, and deletion of EBS snapshots and AMIs to meet backup and compliance
   name: Amazon Data Lifecycle Manager API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-data-lifecycle-manager
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-data-lifecycle-manager\nname: Amazon Data Lifecycle Manager\ndescription: >-\n  Amazon Data Lifecycle Manager provides an automated way to manage the\n  lifecycle of your AWS resources. Using lifecycle policies, you can automate\n  the creation, retention, and deletion of Amazon EBS snapshots and EBS-backed\n  AMIs, reducing storage costs and simplifying backup management. Policies target\n  EBS volumes and EC2 instances using tags, execute on configurable schedules,\n  and apply flexible retention rules based on count or age.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Backup\n  - EBS Snapshots\n  - Lifecycle Management\n  - Storage\n  - Automation\n  - Compliance\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-data-lifecycle-manager:amazon-dlm-api\n\
   \    name: Amazon Data Lifecycle Manager API\n    description: >-\n      The Amazon Data Lifecycle Manager API enables programmatic management of\n      lifecycle policies for automating the creation, retention, and deletion\n      of EBS snapshots and AMIs to meet backup and compliance requirements.\n      Supports EBS snapshot management, AMI lifecycle management, and\n      event-based snapshot policies.\n    humanURL: https://aws.amazon.com/ebs/data-lifecycle-manager/\n    baseURL: https://dlm.amazonaws.com\n    tags:\n      - Automation\n      - EBS Snapshots\n      - Lifecycle Management\n      - Backup\n      - AMI Management\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/dlm/latest/APIReference/Welcome.html\n      - type: OpenAPI\n        url: openapi/amazon-data-lifecycle-manager-openapi.yml\n      - type: OpenAPI\n        url: https://api.apis.guru/v2/specs/amazonaws.com/dlm/2018-01-12/openapi.yaml\n      - type: GettingStarted\n     \
   \   url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html\n      - type: APIReference\n        url: https://docs.aws.amazon.com/dlm/latest/APIReference/\n      - type: JSONSchema\n        url: json-schema/lifecycle-policy-schema.json\n      - type: JSONSchema\n        url: json-schema/policy-details-schema.json\n      - type: JSONSchema\n        url: json-schema/schedule-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-data-lifecycle-manager-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/ebs/data-lifecycle-manager/\n  - type: DeveloperPortal\n    url: https://aws.amazon.com/ebs/data-lifecycle-manager/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/dlm/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: GitHubOrganization\n    url: https://github.com/aws\n\

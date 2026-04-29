@@ -1,5 +1,30 @@
 ---
 api_count: 5
+api_specs:
+- filename: circleci-rest-api-v2-openapi.yml
+  format: yaml
+  label: CircleCI REST API V2
+  slug: rest-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-rest-api-v2-openapi.yml
+- filename: circleci-rest-api-v1-openapi.yml
+  format: yaml
+  label: CircleCI REST API V1
+  slug: rest-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-rest-api-v1-openapi.yml
+- filename: circleci-runner-api-openapi.yml
+  format: yaml
+  label: CircleCI Self-Hosted Runner API
+  slug: runner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-runner-api-openapi.yml
+- filename: circleci-webhooks-asyncapi.yml
+  format: yaml
+  label: CircleCI Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks-asyncapi.yml
 apis:
 - description: The CircleCI REST API v2 provides programmatic access to CircleCI services for managing pipelines, projects, workflows, jobs, and users. Developers can trigger pipelines, retrieve build status, manage
   name: CircleCI REST API V2
@@ -92,6 +117,7 @@ rules:
 skills: []
 slug: circleci
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: circleci\nname: CircleCI\nurl: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/apis.yml\ncreated: '2025-03-05'\nmodified: '2026-04-23'\ntype: Index\naccess: 3rd-Party\nposition: Consumer\nspecificationVersion: '0.19'\ntags:\n  - CI/CD\n  - Continuous Integration\n  - Continuous Deployment\n  - DevOps\n  - Pipelines\n  - Workflows\ndescription: >-\n  CircleCI is a continuous integration and continuous delivery (CI/CD)\n  platform that automates software build, test, and deployment pipelines.\n  Their developer surface includes the REST API v2 (the recommended modern\n  interface), the legacy v1 REST API, a Self-Hosted Runner API, webhooks\n  for real-time event notifications, and the Orbs Registry of reusable\n  configuration packages. Authentication is via a personal or project\n  Circle-Token sent in the Circle-Token header; responses are JSON.\napis:\n  - aid: circleci:rest-api-v2\n    name: CircleCI REST API V2\n    tags:\n      - CI/CD\n \
   \     - Continuous Integration\n      - DevOps\n      - Pipelines\n      - Workflows\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://circleci.com/api/v2\n    humanURL: https://circleci.com/docs/api/v2/\n    properties:\n      - url: https://circleci.com/docs/api/v2/\n        type: Documentation\n      - url: openapi/circleci-rest-api-v2-openapi.yml\n        type: OpenAPI\n    description: >-\n      The CircleCI REST API v2 provides programmatic access to CircleCI\n      services for managing pipelines, projects, workflows, jobs, and users.\n      Developers can trigger pipelines, retrieve build status, manage\n      contexts and environment variables, and access usage reports. The API\n      uses token-based authentication via a Circle-Token header and returns\n      JSON responses. It supports operations for project configuration,\n      workflow management, artifact retrieval, and insights into build\n      performance.\n \
   \ - aid: circleci:rest-api-v1\n    name: CircleCI REST API V1\n    tags:\n      - Builds\n      - CI/CD\n      - Continuous Integration\n      - Legacy\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://circleci.com/api/v1.1\n    humanURL: https://circleci.com/docs/api/v1/\n    properties:\n      - url: https://circleci.com/docs/api/v1/\n        type: Documentation\n      - url: openapi/circleci-rest-api-v1-openapi.yml\n        type: OpenAPI\n    description: >-\n      The CircleCI REST API v1 is the legacy API that provides access to\n      build information, project details, and user data. While still\n      available, CircleCI recommends migrating to the v2 API for newer\n      features and improved functionality. The v1 API supports operations\n      for retrieving build details, triggering builds, managing SSH keys,\n      and accessing test metadata. Authentication is handled through API\n      tokens passed as query parameters\

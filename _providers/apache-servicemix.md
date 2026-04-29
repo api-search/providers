@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-servicemix-rest-api.yaml
+  format: yaml
+  label: Apache ServiceMix
+  slug: apache-servicemix
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/openapi/apache-servicemix-rest-api.yaml
 apis:
 - description: ServiceMix provides an OSGi-based ESB with JBI API support, integrating Camel for routing, CXF for web services, and ActiveMQ for messaging, with programmatic service deployment and management APIs.
   name: Apache ServiceMix
@@ -74,6 +81,7 @@ rules:
 skills: []
 slug: apache-servicemix
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-servicemix\nname: Apache ServiceMix\ndescription: >-\n  Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime for building enterprise\n  integration solutions.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Enterprise Integration\n- ESB\n- Integration\n- Messaging\n- OSGi\n- Apache\n- Open Source\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n- aid: apache-servicemix:apache-servicemix\n  name: Apache ServiceMix\n  description: >-\n    ServiceMix provides an OSGi-based ESB with JBI API support, integrating Camel for routing, CXF for web services, and ActiveMQ for messaging, with programmatic service deployment\
   \ and management APIs.\n  humanURL: https://servicemix.apache.org/docs/7.x/\n  tags:\n  - Enterprise Integration\n  - ESB\n  - REST\n  - Apache\n  - Open Source\n  properties:\n  - type: Documentation\n    url: https://servicemix.apache.org/docs/7.x/\n  - type: Documentation\n    url: https://servicemix.apache.org/\n  - type: OpenAPI\n    url: openapi/apache-servicemix-rest-api.yaml\nmaintainers:\n- FN: Kin Lane\n  email: info@apievangelist.com\ncommon:\n- type: GitHubOrganization\n  url: https://github.com/apache/servicemix\n- type: Documentation\n  url: https://servicemix.apache.org/\n- type: SpectralRules\n  url: rules/apache-servicemix-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/apache-servicemix-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/servicemix-workflow.yaml\n- type: JSON-LD\n  url: json-ld/apache-servicemix-context.jsonld\n- type: Features\n  data:\n  - name: OSGi Container\n    description: Apache Karaf-based OSGi container for modular deployment\n\
   \  - name: Apache Camel Routes\n    description: Rich integration routing with 300+ Camel components\n  - name: Apache CXF\n    description: SOAP and REST web service hosting with CXF\n  - name: ActiveMQ Messaging\n    description: Built-in JMS messaging with Apache ActiveMQ\n  - name: Hot Deployment\n    description: Dynamic deployment of bundles and routes without restart\n  - name: Enterprise Patterns\n    description: Support for EIP patterns including routing, transformation, and mediation\n- type: UseCases\n  data:\n  - name: Legacy System Integration\n    description: Connect legacy SOAP services with modern REST APIs\n  - name: Message Routing\n    description: Route JMS messages between queues and topics\n  - name: Service Orchestration\n    description: Orchestrate multiple services into composite workflows\n  - name: Protocol Mediation\n    description: Transform between HTTP, JMS, JDBC, and file protocols\n- type: Integrations\n  data:\n  - name: Apache Camel\n    description:\

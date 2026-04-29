@@ -1,5 +1,36 @@
 ---
 api_count: 9
+api_specs:
+- filename: checkpoint-management-api-openapi.yml
+  format: yaml
+  label: Check Point Management API
+  slug: management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-management-api-openapi.yml
+- filename: checkpoint-gaia-api-openapi.yml
+  format: yaml
+  label: Check Point Gaia API
+  slug: gaia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-gaia-api-openapi.yml
+- filename: checkpoint-cloudguard-api-openapi.yml
+  format: yaml
+  label: Check Point CloudGuard API
+  slug: cloudguard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-cloudguard-api-openapi.yml
+- filename: checkpoint-identity-awareness-api-openapi.yml
+  format: yaml
+  label: Check Point Identity Awareness API
+  slug: identity-awareness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-identity-awareness-api-openapi.yml
+- filename: checkpoint-harmony-email-api-openapi.yml
+  format: yaml
+  label: Check Point Harmony Email API
+  slug: harmony-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/openapi/checkpoint-harmony-email-api-openapi.yml
 apis:
 - description: REST API for the Smart-1 Security Management Server. Automates policy and object management including host/network/service objects, access and NAT rulebases, and publish/install operations.
   name: Check Point Management API
@@ -84,6 +115,7 @@ name: Check Point
 skills: []
 slug: checkpoint
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: checkpoint\nname: Check Point\ndescription: >-\n  Check Point Software Technologies is a global cybersecurity vendor providing\n  network, cloud, endpoint, mobile, and email security through its Quantum,\n  CloudGuard, and Harmony product families. Check Point exposes a wide range\n  of REST APIs for security automation, including the Smart-1 Management API,\n  Gaia OS API, CloudGuard cloud security posture API, Identity Awareness API,\n  Spark and Zero Touch device management APIs, Harmony Email and Collaboration\n  API, Threat Hunting (TH) API, and CloudGuard WAF API.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/apis.yml\ntype: Index\naccess: 3rd-Party\nposition: Consumer\ntags:\n  - Cloud Security\n  - Cybersecurity\n  - Endpoint Security\n  - Firewall\n  - Identity Awareness\n  - Mobile Security\n  - Network Security\n  - Security\n  - Threat\
   \ Prevention\n  - WAF\ncreated: '2025-01-08'\nmodified: '2026-04-23'\nspecificationVersion: '0.20'\napis:\n  - aid: checkpoint:management-api\n    name: Check Point Management API\n    description: >-\n      REST API for the Smart-1 Security Management Server. Automates policy\n      and object management including host/network/service objects, access\n      and NAT rulebases, and publish/install operations.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://sc1.checkpoint.com/documents/latest/APIs/\n    baseURL: https://management.example.com/web_api\n    tags:\n      - Firewall\n      - Management\n      - Network Security\n    properties:\n      - type: Documentation\n        url: https://sc1.checkpoint.com/documents/latest/APIs/\n      - type: OpenAPI\n        url: openapi/checkpoint-management-api-openapi.yml\n  - aid: checkpoint:gaia-api\n    name: Check Point Gaia API\n    description: >-\n      REST API for the Check Point\
   \ Gaia operating system. Manages gateway\n      interfaces, routing, system info, and configuration.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/\n    baseURL: https://gateway.example.com/gaia_api\n    tags:\n      - Gaia\n      - Operating System\n    properties:\n      - type: Documentation\n        url: https://sc1.checkpoint.com/documents/latest/GaiaAPIs/\n      - type: OpenAPI\n        url: openapi/checkpoint-gaia-api-openapi.yml\n  - aid: checkpoint:cloudguard-api\n    name: Check Point CloudGuard API\n    description: >-\n      REST API for CloudGuard Native cloud security posture management,\n      cloud account onboarding, compliance findings, and rulesets across\n      AWS, Azure, and GCP.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://docs.cgn.portal.checkpoint.com/reference/introduction\n    baseURL: https://api.dome9.com/v2\n\

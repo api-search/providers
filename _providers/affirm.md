@@ -1,5 +1,36 @@
 ---
 api_count: 10
+api_specs:
+- filename: affirm-direct-api-openapi.yml
+  format: yaml
+  label: Affirm Direct API
+  slug: direct-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-direct-api-openapi.yml
+- filename: affirm-checkout-openapi.yml
+  format: yaml
+  label: Affirm Checkout API
+  slug: checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkout-openapi.yml
+- filename: affirm-transactions-openapi.yml
+  format: yaml
+  label: Affirm Transactions API
+  slug: transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-openapi.yml
+- filename: affirm-promos-openapi.yml
+  format: yaml
+  label: Affirm Promos API
+  slug: promos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-openapi.yml
+- filename: affirm-disputes-openapi.yml
+  format: yaml
+  label: Affirm Disputes API
+  slug: disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-openapi.yml
 apis:
 - description: The Affirm Direct API is a flexible integration that allows merchants to embed the full Affirm checkout and payment authorization flow directly into their website, giving complete control over the fro
   name: Affirm Direct API
@@ -420,6 +451,7 @@ rules:
 skills: []
 slug: affirm
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: affirm\nurl: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/apis.yml\nmodified: '2026-04-19'\napis:\n- aid: affirm:direct-api\n  name: Affirm Direct API\n  tags:\n  - Buy Now Pay Later\n  - Checkout\n  - Fintech\n  - Merchant\n  - Payments\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.affirm.com\n  humanURL: https://docs.affirm.com/payments/docs/direct-api-overview\n  properties:\n  - url: https://docs.affirm.com/payments/docs/direct-api-overview\n    type: Documentation\n  - url: openapi/affirm-direct-api-openapi.yml\n    type: OpenAPI\n  description: >-\n    The Affirm Direct API is a flexible integration that allows merchants to embed\n    the full Affirm checkout and payment authorization flow directly into their\n    website, giving complete control over the front-end user experience and back-end\n    transaction processing logic. It supports inline checkout via modal or redirect\n\
   \    to affirm.com, and handles the full transaction lifecycle including authorization,\n    capture, void, and refund operations.\n\n- aid: affirm:checkout-api\n  name: Affirm Checkout API\n  tags:\n  - Buy Now Pay Later\n  - Checkout\n  - Fintech\n  - Merchant\n  - Payments\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.affirm.com\n  humanURL: https://docs.affirm.com/developers/docs/home-introduction\n  properties:\n  - url: https://docs.affirm.com/developers/docs/home-introduction\n    type: Documentation\n  - url: openapi/affirm-checkout-openapi.yml\n    type: OpenAPI\n  - url: json-schema/affirm-checkout-schema.json\n    type: JSONSchema\n  description: >-\n    The Affirm Checkout API enables merchants to initiate and manage the Affirm\n    buy now pay later checkout flow for customers at the point of purchase. It provides\n    endpoints to create checkout sessions, read and update checkout objects, and\n    store checkout\
   \ tokens returned after a customer completes the Affirm financing\n    application. The API supports both redirect and direct checkout integration\n    patterns, and includes endpoints for resending checkout links via email or SMS.\n\n- aid: affirm:transactions-api\n  name: Affirm Transactions API\n  tags:\n  - Authorization\n  - Capture\n  - Fintech\n  - Payments\n  - Refunds\n  - Transactions\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.affirm.com\n  humanURL: https://docs.affirm.com/developers/reference/introduction\n  properties:\n  - url: https://docs.affirm.com/developers/reference/introduction\n    type: Documentation\n  - url: openapi/affirm-transactions-openapi.yml\n    type: OpenAPI\n  - url: json-schema/affirm-transaction-schema.json\n    type: JSONSchema\n  description: >-\n    The Affirm Transactions API provides server-side endpoints for managing the\n    full lifecycle of Affirm payment transactions after a\

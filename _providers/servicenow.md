@@ -1,5 +1,66 @@
 ---
 api_count: 57
+api_specs:
+- filename: servicenow-table-api-openapi.yml
+  format: yaml
+  label: ServiceNow Table API
+  slug: servicenow-table-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-table-api-openapi.yml
+- filename: servicenow-aggregate-api-openapi.yml
+  format: yaml
+  label: ServiceNow Aggregate API
+  slug: servicenow-aggregate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-aggregate-api-openapi.yml
+- filename: servicenow-attachment-api-openapi.yml
+  format: yaml
+  label: ServiceNow Attachment API
+  slug: servicenow-attachment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-attachment-api-openapi.yml
+- filename: servicenow-import-set-api-openapi.yml
+  format: yaml
+  label: ServiceNow Import Set API
+  slug: servicenow-import-set-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-import-set-api-openapi.yml
+- filename: servicenow-change-management-api-openapi.yml
+  format: yaml
+  label: ServiceNow Change Management API
+  slug: servicenow-change-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-change-management-api-openapi.yml
+- filename: servicenow-service-catalog-api-openapi.yml
+  format: yaml
+  label: ServiceNow Service Catalog API
+  slug: servicenow-service-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-service-catalog-api-openapi.yml
+- filename: servicenow-cmdb-instance-api-openapi.yml
+  format: yaml
+  label: ServiceNow CMDB Instance API
+  slug: servicenow-cmdb-instance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cmdb-instance-api-openapi.yml
+- filename: contact-api-openapi.yaml
+  format: yaml
+  label: ServiceNow Contact API
+  slug: servicenow-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/contact-api-openapi.yaml
+- filename: trouble-ticket-openapi.yaml
+  format: yaml
+  label: ServiceNow Trouble Ticket Open API
+  slug: servicenow-trouble-ticket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/trouble-ticket-openapi.yaml
+- filename: servicenow-events-asyncapi.yml
+  format: yaml
+  label: ServiceNow Event Management Topic Open API
+  slug: servicenow-event-management-topic-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/asyncapi/servicenow-events-asyncapi.yml
 apis:
 - description: 'The ServiceNow Table API provides endpoints to perform create, read, update, and delete (CRUD) operations on records within any ServiceNow table. It is the primary REST interface for interacting with '
   name: ServiceNow Table API
@@ -458,6 +519,7 @@ rules:
 skills: []
 slug: servicenow
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: servicenow\nurl: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml\napis:\n  - aid: servicenow:servicenow-table-api\n    name: ServiceNow Table API\n    tags:\n      - CRUD\n      - Data\n      - ITSM\n      - Records\n      - Tables\n    image: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\n    humanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/c_TableAPI.html\n    baseURL: https://{instance}.service-now.com/api/now/table\n    properties:\n      - url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/c_TableAPI.html\n        type: Documentation\n      - url: https://www.servicenow.com/docs/bundle/xanadu-api-reference/page/integrate/inbound-rest/concept/c_TableAPI.html\n        type: APIReference\n      - url: openapi/servicenow-table-api-openapi.yml\n        type: OpenAPI\n    description:\
   \ The ServiceNow Table API provides endpoints to perform create, read, update, and delete (CRUD) operations on records within any ServiceNow table. It is the primary REST interface for interacting with ServiceNow platform data such as incidents, problems, changes, and custom tables.\n  - aid: servicenow:servicenow-aggregate-api\n    name: ServiceNow Aggregate API\n    tags:\n      - Aggregation\n      - Analytics\n      - Reporting\n      - Statistics\n      - Tables\n    image: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\n    humanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/c_AggregateAPI.html\n    baseURL: https://{instance}.service-now.com/api/now/stats\n    properties:\n      - url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/c_AggregateAPI.html\n        type: Documentation\n      - url: openapi/servicenow-aggregate-api-openapi.yml\n\
   \        type: OpenAPI\n    description: The ServiceNow Aggregate API provides endpoints to compute aggregate statistics (count, average, min, max, sum) against records in any ServiceNow table. It supports grouping and filtering results, making it useful for reporting and dashboard data retrieval.\n  - aid: servicenow:servicenow-attachment-api\n    name: ServiceNow Attachment API\n    tags:\n      - Attachments\n      - Files\n      - Records\n      - Upload\n    image: https://www.servicenow.com/content/dam/servicenow-assets/images/meganav/servicenow-logo.svg\n    humanURL: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/c_AttachmentAPI.html\n    baseURL: https://{instance}.service-now.com/api/now/attachment\n    properties:\n      - url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/c_AttachmentAPI.html\n        type: Documentation\n      - url: openapi/servicenow-attachment-api-openapi.yml\n\

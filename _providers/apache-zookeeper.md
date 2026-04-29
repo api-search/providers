@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: zookeeper-admin-api.yml
+  format: yaml
+  label: Apache ZooKeeper Admin Server API
+  slug: apache-zookeeper-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/zookeeper-admin-api.yml
 apis:
 - description: The ZooKeeper Admin Server provides HTTP endpoints on port 8080 that expose the four-letter-word equivalent commands as REST endpoints for cluster monitoring, configuration, and diagnostics. Endpoints
   name: Apache ZooKeeper Admin Server API
@@ -84,6 +91,7 @@ rules:
 skills: []
 slug: apache-zookeeper
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-zookeeper\nname: Apache ZooKeeper\ndescription: >-\n  Apache ZooKeeper is a centralized service for maintaining configuration information, naming,\n  providing distributed synchronization, and providing group services for distributed systems.\n  It provides a hierarchical key-value store (znodes), watches for change notifications, ephemeral\n  nodes for presence detection, and sequential nodes for leader election and distributed locking.\n  ZooKeeper exposes a Java/C client API and an HTTP Admin Server API for monitoring and management.\n  It is widely used by Kafka, Hadoop, HBase, Storm, and other distributed systems.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Configuration Management\n  - Distributed Coordination\n  - Leader Election\n  - Service Discovery\n  - Open Source\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/apis.yml\n\
   specificationVersion: '0.19'\napis:\n  - aid: apache-zookeeper:apache-zookeeper-admin-api\n    name: Apache ZooKeeper Admin Server API\n    description: >-\n      The ZooKeeper Admin Server provides HTTP endpoints on port 8080 that expose the four-letter-word\n      equivalent commands as REST endpoints for cluster monitoring, configuration, and diagnostics.\n      Endpoints include /commands/conf (server configuration), /commands/stats (server statistics),\n      /commands/mntr (monitoring metrics), /commands/envi (environment info), /commands/dump\n      (session/ephemeral node dump), /commands/crst (connection reset), and /commands/leader\n      (leader info for QuorumPeerMain).\n    humanURL: https://zookeeper.apache.org/doc/current/zookeeperAdmin.html#sc_4lw\n    baseURL: http://localhost:8080/commands\n    tags:\n      - REST\n      - Admin\n      - Monitoring\n      - Cluster Management\n    properties:\n      - type: Documentation\n        url: https://zookeeper.apache.org/doc/current/zookeeperAdmin.html#sc_4lw\n\
   \      - type: OpenAPI\n        url: openapi/zookeeper-admin-api.yml\n  - aid: apache-zookeeper:apache-zookeeper-client-api\n    name: Apache ZooKeeper Client API\n    description: >-\n      The ZooKeeper client API provides Java and C language bindings for distributed coordination\n      operations. Operations include create (create znodes), delete, exists (check existence), getData,\n      setData, getChildren, getACL, setACL, and multi (batch operations). Watch mechanisms notify\n      clients of znode changes. Curator is the recommended high-level Java client with recipes for\n      distributed locks, leader elections, service discovery, and caches.\n    humanURL: https://zookeeper.apache.org/doc/current/zookeeperProgrammers.html\n    tags:\n      - Java\n      - C\n      - Coordination\n      - Leader Election\n    properties:\n      - type: Documentation\n        url: https://zookeeper.apache.org/doc/current/zookeeperProgrammers.html\n      - type: APIReference\n        url: https://zookeeper.apache.org/doc/current/apidocs/zookeeper-server/\n\

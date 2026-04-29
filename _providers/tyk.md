@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: tyk-gateway-api-openapi.yml
+  format: yaml
+  label: Tyk Gateway API
+  slug: tyk-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-gateway-api-openapi.yml
+- filename: tyk-dashboard-api-openapi.yml
+  format: yaml
+  label: Tyk Dashboard API
+  slug: tyk-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-dashboard-api-openapi.yml
+- filename: tyk-dashboard-admin-api-openapi.yml
+  format: yaml
+  label: Tyk Dashboard Admin API
+  slug: tyk-dashboard-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-dashboard-admin-api-openapi.yml
+- filename: tyk-mdcb-api-openapi.yml
+  format: yaml
+  label: Tyk MDCB API
+  slug: tyk-mdcb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-mdcb-api-openapi.yml
 apis:
 - description: The Tyk Gateway API provides a RESTful interface for managing API definitions, keys, certificates, and health checks directly on a Tyk Gateway node. It is used to configure and operate the gateway pro
   name: Tyk Gateway API
@@ -137,6 +162,7 @@ rules:
 skills: []
 slug: tyk
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: tyk\nname: Tyk\ndescription: >-\n  Tyk is an open-source API gateway and management platform supporting REST,\n  GraphQL, gRPC, and Async APIs with a developer portal, analytics, and\n  flexible deployment across cloud, on-premise, and hybrid environments.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - API Gateway\n  - API Management\n  - GraphQL\n  - Open Source\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/apis.yml\nhumanURL: https://tyk.io/\ncreated: '2026-03-18'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\naccess: 3rd-Party\nposition: Consuming\napis:\n  - aid: tyk:tyk-gateway-api\n    name: Tyk Gateway API\n    description: >-\n      The Tyk Gateway API provides a RESTful interface for managing API\n      definitions, keys, certificates, and health checks directly on a Tyk\n      Gateway node. It is used to configure and operate the gateway\n      programmatically\
   \ in self-managed and open-source deployments.\n    humanURL: https://tyk.io/docs/tyk-apis/\n    baseURL: https://tyk.io/\n    tags:\n      - Administration\n      - Gateway\n      - Open Source\n      - REST API\n    properties:\n      - type: Documentation\n        url: https://tyk.io/docs/tyk-apis/\n      - type: OpenAPI\n        url: openapi/tyk-gateway-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/tyk-gateway-access-definition-schema.json\n      - type: JSONLD\n        url: json-ld/tyk-gateway-context.jsonld\n      - type: GitHubRepository\n        url: https://github.com/TykTechnologies/tyk\n  - aid: tyk:tyk-dashboard-api\n    name: Tyk Dashboard API\n    description: >-\n      The Tyk Dashboard API is a superset of the Gateway API providing\n      programmatic access to a centralized database of API definitions, keys,\n      policies, users, and organizations. It is the primary integration point\n      for managing multi-team Tyk deployments and is authenticated\
   \ via an\n      access credentials header.\n    humanURL: https://tyk.io/docs/tyk-dashboard-api\n    baseURL: https://tyk.io/\n    tags:\n      - Administration\n      - Dashboard\n      - Management\n      - REST API\n    properties:\n      - type: Documentation\n        url: https://tyk.io/docs/tyk-dashboard-api\n      - type: OpenAPI\n        url: openapi/tyk-dashboard-api-openapi.yml\n      - type: ChangeLog\n        url: https://tyk.io/docs/developer-support/release-notes/dashboard\n      - type: GitHubRepository\n        url: https://github.com/TykTechnologies/tyk-analytics\n  - aid: tyk:tyk-dashboard-admin-api\n    name: Tyk Dashboard Admin API\n    description: >-\n      The Tyk Dashboard Admin API provides super-administrative access to the\n      Tyk Dashboard, enabling management of organizations and system-level\n      configuration. It is used for bootstrapping and managing multi-organization\n      Tyk deployments.\n    humanURL: https://tyk.io/docs/tyk-dashboard-api\n  \

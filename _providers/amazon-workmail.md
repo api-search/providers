@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-workmail-openapi-original.yaml
+  format: yaml
+  label: Amazon WorkMail API
+  slug: amazon-workmail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/openapi/amazon-workmail-openapi-original.yaml
 apis:
 - description: The Amazon WorkMail API provides programmatic access to manage organizations, users, groups, aliases, mailboxes, resources, and mobile device access. It enables automation of email infrastructure prov
   name: Amazon WorkMail API
@@ -102,6 +109,7 @@ rules:
 skills: []
 slug: amazon-workmail
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-workmail\nname: Amazon WorkMail\ndescription: >-\n  Amazon WorkMail is a secure, managed business email and calendar service with\n  support for existing desktop and mobile email client applications. It provides\n  encrypted mailboxes, corporate calendaring, full Outlook compatibility, and\n  enterprise-grade security controls for business communications. WorkMail\n  integrates with Active Directory, supports IMAP and Exchange ActiveSync for\n  mobile devices, and provides 80 API operations for programmatic management.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - Business Communication\n  - Calendar\n  - Email\n  - Exchange\n  - Enterprise\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: amazon-workmail:amazon-workmail-api\n    name: Amazon WorkMail\
   \ API\n    description: >-\n      The Amazon WorkMail API provides programmatic access to manage\n      organizations, users, groups, aliases, mailboxes, resources, and mobile\n      device access. It enables automation of email infrastructure provisioning\n      and management for enterprise deployments with 80 operations.\n    humanURL: https://aws.amazon.com/workmail/\n    baseURL: https://workmail.amazonaws.com\n    tags:\n      - AWS\n      - Calendar\n      - Email\n      - Enterprise\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/workmail/latest/adminguide/\n      - type: APIReference\n        url: https://docs.aws.amazon.com/workmail/latest/APIReference/\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/workmail/latest/adminguide/getting_started.html\n      - type: Pricing\n        url: https://aws.amazon.com/workmail/pricing/\n      - type: FAQ\n        url: https://aws.amazon.com/workmail/faqs/\n      - type: OpenAPI\n\
   \        url: openapi/amazon-workmail-openapi-original.yaml\n      - type: JSONSchema\n        url: json-schema/workmail-organization-schema.json\n      - type: JSONLD\n        url: json-ld/amazon-workmail-context.jsonld\ncommon:\n  - type: Portal\n    url: https://aws.amazon.com/\n  - type: Website\n    url: https://aws.amazon.com/workmail/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/workmail/latest/adminguide/\n  - type: Console\n    url: https://console.aws.amazon.com/workmail/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n    url: https://aws.amazon.com/premiumsupport/\n  - type: SignUp\n    url: https://signin.aws.amazon.com/signup?request_type=register\n  - type: Login\n    url: https://aws.amazon.com/console/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: GitHubOrganization\n    url: https://github.com/aws\n\

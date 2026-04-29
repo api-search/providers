@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: teradata-querygrid-manager-api.yaml
+  format: yaml
+  label: Teradata QueryGrid Manager API
+  slug: querygrid-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-querygrid-manager-api.yaml
+- filename: teradata-query-service-api.yaml
+  format: yaml
+  label: Teradata Query Service API
+  slug: query-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-query-service-api.yaml
 apis:
 - description: REST API for centralized administration and monitoring of Teradata QueryGrid, the data fabric that enables seamless cross-system analytics. Manage data centers, systems, bridges, connectors, links, fa
   name: Teradata QueryGrid Manager API
@@ -140,6 +153,7 @@ rules:
 skills: []
 slug: teradata
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: teradata\nname: Teradata\ndescription: >-\n  Teradata provides enterprise analytics and data management solutions. The\n  Teradata VantageCloud platform delivers connected multi-cloud data analytics\n  with capabilities for data warehousing, advanced analytics, and machine\n  learning at scale. Teradata offers REST APIs for managing QueryGrid data\n  fabric connections, running SQL queries, and administering platform resources.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Analytics\n  - Cloud\n  - Data Management\n  - Data Warehousing\n  - Database\n  - Enterprise\n  - Machine Learning\n  - SQL\nurl: https://www.teradata.com\ncreated: '2026-04-18'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\nposition: Consumer\naccess: 3rd-Party\napis:\n  - aid: teradata:querygrid-manager-api\n    name: Teradata QueryGrid Manager API\n    description: >-\n      REST API for centralized administration and monitoring\
   \ of Teradata\n      QueryGrid, the data fabric that enables seamless cross-system analytics.\n      Manage data centers, systems, bridges, connectors, links, fabrics,\n      networks, and node configurations. Perform diagnostic checks, software\n      installations, and query monitoring across connected systems.\n    humanURL: https://github.com/Teradata/querygrid-apidocs\n    baseURL: https://querygrid.teradata.com/api/v1\n    tags:\n      - Configuration\n      - Data Fabric\n      - Diagnostics\n      - Monitoring\n      - QueryGrid\n    properties:\n      - type: Documentation\n        url: https://github.com/Teradata/querygrid-apidocs\n      - type: OpenAPI\n        url: openapi/teradata-querygrid-manager-api.yaml\n  - aid: teradata:query-service-api\n    name: Teradata Query Service API\n    description: >-\n      REST API for executing SQL queries against Teradata Vantage systems.\n      Provides HTTP-based access to run queries, retrieve results, and manage\n      sessions for\
   \ application integration and browser-based query tools.\n    humanURL: https://docs.teradata.com\n    baseURL: https://vantage.teradata.com/api/query/v1\n    tags:\n      - Query\n      - REST\n      - SQL\n      - Vantage\n    properties:\n      - type: Documentation\n        url: https://docs.teradata.com\n      - type: OpenAPI\n        url: openapi/teradata-query-service-api.yaml\ncommon:\n  - type: Portal\n    url: https://developer.teradata.com\n  - type: Documentation\n    url: https://docs.teradata.com\n  - type: GettingStarted\n    url: https://quickstarts.teradata.com\n  - type: GitHubOrganization\n    url: https://github.com/Teradata\n  - type: Support\n    url: https://support.teradata.com\n  - type: Blog\n    url: https://www.teradata.com/blog\n  - type: Training\n    url: https://www.teradata.com/University\n  - type: TermsOfService\n    url: https://www.teradata.com/Legal/Terms-of-Use\n  - type: PrivacyPolicy\n    url: https://www.teradata.com/Legal/Privacy\n  - type: SDK\n\

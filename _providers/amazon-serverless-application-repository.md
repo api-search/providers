@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-serverless-application-repository-openapi.yml
+  format: yaml
+  label: AWS Serverless Application Repository API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-openapi.yml
 apis:
 - description: 'The AWS Serverless Application Repository API provides programmatic access to create and manage serverless applications, application versions, and deployment configurations for publishing and sharing '
   name: AWS Serverless Application Repository API
@@ -162,6 +169,7 @@ rules:
 skills: []
 slug: amazon-serverless-application-repository
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Serverless Application Repository\ndescription: >-\n  The AWS Serverless Application Repository enables teams, organizations, and\n  individual developers to find, deploy, and publish serverless applications.\n  It enables you to quickly deploy code samples, components, and complete\n  applications for common use cases such as web and mobile backends, data\n  processing, and IoT applications using AWS SAM templates.\nurl: https://aws.amazon.com/serverless/serverlessrepo/\nbaseURL: https://serverlessrepo.amazonaws.com\nx-type: company\ncreated: '2026-03-16'\nmodified: '2026-04-19'\n\ntags:\n- Application Repository\n- AWS\n- Lambda\n- SAM\n- Serverless\n\napis:\n\n- name: AWS Serverless Application Repository API\n  description: >-\n    The AWS Serverless Application Repository API provides programmatic\n    access to create and manage serverless applications, application versions,\n    and deployment configurations for publishing and sharing SAM applications.\n\
   \  humanURL: https://docs.aws.amazon.com/serverlessrepo/latest/devguide/appendix-api-reference.html\n  baseURL: https://serverlessrepo.{region}.amazonaws.com\n  tags:\n  - Application Repository\n  - Lambda\n  - Serverless\n  - SAM\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/serverlessrepo/latest/devguide/appendix-api-reference.html\n  - type: OpenAPI\n    url: openapi/amazon-serverless-application-repository-openapi.yml\n  - type: JSONSchema\n    url: json-schema/amazon-serverless-application-repository-application-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-serverless-application-repository-version-summary-schema.json\n\ncommon:\n\n- type: Portal\n  url: https://aws.amazon.com/serverless/serverlessrepo/\n\n- type: GettingStarted\n  url: https://aws.amazon.com/serverless/serverlessrepo/getting-started/\n\n- type: Documentation\n  url: https://docs.aws.amazon.com/serverlessrepo/\n\n- type: APIReference\n  url: https://docs.aws.amazon.com/serverlessrepo/latest/devguide/appendix-api-reference.html\n\
   \n- type: Console\n  url: https://console.aws.amazon.com/serverlessrepo/\n\n- type: SignUp\n  url: https://portal.aws.amazon.com/billing/signup\n\n- type: Pricing\n  url: https://aws.amazon.com/serverless/serverlessrepo/pricing/\n\n- type: FAQ\n  url: https://aws.amazon.com/serverless/serverlessrepo/faqs/\n\n- type: Blog\n  url: https://aws.amazon.com/blogs/compute/tag/serverless-application-repository/\n\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n\n- type: GitHubOrganization\n  url: https://github.com/aws\n\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n\n- type: StackOverflow\n  url: https://stackoverflow.com/questions/tagged/serverless-application-repository\n\n- type: KnowledgeCenter\n  url: https://repost.aws/knowledge-center\n\

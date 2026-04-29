@@ -1,5 +1,60 @@
 ---
 api_count: 9
+api_specs:
+- filename: cohere-chat-api-openapi.yml
+  format: yaml
+  label: Cohere Chat API
+  slug: chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-chat-api-openapi.yml
+- filename: cohere-embed-api-openapi.yml
+  format: yaml
+  label: Cohere Embed API
+  slug: embed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-embed-api-openapi.yml
+- filename: cohere-rerank-api-openapi.yml
+  format: yaml
+  label: Cohere Rerank API
+  slug: rerank-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-rerank-api-openapi.yml
+- filename: cohere-classify-api-openapi.yml
+  format: yaml
+  label: Cohere Classify API
+  slug: classify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-classify-api-openapi.yml
+- filename: cohere-embed-jobs-api-openapi.yml
+  format: yaml
+  label: Cohere Embed Jobs API
+  slug: embed-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-embed-jobs-api-openapi.yml
+- filename: cohere-datasets-api-openapi.yml
+  format: yaml
+  label: Cohere Datasets API
+  slug: datasets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-datasets-api-openapi.yml
+- filename: cohere-models-api-openapi.yml
+  format: yaml
+  label: Cohere Models API
+  slug: models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-models-api-openapi.yml
+- filename: cohere-tokenize-api-openapi.yml
+  format: yaml
+  label: Cohere Tokenize API
+  slug: tokenize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-tokenize-api-openapi.yml
+- filename: cohere-detokenize-api-openapi.yml
+  format: yaml
+  label: Cohere Detokenize API
+  slug: detokenize-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/openapi/cohere-detokenize-api-openapi.yml
 apis:
 - description: 'The Cohere Chat API enables developers to integrate large language model text generation capabilities into their applications through a conversational interface. It supports multi-turn conversations, '
   name: Cohere Chat API
@@ -60,6 +115,7 @@ name: cohere
 skills: []
 slug: cohere
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cohere\nurl: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/apis.yml\napis:\n  - aid: cohere:chat-api\n    name: Cohere Chat API\n    tags:\n      - Artificial Intelligence\n      - Chat\n      - Conversational AI\n      - Large Language Models\n      - Text Generation\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.cohere.com\n    humanURL: https://docs.cohere.com/reference/chat\n    properties:\n      - url: https://docs.cohere.com/reference/chat\n        type: Documentation\n      - url: openapi/cohere-chat-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Cohere Chat API enables developers to integrate large language model\n      text generation capabilities into their applications through a\n      conversational interface. It supports multi-turn conversations, tool use\n      with JSON schema definitions, retrieval-augmented generation, and\n      streaming\
   \ responses. The API is available via the v2 endpoint and works\n      with Cohere's Command family of models.\n  - aid: cohere:embed-api\n    name: Cohere Embed API\n    tags:\n      - Artificial Intelligence\n      - Embeddings\n      - Natural Language Processing\n      - Semantic Search\n      - Vector Search\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.cohere.com\n    humanURL: https://docs.cohere.com/reference/embed\n    properties:\n      - url: https://docs.cohere.com/reference/embed\n        type: Documentation\n      - url: openapi/cohere-embed-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Cohere Embed API generates vector embeddings from text and images,\n      enabling semantic search, clustering, and classification use cases. It\n      supports multilingual content and can process both text and image inputs\n      using the Embed v3 model family. Developers can use these embeddings\
   \ to\n      build retrieval systems, recommendation engines, and other applications\n      that require understanding semantic similarity between content.\n  - aid: cohere:rerank-api\n    name: Cohere Rerank API\n    tags:\n      - Artificial Intelligence\n      - Information Retrieval\n      - Relevance\n      - Reranking\n      - Search\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.cohere.com\n    humanURL: https://docs.cohere.com/reference/rerank\n    properties:\n      - url: https://docs.cohere.com/reference/rerank\n        type: Documentation\n      - url: openapi/cohere-rerank-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Cohere Rerank API takes a query and a list of text documents and\n      returns them ordered by relevance with assigned relevance scores. It is\n      commonly used as a second-stage ranker in retrieval-augmented generation\n      pipelines to improve the quality of search\

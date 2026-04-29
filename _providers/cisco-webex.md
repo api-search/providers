@@ -1,5 +1,120 @@
 ---
 api_count: 19
+api_specs:
+- filename: cisco-webex-meetings-openapi.yml
+  format: yaml
+  label: Webex Meetings API
+  slug: webex-meetings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-meetings-openapi.yml
+- filename: cisco-webex-messaging-openapi.yml
+  format: yaml
+  label: Webex Messaging API
+  slug: webex-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-messaging-openapi.yml
+- filename: cisco-webex-people-openapi.yml
+  format: yaml
+  label: Webex People API
+  slug: webex-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-people-openapi.yml
+- filename: cisco-webex-teams-openapi.yml
+  format: yaml
+  label: Webex Teams API
+  slug: webex-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-teams-openapi.yml
+- filename: cisco-webex-rooms-openapi.yml
+  format: yaml
+  label: Webex Rooms API
+  slug: webex-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-rooms-openapi.yml
+- filename: cisco-webex-webhooks-openapi.yml
+  format: yaml
+  label: Webex Webhooks API
+  slug: webex-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-webhooks-openapi.yml
+- filename: cisco-webex-devices-openapi.yml
+  format: yaml
+  label: Webex Devices API
+  slug: webex-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-devices-openapi.yml
+- filename: cisco-webex-memberships-openapi.yml
+  format: yaml
+  label: Webex Memberships API
+  slug: webex-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-memberships-openapi.yml
+- filename: cisco-webex-team-memberships-openapi.yml
+  format: yaml
+  label: Webex Team Memberships API
+  slug: webex-team-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-team-memberships-openapi.yml
+- filename: cisco-webex-events-openapi.yml
+  format: yaml
+  label: Webex Events API
+  slug: webex-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-events-openapi.yml
+- filename: cisco-webex-recordings-openapi.yml
+  format: yaml
+  label: Webex Recordings API
+  slug: webex-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-recordings-openapi.yml
+- filename: cisco-webex-call-controls-openapi.yml
+  format: yaml
+  label: Webex Call Controls API
+  slug: webex-call-controls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-call-controls-openapi.yml
+- filename: cisco-webex-attachment-actions-openapi.yml
+  format: yaml
+  label: Webex Attachment Actions API
+  slug: webex-attachment-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-attachment-actions-openapi.yml
+- filename: cisco-webex-organizations-openapi.yml
+  format: yaml
+  label: Webex Organizations API
+  slug: webex-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-organizations-openapi.yml
+- filename: cisco-webex-licenses-openapi.yml
+  format: yaml
+  label: Webex Licenses API
+  slug: webex-licenses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-licenses-openapi.yml
+- filename: cisco-webex-roles-openapi.yml
+  format: yaml
+  label: Webex Roles API
+  slug: webex-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-roles-openapi.yml
+- filename: cisco-webex-workspaces-openapi.yml
+  format: yaml
+  label: Webex Workspaces API
+  slug: webex-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-workspaces-openapi.yml
+- filename: cisco-webex-admin-audit-events-openapi.yml
+  format: yaml
+  label: Webex Admin Audit Events API
+  slug: webex-admin-audit-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-admin-audit-events-openapi.yml
+- filename: cisco-webex-converged-recordings-openapi.yml
+  format: yaml
+  label: Webex Converged Recordings API
+  slug: webex-converged-recordings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/openapi/cisco-webex-converged-recordings-openapi.yml
 apis:
 - description: Enables scheduling, managing, and controlling Webex meetings programmatically. Provides endpoints for creating meetings, managing attendees, preferences, and retrieving meeting details.
   name: Webex Meetings API
@@ -148,6 +263,7 @@ rules:
 skills: []
 slug: cisco-webex
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cisco-webex\nname: Cisco Webex\ndescription: >-\n  Cisco Webex is a comprehensive collaboration platform that provides video\n  conferencing, team messaging, file sharing, and calling capabilities for\n  businesses and teams. The Webex developer platform offers REST APIs, SDKs,\n  and integrations for extending and automating collaboration workflows\n  across meetings, messaging, calling, devices, administration, and contact\n  center scenarios. Authentication uses OAuth 2.0 access tokens, personal\n  access tokens, or service apps and all endpoints are served from the\n  webexapis.com base.\nimage: https://www.webex.com/content/dam/wbx/us/images/webex-logo.svg\nurl: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/apis.yml\ntype: Index\naccess: 3rd-Party\nposition: Consumer\ncreated: '2024-01-01'\nmodified: '2026-04-23'\nspecificationVersion: '0.19'\ntags:\n  - Collaboration\n  - Communications\n  - Meetings\n  - Messaging\n  - Teams\n  - Video\
   \ Conferencing\napis:\n  - aid: cisco-webex:webex-meetings-api\n    name: Webex Meetings API\n    description: >-\n      Enables scheduling, managing, and controlling Webex meetings\n      programmatically. Provides endpoints for creating meetings, managing\n      attendees, preferences, and retrieving meeting details.\n    image: https://www.webex.com/content/dam/wbx/us/images/webex-logo.svg\n    humanURL: https://developer.webex.com/docs/meetings\n    baseURL: https://webexapis.com/v1\n    tags:\n      - Attendees\n      - Conferencing\n      - Meetings\n      - Scheduling\n      - Video\n    properties:\n      - type: Documentation\n        url: https://developer.webex.com/docs/meetings\n      - type: OpenAPI\n        url: openapi/cisco-webex-meetings-openapi.yml\n      - type: Authentication\n        url: https://developer.webex.com/docs/getting-started#authentication\n  - aid: cisco-webex:webex-messaging-api\n    name: Webex Messaging API\n    description: >-\n      Send and receive\
   \ messages, manage spaces and teams, and share files within\n      the Webex messaging platform. Supports rich text, file attachments, and\n      adaptive cards.\n    image: https://www.webex.com/content/dam/wbx/us/images/webex-logo.svg\n    humanURL: https://developer.webex.com/docs/messaging\n    baseURL: https://webexapis.com/v1\n    tags:\n      - Chat\n      - Collaboration\n      - Messaging\n      - Spaces\n      - Teams\n    properties:\n      - type: Documentation\n        url: https://developer.webex.com/docs/messaging\n      - type: OpenAPI\n        url: openapi/cisco-webex-messaging-openapi.yml\n      - type: Webhooks\n        url: https://developer.webex.com/docs/webhooks\n      - type: Getting Started\n        url: https://developer.webex.com/messaging/docs/getting-started\n  - aid: cisco-webex:webex-people-api\n    name: Webex People API\n    description: >-\n      Access user profile information, manage contacts, and administer user\n      accounts within an organization.\

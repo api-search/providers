@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: productiv-developer-openapi.yml
+  format: yaml
+  label: Productiv Developer API
+  slug: developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-developer-openapi.yml
 apis:
 - description: The Productiv Developer APIs support integrating custom applications into the Productiv platform, allowing external developers to define and publish new connected applications. Includes APIs for pushi
   name: Productiv Developer API
@@ -75,6 +82,7 @@ rules:
 skills: []
 slug: productiv
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: productiv\nname: Productiv\ndescription: >-\n  The SaaS Management Platform that delivers the industrys most comprehensive\n  view of your SaaS portfolio with deep usage analytics, spend data, and\n  feature-level insights to power the technology decisions that support your\n  business.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Application Portfolio\n  - Provisioning\n  - SaaS Management\n  - Spend Management\n  - Usage Analytics\ncreated: '2025-07-11'\nmodified: '2026-04-18'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: productiv:developer-api\n    name: Productiv Developer API\n    description: >-\n      The Productiv Developer APIs support integrating custom applications into\n      the Productiv platform, allowing external developers to define and publish\n      new connected\
   \ applications. Includes APIs for pushing usage events and\n      user information, Data Export APIs for fetching app portfolio details,\n      provisioning workflows, and audit events.\n    humanURL: https://docs.app.productiv.com/developer-api/index.html\n    baseURL: https://public-api.productiv.com\n    tags:\n      - Application Portfolio\n      - Audit Events\n      - Data Export\n      - Provisioning\n      - SaaS Management\n      - Spend Data\n      - Usage Analytics\n    properties:\n      - type: Documentation\n        url: https://docs.app.productiv.com/developer-api/index.html\n      - type: OpenAPI\n        url: openapi/productiv-developer-openapi.yml\n      - type: Authentication\n        url: https://docs.app.productiv.com/developer-api/authorization.html\n      - type: GettingStarted\n        url: https://docs.app.productiv.com/developer-api/data-export-getting-started.html\n      - type: JSONSchema\n        url: json-schema/application.json\n      - type: JSONSchema\n\
   \        url: json-schema/app-summary.json\n      - type: JSONSchema\n        url: json-schema/app-details.json\n      - type: JSONSchema\n        url: json-schema/usage-event.json\n      - type: JSONSchema\n        url: json-schema/spend-data.json\n      - type: JSONSchema\n        url: json-schema/provisioned-user.json\n      - type: JSONSchema\n        url: json-schema/org-chart-user.json\n      - type: JSONSchema\n        url: json-schema/provisioning-workflow.json\n      - type: JSONSchema\n        url: json-schema/audit-event.json\n      - type: JSONLD\n        url: json-ld/productiv-context.jsonld\ncommon:\n  - url: https://docs.app.productiv.com/\n    name: Documentation\n    type: Documentation\n    description: 'null'\n  - url: https://productiv.com/\n    name: Website\n    type: DeveloperPortal\n    description: 'null'\n  - url: https://docs.app.productiv.com/developer-api/authorization.html\n    name: Authentication\n    type: Authentication\n    description: 'null'\n  - name:\

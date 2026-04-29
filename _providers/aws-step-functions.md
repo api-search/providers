@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: aws-step-functions-openapi.json
+  format: json
+  label: AWS Step Functions
+  slug: aws-step-functions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-openapi.json
 apis:
 - description: 'AWS Step Functions is a serverless orchestration service that lets you coordinate distributed applications and microservices using visual workflows, integrating with AWS services and supporting error '
   name: AWS Step Functions
@@ -102,6 +109,7 @@ rules:
 skills: []
 slug: aws-step-functions
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: aws-step-functions\nname: AWS Step Functions\ndescription: >-\n  AWS Step Functions is a serverless orchestration service that lets you\n  coordinate distributed applications and microservices using visual workflows,\n  integrating with AWS services and supporting error handling and retries.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - AWS\n  - iPaaS\n  - Orchestration\n  - Serverless\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/apis.yml\ncreated: '2026-03-27'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: aws-step-functions:aws-step-functions\n    name: AWS Step Functions\n    description: >-\n      AWS Step Functions is a serverless orchestration service that lets you\n      coordinate distributed applications and microservices using visual\n      workflows, integrating with AWS services and supporting error handling and\n      retries.\
   \ Define workflows in Amazon States Language with standard and\n      express workflow types.\n    humanURL: https://aws.amazon.com/step-functions/\n    baseURL: https://states.{region}.amazonaws.com\n    tags:\n      - iPaaS\n      - Orchestration\n      - Serverless\n    properties:\n      - type: Documentation\n        url: https://docs.aws.amazon.com/step-functions/\n      - type: GettingStarted\n        url: https://docs.aws.amazon.com/step-functions/latest/dg/getting-started.html\n      - type: OpenAPI\n        url: openapi/aws-step-functions-openapi.json\n      - type: APIReference\n        url: https://docs.aws.amazon.com/step-functions/latest/apireference/Welcome.html\ncommon:\n  - type: Website\n    url: https://aws.amazon.com/step-functions/\n  - type: Documentation\n    url: https://docs.aws.amazon.com/step-functions/\n  - type: TermsOfService\n    url: https://aws.amazon.com/service-terms/\n  - type: PrivacyPolicy\n    url: https://aws.amazon.com/privacy/\n  - type: Support\n\
   \    url: https://aws.amazon.com/premiumsupport/\n  - type: Pricing\n    url: https://aws.amazon.com/step-functions/pricing/\n  - type: Blog\n    url: https://aws.amazon.com/blogs/compute/category/application-services/aws-step-functions/\n  - type: ChangeLog\n    url: https://aws.amazon.com/releasenotes/aws-step-functions/\n  - type: StatusPage\n    url: https://health.aws.amazon.com/health/status\n  - type: SpectralRules\n    url: rules/aws-step-functions-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/aws-step-functions-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/orchestration-workflow.yaml\n  - type: Features\n    data:\n      - name: Visual Workflow Design\n        description: Design and visualize workflows using the Workflow Studio drag-and-drop interface.\n      - name: Amazon States Language\n        description: Define workflows in a JSON-based structured language with built-in error handling and retry logic.\n      - name: AWS Service Integrations\n\

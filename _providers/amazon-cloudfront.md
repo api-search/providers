@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-cloudfront-openapi.yml
+  format: yaml
+  label: Amazon CloudFront API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/openapi/amazon-cloudfront-openapi.yml
 apis:
 - description: API for managing CloudFront distributions, origins, behaviors, cache policies, and edge functions for global content delivery.
   name: Amazon CloudFront API
@@ -108,6 +115,7 @@ rules:
 skills: []
 slug: amazon-cloudfront
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-cloudfront\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/apis.yml\nname: Amazon CloudFront\ntags:\n- AWS\n- CloudFront\n- CDN\n- Content Delivery\n- Edge\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ndescription: >-\n  Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds across 750+\n  globally dispersed Points of Presence.\ncreated: '2024-01-01'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- name: Amazon CloudFront API\n  description: API for managing CloudFront distributions, origins, behaviors, cache policies, and edge functions for global content delivery.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/cloudfront/\n  baseURL: https://cloudfront.amazonaws.com\n\
   \  tags:\n  - AWS\n  - CloudFront\n  - CDN\n  - Content Delivery\n  properties:\n  - type: OpenAPI\n    url: openapi/amazon-cloudfront-openapi.yml\n  - type: Documentation\n    url: https://docs.aws.amazon.com/cloudfront/latest/APIReference/\n  - type: GettingStarted\n    url: https://aws.amazon.com/cloudfront/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/cloudfront/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/cloudfront/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/cloudfront/latest/APIReference/\n  - type: CLI\n    url: https://docs.aws.amazon.com/cli/latest/reference/cloudfront/\n  - type: JSONSchema\n    url: json-schema/cloudfront-distribution-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudfront-distribution-config-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudfront-origin-schema.json\n  - type: JSONSchema\n    url: json-schema/cloudfront-cache-behavior-schema.json\n  - type: JSONSchema\n    url:\
   \ json-schema/cloudfront-invalidation-schema.json\n  - type: JSONLD\n    url: json-ld/amazon-cloudfront-context.jsonld\ncommon:\n- type: Portal\n  url: https://aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/cloudfront/\n- type: Documentation\n  url: https://docs.aws.amazon.com/cloudfront/latest/APIReference/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/networking-and-content-delivery/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/cloudfront/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: YouTube\n  url: https://www.youtube.com/user/AmazonWebServices\n- type: StackOverflow\n  url: https://stackoverflow.com/questions/tagged/amazon-cloudfront\n\

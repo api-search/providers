@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: abortion-policy-api-openapi.yml
+  format: yaml
+  label: Abortion Policy API
+  slug: abortion-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-openapi.yml
 apis:
 - description: The Abortion Policy API consolidates US state abortion laws into one database for third-party developers to use. Data tables include gestational limits, insurance coverage, minors restrictions, and wa
   name: Abortion Policy API
@@ -97,6 +104,7 @@ rules:
 skills: []
 slug: abortion-policy-api
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: abortion-policy-api\nurl: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/apis.yml\nname: Abortion Policy API\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Abortion\n  - Policies\n  - Healthcare\n  - Government\ndescription: >-\n  The Abortion Policy API provides up-to-date information on US state abortion\n  policies that can be integrated into online abortion resources. The API consolidates\n  abortion laws into one database across four data tables covering gestational limits,\n  insurance coverage, minors restrictions, and waiting periods. Data is accessible by\n  US state name or zip code. The project is co-led by Patient Forward and is fiscally\n  sponsored by NEO Philanthropy.\ncreated: '2025-01-07'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: abortion-policy-api:abortion-policy-api\n    name: Abortion Policy API\n    tags:\n      - Abortion\n\
   \      - Policies\n      - Healthcare\n    humanURL: https://www.abortionpolicyapi.com/\n    properties:\n      - type: Documentation\n        url: https://www.abortionpolicyapi.com/\n      - type: Authentication\n        url: https://www.abortionpolicyapi.com/request-access\n      - type: APIReference\n        url: https://www.abortionpolicyapi.com/field-references\n      - type: OpenAPI\n        url: openapi/abortion-policy-api-openapi.yml\n      - type: CodeExamples\n        url: https://github.com/alexanian/abortion-policy-api-examples\n        title: Python/JavaScript Examples\n      - type: JSONSchema\n        url: json-schema/gestational-limits-schema.json\n        title: Gestational Limits Schema\n      - type: JSONSchema\n        url: json-schema/insurance-coverage-schema.json\n        title: Insurance Coverage Schema\n      - type: JSONSchema\n        url: json-schema/minors-restrictions-schema.json\n        title: Minors Restrictions Schema\n      - type: JSONSchema\n      \
   \  url: json-schema/waiting-periods-schema.json\n        title: Waiting Periods Schema\n    description: >-\n      The Abortion Policy API consolidates US state abortion laws into one database\n      for third-party developers to use. Data tables include gestational limits,\n      insurance coverage, minors restrictions, and waiting periods. Access requires\n      requesting an API key. Rate limit is 100 calls per 60 seconds.\ncommon:\n  - type: GettingStarted\n    url: https://www.abortionpolicyapi.com/\n  - type: Authentication\n    url: https://www.abortionpolicyapi.com/request-access\n  - type: APIReference\n    url: https://www.abortionpolicyapi.com/field-references\n  - type: CaseStudies\n    url: https://www.abortionpolicyapi.com/case-studies\n  - type: Support\n    url: https://www.abortionpolicyapi.com/contact\n  - type: TermsOfService\n    url: https://www.abortionpolicyapi.com/terms\n  - type: PrivacyPolicy\n    url: https://www.abortionpolicyapi.com/privacy\n  - type: RateLimits\n\

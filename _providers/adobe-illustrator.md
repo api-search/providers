@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: adobe-illustrator-scripting-openapi-original.yml
+  format: yaml
+  label: Adobe Illustrator Scripting API
+  slug: scripting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-scripting-openapi-original.yml
 apis:
 - description: The Adobe Illustrator Scripting API provides programmatic access to Illustrator's functionality through JavaScript, AppleScript, and VBScript. It allows developers to automate repetitive tasks, manipu
   name: Adobe Illustrator Scripting API
@@ -131,6 +138,7 @@ solutions:
   name: Illustrator Scripting
 - description: Native plugin SDK for performance-critical tools and filters.
   name: Illustrator C++ SDK
+source_filename: apis.yml
 source_yaml: "aid: adobe-illustrator\nurl: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/apis.yml\nname: Adobe Illustrator\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Creative Cloud\n- Design\n- Illustrator\n- Vector Graphics\ndescription: Adobe Illustrator is the industry-standard vector graphics application.\n  Its developer platform offers scripting APIs, UXP plugins, CEP extensions, and a\n  C++ SDK for building custom integrations and automating workflows.\ncreated: '2025-01-01'\nmodified: '2026-04-17'\nspecificationVersion: '0.19'\napis:\n- aid: adobe-illustrator:scripting-api\n  name: Adobe Illustrator Scripting API\n  tags:\n  - AppleScript\n  - Automation\n  - JavaScript\n  - Scripting\n  - VBScript\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.example.com\n  humanURL: https://developer.adobe.com/illustrator/\n  properties:\n\
   \  - url: https://developer.adobe.com/illustrator/\n    type: Documentation\n  - url: openapi/adobe-illustrator-scripting-openapi-original.yml\n    type: OpenAPI\n  description: The Adobe Illustrator Scripting API provides programmatic access to\n    Illustrator's functionality through JavaScript, AppleScript, and VBScript. It\n    allows developers to automate repetitive tasks, manipulate documents, select and\n    edit text, generate art from data, and batch process files. Scripts can control\n    nearly every aspect of Illustrator, from creating and modifying paths and shapes\n    to managing layers, colors, and typography, enabling efficient workflow automation\n    for designers and developers.\n- aid: adobe-illustrator:plugin-sdk\n  name: Adobe Illustrator Plugin SDK\n  tags:\n  - C++\n  - Extensions\n  - Plugins\n  - SDK\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.example.com\n  humanURL: https://developer.adobe.com/illustrator/\n\
   \  properties:\n  - url: https://developer.adobe.com/illustrator/\n    type: Documentation\n  description: The Adobe Illustrator Plugin SDK enables developers to build native\n    C++ plug-ins for Illustrator on Windows and macOS. The SDK opens the entire application\n    to developer control, allowing extensions to add new functions, automate workflows,\n    parse and manipulate image data, apply custom effects, add custom tools to the\n    toolbar, and extend menu functionality. It provides deep integration with Illustrator's\n    architecture for building high-performance extensions.\n- aid: adobe-illustrator:cep-extensions\n  name: Adobe Illustrator CEP Extensions API\n  tags:\n  - CEP\n  - CSS\n  - Extensions\n  - HTML\n  - JavaScript\n  - Panels\n  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n  baseURL: https://api.example.com\n  humanURL: https://developer.adobe.com/illustrator/\n  properties:\n  - url: https://developer.adobe.com/illustrator/\n\

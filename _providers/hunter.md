@@ -1,5 +1,84 @@
 ---
 api_count: 13
+api_specs:
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Domain Search API
+  slug: domain-search
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Email Finder API
+  slug: email-finder
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Email Verifier API
+  slug: email-verifier
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Email Count API
+  slug: email-count
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Account API
+  slug: account
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Discover API
+  slug: discover
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Email Enrichment API
+  slug: email-enrichment
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Company Enrichment API
+  slug: company-enrichment
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Combined Enrichment API
+  slug: combined-enrichment
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Leads API
+  slug: leads
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Leads Lists API
+  slug: leads-lists
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Campaigns API
+  slug: campaigns
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
+- filename: hunter-api-openapi.yml
+  format: yaml
+  label: Hunter Logo API
+  slug: logo
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-openapi.yml
 apis:
 - description: Returns all the email addresses found using a given domain name, with sources.
   name: Hunter Domain Search API
@@ -156,6 +235,7 @@ rules:
 skills: []
 slug: hunter
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: hunter\nname: Hunter\ndescription: Hunter is an email finding and verification service that helps find professional email addresses associated with a domain and verify email deliverability.\nimage: https://hunter.io/images/hunter-logo.png\nurl: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\naccess: 3rd-Party\ntags:\n  - Contact Discovery\n  - Email\n  - Email Verification\n  - Lead Generation\n  - Prospecting\n  - Sales Intelligence\napis:\n  - aid: hunter:domain-search\n    name: Hunter Domain Search API\n    description: Returns all the email addresses found using a given domain name, with sources.\n    image: https://hunter.io/images/hunter-logo.png\n    humanURL: https://hunter.io/api/domain-search\n    baseURL: https://api.hunter.io/v2\n    tags:\n      - Contact Discovery\n      - Domain\n      - Email\n      - Search\n    properties:\n   \
   \   - type: Documentation\n        url: https://hunter.io/api-documentation/v2#domain-search\n      - type: OpenAPI\n        url: openapi/hunter-api-openapi.yml\n    contact:\n      - FN: Hunter Support\n        email: support@hunter.io\n        url: https://hunter.io/contact\n  - aid: hunter:email-finder\n    name: Hunter Email Finder API\n    description: Generates the most likely email address from a domain name, a first name and a last name.\n    image: https://hunter.io/images/hunter-logo.png\n    humanURL: https://hunter.io/api/email-finder\n    baseURL: https://api.hunter.io/v2\n    tags:\n      - Contact Discovery\n      - Email\n      - Finder\n      - Lead Generation\n    properties:\n      - type: Documentation\n        url: https://hunter.io/api-documentation/v2#email-finder\n      - type: OpenAPI\n        url: openapi/hunter-api-openapi.yml\n    contact:\n      - FN: Hunter Support\n        email: support@hunter.io\n        url: https://hunter.io/contact\n  - aid: hunter:email-verifier\n\
   \    name: Hunter Email Verifier API\n    description: Verifies the deliverability of a given email address.\n    image: https://hunter.io/images/hunter-logo.png\n    humanURL: https://hunter.io/api/email-verifier\n    baseURL: https://api.hunter.io/v2\n    tags:\n      - Data Quality\n      - Email\n      - Validation\n      - Verification\n    properties:\n      - type: Documentation\n        url: https://hunter.io/api-documentation/v2#email-verifier\n      - type: OpenAPI\n        url: openapi/hunter-api-openapi.yml\n    contact:\n      - FN: Hunter Support\n        email: support@hunter.io\n        url: https://hunter.io/contact\n  - aid: hunter:email-count\n    name: Hunter Email Count API\n    description: Returns the number of email addresses found for a given domain.\n    image: https://hunter.io/images/hunter-logo.png\n    humanURL: https://hunter.io\n    baseURL: https://api.hunter.io/v2\n    tags:\n      - Analytics\n      - Count\n      - Email\n    properties:\n      - type:\

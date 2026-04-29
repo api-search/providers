@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-finspace-openapi.yml
+  format: yaml
+  label: Amazon FinSpace API
+  slug: amazon-finspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-openapi.yml
 apis:
 - description: The Amazon FinSpace API provides programmatic access to create and manage FinSpace environments, datasets, data views, and user access controls for financial data management and analytics.
   name: Amazon FinSpace API
@@ -107,6 +114,7 @@ name: Amazon FinSpace
 skills: []
 slug: amazon-finspace
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-finspace\nname: Amazon FinSpace\ndescription: >-\n  Amazon FinSpace is a data management and analytics service built specifically\n  for the financial services industry. It reduces the time you spend on\n  time-consuming data preparation tasks and makes it easy for analysts to access\n  and analyze petabytes of financial data with a few clicks.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Capital Markets\n- Data Analytics\n- Data Management\n- Financial Services\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-finspace:amazon-finspace-api\n  name: Amazon FinSpace API\n  description: >-\n    The Amazon FinSpace API provides programmatic access to create and manage\n    FinSpace environments, datasets, data views, and user access controls for\n    financial\
   \ data management and analytics.\n  humanURL: https://aws.amazon.com/finspace/\n  baseURL: https://finspace.amazonaws.com\n  tags:\n  - Data Analytics\n  - Data Management\n  - Financial Services\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/finspace/latest/management-api/fs-api-welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-finspace-openapi.yml\n  - type: JSONSchema\n    url: json-schema/amazon-finspace-environment-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-finspace-kx-environment-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-finspace-kx-cluster-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-finspace-kx-database-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-finspace-kx-user-schema.json\n  - type: JSONStructure\n    url: json-structure/amazon-finspace-environment-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-finspace-kx-environment-structure.json\n \
   \ - type: JSONStructure\n    url: json-structure/amazon-finspace-kx-cluster-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-finspace-kx-database-structure.json\n  - type: JSONStructure\n    url: json-structure/amazon-finspace-kx-user-structure.json\n  - type: Example\n    url: examples/amazon-finspace-environment-example.json\n  - type: Example\n    url: examples/amazon-finspace-kx-environment-example.json\n  - type: Example\n    url: examples/amazon-finspace-kx-cluster-example.json\n  - type: Example\n    url: examples/amazon-finspace-kx-database-example.json\n  - type: Example\n    url: examples/amazon-finspace-kx-user-example.json\n  - type: GettingStarted\n    url: https://aws.amazon.com/finspace/getting-started/\n  - type: Pricing\n    url: https://aws.amazon.com/finspace/pricing/\n  - type: FAQ\n    url: https://aws.amazon.com/finspace/faqs/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/finspace/latest/management-api/fs-api-welcome.html\ncommon:\n\

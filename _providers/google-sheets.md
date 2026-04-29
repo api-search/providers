@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: google-sheets-openapi.yml
+  format: yaml
+  label: Google Sheets API v4
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-openapi.yml
 apis:
 - description: The Google Sheets API lets you read, write, and format Google Sheets data.
   name: Google Sheets API v4
@@ -130,6 +137,7 @@ rules:
 skills: []
 slug: google-sheets
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: google-sheets\nname: Google Sheets\ndescription: >-\n  API for reading, writing, and formatting data in Google Sheets.\nimage: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png\nurl: https://developers.google.com/sheets/api\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - name: Google Sheets API v4\n    description: >-\n      The Google Sheets API lets you read, write, and format Google Sheets data.\n    image: https://www.gstatic.com/images/branding/product/2x/sheets_2020q4_48dp.png\n    humanURL: https://developers.google.com/sheets/api\n    baseURL: https://sheets.googleapis.com/v4\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/sheets/api/reference/rest\n      - type: OpenAPI\n        url: openapi/google-sheets-openapi.yml\n      - type: Authentication\n        url: https://developers.google.com/sheets/api/guides/authorizing\n      - type:\
   \ Quickstart\n        url: https://developers.google.com/sheets/api/quickstart/python\n      - type: GettingStarted\n        url: https://developers.google.com/workspace/sheets/api/guides/concepts\n      - type: APIReference\n        url: https://developers.google.com/workspace/sheets/api/reference/rest\n      - type: SDK\n        url: https://developers.google.com/workspace/sheets/api/guides/libraries\n      - type: ChangeLog\n        url: https://developers.google.com/workspace/sheets/release-notes\n      - type: CodeExamples\n        url: https://developers.google.com/workspace/sheets/api/samples\n      - type: RateLimits\n        url: https://developers.google.com/workspace/sheets/api/limits\n      - type: Errors\n        url: https://developers.google.com/workspace/sheets/api/troubleshoot-api-errors\n      - type: JSONSchema\n        url: json-schema/google-sheets-spreadsheet-schema.json\n      - type: JSONLD\n        url: json-ld/google-sheets-context.jsonld\n    contact:\n     \
   \ - type: Support\n        url: https://support.google.com/developers/\n      - type: StackOverflow\n        url: https://stackoverflow.com/questions/tagged/google-sheets-api\n    tags:\n      - Collaboration\n      - Data\n      - Google\n      - Productivity\n      - Spreadsheets\n  - name: Google Apps Script Spreadsheet Service\n    description: >-\n      The built-in Google Apps Script Spreadsheet Service allows creation, access,\n      and modification of Google Sheets files directly from Apps Script with\n      performance bundling and numerous classes for formatting, data sources,\n      structure, and content.\n    image: https://www.gstatic.com/images/branding/product/2x/apps_script_48dp.png\n    humanURL: https://developers.google.com/apps-script/reference/spreadsheet\n    properties:\n      - type: Documentation\n        url: https://developers.google.com/apps-script/reference/spreadsheet\n      - type: GettingStarted\n        url: https://developers.google.com/apps-script\n\

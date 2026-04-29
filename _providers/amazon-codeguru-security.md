@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-codeguru-security-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeGuru Security API
+  slug: amazon-codeguru-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-openapi-original.yaml
 apis:
 - description: The Amazon CodeGuru Security REST API.
   name: Amazon CodeGuru Security API
@@ -97,6 +104,7 @@ rules:
 skills: []
 slug: amazon-codeguru-security
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-codeguru-security\nname: Amazon CodeGuru Security\ndescription: Amazon CodeGuru Security is a static application security testing (SAST) service that uses machine learning to detect security vulnerabilities in your code. It identifies vulnerabilities \n  such as injection flaws, data exposure risks, and infrastructure-as-code misconfigurations, and provides actionable remediation guidance to help developers fix security issues quickly.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Amazon\n- AWS\n- Security\n- SAST\n- Code Analysis\n- DevSecOps\n- Developer Tools\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-codeguru-security:amazon-codeguru-security-api\n  name: Amazon CodeGuru Security API\n  description: The Amazon CodeGuru Security REST API.\n  humanURL:\
   \ https://docs.aws.amazon.com/codeguru/latest/security-api/Welcome.html\n  baseURL: https://codeguru-security.us-east-1.amazonaws.com\n  tags:\n  - Amazon\n  - AWS\n  - Security\n  - SAST\n  - Code Analysis\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/codegurusecurity/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/codeguru/latest/security-api/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-codeguru-security-openapi-original.yaml\ncommon:\n- type: GettingStarted\n  url: https://docs.aws.amazon.com/codeguru/security\n- type: Pricing\n  url: https://aws.amazon.com/codegurusecurity/pricing/\n- type: Console\n  url: https://console.aws.amazon.com/codegurusecurity/\n- type: Portal\n  url: https://aws.amazon.com/codegurusecurity/\n- type: Documentation\n  url: https://docs.aws.amazon.com/codegurusecurity/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n\
   - type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Blog\n  url: https://aws.amazon.com/blogs/devops/\n- type: SignUp\n  url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: SpectralRules\n  url: rules/amazon-codeguru-security-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-codeguru-security-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/amazon-codeguru-security-security-scanning.yaml\n- type: JSONLD\n  url: json-ld/amazon-codeguru-security-context.jsonld\n- type: Features\n  data:\n  - name: Static Application Security Testing\n    description: Analyze source code for security vulnerabilities without running the application using machine learning-powered SAST.\n  - name: Multi-Language Support\n    description: Detect security issues in Java, Python, JavaScript, TypeScript, C, C++, C#, Go, Ruby, and Kotlin code.\n  - name: Infrastructure-as-Code\

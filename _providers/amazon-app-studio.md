@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-app-studio-openapi.yaml
+  format: yaml
+  label: Amazon App Studio API
+  slug: app-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/openapi/amazon-app-studio-openapi.yaml
 apis:
 - description: The Amazon App Studio API provides programmatic access to App Studio application management, enabling automation of low-code application lifecycle operations including listing and retrieving applicati
   name: Amazon App Studio API
@@ -94,6 +101,7 @@ rules:
 skills: []
 slug: amazon-app-studio
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-app-studio\nname: Amazon App Studio\ndescription: >-\n  Amazon App Studio is a generative AI-powered low-code application builder that enables business users to create internal applications without requiring extensive coding knowledge. Built on AWS infrastructure,\n  App Studio integrates with AWS data sources and services to enable rapid development of enterprise business tools.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- AWS\n- Generative AI\n- Internal Tools\n- Low-Code\n- No-Code\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-app-studio:app-studio-api\n  name: Amazon App Studio API\n  description: The Amazon App Studio API provides programmatic access to App Studio application management, enabling automation of low-code application lifecycle operations\
   \ including listing and \n    retrieving application details.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/app-studio/\n  baseURL: https://appstudio.amazonaws.com\n  tags:\n  - AWS\n  - Low-Code\n  - No-Code\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/app-studio/\n  - type: OpenAPI\n    url: openapi/amazon-app-studio-openapi.yaml\n  - type: JSONSchema\n    url: json-schema/amazon-app-studio-app-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-app-studio-appsummary-schema.json\n  - type: JSONSchema\n    url: json-schema/amazon-app-studio-listappsresponse-schema.json\n  - type: JSONStructure\n    url: json-structure/amazon-app-studio-app-structure.json\n  - type: JSONLD\n    url: json-ld/amazon-app-studio-context.jsonld\n  - type: Pricing\n    url: https://aws.amazon.com/app-studio/pricing/\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\ncommon:\n- type:\
   \ Portal\n  url: https://aws.amazon.com/\n- type: Website\n  url: https://aws.amazon.com/app-studio/\n- type: Documentation\n  url: https://docs.aws.amazon.com/app-studio/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: Console\n  url: https://us-east-1.console.aws.amazon.com/appstudio/\n- type: SignUp\n  url: https://signin.aws.amazon.com/signup?request_type=register\n- type: Status\n  url: https://health.aws.amazon.com/health/status\n- type: SpectralRules\n  url: rules/amazon-app-studio-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/app-studio-management.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-app-studio-vocabulary.yaml\n- type: Features\n  data:\n  - name: Generative AI Application Builder\n\

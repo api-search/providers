@@ -1,5 +1,12 @@
 ---
 api_count: 7
+api_specs:
+- filename: informatica-platform-rest-api-openapi.yml
+  format: yaml
+  label: Informatica Platform REST API
+  slug: informatica
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-platform-rest-api-openapi.yml
 apis:
 - description: The Informatica Intelligent Cloud Services Platform REST API provides access to platform-level resources including login and authentication, roles and privileges, user and user group management, organ
   name: Informatica Platform REST API
@@ -118,6 +125,7 @@ rules:
 skills: []
 slug: informatica
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: informatica\nname: Informatica\nsegments:\n  - iPaaS\ndescription: >-\n  Collection of APIs for Informatica Intelligent Cloud Services (IICS) and\n  Intelligent Data Management Cloud (IDMC), providing programmatic access to\n  data integration, data governance, data quality, master data management,\n  B2B gateway, and platform administration capabilities.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://companieslogo.com/img/orig/INFA-3e1d4e5a.png\ntags:\n  - Address Verification\n  - B2B Gateway\n  - Cloud Services\n  - Data Governance\n  - Data Integration\n  - Data Profiling\n  - Data Quality\n  - Enterprise Software\n  - ETL\n  - IDMC\n  - IICS\n  - Master Data Management\n  - Reference Data Management\ncreated: '2025-01-08'\nmodified: '2026-04-18'\nurl: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: informatica:informatica\n    name: Informatica Platform REST API\n\
   \    description: >-\n      The Informatica Intelligent Cloud Services Platform REST API provides\n      access to platform-level resources including login and authentication,\n      roles and privileges, user and user group management, organizations,\n      connections, schedules, runtime environments, Secure Agent services,\n      object permissions, export and import, source control, projects and\n      folders, licenses, metering data, and security logs. Supports version 2\n      (JSON and XML) and version 3 (JSON) resource formats.\n    humanURL: https://docs.informatica.com/integration-cloud/cloud-platform/current-version/rest-api-reference/informatica-intelligent-cloud-services-rest-api.html\n    tags:\n      - Authentication\n      - Platform\n      - Roles\n      - Users\n    properties:\n      - type: Documentation\n        url: https://docs.informatica.com/integration-cloud/cloud-platform/current-version/rest-api-reference/informatica-intelligent-cloud-services-rest-api.html\n\
   \      - type: Documentation\n        url: https://docs.informatica.com/integration-cloud/b2b-gateway/current-version/rest-api-reference/platform-rest-api-version-3-resources.html\n        title: Platform REST API v3\n      - type: Documentation\n        url: https://docs.informatica.com/integration-cloud/b2b-gateway/current-version/rest-api-reference/platform-rest-api-version-3-resources/roles.html\n        title: Roles API\n      - type: OpenAPI\n        url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-platform-rest-api-openapi.yml\n      - type: OpenAPI\n        url: openapi/informatica-platform-rest-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/informatica-connection-schema.json\n      - type: JSONSchema\n        url: json-schema/informatica-platform-rest-login-request-schema.json\n      - type: JSONSchema\n        url: json-schema/informatica-platform-rest-login-response-schema.json\n      - type: JSONSchema\n\

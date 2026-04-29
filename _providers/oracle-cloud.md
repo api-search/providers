@@ -1,5 +1,54 @@
 ---
 api_count: 8
+api_specs:
+- filename: oracle-cloud-compute-openapi.yaml
+  format: yaml
+  label: Compute API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-compute-openapi.yaml
+- filename: oracle-cloud-object-storage-openapi.yaml
+  format: yaml
+  label: Object Storage API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-object-storage-openapi.yaml
+- filename: oracle-cloud-networking-openapi.yaml
+  format: yaml
+  label: Networking API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-networking-openapi.yaml
+- filename: oracle-cloud-database-openapi.yaml
+  format: yaml
+  label: Database API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-database-openapi.yaml
+- filename: oracle-cloud-iam-openapi.yaml
+  format: yaml
+  label: Identity and Access Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-iam-openapi.yaml
+- filename: oracle-cloud-oke-openapi.yaml
+  format: yaml
+  label: Container Engine for Kubernetes API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-oke-openapi.yaml
+- filename: oracle-cloud-functions-openapi.yaml
+  format: yaml
+  label: Functions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-functions-openapi.yaml
+- filename: oracle-cloud-monitoring-openapi.yaml
+  format: yaml
+  label: Monitoring API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-monitoring-openapi.yaml
 apis:
 - description: Manage compute instances, images, and related resources.
   name: Compute API
@@ -445,6 +494,7 @@ rules:
 skills: []
 slug: oracle-cloud
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: oracle-cloud\nname: Oracle Cloud Infrastructure\ndescription: >-\n  Collection of Oracle Cloud Infrastructure (OCI) REST APIs for managing cloud resources\n  and services.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ncreated: '2024-01-01'\nmodified: '2026-04-18'\nspecificationVersion: '0.19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/apis.yml\ntags:\n- Cloud Computing\n- Enterprise Cloud\n- Infrastructure as a Service\n- Oracle\n- Platform as a Service\napis:\n- name: Compute API\n  description: >-\n    Manage compute instances, images, and related resources.\n  image: https://www.oracle.com/cloud/compute/\n  humanURL: https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/\n  baseURL: https://iaas.{region}.oraclecloud.com\n  tags:\n  - Compute\n  - Instances\n  - Virtual Machines\n  properties:\n  - type: OpenAPI\n    url:\
   \ openapi/oracle-cloud-compute-openapi.yaml\n  - type: Documentation\n    url: https://docs.oracle.com/en-us/iaas/Content/Compute/home.htm\n  - type: Pricing\n    url: https://www.oracle.com/cloud/compute/pricing.html\n  - type: JSONSchema\n    url: json-schema/compute-update-instance-details-schema.json\n  - type: JSONSchema\n    url: json-schema/compute-volume-attachment-schema.json\n  - type: JSONSchema\n    url: json-schema/compute-shape-schema.json\n  - type: JSONSchema\n    url: json-schema/compute-image-schema.json\n  - type: JSONSchema\n    url: json-schema/compute-instance-schema.json\n  - type: JSONSchema\n    url: json-schema/compute-launch-instance-details-schema.json\n  - type: JSONSchema\n    url: json-schema/compute-attach-volume-details-schema.json\n  - type: JSONStructure\n    url: json-structure/compute-volume-attachment-structure.json\n  - type: JSONStructure\n    url: json-structure/compute-launch-instance-details-structure.json\n  - type: JSONStructure\n    url: json-structure/compute-image-structure.json\n\
   \  - type: JSONStructure\n    url: json-structure/compute-shape-structure.json\n  - type: JSONStructure\n    url: json-structure/compute-instance-structure.json\n  - type: JSONStructure\n    url: json-structure/compute-update-instance-details-structure.json\n  - type: JSONStructure\n    url: json-structure/compute-attach-volume-details-structure.json\n  - type: Example\n    url: examples/compute-volume-attachment-example.json\n  - type: Example\n    url: examples/compute-shape-example.json\n  - type: Example\n    url: examples/compute-image-example.json\n  - type: Example\n    url: examples/compute-instance-example.json\n  - type: Example\n    url: examples/compute-update-instance-details-example.json\n  - type: Example\n    url: examples/compute-attach-volume-details-example.json\n  - type: Example\n    url: examples/compute-launch-instance-details-example.json\n- name: Object Storage API\n  description: >-\n    Store and retrieve large amounts of unstructured data.\n  image: https://www.oracle.com/cloud/storage/\n\

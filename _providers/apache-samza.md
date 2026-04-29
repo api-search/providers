@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-samza-rest-api.yaml
+  format: yaml
+  label: Apache Samza
+  slug: apache-samza
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/openapi/apache-samza-rest-api.yaml
 apis:
 - description: Samza provides a high-level Streams API and low-level Task API in Java/Scala for stateful stream processing, with a REST API for job management and integration with Kafka, HDFS, and other data systems
   name: Apache Samza
@@ -72,6 +79,7 @@ rules:
 skills: []
 slug: apache-samza
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-samza\nname: Apache Samza\ndescription: >-\n  Apache Samza is a distributed stream processing framework that provides a simple API for building stateful stream processing applications. It integrates with Apache Kafka for messaging and supports both\n  stream and batch processing.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Big Data\n- Hadoop\n- Kafka\n- Stream Processing\n- Streaming\n- Apache\n- Open Source\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n- aid: apache-samza:apache-samza\n  name: Apache Samza\n  description: >-\n    Samza provides a high-level Streams API and low-level Task API in Java/Scala for stateful stream processing, with a REST API for job management and integration with Kafka, HDFS, and other data systems.\n\
   \  humanURL: https://samza.apache.org/learn/documentation/latest/\n  tags:\n  - Job Management\n  - REST\n  - Stream Processing\n  - Apache\n  - Open Source\n  properties:\n  - type: Documentation\n    url: https://samza.apache.org/learn/documentation/latest/\n  - type: Documentation\n    url: https://samza.apache.org/learn/documentation/\n  - type: OpenAPI\n    url: openapi/apache-samza-rest-api.yaml\nmaintainers:\n- FN: Kin Lane\n  email: info@apievangelist.com\ncommon:\n- type: GitHubOrganization\n  url: https://github.com/apache/samza\n- type: Documentation\n  url: https://samza.apache.org/\n- type: SpectralRules\n  url: rules/apache-samza-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/apache-samza-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/samza-workflow.yaml\n- type: JSON-LD\n  url: json-ld/apache-samza-context.jsonld\n- type: Features\n  data:\n  - name: Kafka Integration\n    description: Native Apache Kafka consumer/producer for stream processing\n\
   \  - name: YARN Execution\n    description: Runs on Apache YARN for resource management and fault tolerance\n  - name: Stateful Processing\n    description: Local state stores with RocksDB for low-latency stateful computations\n  - name: Exactly-Once Processing\n    description: Transactional state stores for exactly-once semantics\n  - name: Flexible Deployment\n    description: Run on YARN, Kubernetes, or standalone\n  - name: High Level API\n    description: Fluent API and SQL support for stream transformations\n- type: UseCases\n  data:\n  - name: Event Stream Processing\n    description: Real-time processing of Kafka event streams\n  - name: Stateful Aggregations\n    description: Windowed aggregations over streaming data\n  - name: Stream Joins\n    description: Join multiple Kafka streams for enrichment\n  - name: Change Data Capture\n    description: Process CDC events from databases in real time\n- type: Integrations\n  data:\n  - name: Apache Kafka\n    description: Primary messaging\

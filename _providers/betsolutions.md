@@ -1,5 +1,12 @@
 ---
 api_count: 6
+api_specs:
+- filename: betsolutions-wallet-api.yaml
+  format: yaml
+  label: BetSolutions Wallet API
+  slug: wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-wallet-api.yaml
 apis:
 - description: Two-mode wallet integration for casino operators. Transfer mode provides deposit, withdraw, and balance operations managed by BetSolutions. Seamless mode enables operator-side wallet management with b
   name: BetSolutions Wallet API
@@ -103,6 +110,7 @@ rules:
 skills: []
 slug: betsolutions
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: betsolutions\nurl: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/apis.yml\nname: BetSolutions\ntags:\n  - Betting\n  - Casinos\n  - Gaming\n  - Gambling\n  - Slots\n  - Sports Betting\nx-type: company\ncreated: '2025-02-24'\nmodified: '2026-04-19'\ndescription: >-\n  BetSolutions provides a casino and gaming platform API offering a two-way HTTP API\n  with JSON data format for implementing requests and responses for slots, single and\n  multiplayer games, and other casino platform services. The platform supports transfer\n  and seamless wallet integration modes, slot campaigns with freespins, table games,\n  provably fair games, poker, and third-party sportsbook integrations. Authentication\n  uses SHA-256 hash-based signing with merchant secret keys.\napis:\n  - aid: betsolutions:wallet-api\n    name: BetSolutions Wallet API\n    tags:\n      - Wallet\n      - Payments\n      - Transfer\n      - Seamless\n    humanURL: https://docs.betsolutions.com/\n\
   \    properties:\n      - type: Documentation\n        url: https://docs.betsolutions.com/\n      - type: OpenAPI\n        url: openapi/betsolutions-wallet-api.yaml\n    description: >-\n      Two-mode wallet integration for casino operators. Transfer mode provides deposit,\n      withdraw, and balance operations managed by BetSolutions. Seamless mode enables\n      operator-side wallet management with bet, win, cancel bet, change win, and balance\n      endpoints called by BetSolutions on the operator's server.\n\n  - aid: betsolutions:player-api\n    name: BetSolutions Player API\n    tags:\n      - Players\n      - Accounts\n      - Information\n    humanURL: https://docs.betsolutions.com/\n    properties:\n      - type: Documentation\n        url: https://docs.betsolutions.com/\n    description: >-\n      Player information and data retrieval endpoints including player profile details,\n      rake data by date range, and game list retrieval with product metadata.\n\n  - aid: betsolutions:slots-api\n\
   \    name: BetSolutions Slots API\n    tags:\n      - Slots\n      - Campaigns\n      - Freespins\n      - Gaming\n    humanURL: https://docs.betsolutions.com/\n    properties:\n      - type: Documentation\n        url: https://docs.betsolutions.com/\n    description: >-\n      Slot game integration and campaign management including freespin campaign creation,\n      deactivation, configuration retrieval, and player assignment for promotional\n      campaigns.\n\n  - aid: betsolutions:table-games-api\n    name: BetSolutions Table Games API\n    tags:\n      - Table Games\n      - Multiplayer\n      - Tournaments\n      - Gaming\n    humanURL: https://docs.betsolutions.com/\n    properties:\n      - type: Documentation\n        url: https://docs.betsolutions.com/\n    description: >-\n      Multiplayer table game integration supporting Backgammon, Bura, Okey, Domino,\n      and Seka. Includes tournament management with types and statuses, and achievement\n      systems for player engagement.\n\

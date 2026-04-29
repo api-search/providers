@@ -1,5 +1,24 @@
 ---
 api_count: 3
+api_specs:
+- filename: kafka-rest-proxy.yml
+  format: yaml
+  label: Kafka REST Proxy API
+  slug: kafka-rest-proxy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/openapi/kafka-rest-proxy.yml
+- filename: kafka-connect.yml
+  format: yaml
+  label: Kafka Connect REST API
+  slug: kafka-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/openapi/kafka-connect.yml
+- filename: kafka-messaging.yml
+  format: yaml
+  label: Apache Kafka Messaging API
+  slug: kafka-messaging-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/asyncapi/kafka-messaging.yml
 apis:
 - description: 'The Kafka REST Proxy provides a RESTful interface to a Kafka cluster for producing and consuming messages, managing topics, partitions, consumer groups, and viewing cluster state without native Kafka '
   name: Kafka REST Proxy API
@@ -113,6 +132,7 @@ rules:
 skills: []
 slug: apache-kafka
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: apache-kafka\nname: Apache Kafka\ndescription: >-\n  Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. It provides a REST Proxy API, Kafka Connect REST API, and AsyncAPI for event streaming.\ntype: Index\nposition: Consumer\naccess: 3rd-Party\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Distributed Systems\n  - Event Streaming\n  - Messaging\n  - Open Source\n  - Pub-Sub\ncreated: '2025-06-05'\nmodified: '2026-04-19'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: apache-kafka:kafka-rest-proxy-api\n    name: Kafka REST Proxy API\n    description: >-\n      The Kafka REST Proxy provides a RESTful interface to a Kafka cluster for producing and consuming messages, managing\
   \ topics, partitions, consumer groups, and viewing cluster state without native Kafka clients.\n    humanURL: https://docs.confluent.io/platform/current/kafka-rest/\n    baseURL: http://localhost:8082\n    tags:\n      - Consumer Groups\n      - Proxy\n      - REST\n      - Topics\n    properties:\n      - type: Documentation\n        url: https://docs.confluent.io/platform/current/kafka-rest/api.html\n      - type: OpenAPI\n        url: openapi/kafka-rest-proxy.yml\n\n  - aid: apache-kafka:kafka-connect-api\n    name: Kafka Connect REST API\n    description: >-\n      Kafka Connect REST API for managing connectors, their configurations, tasks, and offsets for integrating Kafka with external data systems including databases, object stores, and search indexes.\n    humanURL: https://kafka.apache.org/documentation/#connect_rest\n    baseURL: http://localhost:8083\n    tags:\n      - Connect\n      - Connectors\n      - Integration\n    properties:\n      - type: Documentation\n        url:\
   \ https://kafka.apache.org/documentation/#connect_rest\n      - type: OpenAPI\n        url: openapi/kafka-connect.yml\n\n  - aid: apache-kafka:kafka-messaging-api\n    name: Apache Kafka Messaging API\n    description: >-\n      The core Kafka messaging protocol for producing and consuming records to/from topics using the native Kafka binary protocol, supporting exactly-once semantics, compaction, and partitioned log storage.\n    humanURL: https://kafka.apache.org/documentation/#producerapi\n    tags:\n      - Messaging\n      - Pub-Sub\n      - Streaming\n    properties:\n      - type: Documentation\n        url: https://kafka.apache.org/documentation/\n      - type: AsyncAPI\n        url: asyncapi/kafka-messaging.yml\n\ncommon:\n  - type: GitHubOrganization\n    url: https://github.com/apache\n  - type: GitHubRepository\n    url: https://github.com/apache/kafka\n  - type: Documentation\n    url: https://kafka.apache.org/documentation/\n  - type: GettingStarted\n    url: https://kafka.apache.org/quickstart\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-pinpoint-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-openapi.yml
 apis:
 - description: The Amazon Pinpoint API enables you to create and manage marketing campaigns, send transactional messages, define audience segments, manage message templates, configure messaging channels (email, SMS,
   name: Amazon Pinpoint API
@@ -3170,6 +3177,7 @@ rules:
 skills: []
 slug: amazon-pinpoint
 solutions: []
+source_filename: apis.yml
 source_yaml: "name: Amazon Pinpoint\ndescription: Amazon Pinpoint is a flexible and scalable outbound and inbound marketing communications service that enables you to engage with customers across multiple messaging channels including \n  email, SMS, push notifications, and voice messages. Note - AWS will end support for Amazon Pinpoint on October 30, 2026. SMS, voice, mobile push, OTP, and phone number validation APIs will continue \n  through AWS End User Messaging.\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/apis.yml\ntype: Index\nimage: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\ntags:\n- AWS\n- Campaigns\n- Communications\n- Email\n- Marketing\n- Messaging\n- Push Notifications\n- SMS\n- Voice\n- Customer Engagement\n- Segmentation\n- Journeys\n- Analytics\ncreated: '2024-01-15'\nmodified: '2026-04-19'\napis:\n- name: Amazon Pinpoint API\n  description: The Amazon Pinpoint API enables you to create and manage\
   \ marketing campaigns, send transactional messages, define audience segments, manage message templates, configure messaging \n    channels (email, SMS, push, voice), and analyze engagement metrics for multi-channel communications.\n  image: https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png\n  humanURL: https://aws.amazon.com/pinpoint/\n  baseURL: https://pinpoint.amazonaws.com\n  tags:\n  - Communications\n  - Marketing\n  - Messaging\n  - Campaigns\n  - Segmentation\n  - Journeys\n  - Analytics\n  - Email\n  - SMS\n  - Push Notifications\n  - Voice\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/pinpoint/latest/developerguide/welcome.html\n  - type: APIReference\n    url: https://docs.aws.amazon.com/pinpoint/latest/apireference/welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-pinpoint-openapi.yml\n  - type: OpenAPI\n    url: openapi/amazon-pinpoint-openapi-original.yaml\n  - type: Pricing\n    url: https://aws.amazon.com/pinpoint/pricing/\n\
   \  - type: GettingStarted\n    url: https://aws.amazon.com/pinpoint/getting-started/\n  - type: FAQ\n    url: https://aws.amazon.com/pinpoint/faqs/\n  - type: Features\n    url: https://aws.amazon.com/pinpoint/features/\n  - type: Quotas\n    url: https://docs.aws.amazon.com/pinpoint/latest/developerguide/quotas.html\n  - type: Authentication\n    url: https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html\n  - type: RateLimits\n    url: https://docs.aws.amazon.com/pinpoint/latest/developerguide/quotas.html\ncommon:\n- type: Portal\n  url: https://console.aws.amazon.com/pinpoint/\n- type: Blog\n  url: https://aws.amazon.com/blogs/messaging-and-targeting/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: CLI\n  url: https://docs.aws.amazon.com/cli/latest/reference/pinpoint/\n- type: SDK\n  url: https://aws.amazon.com/tools/\n- type: StatusPage\n  url: https://status.aws.amazon.com/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n\

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: ampersand-api-openapi-original.yml
+  format: yaml
+  label: Ampersand API
+  slug: ampersand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/openapi/ampersand-api-openapi-original.yml
 apis:
 - description: The Ampersand API enables developers to programmatically manage integrations, connections, installations, destinations, and data flows for SaaS-to-SaaS connectivity. It provides endpoints for managing
   name: Ampersand API
@@ -103,6 +110,7 @@ rules:
 skills: []
 slug: ampersand
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: ampersand\nurl: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/apis.yml\nname: Ampersand\ndescription: >-\n  Ampersand is a developer-first platform for building native SaaS integrations.\n  It provides an embeddable UI component and managed infrastructure that lets\n  developers add product integrations quickly, handling OAuth, data sync,\n  webhooks, and field mapping out of the box. The platform supports hundreds of\n  SaaS connectors including Salesforce, HubSpot, Marketo, Microsoft Dynamics 365,\n  Zendesk, and Gong with bi-directional sync and declarative configuration.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Developer Tools\n  - Integrations\n  - Platform\n  - SaaS\n  - OAuth\n  - Data Sync\n  - Webhooks\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: ampersand:ampersand-api\n    name: Ampersand API\n    description: >-\n      The Ampersand\
   \ API enables developers to programmatically manage\n      integrations, connections, installations, destinations, and data flows\n      for SaaS-to-SaaS connectivity. It provides endpoints for managing\n      installations, connections, destinations, API keys, projects, organizations,\n      providers, and integration configurations within the Ampersand platform.\n    humanURL: https://docs.withampersand.com/\n    baseURL: https://api.withampersand.com\n    tags:\n      - Integrations\n      - Platform\n      - SaaS\n      - OAuth\n      - Data Sync\n    properties:\n      - type: Documentation\n        url: https://docs.withampersand.com/\n      - type: GettingStarted\n        url: https://docs.withampersand.com/getting-started\n      - type: Authentication\n        url: https://docs.withampersand.com/reference/authentication\n      - type: OpenAPI\n        url: openapi/ampersand-api-openapi-original.yml\ncommon:\n  - type: Website\n    url: https://www.withampersand.com/\n  - type:\
   \ Documentation\n    url: https://docs.withampersand.com/\n  - type: GitHubOrganization\n    url: https://github.com/amp-labs\n  - type: Blog\n    url: https://www.withampersand.com/blog\n  - type: SignUp\n    url: https://dashboard.withampersand.com/sign-up\n  - type: Login\n    url: https://dashboard.withampersand.com/sign-in\n  - type: SDK\n    url: https://www.npmjs.com/package/@amp-labs/react\n    title: React UI SDK\n  - type: CLI\n    url: https://github.com/amp-labs/cli\n  - type: SpectralRules\n    url: rules/ampersand-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/shared/ampersand-api.yaml\n  - type: NaftikoCapability\n    url: capabilities/integration-management.yaml\n  - type: JSONLD\n    url: json-ld/ampersand-api-context.jsonld\n  - type: Vocabulary\n    url: vocabulary/ampersand-vocabulary.yaml\n  - type: Features\n    data:\n      - name: Declarative Integration Framework\n        description: Code-based, composable integration building that is version-controllable\

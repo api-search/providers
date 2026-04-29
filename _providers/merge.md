@@ -1,5 +1,42 @@
 ---
 api_count: 10
+api_specs:
+- filename: merge-hris-api-openapi.yaml
+  format: yaml
+  label: Merge HRIS API
+  slug: hris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-hris-api-openapi.yaml
+- filename: merge-ats-api-openapi.yaml
+  format: yaml
+  label: Merge ATS API
+  slug: ats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-ats-api-openapi.yaml
+- filename: merge-accounting-api-openapi.yaml
+  format: yaml
+  label: Merge Accounting API
+  slug: accounting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-accounting-api-openapi.yaml
+- filename: merge-ticketing-api-openapi.yaml
+  format: yaml
+  label: Merge Ticketing API
+  slug: ticketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-ticketing-api-openapi.yaml
+- filename: merge-crm-api-openapi.yaml
+  format: yaml
+  label: Merge CRM API
+  slug: crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-crm-api-openapi.yaml
+- filename: merge-file-storage-api-openapi.yaml
+  format: yaml
+  label: Merge File Storage API
+  slug: file-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-file-storage-api-openapi.yaml
 apis:
 - description: Merge is the leading provider of customer-facing integrations for frontier LLMs, Fortune 500 organizations, and thousands of other B2B SaaS companies.
   name: Merge
@@ -265,6 +302,7 @@ solutions:
   name: Unified File Storage
 - description: AI agent tool orchestration for thousands of pre-built integrations.
   name: Agent Handler
+source_filename: apis.yml
 source_yaml: "aid: merge\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/apis.yml\napis:\n  - aid: merge:merge\n    name: Merge\n    tags:\n      - Integrations\n      - Platform\n      - Unified API\n    humanURL: ' https://www.merge.dev/'\n    properties:\n      - url: ' https://www.merge.dev/'\n        type: Documentation\n    description: >-\n      Merge is the leading provider of customer-facing integrations for frontier LLMs,\n      Fortune 500 organizations, and thousands of other B2B SaaS companies.\n  - aid: merge:hris-api\n    name: Merge HRIS API\n    tags:\n      - Directory\n      - HRIS\n      - Human Resources\n      - Payroll\n      - Unified API\n    humanURL: https://www.merge.dev/categories/hr-payroll-api\n    properties:\n      - url: https://www.merge.dev/categories/hr-payroll-api\n        type: Website\n      - url: https://docs.merge.dev/hris/\n        type: Documentation\n      - url: openapi/merge-hris-api-openapi.yaml\n       \
   \ type: OpenAPI\n      - url: json-schema/hris-api-employee-schema.json\n        type: JSONSchema\n      - url: json-structure/hris-api-employee-structure.json\n        type: JSONStructure\n      - url: json-ld/merge-hris-api-context.jsonld\n        type: JSONLD\n      - url: examples/hris-api-employee-example.json\n        type: Example\n    description: >-\n      Merge HRIS API provides a unified interface to integrate every HR,\n      payroll, and SCIM directory system with one API. It normalizes data\n      across 80+ HR platforms including Workday, BambooHR, Gusto, Rippling,\n      ADP, and many more, enabling developers to deliver integrations in\n      days instead of quarters.\n  - aid: merge:ats-api\n    name: Merge ATS API\n    tags:\n      - Applicant Tracking\n      - ATS\n      - Recruiting\n      - Unified API\n    humanURL: https://www.merge.dev/categories/ats-recruiting-api\n    properties:\n      - url: https://www.merge.dev/categories/ats-recruiting-api\n        type:\
   \ Website\n      - url: https://docs.merge.dev/ats/\n        type: Documentation\n      - url: openapi/merge-ats-api-openapi.yaml\n        type: OpenAPI\n      - url: json-schema/ats-api-candidate-schema.json\n        type: JSONSchema\n      - url: json-schema/ats-api-application-schema.json\n        type: JSONSchema\n      - url: json-structure/ats-api-candidate-structure.json\n        type: JSONStructure\n      - url: json-ld/merge-ats-api-context.jsonld\n        type: JSONLD\n      - url: examples/ats-api-candidate-example.json\n        type: Example\n      - url: examples/ats-api-application-example.json\n        type: Example\n    description: >-\n      Merge ATS API enables connection to every applicant tracking system with\n      one API. It provides standardized data schemas for candidates,\n      applications, interviews, and job postings across 50+ recruiting\n      platforms including Greenhouse, Lever, Workday, iCIMS, and Jobvite.\n  - aid: merge:accounting-api\n    name: Merge\

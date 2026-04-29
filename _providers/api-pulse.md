@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: api-pulse-publish-openapi.yml
+  format: yaml
+  label: API Pulse Publish API
+  slug: api-pulse-publish
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/openapi/api-pulse-publish-openapi.yml
 apis:
 - description: The API Pulse Publish API accepts survey signal submissions from organizations documenting their API practices. Signals include people and organization profiling, API inventory counts, technology stac
   name: API Pulse Publish API
@@ -36,6 +43,7 @@ name: API Pulse
 skills: []
 slug: api-pulse
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: api-pulse\nname: API Pulse\ndescription: >-\n  API Pulse is a comprehensive survey and benchmarking platform created by API\n  Evangelist that helps organizations understand their API maturity and standing\n  within their business sector. It collects detailed data about how companies\n  develop, deploy, and manage APIs across technology stack, authentication,\n  standards adoption, CI/CD integration, and organizational structure.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - API Benchmarking\n  - API Evangelist\n  - API Governance\n  - API Maturity\n  - Survey\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/apis.yml\ncreated: '2025-02-10'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: api-pulse:api-pulse-publish\n    name: API Pulse Publish API\n    description: >-\n      The API Pulse Publish API accepts survey signal submissions from\n      organizations\
   \ documenting their API practices. Signals include people and\n      organization profiling, API inventory counts, technology stack mapping,\n      authentication methods, standards adoption, CI/CD integration status, and\n      experience prioritization dimensions.\n    humanURL: http://theapipulse.com/\n    tags:\n      - API Benchmarking\n      - API Governance\n      - API Maturity\n      - Publishing\n      - Survey\n    properties:\n      - type: OpenAPI\n        url: openapi/api-pulse-publish-openapi.yml\n      - type: Documentation\n        url: http://theapipulse.com/\n      - type: GitHubRepository\n        url: https://github.com/api-evangelist/api-pulse\ncommon:\n  - type: Website\n    url: http://theapipulse.com/\n  - type: GitHubRepository\n    url: https://github.com/api-evangelist/api-pulse\n  - type: Features\n    data:\n      - name: People and Organization Profiling\n        description: Gathers details about team roles, organizational structure, and geographic location\
   \ to contextualize API maturity.\n      - name: API Inventory Assessment\n        description: Documents counts of internal, partner, and public APIs to establish portfolio breadth.\n      - name: Technology Stack Mapping\n        description: Tracks usage of HTTP APIs, GraphQL, event-driven architectures, and RPC protocols across the organization.\n      - name: Authentication Methods Tracking\n        description: Records implementation of BasicAuth, API keys, JWT, and OAuth across API products.\n      - name: Standards Adoption Measurement\n        description: Measures use of OpenAPI, AsyncAPI, JSON Schema, and other API specifications.\n      - name: CI/CD Integration Assessment\n        description: Identifies governance tools like Spectral, Vacuum, and Redocly integrated into development pipelines.\n      - name: Experience Prioritization Evaluation\n        description: Evaluates organizational priorities for documentation, SDKs, testing, and consistency.\n  - type: UseCases\n\

@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: cigna-patient-access-api-openapi.yml
+  format: yaml
+  label: Cigna Patient Access API
+  slug: patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-patient-access-api-openapi.yml
+- filename: cigna-provider-directory-api-openapi.yml
+  format: yaml
+  label: Cigna Provider Directory API
+  slug: provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-provider-directory-api-openapi.yml
+- filename: cigna-drug-formulary-api-openapi.yml
+  format: yaml
+  label: Cigna Drug Formulary API
+  slug: drug-formulary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-drug-formulary-api-openapi.yml
+- filename: cigna-provider-access-api-openapi.yml
+  format: yaml
+  label: Cigna Provider Access API
+  slug: provider-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-provider-access-api-openapi.yml
 apis:
 - description: FHIR R4 API that allows authorized third-party applications to access a Cigna member's claims, encounters, clinical data, coverage, and pharmacy information after the member completes SMART on FHIR au
   name: Cigna Patient Access API
@@ -63,6 +88,7 @@ name: Cigna
 skills: []
 slug: cigna
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: cigna\nname: Cigna\ndescription: >-\n  Cigna Healthcare is a leading global health services company offering\n  medical, dental, behavioral, and pharmacy plans for individuals, families,\n  and employers. The Cigna Developer Portal exposes CMS-mandated FHIR APIs\n  for Patient Access, Provider Directory, Drug Formulary, and Provider Access,\n  along with member and provider service APIs that enable third-party\n  applications, electronic health record systems, and partners to access\n  member health data with consent and look up Cigna network providers and\n  formulary information.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/apis.yml\ntype: Index\naccess: 3rd-Party\nposition: Consumer\ntags:\n  - CMS Interoperability\n  - Da Vinci\n  - Drug Formulary\n  - FHIR\n  - Health Insurance\n  - Healthcare\n  - Patient Access\n  - Provider Directory\n  - SMART\
   \ on FHIR\ncreated: '2025-02-21'\nmodified: '2026-04-23'\nspecificationVersion: '0.20'\napis:\n  - aid: cigna:patient-access-api\n    name: Cigna Patient Access API\n    description: >-\n      FHIR R4 API that allows authorized third-party applications to access\n      a Cigna member's claims, encounters, clinical data, coverage, and\n      pharmacy information after the member completes SMART on FHIR\n      authorization. Conforms to the CMS Interoperability and Patient Access\n      final rule and the HL7 Da Vinci PDex implementation guide.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: >-\n      https://developer.cigna.com/docs/service-apis/patient-access/implementation-guide\n    baseURL: https://fhir.cigna.com/PatientAccess/v1\n    tags:\n      - CMS Interoperability\n      - FHIR\n      - Patient Access\n      - SMART on FHIR\n    properties:\n      - type: Documentation\n        url: >-\n          https://developer.cigna.com/docs/service-apis/patient-access/implementation-guide\n\
   \      - type: OpenAPI\n        url: openapi/cigna-patient-access-api-openapi.yml\n  - aid: cigna:provider-directory-api\n    name: Cigna Provider Directory API\n    description: >-\n      Public FHIR-based Provider Directory API listing Cigna's contracted\n      network providers, organizations, locations, healthcare services, and\n      practitioner roles. Conforms to the HL7 Da Vinci PDex Plan Network\n      implementation guide and the CMS Provider Directory API requirements.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: >-\n      https://developer.cigna.com/docs/service-apis/provider-directory/implementation-guide\n    baseURL: https://fhir.cigna.com/ProviderDirectory/v1\n    tags:\n      - CMS Interoperability\n      - FHIR\n      - Provider Directory\n      - Public API\n    properties:\n      - type: Documentation\n        url: >-\n          https://developer.cigna.com/docs/service-apis/provider-directory/implementation-guide\n\

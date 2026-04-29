@@ -1,5 +1,42 @@
 ---
 api_count: 12
+api_specs:
+- filename: docusign-openapi-original.yml
+  format: yaml
+  label: Docusign eSignature REST API
+  slug: docusign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-openapi-original.yml
+- filename: docusign-admin-openapi-original.yml
+  format: yaml
+  label: Docusign Admin API
+  slug: docusign-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-admin-openapi-original.yml
+- filename: docusign-click-openapi-original.yml
+  format: yaml
+  label: Docusign Click API
+  slug: docusign-click-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-click-openapi-original.yml
+- filename: docusign-maestro-openapi-original.yml
+  format: yaml
+  label: Docusign Maestro API
+  slug: docusign-maestro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-maestro-openapi-original.yml
+- filename: docusign-monitor-openapi-original.yml
+  format: yaml
+  label: Docusign Monitor API
+  slug: docusign-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-monitor-openapi-original.yml
+- filename: docusign-rooms-openapi-original.yml
+  format: yaml
+  label: Docusign Rooms API
+  slug: docusign-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-rooms-openapi-original.yml
 apis:
 - description: The Docusign eSignature REST API provides a powerful, convenient, and simple web services API for interacting with Docusign. It enables developers to integrate electronic signing capabilities directly
   name: Docusign eSignature REST API
@@ -150,6 +187,7 @@ rules:
 skills: []
 slug: docusign
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: docusign\nurl: '\n\n  https://raw.githubusercontent.com/api-search/documents/main/_apis/docusign/apis.md'\napis:\n  - aid: docusign:docusign-api\n    name: Docusign eSignature REST API\n    tags:\n      - Documents\n      - Envelopes\n      - Signatures\n      - Templates\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://demo.docusign.net/restapi\n    humanURL: https://developers.docusign.com/docs/esign-rest-api/\n    properties:\n      - url: https://developers.docusign.com/docs/esign-rest-api/reference/\n        type: Documentation\n      - url: openapi/docusign-openapi-original.yml\n        type: OpenAPI\n      - url: openapi/docusign-esignature-openapi.yml\n        type: OpenAPI\n      - url: asyncapi/docusign-connect-asyncapi.yml\n        type: AsyncAPI\n      - url: json-schema/docusign-envelope-schema.json\n        type: JSONSchema\n      - url: json-ld/docusign-context.jsonld\n        type: JSONLD\n   \
   \   - url: https://developers.docusign.com/docs/esign-rest-api/esign101/\n        type: GettingStarted\n      - url: https://developers.docusign.com/docs/esign-rest-api/how-to/\n        type: Tutorials\n      - url: https://developers.docusign.com/docs/esign-rest-api/esign101/rules-and-limits/\n        type: RateLimits\n      - url: https://developers.docusign.com/docs/esign-rest-api/sdks/\n        type: SDK\n    description: >-\n      The Docusign eSignature REST API provides a powerful, convenient, and simple\n      web services API for interacting with Docusign. It enables developers to\n      integrate electronic signing capabilities directly into applications and\n      websites, allowing businesses to send, sign, and manage documents securely\n      and efficiently with support for sequential and parallel signing workflows,\n      document management, templates, and real-time status tracking.\n  - aid: docusign:docusign-admin-api\n    name: Docusign Admin API\n    tags:\n      -\
   \ Accounts\n      - Administration\n      - Organizations\n      - Users\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api-d.docusign.net/management\n    humanURL: https://developers.docusign.com/docs/admin-api/\n    properties:\n      - url: https://developers.docusign.com/docs/admin-api/reference/\n        type: Documentation\n      - url: openapi/docusign-admin-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.docusign.com/docs/admin-api/admin101/\n        type: GettingStarted\n      - url: https://developers.docusign.com/docs/admin-api/how-to/\n        type: Tutorials\n      - url: https://developers.docusign.com/docs/admin-api/admin101/rules-and-limits/\n        type: RateLimits\n      - url: https://developers.docusign.com/docs/admin-api/sdks/\n        type: SDK\n    description: >-\n      The Docusign Admin API enables organizations to automate and programmatically\n      execute administrative\

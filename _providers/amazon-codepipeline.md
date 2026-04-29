@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-codepipeline-openapi-original.yaml
+  format: yaml
+  label: Amazon CodePipeline API
+  slug: amazon-codepipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/openapi/amazon-codepipeline-openapi-original.yaml
 apis:
 - description: The Amazon CodePipeline REST API.
   name: Amazon CodePipeline API
@@ -111,6 +118,7 @@ rules:
 skills: []
 slug: amazon-codepipeline
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: amazon-codepipeline\nname: Amazon CodePipeline\ndescription: AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates. CodePipeline \n  automates the build, test, and deploy phases of your release process every time there is a code change, based on the release model you define.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n- Amazon\n- AWS\n- CI/CD\n- Continuous Delivery\n- DevOps\n- Pipeline\n- Release Automation\nurl: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n- aid: amazon-codepipeline:amazon-codepipeline-api\n  name: Amazon CodePipeline API\n  description: The Amazon CodePipeline REST API.\n  humanURL: https://docs.aws.amazon.com/codepipeline/latest/APIReference/Welcome.html\n\
   \  baseURL: https://codepipeline.us-east-1.amazonaws.com\n  tags:\n  - Amazon\n  - AWS\n  - CI/CD\n  - Continuous Delivery\n  - DevOps\n  properties:\n  - type: Documentation\n    url: https://docs.aws.amazon.com/codepipeline/\n  - type: APIReference\n    url: https://docs.aws.amazon.com/codepipeline/latest/APIReference/Welcome.html\n  - type: OpenAPI\n    url: openapi/amazon-codepipeline-openapi-original.yaml\ncommon:\n- type: GettingStarted\n  url: https://docs.aws.amazon.com/codepipeline\n- type: Pricing\n  url: https://aws.amazon.com/codepipeline/pricing/\n- type: Console\n  url: https://console.aws.amazon.com/codepipeline/\n- type: Portal\n  url: https://aws.amazon.com/codepipeline/\n- type: Documentation\n  url: https://docs.aws.amazon.com/codepipeline/\n- type: TermsOfService\n  url: https://aws.amazon.com/service-terms/\n- type: PrivacyPolicy\n  url: https://aws.amazon.com/privacy/\n- type: StatusPage\n  url: https://health.aws.amazon.com/health/status\n- type: Blog\n  url: https://aws.amazon.com/blogs/devops/\n\
   - type: SignUp\n  url: https://portal.aws.amazon.com/gp/aws/developer/registration/index.html\n- type: GitHubOrganization\n  url: https://github.com/aws\n- type: SpectralRules\n  url: rules/amazon-codepipeline-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-codepipeline-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/amazon-codepipeline-release-pipeline.yaml\n- type: JSONLD\n  url: json-ld/amazon-codepipeline-context.jsonld\n- type: Features\n  data:\n  - name: Pipeline Automation\n    description: Automate the entire release process from source code to production with customizable pipeline stages and actions.\n  - name: Parallel Execution\n    description: Run multiple actions in parallel within a pipeline stage to speed up your delivery workflows.\n  - name: Manual Approval Actions\n    description: Add manual approval gates to pipelines for human review before promoting changes to production environments.\n  - name: Pipeline Conditions\n    description:\

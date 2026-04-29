@@ -1,5 +1,12 @@
 ---
 api_count: 62
+api_specs:
+- filename: confluence-cloud-v2.yml
+  format: yaml
+  label: Confluence Cloud REST API v2
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-cloud-v2.yml
 apis:
 - description: Primary REST API for Confluence Cloud for content, spaces, and user management.
   name: Confluence Cloud REST API v1
@@ -386,6 +393,7 @@ rules:
 skills: []
 slug: confluence
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: confluence\nname: Confluence\ndescription: >-\n  APIs for Atlassian Confluence - team collaboration and knowledge management software.\nimage: https://www.atlassian.com/dam/jcr:5d1374c2-276f-4bca-9ce4-b3f5e2dd5d6c/confluence-icon-gradient-blue.svg\ntags:\n  - Collaboration\n  - Content Management\n  - Documentation\n  - Knowledge Base\n  - Wiki\ncreated: '2024'\nmodified: '2026-04-18'\nurl: https://developer.atlassian.com/cloud/confluence/rest/v1/intro/\napis:\n  - name: Confluence Cloud REST API v1\n    description: >-\n      Primary REST API for Confluence Cloud for content, spaces, and user management.\n    image: https://www.atlassian.com/dam/jcr:5d1374c2-276f-4bca-9ce4-b3f5e2dd5d6c/confluence-icon-gradient-blue.svg\n    humanURL: https://developer.atlassian.com/cloud/confluence/rest/v1/intro/\n    baseURL: https://your-domain.atlassian.net/wiki/rest/api\n    tags:\n      - Cloud\n      - Content\n      - Rest\n      - Spaces\n    properties:\n      - type: Documentation\n\
   \        url: https://developer.atlassian.com/cloud/confluence/rest/v1/intro/\n      - type: OpenAPI\n        url: https://dac-static.atlassian.com/cloud/confluence/swagger.v3.json\n      - type: Authentication\n        url: https://developer.atlassian.com/cloud/confluence/rest/v1/intro/#auth\n      - type: CodeExamples\n        url: https://developer.atlassian.com/cloud/confluence/rest-api-examples/\n      - type: GettingStarted\n        url: https://developer.atlassian.com/cloud/confluence/getting-started/\n      - type: ChangeLog\n        url: https://developer.atlassian.com/cloud/confluence/changelog/\n      - type: SDK\n        url: https://www.postman.com/api-evangelist/atlassian-confluence/collection/k3y2x73/atlassian-confluence-cloud\n  - name: Confluence Cloud REST API v2\n    description: >-\n      Next generation Confluence Cloud REST API with improved performance and new\n      features.\n    image: https://www.atlassian.com/dam/jcr:5d1374c2-276f-4bca-9ce4-b3f5e2dd5d6c/confluence-icon-gradient-blue.svg\n\
   \    humanURL: https://developer.atlassian.com/cloud/confluence/rest/v2/intro/\n    baseURL: https://your-domain.atlassian.net/wiki/api/v2\n    tags:\n      - Cloud\n      - Pages\n      - Rest\n      - V2\n    properties:\n      - type: Documentation\n        url: https://developer.atlassian.com/cloud/confluence/rest/v2/intro/\n      - type: OpenAPI\n        url: https://developer.atlassian.com/cloud/confluence/rest/v2/api-spec/\n      - type: OpenAPI\n        url: openapi/confluence-cloud-v2.yml\n      - type: Authentication\n        url: https://developer.atlassian.com/cloud/confluence/rest/v2/intro/#authentication\n      - type: GettingStarted\n        url: https://developer.atlassian.com/cloud/confluence/getting-started/\n      - type: ChangeLog\n        url: https://developer.atlassian.com/cloud/confluence/changelog/\n      - type: SDK\n        url: https://www.postman.com/api-reference-library/atlassian-cloud/collection/0a0hjxk/the-confluence-cloud-rest-api-v2\n  - name: Confluence\

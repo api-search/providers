@@ -1,5 +1,168 @@
 ---
 api_count: 45
+api_specs:
+- filename: asana-allocations-api-openapi.yml
+  format: yaml
+  label: Asana Allocations  API
+  slug: asana-allocations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-allocations-api-openapi.yml
+- filename: asana-attachments-api-openapi.yml
+  format: yaml
+  label: Asana Attachments  API
+  slug: asana-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-attachments-api-openapi.yml
+- filename: asana-batch-api-openapi.yml
+  format: yaml
+  label: Asana Batch  API
+  slug: asana-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-batch-api-openapi.yml
+- filename: asana-custom-fields-api-openapi.yml
+  format: yaml
+  label: Asana Custom Fields  API
+  slug: asana-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-custom-fields-api-openapi.yml
+- filename: asana-enum-options-api-openapi.yml
+  format: yaml
+  label: Asana Enum Options  API
+  slug: asana-enum-options-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-enum-options-api-openapi.yml
+- filename: asana-events-api-openapi.yml
+  format: yaml
+  label: Asana Events  API
+  slug: asana-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-events-api-openapi.yml
+- filename: asana-goal-relationships-api-openapi.yml
+  format: yaml
+  label: Asana Goal Relationships  API
+  slug: asana-goal-relationships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-goal-relationships-api-openapi.yml
+- filename: asana-goals-api-openapi.yml
+  format: yaml
+  label: Asana Goals  API
+  slug: asana-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-goals-api-openapi.yml
+- filename: asana-jobs-api-openapi.yml
+  format: yaml
+  label: Asana Jobs  API
+  slug: asana-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-jobs-api-openapi.yml
+- filename: asana-memberships-api-openapi.yml
+  format: yaml
+  label: Asana Memberships  API
+  slug: asana-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-memberships-api-openapi.yml
+- filename: asana-organization-exports-api-openapi.yml
+  format: yaml
+  label: Asana Organization Exports  API
+  slug: asana-organization-exports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-organization-exports-api-openapi.yml
+- filename: asana-portfolios-api-openapi.yml
+  format: yaml
+  label: Asana Portfolios  API
+  slug: asana-portfolios-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-portfolios-api-openapi.yml
+- filename: asana-project-templates-api-openapi.yml
+  format: yaml
+  label: Asana Project Templates  API
+  slug: asana-project-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-project-templates-api-openapi.yml
+- filename: asana-projects-api-openapi.yml
+  format: yaml
+  label: Asana Projects  API
+  slug: asana-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-projects-api-openapi.yml
+- filename: asana-rule-triggers-api-openapi.yml
+  format: yaml
+  label: Asana Rule Triggers  API
+  slug: asana-rule-triggers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-rule-triggers-api-openapi.yml
+- filename: asana-sections-api-openapi.yml
+  format: yaml
+  label: Asana Sections  API
+  slug: asana-sections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-sections-api-openapi.yml
+- filename: asana-status-updates-api-openapi.yml
+  format: yaml
+  label: Asana Status Updates  API
+  slug: asana-status-updates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-status-updates-api-openapi.yml
+- filename: asana-tags-api-openapi.yml
+  format: yaml
+  label: Asana Tags  API
+  slug: asana-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-tags-api-openapi.yml
+- filename: asana-task-templates-api-openapi.yml
+  format: yaml
+  label: Asana Task Templates  API
+  slug: asana-task-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-task-templates-api-openapi.yml
+- filename: asana-tasks-api-openapi.yml
+  format: yaml
+  label: Asana Tasks  API
+  slug: asana-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-tasks-api-openapi.yml
+- filename: asana-teams-api-openapi.yml
+  format: yaml
+  label: Asana Teams  API
+  slug: asana-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-teams-api-openapi.yml
+- filename: asana-time-periods-api-openapi.yml
+  format: yaml
+  label: Asana Time Periods  API
+  slug: asana-time-periods-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-time-periods-api-openapi.yml
+- filename: asana-time-tracking-entries-api-openapi.yml
+  format: yaml
+  label: Asana Time Tracking Entries  API
+  slug: asana-time-tracking-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-time-tracking-entries-api-openapi.yml
+- filename: asana-user-task-lists-api-openapi.yml
+  format: yaml
+  label: Asana User Task Lists  API
+  slug: asana-user-task-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-user-task-lists-api-openapi.yml
+- filename: asana-users-api-openapi.yml
+  format: yaml
+  label: Asana Users  API
+  slug: asana-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-users-api-openapi.yml
+- filename: asana-webhooks-api-openapi.yml
+  format: yaml
+  label: Asana Webhooks  API
+  slug: asana-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-webhooks-api-openapi.yml
+- filename: asana-workspaces-api-openapi.yml
+  format: yaml
+  label: Asana Workspaces  API
+  slug: asana-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-workspaces-api-openapi.yml
 apis:
 - description: The Asana Allocations API is a tool that allows users to manage and allocate resources within their Asana project management system. With this API, users can easily assign tasks and track the progress
   name: Asana Allocations  API
@@ -310,6 +473,7 @@ name: Asana
 skills: []
 slug: asana
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: asana\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/apis.yml\napis:\n  - aid: asana:asana-allocations-api\n    name: Asana Allocations  API\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.asana.com/\n    properties:\n      - url: openapi/asana-allocations-api-openapi.yml\n        type: OpenAPI\n      - url: https://developers.asana.com/reference/allocations\n        type: Documentation\n    description: >-\n      The Asana Allocations API is a tool that allows users to manage and allocate\n      resources within their Asana project management system. With this API, users\n      can easily assign tasks and track the progress of their team members, ensuring\n      that work is allocated effectively and evenly across the team. The API provides\n      a centralized platform for users to monitor resource allocation, make adjustments\n      as needed, and ultimately\
   \ streamline the workflow within their projects.\n  - aid: asana:asana-attachments-api\n    name: Asana Attachments  API\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.asana.com/\n    properties:\n      - url: openapi/asana-attachments-api-openapi.yml\n        type: OpenAPI\n      - url: https://developers.asana.com/reference/attachments\n        type: Documentation\n    description: >-\n      The Asana Attachments API allows developers to interact with and manage file\n      attachments within the Asana project management platform. This API enables users\n      to upload, download, and delete attachments associated with tasks, projects,\n      and conversations. With the Asana Attachments API, developers can seamlessly\n      integrate file sharing capabilities into their own applications, allowing for\n      easier collaboration and file management within the Asana platform.\n  - aid: asana:asana-batch-api\n  \
   \  name: Asana Batch  API\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.asana.com/\n    properties:\n      - url: openapi/asana-batch-api-openapi.yml\n        type: OpenAPI\n      - type: Documentation\n        url: https://developers.asana.com/reference/batch-api\n    description: >-\n      Asana Batch API is a tool that allows users to perform multiple operations in\n      Asana in a single request. This API enables users to efficiently manage and\n      organize tasks, projects, and workflows by allowing them to make multiple updates\n      or queries at once. By batching requests, users can streamline their workflow,\n      reduce the number of API calls needed, and improve overall performance.\n  - aid: asana:asana-custom-fields-api\n    name: Asana Custom Fields  API\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.asana.com/\n    properties:\n\

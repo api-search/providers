@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apinizer-api.yaml
+  format: yaml
+  label: Apinizer API
+  slug: apinizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-api.yaml
 apis:
 - description: The Apinizer API provides programmatic access to manage API gateways, policies, endpoints, and monitoring configurations within the Apinizer platform.
   name: Apinizer API
@@ -49,6 +56,7 @@ solutions:
   name: Community Edition
 - description: Full-featured enterprise API management with support, clustering, and advanced security features.
   name: Enterprise Edition
+source_filename: apis.yml
 source_yaml: "aid: apinizer\nname: Apinizer\ndescription: >-\n  Apinizer is an API management platform that provides API gateway, API portal,\n  API testing, monitoring, and security capabilities. It enables organizations to\n  manage, secure, and monitor their APIs through a comprehensive API lifecycle\n  management solution with policy enforcement, endpoint routing, and real-time\n  metrics collection.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - API Gateway\n  - API Management\n  - API Monitoring\n  - API Security\n  - Policies\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\napis:\n  - aid: apinizer:apinizer-api\n    name: Apinizer API\n    description: >-\n      The Apinizer API provides programmatic access to manage API gateways,\n      policies, endpoints, and monitoring configurations within the Apinizer\n\
   \      platform.\n    humanURL: https://apinizer.com/\n    baseURL: https://api.apinizer.com/v1\n    tags:\n      - API Gateway\n      - API Management\n      - API Security\n      - Monitoring\n    properties:\n      - type: Documentation\n        url: https://apinizer.com/documentation/\n      - type: GettingStarted\n        url: https://apinizer.com/getting-started/\n      - type: OpenAPI\n        url: openapi/apinizer-api.yaml\n      - type: JSONSchema\n        url: json-schema/apinizer-gateway-schema.json\n      - type: JSONSchema\n        url: json-schema/apinizer-policy-schema.json\n      - type: JSON-LD\n        url: json-ld/apinizer-context.jsonld\ncommon:\n  - type: Website\n    url: https://apinizer.com/\n  - type: Documentation\n    url: https://apinizer.com/documentation/\n  - type: Blog\n    url: https://apinizer.com/blog/\n  - type: GitHubOrganization\n    url: https://github.com/apinizer\n  - type: Features\n    data:\n      - name: API Gateway\n        description: Enterprise\
   \ API gateway for routing, load balancing, and traffic management across backend services.\n      - name: Security Policies\n        description: Apply authentication, rate limiting, IP filtering, CORS, and custom security policies to APIs.\n      - name: API Monitoring\n        description: Real-time monitoring dashboards with request metrics, latency tracking, and error rate analysis.\n      - name: API Portal\n        description: Developer portal for API discovery, documentation, and self-service API key management.\n      - name: API Testing\n        description: Built-in API testing capabilities for validating endpoint behavior and performance.\n      - name: Policy Management\n        description: Centralized policy management for consistent security and governance enforcement across all APIs.\n  - type: UseCases\n    data:\n      - name: Microservices Gateway\n        description: Route and manage traffic to microservices through a centralized API gateway with policy enforcement.\n\

@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: activecampaign-v3.json
+  format: json
+  label: ActiveCampaign API v3
+  slug: activecampaign-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-v3.json
+- filename: activecampaign-sms.json
+  format: json
+  label: ActiveCampaign SMS Broadcast API
+  slug: activecampaign-sms
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-sms.json
 apis:
 - description: 'The primary REST API for ActiveCampaign, organized around resources such as contacts, deals, accounts, automations, campaigns, messages, lists, tags, webhooks, custom objects, and ecommerce entities. '
   name: ActiveCampaign API v3
@@ -142,6 +155,7 @@ solutions:
   name: Pro
 - description: Full-featured plan with custom objects, dedicated account team, and premium segmentation.
   name: Enterprise
+source_filename: apis.yml
 source_yaml: "aid: activecampaign\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/apis.yml\napis:\n  - aid: activecampaign:activecampaign-v3\n    name: ActiveCampaign API v3\n    tags:\n      - Marketing Automation\n      - CRM\n      - Email Marketing\n      - Contacts\n      - Deals\n    humanURL: https://developers.activecampaign.com/reference/overview\n    baseURL: https://youraccountname.api-us1.com/api/3\n    properties:\n      - url: https://developers.activecampaign.com/reference/overview\n        type: Documentation\n      - url: https://developers.activecampaign.com/reference/authentication\n        type: Authentication\n      - url: openapi/activecampaign-v3.json\n        type: OpenAPI\n    description: >-\n      The primary REST API for ActiveCampaign, organized around resources such as\n      contacts, deals, accounts, automations, campaigns, messages, lists, tags, webhooks,\n      custom objects, and ecommerce entities. Uses API key\
   \ header authentication.\n  - aid: activecampaign:activecampaign-sms\n    name: ActiveCampaign SMS Broadcast API\n    tags:\n      - SMS\n      - Marketing Automation\n      - Messaging\n    humanURL: https://developers.activecampaign.com/reference/overview\n    baseURL: https://youraccountname.api-us1.com/api/3\n    properties:\n      - url: https://developers.activecampaign.com/reference/overview\n        type: Documentation\n      - url: openapi/activecampaign-sms.json\n        type: OpenAPI\n      - url: json-schema/activecampaign-sms-broadcast-message-schema.json\n        type: JSONSchema\n        title: Broadcast Message\n      - url: json-schema/activecampaign-sms-broadcast-create-request-schema.json\n        type: JSONSchema\n        title: Broadcast Create Request\n      - url: json-schema/activecampaign-sms-broadcast-update-request-schema.json\n        type: JSONSchema\n        title: Broadcast Update Request\n      - url: json-schema/activecampaign-sms-broadcast-metrics-schema.json\n\
   \        type: JSONSchema\n        title: Broadcast Metrics\n      - url: json-schema/activecampaign-sms-recipient-schema.json\n        type: JSONSchema\n        title: Recipient\n      - url: json-schema/activecampaign-sms-credits-response-schema.json\n        type: JSONSchema\n        title: Credits Response\n      - url: json-schema/activecampaign-sms-ai-broadcast-request-schema.json\n        type: JSONSchema\n        title: AI Broadcast Request\n      - url: json-structure/activecampaign-sms-broadcast-message-structure.json\n        type: JSONStructure\n        title: Broadcast Message\n      - url: json-structure/activecampaign-sms-recipient-structure.json\n        type: JSONStructure\n        title: Recipient\n      - url: examples/activecampaign-sms-broadcast-message-example.json\n        type: Example\n        title: Broadcast Message Example\n      - url: examples/activecampaign-sms-recipient-example.json\n        type: Example\n        title: Recipient Example\n    description:\

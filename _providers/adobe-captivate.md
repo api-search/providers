@@ -1,5 +1,18 @@
 ---
 api_count: 5
+api_specs:
+- filename: adobe-captivate-prime-api-openapi.yml
+  format: yaml
+  label: Adobe Captivate Prime API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/openapi/adobe-captivate-prime-api-openapi.yml
+- filename: adobe-captivate-learning-manager-webhooks-asyncapi.yml
+  format: yaml
+  label: Adobe Learning Manager Webhooks API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/asyncapi/adobe-captivate-learning-manager-webhooks-asyncapi.yml
 apis:
 - description: Learning Management System API for managing courses, learners, and learning content.
   name: Adobe Captivate Prime API
@@ -163,6 +176,7 @@ rules:
 skills: []
 slug: adobe-captivate
 solutions: []
+source_filename: apis.yml
 source_yaml: "aid: adobe-captivate\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/apis.yml\nname: Adobe Captivate\ndescription: Adobe Captivate is an eLearning authoring tool used to create responsive eLearning content, software demonstrations, and interactive training modules.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntype: Index\ncreated: '2024-01-20'\nmodified: '2026-04-19'\nspecificationVersion: '0.19'\ntags:\n- Authoring\n- Education\n- eLearning\n- LMS\n- SCORM\n- Training\n- xAPI\napis:\n- name: Adobe Captivate Prime API\n  description: >-\n    Learning Management System API for managing courses, learners, and learning\n    content.\n  image: https://www.adobe.com/content/dam/cc/icons/captivate-prime.svg\n  humanURL: https://www.adobe.com/products/captivateprime.html\n  baseURL: https://learningmanager.adobe.com/primeapi/v2\n  tags:\n  - Courses\n  - Learners\n  - Learning Management\n  - LMS\n\
   \  properties:\n  - type: Documentation\n    url: https://captivateprime.adobe.com/docs/primeapi/v2/\n  - type: OpenAPI\n    url: https://learningmanager.adobe.com/primeapi/v2/swagger.json\n  - type: OpenAPI\n    url: openapi/adobe-captivate-prime-api-openapi.yml\n  - type: Authentication\n    url: https://captivateprime.adobe.com/docs/primeapi/v2/#authentication\n  - type: Postman Collection\n    url: https://www.postman.com/adobe-captivate-prime\n  - type: JSONSchema\n    url: json-schema/prime-api-account-response-schema.json\n  - type: JSONSchema\n    url: json-schema/prime-api-account-schema.json\n  - type: JSONSchema\n    url: json-schema/prime-api-badge-list-response-schema.json\n  - type: JSONStructure\n    url: json-structure/prime-api-account-response-structure.json\n  - type: JSONStructure\n    url: json-structure/prime-api-account-structure.json\n  - type: JSONStructure\n    url: json-structure/prime-api-badge-list-response-structure.json\n- name: Adobe Captivate SCORM API\n\
   \  description: >-\n    API for SCORM-compliant content delivery and tracking.\n  humanURL: https://helpx.adobe.com/captivate/using/publish-projects-scorm-compliant-lms.html\n  tags:\n  - Content Delivery\n  - LMS Integration\n  - SCORM\n  properties:\n  - type: Documentation\n    url: https://scorm.com/scorm-explained/technical-scorm/\n  - type: Specification\n    url: https://adlnet.gov/projects/scorm/\n- name: Adobe Captivate xAPI (Tin Can API)\n  description: >-\n    Experience API for tracking learning experiences.\n  humanURL: https://helpx.adobe.com/captivate/using/xapi-tin-can-support.html\n  tags:\n  - Learning Analytics\n  - Tin Can\n  - xAPI\n  properties:\n  - type: Documentation\n    url: https://xapi.com/overview/\n  - type: Specification\n    url: https://github.com/adlnet/xAPI-Spec\n- name: Adobe Captivate Review API\n  description: >-\n    API for collaborative review and commenting on eLearning projects.\n  humanURL: https://helpx.adobe.com/captivate/using/shared-review.html\n\
