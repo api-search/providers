@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Analytics Data API
+  slug: google-analytics-data-api
+  spec_type: OpenAPI
+  url: https://analyticsdata.googleapis.com/$discovery/rest?version=v1beta
+- filename: rest
+  format: yaml
+  label: Google Analytics Admin API
+  slug: google-analytics-admin-api
+  spec_type: OpenAPI
+  url: https://analyticsadmin.googleapis.com/$discovery/rest?version=v1beta
 apis:
 - description: The Google Analytics Data API v1 provides programmatic methods to access report data in Google Analytics 4 (GA4) properties.
   name: Google Analytics Data API

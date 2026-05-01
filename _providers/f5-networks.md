@@ -7,6 +7,12 @@ api_specs:
   slug: ''
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/bigip-icontrol-rest.yml
+- filename: swagger
+  format: yaml
+  label: F5 Distributed Cloud API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://docs.cloud.f5.com/docs/api/swagger
 apis:
 - description: The iControl REST API provides programmatic access to manage and configure F5 BIG-IP devices. Enables automation of network, security, and application delivery services.
   name: F5 BIG-IP iControl REST API

@@ -109,7 +109,6 @@ source_yaml: "aid: amazon-mediastore\nname: Amazon MediaStore\ndescription: AWS 
   \ media storage activity.\n- type: UseCases\n  data:\n  - name: Live Video Origin Storage\n    description: Use as a high-performance origin for live video workflows.\n  - name: Media Asset Management\n    description: Store and manage media files with low-latency access.\n  - name: Streaming Video Delivery\n    description: Serve HLS and DASH segments with consistent performance for video streaming.\n- type: Integrations\n  data:\n  - name: AWS Elemental MediaLive\n    description: Use MediaStore as an output destination for live encoded streams.\n  - name: Amazon CloudFront\n    description: Serve MediaStore content via CloudFront for global distribution.\n  - name: AWS IAM\n    description: Control access to MediaStore containers using IAM policies.\n  - name: Amazon CloudWatch\n    description: Monitor MediaStore request metrics and latency.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

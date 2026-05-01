@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-payment-cryptography\nname: Amazon Payment Cryptograph
   - type: JSONSchema\n  url: json-schema/openapi-access-denied-exception-schema.json\n  title: Openapi Access Denied Exception\n- type: JSONSchema\n  url: json-schema/openapi-alias-name-schema.json\n  title: Openapi Alias Name\n- type: JSONSchema\n  url: json-schema/openapi-alias-schema.json\n  title: Openapi Alias\n- type: JSONSchema\n  url: json-schema/openapi-aliases-schema.json\n  title: Openapi Aliases\n- type: JSONSchema\n  url: json-schema/openapi-boolean-schema.json\n  title: Openapi Boolean\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cryptography
 - Financial Services
 - Payment Processing

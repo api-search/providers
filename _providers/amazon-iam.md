@@ -138,7 +138,6 @@ tags:
 - Access Management
 - Authentication
 - Authorization
-- AWS
 - Identity
 - Security
 url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/apis.yml

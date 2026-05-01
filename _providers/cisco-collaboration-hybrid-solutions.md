@@ -1,5 +1,12 @@
 ---
 api_count: 7
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Webex APIs
+  slug: webex-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
 apis:
 - description: Core Webex platform APIs for messaging, meetings, teams, spaces, memberships, attachments, and webhooks.
   name: Webex APIs

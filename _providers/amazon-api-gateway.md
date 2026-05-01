@@ -1,12 +1,12 @@
 ---
 api_count: 4
 api_specs:
-- filename: amazon-api-gateway-openapi.yaml
+- filename: API_Operations.html
   format: yaml
   label: Amazon API Gateway REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-openapi.yaml
+  url: https://docs.aws.amazon.com/apigateway/latest/api/API_Operations.html
 - filename: amazon-api-gateway-websocket-asyncapi.yml
   format: yaml
   label: Amazon API Gateway WebSocket API
@@ -154,7 +154,6 @@ source_yaml: "name: Amazon API Gateway\ndescription: Amazon API Gateway is a ful
   \ Lambda functions for serverless request processing without managing infrastructure.\n  - name: AWS Cognito\n    description: Use Cognito user pools and identity pools for managed authentication and authorization in API Gateway.\n  - name: AWS WAF\n    description: Protect API Gateway endpoints with AWS WAF rules for rate limiting and protection against common web exploits.\n  - name: AWS CloudWatch\n    description: Monitor API performance, errors, and latency using CloudWatch metrics and logs integrated with API Gateway.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\naid: amazon-api-gateway\nspecificationVersion: '0.19'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/apis.yml
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

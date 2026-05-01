@@ -1,5 +1,18 @@
 ---
 api_count: 9
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Pay API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developers.google.com/pay/api/web/reference/rest
+- filename: v1
+  format: yaml
+  label: Google Wallet API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developers.google.com/wallet/generic/rest/v1
 apis:
 - description: Enables integration of the Google Pay payment method into web applications, allowing merchants to accept payments from cards saved to Google Accounts. The API provides JavaScript client methods for im
   name: Google Pay API

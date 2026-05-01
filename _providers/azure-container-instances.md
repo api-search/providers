@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: azure-container-instances-openapi.yaml
+  format: yaml
+  label: Azure Container Instances
+  slug: azure-container-instances
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-openapi.yaml
 apis:
 - description: Azure Container Instances is a service that enables you to run containers directly on the Microsoft Azure cloud without managing virtual machines or adopting orchestration services. It provides fast s
   name: Azure Container Instances

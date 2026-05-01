@@ -127,7 +127,6 @@ source_yaml: "aid: amazon-amplify\nurl: >-\n  https://raw.githubusercontent.com/
   \ uses CloudFront for global CDN distribution of static assets and dynamic content.\n  - name: AWS Route 53\n    description: Configure custom domains for Amplify apps using Route 53 DNS management and SSL certificate provisioning.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Frontend\n- Full Stack\n- Hosting\n- Mobile Development\n- Web Applications\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/apis.yml
 tags:
-- AWS
 - Frontend
 - Full Stack
 - Hosting

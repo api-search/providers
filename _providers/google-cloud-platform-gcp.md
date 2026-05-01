@@ -1,5 +1,60 @@
 ---
 api_count: 10
+api_specs:
+- filename: rest
+  format: yaml
+  label: Compute Engine API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/compute/v1/rest
+- filename: rest
+  format: yaml
+  label: Cloud Storage API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/storage/v1/rest
+- filename: rest
+  format: yaml
+  label: BigQuery API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest
+- filename: rest
+  format: yaml
+  label: Cloud Functions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/cloudfunctions/v2/rest
+- filename: rest
+  format: yaml
+  label: Kubernetes Engine API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/container/v1/rest
+- filename: rest
+  format: yaml
+  label: Cloud Pub/Sub API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/pubsub/v1/rest
+- filename: rest
+  format: yaml
+  label: Cloud Vision API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/vision/v1/rest
+- filename: rest
+  format: yaml
+  label: Cloud SQL Admin API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/sqladmin/v1/rest
+- filename: rest
+  format: yaml
+  label: Cloud Run API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/run/v2/rest
 apis:
 - description: Create and manage virtual machines on Google's infrastructure.
   name: Compute Engine API

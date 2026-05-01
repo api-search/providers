@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-marketplace\nname: Amazon Marketplace\ndescription: >-
   \ Publishing\n        description: Enable ISV teams to self-service publish and update product listings through the catalog API.\n  - type: Integrations\n    data:\n      - name: AWS IAM\n        description: Control access to catalog API operations through IAM policies and roles.\n      - name: Amazon EventBridge\n        description: Subscribe to marketplace events for change set completions and entity state changes.\n      - name: AWS CloudFormation\n        description: Deploy and manage marketplace subscriptions as infrastructure-as-code.\n      - name: AWS Organizations\n        description: Share private marketplace listings across accounts in an AWS organization.\n      - name: Amazon SNS\n        description: Receive notifications for marketplace change set status updates.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/apis.yml
 tags:
-- AWS
 - Commerce
 - ISV
 - Marketplace

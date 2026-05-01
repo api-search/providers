@@ -84,7 +84,6 @@ source_yaml: "aid: amazon-parallel-computing-service\nname: Amazon Parallel Comp
   - type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/hpc/\n- type: GitHub Organization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/pcs/\n- type: Sign Up\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: Status\n  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\n- type: SpectralRules\n  url: rules/amazon-parallel-computing-service-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-parallel-computing-service-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/amazon-parallel-computing-service-workflow.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/apis.yml
 tags:
-- AWS
 - High Performance Computing
 - HPC
 - Parallel Computing

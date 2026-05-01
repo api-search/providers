@@ -242,7 +242,6 @@ source_yaml: "name: Amazon SageMaker\ndescription: >-\n  Amazon SageMaker is a f
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/apis.yml
 tags:
 - AI
-- AWS
 - Inference
 - Machine Learning
 - MLOps

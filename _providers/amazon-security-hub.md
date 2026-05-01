@@ -163,7 +163,6 @@ source_yaml: "name: Amazon Security Hub\ndescription: >-\n  AWS Security Hub is 
   \ integration for endpoint detection and response findings.\n  - name: Splunk\n    description: Export Security Hub findings to Splunk SIEM for advanced analysis.\n  - name: Palo Alto Networks\n    description: Ingest Prisma Cloud and other Palo Alto findings via Security Hub integration.\n\n- type: JSON-LD\n  url: json-ld/amazon-security-hub-context.jsonld\n- type: JSONStructure\n  url: json-structure/amazon-security-hub-finding-structure.json\n- type: Example\n  url: examples/amazon-security-hub-finding-example.json\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-security-hub.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compliance
 - Monitoring
 - Security

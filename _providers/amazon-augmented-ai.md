@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-augmented-ai-openapi.yml
+  format: yaml
+  label: Amazon Augmented AI API
+  slug: amazon-augmented-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/openapi/amazon-augmented-ai-openapi.yml
 apis:
 - description: REST runtime API for Amazon Augmented AI covering human loops for human review of machine learning predictions.
   name: Amazon Augmented AI API
@@ -67,7 +74,6 @@ tags:
 - Human In The Loop
 - Machine Learning
 - AI Review
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/apis.yml
 use_cases:
 - Review low-confidence document text extraction results

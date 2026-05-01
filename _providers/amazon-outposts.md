@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-outposts\nname: Amazon Outposts\ndescription: >-\n  AW
   \ json-schema/openapi-address-line1-schema.json\n  title: Openapi Address Line1\n- type: JSONSchema\n  url: json-schema/openapi-address-line2-schema.json\n  title: Openapi Address Line2\n- type: JSONSchema\n  url: json-schema/openapi-address-line3-schema.json\n  title: Openapi Address Line3\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/apis.yml
 tags:
-- AWS
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: google-pub-sub-openapi.yml
+  format: yaml
+  label: Google Pub/Sub
+  slug: google-pub-sub
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-openapi.yml
 apis:
 - description: Google Cloud Pub/Sub is a messaging and event ingestion service that provides durable message storage and real-time message delivery for building event-driven systems and streaming data pipelines on G
   name: Google Pub/Sub

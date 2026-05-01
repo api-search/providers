@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: rest
+  format: yaml
+  label: Dialogflow API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://dialogflow.googleapis.com/$discovery/rest?version=v2
+- filename: rest
+  format: yaml
+  label: Dialogflow CX API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://dialogflow.googleapis.com/$discovery/rest?version=v3
 apis:
 - description: Build conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices. Dialogflow provides a natural language understanding platform to process and understand
   name: Dialogflow API

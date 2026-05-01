@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-couchdb-http-api-openapi.yaml
+  format: yaml
+  label: Apache CouchDB HTTP API
+  slug: apache-couchdb-http-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-http-api-openapi.yaml
 apis:
 - description: CouchDB exposes a complete RESTful HTTP/JSON API covering server and database management, document CRUD operations, bulk operations, design documents with MapReduce views, Mango (declarative JSON) que
   name: Apache CouchDB HTTP API

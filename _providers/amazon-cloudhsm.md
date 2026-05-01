@@ -112,7 +112,6 @@ source_yaml: "aid: amazon-cloudhsm\nname: Amazon CloudHSM\ndescription: >-\n  AW
   \ data encryption (TDE) for Oracle and SQL Server databases.\n  - name: Regulatory Compliance\n    description: Meet PCI DSS, HIPAA, and other regulatory requirements for key management.\n- type: Integrations\n  data:\n  - name: Amazon RDS\n    description: Use CloudHSM keys for Oracle TDE and SQL Server TDE in RDS.\n  - name: AWS KMS\n    description: Use CloudHSM as a custom key store for AWS KMS operations.\n  - name: Amazon VPC\n    description: HSM instances run inside your VPC for network isolation.\n  - name: AWS IAM\n    description: Control access to HSM cluster management operations.\n  - name: AWS CloudTrail\n    description: Audit HSM management API calls via CloudTrail.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/apis.yml
 tags:
-- AWS
 - CloudHSM
 - Security
 - Cryptography

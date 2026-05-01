@@ -1,5 +1,18 @@
 ---
 api_count: 4
+api_specs:
+- filename: amazon-bedrock-openapi.yml
+  format: yaml
+  label: Amazon Bedrock API
+  slug: amazon-bedrock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-openapi.yml
+- filename: amazon-bedrock-runtime-openapi.yml
+  format: yaml
+  label: Amazon Bedrock Runtime API
+  slug: amazon-bedrock-runtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/openapi/amazon-bedrock-runtime-openapi.yml
 apis:
 - description: The Amazon Bedrock management API provides operations for managing foundation models, custom models, model customization jobs, provisioned throughput, guardrails, knowledge bases, agents, and model ev
   name: Amazon Bedrock API
@@ -88,7 +101,6 @@ source_yaml: "aid: amazon-bedrock\nurl: >-\n  https://raw.githubusercontent.com/
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/apis.yml
 tags:
 - AI
-- AWS
 - Foundation Models
 - Generative AI
 - LLM

@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: amazon-personalize-openapi.yml
+- filename: API_Reference.html
   format: yaml
   label: Amazon Personalize API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/openapi/amazon-personalize-openapi.yml
+  url: https://docs.aws.amazon.com/personalize/latest/dg/API_Reference.html
 apis:
 - description: The Amazon Personalize API enables you to create, train, and deploy machine learning models that generate personalized recommendations for your users.
   name: Amazon Personalize API
@@ -139,7 +139,6 @@ source_yaml: "name: Amazon Personalize\ndescription: Amazon Personalize is a ful
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/apis.yml
 tags:
 - AI
-- AWS
 - Customer Experience
 - Machine Learning
 - ML

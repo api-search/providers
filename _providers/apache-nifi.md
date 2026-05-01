@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: swagger.yaml
+  format: yaml
+  label: Apache NiFi REST API
+  slug: apache-nifi-rest-api
+  spec_type: OpenAPI
+  url: https://nifi.apache.org/nifi-docs/swagger.yaml
 apis:
 - description: The NiFi REST API provides comprehensive JWT-authenticated endpoints for managing processors, connections, controller services, process groups, reporting tasks, provenance, flow versions, system diagn
   name: Apache NiFi REST API

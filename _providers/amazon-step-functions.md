@@ -114,7 +114,6 @@ source_yaml: "name: Amazon Step Functions\ndescription: Amazon Step Functions is
   \ from workflow steps.\n  - name: Amazon SageMaker\n    description: Orchestrate ML training and inference pipelines.\n  - name: AWS Glue\n    description: Run Glue ETL jobs from workflow steps.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Orchestration\n- Serverless\n- State Machine\n- Workflow\nx-type: company\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-step-functions/refs/heads/main/apis.yml
 tags:
-- AWS
 - Orchestration
 - Serverless
 - State Machine

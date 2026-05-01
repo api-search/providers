@@ -1,5 +1,30 @@
 ---
 api_count: 9
+api_specs:
+- filename: availity-eligibility-openapi.yml
+  format: yaml
+  label: Availity Eligibility & Benefits API
+  slug: availity-eligibility-benefits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-eligibility-openapi.yml
+- filename: availity-claim-status-openapi.yml
+  format: yaml
+  label: Availity Claim Status API
+  slug: availity-claims-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-status-openapi.yml
+- filename: availity-claim-attachments-openapi.yml
+  format: yaml
+  label: Availity Claim Attachments API
+  slug: availity-claim-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-attachments-openapi.yml
+- filename: availity-service-reviews-openapi.yml
+  format: yaml
+  label: Availity Service Reviews (Prior Authorization) API
+  slug: availity-service-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-service-reviews-openapi.yml
 apis:
 - description: The Availity Eligibility & Benefits API supports the ASC X12N 270 and 271 transactions, enabling real-time verification of member coverage, co-pays, deductibles, and benefits information. REST APIs co
   name: Availity Eligibility & Benefits API

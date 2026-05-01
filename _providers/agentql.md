@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: agentql-openapi.yaml
+  format: yaml
+  label: AgentQL Query Data API
+  slug: query-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-openapi.yaml
 apis:
 - description: Extract structured JSON data from web pages using AgentQL query language or natural language prompts. Supports URL-based and raw HTML input, configurable browser behavior, proxy settings, and screensh
   name: AgentQL Query Data API

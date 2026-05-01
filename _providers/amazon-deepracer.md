@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-deepracer-openapi.yml
+  format: yaml
+  label: AWS DeepRacer API
+  slug: aws-deepracer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-openapi.yml
 apis:
 - description: The AWS DeepRacer API provides programmatic access to manage DeepRacer vehicles, models, and leaderboards for reinforcement learning-based autonomous racing experiences.
   name: AWS DeepRacer API
@@ -82,7 +89,6 @@ source_yaml: "aid: amazon-deepracer\nname: Amazon DeepRacer\ndescription: >-\n  
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/apis.yml
 tags:
 - Autonomous Vehicles
-- AWS
 - Machine Learning
 - Reinforcement Learning
 - Robotics

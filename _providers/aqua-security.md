@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: aqua-security-api.yaml
+  format: yaml
+  label: Aqua Security
+  slug: aqua-security
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-api.yaml
 apis:
 - description: Aqua Security provides cloud-native security for the full application lifecycle, protecting containers, serverless functions, and cloud workloads with vulnerability scanning, runtime protection, and c
   name: Aqua Security

@@ -19,12 +19,72 @@ api_specs:
   slug: hris-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-hris-openapi.yml
+- filename: ats.yml
+  format: yaml
+  label: Apideck ATS API
+  slug: ats-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/ats.yml
 - filename: apideck-file-storage-openapi.yml
   format: yaml
   label: Apideck File Storage API
   slug: file-storage-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/openapi/apideck-file-storage-openapi.yml
+- filename: ecommerce.yml
+  format: yaml
+  label: Apideck Ecommerce API
+  slug: ecommerce-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/ecommerce.yml
+- filename: pos.yml
+  format: yaml
+  label: Apideck POS API
+  slug: pos-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/pos.yml
+- filename: issue-tracking.yml
+  format: yaml
+  label: Apideck Issue Tracking API
+  slug: issue-tracking-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/issue-tracking.yml
+- filename: lead.yml
+  format: yaml
+  label: Apideck Lead API
+  slug: lead-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/lead.yml
+- filename: sms.yml
+  format: yaml
+  label: Apideck SMS API
+  slug: sms-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/sms.yml
+- filename: vault.yml
+  format: yaml
+  label: Apideck Vault API
+  slug: vault-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/vault.yml
+- filename: webhook.yml
+  format: yaml
+  label: Apideck Webhook API
+  slug: webhook-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/webhook.yml
+- filename: connector.yml
+  format: yaml
+  label: Apideck Connector API
+  slug: connector-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/connector.yml
+- filename: proxy.yml
+  format: yaml
+  label: Apideck Proxy API
+  slug: proxy-api
+  spec_type: OpenAPI
+  url: https://specs.apideck.com/proxy.yml
 apis:
 - description: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.
   name: Apideck

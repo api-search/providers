@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: federal-railroad-administration-openapi.yml
+  format: yaml
+  label: Federal Railroad Administration Public API
+  slug: federal-railroad-administration
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/openapi/federal-railroad-administration-openapi.yml
 apis:
 - description: The Federal Railroad Administration Public API provides safety data and access to railroad datasets including accidents, incidents, highway-rail grade crossings, inspections, and operational data.
   name: Federal Railroad Administration Public API

@@ -181,7 +181,6 @@ source_yaml: "name: Amazon SES\ndescription: Amazon Simple Email Service (SES) i
   - type: Example\n  url: examples/amazon-ses-emailmessage-example.json\n- type: Example\n  url: examples/amazon-ses-openapi-email-message-example.json\n- type: NaftikoCapability\n  url: capabilities/amazon-ses.yaml\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-ses.yaml\n- type: SpectralRules\n  url: rules/amazon-ses-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-ses-vocabulary.yaml\n- type: OpenAPI\n  url: openapi/amazon-ses-openapi.yml\nmaintainer:\n  name: Kin Lane\n  email: kin@apievangelist.com\n\ntags:\n- AWS\n- Email\n- Email Deliverability\n- Email Service\n- Marketing Email\n- Notifications\n- SMTP\n- Transactional Email\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/apis.yml
 tags:
-- AWS
 - Email
 - Email Deliverability
 - Email Service

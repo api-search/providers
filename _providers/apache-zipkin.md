@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: zipkin2-api.yaml
+  format: yaml
+  label: Apache Zipkin REST API
+  slug: apache-zipkin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/openzipkin/zipkin-api/master/zipkin2-api.yaml
 apis:
 - description: The Zipkin REST API v2 provides endpoints for querying trace data, service names, span names, and dependencies. Key endpoints include GET /api/v2/services (list services), GET /api/v2/spans (list span
   name: Apache Zipkin REST API

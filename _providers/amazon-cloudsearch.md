@@ -125,7 +125,6 @@ source_yaml: "name: Amazon CloudSearch\ndescription: Amazon CloudSearch is a man
   \  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- CloudSearch\n- Search\n- Full-Text Search\n- Managed\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/apis.yml
 tags:
-- AWS
 - CloudSearch
 - Search
 - Full-Text Search

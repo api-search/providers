@@ -348,7 +348,6 @@ source_yaml: "name: Amazon Neptune\ndescription: >-\n  Amazon Neptune is a fast,
   \  title: Gremlin Context\n- type: JSON-LD\n  url: json-ld/amazon-neptune-loader-context.jsonld\n  title: Loader Context\n- type: JSON-LD\n  url: json-ld/amazon-neptune-management-context.jsonld\n  title: Management Context\n- type: JSON-LD\n  url: json-ld/amazon-neptune-ml-context.jsonld\n  title: Ml Context\n- type: JSON-LD\n  url: json-ld/amazon-neptune-opencypher-context.jsonld\n  title: Opencypher Context\n- type: JSON-LD\n  url: json-ld/amazon-neptune-sparql-context.jsonld\n  title: Sparql Context\n- type: JSON-LD\n  url: json-ld/amazon-neptune-streams-context.jsonld\n  title: Streams Context\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/apis.yml
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

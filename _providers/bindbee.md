@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bindbee-api.yaml
+  format: yaml
+  label: Bindbee API
+  slug: bindbee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-api.yaml
 apis:
 - description: Unified HRIS and ATS integration API for connecting with multiple HR systems through a single integration.
   name: Bindbee API

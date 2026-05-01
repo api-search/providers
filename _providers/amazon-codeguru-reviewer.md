@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-codeguru-reviewer\nname: Amazon CodeGuru Reviewer\ndes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/apis.yml
 tags:
 - Amazon
-- AWS
 - Code Review
 - Security
 - DevOps

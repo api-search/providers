@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: google-slides-api-openapi.yml
+- filename: rest
   format: yaml
   label: Google Slides API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-api-openapi.yml
+  url: https://slides.googleapis.com/$discovery/rest?version=v1
 apis:
 - description: Create and edit presentations programmatically.
   name: Google Slides API

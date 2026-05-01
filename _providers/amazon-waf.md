@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-waf-openapi.yml
+  format: yaml
+  label: Amazon WAF REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-openapi.yml
 apis:
 - description: RESTful API for AWS WAF operations including web ACL management, rule groups, IP sets, regex pattern sets, and logging configurations for protecting web applications.
   name: Amazon WAF REST API
@@ -104,7 +111,6 @@ source_yaml: "name: Amazon WAF\ndescription: AWS WAF is a web application firewa
   \ WAF to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Bot Management\n- Ddos Protection\n- Security\n- WAF\n- Web Application Firewall\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/apis.yml
 tags:
-- AWS
 - Bot Management
 - Ddos Protection
 - Security

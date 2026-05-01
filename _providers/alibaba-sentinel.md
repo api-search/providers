@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: sentinel-dashboard-api.yml
+  format: yaml
+  label: Sentinel Dashboard API
+  slug: sentinel-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/sentinel-dashboard-api.yml
 apis:
 - description: The Sentinel Dashboard API provides a REST interface for the Sentinel dashboard application, which allows real-time monitoring of clients and dynamic configuration of flow control, circuit breaking, a
   name: Sentinel Dashboard API

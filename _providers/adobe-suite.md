@@ -1,5 +1,36 @@
 ---
 api_count: 23
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Adobe Photoshop API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.adobe.com/photoshop/api/openapi/
+- filename: openapi.yaml
+  format: yaml
+  label: Adobe Lightroom API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.adobe.com/lightroom/api/openapi/
+- filename: openapi.yaml
+  format: yaml
+  label: Adobe PDF Services API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.adobe.com/document-services/docs/apis/
+- filename: openapi.yaml
+  format: yaml
+  label: Adobe PDF Extract API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.adobe.com/document-services/docs/apis/
+- filename: openapi.yaml
+  format: yaml
+  label: Adobe PDF Accessibility Auto-Tag API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.adobe.com/document-services/docs/apis/
 apis:
 - description: Automate Photoshop workflows including image editing, layer manipulation, and batch processing.
   name: Adobe Photoshop API

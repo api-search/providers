@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-medialive\nname: Amazon MediaLive\ndescription: AWS El
   \ Archive live stream recordings to S3 for storage and later processing.\n  - name: Amazon CloudWatch\n    description: Monitor channel health metrics and set alerts for live events.\n  - name: Amazon EventBridge\n    description: Trigger workflows based on channel state change events.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

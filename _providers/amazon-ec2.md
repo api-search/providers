@@ -141,7 +141,6 @@ source_yaml: "name: Amazon EC2\ndescription: Amazon Elastic Compute Cloud (EC2) 
   \ based on demand metrics and scheduling policies.\n  - name: AWS Systems Manager\n    description: Manage, patch, and operate EC2 instances at scale without SSH access.\n- type: SpectralRules\n  url: rules/amazon-ec2-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-ec2-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/ec2-management.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Cloud Computing\n- Compute\n- IaaS\n- Infrastructure\n- Virtual Machines\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Computing
 - Compute
 - IaaS

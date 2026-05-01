@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Authelia REST API
+  slug: authelia-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/authelia/authelia/master/api/openapi.yml
 apis:
 - description: The Authelia REST API provides endpoints for authentication flows including first-factor login, MFA challenges, password reset, session management, and authorization verification for reverse proxy int
   name: Authelia REST API

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: dropwizard-admin.json
+  format: json
+  label: Dropwizard
+  slug: dropwizard
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropwizard/refs/heads/main/openapi/dropwizard-admin.json
 apis:
 - description: Dropwizard is a Java framework for developing ops-friendly, high-performance RESTful web services, pulling together stable, mature libraries from the Java ecosystem into a simple, lightweight package.
   name: Dropwizard

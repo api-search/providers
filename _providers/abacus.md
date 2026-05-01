@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: abacus-api-openapi.yaml
+  format: yaml
+  label: Abacus API
+  slug: abacus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-api-openapi.yaml
 apis:
 - description: The Abacus API provides programmatic access to expense management functionality, including inviting and suspending members, listing and retrieving expense reports, and integrating with third-party pla
   name: Abacus API

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-vpc-openapi.yml
+  format: yaml
+  label: Amazon VPC API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-openapi.yml
 apis:
 - description: Core API for managing Amazon Virtual Private Cloud resources including VPCs, subnets, internet gateways, NAT gateways, route tables, and network ACLs. VPC operations are part of the Amazon EC2 API.
   name: Amazon VPC API
@@ -110,7 +117,6 @@ source_yaml: "name: Amazon VPC\ndescription: Amazon Virtual Private Cloud (VPC) 
   tags:\n- AWS\n- Networking\n- Private Cloud\n- Security\n- Subnets\n- VPC\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/apis.yml
 tags:
-- AWS
 - Networking
 - Private Cloud
 - Security

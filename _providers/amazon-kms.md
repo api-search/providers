@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: amazon-kms-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon KMS API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kms/2014-11-01/openapi.yaml
 apis:
 - description: The AWS Key Management Service API provides programmatic access to create and manage cryptographic keys, encrypt and decrypt data, generate data keys, and manage key policies and grants for controllin
   name: Amazon KMS API
@@ -130,7 +130,6 @@ source_yaml: "name: Amazon KMS\nsegments:\n- Security\n- Encryption\ndescription
   \  url: rules/amazon-kms-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/amazon-kms-workflow.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-kms-vocabulary.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ninclude: []\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cryptography
 - Data Protection
 - Encryption

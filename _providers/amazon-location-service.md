@@ -130,7 +130,6 @@ source_yaml: "name: Amazon Location Service\ndescription: Amazon Location Servic
   \  - name: Amazon EventBridge\n    description: Trigger events when geofences are entered or exited via EventBridge.\n  - name: HERE Technologies\n    description: Use HERE maps and location data as a data provider within Location Service.\n  - name: Esri\n    description: Access Esri basemaps and location data through Amazon Location Service.\n- type: SpectralRules\n  url: rules/amazon-location-service-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/amazon-location-service-workflow.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-location-service-vocabulary.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Geocoding\n- Geofencing\n- Location\n- Maps\n- Routing\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/apis.yml
 tags:
-- AWS
 - Geocoding
 - Geofencing
 - Location

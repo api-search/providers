@@ -122,7 +122,6 @@ source_yaml: "aid: amazon-iot-core\nname: Amazon IoT Core\ndescription: >-\n  AW
   \ with Rules Engine.\n      - name: Amazon Kinesis\n        description: Stream IoT telemetry data to Kinesis for real-time analytics.\n      - name: Amazon S3\n        description: Store device messages and data in S3 using IoT Rules.\n      - name: Amazon DynamoDB\n        description: Write device state data to DynamoDB tables with IoT Rules.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/apis.yml
 tags:
-- AWS
 - Device Management
 - IoT
 - MQTT

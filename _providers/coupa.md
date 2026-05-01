@@ -1,5 +1,12 @@
 ---
 api_count: 13
+api_specs:
+- filename: api_docs
+  format: yaml
+  label: Coupa Core API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://compass.coupa.com/en-us/api_docs
 apis:
 - description: The primary RESTful API for accessing and managing core Coupa resources including suppliers, purchase orders, invoices, and requisitions.
   name: Coupa Core API

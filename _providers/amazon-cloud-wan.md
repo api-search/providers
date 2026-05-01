@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-cloud-wan\nname: Amazon Cloud WAN\ndescription: >-\n  
   \ Centralize network configuration, monitoring, and automation across all locations.\n- type: Integrations\n  data:\n  - name: AWS Transit Gateway\n    description: Connect VPCs and on-premises networks through Transit Gateway attachments.\n  - name: AWS Direct Connect\n    description: Dedicated network connections from on-premises to AWS.\n  - name: Amazon VPC\n    description: Connect VPCs across regions into the global WAN.\n  - name: AWS IAM\n    description: Control access to Cloud WAN resources with IAM policies.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-wan/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud WAN
 - Networking
 - Wide Area Network

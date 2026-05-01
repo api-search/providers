@@ -117,7 +117,6 @@ source_yaml: "name: Amazon Kinesis Data Firehose\ndescription: Amazon Kinesis Da
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/apis.yml
 tags:
 - Analytics
-- AWS
 - Data Delivery
 - Streaming
 url: https://aws.amazon.com/kinesis/data-firehose/

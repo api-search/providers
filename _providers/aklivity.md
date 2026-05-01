@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: asyncapi.yaml
+  format: yaml
+  label: Zilla Gateway
+  slug: zilla-gateway
+  spec_type: AsyncAPI
+  url: https://docs.aklivity.io/zilla/latest/concepts/config/
 apis:
 - description: 'Zilla is a stateless, cloud-native multi-protocol edge and service proxy that enables seamless access to Apache Kafka through HTTP REST, gRPC, SSE, MQTT, and WebSocket protocols. Zilla eliminates the '
   name: Zilla Gateway

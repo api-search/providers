@@ -110,7 +110,6 @@ source_yaml: "aid: amazon-cloudshell\nname: Amazon CloudShell\ndescription: >-\n
   \ and demonstrations.\n- type: Integrations\n  data:\n  - name: AWS Management Console\n    description: Launch directly from any AWS Console page with existing credentials.\n  - name: AWS CLI\n    description: Pre-installed and pre-configured AWS CLI for all service access.\n  - name: AWS IAM\n    description: CloudShell inherits permissions from the signed-in IAM user or role.\n  - name: Amazon S3\n    description: Upload files to and download files from S3 using CloudShell.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/apis.yml
 tags:
-- AWS
 - CloudShell
 - Terminal
 - CLI

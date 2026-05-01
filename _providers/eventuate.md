@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: eventuate-api.yml
+  format: yaml
+  label: Eventuate
+  slug: eventuate
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eventuate/refs/heads/main/openapi/eventuate-api.yml
 apis:
 - description: Eventuate is a platform for developing transactional microservices using event sourcing and CQRS patterns, enabling reliable communication and data consistency across distributed services using the Sa
   name: Eventuate

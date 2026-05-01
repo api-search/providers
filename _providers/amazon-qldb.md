@@ -439,7 +439,6 @@ source_yaml: "name: Amazon QLDB\ndescription: Amazon Quantum Ledger Database (QL
   tags:\n- AWS\n- Blockchain\n- Database\n- Ledger\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/apis.yml
 tags:
-- AWS
 - Blockchain
 - Database
 - Ledger

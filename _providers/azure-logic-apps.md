@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: azure-logic-apps-openapi.yaml
+  format: yaml
+  label: Azure Logic Apps
+  slug: azure-logic-apps
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-openapi.yaml
 apis:
 - description: Azure Logic Apps is a cloud-based integration platform that enables you to create and run automated workflows integrating apps, data, services, and systems across cloud and on-premises environments.
   name: Azure Logic Apps

@@ -132,7 +132,6 @@ source_yaml: "name: Amazon Detective\ndescription: Amazon Detective is a securit
   \        description: Analyzes VPC flow logs to identify network communication patterns and anomalies.\n      - name: Amazon EKS\n        description: Optionally ingests EKS audit logs to monitor Kubernetes API server activity.\n      - name: AWS Organizations\n        description: Integrates with AWS Organizations to manage multi-account behavior graphs and auto-enable new accounts.\n      - name: AWS Security Hub\n        description: Surfaces Detective investigation context within Security Hub for consolidated security findings.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\ntags:\n  - AWS\n  - Forensics\n  - Investigation\n  - Security\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/apis.yml
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

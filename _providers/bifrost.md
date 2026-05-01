@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: bifrost-http-gateway-api.yaml
+  format: yaml
+  label: Bifrost HTTP Gateway API
+  slug: bifrost-http-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-http-gateway-api.yaml
 apis:
 - description: The Bifrost HTTP Gateway API provides an OpenAI-compatible RESTful interface that routes requests to any of 20+ supported AI providers. Requests specify the provider and model using provider/model-nam
   name: Bifrost HTTP Gateway API

@@ -88,7 +88,6 @@ source_yaml: "aid: amazon-trusted-advisor\nname: Amazon Trusted Advisor\ndescrip
   - type: NaftikoCapability\n  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/capabilities/amazon-trusted-advisor-capability.yaml\n- type: Features\n  data:\n  - name: Automation\n    description: Automate operational tasks with Amazon Trusted Advisor.\n  - name: API Access\n    description: Programmatic access to Amazon Trusted Advisor resources.\n- type: UseCases\n  data:\n  - name: Cloud Operations\n    description: Use Amazon Trusted Advisor to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/apis.yml
 tags:
-- AWS
 - Best Practices
 - Cloud Optimization
 - Security

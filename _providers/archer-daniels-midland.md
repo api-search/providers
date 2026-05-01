@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: archer-daniels-midland-commodity-data-api-openapi.yml
+  format: yaml
+  label: Archer Daniels Midland Commodity Data API
+  slug: commodity-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodity-data-api-openapi.yml
 apis:
 - description: The ADM Commodity Data API represents data integration capabilities for agricultural commodity pricing, supply chain logistics, and product information for partner integrations.
   name: Archer Daniels Midland Commodity Data API

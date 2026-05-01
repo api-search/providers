@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-braket-api-openapi.yml
+  format: yaml
+  label: Amazon Braket API
+  slug: amazon-braket-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-braket/refs/heads/main/openapi/amazon-braket-api-openapi.yml
 apis:
 - description: The Amazon Braket API provides programmatic access to quantum computing resources including quantum task execution on QPUs and simulators, hybrid quantum-classical job management, device discovery, an
   name: Amazon Braket API
@@ -80,7 +87,6 @@ tags:
 - Hybrid Quantum-Classical
 - QPU
 - Quantum Simulation
-- AWS
 - Amazon Web Services
 - Research
 - HPC

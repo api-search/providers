@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Kinesis Video Streams API
+  slug: amazon-kinesis-video-streams-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisvideo/2017-09-30/openapi.yaml
 apis:
 - description: The Amazon Kinesis Video Streams API provides programmatic access to create and manage video streams, signaling channels, and WebRTC connections for streaming video from connected devices to AWS.
   name: Amazon Kinesis Video Streams API
@@ -107,7 +114,6 @@ source_yaml: "aid: amazon-kinesis-video-streams\nname: Amazon Kinesis Video Stre
   \ - name: Live Video Streaming\n    description: Deliver live video streams to viewers with low latency using WebRTC.\n- type: Integrations\n  data:\n  - name: Amazon Rekognition\n    description: Analyze streaming video with computer vision for object and face detection.\n  - name: AWS IoT Core\n    description: Connect IoT cameras and devices to stream video to Amazon Kinesis Video Streams.\n  - name: Amazon SageMaker\n    description: Use video data for machine learning model training and inference.\n- type: SpectralRules\n  url: rules/amazon-kinesis-video-streams-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/amazon-kinesis-video-streams-workflow.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-kinesis-video-streams-vocabulary.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/apis.yml
 tags:
-- AWS
 - IoT
 - Machine Learning
 - Media

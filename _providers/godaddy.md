@@ -1,5 +1,60 @@
 ---
 api_count: 9
+api_specs:
+- filename: godaddy-domains-openapi.json
+  format: json
+  label: GoDaddy Domains API
+  slug: domains
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-domains-openapi.json
+- filename: godaddy-certificates-openapi.json
+  format: json
+  label: GoDaddy Certificates API
+  slug: certificates
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-certificates-openapi.json
+- filename: godaddy-shoppers-openapi.json
+  format: json
+  label: GoDaddy Shoppers API
+  slug: shoppers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-shoppers-openapi.json
+- filename: godaddy-subscriptions-openapi.json
+  format: json
+  label: GoDaddy Subscriptions API
+  slug: subscriptions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-subscriptions-openapi.json
+- filename: godaddy-orders-openapi.json
+  format: json
+  label: GoDaddy Orders API
+  slug: orders
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-orders-openapi.json
+- filename: godaddy-aftermarket-openapi.json
+  format: json
+  label: GoDaddy Aftermarket API
+  slug: aftermarket
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-aftermarket-openapi.json
+- filename: godaddy-abuse-openapi.json
+  format: json
+  label: GoDaddy Abuse API
+  slug: abuse
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-abuse-openapi.json
+- filename: godaddy-agreements-openapi.json
+  format: json
+  label: GoDaddy Agreements API
+  slug: agreements
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-agreements-openapi.json
+- filename: godaddy-countries-openapi.json
+  format: json
+  label: GoDaddy Countries API
+  slug: countries
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-countries-openapi.json
 apis:
 - description: Purchase, renew, transfer, and manage domains, DNS records, contacts, and privacy settings programmatically.
   name: GoDaddy Domains API

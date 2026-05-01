@@ -98,7 +98,6 @@ source_yaml: "aid: amazon-nova\nname: Amazon Nova\ndescription: >-\n  Amazon Nov
   \ criteria.\n  - name: Amazon S3\n    description: Store and access training data, batch inference inputs/outputs, and generated media artifacts.\n  - name: AWS IAM\n    description: Control access to Nova model invocations through fine-grained IAM policies and Bedrock model access settings.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-nova/refs/heads/main/apis.yml
 tags:
-- AWS
 - Foundation Models
 - Generative AI
 - Image Generation

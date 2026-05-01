@@ -1,5 +1,18 @@
 ---
 api_count: 6
+api_specs:
+- filename: openapiSpec
+  format: yaml
+  label: Cisco Meraki Dashboard API
+  slug: meraki-dashboard-api
+  spec_type: OpenAPI
+  url: https://api.meraki.com/api/v1/openapiSpec
+- filename: openapi.yaml
+  format: yaml
+  label: Cisco Intersight API
+  slug: intersight-api
+  spec_type: OpenAPI
+  url: https://intersight.com/apidocs/downloads/
 apis:
 - description: The Cisco Catalyst Center API (formerly Cisco DNA Center) provides programmatic management of Cisco enterprise network infrastructure, including discovery, inventory, provisioning, assurance, software
   name: Cisco Catalyst Center API

@@ -141,7 +141,6 @@ source_yaml: "name: Amazon Lambda\ndescription: AWS Lambda is a serverless compu
   maintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Compute\n- Event-Driven\n- FaaS\n- Functions\n- Serverless\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compute
 - Event-Driven
 - FaaS

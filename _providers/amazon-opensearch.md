@@ -113,7 +113,6 @@ source_yaml: "name: Amazon OpenSearch Service API\ndescription: Amazon OpenSearc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/apis.yml
 tags:
 - Analytics
-- AWS
 - Elasticsearch
 - Search
 url: https://aws.amazon.com/opensearch-service/

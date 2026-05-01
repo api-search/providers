@@ -117,7 +117,6 @@ source_yaml: "aid: amazon-cloud9\nname: Amazon Cloud9\ndescription: >-\n  AWS Cl
   \ Develop AWS applications with pre-installed SDKs and pre-authenticated CLI.\n- type: Integrations\n  data:\n  - name: AWS Lambda\n    description: Develop and test serverless functions with integrated Lambda tooling.\n  - name: AWS CodeCommit\n    description: Access CodeCommit repositories from Cloud9 environments.\n  - name: AWS CodePipeline\n    description: Integrate Cloud9 into CI/CD pipelines for automated deployment.\n  - name: Amazon EC2\n    description: Cloud9 environments run on managed EC2 instances.\n  - name: AWS IAM\n    description: Control access to Cloud9 environments with IAM policies.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud9
 - IDE
 - Development

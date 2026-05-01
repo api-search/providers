@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: azure-service-bus-openapi.yml
+  format: yaml
+  label: Azure Service Bus
+  slug: azure-service-bus
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-service-bus/refs/heads/main/openapi/azure-service-bus-openapi.yml
 apis:
 - description: 'Azure Service Bus is a fully managed enterprise message broker supporting message queues and publish-subscribe topics with features like dead-lettering, sessions, scheduled delivery, and transactions '
   name: Azure Service Bus

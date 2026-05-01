@@ -135,7 +135,6 @@ source_yaml: "aid: amazon-fraud-detector\nname: Amazon Fraud Detector\ndescripti
   \ to downstream systems for automated response workflows.\n  - name: Amazon SNS\n    description: Send real-time fraud alert notifications to operations teams via SNS topics.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/apis.yml
 tags:
-- AWS
 - Financial Services
 - Fraud Detection
 - Machine Learning

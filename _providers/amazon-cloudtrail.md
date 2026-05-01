@@ -125,7 +125,6 @@ source_yaml: "aid: amazon-cloudtrail\nurl: >-\n  https://raw.githubusercontent.c
   \ AWS Lambda\n    description: Trigger Lambda functions based on CloudTrail events for automated response.\n  - name: AWS Security Hub\n    description: Send CloudTrail findings to Security Hub for centralized security management.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- CloudTrail\n- Audit\n- Compliance\n- Governance\n- Security\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/apis.yml
 tags:
-- AWS
 - CloudTrail
 - Audit
 - Compliance

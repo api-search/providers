@@ -108,7 +108,6 @@ source_yaml: "aid: amazon-managed-blockchain\nname: Amazon Managed Blockchain\nd
   \ Track products through supply chains with immutable blockchain records shared across organizations.\n      - name: Financial Settlement\n        description: Automate financial settlement processes with smart contracts on Hyperledger Fabric.\n      - name: Healthcare Data Sharing\n        description: Share patient data securely across healthcare providers using blockchain consent records.\n      - name: Digital Asset Management\n        description: Manage digital assets and NFTs on Ethereum through a fully managed blockchain service.\n  - type: Integrations\n    data:\n      - name: Amazon S3\n        description: Store blockchain application code and configuration in S3 buckets.\n      - name: AWS KMS\n        description: Encrypt blockchain network data using AWS Key Management Service.\n      - name: Amazon CloudWatch\n        description: Monitor blockchain node and network metrics in CloudWatch.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-blockchain/refs/heads/main/apis.yml
 tags:
-- AWS
 - Blockchain
 - Distributed Ledger
 - Hyperledger Fabric

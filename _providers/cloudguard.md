@@ -1,5 +1,12 @@
 ---
 api_count: 5
+api_specs:
+- filename: swagger.json
+  format: json
+  label: CloudGuard CNAPP REST API
+  slug: cloudguard-cnapp-api
+  spec_type: OpenAPI
+  url: https://api.dome9.com/v2/swagger.json
 apis:
 - description: The CloudGuard CNAPP REST API (formerly Dome9 v2) is used to onboard AWS, Azure, GCP, Kubernetes, and on-premises accounts; create and run compliance/posture rulesets; retrieve security findings and a
   name: CloudGuard CNAPP REST API

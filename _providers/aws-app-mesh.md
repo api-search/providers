@@ -197,7 +197,6 @@ source_yaml: "aid: aws-app-mesh\nname: AWS App Mesh\ndescription: >-\n  AWS App 
   \ identify performance bottlenecks and service failures.\n      - name: Zero-Trust Networking\n        description: Enforce mTLS encryption between services for internal network security compliance.\n  - type: Integrations\n    data:\n      - name: Amazon ECS\n        description: Automatically inject Envoy sidecars into ECS task definitions.\n      - name: Amazon EKS\n        description: Integrate with Kubernetes pod networking using the App Mesh controller for Kubernetes.\n      - name: AWS X-Ray\n        description: Export distributed traces from Envoy proxies to X-Ray for performance analysis.\n      - name: Amazon CloudWatch\n        description: Send Envoy proxy metrics to CloudWatch for monitoring and alerting.\n      - name: AWS Cloud Map\n        description: Use Cloud Map for service discovery within the mesh.\n      - name: Amazon EC2\n        description: Run Envoy sidecar proxies alongside EC2-hosted services.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/apis.yml
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

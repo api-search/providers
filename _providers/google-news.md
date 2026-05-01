@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google News RSS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/openapi.yml
 apis:
 - description: RSS feed endpoints for retrieving Google News headlines by topic, location, and search query across multiple languages and regions.
   name: Google News RSS API

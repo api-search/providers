@@ -126,7 +126,6 @@ source_yaml: "aid: amazon-compute-optimizer\nname: Amazon Compute Optimizer\ndes
   \ across all accounts in an AWS Organization.\n      - name: Amazon CloudWatch\n        description: Compute Optimizer uses CloudWatch utilization metrics to generate its ML-based recommendations.\n      - name: AWS Trusted Advisor\n        description: Complementary service that also provides rightsizing recommendations alongside Compute Optimizer.\n      - name: AWS Systems Manager\n        description: Use Systems Manager to implement EC2 instance type changes recommended by Compute Optimizer.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

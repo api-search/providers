@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-directory-service-openapi.yaml
+  format: yaml
+  label: AWS Directory Service API
+  slug: aws-directory-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/openapi/amazon-directory-service-openapi.yaml
 apis:
 - description: The AWS Directory Service API provides programmatic access to create and manage directories, trusts, snapshots, and domain controllers for Microsoft Active Directory in the AWS Cloud.
   name: AWS Directory Service API
@@ -116,7 +123,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-directo
 tags:
 - Active Directory
 - Authentication
-- AWS
 - Directory Services
 - Identity Management
 url: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/apis.yml

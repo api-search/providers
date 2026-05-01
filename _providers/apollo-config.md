@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apollo-open-api.yml
+  format: yaml
+  label: Apollo Config
+  slug: apollo-config
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-config/refs/heads/main/openapi/apollo-open-api.yml
 apis:
 - description: Apollo is a reliable, open-source configuration management system suitable for microservice configuration management scenarios, providing centralized configuration management, real-time updates, versi
   name: Apollo Config

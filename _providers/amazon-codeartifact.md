@@ -156,7 +156,6 @@ source_yaml: "aid: amazon-codeartifact\nname: Amazon CodeArtifact\ndescription: 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/apis.yml
 tags:
 - Amazon
-- AWS
 - Artifact Repository
 - Package Management
 - DevOps

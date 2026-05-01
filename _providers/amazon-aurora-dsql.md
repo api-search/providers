@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-aurora-dsql-openapi.yml
+  format: yaml
+  label: Amazon Aurora DSQL API
+  slug: amazon-aurora-dsql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/openapi/amazon-aurora-dsql-openapi.yml
 apis:
 - description: REST management API for Amazon Aurora DSQL covering cluster creation, configuration, multi-region deployments, and connection endpoint management.
   name: Amazon Aurora DSQL API
@@ -67,7 +74,6 @@ tags:
 - Distributed SQL
 - PostgreSQL
 - Serverless
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/apis.yml
 use_cases:
 - Build globally distributed transactional applications

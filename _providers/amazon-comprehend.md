@@ -139,7 +139,6 @@ source_yaml: "aid: amazon-comprehend\nurl: >-\n  https://raw.githubusercontent.c
   \  email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/apis.yml
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

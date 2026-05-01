@@ -1,5 +1,12 @@
 ---
 api_count: 13
+api_specs:
+- filename: openapi-productionserver
+  format: yaml
+  label: MATLAB Production Server RESTful API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://github.com/mathworks-ref-arch/openapi-productionserver
 apis:
 - description: Call MATLAB from Python, allowing Python programs to start MATLAB, execute MATLAB functions, and exchange data between Python and MATLAB.
   name: MATLAB Engine API for Python

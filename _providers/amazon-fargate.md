@@ -147,7 +147,6 @@ source_yaml: "name: Amazon Fargate\ndescription: >-\n  Amazon Fargate is a serve
   \  - name: AWS Secrets Manager\n    description: Inject secrets and configuration into Fargate task containers securely.\n  - name: Amazon ECR\n    description: Store and deploy container images from Amazon Elastic Container Registry.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

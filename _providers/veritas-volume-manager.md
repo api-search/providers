@@ -1,5 +1,12 @@
 ---
 api_count: 7
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Veritas Volume Manager REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.veritas.com/vvm/v1/openapi.json
 apis:
 - description: RESTful API for managing storage volumes, disk groups, and storage operations.
   name: Veritas Volume Manager REST API

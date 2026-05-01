@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Launch Wizard API
+  slug: aws-launch-wizard-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/launchwizard/2018-05-10/openapi.yaml
 apis:
 - description: The AWS Launch Wizard API provides programmatic access to manage deployments, workload specs, and deployment events for guided enterprise application deployments on AWS.
   name: AWS Launch Wizard API
@@ -109,7 +116,6 @@ source_yaml: "aid: amazon-launch-wizard\nname: Amazon Launch Wizard\ndescription
   \  - name: Amazon EBS\n    description: Attaches appropriately sized EBS volumes optimized for enterprise application performance.\n  - name: AWS Systems Manager\n    description: Uses Systems Manager for configuration management and post-deployment tasks.\n- type: SpectralRules\n  url: rules/amazon-launch-wizard-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/amazon-launch-wizard-workflow.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-launch-wizard-vocabulary.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/apis.yml
 tags:
-- AWS
 - Deployment
 - Enterprise Applications
 - SAP

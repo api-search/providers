@@ -114,7 +114,6 @@ source_yaml: "name: AWS Lake Formation\ndescription: AWS Lake Formation is a ful
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/apis.yml
 tags:
 - Analytics
-- AWS
 - Data Lake
 - Governance
 url: https://aws.amazon.com/lake-formation/

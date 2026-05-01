@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Bump.sh API
+  slug: bump-sh-api
+  spec_type: OpenAPI
+  url: https://developers.bump.sh/openapi.yaml
 apis:
 - description: The Bump.sh REST API allows programmatic management of API documentation, deployments, and changelogs. Integrates with CI/CD pipelines to automatically publish OpenAPI and AsyncAPI spec changes as ver
   name: Bump.sh API

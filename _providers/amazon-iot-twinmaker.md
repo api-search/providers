@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-iot-twinmaker\nname: Amazon IoT TwinMaker\ndescription
   \ IoT SiteWise\n        description: Connects SiteWise asset data to TwinMaker entity components.\n      - name: Amazon Grafana\n        description: Visualizes TwinMaker data in Grafana dashboards.\n      - name: AWS IoT Core\n        description: Receives real-time device data for digital twin updates.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/apis.yml
 tags:
-- AWS
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

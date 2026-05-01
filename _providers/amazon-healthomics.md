@@ -125,7 +125,6 @@ source_yaml: "aid: amazon-healthomics\nname: Amazon HealthOmics\ndescription: >-
   \      - name: AWS IAM\n        description: Control access to HealthOmics resources using IAM roles and policies.\n      - name: Amazon CloudWatch\n        description: Monitor HealthOmics workflows and storage operations through CloudWatch metrics.\n      - name: AWS Lake Formation\n        description: Govern and secure genomic data lake access using Lake Formation permissions.\n      - name: Amazon Athena\n        description: Query genomic annotation and variant data stored in HealthOmics using Athena.\n      - name: AWS Batch\n        description: Supplement HealthOmics workflows with custom compute jobs using AWS Batch.\n  - type: SpectralRules\n    url: rules/amazon-healthomics-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/amazon-healthomics-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/amazon-healthomics-genomics-operations.yaml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/apis.yml
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

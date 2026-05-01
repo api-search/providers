@@ -110,7 +110,6 @@ source_yaml: "aid: amazon-mediatailor\nname: Amazon MediaTailor\ndescription: AW
   \    description: Monitor ad insertion metrics and playback session data.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

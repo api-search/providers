@@ -119,7 +119,6 @@ source_yaml: "aid: amazon-iot-fleetwise\nname: Amazon IoT FleetWise\ndescription
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/apis.yml
 tags:
 - Automotive
-- AWS
 - Connected Vehicles
 - IoT
 - Telematics

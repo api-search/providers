@@ -105,7 +105,6 @@ source_yaml: "aid: amazon-sqs\nname: Amazon SQS\ndescription: >-\n  Amazon Simpl
   \  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud
 - Distributed Systems
 - Messaging

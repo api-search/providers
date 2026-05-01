@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: azure-container-apps-openapi.yml
+  format: yaml
+  label: Azure Container Apps
+  slug: azure-container-apps
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-openapi.yml
 apis:
 - description: Azure Container Apps is a serverless container service for running microservices and containerized applications with built-in autoscaling, traffic splitting, and Dapr integration. It enables developer
   name: Azure Container Apps

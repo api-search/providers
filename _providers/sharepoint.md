@@ -1,5 +1,18 @@
 ---
 api_count: 4
+api_specs:
+- filename: sharepoint-rest-openapi.json
+  format: json
+  label: SharePoint REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://example.com/sharepoint-rest-openapi.json
+- filename: graph-sharepoint-openapi.json
+  format: json
+  label: Microsoft Graph API (SharePoint)
+  slug: graph-api-sharepoint
+  spec_type: OpenAPI
+  url: https://example.com/graph-sharepoint-openapi.json
 apis:
 - description: The SharePoint REST API enables developers to interact remotely with SharePoint data using any technology that supports REST web requests.
   name: SharePoint REST API

@@ -121,7 +121,6 @@ source_yaml: "aid: amazon-cloud-map\nname: Amazon Cloud Map\ndescription: >-\n  
   \ only to verified healthy service endpoints.\n  - name: CI/CD Integration\n    description: Automatically register and deregister services during CI/CD pipeline deployments.\n  - name: Multi-Region Service Mesh\n    description: Discover services across multiple AWS regions with a unified namespace.\n- type: Integrations\n  data:\n  - name: Amazon ECS\n    description: Automatically register ECS task IPs in Cloud Map as containers launch.\n  - name: Amazon EKS\n    description: Integrate Kubernetes service discovery with Cloud Map for hybrid environments.\n  - name: Amazon Route 53\n    description: DNS-based service discovery backed by Route 53 private hosted zones.\n  - name: AWS App Mesh\n    description: Use Cloud Map as the service registry for App Mesh virtual services.\n  - name: AWS IAM\n    description: Control access to Cloud Map namespaces with IAM policies.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

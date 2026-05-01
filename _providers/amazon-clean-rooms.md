@@ -132,7 +132,6 @@ source_yaml: "aid: amazon-clean-rooms\nname: Amazon Clean Rooms\ndescription: >-
   \ Apply ML models within protected Clean Rooms jobs.\n  - name: AWS IAM\n    description: Control access to Clean Rooms resources with IAM policies.\n  - name: AWS CloudTrail\n    description: Audit all Clean Rooms API calls via CloudTrail.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/apis.yml
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

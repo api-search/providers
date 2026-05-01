@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-managed-apache-flink\nname: Amazon Managed Service for
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/apis.yml
 tags:
 - Apache Flink
-- AWS
 - Big Data
 - Real-Time Processing
 - Streaming Analytics

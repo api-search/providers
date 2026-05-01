@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-codeguru-security\nname: Amazon CodeGuru Security\ndes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/apis.yml
 tags:
 - Amazon
-- AWS
 - Security
 - SAST
 - Code Analysis

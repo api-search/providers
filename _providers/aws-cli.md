@@ -88,7 +88,6 @@ source_yaml: "aid: aws-cli\nname: AWS CLI\ndescription: >-\n  The AWS Command Li
   \      - name: AWS CloudShell\n        description: Pre-installed in AWS CloudShell for browser-based CLI access without local installation.\n      - name: AWS CodeBuild\n        description: Available in CodeBuild build environments for CI/CD pipeline automation.\n      - name: GitHub Actions\n        description: Used in GitHub Actions workflows via the configure-aws-credentials action.\n      - name: Homebrew\n        description: Installable via Homebrew on macOS for easy installation and updates.\n      - name: Windows Package Manager\n        description: Available via winget for installation on Windows systems.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-cli/refs/heads/main/apis.yml
 tags:
-- AWS
 - CLI
 - Cloud Computing
 - Command Line Interface

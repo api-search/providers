@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Cisco Directory Connector Sync API
+  slug: cisco-directory-connector-sync-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Control Hub API
+  slug: webex-control-hub-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
 apis:
 - description: Manage and observe directory synchronization between on-premises directory services and Cisco Webex Control Hub, including sync scheduling, status, and error reporting.
   name: Cisco Directory Connector Sync API

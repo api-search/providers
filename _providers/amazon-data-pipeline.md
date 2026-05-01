@@ -129,7 +129,6 @@ source_yaml: "aid: amazon-data-pipeline\nname: Amazon Data Pipeline\ndescription
   \ in\n          pipeline activities for batch processing workflows.\n      - name: Amazon Redshift\n        description: >-\n          Data warehouse target for loading processed pipeline output data\n          for business intelligence and analytics queries.\n      - name: AWS Glue\n        description: >-\n          Modern alternative managed ETL service that can complement or\n          replace Data Pipeline for serverless data transformation workflows.\n      - name: Amazon CloudWatch\n        description: >-\n          Monitor pipeline execution status, set up alarms for pipeline\n          failures, and track activity completion metrics.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Processing
 - ETL
 - Workflows

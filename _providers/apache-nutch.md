@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-nutch-openapi.yaml
+  format: yaml
+  label: Apache Nutch REST API
+  slug: apache-nutch-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-openapi.yaml
 apis:
 - description: REST API for managing Apache Nutch crawl jobs, configurations, seed URL lists, database queries (CrawlDB and FetchDB), and data readers. Supports full crawl lifecycle management including inject, gene
   name: Apache Nutch REST API

@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: broadridge-wealth-openapi.yml
+  format: yaml
+  label: Broadridge Wealth Management API
+  slug: broadridge-wealth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-wealth-openapi.yml
 apis:
 - description: The Broadridge Wealth Management API provides access to account activity, balances, positions, and transaction data for wealth management platforms. REST APIs enable broker-dealers and RIAs to integra
   name: Broadridge Wealth Management API

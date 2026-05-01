@@ -120,7 +120,6 @@ source_yaml: "aid: amazon-workspaces-web\nname: Amazon WorkSpaces Web\ndescripti
   \          of internal web applications.\n  - type: Integrations\n    data:\n      - name: AWS IAM Identity Center\n        description: >-\n          Single sign-on integration for WorkSpaces Web portal authentication.\n      - name: Amazon Kinesis\n        description: >-\n          User access logging integration to stream session data for analysis.\n      - name: AWS KMS\n        description: >-\n          Encryption key management for browser settings and data at rest.\n      - name: Amazon VPC\n        description: >-\n          VPC integration for network isolation of browser sessions.\n      - name: AWS Certificate Manager\n        description: >-\n          Certificate management for trust store and SSL configurations.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/apis.yml
 tags:
-- AWS
 - End User Computing
 - Secure Browser
 - Virtual Desktop

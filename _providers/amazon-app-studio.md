@@ -110,7 +110,6 @@ source_yaml: "aid: amazon-app-studio\nname: Amazon App Studio\ndescription: >-\n
   \ tools connected to existing databases for field operations and back-office teams.\n  - name: Workflow Automation\n    description: Automate approval workflows, task management, and process tracking with connected business logic.\n  - name: IT Self-Service Portals\n    description: Build IT request portals, asset management tools, and helpdesk applications for internal teams.\n- type: Integrations\n  data:\n  - name: Amazon DynamoDB\n    description: Connect App Studio applications to DynamoDB for serverless NoSQL data storage and retrieval.\n  - name: Amazon Aurora\n    description: Use Aurora as a relational database backend for App Studio applications requiring structured data.\n  - name: AWS IAM Identity Center\n    description: Manage user access to App Studio applications using IAM Identity Center for single sign-on.\n  - name: Amazon Q\n    description: Leverage Amazon Q generative AI capabilities within App Studio for AI-assisted application development.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/apis.yml
 tags:
-- AWS
 - Generative AI
 - Internal Tools
 - Low-Code

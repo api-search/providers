@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-oozie-openapi.yaml
+  format: yaml
+  label: Apache Oozie REST API
+  slug: apache-oozie-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/openapi/apache-oozie-openapi.yaml
 apis:
 - description: The Oozie Web Services API provides REST endpoints for submitting, managing, and monitoring workflow, coordinator, and bundle jobs on Apache Hadoop. Supports full job lifecycle management (submit, sta
   name: Apache Oozie REST API

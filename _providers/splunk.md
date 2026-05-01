@@ -7,6 +7,12 @@ api_specs:
   slug: splunk-enterprise-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-enterprise-rest-api.yml
+- filename: openapi.json
+  format: json
+  label: Splunk Cloud ACS OpenAPI Specification
+  slug: splunk-cloud-admin-config-service-openapi
+  spec_type: OpenAPI
+  url: https://admin.splunk.com/service/info/specs/v2/openapi.json
 apis:
 - description: API monitoring checks to see if API-connected resources are available, working properly and responding to calls.
   name: Splunk

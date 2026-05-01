@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: determined-ai-openapi.yml
+  format: yaml
+  label: Determined AI REST API
+  slug: determined-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/openapi/determined-ai-openapi.yml
 apis:
 - description: Determined helps deep learning teams train models more quickly, easily share GPU resources, and effectively collaborate. The REST API provides programmatic access to manage experiments, models, checkp
   name: Determined AI REST API

@@ -1,5 +1,12 @@
 ---
 api_count: 15
+api_specs:
+- filename: rest
+  format: yaml
+  label: Gemini REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://generativelanguage.googleapis.com/$discovery/rest?version=v1beta&key=YOUR_API_KEY
 apis:
 - description: REST API for accessing Gemini models for text generation, chat, embeddings, and multimodal tasks.
   name: Gemini REST API

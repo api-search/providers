@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Fonts Developer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-fonts/refs/heads/main/openapi/openapi.yml
 apis:
 - description: REST API for listing and querying Google Fonts families including metadata about variants, subsets, categories, and variable font axes.
   name: Google Fonts Developer API

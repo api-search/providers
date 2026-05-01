@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: decision-api-openapi.yml
+  format: yaml
+  label: AB Tasty Decision API
+  slug: ab-tasty-decision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/decision-api-openapi.yml
 apis:
 - description: 'The AB Tasty Decision API is a server-side service that evaluates a visitors context against your active experiments, personalizations, and feature flags, then returns a deterministic decision: which '
   name: AB Tasty Decision API

@@ -242,7 +242,6 @@ source_yaml: "name: Amazon Shield\ndescription: AWS Shield is a managed Distribu
   - type: OpenAPI\n  url: openapi/amazon-shield-api-openapi.yml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- DDoS Protection\n- Networking\n- Security\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/apis.yml
 tags:
-- AWS
 - DDoS Protection
 - Networking
 - Security

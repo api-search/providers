@@ -1,5 +1,12 @@
 ---
 api_count: 5
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Google Spanner API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/APIs-guru/openapi-directory/main/APIs/googleapis.com/spanner/v1/openapi.yaml
 apis:
 - description: PostgreSQL provides full ACID compliance through its transaction management system including BEGIN, COMMIT, ROLLBACK, SAVEPOINT, and isolation level controls (READ COMMITTED, REPEATABLE READ, SERIALIZ
   name: PostgreSQL Transaction API

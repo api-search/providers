@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: akamai-api-security-openapi.json
+  format: json
+  label: Akamai API Security
+  slug: api-security
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-openapi.json
 apis:
 - description: Akamai API Security provides end-to-end API protection including discovery, posture management, runtime protection, and active testing. It discovers all APIs including shadow and zombie APIs, identifi
   name: Akamai API Security

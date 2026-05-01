@@ -342,7 +342,6 @@ source_yaml: "name: Amazon Polly\ndescription: Amazon Polly is a cloud service t
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/apis.yml
 tags:
 - AI
-- AWS
 - Machine Learning
 - Speech Synthesis
 - Text-To-Speech

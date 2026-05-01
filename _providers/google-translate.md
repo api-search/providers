@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Cloud Translation API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-translate/refs/heads/main/openapi/openapi.yml
 apis:
 - description: REST API for translating text between languages, detecting source languages, and listing supported languages using Google's neural machine translation models.
   name: Google Cloud Translation API

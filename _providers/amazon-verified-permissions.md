@@ -89,7 +89,6 @@ source_yaml: "aid: amazon-verified-permissions\nname: Amazon Verified Permission
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml
 tags:
 - Authorization
-- AWS
 - Permissions
 - Security
 url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/apis.yml

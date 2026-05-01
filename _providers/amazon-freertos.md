@@ -137,7 +137,6 @@ source_yaml: "aid: amazon-freertos\nname: Amazon FreeRTOS\ndescription: >-\n  Am
   \  data:\n  - name: AWS IoT Core\n    description: Primary cloud backend for FreeRTOS device messaging, shadow state, and job management.\n  - name: AWS IoT Greengrass\n    description: Extend cloud intelligence to FreeRTOS edge devices for local compute and ML inference.\n  - name: AWS IoT Device Management\n    description: Register, organize, monitor, and remotely manage FreeRTOS device fleets.\n  - name: AWS IoT Device Defender\n    description: Audit and monitor FreeRTOS device security posture for anomalies and policy violations.\n  - name: Amazon S3\n    description: Store firmware binaries for OTA update delivery to FreeRTOS devices.\n  - name: AWS KMS\n    description: Manage code signing keys for secure firmware distribution.\n  - name: AWS CloudFormation\n    description: Automate FreeRTOS fleet infrastructure provisioning with infrastructure-as-code templates.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/apis.yml
 tags:
-- AWS
 - Embedded Systems
 - IoT
 - Microcontrollers

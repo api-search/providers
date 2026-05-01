@@ -1,5 +1,12 @@
 ---
 api_count: 10
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: QlikView Server API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://help.qlik.com/en-US/qlikview-developer/APIs/
 apis:
 - description: Server-side API for managing QlikView Server operations, documents, and sessions.
   name: QlikView Server API

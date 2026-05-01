@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: arcbest-api.yaml
+  format: yaml
+  label: ArcBest API
+  slug: arcbest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-api.yaml
 apis:
 - description: The ArcBest API provides programmatic access to freight services including LTL rate quotes, shipment booking, tracking, BOL generation, and supply chain visibility. Access is by invitation only.
   name: ArcBest API

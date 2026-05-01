@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph API
+  slug: microsoft-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 apis:
 - description: The primary API for accessing Azure AD and other Microsoft 365 services.
   name: Microsoft Graph API

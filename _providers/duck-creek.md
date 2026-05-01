@@ -1,5 +1,12 @@
 ---
 api_count: 5
+api_specs:
+- filename: duck-creek-policy-openapi.yml
+  format: yaml
+  label: Duck Creek Anywhere REST API
+  slug: duck-creek-anywhere-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policy-openapi.yml
 apis:
 - description: Duck Creek Anywhere provides a RESTful API enabling non-Duck Creek systems to query product definitions, configurations, and content to drive processing within third-party systems. The platform expose
   name: Duck Creek Anywhere REST API

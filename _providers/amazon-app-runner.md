@@ -133,7 +133,6 @@ source_yaml: "aid: amazon-app-runner\nurl: >-\n  https://raw.githubusercontent.c
   \ from container images stored in Amazon ECR with automatic image updates.\n  - name: AWS CodeBuild\n    description: Use CodeBuild for source code building and integrate with App Runner for automated deployment pipelines.\n  - name: Amazon RDS\n    description: Connect App Runner services to RDS databases using VPC connectors for secure private network access.\n  - name: AWS CloudWatch\n    description: Monitor App Runner service metrics, request counts, and latency using CloudWatch dashboards and alarms.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/apis.yml
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

@@ -125,7 +125,6 @@ source_yaml: "aid: amazon-cloudfront\nurl: >-\n  https://raw.githubusercontent.c
   \   description: Route traffic to CloudFront distributions using Route 53 aliases.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/apis.yml
 tags:
-- AWS
 - CloudFront
 - CDN
 - Content Delivery

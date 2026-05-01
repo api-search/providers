@@ -121,7 +121,6 @@ source_yaml: "aid: amazon-codestar\nurl: >-\n  https://raw.githubusercontent.com
   \    description: Infrastructure provisioning integration for creating and managing project AWS resources.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\ntags:\n  - AWS\n  - Developer Tools\n  - DevOps\n  - Project Management\n  - Team Collaboration\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/apis.yml
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

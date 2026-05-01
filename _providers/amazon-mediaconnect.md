@@ -117,7 +117,6 @@ source_yaml: "aid: amazon-mediaconnect\nname: Amazon MediaConnect\ndescription: 
   \        description: Trigger event-driven workflows based on MediaConnect source health changes.\n      - name: Amazon CloudFront\n        description: Deliver processed video content at scale using CloudFront.\n      - name: AWS Secrets Manager\n        description: Securely manage encryption keys for content protection.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Live Video
 - Media

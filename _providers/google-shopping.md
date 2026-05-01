@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Content API for Shopping
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/openapi/openapi.yml
 apis:
 - description: REST API for managing product listings, accounts, data feeds, orders, and inventory in Google Merchant Center.
   name: Google Content API for Shopping

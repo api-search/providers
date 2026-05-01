@@ -116,7 +116,6 @@ source_yaml: "aid: amazon-mainframe-modernization\nname: Amazon Mainframe Modern
   \ - name: Amazon EFS\n        description: Store application artifacts and data sets in Elastic File System.\n      - name: AWS CloudWatch\n        description: Monitor application and batch job metrics through CloudWatch.\n      - name: AWS VPC\n        description: Deploy environments within a Virtual Private Cloud for network isolation.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/apis.yml
 tags:
-- AWS
 - COBOL
 - Mainframe
 - Migration

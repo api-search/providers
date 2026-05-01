@@ -89,7 +89,6 @@ source_yaml: "aid: amazon-verified-access\nname: Amazon Verified Access\ndescrip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/apis.yml
 tags:
 - Access Management
-- AWS
 - Security
 - Zero Trust
 url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/apis.yml

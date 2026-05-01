@@ -123,7 +123,6 @@ source_yaml: "aid: amazon-healthimaging\nname: Amazon HealthImaging\ndescription
   \ Amazon S3\n        description: Import medical imaging data from S3 buckets using DICOM import jobs.\n      - name: AWS IAM\n        description: Control access to HealthImaging resources using IAM roles and policies.\n      - name: Amazon CloudWatch\n        description: Monitor HealthImaging operations and performance metrics through CloudWatch.\n      - name: AWS HealthLake\n        description: Integrate with HealthLake for combining medical imaging with FHIR health records.\n      - name: Amazon SageMaker\n        description: Apply SageMaker ML models to medical images for AI-powered analysis and diagnostics.\n  - type: SpectralRules\n    url: rules/amazon-healthimaging-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/amazon-healthimaging-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/amazon-healthimaging-medical-imaging-operations.yaml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/apis.yml
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

@@ -120,7 +120,6 @@ source_yaml: "aid: aws-x-ray\nname: AWS X-Ray\ndescription: >-\n  AWS X-Ray is a
   \ ECS\n        description: Collect traces from containerized applications running on ECS.\n      - name: AWS Elastic Beanstalk\n        description: Enable X-Ray on Elastic Beanstalk environments for application tracing.\n      - name: Amazon CloudWatch\n        description: Unified observability with CloudWatch Application Signals and alarms.\n      - name: AWS Step Functions\n        description: Trace state machine executions through Step Functions workflows.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/apis.yml
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

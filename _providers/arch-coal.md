@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: arch-coal-investor-relations-api.yaml
+  format: yaml
+  label: Arch Coal Investor Relations
+  slug: arch-coal-investor-relations
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/openapi/arch-coal-investor-relations-api.yaml
 apis:
 - description: Arch Coal provides investor relations data including SEC filings, financial reports, coal production data, and market information for shareholders and analysts.
   name: Arch Coal Investor Relations

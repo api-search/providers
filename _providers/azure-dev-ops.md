@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: azure-dev-ops-openapi.yaml
+  format: yaml
+  label: Azure DevOps REST API
+  slug: azure-devops-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/openapi/azure-dev-ops-openapi.yaml
+- filename: azure-dev-ops-openapi.yaml
+  format: yaml
+  label: Azure DevOps Pipelines API
+  slug: azure-devops-pipelines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/openapi/azure-dev-ops-openapi.yaml
 apis:
 - description: REST API for Azure DevOps Services and Azure DevOps Server.
   name: Azure DevOps REST API

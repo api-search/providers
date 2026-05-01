@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: schema_retrieve
+  format: yaml
+  label: Authentik REST API
+  slug: authentik-rest-api
+  spec_type: OpenAPI
+  url: https://api.goauthentik.io/#/Schema/schema_retrieve
 apis:
 - description: The authentik REST API v3 provides complete management of the authentik identity platform including users, groups, tokens, flows, providers, sources, policies, outposts, events, and configuration. Eve
   name: Authentik REST API

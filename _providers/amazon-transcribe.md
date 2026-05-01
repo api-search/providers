@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-transcribe-openapi.yml
+  format: yaml
+  label: Amazon Transcribe REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-openapi.yml
 apis:
 - description: RESTful API for Amazon Transcribe speech-to-text operations including transcription jobs, vocabularies, and real-time streaming transcription.
   name: Amazon Transcribe REST API
@@ -105,7 +112,6 @@ source_yaml: "name: Amazon Transcribe\ndescription: Amazon Transcribe is a speec
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/apis.yml
 tags:
 - Audio Processing
-- AWS
 - Machine Learning
 - Speech Recognition
 - Speech-To-Text

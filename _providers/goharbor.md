@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: swagger.yaml
+  format: yaml
+  label: GoHarbor
+  slug: goharbor
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/goharbor/harbor/main/api/v2.0/swagger.yaml
 apis:
 - description: You can view and test the Harbor REST API from your Harbor interface using the Swagger UI. This means that you can invoke all APIs through the Harbor interface. You can navigate to the REST API throug
   name: GoHarbor

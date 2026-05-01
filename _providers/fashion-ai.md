@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: fashion-ai-openapi.yml
+  format: yaml
+  label: Fashion AI
+  slug: fashion-ai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fashion-ai/refs/heads/main/openapi/fashion-ai-openapi.yml
 apis:
 - description: Segmind Fashion AI is an AI-powered in-painting service that edits the clothing region of an image based on a text prompt. It accepts an input image (auto center-cropped and resized to 512x512), a tex
   name: Fashion AI

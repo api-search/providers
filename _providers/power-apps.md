@@ -1,5 +1,18 @@
 ---
 api_count: 7
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Power Apps REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://learn.microsoft.com/en-us/connectors/powerappsforappmakers/
+- filename: openapi
+  format: yaml
+  label: Microsoft Dataverse Web API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/openapi
 apis:
 - description: The Power Apps REST API provides a unified endpoint to work with environments, apps, and related resources.
   name: Power Apps REST API

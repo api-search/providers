@@ -127,7 +127,6 @@ source_yaml: "aid: amazon-data-lifecycle-manager\nname: Amazon Data Lifecycle Ma
   \ to DLM, AWS Backup provides centralized backup management\n          across multiple AWS services including EBS, RDS, and DynamoDB.\n      - name: AWS IAM\n        description: >-\n          DLM uses IAM execution roles to assume permissions for creating and\n          deleting snapshots on behalf of the lifecycle policy.\n      - name: AWS Organizations\n        description: >-\n          Cross-account snapshot sharing policies use AWS Organizations to\n          share EBS snapshots with member accounts automatically.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/apis.yml
 tags:
-- AWS
 - Backup
 - EBS Snapshots
 - Lifecycle Management

@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-iot-device-defender\nname: Amazon IoT Device Defender\
   \ policies and certificates against security best practices.\n  - type: Integrations\n    data:\n      - name: AWS IoT Core\n        description: Monitors all IoT Core device connections and policies.\n      - name: Amazon CloudWatch\n        description: Sends security metrics and alerts to CloudWatch.\n      - name: AWS Security Hub\n        description: Publishes IoT security findings to Security Hub.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compliance
 - IoT
 - Security

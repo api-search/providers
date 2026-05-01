@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: beyondtrust-password-safe-api.yaml
+  format: yaml
+  label: BeyondTrust Password Safe API
+  slug: beyondtrust-password-safe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-password-safe-api.yaml
 apis:
 - description: The BeyondTrust Password Safe API provides programmatic access to privileged credential management, secrets management, session management, and access request workflows. It enables organizations to im
   name: BeyondTrust Password Safe API

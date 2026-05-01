@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: Looker.4.0.oas.json
+  format: json
+  label: Looker API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/looker-open-source/sdk-codegen/main/spec/Looker.4.0.oas.json
+- filename: rest
+  format: yaml
+  label: Looker (Google Cloud core) API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://looker.googleapis.com/$discovery/rest?version=v1
 apis:
 - description: The Looker API provides programmatic access to Looker functionality for managing users, content, queries, and more.
   name: Looker API

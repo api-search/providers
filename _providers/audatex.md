@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Audatex AudaConnect API
+  slug: audatex-audaconnect-api
+  spec_type: OpenAPI
+  url: https://audaconnect-demo.ax-aee.co.uk/AudaAPI.Bmsapi/
 apis:
 - description: The AudaConnect API enables third-party software developers to access, query, and update the Audatex platform including assessments, vehicle reference data, repair orders, and photo management using R
   name: Audatex AudaConnect API

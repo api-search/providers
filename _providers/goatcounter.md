@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: goatcounter-openapi.yml
+  format: yaml
+  label: GoatCounter
+  slug: goatcounter
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-openapi.yml
 apis:
 - description: The GoatCounter API can be used to manage sites, users, count pageviews, export raw data, retrieve statistics, and build custom dashboards on top of GoatCounter web analytics.
   name: GoatCounter

@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: dnv-class-status-openapi.yml
+  format: yaml
+  label: DNV Class Status API
+  slug: dnv-class-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-class-status-openapi.yml
 apis:
 - description: DNV's Class Status API provides programmatic access to vessel classification data. Authentication uses OAuth 2.0 with Azure AD B2C as the identity provider. Access tokens are obtained from https://log
   name: DNV Class Status API

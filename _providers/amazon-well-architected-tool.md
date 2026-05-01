@@ -133,7 +133,6 @@ source_yaml: "aid: amazon-well-architected-tool\nname: Amazon Well-Architected T
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/apis.yml
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

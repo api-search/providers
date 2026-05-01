@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: acquia-cloud-applications.yml
+  format: yaml
+  label: Acquia Cloud API
+  slug: acquia-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-cloud-applications.yml
 apis:
 - description: The Acquia Cloud API is a powerful tool that allows developers to programmatically interact with Acquia's cloud hosting platform. This API enables users to automate tasks, manage infrastructure, and d
   name: Acquia Cloud API

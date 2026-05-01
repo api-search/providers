@@ -7,6 +7,12 @@ api_specs:
   slug: devnet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-cisco-api-openapi.yml
+- filename: openapiSpec
+  format: yaml
+  label: Cisco Meraki Dashboard
+  slug: meraki
+  spec_type: OpenAPI
+  url: https://api.meraki.com/api/v1/openapiSpec
 apis:
 - description: Cisco DevNet is the unified developer portal for Cisco Systems products, exposing APIs, SDKs, sandboxes, and learning resources for networking, security, collaboration, and cloud infrastructure. The D
   name: Cisco DevNet API Catalog

@@ -126,7 +126,6 @@ source_yaml: "aid: amazon-incident-manager\nname: Amazon Incident Manager\ndescr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/apis.yml
 tags:
 - Automation
-- AWS
 - DevOps
 - Incident Management
 - Operations

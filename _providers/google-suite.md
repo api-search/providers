@@ -1,5 +1,54 @@
 ---
 api_count: 10
+api_specs:
+- filename: rest
+  format: yaml
+  label: Gmail API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://gmail.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Calendar API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest
+- filename: rest
+  format: yaml
+  label: Google Drive API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/drive/v3/rest
+- filename: rest
+  format: yaml
+  label: Google Docs API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://docs.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Sheets API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://sheets.googleapis.com/$discovery/rest?version=v4
+- filename: rest
+  format: yaml
+  label: Google Slides API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://slides.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Chat API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://chat.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Admin SDK
+  slug: ''
+  spec_type: OpenAPI
+  url: https://admin.googleapis.com/$discovery/rest?version=directory_v1
 apis:
 - description: The Gmail API lets you view and manage Gmail mailbox data like threads, messages, and labels.
   name: Gmail API

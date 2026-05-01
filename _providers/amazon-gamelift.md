@@ -133,7 +133,6 @@ source_yaml: "aid: amazon-gamelift\nname: Amazon GameLift\ndescription: >-\n  Am
   \ using infrastructure-as-code templates.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

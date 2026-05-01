@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Resource Explorer API
+  slug: aws-resource-explorer-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/resource-explorer-2/2022-07-28/openapi.yaml
 apis:
 - description: The AWS Resource Explorer API provides programmatic access to search and discover AWS resources across Regions, manage indexes, views, and resource type configurations for your AWS account.
   name: AWS Resource Explorer API
@@ -173,7 +180,6 @@ source_yaml: "aid: amazon-resource-explorer\nname: Amazon Resource Explorer\ndes
   \ Example\n  url: examples/amazon-resource-explorer-openapi-index-example.json\n- type: Example\n  url: examples/amazon-resource-explorer-openapi-resource-example.json\n- type: Example\n  url: examples/amazon-resource-explorer-openapi-search-request-example.json\n- type: Example\n  url: examples/amazon-resource-explorer-openapi-search-response-example.json\n- type: Example\n  url: examples/amazon-resource-explorer-openapi-view-example.json\n- type: NaftikoCapability\n  url: capabilities/amazon-resource-explorer.yaml\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-resource-explorer.yaml\n- type: SpectralRules\n  url: rules/amazon-resource-explorer-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-resource-explorer-vocabulary.yaml\n- type: OpenAPI\n  url: openapi/amazon-resource-explorer-openapi.yml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-resource-explorer/refs/heads/main/apis.yml
 tags:
-- AWS
 - Discovery
 - Inventory
 - Operations

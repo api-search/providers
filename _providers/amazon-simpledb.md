@@ -105,7 +105,6 @@ source_yaml: "aid: amazon-simpledb\nname: Amazon SimpleDB\ndescription: >-\n  Am
   \ language.\n- type: UseCases\n  data:\n  - name: Web Application Data Storage\n    description: Store and query structured data for web applications.\n  - name: User Profile Storage\n    description: Store user attributes and preferences without schema management.\n  - name: Metadata Storage\n    description: Store metadata for files, media, or other cloud resources.\n- type: Integrations\n  data:\n  - name: Amazon S3\n    description: Store metadata for S3 objects in SimpleDB.\n  - name: Amazon EC2\n    description: Store instance metadata and configuration in SimpleDB.\n  - name: AWS CloudTrail\n    description: Audit SimpleDB API calls via CloudTrail.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\nx-type: company\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Storage
 - Data Storage
 - Database

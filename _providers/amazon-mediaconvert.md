@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-mediaconvert\nname: Amazon MediaConvert\ndescription: 
   \ libraries for multiscreen delivery at any scale.\n  - name: Broadcast Distribution\n    description: Create broadcast-format outputs for television and streaming platform distribution.\n  - name: Peak Workload Processing\n    description: Handle variable transcoding workloads with elastic auto-scaling.\n- type: Integrations\n  data:\n  - name: Amazon S3\n    description: Use S3 for input and output storage of video files.\n  - name: AWS Elemental MediaPackage\n    description: Package transcoded outputs for adaptive bitrate streaming delivery.\n  - name: Amazon CloudWatch\n    description: Monitor job metrics and set alerts for transcoding workflows.\n  - name: Amazon EventBridge\n    description: Trigger downstream workflows based on MediaConvert job state changes.\n  - name: AWS IAM\n    description: Control access to MediaConvert resources and S3 buckets using IAM roles.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

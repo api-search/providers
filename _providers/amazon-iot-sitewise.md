@@ -120,7 +120,6 @@ source_yaml: "aid: amazon-iot-sitewise\nname: Amazon IoT SiteWise\ndescription: 
   \        description: Analyze production line data to identify bottlenecks and inefficiencies.\n  - type: Integrations\n    data:\n      - name: AWS IoT Greengrass\n        description: Collects industrial data from OPC-UA, Modbus, and Ethernet/IP sources at the edge.\n      - name: Amazon Kinesis\n        description: Streams asset property data for real-time analytics.\n      - name: Amazon QuickSight\n        description: Visualizes SiteWise industrial data in business dashboards.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/apis.yml
 tags:
-- AWS
 - Asset Management
 - Industrial IoT
 - IoT

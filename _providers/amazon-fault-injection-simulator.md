@@ -138,7 +138,6 @@ source_yaml: "aid: amazon-fault-injection-simulator\nname: Amazon Fault Injectio
   \ CPU/memory stress on EC2.\n  - name: Amazon ECS\n    description: Stop ECS tasks and inject faults into containerized workloads.\n  - name: Amazon EKS\n    description: Terminate Kubernetes nodes and pods running on EKS.\n  - name: Amazon RDS\n    description: Trigger RDS failovers, reboot instances, and pause cluster I/O.\n  - name: AWS Lambda\n    description: Inject latency and errors into Lambda function invocations.\n  - name: Amazon DynamoDB\n    description: Pause DynamoDB replication between replicas.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/apis.yml
 tags:
-- AWS
 - Chaos Engineering
 - DevOps
 - Fault Injection

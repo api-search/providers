@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: biogen-developer-api-openapi.yml
+  format: yaml
+  label: Biogen Developer API
+  slug: developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-developer-api-openapi.yml
 apis:
 - description: The Biogen Developer API provides programmatic access to Biogen services including the CCS-CRX API following REST standard specifications. The portal offers interactive I/O docs for testing API servic
   name: Biogen Developer API

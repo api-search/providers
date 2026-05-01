@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: dome9-api
+  format: yaml
+  label: Dome9 API
+  slug: dome9-api
+  spec_type: Postman
+  url: https://www.postman.com/dome9-security/workspace/dome9-api
 apis:
 - description: Main API for managing cloud accounts, security policies, compliance policies, and security groups across multiple cloud platforms.
   name: Dome9 API

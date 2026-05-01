@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Resilience Hub API
+  slug: aws-resilience-hub-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/resiliencehub/2020-04-30/openapi.yaml
 apis:
 - description: The AWS Resilience Hub API provides programmatic access to create and manage applications, app assessments, resiliency policies, and recommendations for improving application resilience against disrup
   name: AWS Resilience Hub API
@@ -62,7 +69,6 @@ source_yaml: "aid: amazon-resilience-hub\nname: Amazon Resilience Hub\ndescripti
   - type: Privacy Policy\n  url: https://aws.amazon.com/privacy/\n- type: Support\n  url: https://aws.amazon.com/premiumsupport/\n- type: Blog\n  url: https://aws.amazon.com/blogs/architecture/tag/aws-resilience-hub/\n- type: GitHub Organization\n  url: https://github.com/aws\n- type: Console\n  url: https://console.aws.amazon.com/resiliencehub/\n- type: Sign Up\n  url: https://portal.aws.amazon.com/billing/signup\n- type: Login\n  url: https://signin.aws.amazon.com/\n- type: Status\n  url: https://health.aws.amazon.com/health/status\n- type: Contact\n  url: https://aws.amazon.com/contact-us/\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/apis.yml
 tags:
-- AWS
 - Disaster Recovery
 - High Availability
 - Operations

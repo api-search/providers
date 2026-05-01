@@ -130,7 +130,6 @@ source_yaml: "name: Amazon DevOps Guru\ndescription: >-\n  Amazon DevOps Guru is
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/apis.yml
 tags:
 - Anomaly Detection
-- AWS
 - DevOps
 - Machine Learning
 - Operational Intelligence

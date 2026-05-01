@@ -290,7 +290,6 @@ source_yaml: "name: Amazon PrivateLink\ndescription: AWS PrivateLink provides pr
   \ capabilities/shared/amazon-privatelink.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ninclude: []\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/apis.yml
 tags:
-- AWS
 - Networking
 - Private Connectivity
 - Security

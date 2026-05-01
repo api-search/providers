@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: github-actions-openapi.yml
-  format: yaml
+- filename: api.github.com.json
+  format: json
   label: GitHub Actions API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-openapi.yml
+  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 apis:
 - description: REST API for managing GitHub Actions workflows, runs, artifacts, and secrets.
   name: GitHub Actions API

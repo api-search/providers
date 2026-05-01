@@ -1,5 +1,30 @@
 ---
 api_count: 4
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Docs API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://docs.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Sheets API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://sheets.googleapis.com/$discovery/rest?version=v4
+- filename: rest
+  format: yaml
+  label: Google Slides API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://slides.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Gmail API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://gmail.googleapis.com/$discovery/rest?version=v1
 apis:
 - description: API for creating, reading, and editing Google Docs documents.
   name: Google Docs API

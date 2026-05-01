@@ -1,5 +1,54 @@
 ---
 api_count: 8
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Compute Engine API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://compute.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Cloud Storage API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://storage.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Kubernetes Engine API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://container.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Cloud Functions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://cloudfunctions.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google BigQuery API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://bigquery.googleapis.com/$discovery/rest?version=v2
+- filename: rest
+  format: yaml
+  label: Google Cloud Pub/Sub API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://pubsub.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Cloud Vision API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://vision.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Cloud SQL Admin API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://sqladmin.googleapis.com/$discovery/rest?version=v1
 apis:
 - description: Create and manage virtual machines on Google's infrastructure.
   name: Google Compute Engine API

@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-global-accelerator\nname: Amazon Global Accelerator\nd
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/apis.yml
 tags:
 - Availability
-- AWS
 - CDN
 - Global
 - Load Balancing

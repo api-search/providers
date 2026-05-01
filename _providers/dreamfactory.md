@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: dreamfactory-system-api-openapi.yml
+  format: yaml
+  label: DreamFactory System API
+  slug: system-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-system-api-openapi.yml
 apis:
 - description: The DreamFactory System API provides administrative management capabilities for DreamFactory instances. It allows managing services, apps, roles, users, CORS configurations, email templates, environme
   name: DreamFactory System API

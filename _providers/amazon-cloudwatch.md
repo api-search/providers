@@ -127,7 +127,6 @@ source_yaml: "aid: amazon-cloudwatch\nurl: >-\n  https://raw.githubusercontent.c
   \ Ingest Prometheus metrics into CloudWatch for unified monitoring.\n  - name: Grafana\n    description: Connect CloudWatch data sources to Grafana dashboards.\n  - name: AWS X-Ray\n    description: Correlate traces from X-Ray with CloudWatch metrics and logs.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- CloudWatch\n- Monitoring\n- Observability\n- Metrics\n- Logs\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/apis.yml
 tags:
-- AWS
 - CloudWatch
 - Monitoring
 - Observability

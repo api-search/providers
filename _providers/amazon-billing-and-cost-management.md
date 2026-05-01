@@ -1,5 +1,18 @@
 ---
 api_count: 3
+api_specs:
+- filename: aws-cost-explorer-api-openapi.yml
+  format: yaml
+  label: AWS Cost Explorer API
+  slug: aws-cost-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/aws-cost-explorer-api-openapi.yml
+- filename: aws-budgets-api-openapi.yml
+  format: yaml
+  label: AWS Budgets API
+  slug: aws-budgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/aws-budgets-api-openapi.yml
 apis:
 - description: The AWS Cost Explorer API provides programmatic access to cost and usage data. Query aggregated or granular cost data, filter and group by service, account, tag, or region, and retrieve cost forecasts
   name: AWS Cost Explorer API
@@ -80,7 +93,6 @@ tags:
 - Cost Optimization
 - FinOps
 - Amazon Web Services
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/apis.yml
 use_cases: []
 ---

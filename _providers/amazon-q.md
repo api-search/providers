@@ -1,5 +1,18 @@
 ---
 api_count: 5
+api_specs:
+- filename: amazon-q-business.json
+  format: json
+  label: Amazon Q Business API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://example.com/openapi/amazon-q-business.json
+- filename: amazon-q-developer.json
+  format: json
+  label: Amazon Q Developer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://example.com/openapi/amazon-q-developer.json
 apis:
 - description: 'API for Amazon Q Business, a fully managed generative AI-powered enterprise chat assistant that you can deploy within your organization. It enables employees to ask questions, get summaries, generate '
   name: Amazon Q Business API
@@ -198,7 +211,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/
 tags:
 - Artificial Intelligence
 - Assistant
-- AWS
 - Enterprise
 - Generative AI
 url: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/apis.yml

@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Looker Studio API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://lookerstudio.googleapis.com/$discovery/rest
 apis:
 - description: API for creating and managing Looker Studio reports and data sources programmatically.
   name: Google Looker Studio API

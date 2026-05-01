@@ -123,7 +123,6 @@ source_yaml: "aid: amazon-workspaces\nname: Amazon WorkSpaces\ndescription: >-\n
   \ Service\n        description: >-\n          Managed Microsoft AD and AD Connector for user authentication\n          and group policy management.\n      - name: AWS IAM\n        description: >-\n          IAM-based access control for WorkSpaces API operations and\n          resource-level permissions.\n      - name: Amazon S3\n        description: >-\n          User storage and workspace image storage backed by Amazon S3.\n      - name: AWS CloudTrail\n        description: >-\n          Audit logging of all WorkSpaces API calls for compliance\n          and security monitoring.\n      - name: Amazon CloudWatch\n        description: >-\n          Metrics and monitoring for workspace performance, connectivity,\n          and health status.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/apis.yml
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

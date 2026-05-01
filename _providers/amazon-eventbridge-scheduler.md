@@ -141,7 +141,6 @@ source_yaml: "name: Amazon EventBridge Scheduler\ndescription: Amazon EventBridg
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - Cron
 - Event-Driven
 - Scheduling

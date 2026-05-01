@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Sigstore Rekor API (consumed)
+  slug: rekor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/sigstore/rekor/main/openapi.yaml
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
   name: Cosign CLI

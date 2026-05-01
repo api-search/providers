@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: WebApps.json
+  format: json
+  label: Azure Functions Management API
+  slug: azure-functions-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/web/resource-manager/Microsoft.Web/stable/2022-03-01/WebApps.json
+- filename: azure-functions-openapi.yaml
+  format: yaml
+  label: Azure Functions Runtime API
+  slug: azure-functions-runtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-functions/refs/heads/main/openapi/azure-functions-openapi.yaml
 apis:
 - description: REST API for managing Azure Functions apps, function deployments, and configuration.
   name: Azure Functions Management API

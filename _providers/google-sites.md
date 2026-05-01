@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Sites API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://sites.googleapis.com/$discovery/rest?version=v1
 apis:
 - description: The Google Sites API allows developers to programmatically access and manage Google Sites content, including pages, lists, and attachments.
   name: Google Sites API

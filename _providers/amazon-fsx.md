@@ -137,7 +137,6 @@ source_yaml: "name: Amazon FSx\ndescription: >-\n  Amazon FSx provides fully man
   \    description: Monitor FSx throughput, IOPS, and latency metrics with CloudWatch dashboards and alarms.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\naid: amazon-fsx\nspecificationVersion: '0.19'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/apis.yml
 tags:
-- AWS
 - File Systems
 - Lustre
 - NetApp

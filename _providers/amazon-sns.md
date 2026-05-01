@@ -107,7 +107,6 @@ source_yaml: "aid: amazon-sns\nname: Amazon SNS\ndescription: >-\n  Amazon Simpl
   \ across AWS accounts using SNS topic policies for multi-account architectures.\n  - type: Integrations\n    data:\n      - name: Amazon SQS\n        description: Fan out SNS messages to SQS queues for reliable asynchronous processing across multiple consumers.\n      - name: AWS Lambda\n        description: Invoke Lambda functions directly from SNS notifications for serverless event processing.\n      - name: Amazon EventBridge\n        description: Route SNS events through EventBridge for complex event-driven routing and filtering.\n      - name: AWS CloudFormation\n        description: Define and manage SNS topics and subscriptions as infrastructure-as-code resources.\n      - name: Amazon Kinesis Data Firehose\n        description: Deliver SNS messages to data lakes and analytics services through Kinesis Data Firehose.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/apis.yml
 tags:
-- AWS
 - Email
 - Messaging
 - Notifications

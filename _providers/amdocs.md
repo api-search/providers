@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: amdocs-connectx-openapi.yml
+  format: yaml
+  label: Amdocs connectX BSS API
+  slug: amdocs-connectx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-connectx-openapi.yml
 apis:
 - description: The Amdocs connectX BSS API provides cloud-native SaaS BSS capabilities for telecom operators, covering billing, provisioning, customer management, and subscription lifecycle. Built on TM Forum Open A
   name: Amdocs connectX BSS API

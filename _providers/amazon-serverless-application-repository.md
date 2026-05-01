@@ -182,7 +182,6 @@ source_yaml: "name: Amazon Serverless Application Repository\ndescription: >-\n 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/apis.yml
 tags:
 - Application Repository
-- AWS
 - Lambda
 - SAM
 - Serverless

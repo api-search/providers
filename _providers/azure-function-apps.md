@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: WebApps.json
+  format: json
+  label: Azure Function Apps REST API
+  slug: azure-function-apps-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/web/resource-manager/Microsoft.Web/stable/2022-09-01/WebApps.json
 apis:
 - description: REST API for managing Azure Function Apps, including creating, updating, and deleting function apps, as well as managing settings and deployments.
   name: Azure Function Apps REST API

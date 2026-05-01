@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-app-mesh\nurl: >-\n  https://raw.githubusercontent.com
   \    description: Use X-Ray for distributed tracing of requests flowing through the App Mesh service mesh.\n  - name: AWS Cloud Map\n    description: Integrate App Mesh with Cloud Map for service discovery across ECS, EKS, and EC2 compute.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Microservices\n- Networking\n- Service Mesh\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/apis.yml
 tags:
-- AWS
 - Microservices
 - Networking
 - Service Mesh

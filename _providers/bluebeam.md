@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: bluebeam-studio-openapi.yml
+  format: yaml
+  label: Bluebeam Studio API
+  slug: bluebeam-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/openapi/bluebeam-studio-openapi.yml
 apis:
 - description: The Bluebeam Studio API enables programmatic access to Studio Sessions for document collaboration, markup management, and PDF review workflows. OAuth 2.0 REST APIs allow third-party applications to cr
   name: Bluebeam Studio API

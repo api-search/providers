@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-iot-events\nname: Amazon IoT Events\ndescription: >-\n
   \      description: Sends alerts and notifications when events are detected.\n      - name: AWS Lambda\n        description: Triggers Lambda functions to execute response workflows.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/apis.yml
 tags:
-- AWS
 - Event Detection
 - IoT
 - State Machine

@@ -1,12 +1,18 @@
 ---
 api_count: 11
 api_specs:
-- filename: microsoft-power-apps-dataverse-web-api-openapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Power Apps API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://docs.microsoft.com/en-us/connectors/powerappsforappmakers/
+- filename: openapi
   format: yaml
   label: Dataverse API (Common Data Service)
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-dataverse-web-api-openapi.yml
+  url: https://docs.microsoft.com/en-us/power-apps/developer/data-platform/webapi/openapi
 apis:
 - description: Core API for managing Power Apps applications, including creating, updating, and deleting apps.
   name: Power Apps API

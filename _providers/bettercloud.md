@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bettercloud-platform-api.yaml
+  format: yaml
+  label: BetterCloud Platform API
+  slug: bettercloud-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-platform-api.yaml
 apis:
 - description: 'The BetterCloud Platform API provides REST API access for managing SaaS application operations, automated workflows, user lifecycle management, and security policies. It enables IT and security teams '
   name: BetterCloud Platform API

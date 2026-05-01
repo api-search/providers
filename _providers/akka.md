@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: akka-management.json
+  format: json
+  label: Akka Management
+  slug: akka-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-management.json
 apis:
 - description: 'Akka Management provides a suite of utilities for operating Akka-based distributed systems, including an HTTP management API for cluster management, health checks, and cluster bootstrap. The HTTP API '
   name: Akka Management

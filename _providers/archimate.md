@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: archimate-model-exchange-api.yaml
+  format: yaml
+  label: ArchiMate Model Exchange API
+  slug: archimate-model-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-model-exchange-api.yaml
+- filename: archimate-repository-api.yaml
+  format: yaml
+  label: ArchiMate Repository API
+  slug: archimate-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-repository-api.yaml
 apis:
 - description: API for exchanging ArchiMate models between tools and repositories using the Open Group ArchiMate Model Exchange File Format (AMEFF). Enables interoperability between enterprise architecture tools.
   name: ArchiMate Model Exchange API

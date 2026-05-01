@@ -149,7 +149,6 @@ source_yaml: "aid: amazon-codebuild\nname: Amazon CodeBuild\ndescription: >-\n  
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/apis.yml
 tags:
 - Amazon
-- AWS
 - CI/CD
 - Build
 - Continuous Integration

@@ -88,7 +88,6 @@ source_yaml: "aid: amazon-vpn\nname: Amazon VPN\ndescription: >-\n  AWS VPN solu
   - type: UseCases\n  data:\n  - name: Cloud Operations\n    description: Use Amazon VPN to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/apis.yml
 tags:
-- AWS
 - Networking
 - Security
 - VPN

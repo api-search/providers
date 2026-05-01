@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Capsule REST API
+  slug: capsule-rest-api
+  spec_type: OpenAPI
+  url: https://developer.capsulecrm.com/
 apis:
 - description: The Capsule REST API provides CRUD access to Capsule CRM resources including parties (contacts and companies), opportunities, projects, tasks, cases, entries (activity log), and tracks. Settings resou
   name: Capsule REST API

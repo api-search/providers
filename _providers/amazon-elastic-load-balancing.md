@@ -141,7 +141,6 @@ source_yaml: "name: Amazon Elastic Load Balancing\ndescription: Amazon Elastic L
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - High Availability
 - Load Balancing
 - Networking

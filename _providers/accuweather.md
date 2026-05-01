@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: accuweather-openapi-original.yml
+  format: yaml
+  label: AccuWeather API
+  slug: accuweather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-openapi-original.yml
 apis:
 - description: 'The AccuWeather One Platform API provides comprehensive weather data including current conditions, hourly and daily forecasts, MinuteCast minute-by-minute precipitation, air quality indices, tropical '
   name: AccuWeather API

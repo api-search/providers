@@ -178,7 +178,6 @@ source_yaml: "aid: amazon-appflow\nurl: >-\n  https://raw.githubusercontent.com/
   \ name: Amazon SageMaker\n    description: Feed SaaS data into SageMaker Data Wrangler for ML preparation.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/apis.yml
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

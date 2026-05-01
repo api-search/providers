@@ -231,7 +231,6 @@ source_yaml: "name: Amazon RDS\ndescription: Amazon Relational Database Service 
   - Database Service\n- DBaaS\n- Managed Databases\n- Relational Databases\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Databases
 - Database Service
 - DBaaS

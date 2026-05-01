@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Voice API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/openapi/openapi.yml
 apis:
 - description: Management API for Google Voice services through the Google Workspace Admin SDK, enabling user provisioning, number assignment, and location management for enterprise telephony.
   name: Google Voice API

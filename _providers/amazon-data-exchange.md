@@ -133,7 +133,6 @@ source_yaml: "aid: amazon-data-exchange\nname: Amazon Data Exchange\ndescription
   \ SageMaker\n        description: >-\n          Use third-party datasets from Data Exchange as training data for\n          machine learning models in Amazon SageMaker.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

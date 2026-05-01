@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-signer\nname: Amazon Signer\ndescription: >-\n  AWS Si
   \ firmware images for IoT microcontrollers and OTA updates.\n  - name: Amazon ECR\n    description: Sign container images using Notation CLI stored in ECR registry.\n  - name: Amazon EKS\n    description: Verify image ownership and integrity at Kubernetes deployment time.\n  - name: AWS Certificate Manager\n    description: Create or import SSL/TLS certificates used for code signing.\n  - name: AWS CloudTrail\n    description: Record and audit all API calls to AWS Signer for compliance.\n  - name: AWS IoT Device Management\n    description: Sign code for IoT devices managed by AWS IoT Device Management.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\nx-type: company\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/apis.yml
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

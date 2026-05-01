@@ -1,5 +1,18 @@
 ---
 api_count: 4
+api_specs:
+- filename: amberflo-metering-openapi.yaml
+  format: yaml
+  label: Amberflo Metering API
+  slug: metering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-metering-openapi.yaml
+- filename: amberflo-billing-openapi.yaml
+  format: yaml
+  label: Amberflo Billing API
+  slug: billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-billing-openapi.yaml
 apis:
 - description: The Amberflo Metering API provides meter definition management, high-throughput event ingestion, usage queries, raw event queries, and filtering rules. It supports real-time metering for API calls, to
   name: Amberflo Metering API

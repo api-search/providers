@@ -126,7 +126,6 @@ source_yaml: "aid: aws-app-runner\nname: AWS App Runner\ndescription: >-\n  AWS 
   \ to minimize costs.\n  - type: Integrations\n    data:\n      - name: Amazon ECR\n        description: Pull container images from Amazon Elastic Container Registry for deployment.\n      - name: GitHub\n        description: Connect GitHub repositories for automatic builds and continuous deployment.\n      - name: AWS IAM\n        description: Control access to App Runner APIs and service resources using IAM policies.\n      - name: Amazon CloudWatch\n        description: Monitor service metrics, CPU usage, request counts, and response latency.\n      - name: AWS X-Ray\n        description: Enable distributed tracing for request flows through App Runner services.\n      - name: Amazon VPC\n        description: Access private VPC resources from App Runner services via VPC connectors.\n      - name: AWS Certificate Manager\n        description: Automatic SSL/TLS certificate provisioning for custom domain names.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/apis.yml
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

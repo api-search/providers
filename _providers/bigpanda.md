@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bigpanda-openapi.yml
+  format: yaml
+  label: BigPanda
+  slug: bigpanda
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-openapi.yml
 apis:
 - description: Use the Environments API to define incident groups based on incident properties such as source, severity, or alert data.
   name: BigPanda

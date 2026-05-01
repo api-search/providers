@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-swf-openapi-original.yml
+  format: yaml
+  label: Amazon Simple Workflow Service API
+  slug: amazon-swf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/openapi/amazon-swf-openapi-original.yml
 apis:
 - description: The Amazon SWF API provides programmatic access to manage workflows, activity tasks, decision tasks, and workflow execution history. It enables developers to coordinate distributed application compone
   name: Amazon Simple Workflow Service API
@@ -96,7 +103,6 @@ source_yaml: "aid: amazon-swf\nname: Amazon Simple Workflow Service\ndescription
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/apis.yml
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/apis.yml

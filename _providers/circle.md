@@ -1,5 +1,60 @@
 ---
 api_count: 10
+api_specs:
+- filename: developer-controlled-wallets.yaml
+  format: yaml
+  label: Developer-Controlled Wallets
+  slug: developer-controlled-wallets
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/developer-controlled-wallets.yaml
+- filename: user-controlled-wallets.yaml
+  format: yaml
+  label: User-Controlled Wallets
+  slug: user-controlled-wallets
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/user-controlled-wallets.yaml
+- filename: cctp.yaml
+  format: yaml
+  label: Cross-Chain Transfer Protocol (CCTP)
+  slug: cctp
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/cctp.yaml
+- filename: gateway.yaml
+  format: yaml
+  label: Circle Gateway
+  slug: gateway
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/gateway.yaml
+- filename: smart-contract-platform.yaml
+  format: yaml
+  label: Smart Contract Platform
+  slug: smart-contract-platform
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/smart-contract-platform.yaml
+- filename: cpn-ofi.yaml
+  format: yaml
+  label: Circle Payments Network (CPN)
+  slug: cpn
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/cpn-ofi.yaml
+- filename: compliance.yaml
+  format: yaml
+  label: Compliance Engine
+  slug: compliance-engine
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/compliance.yaml
+- filename: stablefx.yaml
+  format: yaml
+  label: StableFX
+  slug: stablefx
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/stablefx.yaml
+- filename: xreserve.yaml
+  format: yaml
+  label: xReserve
+  slug: xreserve
+  spec_type: OpenAPI
+  url: https://developers.circle.com/openapi/xreserve.yaml
 apis:
 - description: Create and manage server-side wallets where the application controls private keys via Circle's secure key management. Supports balances, transfers, signing, and webhook notifications.
   name: Developer-Controlled Wallets

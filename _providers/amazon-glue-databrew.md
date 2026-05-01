@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-glue-databrew\nname: Amazon Glue DataBrew\ndescription
   \        description: Connect to Redshift databases as data sources for preparation.\n      - name: Amazon RDS\n        description: Use RDS databases as input sources for DataBrew transformation.\n      - name: AWS Lake Formation\n        description: Integrate with Lake Formation for secure data lake access.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Analytics
 - Data Preparation
 - ETL

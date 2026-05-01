@@ -1,5 +1,42 @@
 ---
 api_count: 8
+api_specs:
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Snapshots API
+  slug: ''
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Streams API
+  slug: ''
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Extractions API
+  slug: ''
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Analytics API
+  slug: ''
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva DJID Taxonomy API
+  slug: ''
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Code API
+  slug: ''
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
 apis:
 - description: Provides programmatic access to create, retrieve, and manage news snapshots based on search queries and filters. Supports analytics explain jobs and time series operations for volume estimation and tr
   name: Factiva Snapshots API

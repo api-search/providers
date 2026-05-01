@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Crystal Reports REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/crystal/openapi.json
 apis:
 - description: RESTful API for managing and generating Crystal Reports programmatically.
   name: Crystal Reports REST API

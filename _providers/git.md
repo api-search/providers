@@ -1,5 +1,24 @@
 ---
 api_count: 4
+api_specs:
+- filename: rest-api-description
+  format: yaml
+  label: GitHub API
+  slug: github
+  spec_type: OpenAPI
+  url: https://github.com/github/rest-api-description
+- filename: openapi.yaml
+  format: yaml
+  label: GitLab API
+  slug: gitlab
+  spec_type: OpenAPI
+  url: https://docs.gitlab.com/ee/api/openapi/openapi.yaml
+- filename: swagger
+  format: yaml
+  label: Gitea API
+  slug: gitea
+  spec_type: OpenAPI
+  url: https://gitea.io/api/swagger
 apis:
 - description: Git command-line interface for version control operations.
   name: Git CLI

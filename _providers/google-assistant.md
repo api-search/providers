@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Assistant API
+  slug: google-assistant
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/openapi/openapi.yml
 apis:
 - description: REST and gRPC API for embedding Google Assistant into devices and applications, managing device models and instances, and building conversational Actions.
   name: Google Assistant API

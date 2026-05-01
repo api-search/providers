@@ -125,7 +125,6 @@ source_yaml: "aid: amazon-cloudformation\nurl: >-\n  https://raw.githubuserconte
   \ Control who can create and update CloudFormation stacks.\n  - name: AWS Service Catalog\n    description: Publish approved CloudFormation templates as self-service products.\n  - name: Amazon SNS\n    description: Receive stack event notifications via SNS topics.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/apis.yml
 tags:
-- AWS
 - CloudFormation
 - Infrastructure as Code
 - DevOps

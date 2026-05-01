@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: gnews-openapi.yml
+  format: yaml
+  label: GNews
+  slug: gnews
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-openapi.yml
 apis:
 - description: A REST News API to search current and historical articles and retrieve trending news in over 22 languages across 30 countries from 60,000+ sources.
   name: GNews

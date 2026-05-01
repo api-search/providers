@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-network-firewall\nname: Amazon Network Firewall\ndescr
   - type: JSONSchema\n  url: json-schema/openapi-action-name-schema.json\n  title: Openapi Action Name\n- type: JSONSchema\n  url: json-schema/openapi-address-definition-schema.json\n  title: Openapi Address Definition\n- type: JSONSchema\n  url: json-schema/openapi-address-schema.json\n  title: Openapi Address\n- type: JSONSchema\n  url: json-schema/openapi-addresses-schema.json\n  title: Openapi Addresses\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/apis.yml
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

@@ -1,5 +1,12 @@
 ---
 api_count: 5
+api_specs:
+- filename: dtn-weather-conditions-openapi.yml
+  format: yaml
+  label: DTN Weather Conditions API
+  slug: dtn-weather-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/openapi/dtn-weather-conditions-openapi.yml
 apis:
 - description: DTN Weather Conditions API delivers worldwide forecast, current condition, and historical weather data. The API leverages cloud technology and global forecast models to provide validated, continuously
   name: DTN Weather Conditions API

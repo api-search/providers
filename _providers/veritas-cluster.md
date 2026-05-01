@@ -1,5 +1,12 @@
 ---
 api_count: 8
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Veritas Cluster Server REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://vcs-server:14150/api/docs/openapi.json
 apis:
 - description: RESTful API for managing cluster resources, service groups, and cluster configuration.
   name: Veritas Cluster Server REST API

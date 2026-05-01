@@ -1,5 +1,36 @@
 ---
 api_count: 9
+api_specs:
+- filename: rest
+  format: yaml
+  label: Android Management API
+  slug: android-management-api
+  spec_type: OpenAPI
+  url: https://androidmanagement.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Play Developer API
+  slug: google-play-developer-api
+  spec_type: OpenAPI
+  url: https://androidpublisher.googleapis.com/$discovery/rest?version=v3
+- filename: rest
+  format: yaml
+  label: Firebase Cloud Messaging API
+  slug: firebase-cloud-messaging-api
+  spec_type: OpenAPI
+  url: https://fcm.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Play Games Services API
+  slug: google-play-games-services-api
+  spec_type: OpenAPI
+  url: https://www.googleapis.com/discovery/v1/apis/games/v1/rest
+- filename: rest
+  format: yaml
+  label: Android Over the Air API
+  slug: android-over-the-air-api
+  spec_type: OpenAPI
+  url: https://androidovertheair.googleapis.com/$discovery/rest?version=v1
 apis:
 - description: The Android Management API provides remote enterprise management of Android devices by creating and managing policies that control device behavior and apps.
   name: Android Management API

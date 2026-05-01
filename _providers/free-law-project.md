@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: free-law-project-openapi.yml
+  format: yaml
+  label: Free Law Project API
+  slug: free-law-project
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-openapi.yml
 apis:
 - description: The Free Law Project / CourtListener REST API provides access to case law, PACER data, the RECAP archive, oral arguments, judges, financial disclosures, citations, alerts, and tags.
   name: Free Law Project API

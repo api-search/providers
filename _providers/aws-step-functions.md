@@ -119,7 +119,6 @@ source_yaml: "aid: aws-step-functions\nname: AWS Step Functions\ndescription: >-
   \ Amazon DynamoDB\n        description: Read and write DynamoDB records directly from workflow states.\n      - name: Amazon ECS\n        description: Run ECS tasks and Fargate containers as workflow steps.\n      - name: Amazon SageMaker\n        description: Orchestrate ML training, processing, and deployment workflows.\n      - name: AWS Glue\n        description: Trigger and monitor Glue ETL jobs from Step Functions workflows.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/apis.yml
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

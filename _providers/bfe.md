@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: bfe-management-api.yaml
+  format: yaml
+  label: BFE Management API
+  slug: bfe-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-management-api.yaml
 apis:
 - description: The BFE Management API provides internal monitoring metrics, configuration reload, and Go pprof profiling endpoints. This API should only be exposed on internal networks.
   name: BFE Management API

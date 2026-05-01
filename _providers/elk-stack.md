@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: elasticsearch-serverless-openapi.json
+  format: json
+  label: Elasticsearch API
+  slug: elasticsearch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/elastic/elasticsearch-specification/main/output/openapi/elasticsearch-serverless-openapi.json
 apis:
 - description: Distributed, RESTful search and analytics engine serving as the heart of the Elastic Stack for centralized storage and search.
   name: Elasticsearch API

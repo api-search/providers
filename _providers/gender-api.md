@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: gender-api-openapi.yml
+  format: yaml
+  label: Gender API
+  slug: gender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/openapi/gender-api-openapi.yml
 apis:
 - description: Gender-API determines whether a first name is more likely used by males or females, with optional localization by country, IP address, or browser locale. Supports email parsing, full-name splitting, m
   name: Gender API

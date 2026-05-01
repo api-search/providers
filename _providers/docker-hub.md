@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: docker-hub-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Docker Hub API
   slug: docker-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-openapi.yml
+  url: https://docs.docker.com/reference/api/hub/latest/
 apis:
 - description: The Docker Hub API provides programmatic access to the world's largest container image registry, enabling management of repositories, images, tags, organizations, teams, webhooks, and access tokens. I
   name: Docker Hub API

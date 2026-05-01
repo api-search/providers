@@ -1,5 +1,12 @@
 ---
 api_count: 26
+api_specs:
+- filename: swagger.json
+  format: json
+  label: OpenShift REST API
+  slug: openshift-rest-api
+  spec_type: OpenAPI
+  url: https://api.openshift.com/api/swagger.json
 apis:
 - description: Main REST API for managing OpenShift clusters, projects, and resources.
   name: OpenShift REST API

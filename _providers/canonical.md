@@ -1,5 +1,12 @@
 ---
 api_count: 9
+api_specs:
+- filename: rest-api.yaml
+  format: yaml
+  label: LXD REST API
+  slug: lxd-api
+  spec_type: OpenAPI
+  url: https://github.com/canonical/lxd/blob/main/doc/rest-api.yaml
 apis:
 - description: The public Snap Store Device API (api.snapcraft.io) serves information about snaps, revisions, channels, tracks, assertions, and refresh state to snap clients. The Snapcraft Dashboard API (dashboard.s
   name: Snap Store API

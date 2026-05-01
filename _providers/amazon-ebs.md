@@ -137,7 +137,6 @@ source_yaml: "name: Amazon EBS\ndescription: Amazon Elastic Block Store (EBS) pr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - Block Storage
 - EBS
 - EC2

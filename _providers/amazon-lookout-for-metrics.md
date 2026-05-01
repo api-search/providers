@@ -128,7 +128,6 @@ source_yaml: "aid: amazon-lookout-for-metrics\nname: Amazon Lookout for Metrics\
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/apis.yml
 tags:
 - Anomaly Detection
-- AWS
 - Business Intelligence
 - Machine Learning
 - Metrics

@@ -1,5 +1,36 @@
 ---
 api_count: 5
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon EC2
+  slug: amazon-ec2
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/ec2/2016-11-15/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon S3
+  slug: amazon-s3
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/s3/2006-03-01/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Lambda
+  slug: amazon-lambda
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon DynamoDB
+  slug: amazon-dynamodb
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/dynamodb/2012-08-10/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon RDS
+  slug: amazon-rds
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/rds/2014-10-31/openapi.yaml
 apis:
 - description: Scalable virtual servers in the cloud.
   name: Amazon EC2

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-appsync-openapi.yml
+  format: yaml
+  label: Amazon AppSync API
+  slug: amazon-appsync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-openapi.yml
 apis:
 - description: REST management API for Amazon AppSync covering GraphQL APIs, data sources, resolvers, functions, types, schema, API keys, and custom domain names.
   name: Amazon AppSync API
@@ -69,7 +76,6 @@ tags:
 - GraphQL
 - API Management
 - Serverless
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/apis.yml
 use_cases:
 - Build mobile and web applications with a unified GraphQL data layer

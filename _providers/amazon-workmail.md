@@ -120,7 +120,6 @@ source_yaml: "aid: amazon-workmail\nname: Amazon WorkMail\ndescription: >-\n  Am
   \ Management Service for managing encryption keys for\n          mailbox data at rest.\n      - name: AWS CloudTrail\n        description: >-\n          Audit logging of all WorkMail API calls for compliance and\n          security monitoring.\n      - name: AWS Lambda\n        description: >-\n          Lambda integration for email flow rules and custom email\n          processing workflows.\n      - name: Microsoft Outlook\n        description: >-\n          Native Outlook MAPI support for Windows and Mac desktops.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/apis.yml
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

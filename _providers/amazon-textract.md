@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-textract-openapi.yml
+  format: yaml
+  label: Amazon Textract API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-openapi.yml
 apis:
 - description: The Amazon Textract API provides programmatic access to extract text, handwriting, and structured data from documents. It enables developers to analyze documents for text detection, form extraction, t
   name: Amazon Textract API
@@ -91,7 +98,6 @@ source_yaml: "name: Amazon Textract\ndescription: Amazon Textract is a machine l
   \ Programmatic access to Amazon Textract resources.\n- type: UseCases\n  data:\n  - name: Cloud Operations\n    description: Use Amazon Textract to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Document Processing\n- Machine Learning\n- OCR\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/apis.yml
 tags:
-- AWS
 - Document Processing
 - Machine Learning
 - OCR

@@ -1,5 +1,12 @@
 ---
 api_count: 6
+api_specs:
+- filename: swagger.json
+  format: json
+  label: Cerbos PDP REST API
+  slug: cerbos-pdp-rest-api
+  spec_type: OpenAPI
+  url: https://docs.cerbos.dev/cerbos/latest/api/swagger.json
 apis:
 - description: The Cerbos PDP REST API is the HTTP/JSON interface for sending authorization requests to a running Cerbos Policy Decision Point. It exposes CheckResources for evaluating principal-against-resource dec
   name: Cerbos PDP REST API

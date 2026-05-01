@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-systems-manager-openapi.yml
+  format: yaml
+  label: AWS Systems Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-openapi.yml
 apis:
 - description: The AWS Systems Manager API provides programmatic access to manage and automate operational tasks across your AWS and on-premises infrastructure. It enables developers to run commands on managed insta
   name: AWS Systems Manager API
@@ -92,7 +99,6 @@ source_yaml: "name: Amazon Systems Manager\ndescription: AWS Systems Manager is 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/apis.yml
 tags:
 - Automation
-- AWS
 - Management
 - Operations
 url: https://aws.amazon.com/systems-manager/

@@ -1,12 +1,12 @@
 ---
 api_count: 9
 api_specs:
-- filename: dataiku-public-api-openapi.yml
+- filename: index.html
   format: yaml
   label: Dataiku Public API
   slug: dataiku-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataiku/refs/heads/main/openapi/dataiku-public-api-openapi.yml
+  url: https://doc.dataiku.com/dss/latest/publicapi/rest/index.html
 - filename: dataiku-api-node-admin-openapi.yml
   format: yaml
   label: Dataiku API Node Administration API

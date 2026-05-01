@@ -1,5 +1,12 @@
 ---
 api_count: 9
+api_specs:
+- filename: swagger.json
+  format: json
+  label: Everbridge Suite API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.everbridge.net/rest/swagger.json
 apis:
 - description: The Everbridge Suite REST API enables developers to integrate Everbridge's critical event management platform into their applications. It provides endpoints for managing contacts, groups, organization
   name: Everbridge Suite API

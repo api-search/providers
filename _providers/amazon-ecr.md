@@ -139,7 +139,6 @@ source_yaml: "name: Amazon ECR\ndescription: Amazon Elastic Container Registry (
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - Container Images
 - Container Registry
 - Containers

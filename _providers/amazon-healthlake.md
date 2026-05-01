@@ -125,7 +125,6 @@ source_yaml: "aid: amazon-healthlake\nname: Amazon HealthLake\ndescription: >-\n
   \ IAM roles and policies.\n      - name: Amazon CloudWatch\n        description: Monitor HealthLake operations and performance metrics through CloudWatch.\n      - name: Amazon Comprehend Medical\n        description: Extract medical entities from unstructured health data using Comprehend Medical.\n      - name: Amazon SageMaker\n        description: Apply SageMaker ML models to FHIR data for predictive health analytics.\n      - name: AWS Glue\n        description: Transform and catalog FHIR health data for analytics using AWS Glue.\n  - type: SpectralRules\n    url: rules/amazon-healthlake-spectral-rules.yml\n  - type: Vocabulary\n    url: vocabulary/amazon-healthlake-vocabulary.yaml\n  - type: NaftikoCapability\n    url: capabilities/amazon-healthlake-health-data-operations.yaml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/apis.yml
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

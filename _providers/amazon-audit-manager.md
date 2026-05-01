@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-audit-manager-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager API
+  slug: amazon-audit-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-openapi.yml
 apis:
 - description: REST management API for Amazon Audit Manager covering assessments, frameworks, controls, evidence, assessment reports, and account settings.
   name: Amazon Audit Manager API
@@ -67,7 +74,6 @@ tags:
 - Compliance
 - Audit
 - Risk Management
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/apis.yml
 use_cases:
 - Automate SOC 2 compliance evidence collection

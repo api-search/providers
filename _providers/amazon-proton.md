@@ -1748,7 +1748,6 @@ source_yaml: "name: Amazon Proton\ndescription: AWS Proton is a managed service 
   \  url: json-structure/amazon-proton-delete-environment-output-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-proton-delete-environment-template-input-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-proton-delete-environment-template-output-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-proton-delete-environment-template-version-input-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-proton-delete-environment-template-version-output-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-proton-delete-repository-input-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-proton-delete-repository-output-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-proton-dele\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/apis.yml
 tags:
-- AWS
 - DevOps
 - Infrastructure as Code
 - Platform Engineering

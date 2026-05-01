@@ -160,7 +160,6 @@ source_yaml: "aid: amazon-cognito\nurl: >-\n  https://raw.githubusercontent.com/
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/apis.yml
 tags:
 - Authentication
-- AWS
 - Identity
 - OAuth
 - User Management

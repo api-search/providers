@@ -2313,7 +2313,6 @@ source_yaml: "name: Amazon RoboMaker\ndescription: AWS RoboMaker is a cloud-base
   \  url: json-structure/amazon-robomaker-openapi-cancel-deployment-job-response-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-batch-request-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-batch-response-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-request-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-robomaker-openapi-cancel-simulation-job-response-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-robomaker-openapi-cancel-world-export-job-request-str\n\n# --- truncated at 32 KB (74 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/apis.yml
 tags:
-- AWS
 - Robotics
 - Simulation
 url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/apis.yml

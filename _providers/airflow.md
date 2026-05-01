@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: airflow-openapi.yml
+  format: yaml
+  label: Apache Airflow API
+  slug: airflow
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/openapi/airflow-openapi.yml
 apis:
 - description: The Apache Airflow REST API (v2) provides stable, backward-compatible endpoints for managing workflows (DAGs), DAG runs, task instances, connections, variables, XComs, pools, and plugins. Available at
   name: Apache Airflow API

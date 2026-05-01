@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-health-dashboard\nname: Amazon Health Dashboard\ndescr
   \ Health events link directly to AWS Support cases for faster resolution.\n      - name: Amazon CloudWatch\n        description: Create CloudWatch alarms based on health event metrics.\n      - name: AWS Chatbot\n        description: Receive health notifications in Slack or Chime via AWS Chatbot.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/apis.yml
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

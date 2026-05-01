@@ -144,7 +144,6 @@ source_yaml: "name: Amazon DocumentDB\ndescription: Amazon DocumentDB is a fully
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - Database
 - Document Database
 - DocumentDB

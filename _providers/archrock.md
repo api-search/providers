@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: archrock-investor-relations-api.yaml
+  format: yaml
+  label: Archrock Investor Relations API
+  slug: archrock-investor-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/openapi/archrock-investor-relations-api.yaml
 apis:
 - description: Archrock provides investor relations data including SEC filings, financial reports, compression fleet statistics, and operational performance metrics for shareholders and analysts.
   name: Archrock Investor Relations API

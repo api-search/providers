@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: atsdr-toxic-substance-profiles-openapi.yml
+  format: yaml
+  label: ATSDR Toxic Substance Profiles API
+  slug: atsdr-toxic-substance-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/atsdr-toxic-substance-profiles-openapi.yml
 apis:
 - description: Access ATSDR toxicological profiles, minimum risk levels (MRLs), substance priority list rankings, and exposure investigation data for hazardous chemicals found at Superfund sites and in the environme
   name: ATSDR Toxic Substance Profiles API

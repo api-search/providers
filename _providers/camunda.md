@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: camunda-8-api.yml
+  format: yaml
+  label: Camunda 8 API
+  slug: camunda-8-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/openapi/camunda-8-api.yml
 apis:
 - description: The Camunda 8 REST API provides access to process instances, tasks, decisions, and other Camunda resources for process automation workflows.
   name: Camunda 8 API

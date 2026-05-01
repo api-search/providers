@@ -3214,7 +3214,6 @@ source_yaml: "name: Amazon Pinpoint\ndescription: Amazon Pinpoint is a flexible 
   - type: JSONSchema\n  url: json-schema/amazon-pinpoint-import-job-response-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-import-jobs-response-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-in-app-campaign-schedule-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-in-app-message-body-config-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-in-app-message-button-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-in-app-message-campaign-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-in-app-message-content-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-in-app-message-header-config-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pinpoint-in-app-message-schema.json\n- type: JSONSchema\n  url: json-schema/amazon-pin\n\n# --- truncated at 32 KB (98 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/apis.yml
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

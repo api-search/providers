@@ -137,7 +137,6 @@ source_yaml: "name: Amazon EFS\ndescription: Amazon Elastic File System (EFS) pr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - EFS
 - Elastic File System
 - File Storage

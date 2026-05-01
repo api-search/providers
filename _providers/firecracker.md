@@ -64,7 +64,6 @@ source_yaml: "aid: firecracker\nname: Firecracker\ndescription: >-\n  Firecracke
   \  - type: Blog\n    url: https://aws.amazon.com/blogs/opensource/tag/firecracker/\n  - type: Slack\n    url: https://join.slack.com/t/firecracker-microvm/shared_invite/zt-2tc0mfxpc-tU~HYAYSzLDl5XGGJU3YIg\n  - type: Email\n    url: mailto:firecracker-maintainers@amazon.com\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/apis.yml
 tags:
-- AWS
 - Containers
 - MicroVMs
 - Open Source

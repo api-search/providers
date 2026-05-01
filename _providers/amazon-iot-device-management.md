@@ -120,7 +120,6 @@ source_yaml: "aid: amazon-iot-device-management\nname: Amazon IoT Device Managem
   \ Automate device provisioning and certificate management at manufacturing.\n      - name: Fleet Monitoring\n        description: Monitor device connectivity, metadata, and shadow state across the entire fleet.\n  - type: Integrations\n    data:\n      - name: AWS IoT Core\n        description: All device management operations integrate with IoT Core connectivity.\n      - name: AWS Lambda\n        description: Trigger automation workflows based on job status changes.\n      - name: Amazon S3\n        description: Store firmware and configuration files for remote deployment.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/apis.yml
 tags:
-- AWS
 - Device Management
 - Fleet Management
 - IoT

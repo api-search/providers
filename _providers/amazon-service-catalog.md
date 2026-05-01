@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Service Catalog API
+  slug: aws-service-catalog-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/servicecatalog/2015-12-10/openapi.yaml
 apis:
 - description: 'The AWS Service Catalog API provides programmatic access to create and manage portfolios, products, provisioning artifacts, constraints, and service actions for IT service governance and self-service '
   name: AWS Service Catalog API
@@ -120,7 +127,6 @@ source_yaml: "aid: amazon-service-catalog\nname: Amazon Service Catalog\ndescrip
   - type: JSONStructure\n  url: json-structure/amazon-service-catalog-product-view-summary-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-service-catalog-provisioned-product-structure.json\n- type: Example\n  url: examples/amazon-service-catalog-portfolio-example.json\n- type: Example\n  url: examples/amazon-service-catalog-product-view-summary-example.json\n- type: Example\n  url: examples/amazon-service-catalog-provisioned-product-example.json\n- type: NaftikoCapability\n  url: capabilities/it-service-governance.yaml\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-service-catalog.yaml\n- type: SpectralRules\n  url: rules/amazon-service-catalog-spectral-rules.yml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Governance
 - Compliance
 - IT Governance

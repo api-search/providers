@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: GeekWire WordPress REST API
+  slug: wordpress-rest-api
+  spec_type: OpenAPI
+  url: https://www.geekwire.com/wp-json/
 apis:
 - description: GeekWire provides RSS feeds for its main news stream and individual topic categories including Microsoft, Space, Science, Real Estate, Games, Google, Mobile, GeekLife, Podcasts, and Apple. These Atom/
   name: GeekWire RSS Feed

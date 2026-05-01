@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: fashn-openapi.yml
+  format: yaml
+  label: FASHN
+  slug: fashn
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fashn/refs/heads/main/openapi/fashn-openapi.yml
 apis:
 - description: 'The FASHN API is an asynchronous prediction service. Clients POST to /v1/run with a model_name and model-specific inputs, then poll /v1/status/{id} until the prediction completes. Authentication uses '
   name: FASHN

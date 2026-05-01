@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-dms-openapi.yaml
+  format: yaml
+  label: Amazon DMS API
+  slug: amazon-dms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-openapi.yaml
 apis:
 - description: 'The AWS Database Migration Service API provides programmatic access to create and manage replication instances, endpoints, replication tasks, and monitor migration progress for database migrations to '
   name: Amazon DMS API
@@ -114,7 +121,6 @@ source_yaml: "aid: amazon-dms\nname: Amazon DMS\ndescription: >-\n  AWS Database
   \ schemas for heterogeneous migrations between engine types\n      - name: Amazon S3\n        description: Stream migration data to S3 for archival or downstream processing\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

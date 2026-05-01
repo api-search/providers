@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: rdf4j-server-rest-api-openapi.yml
+  format: yaml
+  label: RDF4J Server REST API
+  slug: rdf4j-server-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/main/openapi/rdf4j-server-rest-api-openapi.yml
 apis:
 - description: REST API exposed by the Eclipse RDF4J Server for managing repositories, executing SPARQL queries and updates, working with statements, namespaces, contexts, and transactions, and importing/exporting R
   name: RDF4J Server REST API

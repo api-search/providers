@@ -220,7 +220,6 @@ source_yaml: "name: AWS CloudFormation\ndescription: >-\n  A collection of APIs 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/apis.yml
 tags:
 - Automation
-- AWS
 - Cloud Resources
 - IaC
 - Infrastructure As Code

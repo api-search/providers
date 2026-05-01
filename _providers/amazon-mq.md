@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-mq\nname: Amazon MQ\ndescription: Amazon MQ is a manag
   \ name: AWS KMS\n    description: Encrypt broker data at rest using AWS KMS keys.\n  - name: AWS IAM\n    description: Control access to Amazon MQ resources with IAM policies.\n  - name: Amazon CloudFormation\n    description: Provision and manage brokers using CloudFormation templates.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

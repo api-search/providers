@@ -107,7 +107,6 @@ source_yaml: "aid: amazon-snow-family\nname: Amazon Snow Family\ndescription: >-
   \ for more storage and compute.\n  - name: Encryption\n    description: All data is automatically encrypted with 256-bit encryption.\n- type: UseCases\n  data:\n  - name: Large Data Migration\n    description: Migrate terabytes to petabytes of data to AWS.\n  - name: Disconnected Edge Computing\n    description: Run AWS compute in environments with no internet connectivity.\n  - name: Disaster Recovery\n    description: Collect and transfer disaster recovery data to AWS.\n- type: Integrations\n  data:\n  - name: Amazon S3\n    description: Transfer data directly to S3 buckets using Snow devices.\n  - name: AWS IoT Greengrass\n    description: Run IoT Greengrass on Snowball Edge for edge IoT workloads.\n  - name: Amazon EC2\n    description: Run EC2 compute instances on Snowball Edge devices.\n  - name: AWS DataSync\n    description: Use DataSync with Snow Family for accelerated data transfer.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\nx-type: company\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Migration
 - Edge Computing
 - Offline Transfer

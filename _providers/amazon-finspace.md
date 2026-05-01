@@ -125,7 +125,6 @@ source_yaml: "aid: amazon-finspace\nname: Amazon FinSpace\ndescription: >-\n  Am
   \ ESG) with market data for signal generation.\n- type: Integrations\n  data:\n  - name: Amazon S3\n    description: Store and retrieve kdb database snapshots and bulk financial data files.\n  - name: AWS KMS\n    description: Encrypt FinSpace environments and kdb databases with customer-managed KMS keys.\n  - name: AWS IAM\n    description: Control user and application access to FinSpace resources with IAM roles and policies.\n  - name: Amazon SageMaker\n    description: Access FinSpace datasets and kdb environments from SageMaker Studio notebooks.\n  - name: Amazon CloudWatch\n    description: Monitor kdb cluster health, query performance, and resource utilization metrics.\n  - name: AWS Transit Gateway\n    description: Connect kdb environments to on-premises networks and other VPCs via Transit Gateway.\n  - name: Amazon VPC\n    description: Deploy kdb clusters in isolated VPC networking with security group controls.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/apis.yml
 tags:
-- AWS
 - Capital Markets
 - Data Analytics
 - Data Management

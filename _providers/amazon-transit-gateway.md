@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-transit-gateway-openapi.yml
+  format: yaml
+  label: Amazon Transit Gateway REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-openapi.yml
 apis:
 - description: RESTful API for Amazon Transit Gateway operations including creating and managing transit gateways, VPC attachments, route tables, peering connections, and multicast domains.
   name: Amazon Transit Gateway REST API
@@ -104,7 +111,6 @@ source_yaml: "name: Amazon Transit Gateway\ndescription: Amazon Transit Gateway 
   \ tasks with Amazon Transit Gateway.\n  - name: API Access\n    description: Programmatic access to Amazon Transit Gateway resources.\n- type: UseCases\n  data:\n  - name: Cloud Operations\n    description: Use Amazon Transit Gateway to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Cloud Networking\n- Network Hub\n- Networking\n- Transit Gateway\n- VPC\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Networking
 - Network Hub
 - Networking

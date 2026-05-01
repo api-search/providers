@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-timestream-openapi.yml
+  format: yaml
+  label: Amazon Timestream API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-openapi.yml
 apis:
 - description: The Amazon Timestream API provides programmatic access to manage serverless time series databases. It enables developers to create and manage databases and tables, write time series data records, exec
   name: Amazon Timestream API
@@ -91,7 +98,6 @@ source_yaml: "name: Amazon Timestream\ndescription: Amazon Timestream is a fast,
   \ API Access\n    description: Programmatic access to Amazon Timestream resources.\n- type: UseCases\n  data:\n  - name: Cloud Operations\n    description: Use Amazon Timestream to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Database\n- Iot\n- Time Series\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/apis.yml
 tags:
-- AWS
 - Database
 - Iot
 - Time Series

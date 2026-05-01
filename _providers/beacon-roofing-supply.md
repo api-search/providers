@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Beacon PRO+ API
+  slug: beacon-pro-plus
+  spec_type: OpenAPI
+  url: https://beaconproplus.com/swagger/all_api/
 apis:
 - description: The Beacon PRO+ API provides roofing contractors and integration partners with programmatic access to Beacon's product catalog, real-time inventory and pricing, order management, delivery tracking, ac
   name: Beacon PRO+ API

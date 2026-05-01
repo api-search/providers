@@ -145,7 +145,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-aut
 tags:
 - Amazon Web Services
 - Auto Scaling
-- AWS
 - Compute
 - EC2
 - High Availability

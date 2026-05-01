@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: freepik-openapi.yml
+  format: yaml
+  label: Freepik
+  slug: freepik
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freepik/refs/heads/main/openapi/freepik-openapi.yml
 apis:
 - description: Freepik's developer platform provides AI-powered image generation, video generation, image editing, audio generation, and access to a vast stock library of vectors, photos, icons, and templates.
   name: Freepik

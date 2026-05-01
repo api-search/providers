@@ -504,7 +504,6 @@ source_yaml: "name: Amazon Rekognition\ndescription: Amazon Rekognition is a clo
   \ examples/amazon-rekognition-s3-object-example.json\n- type: Example\n  url: examples/amazon-rekognition-search-faces-by-image-request-example.json\n- type: Example\n  url: examples/amazon-rekognition-search-faces-by-image-response-example.json\n- type: Example\n  url: examples/amazon-rekognition-start-label-detection-request-example.json\n- type: Example\n  url: examples/amazon-rekognition-start-video-job-response-example.json\n- type: Example\n  url: examples/amazon-rekognition-video-example.json\nmaintainer:\n  name: Kin Lane\n  email: kin@apievangelist.com\n\ntags:\n- AWS\n- Celebrity Recognition\n- Computer Vision\n- Content Moderation\n- Custom Labels\n- Deep Learning\n- Face Liveness\n- Facial Recognition\n- Image Analysis\n- Machine Learning\n- Object Detection\n- Text Detection\n- Video Analysis\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/apis.yml
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

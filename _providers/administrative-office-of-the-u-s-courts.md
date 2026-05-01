@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: pacer-authentication-api-openapi.yml
+  format: yaml
+  label: PACER Authentication API
+  slug: pacer-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/pacer-authentication-api-openapi.yml
+- filename: pacer-case-locator-pcl-api-openapi.yml
+  format: yaml
+  label: PACER Case Locator (PCL) API
+  slug: pacer-case-locator-pcl-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/pacer-case-locator-pcl-api-openapi.yml
 apis:
 - description: The PACER Authentication API allows users to authenticate automatically and without a user interface, facilitating programmatic access for automated systems to court records. Users provide PACER crede
   name: PACER Authentication API

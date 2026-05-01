@@ -127,7 +127,6 @@ source_yaml: "aid: amazon-codecatalyst\nname: Amazon CodeCatalyst\ndescription: 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/apis.yml
 tags:
 - Amazon
-- AWS
 - Developer Tools
 - CI/CD
 - Collaboration

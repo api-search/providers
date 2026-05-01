@@ -131,7 +131,6 @@ source_yaml: "aid: amazon-iam-access-analyzer\nname: Amazon IAM Access Analyzer\
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/apis.yml
 tags:
 - Access Control
-- AWS
 - Compliance
 - IAM
 - Policy Management

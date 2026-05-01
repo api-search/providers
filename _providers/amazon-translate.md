@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-translate-openapi.yml
+  format: yaml
+  label: Amazon Translate REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-openapi.yml
 apis:
 - description: RESTful API for Amazon Translate machine translation operations including real-time translation, batch translation jobs, custom terminology, and parallel data management.
   name: Amazon Translate REST API
@@ -104,7 +111,6 @@ source_yaml: "name: Amazon Translate\ndescription: Amazon Translate is a neural 
   \ access to Amazon Translate resources.\n- type: UseCases\n  data:\n  - name: Cloud Operations\n    description: Use Amazon Translate to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Language Processing\n- Localization\n- Machine Translation\n- NLP\n- Translation\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/apis.yml
 tags:
-- AWS
 - Language Processing
 - Localization
 - Machine Translation

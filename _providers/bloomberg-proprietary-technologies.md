@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Bloomberg FIGI API
+  slug: figi-api
+  spec_type: OpenAPI
+  url: https://api.openfigi.com/schema/openapi.json
 apis:
 - description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance connectivity layer between client applications and Bloomberg's data infrastructure.
   name: Bloomberg Open API (BLPAPI)

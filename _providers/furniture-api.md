@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: furniture-api-openapi.yml
+  format: yaml
+  label: Furniture API
+  slug: furniture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/openapi/furniture-api-openapi.yml
 apis:
 - description: The Furniture API is a software interface that allows developers to access and integrate information about furniture products and designs into their applications. This API provides a wide range of dat
   name: Furniture API

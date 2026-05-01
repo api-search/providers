@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: airbyte-openapi.yml
+  format: yaml
+  label: Airbyte
+  slug: airbyte
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-openapi.yml
 apis:
 - description: Airbyte is an open-source data integration platform that enables businesses to move and consolidate data from various sources into centralized destinations. The Airbyte API provides programmatic contr
   name: Airbyte

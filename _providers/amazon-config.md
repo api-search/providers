@@ -138,7 +138,6 @@ source_yaml: "aid: amazon-config\nurl: >-\n  https://raw.githubusercontent.com/a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/apis.yml
 tags:
 - Auditing
-- AWS
 - Compliance
 - Configuration Management
 - Governance

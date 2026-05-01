@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: spec.json
+  format: json
+  label: APIClarity API
+  slug: apiclarity-api
+  spec_type: OpenAPI
+  url: https://github.com/openclarity/apiclarity/blob/master/api/server/restapi/spec.json
 apis:
 - description: The APIClarity API provides programmatic access to API traffic analysis, reconstructed OpenAPI specifications, API inventory, and security findings. It allows users to query discovered APIs, review sp
   name: APIClarity API

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: elasticsearch-specification
+  format: yaml
+  label: Elasticsearch REST API
+  slug: elasticsearch-rest-api
+  spec_type: OpenAPI
+  url: https://github.com/elastic/elasticsearch-specification
 apis:
 - description: The main REST API for interacting with Elasticsearch clusters, including document indexing, searching, aggregations, and cluster management.
   name: Elasticsearch REST API

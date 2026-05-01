@@ -110,7 +110,6 @@ source_yaml: "aid: amazon-monitron\nname: Amazon Monitron\ndescription: Amazon M
   \ sensor data to S3 for long-term analysis.\n  - name: AWS IAM\n    description: Control API access and project permissions with IAM policies.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

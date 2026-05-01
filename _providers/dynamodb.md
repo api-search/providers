@@ -13,6 +13,12 @@ api_specs:
   slug: ''
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon DynamoDB Accelerator (DAX) API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/dax/2017-04-19/openapi.yaml
 apis:
 - description: RESTful API for interacting with DynamoDB tables and items.
   name: Amazon DynamoDB API
@@ -117,7 +123,6 @@ source_yaml: "name: Amazon DynamoDB\ndescription: >-\n  A fully managed NoSQL da
   \ kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

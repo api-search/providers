@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-athena-openapi.yml
+  format: yaml
+  label: Amazon Athena API
+  slug: amazon-athena-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-openapi.yml
 apis:
 - description: REST management API for Amazon Athena covering query executions, named queries, work groups, data catalogs, databases, table metadata, and prepared statements.
   name: Amazon Athena API
@@ -67,7 +74,6 @@ tags:
 - SQL
 - Analytics
 - Serverless
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/apis.yml
 use_cases:
 - Analyze log files and clickstream data stored in S3

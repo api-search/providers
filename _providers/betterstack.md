@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: better-stack-openapi.yml
+  format: yaml
+  label: Better Stack API
+  slug: betterstack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/better-stack/refs/heads/main/openapi/better-stack-openapi.yml
 apis:
 - description: The Better Stack API provides programmatic access to uptime monitoring, heartbeat monitoring, incident management, status pages, escalation policies, and team management. It follows the JSON:API speci
   name: Better Stack API

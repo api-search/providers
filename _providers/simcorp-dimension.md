@@ -1,5 +1,24 @@
 ---
 api_count: 6
+api_specs:
+- filename: openapi.json
+  format: json
+  label: SimCorp Dimension Data API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.simcorp.com/dimension/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: SimCorp Dimension Integration API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.simcorp.com/dimension/integration/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: SimCorp Dimension Analytics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.simcorp.com/dimension/analytics/v1/openapi.json
 apis:
 - description: RESTful API for accessing portfolio data, positions, transactions, and market data from SimCorp Dimension.
   name: SimCorp Dimension Data API

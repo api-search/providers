@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Feedough WordPress REST API
+  slug: wordpress-rest-api
+  spec_type: OpenAPI
+  url: https://www.feedough.com/wp-json/
 apis:
 - description: Feedough provides an RSS feed for its main content stream, allowing developers and readers to consume articles on startup ideas, business models, and entrepreneurship programmatically using standard f
   name: Feedough RSS Feed

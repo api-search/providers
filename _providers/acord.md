@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: acord-ngds-openapi.yml
+  format: yaml
+  label: ACORD Next-Generation Digital Standards (NGDS) API
+  slug: acord-ngds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-ngds-openapi.yml
 apis:
 - description: ACORD XML Standards define data exchange formats for property & casualty, life, annuity, and reinsurance using SOAP/XML protocols. APIs enable claims inquiry, policy administration, and regulatory rep
   name: ACORD XML Standards API

@@ -135,7 +135,6 @@ source_yaml: "aid: amazon-certificate-manager\nurl: >-\n  https://raw.githubuser
   \ and simplify security audits.\n- type: Integrations\n  data:\n  - name: Amazon CloudFront\n    description: Deploy ACM certificates to CloudFront distributions for HTTPS content delivery.\n  - name: Elastic Load Balancing\n    description: Attach ACM certificates to Application, Network, and Classic Load Balancers.\n  - name: Amazon API Gateway\n    description: Use ACM certificates for custom domain names in API Gateway.\n  - name: AWS IAM\n    description: Control access to ACM operations via IAM policies and roles.\n  - name: AWS CloudTrail\n    description: Audit all ACM API calls via CloudTrail for compliance and security monitoring.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Certificates\n- Encryption\n- Security\n- SSL\n- TLS\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/apis.yml
 tags:
-- AWS
 - Certificates
 - Encryption
 - Security

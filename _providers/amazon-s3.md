@@ -157,7 +157,6 @@ source_yaml: "name: Amazon S3\ndescription: Amazon Simple Storage Service (S3) i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/apis.yml
 tags:
 - Archive
-- AWS
 - Backup
 - Cloud Storage
 - Data Storage

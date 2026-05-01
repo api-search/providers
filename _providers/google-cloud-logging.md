@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Google Cloud Logging API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/googleapis.com/logging/v2/openapi.yaml
 apis:
 - description: Writes log entries and manages your Cloud Logging configuration. The API is organized into the following resources - Entries (write and list log entries), Logs (list and delete logs), Logs-based metri
   name: Google Cloud Logging API

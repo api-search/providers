@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: cdisc-library-openapi.yml
+  format: yaml
+  label: CDISC Library API
+  slug: cdisc-library-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-library-openapi.yml
 apis:
 - description: The CDISC Library API is a REST API that delivers CDISC standards metadata to software applications that automate standards-based processes. It uses linked data to provide access to SDTM, ADaM, and ot
   name: CDISC Library API

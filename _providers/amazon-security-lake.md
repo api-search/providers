@@ -176,7 +176,6 @@ source_yaml: "name: Amazon Security Lake\ndescription: >-\n  Amazon Security Lak
   - type: Example\n  url: examples/amazon-security-lake-subscriber-example.json\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-security-lake.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Lake
 - Security
 - SIEM

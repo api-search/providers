@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: aws-b2b-data-interchange-api-openapi.yml
+  format: yaml
+  label: AWS B2B Data Interchange API
+  slug: aws-b2b-data-interchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/aws-b2b-data-interchange-api-openapi.yml
 apis:
 - description: The AWS B2B Data Interchange API provides programmatic access to manage EDI transformation workflows, trading partner profiles, capabilities, partnerships, and transformers. It enables creation and ma
   name: AWS B2B Data Interchange API
@@ -68,7 +75,6 @@ tags:
 - Healthcare
 - Financial Services
 - Amazon Web Services
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/apis.yml
 use_cases: []
 ---

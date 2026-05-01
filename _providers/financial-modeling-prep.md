@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: financial-modeling-prep-openapi.yml
+  format: yaml
+  label: Financial Modeling Prep API
+  slug: financial-modeling-prep
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/openapi/financial-modeling-prep-openapi.yml
 apis:
 - description: REST API offering real-time and historical stock quotes, financial statements, company profiles, ratios, insider trading, ETFs, and economic data. Authentication via API key passed as the apikey query
   name: Financial Modeling Prep API

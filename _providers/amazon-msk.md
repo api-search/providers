@@ -116,7 +116,6 @@ source_yaml: "aid: amazon-msk\nname: Amazon MSK\ndescription: Amazon Managed Str
   \ Use MSK Connect to sink data from Kafka topics to S3 buckets.\n  - name: Amazon CloudWatch\n    description: Monitor cluster and broker metrics with CloudWatch dashboards and alarms.\n  - name: AWS IAM\n    description: Authenticate Kafka clients using IAM roles for MSK cluster access control.\n  - name: AWS Glue Schema Registry\n    description: Enforce data schemas for Kafka producers and consumers.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -1,5 +1,18 @@
 ---
 api_count: 2
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon ECS API (Fargate)
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/ecs/2014-11-13/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon EKS API (Fargate)
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/eks/2017-11-01/openapi.yaml
 apis:
 - description: The Amazon ECS API provides programmatic access to manage Fargate tasks and services through Amazon Elastic Container Service. It supports creating and managing clusters, task definitions, services, a
   name: Amazon ECS API (Fargate)

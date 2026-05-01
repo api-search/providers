@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-application-migration-service-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service API
+  slug: amazon-application-migration-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-openapi.yml
 apis:
 - description: REST API for AWS Application Migration Service covering source servers, replication configuration, launch configuration, jobs, applications, and waves for lift-and-shift cloud migration.
   name: Amazon Application Migration Service API
@@ -67,7 +74,6 @@ tags:
 - Amazon Application Migration Service
 - Migration
 - Lift And Shift
-- AWS
 - Cloud Migration
 url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/apis.yml
 use_cases:

@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: amazon-lake-formation-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon Lake Formation API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/openapi/amazon-lake-formation-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lakeformation/2017-03-31/openapi.yaml
 apis:
 - description: The AWS Lake Formation API provides programmatic access to create and manage data lakes, configure data permissions and access controls, register data sources, and manage data catalog resources for ce
   name: Amazon Lake Formation API
@@ -128,7 +128,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lake-fo
 tags:
 - Access Control
 - Analytics
-- AWS
 - Data Governance
 - Data Lake
 - S3

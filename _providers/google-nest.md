@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Nest Smart Device Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/openapi.yml
 apis:
 - description: REST API for managing Google Nest devices, structures, and rooms using a trait-based model for reading device state and executing commands.
   name: Google Nest Smart Device Management API

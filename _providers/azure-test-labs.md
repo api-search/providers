@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: DevTestLabs.json
+  format: json
+  label: Azure DevTest Labs API
+  slug: azure-devtest-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/devtestlabs/resource-manager/Microsoft.DevTestLab/stable/2018-09-15/DevTestLabs.json
 apis:
 - description: The DevTest Labs Client enables you to manage virtual machines, environments, artifacts, formulas, and custom images for development and testing purposes.
   name: Azure DevTest Labs API

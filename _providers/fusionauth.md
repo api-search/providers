@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: FusionAuth API
+  slug: fusionauth
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/FusionAuth/fusionauth-openapi/main/openapi.yaml
 apis:
 - description: The FusionAuth API exposes the platform's complete authentication, authorization, user management, OAuth2/OIDC, multi-factor, tenant, application, and administrative surface as a REST API. An upstream
   name: FusionAuth API

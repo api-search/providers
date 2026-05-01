@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: amazon-keyspaces-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon Keyspaces API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/keyspaces/2022-02-10/openapi.yaml
 apis:
 - description: The Amazon Keyspaces API provides programmatic access to manage Cassandra-compatible keyspaces and tables, configure capacity modes, encryption, and point-in-time recovery for serverless Cassandra wor
   name: Amazon Keyspaces API
@@ -128,7 +128,6 @@ source_yaml: "name: Amazon Keyspaces\nsegments:\n- Databases\n- NoSQL\ndescripti
   \ Access Management\n    description: Control access to Keyspaces resources using IAM policies and roles.\n- type: SpectralRules\n  url: rules/amazon-keyspaces-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/amazon-keyspaces-workflow.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-keyspaces-vocabulary.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ninclude: []\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cassandra
 - Database
 - Managed Database

@@ -203,7 +203,6 @@ source_yaml: "aid: amazon-connect\nurl: >-\n  https://raw.githubusercontent.com/
   \ for building conversational AI\n          bots for voice and chat self-service.\n      - name: Amazon Bedrock\n        description: >-\n          Foundation for Amazon Q in Connect generative AI features, providing\n          real-time agent recommendations and answers.\n      - name: Amazon S3\n        description: >-\n          Storage integration for call recordings, contact transcripts, exported\n          reports, and Contact Lens output data.\n      - name: Amazon Kinesis\n        description: >-\n          Real-time streaming of contact trace records (CTRs) and agent events\n          to data lakes and analytics pipelines.\n      - name: WhatsApp Business\n        description: >-\n          Native channel integration to handle customer messaging through\n          WhatsApp Business within the Amazon Connect platform.\nmaintainer:\n  name: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/apis.yml
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

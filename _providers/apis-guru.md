@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apis-guru-openapi.yaml
+  format: yaml
+  label: APIs.guru REST API
+  slug: apis-guru-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/openapi/apis-guru-openapi.yaml
 apis:
 - description: 'The APIs.guru REST API provides programmatic access to the directory of public API definitions, allowing developers to search, browse, and retrieve OpenAPI specifications from the catalog. The API is '
   name: APIs.guru REST API

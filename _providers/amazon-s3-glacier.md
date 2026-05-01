@@ -162,7 +162,6 @@ source_yaml: "name: Amazon S3 Glacier\ndescription: Amazon S3 Glacier is a secur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/apis.yml
 tags:
 - Archive
-- AWS
 - Backup
 - Storage
 url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/apis.yml

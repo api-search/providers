@@ -130,7 +130,6 @@ source_yaml: "aid: amazon-datazone\nname: Amazon DataZone\ndescription: >-\n  Am
   \ S3-based datasets in DataZone and control access through\n          subscription-based Lake Formation permissions.\n      - name: AWS Lake Formation\n        description: >-\n          DataZone uses Lake Formation for fine-grained column and row-level\n          access control when subscriptions are approved.\n      - name: AWS IAM\n        description: >-\n          IAM roles provide domain execution context and identity-based access\n          control for DataZone resources and catalog operations.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Catalog
 - Data Governance
 - Data Management

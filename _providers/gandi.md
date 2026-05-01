@@ -1,5 +1,18 @@
 ---
 api_count: 8
+api_specs:
+- filename: domains-openapi-original.yml
+  format: yaml
+  label: Gandi Domain API
+  slug: domains
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/domains-openapi-original.yml
+- filename: livedns-openapi-original.yml
+  format: yaml
+  label: Gandi LiveDNS API
+  slug: livedns
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/livedns-openapi-original.yml
 apis:
 - description: The Gandi Domain API enables you to register, manage, transfer, and renew domain names registered with Gandi.
   name: Gandi Domain API

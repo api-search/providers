@@ -1,5 +1,60 @@
 ---
 api_count: 11
+api_specs:
+- filename: aws-s3-openapi-original.yml
+  format: yaml
+  label: Amazon S3
+  slug: aws-s3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/aws-s3-openapi-original.yml
+- filename: aws-lambda-openapi-original.yml
+  format: yaml
+  label: AWS Lambda
+  slug: aws-lambda
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/aws-lambda-openapi-original.yml
+- filename: aws-api-gateway-openapi-original.yml
+  format: yaml
+  label: AWS API Gateway
+  slug: aws-api-gateway
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/aws-api-gateway-openapi-original.yml
+- filename: aws-rds-openapi-original.yml
+  format: yaml
+  label: AWS RDS
+  slug: aws-rds
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/aws-rds-openapi-original.yml
+- filename: aws-iam-openapi-original.yml
+  format: yaml
+  label: AWS IAM
+  slug: aws-iam
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/aws-iam-openapi-original.yml
+- filename: microsoft-cognitive-web-search-openapi-original.yml
+  format: yaml
+  label: Microsoft Bing Search
+  slug: microsoft-bing
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/microsoft-cognitive-web-search-openapi-original.yml
+- filename: postman-openapi-original.yml
+  format: yaml
+  label: Postman
+  slug: postman
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/postman-openapi-original.yml
+- filename: cloudflare-openapi-original.yml
+  format: yaml
+  label: Cloudflare
+  slug: cloudflare
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/cloudflare-openapi-original.yml
+- filename: github-openapi-original.yml
+  format: yaml
+  label: GitHub
+  slug: github
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-search/engineering-platform/refs/heads/main/openapi/github-openapi-original.yml
 apis:
 - description: Amazon S3 is used for centralized object storage, managing all images, video, and audio across sites via public and private buckets.
   name: Amazon S3

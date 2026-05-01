@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: amazon-quicksight-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: Amazon QuickSight API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/openapi/amazon-quicksight-openapi.yml
+  url: https://docs.aws.amazon.com/quicksight/latest/APIReference/Welcome.html
 apis:
 - description: The Amazon QuickSight API enables you to programmatically manage dashboards, datasets, data sources, users, groups, and embed analytics into your applications.
   name: Amazon QuickSight API
@@ -179,7 +179,6 @@ source_yaml: "name: Amazon QuickSight\ndescription: Amazon QuickSight is a scala
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/apis.yml
 tags:
 - Analytics
-- AWS
 - BI
 - Business Intelligence
 - Dashboards

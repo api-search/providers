@@ -1,5 +1,18 @@
 ---
 api_count: 11
+api_specs:
+- filename: facebook-marketing-openapi.yml
+  format: yaml
+  label: Facebook Marketing API
+  slug: facebook-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-marketing-openapi.yml
+- filename: facebook-pages-openapi.yml
+  format: yaml
+  label: Facebook Pages API
+  slug: facebook-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-pages-openapi.yml
 apis:
 - description: Create and manage ad campaigns, analyze performance, and automate advertising workflows.
   name: Facebook Marketing API

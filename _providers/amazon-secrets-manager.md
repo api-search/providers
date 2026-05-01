@@ -207,7 +207,6 @@ source_yaml: "name: Amazon Secrets Manager\ndescription: >-\n  Amazon Secrets Ma
   - type: JSONStructure\n  url: json-structure/amazon-secrets-manager-secret-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-secrets-manager-secret-value-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-secrets-manager-tag-structure.json\n- type: Example\n  url: examples/amazon-secrets-manager-get-random-password-response-example.json\n- type: Example\n  url: examples/amazon-secrets-manager-list-secrets-response-example.json\n- type: Example\n  url: examples/amazon-secrets-manager-rotation-rules-example.json\n- type: Example\n  url: examples/amazon-secrets-manager-secret-example.json\n- type: Example\n  url: examples/amazon-secrets-manager-secret-value-example.json\n- type: Example\n  url: examples/amazon-secrets-manager-tag-example.json\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-secrets-manager.yaml\nmaintainer: Kin Lane\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/apis.yml
 tags:
-- AWS
 - Configuration
 - Credentials
 - Rotation

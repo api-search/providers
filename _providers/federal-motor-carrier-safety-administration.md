@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: federal-motor-carrier-safety-administration-openapi.yml
+  format: yaml
+  label: Federal Motor Carrier Safety Administration QCMobile API
+  slug: federal-motor-carrier-safety-administration
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-motor-carrier-safety-administration/refs/heads/main/openapi/federal-motor-carrier-safety-administration-openapi.yml
 apis:
 - description: The FMCSA QCMobile API provides access to commercial motor carrier safety data including carriers, vehicles, drivers, inspections, and crashes. Authentication uses a WebKey passed as a query parameter
   name: Federal Motor Carrier Safety Administration QCMobile API

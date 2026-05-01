@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-ground-station\nname: Amazon Ground Station\ndescripti
   \ data:\n      - name: Amazon S3\n        description: Store downlinked satellite data directly in S3 for archival and processing.\n      - name: Amazon Kinesis\n        description: Stream real-time satellite data into Kinesis for immediate processing.\n      - name: Amazon EC2\n        description: Process satellite data on EC2 compute instances co-located with ground station endpoints.\n      - name: AWS Lambda\n        description: Trigger Lambda functions when satellite contact data arrives for automated processing.\n      - name: Amazon SageMaker\n        description: Apply machine learning to satellite imagery and telemetry data.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Processing
 - IoT
 - Satellite Communications

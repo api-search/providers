@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: amazon-opensearch-service-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: Amazon OpenSearch Service API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/openapi/amazon-opensearch-service-openapi.yml
+  url: https://docs.aws.amazon.com/opensearch-service/latest/APIReference/Welcome.html
 apis:
 - description: The Amazon OpenSearch Service API enables you to create, configure, and manage OpenSearch domains for search and analytics workloads.
   name: Amazon OpenSearch Service API
@@ -133,7 +133,6 @@ source_yaml: "name: Amazon OpenSearch Service\ndescription: Amazon OpenSearch Se
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/apis.yml
 tags:
 - Analytics
-- AWS
 - Elasticsearch
 - Full-Text Search
 - Log Analytics

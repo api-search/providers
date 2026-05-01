@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: finch-openapi.yml
+  format: yaml
+  label: Finch API
+  slug: finch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/finch/refs/heads/main/openapi/finch-openapi.yml
 apis:
 - description: Unified REST API for HRIS, payroll, and benefits providers. Supports Company, Directory, Individual, Employment, Payment, Pay Statement, and Benefits resources. Authentication uses OAuth 2.0 via Finch
   name: Finch API

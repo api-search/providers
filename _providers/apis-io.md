@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apis-io-search-openapi.yaml
+  format: yaml
+  label: APIs.io Search API
+  slug: search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-search-openapi.yaml
 apis:
 - description: The APIs.io Search API allows developers to search for APIs across all indexed APIs.json files using keywords or phrases, and to submit new APIs to the index by providing a valid APIs.json document. T
   name: APIs.io Search API

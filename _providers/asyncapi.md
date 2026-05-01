@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: asyncapi.md
+  format: yaml
+  label: AsyncAPI Specification
+  slug: asyncapi-spec
+  spec_type: AsyncAPI
+  url: https://github.com/asyncapi/spec/blob/master/spec/asyncapi.md
 apis:
 - description: The AsyncAPI Specification is an open standard for describing asynchronous and event-driven APIs. It provides a machine-readable format for defining messaging interfaces across protocols like Kafka, M
   name: AsyncAPI Specification

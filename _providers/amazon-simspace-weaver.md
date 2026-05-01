@@ -105,7 +105,6 @@ source_yaml: "aid: amazon-simspace-weaver\nname: Amazon SimSpace Weaver\ndescrip
   \ custom simulation apps that interact with the simulation world.\n  - name: Clock Control\n    description: Start, pause, stop, and control simulation time.\n- type: UseCases\n  data:\n  - name: Urban Planning\n    description: Simulate traffic, pedestrian movement, and city infrastructure at scale.\n  - name: Emergency Response\n    description: Model disaster scenarios and evacuation plans.\n  - name: Defense Simulations\n    description: Run large-scale defense and logistics simulations.\n- type: Integrations\n  data:\n  - name: AWS CloudFormation\n    description: Deploy SimSpace Weaver simulations using CloudFormation.\n  - name: Amazon S3\n    description: Store simulation schemas and output data in S3.\n  - name: Amazon CloudWatch\n    description: Monitor simulation metrics and logs via CloudWatch.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\nx-type: company\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/apis.yml
 tags:
-- AWS
 - Defense
 - Digital Twin
 - Simulation

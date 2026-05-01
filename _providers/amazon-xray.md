@@ -137,7 +137,6 @@ source_yaml: "aid: amazon-xray\nname: Amazon X-Ray\ndescription: >-\n  AWS X-Ray
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/apis.yml
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

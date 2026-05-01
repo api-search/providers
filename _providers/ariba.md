@@ -1,5 +1,42 @@
 ---
 api_count: 80
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Ariba Network API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/network/openapi.json
+- filename: openapi.json
+  format: json
+  label: Ariba Procurement API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/procurement/openapi.json
+- filename: openapi.json
+  format: json
+  label: Ariba Sourcing API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/sourcing/openapi.json
+- filename: openapi.json
+  format: json
+  label: Ariba Contracts API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/contracts/openapi.json
+- filename: openapi.json
+  format: json
+  label: Ariba Supplier API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/supplier/openapi.json
+- filename: openapi.json
+  format: json
+  label: Ariba Analytics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/analytics/openapi.json
 apis:
 - description: Enables suppliers and buyers to exchange business documents and collaborate on the Ariba Network.
   name: Ariba Network API

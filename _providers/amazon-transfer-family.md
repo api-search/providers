@@ -88,7 +88,6 @@ source_yaml: "aid: amazon-transfer-family\nname: Amazon Transfer Family\ndescrip
   \  - name: Automation\n    description: Automate operational tasks with Amazon Transfer Family.\n  - name: API Access\n    description: Programmatic access to Amazon Transfer Family resources.\n- type: UseCases\n  data:\n  - name: Cloud Operations\n    description: Use Amazon Transfer Family to manage and automate cloud operations.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/apis.yml
 tags:
-- AWS
 - File Transfer
 - FTP
 - SFTP

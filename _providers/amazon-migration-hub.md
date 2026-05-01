@@ -110,7 +110,6 @@ source_yaml: "aid: amazon-migration-hub\nname: Amazon Migration Hub\ndescription
   \ discovery data to identify and plan server migrations.\n  - name: AWS CloudFormation\n    description: Track CloudFormation stack deployments as migration tasks.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

@@ -117,7 +117,6 @@ source_yaml: "aid: amazon-mechanical-turk\nname: Amazon Mechanical Turk\ndescrip
   \      - name: Sentiment Analysis Training Data\n        description: Generate labeled sentiment data for training NLP and sentiment analysis models.\n  - type: Integrations\n    data:\n      - name: Amazon SageMaker Ground Truth\n        description: Use MTurk workers directly within SageMaker Ground Truth for ML data labeling jobs.\n      - name: AWS Lambda\n        description: Trigger Lambda functions on HIT completion events for automated downstream processing.\n      - name: Amazon S3\n        description: Store HIT input data and collect worker output files in S3 buckets.\n      - name: Amazon CloudWatch\n        description: Monitor MTurk task completion rates and worker performance metrics.\n      - name: AWS IAM\n        description: Control requester access to the MTurk API through IAM policies and roles.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/apis.yml
 tags:
-- AWS
 - Crowdsourcing
 - Human Intelligence
 - Labor

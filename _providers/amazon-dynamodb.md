@@ -141,7 +141,6 @@ source_yaml: "name: Amazon DynamoDB\ndescription: Amazon DynamoDB is a fully man
   \ rules/amazon-dynamodb-spectral-rules.yml\n- type: Vocabulary\n  url: vocabulary/amazon-dynamodb-vocabulary.yaml\n- type: NaftikoCapability\n  url: capabilities/dynamodb-management.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ntags:\n- AWS\n- Database\n- Document Store\n- Key-Value\n- NoSQL\n- Serverless\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/apis.yml
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

@@ -292,7 +292,6 @@ source_yaml: "aid: aws-api-gateway\nname: Amazon API Gateway\ndescription: >-\n 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/apis.yml
 tags:
 - API Gateway
-- AWS
 - Cloud
 - REST
 - WebSocket

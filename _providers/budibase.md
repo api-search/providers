@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Budibase REST API
+  slug: budibase-rest-api
+  spec_type: OpenAPI
+  url: https://budibase.com/api/public/v1/openapi.json
 apis:
 - description: The Budibase Public API provides programmatic access to Budibase resources including applications, tables, rows, users, queries, and automations. It enables external systems to read and write Budibase
   name: Budibase REST API

@@ -110,7 +110,6 @@ source_yaml: "aid: amazon-mediapackage\nname: Amazon MediaPackage\ndescription: 
   \ integration.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

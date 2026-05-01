@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-interactive-video-service\nname: Amazon Interactive Vi
   \ playback.\n      - name: Amazon CloudFront\n        description: Distributes live streams globally with low latency.\n      - name: AWS Lambda\n        description: Triggers automation based on stream state changes and events.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/apis.yml
 tags:
-- AWS
 - Live Streaming
 - Media
 - Video

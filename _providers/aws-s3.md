@@ -122,7 +122,6 @@ source_yaml: "aid: aws-s3\nname: Amazon S3 API\ndescription: >-\n  Amazon Simple
   \    description: Query S3 data lake files from Redshift without data movement.\n      - name: Amazon EventBridge\n        description: Route S3 events to downstream AWS services using EventBridge rules.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

@@ -116,7 +116,6 @@ source_yaml: "aid: amazon-guardduty\nname: Amazon GuardDuty\ndescription: >-\n  
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/apis.yml
 tags:
 - Anomaly Detection
-- AWS
 - Compliance
 - Machine Learning
 - Monitoring

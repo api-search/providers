@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: apache-ofbiz-rest-api-openapi.yaml
+  format: yaml
+  label: Apache OFBiz REST API
+  slug: apache-ofbiz-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ofbiz/refs/heads/main/openapi/apache-ofbiz-rest-api-openapi.yaml
 apis:
 - description: REST API plugin for Apache OFBiz that exposes any exported OFBiz service as a RESTful endpoint. Clients authenticate via HTTP Basic Auth to obtain a JWT token, then invoke services via GET (with URL-e
   name: Apache OFBiz REST API

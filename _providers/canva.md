@@ -1,12 +1,12 @@
 ---
 api_count: 4
 api_specs:
-- filename: canva-connect-api-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Canva Connect API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-connect-api-openapi.yml
+  url: https://www.canva.com/developers/docs/connect-api/openapi/
 apis:
 - description: Enables users to create and edit Canva designs directly from your application, with support for templates, autofill, and design management.
   name: Canva Connect API

@@ -139,7 +139,6 @@ source_yaml: "aid: amazon-codedeploy\nname: Amazon CodeDeploy\ndescription: >-\n
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/apis.yml
 tags:
 - Amazon
-- AWS
 - Deployment
 - DevOps
 - CI/CD

@@ -1,5 +1,12 @@
 ---
 api_count: 3
+api_specs:
+- filename: inttra-ocean-execution-openapi.yml
+  format: yaml
+  label: INTTRA Ocean Execution API
+  slug: inttra-ocean-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/e2open/refs/heads/main/openapi/inttra-ocean-execution-openapi.yml
 apis:
 - description: E2open supply chain platform APIs enable supply chain event management, transportation management, customs compliance, and end-to-end shipment visibility. The platform supports REST/JSON, XML, and EDI
   name: E2open Supply Chain Platform API

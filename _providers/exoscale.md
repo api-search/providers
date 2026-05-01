@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: exoscale-openapi.yml
+  format: yaml
+  label: Exoscale API
+  slug: exoscale
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/openapi/exoscale-openapi.yml
 apis:
 - description: Infrastructure automation API allowing programmatic access to all Exoscale products and services, including Compute, SKS (Kubernetes), DBaaS, IAM, Object Storage, KMS, networking, and load balancing.
   name: Exoscale API

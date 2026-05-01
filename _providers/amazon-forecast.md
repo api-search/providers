@@ -134,7 +134,6 @@ source_yaml: "aid: amazon-forecast\nname: Amazon Forecast\ndescription: >-\n  Am
   \  data:\n  - name: Amazon S3\n    description: Import training datasets and export forecast results to S3.\n  - name: AWS Glue\n    description: Transform and prepare time-series data for Forecast using AWS Glue ETL jobs.\n  - name: Amazon SageMaker\n    description: Combine Amazon Forecast with SageMaker for custom ML pipelines.\n  - name: AWS IAM\n    description: Control access to Forecast datasets, predictors, and forecasts with IAM policies.\n  - name: Amazon CloudWatch\n    description: Monitor Forecast job status, errors, and API usage metrics.\n  - name: AWS KMS\n    description: Encrypt Forecast datasets and training data with customer-managed KMS keys.\n  - name: Amazon QuickSight\n    description: Visualize exported forecast data in QuickSight dashboards.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/apis.yml
 tags:
-- AWS
 - Forecasting
 - Machine Learning
 - Predictive Analytics

@@ -1,5 +1,60 @@
 ---
 api_count: 9
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Webex Admin API
+  slug: webex-admin-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Calling API
+  slug: webex-calling-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Devices API
+  slug: webex-devices-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Workspaces API
+  slug: webex-workspaces-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex People API
+  slug: webex-people-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Organizations API
+  slug: webex-organizations-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Licenses API
+  slug: webex-licenses-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Locations API
+  slug: webex-locations-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Webex Reports API
+  slug: webex-reports-api
+  spec_type: OpenAPI
+  url: https://developer.webex.com/docs/api/v1/openapi.json
 apis:
 - description: Manage users, licenses, organization settings, and admin audit events for a Webex organization.
   name: Webex Admin API

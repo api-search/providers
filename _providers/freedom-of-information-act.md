@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: freedom-of-information-act-openapi.yml
+  format: yaml
+  label: Freedom of Information Act (FOIA) API
+  slug: freedom-of-information-act-foia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-openapi.yml
 apis:
 - description: The FOIA API provides access to public FOIA request data, agency components, and annual report XML, plus the agency submission specification used by participating agencies.
   name: Freedom of Information Act (FOIA) API

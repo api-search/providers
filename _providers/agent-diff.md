@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: agent-diff-sandbox-openapi.yml
+  format: yaml
+  label: Agent Diff Sandbox API
+  slug: agent-diff-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-sandbox-openapi.yml
 apis:
 - description: Create and manage isolated, ephemeral sandbox replicas of third-party APIs. Run AI agents against sandboxes to produce deterministic state-change diffs without rate limits or side effects.
   name: Agent Diff Sandbox API

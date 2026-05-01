@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-batch-openapi.yml
+  format: yaml
+  label: Amazon Batch API
+  slug: amazon-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/openapi/amazon-batch-openapi.yml
 apis:
 - description: The AWS Batch API enables programmatic management of batch computing workloads, including creating and managing compute environments, job queues, job definitions, scheduling policies, and submitting a
   name: Amazon Batch API
@@ -89,7 +96,6 @@ source_yaml: "aid: amazon-batch\nurl: >-\n  https://raw.githubusercontent.com/ap
   \    url: https://status.aws.amazon.com/\n  - type: KnowledgeCenter\n    url: https://repost.aws/knowledge-center\n  - type: YouTube\n    url: https://www.youtube.com/user/AmazonWebServices\n  - type: StackOverflow\n    url: https://stackoverflow.com/questions/tagged/aws-batch\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: Security\n    url: https://aws.amazon.com/security/\n  - type: Compliance\n    url: https://aws.amazon.com/compliance/\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/apis.yml
 tags:
-- AWS
 - Batch Computing
 - Compute
 - Containers

@@ -120,7 +120,6 @@ source_yaml: "aid: amazon-iot-greengrass\nname: Amazon IoT Greengrass\ndescripti
   \ from the cloud.\n  - type: Integrations\n    data:\n      - name: AWS Lambda\n        description: Run Lambda functions on edge devices for local processing.\n      - name: Amazon SageMaker\n        description: Deploy trained ML models to edge devices for local inference.\n      - name: AWS IoT Core\n        description: Syncs device state and routes messages between edge and cloud.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/apis.yml
 tags:
-- AWS
 - Edge Computing
 - IoT
 - Lambda

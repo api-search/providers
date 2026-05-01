@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: architecture-pattern-api.yaml
+  format: yaml
+  label: Architecture Pattern API
+  slug: architecture-pattern-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/openapi/architecture-pattern-api.yaml
 apis:
 - description: API providing access to a curated reference library of architecture patterns for distributed systems, microservices, cloud-native applications, and enterprise software.
   name: Architecture Pattern API

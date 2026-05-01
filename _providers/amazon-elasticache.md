@@ -138,7 +138,6 @@ source_yaml: "name: Amazon ElastiCache\ndescription: Amazon ElastiCache is a ful
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - Caching
 - Database
 - ElastiCache

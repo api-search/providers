@@ -115,7 +115,6 @@ source_yaml: "aid: amazon-panorama\nname: Amazon Panorama\ndescription: >-\n  AW
   \  title: Openapi Alternate Softwares\n- type: JSONSchema\n  url: json-schema/openapi-application-instance-arn-schema.json\n  title: Openapi Application Instance Arn\n- type: JSONSchema\n  url: json-schema/openapi-application-instance-health-status-schema.json\n  title: Openapi Application Instance Health Status\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/apis.yml
 tags:
-- AWS
 - Cameras
 - Computer Vision
 - Edge ML

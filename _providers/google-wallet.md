@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Wallet API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/openapi/openapi.yml
 apis:
 - description: REST API for creating and managing digital passes including event tickets, loyalty cards, gift cards, offers, transit passes, and generic passes in Google Wallet.
   name: Google Wallet API

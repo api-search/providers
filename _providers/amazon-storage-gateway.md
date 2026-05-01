@@ -112,7 +112,6 @@ source_yaml: "name: Amazon Storage Gateway\ndescription: AWS Storage Gateway is 
   \  url: https://apievangelist.com\ntags:\n- AWS\n- Backup\n- File Storage\n- Gateway\n- Hybrid Cloud\n- Storage\nx-type: company\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/apis.yml
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

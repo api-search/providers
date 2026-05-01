@@ -1,5 +1,12 @@
 ---
 api_count: 2
+api_specs:
+- filename: dev
+  format: yaml
+  label: Densify Public Cloud API
+  slug: public-cloud-api
+  spec_type: Postman
+  url: https://www.densify.com/dev
 apis:
 - description: The Densify Public Cloud REST API exposes optimization analysis, recommendations, account and instance inventory, and systems data for AWS, Azure, and Google Cloud environments. The API uses JSON over
   name: Densify Public Cloud API

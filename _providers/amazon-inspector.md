@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-inspector\nname: Amazon Inspector\ndescription: >-\n  
   \       description: Automatically scans container images stored in Elastic Container Registry.\n      - name: AWS Security Hub\n        description: Sends all findings to Security Hub for centralized visibility.\n      - name: AWS Organizations\n        description: Manages Inspector across all organizational accounts.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compliance
 - Container Security
 - EC2

@@ -130,7 +130,6 @@ source_yaml: "name: Amazon Device Farm\ndescription: >-\n  AWS Device Farm is an
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/apis.yml
 tags:
 - Application Testing
-- AWS
 - Device Testing
 - Mobile Testing
 - Quality Assurance

@@ -48,7 +48,6 @@ source_yaml: "aid: cloudchipr\nname: CloudChipr\nurl: https://raw.githubusercont
   \ inventoried resources and rightsizing\n      recommendations, running automated workflows, and configuring\n      integrations such as Slack, Jira, and webhooks. Specific endpoint\n      paths and authentication details are maintained in that portal\n      and gated by an account login.\ncommon:\n  - type: Website\n    url: https://cloudchipr.com/\n  - type: Portal\n    url: https://docs.cloudchipr.com/\n  - type: Documentation\n    url: https://docs.cloudchipr.com/reference\n  - type: Pricing\n    url: https://cloudchipr.com/pricing\n  - type: Blog\n    url: https://cloudchipr.com/blog\n  - type: GitHubOrg\n    url: https://github.com/cloudchipr\n  - type: FinOpsMember\n    url: https://www.finops.org/members/cloudchipr/\n  - type: Naftiko Capabilities\n    url: capabilities/cloudchipr-capabilities.yml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/apis.yml
 tags:
-- AWS
 - Azure
 - Cloud Cost Management
 - Cost Optimization

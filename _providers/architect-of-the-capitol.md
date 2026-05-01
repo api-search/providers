@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: aoc-data-api.yaml
+  format: yaml
+  label: Architect of the Capitol Data API
+  slug: aoc-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/aoc-data-api.yaml
 apis:
 - description: The AOC Data API provides access to public information about Capitol campus buildings, art collections, historic preservation projects, and congressional facilities management.
   name: Architect of the Capitol Data API

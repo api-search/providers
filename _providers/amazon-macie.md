@@ -120,7 +120,6 @@ source_yaml: "aid: amazon-macie\nname: Amazon Macie\ndescription: >-\n  Amazon M
   \ involved in a security incident.\n      - name: Data Governance\n        description: Build a data inventory and understand where sensitive data lives across the organization.\n  - type: Integrations\n    data:\n      - name: Amazon S3\n        description: Scans S3 buckets to discover and classify sensitive data objects.\n      - name: AWS Security Hub\n        description: Sends findings to Security Hub for centralized security posture management.\n      - name: Amazon EventBridge\n        description: Publishes findings events to EventBridge for automated remediation workflows.\n      - name: AWS Organizations\n        description: Integrates with Organizations for multi-account sensitive data discovery.\n      - name: Amazon CloudWatch\n        description: Publishes metrics and logs to CloudWatch for monitoring and alerting.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Security
 - Sensitive Data
 - Privacy

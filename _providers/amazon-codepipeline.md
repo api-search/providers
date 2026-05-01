@@ -129,7 +129,6 @@ source_yaml: "aid: amazon-codepipeline\nname: Amazon CodePipeline\ndescription: 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/apis.yml
 tags:
 - Amazon
-- AWS
 - CI/CD
 - Continuous Delivery
 - DevOps

@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-supply-chain\nname: Amazon Supply Chain\ndescription: 
   \    description: Connect SAP ERP data to AWS Supply Chain via data integration flows.\n  - name: Oracle ERP\n    description: Integrate Oracle ERP supply chain data for unified visibility.\n  - name: Amazon S3\n    description: Import and export supply chain data via S3 for batch processing.\n  - name: Amazon EventBridge\n    description: Send supply chain events to EventBridge for downstream processing.\n  - name: AWS IoT\n    description: Integrate IoT sensor data for real-time supply chain monitoring.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\nx-type: company\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/apis.yml
 tags:
-- AWS
 - ERP Integration
 - Logistics
 - Machine Learning

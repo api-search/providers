@@ -1,5 +1,18 @@
 ---
 api_count: 10
+api_specs:
+- filename: compute.json
+  format: json
+  label: Azure Compute API
+  slug: azure-compute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/compute/resource-manager/Microsoft.Compute/stable/2023-03-01/compute.json
+- filename: storage.json
+  format: json
+  label: Azure Storage API
+  slug: azure-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/storage/resource-manager/Microsoft.Storage/stable/2023-01-01/storage.json
 apis:
 - description: Manage virtual machines, containers, serverless functions, and Kubernetes clusters. Includes Azure Virtual Machines, Azure Kubernetes Service (AKS), Azure Container Apps, Azure Functions, and App Serv
   name: Azure Compute API

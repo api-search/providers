@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: energy-charts-api-openapi.yml
+  format: yaml
+  label: Energy Charts API
+  slug: energy-charts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/energy-charts-api/refs/heads/main/openapi/energy-charts-api-openapi.yml
 apis:
 - description: Public REST API from Fraunhofer ISE delivering European electricity production, prices, cross-border flows, grid frequency, installed capacity, and renewable share data across 40+ countries and biddin
   name: Energy Charts API

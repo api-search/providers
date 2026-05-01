@@ -114,7 +114,6 @@ source_yaml: "aid: amazon-lookout-for-vision\nname: Amazon Lookout for Vision\nd
   \        description: Detect cracks, scratches, and dimensional defects in automotive components.\n  - type: Integrations\n    data:\n      - name: Amazon S3\n        description: Store training images and dataset manifests in S3 buckets.\n      - name: AWS IoT Greengrass\n        description: Deploy packaged models to IoT Greengrass edge devices for local inference.\n      - name: Amazon CloudWatch\n        description: Monitor model performance metrics and detection results in CloudWatch.\n      - name: AWS KMS\n        description: Encrypt model artifacts using AWS Key Management Service.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/apis.yml
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

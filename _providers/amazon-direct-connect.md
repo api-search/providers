@@ -130,7 +130,6 @@ source_yaml: "name: Amazon Direct Connect\ndescription: >-\n  AWS Direct Connect
   \ Route 53 Resolver\n        description: Use Direct Connect for private DNS resolution between on-premises and AWS environments.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\ntags:\n  - AWS\n  - Dedicated Connection\n  - Direct Connect\n  - Hybrid Cloud\n  - Networking\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/apis.yml
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

@@ -1,5 +1,12 @@
 ---
 api_count: 6
+api_specs:
+- filename: v1
+  format: yaml
+  label: ClickHouse Cloud API
+  slug: clickhouse-cloud-api
+  spec_type: OpenAPI
+  url: https://api.clickhouse.cloud/v1
 apis:
 - description: HTTP interface (default port 8123, HTTPS 8443) for executing SQL queries against ClickHouse. Supports SELECT via GET, mutations via POST, multiple output formats (JSON, CSV, XML, TabSeparated), and au
   name: ClickHouse HTTP Interface

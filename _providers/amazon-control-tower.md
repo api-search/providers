@@ -136,7 +136,6 @@ source_yaml: "aid: amazon-control-tower\nname: Amazon Control Tower\ndescription
   \ using CloudFormation templates\n          and resource providers for infrastructure-as-code governance.\n      - name: Terraform\n        description: >-\n          Community-supported Terraform providers for managing Control Tower landing\n          zones, controls, and account factory configurations.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

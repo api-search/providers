@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS License Manager API
+  slug: aws-license-manager-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/license-manager/2018-08-01/openapi.yaml
 apis:
 - description: The AWS License Manager API provides programmatic access to create and manage license configurations, license associations, grants, tokens, and license reports for managing software licenses across AW
   name: AWS License Manager API
@@ -107,7 +114,6 @@ source_yaml: "aid: amazon-license-manager\nname: Amazon License Manager\ndescrip
   \ AWS Organizations\n    description: Manage licenses across all accounts in an AWS Organization from a single pane.\n  - name: AWS Marketplace\n    description: Access software licenses purchased through AWS Marketplace.\n- type: SpectralRules\n  url: rules/amazon-license-manager-spectral-rules.yml\n- type: NaftikoCapability\n  url: capabilities/amazon-license-manager-workflow.yaml\n- type: Vocabulary\n  url: vocabulary/amazon-license-manager-vocabulary.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compliance
 - Cost Management
 - License Management

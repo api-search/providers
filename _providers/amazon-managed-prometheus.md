@@ -118,7 +118,6 @@ source_yaml: "aid: amazon-managed-prometheus\nname: Amazon Managed Service for P
   \ for infrastructure capacity planning.\n      - name: SLA Monitoring\n        description: Define SLO-based alerting rules to monitor service level agreements in real time.\n  - type: Integrations\n    data:\n      - name: Amazon EKS\n        description: Collect metrics from EKS clusters using managed scrapers and Prometheus remote write.\n      - name: Amazon Managed Grafana\n        description: Visualize Prometheus metrics in Grafana dashboards using AMP as a data source.\n      - name: AWS Distro for OpenTelemetry\n        description: Use ADOT collectors to send metrics to AMP workspaces via remote write.\n      - name: Amazon CloudWatch\n        description: Forward Prometheus alerts and metrics to CloudWatch for cross-service monitoring.\n      - name: Prometheus Alertmanager\n        description: Use native Prometheus Alertmanager configuration for alert routing and notification.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/apis.yml
 tags:
-- AWS
 - Containers
 - Monitoring
 - Observability

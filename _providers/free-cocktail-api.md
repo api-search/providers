@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: free-cocktail-api-openapi.yml
+  format: yaml
+  label: Free Cocktail API
+  slug: free-cocktail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-openapi.yml
 apis:
 - description: The Free Cocktail API provides access to a vast database of cocktail recipes, ingredients, and images.
   name: Free Cocktail API

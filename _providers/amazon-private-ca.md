@@ -775,7 +775,6 @@ source_yaml: "name: Amazon Private CA\ndescription: AWS Private Certificate Auth
   - type: Example\n  url: examples/amazon-private-ca-tag-example.json\n- type: Example\n  url: examples/amazon-private-ca-untag-certificate-authority-request-example.json\n- type: Example\n  url: examples/amazon-private-ca-update-certificate-authority-request-example.json\n- type: Example\n  url: examples/amazon-private-ca-validity-example.json\n- type: NaftikoCapability\n  url: capabilities/shared/amazon-private-ca.yaml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n  url: https://apievangelist.com\ninclude: []\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/apis.yml
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

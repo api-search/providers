@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Lookout for Equipment API
+  slug: amazon-lookout-for-equipment-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lookoutequipment/2020-12-15/openapi.yaml
 apis:
 - description: The Amazon Lookout for Equipment API provides programmatic access to create and manage datasets, models, inference schedulers, and labels for predictive maintenance of industrial equipment.
   name: Amazon Lookout for Equipment API
@@ -110,7 +117,6 @@ source_yaml: "aid: amazon-lookout-for-equipment\nname: Amazon Lookout for Equipm
   maintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/apis.yml
 tags:
-- AWS
 - Equipment Monitoring
 - Industrial IoT
 - Machine Learning

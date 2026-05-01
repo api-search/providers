@@ -141,7 +141,6 @@ source_yaml: "name: Amazon Elastic Beanstalk\ndescription: AWS Elastic Beanstalk
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - Auto Scaling
 - Deployment
 - Elastic Beanstalk

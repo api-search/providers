@@ -1,5 +1,66 @@
 ---
 api_count: 10
+api_specs:
+- filename: fabric-openapi-original.yml
+  format: yaml
+  label: Equinix Fabric API
+  slug: fabric
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/fabric-openapi-original.yml
+- filename: metal-openapi-original.yml
+  format: yaml
+  label: Equinix Metal API
+  slug: metal
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/metal-openapi-original.yml
+- filename: eia-openapi-original.yml
+  format: yaml
+  label: Equinix Internet Access API
+  slug: internet-access
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/eia-openapi-original.yml
+- filename: lookup-openapi-original.yml
+  format: yaml
+  label: Equinix Lookup API
+  slug: lookup
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/lookup-openapi-original.yml
+- filename: orders-openapi-original.yml
+  format: yaml
+  label: Equinix Orders API
+  slug: orders
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/orders-openapi-original.yml
+- filename: orderhistory-openapi-original.yml
+  format: yaml
+  label: Equinix Order History API
+  slug: order-history
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/orderhistory-openapi-original.yml
+- filename: securecabinet-openapi-original.yml
+  format: yaml
+  label: Equinix Secure Cabinet API
+  slug: secure-cabinet
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/securecabinet-openapi-original.yml
+- filename: smarthands-openapi-original.yml
+  format: yaml
+  label: Equinix Smart Hands API
+  slug: smart-hands
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/smarthands-openapi-original.yml
+- filename: accesstoken-openapi-original.yml
+  format: yaml
+  label: Equinix API Authentication
+  slug: access-token
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/accesstoken-openapi-original.yml
+- filename: sts-openapi-original.yml
+  format: yaml
+  label: Equinix Security Token Service
+  slug: sts
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/openapi/sts-openapi-original.yml
 apis:
 - description: Equinix Fabric is a software-defined interconnection solution that enables direct, secure, and dynamic connections to distributed infrastructure and digital ecosystems across the Equinix platform, inc
   name: Equinix Fabric API

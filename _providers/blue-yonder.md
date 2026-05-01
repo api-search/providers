@@ -1,5 +1,12 @@
 ---
 api_count: 4
+api_specs:
+- filename: blue-yonder-warehouse-management-openapi.yml
+  format: yaml
+  label: Blue Yonder Warehouse Management API
+  slug: blue-yonder-warehouse-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-warehouse-management-openapi.yml
 apis:
 - description: The Blue Yonder Demand Planning API enables access to demand forecasting models, statistical baselines, and demand signals for retail and manufacturing supply chains. REST APIs support integration wit
   name: Blue Yonder Demand Planning API

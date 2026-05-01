@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: agechecker-net-age-verification-openapi.yml
+  format: yaml
+  label: AgeChecker.Net Age Verification API
+  slug: agechecker-net-age-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-age-verification-openapi.yml
 apis:
 - description: The AgeChecker.Net Age Verification API provides seamless age verification for online transactions. Send customer data directly to verify age without requiring a popup for most customers. Only custome
   name: AgeChecker.Net Age Verification API

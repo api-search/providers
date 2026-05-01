@@ -137,7 +137,6 @@ source_yaml: "aid: amazon-firewall-manager\nname: Amazon Firewall Manager\ndescr
   \ 53 Resolver\n    description: Manage DNS Firewall rule groups for Route 53 Resolver across accounts.\n  - name: Amazon CloudWatch\n    description: Monitor compliance metrics and set alarms for non-compliant resources.\n  - name: AWS Security Hub\n    description: Send Firewall Manager compliance findings to Security Hub for centralized security posture management.\n  - name: AWS IAM\n    description: Control who can create, modify, and view Firewall Manager policies using IAM permissions.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/apis.yml
 tags:
-- AWS
 - Compliance
 - Firewall
 - Network Security

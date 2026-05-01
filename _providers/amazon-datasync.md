@@ -136,7 +136,6 @@ source_yaml: "aid: amazon-datasync\nname: Amazon DataSync\ndescription: >-\n  AW
   \ Amazon FSx\n        description: >-\n          Integrate with FSx for Windows, FSx for Lustre, and FSx for NetApp\n          ONTAP as high-performance managed file system destinations.\n      - name: Amazon CloudWatch\n        description: >-\n          Receive DataSync task execution metrics, transfer rates, and error\n          alerts in CloudWatch for monitoring and incident response.\n      - name: AWS Snowball\n        description: >-\n          Use Snowball for initial bulk data transfer followed by DataSync\n          for ongoing incremental synchronization after migration.\n      - name: AWS Storage Gateway\n        description: >-\n          Combine Storage Gateway for cache-based hybrid access with DataSync\n          for bulk data movement between on-premises and cloud.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/apis.yml
 tags:
-- AWS
 - Data Transfer
 - Migration
 - Storage

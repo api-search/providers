@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: constant-contact-v3-openapi.yml
+- filename: swagger.yaml
   format: yaml
   label: Constant Contact V3 API
   slug: v3
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-v3-openapi.yml
+  url: https://api.cc.email/v3/swagger.yaml
 apis:
 - description: Production REST API for Constant Contact's email marketing, SMS, and events platform. OAuth2 authorization (auth code, PKCE, and JWT-bearer flows) gates all endpoints across account services, contacts
   name: Constant Contact V3 API

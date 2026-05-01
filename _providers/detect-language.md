@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: detect-language-openapi.yml
+  format: yaml
+  label: Detect Language
+  slug: detect-language
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/detect-language/refs/heads/main/openapi/detect-language-openapi.yml
 apis:
 - description: The Detect Language API is a web service that identifies the language of a given text with high accuracy, whether it's a long passage, short phrase, or single word. It supports detection of 164 langua
   name: Detect Language

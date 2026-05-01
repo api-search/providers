@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Vault API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://vault.googleapis.com/$discovery/rest?version=v1
 apis:
 - description: The Google Vault API allows developers to manage matters, holds, searches, and exports for Google Vault. It enables programmatic access to eDiscovery and information governance capabilities for Google
   name: Google Vault API

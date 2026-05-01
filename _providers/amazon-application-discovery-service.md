@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-application-discovery-service-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service API
+  slug: amazon-application-discovery-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-openapi.yml
 apis:
 - description: REST API for AWS Application Discovery Service covering agents, applications, configurations, exports, imports, and tags for on-premises infrastructure discovery.
   name: Amazon Application Discovery Service API
@@ -69,7 +76,6 @@ tags:
 - Migration
 - Discovery
 - Infrastructure
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/apis.yml
 use_cases:
 - Discover all servers and processes in on-premises data centers before migration

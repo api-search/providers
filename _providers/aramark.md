@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: marko-api.yml
+  format: yaml
+  label: Aramark Marko API
+  slug: marko-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/marko-api.yml
 apis:
 - description: Marko is Aramark's data and AI platform providing fast, frictionless access to Aramark's robust data universe with 70+ services designed to provide realtime insights and streamline business processes.
   name: Aramark Marko API

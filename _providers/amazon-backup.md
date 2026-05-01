@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-backup-openapi.yml
+  format: yaml
+  label: Amazon Backup API
+  slug: amazon-backup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/openapi/amazon-backup-openapi.yml
 apis:
 - description: 'API for centrally managing and automating backups across AWS services including Amazon EBS, Amazon RDS, Amazon DynamoDB, Amazon EFS, Amazon FSx, Amazon EC2, and AWS Storage Gateway. Supports creating '
   name: Amazon Backup API
@@ -89,7 +96,6 @@ source_yaml: "aid: amazon-backup\nurl: >-\n  https://raw.githubusercontent.com/a
   \    url: https://www.youtube.com/user/AmazonWebServices\n  - type: StackOverflow\n    url: https://stackoverflow.com/questions/tagged/aws-backup\n  - type: Contact\n    url: https://aws.amazon.com/contact-us/\n  - type: Security\n    url: https://docs.aws.amazon.com/aws-backup/latest/devguide/security.html\n  - type: Compliance\n    url: https://aws.amazon.com/compliance/\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/apis.yml
 tags:
-- AWS
 - Backup
 - Data Protection
 - Disaster Recovery

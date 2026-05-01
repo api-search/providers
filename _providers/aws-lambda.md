@@ -1,12 +1,12 @@
 ---
 api_count: 5
 api_specs:
-- filename: aws-lambda-api-openapi.yml
-  format: yaml
+- filename: openapi.json
+  format: json
   label: AWS Lambda API
   slug: aws-lambda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/openapi/aws-lambda-api-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lambda/2015-03-31/openapi.json
 apis:
 - description: The AWS Lambda REST API enables you to create, manage, and invoke Lambda functions programmatically. Supports function management, event source mappings, aliases, versions, and layer operations.
   name: AWS Lambda API

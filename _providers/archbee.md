@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: archbee-api.yaml
+  format: yaml
+  label: Archbee API
+  slug: archbee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-api.yaml
 apis:
 - description: The Archbee API enables programmatic management of documentation spaces, pages, and content within the Archbee documentation platform.
   name: Archbee API

@@ -124,7 +124,6 @@ source_yaml: "aid: amazon-glue\nname: Amazon Glue\ndescription: >-\n  Amazon Glu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/apis.yml
 tags:
 - Analytics
-- AWS
 - Data Catalog
 - Data Integration
 - Data Pipeline

@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: amazon-aurora-openapi.yml
+  format: yaml
+  label: Amazon Aurora API
+  slug: amazon-aurora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-openapi.yml
 apis:
 - description: REST management API for Amazon Aurora covering DB clusters, DB instances, cluster snapshots, parameter groups, custom endpoints, and global database management.
   name: Amazon Aurora API
@@ -67,7 +74,6 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
-- AWS
 url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/apis.yml
 use_cases:
 - Enterprise applications requiring high availability and durability

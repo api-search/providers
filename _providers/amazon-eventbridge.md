@@ -145,7 +145,6 @@ source_yaml: "name: Amazon EventBridge\ndescription: Amazon EventBridge is a ser
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/apis.yml
 tags:
 - Amazon Web Services
-- AWS
 - Event Bus
 - Event-Driven
 - Events

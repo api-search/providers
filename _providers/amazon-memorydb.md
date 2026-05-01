@@ -116,7 +116,6 @@ source_yaml: "aid: amazon-memorydb\nname: Amazon MemoryDB\ndescription: Amazon M
   \ AWS KMS\n    description: Encrypt data at rest using AWS Key Management Service keys.\n  - name: Amazon CloudWatch\n    description: Monitor cluster metrics including cache hits, memory usage, and connections.\n  - name: AWS IAM\n    description: Control access using IAM policies and roles.\n  - name: Amazon ElastiCache\n    description: Migrate from ElastiCache Redis to MemoryDB for durable storage.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/apis.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

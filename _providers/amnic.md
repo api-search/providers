@@ -115,7 +115,6 @@ tags:
 - Cloud Cost Management
 - Cost Optimization
 - Kubernetes
-- AWS
 - Azure
 - Google Cloud
 url: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/apis.yml

@@ -1,5 +1,18 @@
 ---
 api_count: 21
+api_specs:
+- filename: sql.json
+  format: json
+  label: SQL Server REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/sql/resource-manager/Microsoft.Sql/stable/2021-11-01/sql.json
+- filename: databases.json
+  format: json
+  label: Azure SQL Database REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/sql/resource-manager/Microsoft.Sql/stable/2021-11-01/databases.json
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
   name: SQL Server Database Engine API

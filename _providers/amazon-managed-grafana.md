@@ -123,7 +123,6 @@ source_yaml: "aid: amazon-managed-grafana\nname: Amazon Managed Grafana\ndescrip
   \      - name: AWS IAM Identity Center\n        description: Integrate with IAM Identity Center for centralized user authentication.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/apis.yml
 tags:
-- AWS
 - Dashboards
 - Monitoring
 - Observability

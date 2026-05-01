@@ -2067,7 +2067,6 @@ source_yaml: "name: Amazon Route 53 Resolver\ndescription: Amazon Route 53 Resol
   - type: JSONStructure\n  url: json-structure/amazon-route53-resolver-openapi-create-firewall-domain-list-request-structure.json\n- type: JSONStructure\n  url: json-structure/amazon-route53-resolver-openapi-create-firewall-domain-list-response-structure.json\n- type: JSONStructu\n\n# --- truncated at 32 KB (74 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/apis.yml
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

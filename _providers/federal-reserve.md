@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: federal-reserve-fred-openapi.yml
+  format: yaml
+  label: Federal Reserve FRED API
+  slug: federal-reserve
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/federal-reserve/refs/heads/main/openapi/federal-reserve-fred-openapi.yml
 apis:
 - description: The FRED API allows developers to retrieve economic data from the Federal Reserve Bank of St. Louis including categories, releases, series, sources, tags, and observations across thousands of economic
   name: Federal Reserve FRED API

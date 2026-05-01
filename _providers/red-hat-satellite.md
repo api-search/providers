@@ -1,12 +1,12 @@
 ---
 api_count: 5
 api_specs:
-- filename: red-hat-satellite-api.yml
-  format: yaml
+- filename: v2.json
+  format: json
   label: Red Hat Satellite REST API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-api.yml
+  url: https://satellite.example.com/apidoc/v2.json
 apis:
 - description: The main REST API for Red Hat Satellite 6.x, providing programmatic access to all Satellite functions including host management, content management, provisioning, and configuration.
   name: Red Hat Satellite REST API

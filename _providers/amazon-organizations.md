@@ -1,12 +1,12 @@
 ---
 api_count: 1
 api_specs:
-- filename: amazon-organizations-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: AWS Organizations API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/openapi/amazon-organizations-openapi.yml
+  url: https://docs.aws.amazon.com/organizations/latest/APIReference/Welcome.html
 apis:
 - description: The AWS Organizations API enables you to programmatically create and manage AWS accounts, create organizational units, apply policies, and invite accounts to join your organization.
   name: AWS Organizations API
@@ -139,7 +139,6 @@ source_yaml: "name: Amazon Organizations\ndescription: AWS Organizations is an a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/apis.yml
 tags:
 - Account Management
-- AWS
 - Consolidated Billing
 - Governance
 - Multi-Account

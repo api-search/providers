@@ -1,5 +1,12 @@
 ---
 api_count: 1
+api_specs:
+- filename: azure-container-registry-openapi.yaml
+  format: yaml
+  label: Azure Container Registry
+  slug: azure-container-registry
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-openapi.yaml
 apis:
 - description: Azure Container Registry is a managed Docker registry service for storing and managing private container images and artifacts with support for automated builds, geo-replication, and integration with A
   name: Azure Container Registry
