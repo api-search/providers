@@ -11,6 +11,10 @@ apis:
 - description: The APIPark API provides programmatic access to manage the APIPark AI gateway and developer portal, including AI model integration, service management, team administration, and API publishing workflow
   name: APIPark API
   slug: apipark-api
+capabilities:
+- description: Manage services, AI models, teams, and subscribers across the APIPark developer platform
+  name: Platform Management
+  slug: platform-management
 common:
 - title: ''
   type: Website

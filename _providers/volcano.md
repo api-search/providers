@@ -29,6 +29,10 @@ apis:
 - description: Kubernetes CRD that represents a group of pods with strong association, used as the unit of gang scheduling in Volcano. PodGroups define the minimum number of pods that must be scheduled together, ena
   name: Volcano PodGroup API
   slug: volcano-podgroup-api
+capabilities:
+- description: Unified capability for managing Volcano batch workloads on Kubernetes. Combines Job, Queue, and PodGroup APIs to orchestrate distributed ML training, HPC simulation, big data processing, and scientifi
+  name: Volcano Batch Workload Management
+  slug: batch-workload-management
 common:
 - title: ''
   type: Website
@@ -39,6 +43,18 @@ common:
 - title: ''
   type: JSONSchema
   url: json-schema/volcano-job-schema.json
+- title: ''
+  type: JSONStructure
+  url: json-structure/volcano-job-structure.json
+- title: ''
+  type: Vocabulary
+  url: vocabulary/volcano-vocabulary.yml
+- title: ''
+  type: SpectralRules
+  url: rules/volcano-rules.yml
+- title: ''
+  type: NaftikoCapability
+  url: capabilities/batch-workload-management.yaml
 - title: ''
   type: Documentation
   url: https://volcano.sh/en/docs/
@@ -58,7 +74,7 @@ common:
   type: Community
   url: https://github.com/volcano-sh/community
 created: '2026-03-16'
-description: Volcano is a CNCF incubating batch processing and high-performance computing (HPC) scheduler for Kubernetes. It provides advanced scheduling capabilities including gang scheduling, fair-share scheduling, queue management, and job lifecycle management for batch workloads such as machine learning training, big data processing, and scientific computing.
+description: 'Volcano is a CNCF incubating batch processing and high-performance computing (HPC) scheduler for Kubernetes. It provides advanced scheduling capabilities including gang scheduling, fair-share scheduling, queue management, and job lifecycle management for batch workloads such as machine learning training, big data processing, and scientific computing. Volcano extends Kubernetes with three CRDs: Job (vcjob), Queue, and PodGroup.'
 features: []
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 integrations: []
@@ -68,17 +84,27 @@ jsonld:
   property_count: 7
   slug: volcano-context
 layout: provider
-modified: '2026-03-18'
+modified: '2026-05-03'
 name: Volcano
+rules:
+- name: Volcano API Rules
+  rule_count: 7
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 2
+    warn: 4
+  slug: volcano-rules
 skills: []
 slug: volcano
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: volcano\nname: Volcano\ndescription: >-\n  Volcano is a CNCF incubating batch processing and high-performance\n  computing (HPC) scheduler for Kubernetes. It provides advanced scheduling\n  capabilities including gang scheduling, fair-share scheduling, queue\n  management, and job lifecycle management for batch workloads such as\n  machine learning training, big data processing, and scientific computing.\nurl: https://volcano.sh\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Batch Processing\n  - Cloud Native\n  - HPC\n  - Incubating\n  - Kubernetes\n  - Scheduling\ncreated: '2026-03-16'\nmodified: '2026-03-18'\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - aid: volcano:volcano-api\n    name: Volcano Batch Scheduling API\n    description: >-\n      Volcano extends Kubernetes with CRDs for batch workload management.\n      The Job resource defines batch workloads with multiple task types and\n      lifecycle policies.\
-  \ Queue resources manage job scheduling with\n      weight-based fair sharing and resource quotas. Volcano supports\n      gang scheduling ensuring all pods in a group are scheduled together,\n      and integrates with frameworks like TensorFlow, PyTorch, Spark, and MPI.\n    humanURL: https://volcano.sh/en/docs/\n    properties:\n      - type: Documentation\n        url: https://volcano.sh/en/docs/\n      - type: Reference\n        url: https://volcano.sh/en/docs/vcjob/\n      - type: Getting Started\n        url: https://volcano.sh/en/docs/installation/\n      - type: OpenAPI\n        url: openapi/volcano-job-openapi.yml\n      - type: JSONSchema\n        url: json-schema/volcano-job-schema.json\n    tags:\n      - Batch Scheduling\n      - Gang Scheduling\n      - Queues\n  - aid: volcano:volcano-queue-api\n    name: Volcano Queue API\n    description: >-\n      Kubernetes CRD for defining and managing job queues in Volcano. Queues\n      collect PodGroups and support weight-based fair-share\
-  \ scheduling and resource\n      quotas, providing the primary mechanism for multi-tenant resource partitioning\n      and priority-based job admission.\n    humanURL: https://volcano.sh/en/docs/v1-10-0/queue/\n    properties:\n      - type: Documentation\n        url: https://volcano.sh/en/docs/v1-10-0/queue/\n      - type: OpenAPI\n        url: openapi/volcano-queue-openapi.yml\n    tags:\n      - Batch Scheduling\n      - Kubernetes\n      - Multi-Tenancy\n      - Queues\n      - Resource Management\n  - aid: volcano:volcano-podgroup-api\n    name: Volcano PodGroup API\n    description: >-\n      Kubernetes CRD that represents a group of pods with strong association,\n      used as the unit of gang scheduling in Volcano. PodGroups define the minimum\n      number of pods that must be scheduled together, enabling all-or-nothing\n      scheduling semantics for distributed training and computing workloads.\n    humanURL: https://volcano.sh/en/docs/podgroup/\n    properties:\n      - type:\
-  \ Documentation\n        url: https://volcano.sh/en/docs/podgroup/\n      - type: OpenAPI\n        url: openapi/volcano-podgroup-openapi.yml\n    tags:\n      - Batch Scheduling\n      - Distributed Computing\n      - Gang Scheduling\n      - Kubernetes\n      - Pod Management\ncommon:\n  - type: Website\n    url: https://volcano.sh/en/\n  - type: JSON-LD\n    url: json-ld/volcano-context.jsonld\n  - type: JSONSchema\n    url: json-schema/volcano-job-schema.json\n  - type: Documentation\n    url: https://volcano.sh/en/docs/\n  - type: Getting Started\n    url: https://volcano.sh/en/docs/installation/\n  - type: Blog\n    url: https://volcano.sh/en/blog/\n  - type: GitHub Organization\n    url: https://github.com/volcano-sh\n  - type: GitHubRepository\n    url: https://github.com/volcano-sh/volcano\n  - type: Community\n    url: https://github.com/volcano-sh/community\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
+source_yaml: "aid: volcano\nname: Volcano\ndescription: >-\n  Volcano is a CNCF incubating batch processing and high-performance\n  computing (HPC) scheduler for Kubernetes. It provides advanced scheduling\n  capabilities including gang scheduling, fair-share scheduling, queue\n  management, and job lifecycle management for batch workloads such as\n  machine learning training, big data processing, and scientific computing.\n  Volcano extends Kubernetes with three CRDs: Job (vcjob), Queue, and PodGroup.\nurl: https://volcano.sh\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Batch Processing\n  - Cloud Native\n  - HPC\n  - Incubating\n  - Kubernetes\n  - Scheduling\n  - Machine Learning\ncreated: '2026-03-16'\nmodified: '2026-05-03'\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - aid: volcano:volcano-api\n    name: Volcano Batch Scheduling API\n    description: >-\n      Volcano extends Kubernetes with CRDs for batch workload management.\n\
+  \      The Job resource defines batch workloads with multiple task types and\n      lifecycle policies. Queue resources manage job scheduling with\n      weight-based fair sharing and resource quotas. Volcano supports\n      gang scheduling ensuring all pods in a group are scheduled together,\n      and integrates with frameworks like TensorFlow, PyTorch, Spark, and MPI.\n    humanURL: https://volcano.sh/en/docs/\n    properties:\n      - type: Documentation\n        url: https://volcano.sh/en/docs/\n      - type: Reference\n        url: https://volcano.sh/en/docs/vcjob/\n      - type: Getting Started\n        url: https://volcano.sh/en/docs/installation/\n      - type: OpenAPI\n        url: openapi/volcano-job-openapi.yml\n      - type: JSONSchema\n        url: json-schema/volcano-job-schema.json\n    tags:\n      - Batch Scheduling\n      - Gang Scheduling\n      - Queues\n  - aid: volcano:volcano-queue-api\n    name: Volcano Queue API\n    description: >-\n      Kubernetes CRD for defining\
+  \ and managing job queues in Volcano. Queues\n      collect PodGroups and support weight-based fair-share scheduling and resource\n      quotas, providing the primary mechanism for multi-tenant resource partitioning\n      and priority-based job admission.\n    humanURL: https://volcano.sh/en/docs/v1-10-0/queue/\n    properties:\n      - type: Documentation\n        url: https://volcano.sh/en/docs/v1-10-0/queue/\n      - type: OpenAPI\n        url: openapi/volcano-queue-openapi.yml\n    tags:\n      - Batch Scheduling\n      - Kubernetes\n      - Multi-Tenancy\n      - Queues\n      - Resource Management\n  - aid: volcano:volcano-podgroup-api\n    name: Volcano PodGroup API\n    description: >-\n      Kubernetes CRD that represents a group of pods with strong association,\n      used as the unit of gang scheduling in Volcano. PodGroups define the minimum\n      number of pods that must be scheduled together, enabling all-or-nothing\n      scheduling semantics for distributed training and\
+  \ computing workloads.\n    humanURL: https://volcano.sh/en/docs/podgroup/\n    properties:\n      - type: Documentation\n        url: https://volcano.sh/en/docs/podgroup/\n      - type: OpenAPI\n        url: openapi/volcano-podgroup-openapi.yml\n    tags:\n      - Batch Scheduling\n      - Distributed Computing\n      - Gang Scheduling\n      - Kubernetes\n      - Pod Management\ncommon:\n  - type: Website\n    url: https://volcano.sh/en/\n  - type: JSON-LD\n    url: json-ld/volcano-context.jsonld\n  - type: JSONSchema\n    url: json-schema/volcano-job-schema.json\n  - type: JSONStructure\n    url: json-structure/volcano-job-structure.json\n  - type: Vocabulary\n    url: vocabulary/volcano-vocabulary.yml\n  - type: SpectralRules\n    url: rules/volcano-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/batch-workload-management.yaml\n  - type: Documentation\n    url: https://volcano.sh/en/docs/\n  - type: Getting Started\n    url: https://volcano.sh/en/docs/installation/\n\
+  \  - type: Blog\n    url: https://volcano.sh/en/blog/\n  - type: GitHub Organization\n    url: https://github.com/volcano-sh\n  - type: GitHubRepository\n    url: https://github.com/volcano-sh/volcano\n  - type: Community\n    url: https://github.com/volcano-sh/community\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/apis.yml
 tags:
 - Batch Processing
@@ -87,6 +113,7 @@ tags:
 - Incubating
 - Kubernetes
 - Scheduling
+- Machine Learning
 url: https://volcano.sh
 use_cases: []
 ---

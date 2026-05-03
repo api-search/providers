@@ -4,6 +4,7 @@ apis:
 - description: The Zuora v1 REST API provides complete coverage of Zuora Billing, Payments, and Platform features. It enables developers to automate billing operations, manage subscriptions, process payments, and in
   name: Zuora V1 API
   slug: v1-api
+capabilities: []
 common:
 - title: ''
   type: Portal

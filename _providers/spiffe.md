@@ -14,7 +14,7 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/openapi/spiffe-federation-openapi.yml
 apis:
-- description: 'The SPIFFE Workload API is a gRPC-based interface through which workloads request and receive SPIFFE Verifiable Identity Documents (SVIDs) including X.509-SVIDs and JWT-SVIDs, as well as trust bundle '
+- description: The SPIFFE Workload API is a gRPC streaming interface through which workloads request and receive SPIFFE Verifiable Identity Documents (SVIDs) including X.509-SVIDs and JWT-SVIDs, as well as trust bun
   name: SPIFFE Workload API
   slug: spiffe-workload-api
 - description: The SPIFFE X.509 SVID (SPIFFE Verifiable Identity Document) is a standard for encoding SPIFFE identities into X.509 certificates. The Subject Alternative Name field carries the SPIFFE ID URI, enabling
@@ -30,6 +30,10 @@ asyncapis:
 - description: 'The SPIFFE Workload API is a gRPC streaming interface through which workloads request and receive SPIFFE Verifiable Identity Documents (SVIDs) and trust bundle updates. Workloads subscribe to the API '
   name: SPIFFE Workload API Events
   slug: spiffe-workload-asyncapi
+capabilities:
+- description: Workflow capability for SPIFFE-based workload identity and federation operations. Combines the SPIFFE Federation Bundle Endpoint for cross-domain trust bundle retrieval with identity verification work
+  name: SPIFFE Workload Identity
+  slug: workload-identity
 common:
 - title: ''
   type: JSONSchema
@@ -38,16 +42,25 @@ common:
   type: JSON-LD
   url: json-ld/spiffe-context.jsonld
 - title: ''
+  type: SpectralRules
+  url: rules/spiffe-rules.yml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/spiffe-vocabulary.yml
+- title: ''
+  type: NaftikoCapabilities
+  url: capabilities/workload-identity.yaml
+- title: ''
   type: Website
   url: https://spiffe.io/
 - title: ''
   type: Documentation
   url: https://spiffe.io/docs/latest/
 - title: ''
-  type: Getting Started
+  type: GettingStarted
   url: https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/
 - title: ''
-  type: GitHub Organization
+  type: GitHubOrganization
   url: https://github.com/spiffe
 - title: ''
   type: GitHubRepository
@@ -65,10 +78,10 @@ common:
   type: Security
   url: https://github.com/spiffe/spiffe/blob/main/SECURITY.md
 - title: ''
-  type: Stack Overflow
+  type: StackOverflow
   url: https://stackoverflow.com/questions/tagged/spiffe
 created: '2025'
-description: Secure Production Identity Framework for Everyone (SPIFFE) is a set of open-source standards for securely identifying software systems in dynamic and heterogeneous environments through platform-agnostic, cryptographic identities. SPIFFE defines the SPIFFE ID URI format, the X.509 SVID and JWT SVID identity document formats, and the Workload API for issuing and rotating identities without secrets or passwords.
+description: Secure Production Identity Framework for Everyone (SPIFFE) is a set of open-source standards for securely identifying software systems in dynamic and heterogeneous environments through platform-agnostic, cryptographic identities. SPIFFE defines the SPIFFE ID URI format, the X.509 SVID and JWT SVID identity document formats, and the Workload API for issuing and rotating identities without secrets or passwords. SPIFFE is a graduated CNCF project.
 features: []
 image: ''
 integrations: []
@@ -78,19 +91,28 @@ jsonld:
   property_count: 7
   slug: spiffe-context
 layout: provider
-modified: '2026-03-18'
+modified: '2026-05-02'
 name: SPIFFE
+rules:
+- name: SPIFFE API Rules
+  rule_count: 7
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 0
+    warn: 3
+  slug: spiffe-rules
 skills: []
 slug: spiffe
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: spiffe\nname: SPIFFE\ndescription: >-\n  Secure Production Identity Framework for Everyone (SPIFFE) is a set of\n  open-source standards for securely identifying software systems in dynamic\n  and heterogeneous environments through platform-agnostic, cryptographic\n  identities. SPIFFE defines the SPIFFE ID URI format, the X.509 SVID and\n  JWT SVID identity document formats, and the Workload API for issuing and\n  rotating identities without secrets or passwords.\nurl: https://spiffe.io/\ntags:\n  - Authentication\n  - Cloud Native\n  - Graduated\n  - Identity\n  - Security\n  - Zero Trust\ncreated: '2025'\nmodified: '2026-03-18'\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - aid: spiffe:spiffe-workload-api\n    name: SPIFFE Workload API\n    description: >-\n      The SPIFFE Workload API is a gRPC-based interface through which workloads\n      request and receive SPIFFE Verifiable Identity Documents (SVIDs) including\n      X.509-SVIDs and JWT-SVIDs, as well\
-  \ as trust bundle updates. It enables\n      software to obtain cryptographic identities at runtime without requiring\n      secrets to be embedded in configuration or code.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_API.md\n    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_API.md\n      - type: AsyncAPI\n        url: asyncapi/spiffe-workload-asyncapi.yml\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n    tags:\n      - gRPC\n      - Identity\n      - JWT\n      - Workload\n      - X.509\n  - aid: spiffe:spiffe-x509-svid-api\n    name: SPIFFE X.509 SVID\n    description: >-\n      The SPIFFE X.509 SVID (SPIFFE Verifiable Identity Document) is a standard\n      for encoding SPIFFE identities into X.509 certificates. The Subject\n      Alternative\
-  \ Name field carries the SPIFFE ID URI, enabling mutual TLS\n      authentication between workloads using standard X.509 certificate\n      validation libraries.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/X509-SVID.md\n    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/svid/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/X509-SVID.md\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n    tags:\n      - Certificate\n      - Identity\n      - mTLS\n      - Security\n      - X.509\n  - aid: spiffe:spiffe-jwt-svid-api\n    name: SPIFFE JWT SVID\n    description: >-\n      The SPIFFE JWT SVID standard defines a format for encoding SPIFFE\n      identities as JSON Web Tokens. JWT-SVIDs are used in scenarios where\n      X.509 certificates are not practical, such as HTTP header-based\n      authentication between services or for passing identity\
-  \ across\n      trust domain boundaries.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md\n    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/svid/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n    tags:\n      - Authentication\n      - Identity\n      - JWT\n      - Security\n  - aid: spiffe:spiffe-federation-api\n    name: SPIFFE Federation API\n    description: >-\n      The SPIFFE Federation API defines how SPIFFE trust domains exchange\n      trust bundle information to enable cross-domain workload authentication.\n      It specifies the SPIFFE Trust Domain and Bundle endpoint format, allowing\n      systems in different trust domains to establish mutual trust and authenticate\n      workloads across organizational or infrastructure boundaries.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Trust_Domain_and_Bundle.md\n\
-  \    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Trust_Domain_and_Bundle.md\n      - type: OpenAPI\n        url: openapi/spiffe-federation-openapi.yml\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n    tags:\n      - Cross-Domain\n      - Federation\n      - Identity\n      - Security\n      - Trust Domain\ncommon:\n  - type: JSONSchema\n    url: json-schema/spiffe-svid-schema.json\n  - type: JSON-LD\n    url: json-ld/spiffe-context.jsonld\n  - type: Website\n    url: https://spiffe.io/\n  - type: Documentation\n    url: https://spiffe.io/docs/latest/\n  - type: Getting Started\n    url: https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/\n  - type: GitHub Organization\n    url: https://github.com/spiffe\n  - type: GitHubRepository\n    url: https://github.com/spiffe/spiffe\n  -\
-  \ type: Community\n    url: https://spiffe.io/community/\n  - type: Slack\n    url: https://slack.spiffe.io\n  - type: Blog\n    url: https://spiffe.io/blog/\n  - type: Security\n    url: https://github.com/spiffe/spiffe/blob/main/SECURITY.md\n  - type: Stack Overflow\n    url: https://stackoverflow.com/questions/tagged/spiffe\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
+source_yaml: "aid: spiffe\nname: SPIFFE\ndescription: >-\n  Secure Production Identity Framework for Everyone (SPIFFE) is a set of\n  open-source standards for securely identifying software systems in dynamic\n  and heterogeneous environments through platform-agnostic, cryptographic\n  identities. SPIFFE defines the SPIFFE ID URI format, the X.509 SVID and\n  JWT SVID identity document formats, and the Workload API for issuing and\n  rotating identities without secrets or passwords. SPIFFE is a graduated\n  CNCF project.\nurl: https://spiffe.io/\ntags:\n  - Authentication\n  - Cloud Native\n  - Graduated\n  - Identity\n  - Security\n  - Zero Trust\ncreated: '2025'\nmodified: '2026-05-02'\nspecificationVersion: '0.19'\ntype: Index\napis:\n  - aid: spiffe:spiffe-workload-api\n    name: SPIFFE Workload API\n    description: >-\n      The SPIFFE Workload API is a gRPC streaming interface through which workloads\n      request and receive SPIFFE Verifiable Identity Documents (SVIDs) including\n\
+  \      X.509-SVIDs and JWT-SVIDs, as well as trust bundle updates. It enables\n      software to obtain cryptographic identities at runtime without requiring\n      secrets to be embedded in configuration or code.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_API.md\n    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_API.md\n      - type: AsyncAPI\n        url: asyncapi/spiffe-workload-asyncapi.yml\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n    tags:\n      - gRPC\n      - Identity\n      - JWT\n      - Workload\n      - X.509\n  - aid: spiffe:spiffe-x509-svid-api\n    name: SPIFFE X.509 SVID\n    description: >-\n      The SPIFFE X.509 SVID (SPIFFE Verifiable Identity Document) is a standard\n      for encoding SPIFFE identities into X.509\
+  \ certificates. The Subject\n      Alternative Name field carries the SPIFFE ID URI, enabling mutual TLS\n      authentication between workloads using standard X.509 certificate\n      validation libraries.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/X509-SVID.md\n    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/svid/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/X509-SVID.md\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n    tags:\n      - Certificate\n      - Identity\n      - mTLS\n      - Security\n      - X.509\n  - aid: spiffe:spiffe-jwt-svid-api\n    name: SPIFFE JWT SVID\n    description: >-\n      The SPIFFE JWT SVID standard defines a format for encoding SPIFFE\n      identities as JSON Web Tokens. JWT-SVIDs are used in scenarios where\n      X.509 certificates are not practical, such as HTTP header-based\n      authentication\
+  \ between services or for passing identity across\n      trust domain boundaries.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md\n    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/svid/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n    tags:\n      - Authentication\n      - Identity\n      - JWT\n      - Security\n  - aid: spiffe:spiffe-federation-api\n    name: SPIFFE Federation API\n    description: >-\n      The SPIFFE Federation API defines how SPIFFE trust domains exchange\n      trust bundle information to enable cross-domain workload authentication.\n      It specifies the SPIFFE Trust Domain and Bundle endpoint format, allowing\n      systems in different trust domains to establish mutual trust and authenticate\n      workloads across organizational or infrastructure\
+  \ boundaries.\n    humanURL: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Trust_Domain_and_Bundle.md\n    properties:\n      - type: Documentation\n        url: https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/\n      - type: Reference\n        url: https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Trust_Domain_and_Bundle.md\n      - type: OpenAPI\n        url: openapi/spiffe-federation-openapi.yml\n      - type: GitHubRepository\n        url: https://github.com/spiffe/spiffe\n      - type: SpectralRules\n        url: rules/spiffe-rules.yml\n      - type: NaftikoCapabilities\n        url: capabilities/workload-identity.yaml\n    tags:\n      - Cross-Domain\n      - Federation\n      - Identity\n      - Security\n      - Trust Domain\ncommon:\n  - type: JSONSchema\n    url: json-schema/spiffe-svid-schema.json\n  - type: JSON-LD\n    url: json-ld/spiffe-context.jsonld\n  - type: SpectralRules\n    url: rules/spiffe-rules.yml\n  - type: Vocabulary\n    url:\
+  \ vocabulary/spiffe-vocabulary.yml\n  - type: NaftikoCapabilities\n    url: capabilities/workload-identity.yaml\n  - type: Website\n    url: https://spiffe.io/\n  - type: Documentation\n    url: https://spiffe.io/docs/latest/\n  - type: GettingStarted\n    url: https://spiffe.io/docs/latest/spiffe-about/spiffe-concepts/\n  - type: GitHubOrganization\n    url: https://github.com/spiffe\n  - type: GitHubRepository\n    url: https://github.com/spiffe/spiffe\n  - type: Community\n    url: https://spiffe.io/community/\n  - type: Slack\n    url: https://slack.spiffe.io\n  - type: Blog\n    url: https://spiffe.io/blog/\n  - type: Security\n    url: https://github.com/spiffe/spiffe/blob/main/SECURITY.md\n  - type: StackOverflow\n    url: https://stackoverflow.com/questions/tagged/spiffe\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/apis.yml
 tags:
 - Authentication

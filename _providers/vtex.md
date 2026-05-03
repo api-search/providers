@@ -3,389 +3,411 @@ api_count: 44
 api_specs:
 - filename: vtex-anti-fraud-provider-openapi-original.yml
   format: yaml
-  label: Vtex Anti Fraud Provider API
+  label: VTEX Anti-Fraud Provider API
   slug: vtex-anti-fraud-provider-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-anti-fraud-provider-openapi-original.yml
 - filename: vtex-buyer-organization-openapi-original.yml
   format: yaml
-  label: Vtex Buyer Organization API
+  label: VTEX Buyer Organization API
   slug: vtex-buyer-organization-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-buyer-organization-openapi-original.yml
 - filename: vtex-catalog-api-seller-portal-openapi-original.yml
   format: yaml
-  label: Vtex Catalog API Seller Portal API
-  slug: vtex-catalog-api-seller-portal-api
+  label: VTEX Catalog API - Seller Portal
+  slug: vtex-catalog-api-seller-portal
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-catalog-api-seller-portal-openapi-original.yml
 - filename: vtex-catalog-openapi-original.yml
   format: yaml
-  label: Vtex Catalog API
+  label: VTEX Catalog API
   slug: vtex-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-catalog-openapi-original.yml
 - filename: vtex-checkout-openapi-original.yml
   format: yaml
-  label: Vtex Checkout API
+  label: VTEX Checkout API
   slug: vtex-checkout-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-checkout-openapi-original.yml
 - filename: vtex-customer-credit-openapi-original.yml
   format: yaml
-  label: Vtex Customer Credit API
+  label: VTEX Customer Credit API
   slug: vtex-customer-credit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-customer-credit-openapi-original.yml
 - filename: vtex-data-subject-rights-openapi-original.yml
   format: yaml
-  label: Vtex Data Subject Rights API
+  label: VTEX Data Subject Rights API
   slug: vtex-data-subject-rights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-data-subject-rights-openapi-original.yml
 - filename: vtex-do-openapi-original.yml
   format: yaml
-  label: Vtex Do API
+  label: VTEX DO API
   slug: vtex-do-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-do-openapi-original.yml
 - filename: vtex-gift-card-hub-openapi-original.yml
   format: yaml
-  label: Vtex Gift Card Hub API
+  label: VTEX Gift Card Hub API
   slug: vtex-gift-card-hub-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-gift-card-hub-openapi-original.yml
 - filename: vtex-gift-card-openapi-original.yml
   format: yaml
-  label: Vtex Gift Card API
+  label: VTEX Gift Card API
   slug: vtex-gift-card-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-gift-card-openapi-original.yml
 - filename: vtex-gift-card-provider-protocol-openapi-original.yml
   format: yaml
-  label: Vtex Gift Card Provider Protocol API
+  label: VTEX Gift Card Provider Protocol API
   slug: vtex-gift-card-provider-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-gift-card-provider-protocol-openapi-original.yml
 - filename: vtex-headless-cms-openapi-original.yml
   format: yaml
-  label: Vtex Headless Cms API
+  label: VTEX Headless CMS API
   slug: vtex-headless-cms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-headless-cms-openapi-original.yml
 - filename: vtex-id-openapi-original.yml
   format: yaml
-  label: Vtex Id API
+  label: VTEX ID API
   slug: vtex-id-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-id-openapi-original.yml
 - filename: vtex-intelligent-search-events-openapi-original.yml
   format: yaml
-  label: Vtex Intelligent Search Events API
+  label: VTEX Intelligent Search Events API
   slug: vtex-intelligent-search-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-intelligent-search-events-openapi-original.yml
 - filename: vtex-intelligent-search-openapi-original.yml
   format: yaml
-  label: Vtex Intelligent Search API
+  label: VTEX Intelligent Search API
   slug: vtex-intelligent-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-intelligent-search-openapi-original.yml
 - filename: vtex-legacy-cms-portal-openapi-original.yml
   format: yaml
-  label: Vtex Legacy Cms Portal API
+  label: VTEX Legacy CMS Portal API
   slug: vtex-legacy-cms-portal-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-legacy-cms-portal-openapi-original.yml
 - filename: vtex-legacy-search-openapi-original.yml
   format: yaml
-  label: Vtex Legacy Search API
+  label: VTEX Legacy Search API
   slug: vtex-legacy-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-legacy-search-openapi-original.yml
 - filename: vtex-license-manager-openapi-original.yml
   format: yaml
-  label: Vtex License Manager API
+  label: VTEX License Manager API
   slug: vtex-license-manager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-license-manager-openapi-original.yml
 - filename: vtex-logistics-openapi-original.yml
   format: yaml
-  label: Vtex Logistics API
+  label: VTEX Logistics API
   slug: vtex-logistics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-logistics-openapi-original.yml
 - filename: vtex-marketplace-openapi-original.yml
   format: yaml
-  label: Vtex Marketplace API
+  label: VTEX Marketplace API
   slug: vtex-marketplace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-marketplace-openapi-original.yml
 - filename: vtex-marketplace-protocol-external-mapper-openapi-original.yml
   format: yaml
-  label: Vtex Marketplace Protocol External Mapper API
+  label: VTEX Marketplace Protocol - External Mapper API
   slug: vtex-marketplace-protocol-external-mapper-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-marketplace-protocol-external-mapper-openapi-original.yml
 - filename: vtex-marketplace-protocol-external-orders-openapi-original.yml
   format: yaml
-  label: Vtex Marketplace Protocol External Orders API
+  label: VTEX Marketplace Protocol - External Orders API
   slug: vtex-marketplace-protocol-external-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-marketplace-protocol-external-orders-openapi-original.yml
+- filename: vtex-marketplace-protocol-external-seller-fulfillment-openapi-original.yml
+  format: yaml
+  label: VTEX Marketplace Protocol - External Seller Fulfillment API
+  slug: vtex-marketplace-protocol-external-seller-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-marketplace-protocol-external-seller-fulfillment-openapi-original.yml
+- filename: vtex-marketplace-protocol-external-seller-marketplace-openapi-original.yml
+  format: yaml
+  label: VTEX Marketplace Protocol - External Seller Marketplace API
+  slug: vtex-marketplace-protocol-external-seller-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-marketplace-protocol-external-seller-marketplace-openapi-original.yml
 - filename: vtex-master-data-openapi-original.yml
   format: yaml
-  label: Vtex Master Data API
+  label: VTEX Master Data API
   slug: vtex-master-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-master-data-openapi-original.yml
 - filename: vtex-message-center-openapi-original.yml
   format: yaml
-  label: Vtex Message Center API
+  label: VTEX Message Center API
   slug: vtex-message-center-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-message-center-openapi-original.yml
 - filename: vtex-orders-openapi-original.yml
   format: yaml
-  label: Vtex Orders API
+  label: VTEX Orders API
   slug: vtex-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-orders-openapi-original.yml
 - filename: vtex-orders-pii-openapi-original.yml
   format: yaml
-  label: Vtex Orders Pii API
+  label: VTEX Orders API - PII Data Architecture
   slug: vtex-orders-pii-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-orders-pii-openapi-original.yml
 - filename: vtex-payment-provider-protocol-openapi-original.yml
   format: yaml
-  label: Vtex Payment Provider Protocol API
+  label: VTEX Payment Provider Protocol API
   slug: vtex-payment-provider-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-payment-provider-protocol-openapi-original.yml
 - filename: vtex-payments-gateway-openapi-original.yml
   format: yaml
-  label: Vtex Payments Gateway API
+  label: VTEX Payments Gateway API
   slug: vtex-payments-gateway-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-payments-gateway-openapi-original.yml
 - filename: vtex-pick-pack-last-mile-protocol-openapi-original.yml
   format: yaml
-  label: Vtex Pick Pack Last Mile Protocol API
+  label: VTEX Pick and Pack Last Mile Protocol API
   slug: vtex-pick-pack-last-mile-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-pick-pack-last-mile-protocol-openapi-original.yml
 - filename: vtex-policies-system-openapi-original.yml
   format: yaml
-  label: Vtex Policies System API
+  label: VTEX Policies System API
   slug: vtex-policies-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-policies-system-openapi-original.yml
 - filename: vtex-pricing-hub-openapi-original.yml
   format: yaml
-  label: Vtex Pricing Hub API
+  label: VTEX Pricing Hub API
   slug: vtex-pricing-hub-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-pricing-hub-openapi-original.yml
 - filename: vtex-pricing-openapi-original.yml
   format: yaml
-  label: Vtex Pricing API
+  label: VTEX Pricing API
   slug: vtex-pricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-pricing-openapi-original.yml
 - filename: vtex-profile-system-openapi-original.yml
   format: yaml
-  label: Vtex Profile System API
+  label: VTEX Profile System API - PII Data Architecture
   slug: vtex-profile-system-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-profile-system-openapi-original.yml
 - filename: vtex-promotions-taxes-openapi-original.yml
   format: yaml
-  label: Vtex Promotions Taxes API
+  label: VTEX Promotions and Taxes API
   slug: vtex-promotions-taxes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-promotions-taxes-openapi-original.yml
 - filename: vtex-reviews-ratings-openapi-original.yml
   format: yaml
-  label: Vtex Reviews Ratings API
+  label: VTEX Reviews and Ratings API
   slug: vtex-reviews-ratings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-reviews-ratings-openapi-original.yml
 - filename: vtex-sent-offers-openapi-original.yml
   format: yaml
-  label: Vtex Sent Offers API
+  label: VTEX Sent Offers API
   slug: vtex-sent-offers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-sent-offers-openapi-original.yml
 - filename: vtex-sessions-openapi-original.yml
   format: yaml
-  label: Vtex Sessions API
+  label: VTEX Session Manager API
   slug: vtex-sessions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-sessions-openapi-original.yml
 - filename: vtex-shipping-network-openapi-original.yml
   format: yaml
-  label: Vtex Shipping Network API
+  label: VTEX Shipping Network API
   slug: vtex-shipping-network-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-shipping-network-openapi-original.yml
 - filename: vtex-sku-bindings-openapi-original.yml
   format: yaml
-  label: Vtex Sku Bindings API
+  label: VTEX SKU Bindings API
   slug: vtex-sku-bindings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-sku-bindings-openapi-original.yml
 - filename: vtex-subscriptions-openapi-original.yml
   format: yaml
-  label: Vtex Subscriptions API
+  label: VTEX Subscriptions API
   slug: vtex-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-subscriptions-openapi-original.yml
 - filename: vtex-suggestions-openapi-original.yml
   format: yaml
-  label: Vtex Suggestions API
+  label: VTEX Suggestions API
   slug: vtex-suggestions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-suggestions-openapi-original.yml
 - filename: vtex-tracking-openapi-original.yml
   format: yaml
-  label: Vtex Tracking API
+  label: VTEX Tracking API
   slug: vtex-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/openapi/vtex-tracking-openapi-original.yml
 apis:
-- description: Vtex Anti Fraud Provider is a comprehensive service that helps businesses prevent fraudulent activities and online payment scams. This platform utilizes advanced technology and data analysis to detect
-  name: Vtex Anti Fraud Provider API
+- description: 'The VTEX Anti-Fraud Provider API defines the integration protocol between VTEX and anti-fraud providers. It enables third-party anti-fraud services to connect with the VTEX payment ecosystem, receive '
+  name: VTEX Anti-Fraud Provider API
   slug: vtex-anti-fraud-provider-api
-- description: Vtex Buyer Organization is a company that focuses on providing innovative solutions for e-commerce businesses. They specialize in helping businesses streamline their procurement processes and manage t
-  name: Vtex Buyer Organization API
+- description: The VTEX Buyer Organization API enables B2B commerce capabilities by allowing businesses to manage buyer organizations, their members, roles, and cost centers. It supports bulk import of buyer organiz
+  name: VTEX Buyer Organization API
   slug: vtex-buyer-organization-api
-- description: The Vtex Catalog API Seller Portal is a platform designed to streamline the process of managing product listings and inventory for sellers on the Vtex e-commerce platform. Sellers can easily add, upda
-  name: Vtex Catalog API Seller Portal API
-  slug: vtex-catalog-api-seller-portal-api
-- description: Vtex Catalog is a comprehensive e-commerce platform that helps businesses manage and showcase their products effectively. It provides a user-friendly interface for creating, organizing, and optimizing
-  name: Vtex Catalog API
+- description: The VTEX Catalog API for Seller Portal provides endpoints for sellers to manage their product catalog within the VTEX seller portal experience. It enables product creation, category mapping, attribute
+  name: VTEX Catalog API - Seller Portal
+  slug: vtex-catalog-api-seller-portal
+- description: The VTEX Catalog API provides comprehensive product catalog management for VTEX stores. It covers categories, brands, products, SKUs, product specifications, product images, product attachments, and c
+  name: VTEX Catalog API
   slug: vtex-catalog-api
-- description: Vtex Checkout is an advanced e-commerce platform that enables online retailers to streamline the checkout process for their customers. With Vtex Checkout, businesses can offer a seamless and secure on
-  name: Vtex Checkout API
+- description: The VTEX Checkout API manages the complete checkout lifecycle for VTEX stores. It handles cart management, order simulation, address validation, payment selection, order placement, and cart attachment
+  name: VTEX Checkout API
   slug: vtex-checkout-api
-- description: 'Vtex Customer Credit is a feature within the Vtex digital commerce platform that allows businesses to manage and track customer credit information. With this tool, businesses can easily set up credit '
-  name: Vtex Customer Credit API
+- description: The VTEX Customer Credit API manages credit lines for B2B and B2C customers. It enables merchants to create credit accounts, set credit limits, track outstanding balances, open and close invoices, and
+  name: VTEX Customer Credit API
   slug: vtex-customer-credit-api
-- description: Vtex Data Subject Rights is a platform that allows individuals to exercise their rights under data protection laws, such as the right to access, rectify, erase, or restrict the processing of their per
-  name: Vtex Data Subject Rights API
+- description: The VTEX Data Subject Rights API enables GDPR and LGPD compliance by allowing organizations to process data subject requests. It supports the right to access, rectify, erase, and restrict processing o
+  name: VTEX Data Subject Rights API
   slug: vtex-data-subject-rights-api
-- description: Vtex is a leading global digital commerce platform that provides businesses with innovative solutions to optimize their online sales and customer experience. Vtex Do offers a wide range of services, i
-  name: Vtex Do API
+- description: The VTEX DO API provides task and note management capabilities for VTEX store operators. It allows creating, updating, listing, and deleting tasks and notes associated with orders and other store obje
+  name: VTEX DO API
   slug: vtex-do-api
-- description: Vtex Gift Card Hub is a platform that enables businesses to easily create and manage gift card programs. With Vtex Gift Card Hub, businesses can design custom gift cards, set expiration dates, track r
-  name: Vtex Gift Card Hub API
+- description: The VTEX Gift Card Hub API provides a central integration point for managing gift card providers on the VTEX platform. It enables merchants to list, activate, and deactivate gift card providers, and p
+  name: VTEX Gift Card Hub API
   slug: vtex-gift-card-hub-api
-- description: Vtex Gift Card is a convenient and versatile gift option that allows recipients to choose their own products from a wide range of participating retailers. The gift card can be used online or in-store,
-  name: Vtex Gift Card API
+- description: The VTEX Gift Card API manages the lifecycle of gift cards within the VTEX native gift card provider. It supports creating, redeeming, crediting, debiting, and canceling gift card transactions, as wel
+  name: VTEX Gift Card API
   slug: vtex-gift-card-api
-- description: The Vtex Gift Card Provider Protocol is a system that allows businesses to easily create and manage gift card programs for their customers. This protocol enables businesses to issue and track gift car
-  name: Vtex Gift Card Provider Protocol API
+- description: The VTEX Gift Card Provider Protocol defines the interface for integrating external gift card providers with VTEX. It specifies the endpoints external providers must implement to handle gift card tran
+  name: VTEX Gift Card Provider Protocol API
   slug: vtex-gift-card-provider-protocol-api
-- description: Vtex Headless CMS is a powerful content management system that allows businesses to create, manage, and deliver digital content across multiple channels and devices. It enables companies to easily pub
-  name: Vtex Headless Cms API
+- description: The VTEX Headless CMS API provides content management capabilities for FastStore and headless VTEX storefronts. It enables managing CMS pages, sections, content types, and building blocks that compose
+  name: VTEX Headless CMS API
   slug: vtex-headless-cms-api
-- description: Vtex ID is a platform that provides user authentication services for online businesses. By utilizing Vtex ID, customers can securely log in to their accounts, make purchases, and access personalized c
-  name: Vtex Id API
+- description: The VTEX ID API provides authentication and identity management for VTEX stores. It handles user login, token generation, authentication renewal, and password management for customers, store operators
+  name: VTEX ID API
   slug: vtex-id-api
-- description: Vtex Intelligent Search Events is a platform that enables businesses to gather real-time data on user search behavior and preferences. By tracking and analyzing search queries, clicks, and engagements
-  name: Vtex Intelligent Search Events API
+- description: The VTEX Intelligent Search Events API captures behavioral signals from shoppers to improve search relevance. It collects events such as search queries, product clicks, and purchase completions to fee
+  name: VTEX Intelligent Search Events API
   slug: vtex-intelligent-search-events-api
-- description: Vtex Intelligent Search is an advanced search engine tool that utilizes artificial intelligence and machine learning algorithms to provide users with highly relevant and accurate search results. By an
-  name: Vtex Intelligent Search API
+- description: The VTEX Intelligent Search API delivers AI-powered search and product discovery features for VTEX storefronts. It provides product search with faceted filtering, autocomplete suggestions, banners, pr
+  name: VTEX Intelligent Search API
   slug: vtex-intelligent-search-api
-- description: 'Vtex Legacy Cms Portal is a platform that allows users to easily manage and update content on their websites. It provides a user-friendly interface that enables users to create, edit, and publish web '
-  name: Vtex Legacy Cms Portal API
+- description: 'The VTEX Legacy CMS Portal API provides access to the classic VTEX CMS system used in traditional VTEX stores. It enables managing HTML templates, site structure, shelves, and custom pages within the '
+  name: VTEX Legacy CMS Portal API
   slug: vtex-legacy-cms-portal-api
-- description: Vtex Legacy Search is a comprehensive search tool that helps businesses optimize and enhance their e-commerce search functionalities. This platform enables users to set up advanced search configuratio
-  name: Vtex Legacy Search API
+- description: 'The VTEX Legacy Search API supports product search and discovery for traditional VTEX storefronts not yet migrated to Intelligent Search. It provides catalog browsing, text search, faceted filtering, '
+  name: VTEX Legacy Search API
   slug: vtex-legacy-search-api
-- description: Sure! Vtex License Manager is a software tool that helps organizations manage and track software licenses across their IT infrastructure. It allows users to easily monitor license usage, ensure compli
-  name: Vtex License Manager API
+- description: The VTEX License Manager API manages access control and permissions within the VTEX platform. It handles user accounts, roles, resources, app permissions, and account access tokens, serving as the pri
+  name: VTEX License Manager API
   slug: vtex-license-manager-api
-- description: Vtex Logistics is a leading provider of end-to-end logistics and supply chain solutions, specializing in helping businesses streamline their operations and optimize their processes. From warehousing a
-  name: Vtex Logistics API
+- description: 'The VTEX Logistics API manages the complete fulfillment infrastructure for VTEX stores. It covers warehouses, inventory management, shipping carriers, freight calculations, pickup points, geolocation '
+  name: VTEX Logistics API
   slug: vtex-logistics-api
-- description: Vtex Marketplace is an e-commerce platform that connects sellers, buyers, and partners in a seamless and efficient way. It provides a comprehensive solution for businesses looking to launch, manage, a
-  name: Vtex Marketplace API
+- description: The VTEX Marketplace API manages the relationships and operations between VTEX marketplaces and their sellers. It supports seller onboarding, offer management, seller portal access, and the coordinati
+  name: VTEX Marketplace API
   slug: vtex-marketplace-api
-- description: 'The Vtex Marketplace Protocol External Mapper is a tool that allows sellers to seamlessly integrate their external catalogs, inventory, and prices with the Vtex platform. This mapping tool simplifies '
-  name: Vtex Marketplace Protocol External Mapper API
+- description: The VTEX Marketplace Protocol External Mapper API defines the catalog mapping protocol for external marketplace connectors. It enables synchronization of product categories, brands, and specifications
+  name: VTEX Marketplace Protocol - External Mapper API
   slug: vtex-marketplace-protocol-external-mapper-api
-- description: Vtex Marketplace Protocol External Orders is a feature that allows vendors to manage orders from external sources such as third-party marketplaces or platforms. With this tool, vendors can easily sync
-  name: Vtex Marketplace Protocol External Orders API
+- description: The VTEX Marketplace Protocol External Orders API defines the order flow protocol for external marketplace integrations. It specifies how external marketplaces send orders to VTEX sellers, handle orde
+  name: VTEX Marketplace Protocol - External Orders API
   slug: vtex-marketplace-protocol-external-orders-api
-- description: The Vtex Marketplace Protocol External Seller Fulfillment is a system that allows external sellers on the Vtex Marketplace platform to fulfill orders directly to customers. This service enables seller
-  name: Vtex Marketplace Protocol External Seller Fulfillment API
+- description: The VTEX Marketplace Protocol External Seller Fulfillment API defines endpoints that external sellers must implement to receive and fulfill orders from VTEX marketplaces. It covers order notification,
+  name: VTEX Marketplace Protocol - External Seller Fulfillment API
   slug: vtex-marketplace-protocol-external-seller-fulfillment-api
-- description: The Vtex Marketplace Protocol External Seller Marketplace is a platform designed to facilitate transactions between external sellers and buyers within the Vtex ecosystem. It allows third-party sellers
-  name: Vtex Marketplace Protocol External Seller Marketplace API
+- description: The VTEX Marketplace Protocol External Seller Marketplace API defines the protocol for VTEX acting as a seller on external marketplaces. It enables VTEX stores to list products, receive orders, and se
+  name: VTEX Marketplace Protocol - External Seller Marketplace API
   slug: vtex-marketplace-protocol-external-seller-marketplace-api
-- description: Vtex Master Data is a powerful tool that helps businesses manage and consolidate their customer data across multiple channels and touchpoints. By centralizing all customer information in one location,
-  name: Vtex Master Data API
+- description: The VTEX Master Data API is a NoSQL document store built into the VTEX platform. It provides schema-flexible data entity management with CRUD operations, full-text search, and indexing. Used for stori
+  name: VTEX Master Data API
   slug: vtex-master-data-api
-- description: Vtex Message Center is a communication platform that allows businesses to streamline and enhance their customer interactions. Through the Message Center, companies can send personalized messages, noti
-  name: Vtex Message Center API
+- description: The VTEX Message Center API manages transactional email templates and message flows for VTEX stores. It handles email template management and message triggers for order confirmations, shipping notific
+  name: VTEX Message Center API
   slug: vtex-message-center-api
-- description: Vtex Orders is a comprehensive platform that enables businesses to manage and track their orders effectively. This tool allows users to easily receive, process, and fulfill incoming orders, ensuring a
-  name: Vtex Orders API
+- description: 'The VTEX Orders API provides comprehensive order management for VTEX stores. It enables listing, retrieving, filtering, and updating orders, managing order lifecycle events, processing cancellations, '
+  name: VTEX Orders API
   slug: vtex-orders-api
-- description: Vtex Orders Pii is a tool that helps businesses manage orders while also protecting sensitive customer information. With this platform, companies can efficiently process and track orders, ensuring tim
-  name: Vtex Orders Pii API
+- description: The VTEX Orders API PII variant supports VTEX stores using the PII data architecture where sensitive customer data is stored encrypted. It provides the same order management capabilities as the standa
+  name: VTEX Orders API - PII Data Architecture
   slug: vtex-orders-pii-api
-- description: Vtex Payment Provider Protocol is a platform that allows businesses to securely process payments through various payment providers. By using this protocol, businesses can easily integrate with multipl
-  name: Vtex Payment Provider Protocol API
+- description: The VTEX Payment Provider Protocol API defines the interface that payment providers must implement to integrate with VTEX checkout. It covers authorization, settlement, refund, and void operations, as
+  name: VTEX Payment Provider Protocol API
   slug: vtex-payment-provider-protocol-api
-- description: Vtex Payments Gateway is a payment processing solution that enables businesses to securely accept customer payments online. This platform allows merchants to seamlessly integrate various payment metho
-  name: Vtex Payments Gateway API
+- description: The VTEX Payments Gateway API provides access to the VTEX payment processing infrastructure. It handles payment transaction management, refunds, chargebacks, payment conditions, and anti-fraud integra
+  name: VTEX Payments Gateway API
   slug: vtex-payments-gateway-api
-- description: 'The Vtex Pick Pack Last Mile Protocol is a software solution designed to streamline and optimize the last mile delivery process for businesses. This protocol helps businesses efficiently manage their '
-  name: Vtex Pick Pack Last Mile Protocol API
+- description: The VTEX Pick and Pack Last Mile Protocol API defines the integration interface for last-mile delivery partners. It enables delivery providers to receive delivery requests, update status, report issue
+  name: VTEX Pick and Pack Last Mile Protocol API
   slug: vtex-pick-pack-last-mile-protocol-api
-- description: 'Vtex Policies System is a comprehensive platform that helps businesses design, implement, and maintain their internal policies and procedures. It streamlines the process of policy creation, approval, '
-  name: Vtex Policies System API
+- description: The VTEX Policies System API manages reusable policy rules that can be applied across the VTEX platform. Policies define conditional logic for promotions, pricing, catalog visibility, and checkout beh
+  name: VTEX Policies System API
   slug: vtex-policies-system-api
-- description: 'Vtex Pricing Hub is a pricing optimization tool that helps businesses set and adjust their prices to maximize profitability. By using advanced algorithms and real-time data analysis, Vtex Pricing Hub '
-  name: Vtex Pricing Hub API
+- description: The VTEX Pricing Hub API allows merchants to integrate external pricing engines with VTEX checkout. It defines the protocol for external price providers to receive pricing requests and return custom p
+  name: VTEX Pricing Hub API
   slug: vtex-pricing-hub-api
-- description: 'Vtex Pricing is a dynamic pricing tool that helps businesses optimize their pricing strategies in real-time. By using advanced algorithms and machine learning technology, Vtex Pricing analyzes market '
-  name: Vtex Pricing API
+- description: The VTEX Pricing API manages product pricing configurations for VTEX stores. It handles fixed prices, price tables, trade policies, cost prices, and price rule inheritance, enabling merchants to confi
+  name: VTEX Pricing API
   slug: vtex-pricing-api
-- description: Vtex Profile System is a powerful tool that allows businesses to create personalized experiences for their customers. By collecting data on customer preferences, behaviors, and shopping habits, the sy
-  name: Vtex Profile System API
+- description: The VTEX Profile System API manages customer profiles in VTEX stores using the PII data architecture. It provides CRUD operations for shopper profiles, addresses, and payment tokens with privacy-first
+  name: VTEX Profile System API - PII Data Architecture
   slug: vtex-profile-system-api
-- description: Vtex Promotions Taxes is a company that specializes in providing tax and promotion services for businesses of all sizes. They help clients navigate the complex world of tax laws and regulations, ensur
-  name: Vtex Promotions Taxes API
+- description: The VTEX Promotions and Taxes API manages discount campaigns, coupons, gift promotions, and tax configurations for VTEX stores. It supports creating and managing complex promotional rules including ca
+  name: VTEX Promotions and Taxes API
   slug: vtex-promotions-taxes-api
-- description: Vtex Reviews Ratings is a platform that allows customers to leave ratings and reviews for products and services they have purchased or used. These reviews are then aggregated and displayed on the webs
-  name: Vtex Reviews Ratings API
+- description: The VTEX Reviews and Ratings API manages customer product reviews and star ratings for VTEX stores. It provides endpoints for submitting, retrieving, approving, and moderating reviews, enabling social
+  name: VTEX Reviews and Ratings API
   slug: vtex-reviews-ratings-api
-- description: 'Vtex Sent Offers is a platform that helps businesses optimize their email marketing efforts by providing real-time data analysis and personalized recommendations. By utilizing advanced algorithms and '
-  name: Vtex Sent Offers API
+- description: The VTEX Sent Offers API manages product offers that VTEX sellers send to external marketplaces. It provides visibility into offer synchronization status, error tracking, feed management, and the hist
+  name: VTEX Sent Offers API
   slug: vtex-sent-offers-api
-- description: Vtex Sessions is a platform that offers a wide range of customer engagement solutions for online businesses. With features such as personalized recommendations, targeted messaging, and real-time analy
-  name: Vtex Sessions API
+- description: The VTEX Session Manager API maintains shopping session state across VTEX storefront interactions. Sessions store contextual information such as trade policy, region, campaign audiences, and price tab
+  name: VTEX Session Manager API
   slug: vtex-sessions-api
-- description: Vtex Shipping Network is a comprehensive logistics solution that allows businesses to streamline their shipping processes and improve customer satisfaction. By utilizing the network, businesses can ac
-  name: Vtex Shipping Network API
+- description: The VTEX Shipping Network API provides access to VTEX's carrier partnership network for shipping label generation and tracking. It enables merchants to create shipments, generate labels through VTEX's
+  name: VTEX Shipping Network API
   slug: vtex-shipping-network-api
-- description: Vtex SKU Bindings is a tool within the Vtex platform that allows users to manage and organize product variants effectively. By creating and assigning SKUs (stock keeping units) to different product at
-  name: Vtex Sku Bindings API
+- description: The VTEX SKU Bindings API manages the relationships between SKUs in a marketplace and their corresponding seller SKUs. It provides binding, unbinding, and querying operations for marketplace-seller SK
+  name: VTEX SKU Bindings API
   slug: vtex-sku-bindings-api
-- description: Vtex Subscriptions is a software solution that allows businesses to easily set up and manage subscription-based services for their customers. With Vtex Subscriptions, businesses can offer customers th
-  name: Vtex Subscriptions API
+- description: The VTEX Subscriptions API (v3) manages recurring purchase subscriptions for VTEX stores. It provides lifecycle management for subscription plans, subscriber management, subscription order scheduling,
+  name: VTEX Subscriptions API
   slug: vtex-subscriptions-api
-- description: 'Vtex Suggestions is a feature that analyzes customer behavior, preferences, and purchase history to provide personalized product recommendations. By using artificial intelligence and machine learning '
-  name: Vtex Suggestions API
+- description: The VTEX Suggestions API manages product suggestions from sellers to marketplace operators. It handles the proposal and approval workflow for sellers suggesting new products or modifications to existi
+  name: VTEX Suggestions API
   slug: vtex-suggestions-api
-- description: Vtex Tracking is a service that allows users to track their packages and shipments in real-time. By entering the tracking number provided by the sender, customers can access detailed information about
-  name: Vtex Tracking API
+- description: The VTEX Tracking API provides real-time package tracking capabilities for VTEX deliveries. It enables shipment registration, delivery status updates, carrier event ingestion, and last-mile tracking d
+  name: VTEX Tracking API
   slug: vtex-tracking-api
+capabilities:
+- description: Workflow capability for VTEX merchandising teams managing product catalogs. Combines catalog, promotions, and pricing capabilities for catalog managers, merchandisers, and content teams who create and
+  name: VTEX Catalog Management
+  slug: catalog-management
+- description: 'Workflow capability for VTEX financial and payment operations teams. Combines checkout, payments, and customer credit capabilities for finance teams, payment operations staff, and developers building '
+  name: VTEX Payment Processing
+  slug: payment-processing
+- description: Unified workflow capability for VTEX store operators managing day-to-day commerce operations. Combines order management, logistics, and catalog capabilities for fulfillment teams, merchandising manage
+  name: VTEX Store Operations
+  slug: store-operations
 common:
 - title: ''
   type: Portal
@@ -394,7 +416,7 @@ common:
   type: Guides
   url: https://developers.vtex.com/docs/guides
 - title: ''
-  type: Release Notes
+  type: ChangeLog
   url: https://developers.vtex.com/updates/release-notes
 - title: ''
   type: Support
@@ -403,80 +425,109 @@ common:
   type: Status
   url: https://status.vtex.com/
 - title: ''
-  type: Support Plan
-  url: https://help.vtex.com/faq/--3kACEfni4m8Yxa1vnf2ebe
-- title: ''
   type: Community
   url: https://community.vtex.com/s/
 - title: ''
-  type: Experts
-  url: https://help.vtex.com/en/support
-- title: ''
-  type: Github Org
+  type: GitHubOrg
   url: https://github.com/vtex-apps
 - title: ''
-  type: Portal
-  url: https://developers.vtex.com/
+  type: SDK
+  url: https://developers.vtex.com/docs/apps
 - title: ''
-  type: Portal
-  url: https://developers.vtex.com/
+  type: Partners
+  url: https://vtex.com/en-us/partners/
 - title: ''
-  type: Portal
-  url: https://developers.vtex.com/
+  type: Blog
+  url: https://vtex.com/en-us/blog/
 - title: ''
-  type: Portal
-  url: https://developers.vtex.com/
-created: API2024-06-07T00:00:00.000Z'
-description: VTex is an innovative company that specializes in providing e-commerce solutions for businesses looking to optimize their online operations. Their platform offers a range of tools and services designed to streamline the purchasing process, enhance customer experience, and increase sales growth. VTex helps clients to create responsive and efficient online stores, manage their inventory, process payments securely, and analyze data to make informed business decisions.
+  type: Support Plan
+  url: https://help.vtex.com/en/support
+- title: ''
+  type: SpectralRules
+  url: rules/vtex-rules.yml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/vtex-vocabulary.yml
+- title: ''
+  type: JSONLDContext
+  url: json-ld/vtex-context.jsonld
+- title: ''
+  type: NaftikoCapability
+  url: capabilities/store-operations.yaml
+- title: ''
+  type: NaftikoCapability
+  url: capabilities/catalog-management.yaml
+- title: ''
+  type: NaftikoCapability
+  url: capabilities/payment-processing.yaml
+created: '2024-06-07'
+description: VTEX is a global enterprise digital commerce platform that provides end-to-end solutions for businesses to create, manage, and scale their online stores. Founded in Brazil, VTEX serves thousands of merchants across 38 countries with capabilities spanning catalog management, checkout, payments, logistics, marketplace, promotions, search, and customer identity. The platform offers an extensive API ecosystem enabling headless commerce, composable architectures, and deep integrations with third-party tools and marketplaces.
 features: []
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 integrations: []
+jsonld:
+- class_count: 36
+  name: Vtex Context
+  property_count: 11
+  slug: vtex-context
 layout: provider
-modified: '2025-01-09'
-name: VTex
+modified: '2026-05-03'
+name: VTEX
+rules:
+- name: VTEX API Rules
+  rule_count: 10
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 5
+    warn: 5
+  slug: vtex-rules
 skills: []
 slug: vtex
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: vtex\nurl: \n  https://raw.githubusercontent.com/api-search/commerce/main/_apis/vtex/apis.md\napis:\n  - aid: vtex:vtex-anti-fraud-provider-api\n    name: Vtex Anti Fraud Provider API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://developers.vtex.com/docs/guides/how-the-integration-protocol-between-vtex-and-antifraud-companies-works\n    properties:\n      - url: openapi/vtex-anti-fraud-provider-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/docs/guides/how-the-integration-protocol-between-vtex-and-antifraud-companies-works\n        type: Documentation\n    description: >-\n      Vtex Anti Fraud Provider is a comprehensive service that helps businesses prevent\n      fraudulent activities and online payment scams. This platform utilizes advanced\n      technology and data analysis to detect\
-  \ suspicious transactions and identify\n      potential threats in real-time. By monitoring user behavior, IP addresses, and\n      other critical factors, Vtex Anti Fraud Provider is able to accurately assess\n      the risk level of each transaction and provide businesses with recommendations\n      on how to proceed.\n  - aid: vtex:vtex-buyer-organization-api\n    name: Vtex Buyer Organization API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://developers.vtex.com/docs/guides/bulk-import-buyer-organizations-spreadsheet\n    properties:\n      - url: openapi/vtex-buyer-organization-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/docs/guides/bulk-import-buyer-organizations-spreadsheet\n        type: Documentation\n    description: >-\n      Vtex Buyer Organization is a company that focuses on providing innovative\
-  \ solutions\n      for e-commerce businesses. They specialize in helping businesses streamline\n      their procurement processes and manage their relationships with suppliers more\n      effectively. Vtex Buyer Organization offers a range of tools and services to\n      help businesses improve their sourcing, purchasing, and supplier management\n      practices.\n  - aid: vtex:vtex-catalog-api-seller-portal-api\n    name: Vtex Catalog API Seller Portal API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: \n      https://developers.vtex.com/docs/guides/catalog-api-seller-portal-overview\n    properties:\n      - url: openapi/vtex-catalog-api-seller-portal-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/docs/guides/catalog-api-seller-portal-overview\n        type: Documentation\n    description: >-\n      The Vtex Catalog API\
-  \ Seller Portal is a platform designed to streamline the\n      process of managing product listings and inventory for sellers on the Vtex e-commerce\n      platform. Sellers can easily add, update, and delete products, as well as manage\n      pricing and inventory levels through a user-friendly interface. The portal allows\n      sellers to efficiently organize and categorize their products, making it easier\n      for customers to find what they are looking for.\n  - aid: vtex:vtex-catalog-api\n    name: Vtex Catalog API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/catalog-overview\n    properties:\n      - url: openapi/vtex-catalog-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/catalog-overview\n        type: Documentation\n    description: >-\n      Vtex Catalog is a comprehensive\
-  \ e-commerce platform that helps businesses manage\n      and showcase their products effectively. It provides a user-friendly interface\n      for creating, organizing, and optimizing product listings, allowing companies\n      to easily update and customize their online catalog. With Vtex Catalog, businesses\n      can effortlessly maintain their inventory, manage product attributes, and control\n      pricing and promotions.\n  - aid: vtex:vtex-checkout-api\n    name: Vtex Checkout API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/checkout-overview\n    properties:\n      - url: openapi/vtex-checkout-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/checkout-overview\n        type: Documentation\n    description: >-\n      Vtex Checkout is an advanced e-commerce platform that enables\
-  \ online retailers\n      to streamline the checkout process for their customers. With Vtex Checkout,\n      businesses can offer a seamless and secure online shopping experience, allowing\n      customers to easily add products to their cart, enter their payment information,\n      and complete their purchase quickly and efficiently.\n  - aid: vtex:vtex-customer-credit-api\n    name: Vtex Customer Credit API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://help.vtex.com/en/tutorial/customer-credit-overview--1uIqTjWxIIIEW0COMg4uE0\n    properties:\n      - url: openapi/vtex-customer-credit-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tutorial/customer-credit-overview--1uIqTjWxIIIEW0COMg4uE0\n        type: Documentation\n    description: >-\n      Vtex Customer Credit is a feature within the Vtex digital commerce\
-  \ platform\n      that allows businesses to manage and track customer credit information. With\n      this tool, businesses can easily set up credit terms for their customers, monitor\n      credit limits and balances, and automatically apply credit towards purchases.\n      This feature streamlines the credit approval process, making it easier for businesses\n      to offer credit options to their customers and improve their overall shopping\n      experience.\n  - aid: vtex:vtex-data-subject-rights-api\n    name: Vtex Data Subject Rights API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://help.vtex.com/en/tutorial/data-subject-rights--6imchxTx09icupKMbzHVIM\n    properties:\n      - url: openapi/vtex-data-subject-rights-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tutorial/data-subject-rights--6imchxTx09icupKMbzHVIM\n\
-  \        type: Documentation\n    description: >-\n      Vtex Data Subject Rights is a platform that allows individuals to exercise their\n      rights under data protection laws, such as the right to access, rectify, erase,\n      or restrict the processing of their personal data. This tool helps companies\n      manage and respond to data subject requests in a timely and efficient manner,\n      ensuring compliance with regulations and maintaining trust with customers.\n  - aid: vtex:vtex-do-api\n    name: Vtex Do API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/api-reference\n    properties:\n      - url: openapi/vtex-do-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/api-reference\n        type: Documentation\n    description: >-\n      Vtex is a leading global digital commerce platform that\
-  \ provides businesses\n      with innovative solutions to optimize their online sales and customer experience.\n      Vtex Do offers a wide range of services, including e-commerce software, customizable\n      website design, order management, and marketing tools to help businesses drive\n      growth and expand their online presence.\n  - aid: vtex:vtex-gift-card-hub-api\n    name: Vtex Gift Card Hub API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n    properties:\n      - url: openapi/vtex-gift-card-hub-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n        type: Documentation\n    description: >-\n      Vtex Gift Card Hub is a platform that enables businesses to easily create and\n      manage gift card programs. With Vtex Gift\
-  \ Card Hub, businesses can design custom\n      gift cards, set expiration dates, track redemptions, and analyze customer usage\n      data. This tool streamlines the gift card process for both merchants and customers,\n      providing a user-friendly experience that encourages repeat purchases and brand\n      loyalty.\n  - aid: vtex:vtex-gift-card-api\n    name: Vtex Gift Card API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n    properties:\n      - url: openapi/vtex-gift-card-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n        type: Documentation\n    description: >-\n      Vtex Gift Card is a convenient and versatile gift option that allows recipients\n      to choose their own products from a wide range of participating retailers.\
-  \ The\n      gift card can be used online or in-store, providing flexibility for the recipient\n      to shop at their convenience. Whether for a birthday, holiday, or special occasion,\n      Vtex Gift Card offers the perfect solution for giving a thoughtful and personalized\n      gift.\n  - aid: vtex:vtex-gift-card-provider-protocol-api\n    name: Vtex Gift Card Provider Protocol API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: \n      https://developers.vtex.com/docs/guides/gift-card-integration-guide\n    properties:\n      - url: openapi/vtex-gift-card-provider-protocol-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/gift-card-integration-guide\n        type: Documentation\n    description: >-\n      The Vtex Gift Card Provider Protocol is a system that allows businesses to easily\n      create and manage gift card\
-  \ programs for their customers. This protocol enables\n      businesses to issue and track gift cards in real-time, making it simple for\n      customers to purchase and redeem them online or in-store.\n  - aid: vtex:vtex-headless-cms-api\n    name: Vtex Headless Cms API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: \n      https://developers.vtex.com/docs/guides/faststore/headless-cms-overview\n    properties:\n      - url: openapi/vtex-headless-cms-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/docs/guides/faststore/headless-cms-overview\n        type: Documentation\n    description: >-\n      Vtex Headless CMS is a powerful content management system that allows businesses\n      to create, manage, and deliver digital content across multiple channels and\n      devices. It enables companies to easily publish and update\
-  \ content without having\n      to rely on developers, making it easier to keep their websites and apps up-to-date\n      and engaging for users.\n  - aid: vtex:vtex-id-api\n    name: Vtex Id API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/api-reference\n    properties:\n      - url: openapi/vtex-id-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/api-reference\n        type: Documentation\n    description: >-\n      Vtex ID is a platform that provides user authentication services for online\n      businesses. By utilizing Vtex ID, customers can securely log in to their accounts,\n      make purchases, and access personalized content on various websites. This tool\n      helps businesses streamline the user experience by allowing customers to easily\n      navigate through different online platforms\
-  \ without the need to create multiple\n      accounts.\n  - aid: vtex:vtex-intelligent-search-events-api\n    name: Vtex Intelligent Search Events API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3qgT47zY08biLP3d5os3DG\n    properties:\n      - url: openapi/vtex-intelligent-search-events-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3qgT47zY08biLP3d5os3DG\n        type: Documentation\n    description: >-\n      Vtex Intelligent Search Events is a platform that enables businesses to gather\n      real-time data on user search behavior and preferences. By tracking and analyzing\n      search queries, clicks, and engagements, the platform provides valuable insights\n      that help\
-  \ businesses optimize their search results and improve the overall customer\n      experience.\n  - aid: vtex:vtex-intelligent-search-api\n    name: Vtex Intelligent Search API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/apps/vtex.search@1.0.8\n    properties:\n      - url: openapi/vtex-intelligent-search-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/apps/vtex.search@1.0.8\n        type: Documentation\n    description: >-\n      Vtex Intelligent Search is an advanced search engine tool that utilizes artificial\n      intelligence and machine learning algorithms to provide users with highly relevant\n      and accurate search results. By analyzing user behavior, preferences, and past\n      interactions with the platform, Vtex Intelligent Search is able to understand\n      and predict what users\
-  \ are looking for, and present them with the most appropriate\n      results in real time.\n  - aid: vtex:vtex-legacy-cms-portal-api\n    name: Vtex Legacy Cms Portal API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://help.vtex.com/en/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/1oN446gRGcR2s70RvBCAmj\n    properties:\n      - url: openapi/vtex-legacy-cms-portal-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/1oN446gRGcR2s70RvBCAmj\n        type: Documentation\n    description: >-\n      Vtex Legacy Cms Portal is a platform that allows users to easily manage and\n      update content on their websites. It provides a user-friendly interface that\n      enables users to create, edit, and publish web pages without the need for technical\n      knowledge or expertise. The portal also offers\
-  \ a range of features such as customizable\n      templates, drag-and-drop functionality, and collaboration tools to streamline\n      the content creation process.\n  - aid: vtex:vtex-legacy-search-api\n    name: Vtex Legacy Search API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/search-overview\n    properties:\n      - url: openapi/vtex-legacy-search-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/search-overview\n        type: Documentation\n    description: >-\n      Vtex Legacy Search is a comprehensive search tool that helps businesses optimize\n      and enhance their e-commerce search functionalities. This platform enables users\n      to set up advanced search configurations, customize search results, and improve\n      overall search relevance for customers. With Vtex Legacy\
-  \ Search, businesses\n      can easily manage search facets, synonyms, and boosts to ensure that customers\n      are presented with accurate and relevant search results.\n  - aid: vtex:vtex-license-manager-api\n    name: Vtex License Manager API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3\n    properties:\n      - url: openapi/vtex-license-manager-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3\n        type: Documentation\n    description: >-\n      Sure! Vtex License Manager is a software tool that helps organizations manage\n      and track software licenses across their IT infrastructure. It allows users\n      to easily monitor license usage, ensure compliance with\
-  \ licensing agreements,\n      and optimize license distribution. With Vtex License Manager, IT teams can prevent\n      over-licensing or under-licensing of software, avoid costly penalties for non-compliance,\n      and streamline license procurement and renewal processes.\n  - aid: vtex:vtex-logistics-api\n    name: Vtex Logistics API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/fulfillment\n    properties:\n      - url: openapi/vtex-logistics-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/fulfillment\n        type: Documentation\n    description: >-\n      Vtex Logistics is a leading provider of end-to-end logistics and supply chain\n      solutions, specializing in helping businesses streamline their operations and\n      optimize their processes. From warehousing and distribution\
-  \ to transportation\n      management and order fulfillment, Vtex Logistics offers a comprehensive suite\n      of services to meet the unique needs of each client.\n  - aid: vtex:vtex-marketplace-api\n    name: Vtex Marketplace API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/marketplace-overview\n    properties:\n      - url: openapi/vtex-marketplace-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/marketplace-overview\n        type: Documentation\n    description: >-\n      Vtex Marketplace is an e-commerce platform that connects sellers, buyers, and\n      partners in a seamless and efficient way. It provides a comprehensive solution\n      for businesses looking to launch, manage, and scale their online marketplaces.\n      Vtex Marketplace offers a range of tools and features,\
-  \ including catalog management,\n      order processing, payment integration, and customer support.\n  - aid: vtex:vtex-marketplace-protocol-external-mapper-api\n    name: Vtex Marketplace Protocol External Mapper API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://developers.vtex.com/updates/release-notes/marketplace-protocol-documentation-update\n    properties:\n      - url: \n          openapi/vtex-marketplace-protocol-external-mapper-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/updates/release-notes/marketplace-protocol-documentation-update\n        type: Documentation\n    description: >-\n      The Vtex Marketplace Protocol External Mapper is a tool that allows sellers\n      to seamlessly integrate their external catalogs, inventory, and prices with\n      the Vtex platform. This mapping tool simplifies\
-  \ the process of connecting and\n      synchronizing data between the seller's existing systems and the Vtex Marketplace,\n      ensuring accurate and up-to-date product information for customers.\n  - aid: vtex:vtex-marketplace-protocol-external-orders-api\n    name: Vtex Marketplace Protocol External Orders API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://developers.vtex.com/docs/guides/external-marketplace-integration-guide\n    properties:\n      - url: \n          openapi/vtex-marketplace-protocol-external-orders-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/docs/guides/external-marketplace-integration-guide\n        type: Documentation\n    description: >-\n      Vtex Marketplace Protocol External Orders is a feature that allows vendors to\n      manage orders from external sources such as third-party\
-  \ marketplaces or platforms.\n      With this tool, vendors can easily synchronize and update their order information,\n      track shipment status, and manage returns and refunds. This feature streamlines\n      the process of managing orders from different sources, providing vendors with\n      a centralized platform to efficiently track and fulfill orders from multiple\n      channels.\n  - aid: vtex:vtex-marketplace-protocol-external-seller-fulfillment-api\n    name: Vtex Marketplace Protocol External Seller Fulfillment API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://developers.vtex.com/docs/guides/external-seller-integration-connector\n    properties:\n      - url: >2-\n\n          openapivtex-marketplace-protocol-external-seller-fulfillment-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/docs/guides/external-seller-integration-connector\n\
-  \        type: Documentation\n    description: >-\n      The Vtex Marketplace Protocol External Seller Fulfillment is a system that allows\n      external sellers on the Vtex Marketplace platform to fulfill orders directly\n      to customers. This service enables sellers to manage their own inventory, fulfill\n      orders in a timely manner, and provide tracking information to customers. By\n      utilizing this service, sellers have more control over their operations and\n      can ensure a seamless shopping experience for their customers.\n  - aid: vtex:vtex-marketplace-protocol-external-seller-marketplace-api\n    name: Vtex Marketplace Protocol External Seller Marketplace API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: \n      https://developers.vtex.com/docs/guides/external-seller-integration-guide\n    properties:\n      - url: >2-\n\n          openapivtex-marketplace-protocol-external-seller-marketplace-openapi-original.yml\n\
-  \        type: OpenAPI\n      - url: >-\n          https://developers.vtex.com/docs/guides/external-seller-integration-guide\n        type: Documentation\n    description: >-\n      The Vtex Marketplace Protocol External Seller Marketplace is a platform designed\n      to facilitate transactions between external sellers and buyers within the Vtex\n      ecosystem. It allows third-party sellers to list their products on the marketplace,\n      where customers can browse and make purchases. The protocol provides a secure\n      and efficient system for sellers to manage their inventory, prices, and orders,\n      while also providing buyers with a seamless shopping experience.\n  - aid: vtex:vtex-master-data-api\n    name: Vtex Master Data API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: \n      https://help.vtex.com/en/tutorial/master-data--4otjBnR27u4WUIciQsmkAw\n    properties:\n\
-  \      - url: openapi/vtex-master-data-openapi-original.yml\n        type: OpenAPI\n      - url: \n          https://help.vtex.com/en/tutorial/master-data--4otjBnR27u4WUIciQsmkAw\n        type: Documentation\n    description: >-\n      Vtex Master Data is a powerful tool that helps businesses manage and consolidate\n      their customer data across multiple channels and touchpoints. By centralizing\n      all customer information in one location, Vtex Master Data enables companies\n      to create a comprehensive, 360-degree view of their customers, allowing for\n      more personalized and targeted marketing campaigns.\n  - aid: vtex:vtex-message-center-api\n    name: Vtex Message Center API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://help.vtex.com/en/tutorial/understanding-the-message-center--tutorials_84\n    properties:\n      - url: openapi/vtex-message-center-openapi-original.yml\n\
-  \        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tutorial/understanding-the-message-center--tutorials_84\n        type: Documentation\n    description: >-\n      Vtex Message Center is a communication platform that allows businesses to streamline\n      and enhance their customer interactions. Through the Message Center, companies\n      can send personalized messages, notifications, and updates to their customers\n      across various channels such as email, SMS, and chat. This platform enables\n      businesses to engage with their customers in a timely and targeted manner, providing\n      a more personalized and seamless shopping experience.\n  - aid: vtex:vtex-orders-api\n    name: Vtex Orders API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/orders-overview\n    properties:\n      - url: openapi/vtex-orders-openapi-original.yml\n\
-  \        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/orders-overview\n        type: Documentation\n    description: >-\n      Vtex Orders is a comprehensive platform that enables businesses to manage and\n      track their orders effectively. This tool allows users to easily receive, process,\n      and fulfill incoming orders, ensuring a seamless flow of goods and services\n      to customers. With Vtex Orders, businesses can automate order processing tasks,\n      streamline inventory management, and improve overall operational efficiency.\n  - aid: vtex:vtex-orders-pii-api\n    name: Vtex Orders Pii API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://developers.vtex.com/docs/guides/changes-in-vtex-features-behavior-to-handle-pii-data\n    properties:\n      - url: openapi/vtex-orders-pii-openapi-original.yml\n        type: OpenAPI\n\
-  \      - url: >-\n          https://developers.vtex.com/docs/guides/changes-in-vtex-features-behavior-to-handle-pii-data\n        type: Documentation\n    description: >-\n      Vtex Orders Pii is a tool that helps businesses manage orders while also protecting\n      sensitive customer information. With this platform, companies can efficiently\n      process and track orders, ensuring timely delivery and customer satisfaction.\n      Additionally, Vtex Orders Pii helps businesses comply with data protection regulations\n      by securely handling personally identifiable information (PII) such as names,\n      addresses, and payment details.\n  - aid: vtex:vtex-payment-provider-protocol-api\n    name: Vtex Payment Provider Protocol API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: >-\n      https://help.vtex.com/en/tutorial/payment-provider-protocol--RdsT2spdq80MMwwOeEq0m\n\
-  \    properties:\n      - url: openapi/vtex-payment-provider-protocol-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tutorial/payment-provider-protocol--RdsT2spdq80MMwwOeEq0m\n        type: Documentation\n    description: >-\n      Vtex Payment Provider Protocol is a platform that allows businesses to securely\n      process payments through various payment providers. By using this protocol,\n      businesses can easily integrate with multiple payment providers, including credit\n      card processors and digital wallets, to offer customers a seamless and convenient\n      payment experience. The protocol also ensures that transactions are processed\n      quickly and securely, helping to increase customer trust and confidence in the\n      company.\n  - aid: vtex:vtex-payments-gateway-api\n    name: Vtex Payments Gateway API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n \
-  \   baseURL: https://api.example.com\n    humanURL: https://developers.vtex.com/docs/guides/payments-integration-guide\n    properties:\n      - url: openapi/vtex-payments-gateway-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/payments-integration-guide\n        type: Documentation\n    description: >-\n      Vtex Payments Gateway is a payment processing solution that enables businesses\n      to securely accept customer payments online. This platform allows merchants\n      to seamlessly integrate various payment methods, such as credit cards, debit\n      cards, and digital wallets, into their online stores, providing customers with\n      a convenient and secure checkout experience.\n  - aid: vtex:vtex-pick-pack-last-mile-protocol-api\n    name: Vtex Pick Pack Last Mile Protocol API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n   \
-  \ humanURL: >-\n      https://help.vtex.com/en/tutorial/vtex-pick-and-pack-last-mile--HN7WKV0xoq2ssVjsJlfzr\n    properties:\n      - url: openapi/vtex-pick-pack-last-mile-protocol-openapi-original.yml\n        type: OpenAPI\n      - url: >-\n          https://help.vtex.com/en/tutorial/vtex-pick-and-pack-last-mile--HN7WKV0xoq2ssVjsJlfzr\n        type: Documentation\n    description: >-\n      The Vtex Pick Pack Last Mile Protocol is a software solution designed to streamline\n      and optimize the last mile delivery process for businesses. This protocol helps\n      businesses efficiently manage their inventory, pick and pack orders, and coordinate\n      deliveries to ensure timely and accurate shipment of goods to customers. By\n      automating these crucial steps, the Vtex Pick Pack Last Mile Protocol helps\n      businesses reduce errors, cut costs, and improve customer satisfaction.\n  - aid: vtex:vtex-policies-system-api\n    name: Vtex Policies System API\n    tags: []\n    image:\
-  \ \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: \n      https://developers.vtex.com/docs/guides/vtex-io-documentation-policies\n    properties:\n      - url: openapi/vtex-policies-system-openapi-original.yml\n        type: OpenAPI\n      - url: \n          https://developers.vtex.com/docs/guides/vtex-io-documentation-policies\n        type: Documentation\n    description: >-\n      Vtex Policies System is a comprehensive platform that helps businesses design,\n      implement, and maintain their internal policies and procedures. It streamlines\n      the process of policy creation, approval, and dissemination, ensuring that all\n      employees are aware of and compliant with company guidelines. The system also\n      allows for easy updates and revisions to policies as needed, ensuring that businesses\n      can adapt to changing regulations and best practices.\n  - aid: vtex:vtex-pricing-hub-api\n\
-  \    name: Vtex Pricing Hub API\n    tags: []\n    image: \n      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: h\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/apis.yml\n"
+source_yaml: "aid: vtex\nurl: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/apis.yml\nname: VTEX\ndescription: >-\n  VTEX is a global enterprise digital commerce platform that provides end-to-end\n  solutions for businesses to create, manage, and scale their online stores. Founded\n  in Brazil, VTEX serves thousands of merchants across 38 countries with capabilities\n  spanning catalog management, checkout, payments, logistics, marketplace, promotions,\n  search, and customer identity. The platform offers an extensive API ecosystem enabling\n  headless commerce, composable architectures, and deep integrations with third-party\n  tools and marketplaces.\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Commerce\n  - E-Commerce\n  - Retail\n  - Marketplace\n  - Payments\ncreated: '2024-06-07'\nmodified: '2026-05-03'\nspecificationVersion: '0.19'\ntype: Contract\naccess: 3rd-Party\nposition: Consuming\napis:\n  - aid: vtex:vtex-anti-fraud-provider-api\n\
+  \    name: VTEX Anti-Fraud Provider API\n    description: >-\n      The VTEX Anti-Fraud Provider API defines the integration protocol between VTEX\n      and anti-fraud providers. It enables third-party anti-fraud services to connect\n      with the VTEX payment ecosystem, receive transaction data, assess fraud risk,\n      and return risk scores and recommendations in real time.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/how-the-integration-protocol-between-vtex-and-antifraud-companies-works\n    baseURL: https://{providerApiEndpoint}\n    tags:\n      - Anti-Fraud\n      - Fraud Prevention\n      - Payments\n      - Security\n    properties:\n      - url: openapi/vtex-anti-fraud-provider-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/how-the-integration-protocol-between-vtex-and-antifraud-companies-works\n        type: Documentation\n\n\
+  \  - aid: vtex:vtex-buyer-organization-api\n    name: VTEX Buyer Organization API\n    description: >-\n      The VTEX Buyer Organization API enables B2B commerce capabilities by allowing\n      businesses to manage buyer organizations, their members, roles, and cost centers.\n      It supports bulk import of buyer organizations and manages permissions for B2B\n      purchasing workflows.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/bulk-import-buyer-organizations-spreadsheet\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - B2B\n      - Commerce\n      - Organizations\n      - Purchasing\n    properties:\n      - url: openapi/vtex-buyer-organization-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/bulk-import-buyer-organizations-spreadsheet\n        type: Documentation\n\n  - aid: vtex:vtex-catalog-api-seller-portal\n\
+  \    name: VTEX Catalog API - Seller Portal\n    description: >-\n      The VTEX Catalog API for Seller Portal provides endpoints for sellers to manage\n      their product catalog within the VTEX seller portal experience. It enables product\n      creation, category mapping, attribute management, and SKU synchronization between\n      seller catalogs and marketplace catalogs.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/catalog-api-seller-portal-overview\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Catalog\n      - Commerce\n      - Marketplace\n      - Seller\n    properties:\n      - url: openapi/vtex-catalog-api-seller-portal-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/catalog-api-seller-portal-overview\n        type: Documentation\n\n  - aid: vtex:vtex-catalog-api\n    name: VTEX Catalog API\n    description:\
+  \ >-\n      The VTEX Catalog API provides comprehensive product catalog management for VTEX\n      stores. It covers categories, brands, products, SKUs, product specifications,\n      product images, product attachments, and collection management. This is the primary\n      API for building and maintaining product catalogs in VTEX.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/catalog-overview\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Catalog\n      - Commerce\n      - Products\n      - SKU\n    properties:\n      - url: openapi/vtex-catalog-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/catalog-overview\n        type: Documentation\n\n  - aid: vtex:vtex-checkout-api\n    name: VTEX Checkout API\n    description: >-\n      The VTEX Checkout API manages the complete checkout lifecycle for VTEX stores.\n    \
+  \  It handles cart management, order simulation, address validation, payment selection,\n      order placement, and cart attachment operations. This API is central to the purchase\n      flow in any VTEX storefront.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/checkout-overview\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Cart\n      - Checkout\n      - Commerce\n      - Orders\n    properties:\n      - url: openapi/vtex-checkout-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/checkout-overview\n        type: Documentation\n\n  - aid: vtex:vtex-customer-credit-api\n    name: VTEX Customer Credit API\n    description: >-\n      The VTEX Customer Credit API manages credit lines for B2B and B2C customers.\n      It enables merchants to create credit accounts, set credit limits, track outstanding\n      balances,\
+  \ open and close invoices, and manage credit terms. Useful for businesses\n      that extend net-terms or credit facilities to their buyers.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tutorial/customer-credit-overview--1uIqTjWxIIIEW0COMg4uE0\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - B2B\n      - Commerce\n      - Credit\n      - Finance\n    properties:\n      - url: openapi/vtex-customer-credit-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tutorial/customer-credit-overview--1uIqTjWxIIIEW0COMg4uE0\n        type: Documentation\n\n  - aid: vtex:vtex-data-subject-rights-api\n    name: VTEX Data Subject Rights API\n    description: >-\n      The VTEX Data Subject Rights API enables GDPR and LGPD compliance by allowing\n      organizations to process data subject requests. It supports the right to access,\n      rectify, erase, and restrict\
+  \ processing of personal data stored in VTEX systems.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tutorial/data-subject-rights--6imchxTx09icupKMbzHVIM\n    baseURL: https://api.vtex.com\n    tags:\n      - Compliance\n      - Data Privacy\n      - GDPR\n      - Privacy\n    properties:\n      - url: openapi/vtex-data-subject-rights-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tutorial/data-subject-rights--6imchxTx09icupKMbzHVIM\n        type: Documentation\n\n  - aid: vtex:vtex-do-api\n    name: VTEX DO API\n    description: >-\n      The VTEX DO API provides task and note management capabilities for VTEX store\n      operators. It allows creating, updating, listing, and deleting tasks and notes\n      associated with orders and other store objects, enabling internal operational\n      workflows.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
+  \    humanURL: https://developers.vtex.com/docs/api-reference/do-api\n    baseURL: https://{accountName}.{environment}.com.br/api/do\n    tags:\n      - Commerce\n      - Operations\n      - Tasks\n      - Workflow\n    properties:\n      - url: openapi/vtex-do-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/api-reference/do-api\n        type: Documentation\n\n  - aid: vtex:vtex-gift-card-hub-api\n    name: VTEX Gift Card Hub API\n    description: >-\n      The VTEX Gift Card Hub API provides a central integration point for managing\n      gift card providers on the VTEX platform. It enables merchants to list, activate,\n      and deactivate gift card providers, and process gift card transactions through\n      a unified interface.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n    baseURL: https://{accountName}.{environment}.com.br\n\
+  \    tags:\n      - Commerce\n      - Gift Cards\n      - Payments\n      - Promotions\n    properties:\n      - url: openapi/vtex-gift-card-hub-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n        type: Documentation\n\n  - aid: vtex:vtex-gift-card-api\n    name: VTEX Gift Card API\n    description: >-\n      The VTEX Gift Card API manages the lifecycle of gift cards within the VTEX native\n      gift card provider. It supports creating, redeeming, crediting, debiting, and\n      canceling gift card transactions, as well as listing and retrieving gift card\n      information.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n    baseURL: https://{accountName}.{environment}.com.br/api/\n    tags:\n      - Commerce\n      - Gift Cards\n      - Payments\n      - Promotions\n    properties:\n  \
+  \    - url: openapi/vtex-gift-card-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/managing-vtex-gift-cards\n        type: Documentation\n\n  - aid: vtex:vtex-gift-card-provider-protocol-api\n    name: VTEX Gift Card Provider Protocol API\n    description: >-\n      The VTEX Gift Card Provider Protocol defines the interface for integrating external\n      gift card providers with VTEX. It specifies the endpoints external providers\n      must implement to handle gift card transactions, balance checks, and redemption\n      flows within VTEX checkout.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/gift-card-integration-guide\n    baseURL: https://{providerApiEndpoint}\n    tags:\n      - Commerce\n      - Gift Cards\n      - Integration\n      - Payments\n    properties:\n      - url: openapi/vtex-gift-card-provider-protocol-openapi-original.yml\n\
+  \        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/gift-card-integration-guide\n        type: Documentation\n\n  - aid: vtex:vtex-headless-cms-api\n    name: VTEX Headless CMS API\n    description: >-\n      The VTEX Headless CMS API provides content management capabilities for FastStore\n      and headless VTEX storefronts. It enables managing CMS pages, sections, content\n      types, and building blocks that compose headless commerce experiences.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/faststore/headless-cms-overview\n    baseURL: https://{accountName}.myvtex.com\n    tags:\n      - CMS\n      - Commerce\n      - Content Management\n      - Headless\n    properties:\n      - url: openapi/vtex-headless-cms-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/faststore/headless-cms-overview\n        type: Documentation\n\
+  \n  - aid: vtex:vtex-id-api\n    name: VTEX ID API\n    description: >-\n      The VTEX ID API provides authentication and identity management for VTEX stores.\n      It handles user login, token generation, authentication renewal, and password\n      management for customers, store operators, and API integrations.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/api-reference/vtex-id-api\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Authentication\n      - Commerce\n      - Identity\n      - Security\n    properties:\n      - url: openapi/vtex-id-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/api-reference/vtex-id-api\n        type: Documentation\n\n  - aid: vtex:vtex-intelligent-search-events-api\n    name: VTEX Intelligent Search Events API\n    description: >-\n      The VTEX Intelligent Search Events API captures behavioral\
+  \ signals from shoppers\n      to improve search relevance. It collects events such as search queries, product\n      clicks, and purchase completions to feed the machine learning models powering\n      VTEX Intelligent Search.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3qgT47zY08biLP3d5os3DG\n    baseURL: https://sp.vtex.com/event-api/v1/{accountName}\n    tags:\n      - Analytics\n      - Commerce\n      - Events\n      - Search\n    properties:\n      - url: openapi/vtex-intelligent-search-events-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tracks/vtex-intelligent-search--19wrbB7nEQcmwzDPl1l4Cb/3qgT47zY08biLP3d5os3DG\n        type: Documentation\n\n  - aid: vtex:vtex-intelligent-search-api\n    name: VTEX Intelligent Search API\n    description: >-\n      The VTEX Intelligent Search API delivers AI-powered search\
+  \ and product discovery\n      features for VTEX storefronts. It provides product search with faceted filtering,\n      autocomplete suggestions, banners, product recommendations, and spelling correction\n      powered by machine learning.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/apps/vtex.search@1.0.8\n    baseURL: https://{accountName}.{environment}.com.br/api/io/_v/api/intelligent-search\n    tags:\n      - AI\n      - Commerce\n      - Product Discovery\n      - Search\n    properties:\n      - url: openapi/vtex-intelligent-search-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/apps/vtex.search@1.0.8\n        type: Documentation\n\n  - aid: vtex:vtex-legacy-cms-portal-api\n    name: VTEX Legacy CMS Portal API\n    description: >-\n      The VTEX Legacy CMS Portal API provides access to the classic VTEX CMS system\n      used in traditional VTEX stores.\
+  \ It enables managing HTML templates, site structure,\n      shelves, and custom pages within the legacy CMS portal.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/1oN446gRGcR2s70RvBCAmj\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - CMS\n      - Commerce\n      - Content Management\n      - Legacy\n    properties:\n      - url: openapi/vtex-legacy-cms-portal-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tracks/cms--2YcpgIljVaLVQYMzxQbc3z/1oN446gRGcR2s70RvBCAmj\n        type: Documentation\n\n  - aid: vtex:vtex-legacy-search-api\n    name: VTEX Legacy Search API\n    description: >-\n      The VTEX Legacy Search API supports product search and discovery for traditional\n      VTEX storefronts not yet migrated to Intelligent Search. It provides catalog\n      browsing, text search, faceted filtering, category\
+  \ navigation, and product listing\n      page capabilities.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/search-overview\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Catalog\n      - Commerce\n      - Legacy\n      - Search\n    properties:\n      - url: openapi/vtex-legacy-search-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/search-overview\n        type: Documentation\n\n  - aid: vtex:vtex-license-manager-api\n    name: VTEX License Manager API\n    description: >-\n      The VTEX License Manager API manages access control and permissions within the\n      VTEX platform. It handles user accounts, roles, resources, app permissions, and\n      account access tokens, serving as the primary authorization layer for VTEX\n      administrative operations.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
+  \    humanURL: https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Access Control\n      - Authorization\n      - Commerce\n      - Permissions\n    properties:\n      - url: openapi/vtex-license-manager-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tutorial/license-manager-resources--3q6ztrC8YynQf6rdc6euk3\n        type: Documentation\n\n  - aid: vtex:vtex-logistics-api\n    name: VTEX Logistics API\n    description: >-\n      The VTEX Logistics API manages the complete fulfillment infrastructure for VTEX\n      stores. It covers warehouses, inventory management, shipping carriers, freight\n      calculations, pickup points, geolocation zones, scheduled delivery windows, and\n      dock management to support complex omnichannel fulfillment scenarios.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n   \
+  \ humanURL: https://developers.vtex.com/docs/guides/fulfillment\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Commerce\n      - Fulfillment\n      - Inventory\n      - Logistics\n    properties:\n      - url: openapi/vtex-logistics-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/fulfillment\n        type: Documentation\n\n  - aid: vtex:vtex-marketplace-api\n    name: VTEX Marketplace API\n    description: >-\n      The VTEX Marketplace API manages the relationships and operations between VTEX\n      marketplaces and their sellers. It supports seller onboarding, offer management,\n      seller portal access, and the coordination of catalog and order flows between\n      marketplace operators and their sellers.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/marketplace-overview\n    baseURL: https://{accountName}.{environment}.com.br/api\n\
+  \    tags:\n      - Commerce\n      - Marketplace\n      - Multi-Seller\n      - Retail\n    properties:\n      - url: openapi/vtex-marketplace-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/marketplace-overview\n        type: Documentation\n\n  - aid: vtex:vtex-marketplace-protocol-external-mapper-api\n    name: VTEX Marketplace Protocol - External Mapper API\n    description: >-\n      The VTEX Marketplace Protocol External Mapper API defines the catalog mapping\n      protocol for external marketplace connectors. It enables synchronization of product\n      categories, brands, and specifications between external marketplace catalogs and\n      the VTEX catalog.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/updates/release-notes/marketplace-protocol-documentation-update\n    baseURL: https://portal.{environment}.com.br\n    tags:\n      - Catalog\n  \
+  \    - Integration\n      - Marketplace\n      - Protocol\n    properties:\n      - url: openapi/vtex-marketplace-protocol-external-mapper-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/updates/release-notes/marketplace-protocol-documentation-update\n        type: Documentation\n\n  - aid: vtex:vtex-marketplace-protocol-external-orders-api\n    name: VTEX Marketplace Protocol - External Orders API\n    description: >-\n      The VTEX Marketplace Protocol External Orders API defines the order flow protocol\n      for external marketplace integrations. It specifies how external marketplaces\n      send orders to VTEX sellers, handle order status updates, and manage cancellations.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/external-marketplace-integration-guide\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Integration\n  \
+  \    - Marketplace\n      - Orders\n      - Protocol\n    properties:\n      - url: openapi/vtex-marketplace-protocol-external-orders-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/external-marketplace-integration-guide\n        type: Documentation\n\n  - aid: vtex:vtex-marketplace-protocol-external-seller-fulfillment-api\n    name: VTEX Marketplace Protocol - External Seller Fulfillment API\n    description: >-\n      The VTEX Marketplace Protocol External Seller Fulfillment API defines endpoints\n      that external sellers must implement to receive and fulfill orders from VTEX\n      marketplaces. It covers order notification, fulfillment status updates, and\n      delivery tracking callbacks.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/external-seller-integration-connector\n    baseURL: https://{fulfillmentEndpoint}\n    tags:\n      -\
+  \ Fulfillment\n      - Integration\n      - Marketplace\n      - Seller\n    properties:\n      - url: openapi/vtex-marketplace-protocol-external-seller-fulfillment-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/external-seller-integration-connector\n        type: Documentation\n\n  - aid: vtex:vtex-marketplace-protocol-external-seller-marketplace-api\n    name: VTEX Marketplace Protocol - External Seller Marketplace API\n    description: >-\n      The VTEX Marketplace Protocol External Seller Marketplace API defines the protocol\n      for VTEX acting as a seller on external marketplaces. It enables VTEX stores\n      to list products, receive orders, and send fulfillment updates to external marketplace\n      platforms.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/external-seller-integration-guide\n    baseURL: https://{marketplaceServicesEndpoint}\n\
+  \    tags:\n      - Integration\n      - Marketplace\n      - Protocol\n      - Seller\n    properties:\n      - url: openapi/vtex-marketplace-protocol-external-seller-marketplace-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/external-seller-integration-guide\n        type: Documentation\n\n  - aid: vtex:vtex-master-data-api\n    name: VTEX Master Data API\n    description: >-\n      The VTEX Master Data API is a NoSQL document store built into the VTEX platform.\n      It provides schema-flexible data entity management with CRUD operations, full-text\n      search, and indexing. Used for storing customer profiles, wishlists, subscriptions,\n      and custom business data.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tutorial/master-data--4otjBnR27u4WUIciQsmkAw\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Commerce\n      -\
+  \ Customer Data\n      - Data Management\n      - NoSQL\n    properties:\n      - url: openapi/vtex-master-data-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tutorial/master-data--4otjBnR27u4WUIciQsmkAw\n        type: Documentation\n\n  - aid: vtex:vtex-message-center-api\n    name: VTEX Message Center API\n    description: >-\n      The VTEX Message Center API manages transactional email templates and message\n      flows for VTEX stores. It handles email template management and message triggers\n      for order confirmations, shipping notifications, and other transactional\n      communications.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tutorial/understanding-the-message-center--tutorials_84\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Commerce\n      - Email\n      - Messaging\n      - Notifications\n    properties:\n      - url: openapi/vtex-message-center-openapi-original.yml\n\
+  \        type: OpenAPI\n      - url: https://help.vtex.com/en/tutorial/understanding-the-message-center--tutorials_84\n        type: Documentation\n\n  - aid: vtex:vtex-orders-api\n    name: VTEX Orders API\n    description: >-\n      The VTEX Orders API provides comprehensive order management for VTEX stores.\n      It enables listing, retrieving, filtering, and updating orders, managing order\n      lifecycle events, processing cancellations, handling returns, and generating\n      order invoices. This API is the backbone of post-purchase operations.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/orders-overview\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Commerce\n      - Fulfillment\n      - Order Management\n      - Orders\n    properties:\n      - url: openapi/vtex-orders-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/orders-overview\n\
+  \        type: Documentation\n\n  - aid: vtex:vtex-orders-pii-api\n    name: VTEX Orders API - PII Data Architecture\n    description: >-\n      The VTEX Orders API PII variant supports VTEX stores using the PII data architecture\n      where sensitive customer data is stored encrypted. It provides the same order\n      management capabilities as the standard Orders API but with PII-compliant data\n      handling for GDPR and LGPD requirements.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/changes-in-vtex-features-behavior-to-handle-pii-data\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Commerce\n      - Data Privacy\n      - Orders\n      - PII\n    properties:\n      - url: openapi/vtex-orders-pii-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/changes-in-vtex-features-behavior-to-handle-pii-data\n        type:\
+  \ Documentation\n\n  - aid: vtex:vtex-payment-provider-protocol-api\n    name: VTEX Payment Provider Protocol API\n    description: >-\n      The VTEX Payment Provider Protocol API defines the interface that payment providers\n      must implement to integrate with VTEX checkout. It covers authorization, settlement,\n      refund, and void operations, as well as payment method discovery and 3DS\n      authentication flows.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tutorial/payment-provider-protocol--RdsT2spdq80MMwwOeEq0m\n    baseURL: https://{providerApiEndpoint}\n    tags:\n      - Commerce\n      - Fintech\n      - Payments\n      - Protocol\n    properties:\n      - url: openapi/vtex-payment-provider-protocol-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tutorial/payment-provider-protocol--RdsT2spdq80MMwwOeEq0m\n        type: Documentation\n\n  - aid: vtex:vtex-payments-gateway-api\n\
+  \    name: VTEX Payments Gateway API\n    description: >-\n      The VTEX Payments Gateway API provides access to the VTEX payment processing\n      infrastructure. It handles payment transaction management, refunds, chargebacks,\n      payment conditions, and anti-fraud integration for payments processed through\n      VTEX stores.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/payments-integration-guide\n    baseURL: https://{accountName}.vtexpayments.com.br\n    tags:\n      - Commerce\n      - Fintech\n      - Payments\n      - Transactions\n    properties:\n      - url: openapi/vtex-payments-gateway-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/payments-integration-guide\n        type: Documentation\n\n  - aid: vtex:vtex-pick-pack-last-mile-protocol-api\n    name: VTEX Pick and Pack Last Mile Protocol API\n    description: >-\n      The\
+  \ VTEX Pick and Pack Last Mile Protocol API defines the integration interface\n      for last-mile delivery partners. It enables delivery providers to receive delivery\n      requests, update status, report issues, and manage delivery tracking for the\n      VTEX Pick and Pack fulfillment solution.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://help.vtex.com/en/tutorial/vtex-pick-and-pack-last-mile--HN7WKV0xoq2ssVjsJlfzr\n    baseURL: https://auth.pickingnpacking.com/{environment}\n    tags:\n      - Commerce\n      - Delivery\n      - Logistics\n      - Last Mile\n    properties:\n      - url: openapi/vtex-pick-pack-last-mile-protocol-openapi-original.yml\n        type: OpenAPI\n      - url: https://help.vtex.com/en/tutorial/vtex-pick-and-pack-last-mile--HN7WKV0xoq2ssVjsJlfzr\n        type: Documentation\n\n  - aid: vtex:vtex-policies-system-api\n    name: VTEX Policies System API\n    description: >-\n      The VTEX Policies\
+  \ System API manages reusable policy rules that can be applied\n      across the VTEX platform. Policies define conditional logic for promotions,\n      pricing, catalog visibility, and checkout behaviors, enabling merchants to create\n      flexible rule-based configurations.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/vtex-io-documentation-policies\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Commerce\n      - Configuration\n      - Policies\n      - Rules\n    properties:\n      - url: openapi/vtex-policies-system-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/vtex-io-documentation-policies\n        type: Documentation\n\n  - aid: vtex:vtex-pricing-hub-api\n    name: VTEX Pricing Hub API\n    description: >-\n      The VTEX Pricing Hub API allows merchants to integrate external pricing engines\n      with\
+  \ VTEX checkout. It defines the protocol for external price providers to\n      receive pricing requests and return custom prices during the checkout simulation\n      process.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/pricing-hub\n    baseURL: https://prchub.{environment}.com.br\n    tags:\n      - Commerce\n      - Integration\n      - Pricing\n      - Protocol\n    properties:\n      - url: openapi/vtex-pricing-hub-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/pricing-hub\n        type: Documentation\n\n  - aid: vtex:vtex-pricing-api\n    name: VTEX Pricing API\n    description: >-\n      The VTEX Pricing API manages product pricing configurations for VTEX stores.\n      It handles fixed prices, price tables, trade policies, cost prices, and price\n      rule inheritance, enabling merchants to configure complex pricing scenarios\n  \
+  \    across different customer segments and trade policies.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.vtex.com/docs/guides/pricing-overview\n    baseURL: https://api.vtex.com/{accountName}\n    tags:\n      - Commerce\n      - Pricing\n      - Retail\n      - Trade Policy\n    properties:\n      - url: openapi/vtex-pricing-openapi-original.yml\n        type: OpenAPI\n      - url: https://developers.vtex.com/docs/guides/pricing-overview\n        type: Documentation\n\n  - aid: vtex:vtex-profile-system-api\n    name: VTEX Profile System API - PII Data Architecture\n    description: >-\n      The VTEX Profile System API manages customer profiles in VTEX stores using the\n      PII data architecture. It provides CRUD operations for shopper profiles, addresses,\n      and payment tokens with privacy-first design that stores sensitive data encrypted\n      and separate from other store data.\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
+  \    humanURL: https://developers.vtex.com/docs/guides/profile-system\n    baseURL: https://{accountName}.{environment}.com.br\n    tags:\n      - Commerce\n      - Customer Profiles\n      - Data Privacy\n      - PII\n    properties:\n \n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/apis.yml
 tags:
-- Brands
+- Commerce
+- E-Commerce
 - Retail
-url: https://raw.githubusercontent.com/api-search/commerce/main/_apis/vtex/apis.md
+- Marketplace
+- Payments
+url: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/apis.yml
 use_cases: []
 ---

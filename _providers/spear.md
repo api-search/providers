@@ -1,34 +1,39 @@
 ---
 api_count: 1
-api_specs:
-- filename: openapi.json
-  format: json
-  label: Spear Core API
-  slug: ''
-  spec_type: OpenAPI
-  url: https://api.spear.dev/v1/openapi.json
 apis:
-- description: Main API for managing workspaces, projects, and API collections.
-  name: Spear Core API
-  slug: ''
-common: []
-created: '2024'
-description: Spear is a collaborative platform for API development, testing, and documentation.
+- description: Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery through a unified workspace experience.
+  name: Spear
+  slug: spear
+common:
+- title: ''
+  type: Website
+  url: https://spear.dev
+created: '2024-01-01'
+description: Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery. The platform enables teams to build, test, and ship APIs faster through a unified workspace experience.
 features: []
-image: https://spear.dev/images/logo.png
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 integrations: []
+jsonld:
+- class_count: 3
+  name: Spear Context
+  property_count: 10
+  slug: spear-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-02'
 name: Spear
 skills: []
 slug: spear
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "name: Spear\ndescription: >-\n  Spear is a collaborative platform for API development, testing, and documentation.\nimage: https://spear.dev/images/logo.png\nurl: https://spear.dev\ncreated: '2024'\nmodified: '2026-03-16'\napis:\n  - name: Spear Core API\n    description: >-\n      Main API for managing workspaces, projects, and API collections.\n    image: https://spear.dev/images/api-icon.png\n    humanURL: https://spear.dev/docs\n    baseURL: https://api.spear.dev/v1\n    tags:\n      - API Development\n      - Collaboration\n      - Documentation\n      - Testing\n    properties:\n      - type: Documentation\n        url: https://docs.spear.dev/api\n      - type: OpenAPI\n        url: https://api.spear.dev/v1/openapi.json\n      - type: Authentication\n        url: https://docs.spear.dev/authentication\n      - type: Postman Collection\n        url: https://api.spear.dev/v1/postman-collection.json\n      - type: SDKs\n        url: https://docs.spear.dev/sdks\n      - type:\
-  \ Status Page\n        url: https://status.spear.dev\n      - type: Rate Limits\n        url: https://docs.spear.dev/rate-limits\n      - type: Changelog\n        url: https://spear.dev/changelog\n      - type: Pricing\n        url: https://spear.dev/pricing\n      - type: Terms of Service\n        url: https://spear.dev/terms\n      - type: Privacy Policy\n        url: https://spear.dev/privacy\n    contact:\n      - type: Support\n        url: https://spear.dev/support\n      - type: Email\n        url: mailto:support@spear.dev\n      - type: Twitter\n        url: https://twitter.com/speardev\n      - type: GitHub\n        url: https://github.com/spear-dev\nmaintainers:\n  - name: Spear Team\n    email: api@spear.dev\n    url: https://spear.dev/team\ninclude: []\n"
+source_yaml: "aid: spear\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/spear/refs/heads/main/apis.yml\nname: Spear\ndescription: >-\n  Spear is a developer platform focused on API development workflows, providing\n  tools for API design, collaboration, and delivery. The platform enables teams\n  to build, test, and ship APIs faster through a unified workspace experience.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ntags:\n  - API Development\n  - Collaboration\n  - Developer Tools\n  - Platform\ncreated: '2024-01-01'\nmodified: '2026-05-02'\nposition: Consumer\nsegments:\n  - Developer Tools\n  - API Development\napis:\n  - aid: spear:spear\n    name: Spear\n    tags:\n      - API Development\n      - Collaboration\n      - Developer Tools\n      - Platform\n    humanURL: https://spear.dev\n    properties:\n      - url: https://spear.dev\n        type: Website\n    description: >-\n      Spear is a developer\
+  \ platform focused on API development workflows,\n      providing tools for API design, collaboration, and delivery through\n      a unified workspace experience.\ncommon:\n  - url: https://spear.dev\n    name: Website | Spear\n    type: Website\n    description: 'null'\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spear/refs/heads/main/apis.yml
-tags: []
-url: https://spear.dev
+tags:
+- API Development
+- Collaboration
+- Developer Tools
+- Platform
+url: https://raw.githubusercontent.com/api-evangelist/spear/refs/heads/main/apis.yml
 use_cases: []
 ---

@@ -123,6 +123,16 @@ asyncapis:
 - description: Event-driven architecture for Temenos banking platform providing asynchronous integration through business and system events published to Apache Kafka topics. Enables loose coupling of Packaged Busine
   name: Temenos Banking Events
   slug: temenos-events-asyncapi
+capabilities:
+- description: Compliance and financial crime management workflow combining Financial Crime Mitigation and core Transact APIs. Used by compliance officers, AML analysts, and risk teams to screen customers, monitor t
+  name: Temenos Compliance And Risk
+  slug: compliance-and-risk
+- description: Unified core banking workflow combining Transact and Payments APIs for account management, customer operations, and payment processing. Used by retail and corporate banking teams to manage the complet
+  name: Temenos Core Banking
+  slug: core-banking
+- description: Integrated wealth management workflow combining the Temenos Wealth API and Transact API for portfolio management, securities trading, and client banking. Used by wealth managers and private bankers to
+  name: Temenos Wealth Management
+  slug: wealth-management
 common:
 - title: ''
   type: Developer Portal
@@ -223,6 +233,30 @@ common:
 - title: ''
   type: JSONSchema
   url: json-schema/temenos-event-schema.json
+- title: ''
+  type: JSONStructure
+  url: json-structure/temenos-account-structure.json
+- title: ''
+  type: JSONStructure
+  url: json-structure/temenos-payment-order-structure.json
+- title: ''
+  type: JSONStructure
+  url: json-structure/temenos-customer-structure.json
+- title: ''
+  type: SpectralRules
+  url: rules/temenos-rules.yml
+- title: ''
+  type: NaftikoCapabilities
+  url: capabilities/core-banking.yaml
+- title: ''
+  type: NaftikoCapabilities
+  url: capabilities/compliance-and-risk.yaml
+- title: ''
+  type: NaftikoCapabilities
+  url: capabilities/wealth-management.yaml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/temenos-vocabulary.yml
 created: '2024'
 description: APIs for Temenos banking and financial services platform, providing cloud-native, cloud-agnostic, API-first banking solutions including core banking, digital banking, payments, wealth management, financial crime mitigation, and more.
 features: []
@@ -234,14 +268,23 @@ jsonld:
   property_count: 9
   slug: temenos-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-03'
 name: Temenos
+rules:
+- name: Temenos API Rules
+  rule_count: 14
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 2
+    warn: 10
+  slug: temenos-rules
 skills: []
 slug: temenos
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "name: Temenos\ndescription: APIs for Temenos banking and financial services platform, providing cloud-native, cloud-agnostic, API-first banking solutions including core banking, digital banking, payments, wealth management, financial crime mitigation, and more.\nimage: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\nurl: https://www.temenos.com\ncreated: '2024'\nmodified: '2026-03-16'\nspecificationVersion: '0.18'\napis:\n  - name: Temenos Transact API\n    description: Core banking system API for managing accounts, transactions, and customer data. Covers enterprise, holdings, meta, order, party, product, reference, settings, and system API categories with over 290 endpoints spanning retail, corporate, wealth, treasury, and Islamic banking.\n    image: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\n    humanURL: https://www.temenos.com/products/core-banking/\n    baseURL: https://api.temenos.com/transact\n    tags:\n      - Accounts\n\
+source_yaml: "name: Temenos\ndescription: APIs for Temenos banking and financial services platform, providing cloud-native, cloud-agnostic, API-first banking solutions including core banking, digital banking, payments, wealth management, financial crime mitigation, and more.\nimage: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\nurl: https://www.temenos.com\ncreated: '2024'\nmodified: '2026-05-03'\nspecificationVersion: '0.18'\napis:\n  - name: Temenos Transact API\n    description: Core banking system API for managing accounts, transactions, and customer data. Covers enterprise, holdings, meta, order, party, product, reference, settings, and system API categories with over 290 endpoints spanning retail, corporate, wealth, treasury, and Islamic banking.\n    image: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\n    humanURL: https://www.temenos.com/products/core-banking/\n    baseURL: https://api.temenos.com/transact\n    tags:\n      - Accounts\n\
   \      - Banking\n      - Core Banking\n      - Deposits\n      - Loans\n      - Transactions\n      - Treasury\n    properties:\n      - type: Documentation\n        url: https://developer.temenos.com/transact-apis\n      - type: OpenAPI\n        url: https://developer.temenos.com/transact/openapi.json\n      - type: Authentication\n        url: https://developer.temenos.com/transact/authentication\n      - type: SDKs\n        url: https://developer.temenos.com/transact/sdks\n      - type: GettingStarted\n        url: https://developer.temenos.com/article/sandbox-quick-guide\n      - type: PostmanCollection\n        url: https://www.postman.com/temenos-devex/temenos-essential-apis/collection/sd6uv6m/temenos-essential-apis\n      - type: OpenAPI\n        url: openapi/temenos-transact-openapi.yml\n  - name: Temenos Infinity API\n    description: Digital banking platform API for omnichannel customer experiences across retail and business banking channels, including integration with Temenos\
   \ Fabric and Temenos Visualizer.\n    image: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\n    humanURL: https://www.temenos.com/products/digital-banking/\n    baseURL: https://api.temenos.com/infinity\n    tags:\n      - Business Banking\n      - Customer Experience\n      - Digital Banking\n      - Mobile Banking\n      - Omnichannel\n      - Retail Banking\n    properties:\n      - type: Documentation\n        url: https://developer.temenos.com/infinity/apis\n      - type: OpenAPI\n        url: https://developer.temenos.com/infinity/openapi.json\n      - type: Portal\n        url: https://developer.temenos.com/infinity\n      - type: OpenAPI\n        url: openapi/temenos-infinity-openapi.yml\n  - name: Temenos Payments API\n    description: Payment processing and management API supporting multiple payment types including SEPA, SWIFT, PSD2, request-to-pay, bulk payment initiation, direct debit management, and payment stop requests.\n    image: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\n\
   \    humanURL: https://www.temenos.com/products/payments/\n    baseURL: https://api.temenos.com/payments\n    tags:\n      - Bulk Payments\n      - Direct Debit\n      - Open Banking\n      - Payment Processing\n      - Payments\n      - PSD2\n      - Real-Time Payments\n      - SEPA\n      - SWIFT\n    properties:\n      - type: Documentation\n        url: https://developer.temenos.com/open-banking&payments\n      - type: OpenAPI\n        url: https://developer.temenos.com/payments/openapi.json\n      - type: Sandbox\n        url: https://sandbox.temenos.com/payments\n      - type: OpenAPI\n        url: openapi/temenos-payments-openapi.yml\n  - name: Temenos Fund Administration API\n    description: Investment fund management and administration API powered by Temenos Multifonds for fund accounting, transfer agency, and investor servicing.\n    image: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\n    humanURL: https://www.temenos.com/products/multifonds/\n    baseURL:\
@@ -257,7 +300,8 @@ source_yaml: "name: Temenos\ndescription: APIs for Temenos banking and financial
   \ plugin\n      development methods, and customizable banking solution exploration\n      interfaces. Handles authentication, roles, permissions, and CORS management\n      for banking application integration.\n    image: https://www.temenos.com/wp-content/uploads/2025/04/Temenos_Logo.png\n    humanURL: https://developer.temenos.com/temenos-explorer/docs/guides/overview/\n    baseURL: https://api.temenos.com/explorer\n    tags:\n      - API Gateway\n      - Developer Tools\n      - Explorer\n      - Plugins\n    properties:\n      - type: Documentation\n        url: https://developer.temenos.com/temenos-explorer/docs/guides/developer-guide/\n      - type: GettingStarted\n        url: https://developer.temenos.com/temenos-explorer/docs/guides/getting-started\n      - type: Reference\n        url: https://developer.temenos.com/temenos-explorer/docs/developer/plugin-csa/api-methods/\ncommon:\n  - type: Developer Portal\n    url: https://developer.temenos.com\n  - type: Portal\n    url: https://apidocs.temenos.com/getting-started\n\
   \  - type: Getting Started\n    url: https://developer.temenos.com/article/welcome-developers\n  - type: Authentication\n    url: https://developer.temenos.com/authentication\n  - type: Rate Limits\n    url: https://developer.temenos.com/rate-limits\n  - type: Support\n    url: https://www.temenos.com/customer-support/\n  - type: Terms of Service\n    url: https://www.temenos.com/legal-information/website-terms-and-conditions/\n  - type: Privacy Policy\n    url: https://www.temenos.com/legal-information/privacy-policy/\n  - type: Status Page\n    url: https://status.temenos.com\n  - type: Sandbox\n    url: https://sandbox.temenos.com\n  - type: SandboxGuide\n    url: https://developer.temenos.com/article/sandbox-quick-guide\n  - type: Blog\n    url: https://www.temenos.com/news\n  - type: Guides\n    url: https://developer.temenos.com/guides\n  - type: APICatalog\n    url: https://developer.temenos.com/all-product-apis\n  - type: PostmanCollection\n    url: https://www.postman.com/temenos-devex/temenos-essential-apis/documentation/sd6uv6m/temenos-essential-apis\n\
   \  - type: Events\n    url: https://developer.temenos.com/article/events-overview\n  - type: WebComponents\n    url: https://developer.temenos.com/uux/\n  - type: GitHubOrganization\n    url: https://github.com/temenos\n  - type: Community\n    url: https://basecamp.temenos.com/s/\n  - type: LegalInformation\n    url: https://www.temenos.com/legal-information/\n  - type: Login\n    url: https://basecamp.temenos.com/login\n  - type: Sign Up\n    url: https://developer.temenos.com/article/get-an-api-key\n  - type: Website\n    url: https://www.temenos.com\n  - type: Documentation\n    url: https://docs.temenos.com/\n  - type: Change Log\n    url: https://developer.temenos.com/release-notes\n  - type: Marketplace\n    url: https://www.temenos.com/community/marketplace/\n  - type: Stacks\n    url: https://developer.temenos.com/stacks\n  - type: TermsOfUse\n    url: https://developer.temenos.com/temenos-developer-community-terms-use\n  - type: JSON-LD\n    url: json-ld/temenos-context.jsonld\n\
-  \  - type: JSONSchema\n    url: json-schema/temenos-account-schema.json\n  - type: JSONSchema\n    url: json-schema/temenos-customer-schema.json\n  - type: JSONSchema\n    url: json-schema/temenos-payment-order-schema.json\n  - type: JSONSchema\n    url: json-schema/temenos-event-schema.json\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\ntags:\n  - Banking\n  - Cloud Banking\n  - Core Banking\n  - Digital Banking\n  - Financial Services\n  - Fintech\n  - Open Banking\n  - Payments\n  - Wealth Management\n"
+  \  - type: JSONSchema\n    url: json-schema/temenos-account-schema.json\n  - type: JSONSchema\n    url: json-schema/temenos-customer-schema.json\n  - type: JSONSchema\n    url: json-schema/temenos-payment-order-schema.json\n  - type: JSONSchema\n    url: json-schema/temenos-event-schema.json\n  - type: JSONStructure\n    url: json-structure/temenos-account-structure.json\n  - type: JSONStructure\n    url: json-structure/temenos-payment-order-structure.json\n  - type: JSONStructure\n    url: json-structure/temenos-customer-structure.json\n  - type: SpectralRules\n    url: rules/temenos-rules.yml\n  - type: NaftikoCapabilities\n    url: capabilities/core-banking.yaml\n  - type: NaftikoCapabilities\n    url: capabilities/compliance-and-risk.yaml\n  - type: NaftikoCapabilities\n    url: capabilities/wealth-management.yaml\n  - type: Vocabulary\n    url: vocabulary/temenos-vocabulary.yml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n\
+  tags:\n  - Banking\n  - Cloud Banking\n  - Core Banking\n  - Digital Banking\n  - Financial Services\n  - Fintech\n  - Open Banking\n  - Payments\n  - Wealth Management\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/apis.yml
 tags:
 - Banking

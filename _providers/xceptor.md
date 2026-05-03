@@ -29,6 +29,7 @@ apis:
 - description: API and connector framework for integrating Xceptor with external systems and data sources. Provides pre-built connectors for cloud storage (AWS S3, Azure Blob, Google Cloud Storage), messaging system
   name: Xceptor Connector API
   slug: ''
+capabilities: []
 common:
 - title: ''
   type: Portal

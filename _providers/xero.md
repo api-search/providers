@@ -1,24 +1,6 @@
 ---
 api_count: 10
 api_specs:
-- filename: xero-finance-openapi.yml
-  format: yaml
-  label: Xero Finance API
-  slug: xero-finance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-finance-openapi.yml
-- filename: xero-identity-openapi.yml
-  format: yaml
-  label: Xero Identity API
-  slug: xero-identity-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-identity-openapi.yml
-- filename: xero-projects-openapi.yml
-  format: yaml
-  label: Xero Projects API
-  slug: xero-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-projects-openapi.yml
 - filename: xero-accounting-openapi.yml
   format: yaml
   label: Xero Accounting API
@@ -37,65 +19,102 @@ api_specs:
   slug: xero-bank-feeds-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-bankfeeds-openapi.yml
-apis:
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
-  name: Xero Finance API
+- filename: xero-finance-openapi.yml
+  format: yaml
+  label: Xero Finance API
   slug: xero-finance-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
-  name: Xero Identity API
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-finance-openapi.yml
+- filename: xero-identity-openapi.yml
+  format: yaml
+  label: Xero Identity API
   slug: xero-identity-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
-  name: Xero Payroll Australia API
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-identity-openapi.yml
+- filename: xero-payroll-au-openapi.yml
+  format: yaml
+  label: Xero Payroll Australia API
   slug: xero-payroll-australia-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
-  name: Xero Payroll New Zealand API
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payroll-au-openapi.yml
+- filename: xero-payroll-nz-openapi.yml
+  format: yaml
+  label: Xero Payroll New Zealand API
   slug: xero-payroll-new-zealand-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
-  name: Xero Payroll United Kingdom API
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payroll-nz-openapi.yml
+- filename: xero-payroll-uk-openapi.yml
+  format: yaml
+  label: Xero Payroll United Kingdom API
   slug: xero-payroll-united-kingdom-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
-  name: Xero Projects API
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payroll-uk-openapi.yml
+- filename: xero-projects-openapi.yml
+  format: yaml
+  label: Xero Projects API
   slug: xero-projects-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-projects-openapi.yml
+- filename: xero-files-openapi.yml
+  format: yaml
+  label: Xero Files API
+  slug: xero-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-files-openapi.yml
+apis:
+- description: Core accounting API for the Xero platform. Supports creating and managing accounts, invoices, credit notes, bank transactions, contacts, payments, purchase orders, and financial reports. Provides comp
   name: Xero Accounting API
   slug: xero-accounting-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
+- description: API for managing fixed assets in Xero. Supports registering and depreciating assets, managing asset types, and running depreciation calculations. Enables automated fixed asset lifecycle management int
   name: Xero Assets API
   slug: xero-assets-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
+- description: API for importing bank transaction data into Xero from financial institutions and fintech providers. Enables creation and management of bank feed connections and statement lines for automated bank rec
   name: Xero Bank Feeds API
   slug: xero-bank-feeds-api
-- description: Build custom apps and integrations that solve unique problems for small businesses using Xero
+- description: API providing access to financial statements, balance sheets, profit and loss reports, and cash flow summaries for Xero organizations. Supports bank statement accounting, account usage, and lock histo
+  name: Xero Finance API
+  slug: xero-finance-api
+- description: OAuth 2.0 authentication and authorization API for the Xero platform. Manages connections to Xero organizations, user identity, and refresh token lifecycle. Required for all Xero API integrations to o
+  name: Xero Identity API
+  slug: xero-identity-api
+- description: Payroll management API for Australian businesses using Xero. Supports managing employees, pay runs, pay slips, leave applications, payroll calendars, tax declarations, and superannuation. Compliant wi
+  name: Xero Payroll Australia API
+  slug: xero-payroll-australia-api
+- description: Payroll management API for New Zealand businesses using Xero. Supports managing employees, pay runs, pay slips, leave management, and compliance with New Zealand payroll regulations including KiwiSave
+  name: Xero Payroll New Zealand API
+  slug: xero-payroll-new-zealand-api
+- description: Payroll management API for UK businesses using Xero. Supports managing employees, pay runs, pay slips, leave, and compliance with UK payroll regulations including PAYE, national insurance, pensions, a
+  name: Xero Payroll United Kingdom API
+  slug: xero-payroll-united-kingdom-api
+- description: Project tracking and time management API for Xero. Supports creating and managing projects, tasks, time entries, and expenses. Enables integration of project-based billing with Xero accounting for pro
+  name: Xero Projects API
+  slug: xero-projects-api
+- description: File storage and management API for Xero. Supports uploading, organizing, and attaching files to accounting objects in Xero. Enables document management workflows integrated with accounting records fo
   name: Xero Files API
   slug: xero-files-api
+capabilities: []
 common:
-- title: ''
-  type: GitHubOrganization
-  url: https://github.com/XeroAPI
 - title: ''
   type: Portal
   url: https://developer.xero.com/
 - title: ''
+  type: Documentation
+  url: https://developer.xero.com/documentation/
+- title: ''
   type: GettingStarted
   url: https://developer.xero.com/documentation/getting-started-guide/
+- title: ''
+  type: Authentication
+  url: https://developer.xero.com/documentation/guides/oauth2/overview/
 - title: ''
   type: SDKs
   url: https://developer.xero.com/documentation/sdks-and-tools/libraries/overview/
 - title: ''
-  type: Tools
-  url: https://developer.xero.com/documentation/sdks-and-tools/tools/overview
-- title: ''
   type: Webhooks
   url: https://developer.xero.com/documentation/guides/webhooks/overview/
 - title: ''
-  type: ChangeLog
+  type: Changelog
   url: https://developer.xero.com/changelog
-- title: ''
-  type: OAuth20
-  url: https://developer.xero.com/documentation/guides/oauth2/overview/
-- title: ''
-  type: Guide
-  url: https://developer.xero.com/documentation/guides/how-to-guides/integration-best-practices/
 - title: ''
   type: Blog
   url: https://devblog.xero.com/
@@ -106,42 +125,53 @@ common:
   type: TermsOfService
   url: https://developer.xero.com/xero-developer-platform-terms-conditions/
 - title: ''
-  type: SignUp
-  url: https://www.xero.com/us/signup/developers/
-- title: ''
-  type: Login
-  url: https://login.xero.com/identity/user/login?ReturnUrl=%2Fidentity%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dxero_dxt_devportal_ui%26redirect_uri%3Dhttps%253A%252F%252Fdeveloper.xero.com%252Foidc%252Fcallback.html%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520xero_frontend-apis%2520xero_dxt_devportal_api%2520xero_frontend-platform-apis%2520xero_ecosystem_marketplace-api.reviews.readwrite%26state%3Ddfe53927a48048b19adeeace7d7aded4%26code_challenge%3D2JsxrVswjjUTWIW0JS4uDbHYUz65fywEntp1D_a4iSk%26code_challenge_method%3DS256%26response_mode%3Dquery
-- title: ''
-  type: Privacy
+  type: PrivacyPolicy
   url: https://www.xero.com/us/legal/privacy/
 - title: ''
   type: Status
   url: https://status.xero.com/
-created: '2024-11-07T00:00:00.000Z'
-description: Xero is a cloud-based accounting software that helps small businesses manage their finances more efficiently. With Xero, users can easily track income and expenses, create and send invoices, reconcile bank transactions, and generate various financial reports. The software's user-friendly interface and automation features make it easy for business owners to stay on top of their finances and make informed decisions. Xero also integrates with a variety of other business tools, allowing users to streamline their workflow and save valuable time. Overall, Xero simplifies the accounting process for small businesses, providing them with the tools they need to succeed.
+- title: ''
+  type: SignUp
+  url: https://www.xero.com/us/signup/developers/
+- title: ''
+  type: GitHubOrganization
+  url: https://github.com/XeroAPI
+- title: ''
+  type: MCPServer
+  url: https://github.com/XeroAPI/xero-mcp-server
+created: '2024-11-07'
+description: Xero is a cloud-based accounting software platform that helps small and medium-sized businesses manage their finances. Xero provides a comprehensive developer platform with OAuth 2.0 APIs for accounting, payroll, assets, projects, files, bank feeds, and identity management. The Xero API enables third-party integrations to build custom accounting apps, automations, and business tools. Xero supports SDKs for .NET, Java, Node.js, PHP, Ruby, Python, and provides an MCP server for AI-assisted accounting workflows.
 features: []
-image: htps://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 integrations: []
 layout: provider
-modified: '2026-04-01'
+modified: '2026-05-03'
 name: Xero
 skills: []
 slug: xero
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: xero\nurl: https://raw.githubusercontent.com/api-search/xero/refs/heads/main/apis.yml\napis:\n  - aid: xero:xero-finance-api\n    name: Xero Finance API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-finance-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero\n  - aid: xero:xero-identity-api\n    name: Xero Identity API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-identity-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero\n  - aid: xero:xero-payroll-australia-api\n    name: Xero Payroll Australia API\n\
-  \    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-payroll-au-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero\n  - aid: xero:xero-payroll-new-zealand-api\n    name: Xero Payroll New Zealand API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-payroll-nz-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero\n  - aid: xero:xero-payroll-united-kingdom-api\n    name: Xero Payroll United Kingdom API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n\
-  \      - url: openapi/xero-payroll-uk-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero\n  - aid: xero:xero-projects-api\n    name: Xero Projects API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-projects-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero\n  - aid: xero:xero-accounting-api\n    name: Xero Accounting API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-accounting-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n     \
-  \ businesses using Xero\n  - aid: xero:xero-assets-api\n    name: Xero Assets API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-assets-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero  \n  - aid: xero:xero-bank-feeds-api\n    name: Xero Bank Feeds API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n        type: Documentation\n      - url: openapi/xero-bankfeeds-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero            \n  - aid: xero:xero-files-api\n    name: Xero Files API\n    tags: []\n    humanURL: https://developer.xero.com/\n    properties:\n      - url: https://developer.xero.com/\n\
-  \        type: Documentation\n      - url: openapi/xero-files-openapi.yml\n        type: OpenAPI\n    description: >-\n      Build custom apps and integrations that solve unique problems for small\n      businesses using Xero \nname: Xero\ntags:\n  - Accounting\ntype: Contract\nimage: htps://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ncreated: '2024-11-07T00:00:00.000Z'\nmodified: '2026-04-01'\ndescription: >-\n  Xero is a cloud-based accounting software that helps small businesses manage\n  their finances more efficiently. With Xero, users can easily track income and\n  expenses, create and send invoices, reconcile bank transactions, and generate\n  various financial reports. The software's user-friendly interface and\n  automation features make it easy for business owners to stay on top of their\n  finances and make informed decisions. Xero also integrates with a variety of\n  other business tools, allowing users to streamline their workflow and save\n  valuable\
-  \ time. Overall, Xero simplifies the accounting process for small\n  businesses, providing them with the tools they need to succeed.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\nposition: Consuming\naccess: 3rd-Party\ncommon:\n  - name: GitHub Organization\n    url: https://github.com/XeroAPI\n    type: GitHubOrganization\n  - name: Xero Developer Platform\n    description: 'null'\n    url: https://developer.xero.com/\n    type: Portal\n  - name: Getting started guide  Xero Developer\n    description: 'null'\n    url: https://developer.xero.com/documentation/getting-started-guide/\n    type: GettingStarted\n  - name: SDKs  Xero Developer\n    description: 'null'\n    url: >-\n      https://developer.xero.com/documentation/sdks-and-tools/libraries/overview/\n    type: SDKs\n  - name: Looking for Tools  Xero Developer\n    description: 'null'\n    url: https://developer.xero.com/documentation/sdks-and-tools/tools/overview\n    type: Tools\n\
-  \  - name: Xero API webhooks  Xero Developer\n    description: 'null'\n    url: https://developer.xero.com/documentation/guides/webhooks/overview/\n    type: Webhooks\n  - name: Xero Developer  Xero Developer\n    description: 'null'\n    url: https://developer.xero.com/changelog\n    type: ChangeLog\n  - name: OAuth 2.0  Xero Developer\n    description: 'null'\n    url: https://developer.xero.com/documentation/guides/oauth2/overview/\n    type: OAuth20\n  - name: Integration best practices  Xero Developer\n    description: 'null'\n    url: >-\n      https://developer.xero.com/documentation/guides/how-to-guides/integration-best-practices/\n    type: Guide\n  - name: Xero Developer\n    description: 'null'\n    url: https://devblog.xero.com/\n    type: Blog\n  - name: Frequently asked questions  Xero Developer\n    description: 'null'\n    url: https://developer.xero.com/faq\n    type: FAQ\n  - name: Xero Developer  Xero Developer\n    description: 'null'\n    url: https://developer.xero.com/xero-developer-platform-terms-conditions/\n\
-  \    type: TermsOfService\n  - name: Sign up for a free Xero login | Xero\n    description: 'null'\n    url: https://www.xero.com/us/signup/developers/\n    type: SignUp\n  - name: Login | Xero Accounting Software\n    description: 'null'\n    url: >-\n      https://login.xero.com/identity/user/login?ReturnUrl=%2Fidentity%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dxero_dxt_devportal_ui%26redirect_uri%3Dhttps%253A%252F%252Fdeveloper.xero.com%252Foidc%252Fcallback.html%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520xero_frontend-apis%2520xero_dxt_devportal_api%2520xero_frontend-platform-apis%2520xero_ecosystem_marketplace-api.reviews.readwrite%26state%3Ddfe53927a48048b19adeeace7d7aded4%26code_challenge%3D2JsxrVswjjUTWIW0JS4uDbHYUz65fywEntp1D_a4iSk%26code_challenge_method%3DS256%26response_mode%3Dquery\n    type: Login\n  - name: Privacy Notice | Xero\n    description: 'null'\n    url: https://www.xero.com/us/legal/privacy/\n    type: Privacy\n  - name: Xero Status\n\
-  \    description: 'null'\n    url: https://status.xero.com/\n    type: Status\n"
+source_yaml: "aid: xero\nname: Xero\ndescription: >-\n  Xero is a cloud-based accounting software platform that helps small and\n  medium-sized businesses manage their finances. Xero provides a comprehensive\n  developer platform with OAuth 2.0 APIs for accounting, payroll, assets,\n  projects, files, bank feeds, and identity management. The Xero API enables\n  third-party integrations to build custom accounting apps, automations, and\n  business tools. Xero supports SDKs for .NET, Java, Node.js, PHP, Ruby,\n  Python, and provides an MCP server for AI-assisted accounting workflows.\ntype: Contract\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Accounting\n  - Bank Feeds\n  - Finance\n  - Financial Services\n  - Invoicing\n  - Payroll\n  - Small Business\ncreated: '2024-11-07'\nmodified: '2026-05-03'\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/apis.yml\nspecificationVersion: '0.19'\napis:\n  - aid: xero:xero-accounting-api\n\
+  \    name: Xero Accounting API\n    description: >-\n      Core accounting API for the Xero platform. Supports creating and managing\n      accounts, invoices, credit notes, bank transactions, contacts, payments,\n      purchase orders, and financial reports. Provides comprehensive access to\n      all accounting functions in Xero including chart of accounts, journal\n      entries, tax rates, currencies, and tracking categories.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/api/accounting/overview\n    baseURL: https://api.xero.com/api.xro/2.0\n    tags:\n      - Accounting\n      - Finance\n      - Invoicing\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/accounting/overview\n      - type: OpenAPI\n        url: openapi/xero-accounting-openapi.yml\n  - aid: xero:xero-assets-api\n    name: Xero Assets API\n    description: >-\n      API\
+  \ for managing fixed assets in Xero. Supports registering and\n      depreciating assets, managing asset types, and running depreciation\n      calculations. Enables automated fixed asset lifecycle management\n      integrated with Xero accounting.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/api/assets/overview\n    baseURL: https://api.xero.com/assets.xro/1.0\n    tags:\n      - Assets\n      - Depreciation\n      - Finance\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/assets/overview\n      - type: OpenAPI\n        url: openapi/xero-assets-openapi.yml\n  - aid: xero:xero-bank-feeds-api\n    name: Xero Bank Feeds API\n    description: >-\n      API for importing bank transaction data into Xero from financial\n      institutions and fintech providers. Enables creation and management\n      of bank feed connections and statement lines\
+  \ for automated bank\n      reconciliation workflows.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/api/bank-feeds/overview\n    baseURL: https://api.xero.com/bankfeeds.xro/1.0\n    tags:\n      - Bank Feeds\n      - Banking\n      - Reconciliation\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/bank-feeds/overview\n      - type: OpenAPI\n        url: openapi/xero-bankfeeds-openapi.yml\n  - aid: xero:xero-finance-api\n    name: Xero Finance API\n    description: >-\n      API providing access to financial statements, balance sheets, profit and\n      loss reports, and cash flow summaries for Xero organizations. Supports\n      bank statement accounting, account usage, and lock history for financial\n      analysis and reporting applications.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL:\
+  \ https://developer.xero.com/documentation/api/finance/overview\n    baseURL: https://api.xero.com/finance.xro/1.0\n    tags:\n      - Finance\n      - Financial Reporting\n      - Reports\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/finance/overview\n      - type: OpenAPI\n        url: openapi/xero-finance-openapi.yml\n  - aid: xero:xero-identity-api\n    name: Xero Identity API\n    description: >-\n      OAuth 2.0 authentication and authorization API for the Xero platform.\n      Manages connections to Xero organizations, user identity, and refresh\n      token lifecycle. Required for all Xero API integrations to obtain and\n      manage access tokens.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/guides/oauth2/overview/\n    baseURL: https://identity.xero.com\n    tags:\n      - Authentication\n      - Identity\n      - OAuth 2.0\n\
+  \    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/guides/oauth2/overview/\n      - type: OpenAPI\n        url: openapi/xero-identity-openapi.yml\n  - aid: xero:xero-payroll-australia-api\n    name: Xero Payroll Australia API\n    description: >-\n      Payroll management API for Australian businesses using Xero. Supports\n      managing employees, pay runs, pay slips, leave applications, payroll\n      calendars, tax declarations, and superannuation. Compliant with\n      Australian payroll regulations including Single Touch Payroll (STP).\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/api/payroll-au/overview\n    baseURL: https://api.xero.com/payroll.xro/1.0\n    tags:\n      - Australia\n      - Payroll\n      - Superannuation\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/payroll-au/overview\n\
+  \      - type: OpenAPI\n        url: openapi/xero-payroll-au-openapi.yml\n  - aid: xero:xero-payroll-new-zealand-api\n    name: Xero Payroll New Zealand API\n    description: >-\n      Payroll management API for New Zealand businesses using Xero. Supports\n      managing employees, pay runs, pay slips, leave management, and compliance\n      with New Zealand payroll regulations including KiwiSaver and PAYE.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/api/payroll-nz/overview\n    baseURL: https://api.xero.com/payroll.xro/1.0\n    tags:\n      - New Zealand\n      - Payroll\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/payroll-nz/overview\n      - type: OpenAPI\n        url: openapi/xero-payroll-nz-openapi.yml\n  - aid: xero:xero-payroll-united-kingdom-api\n    name: Xero Payroll United Kingdom API\n    description: >-\n      Payroll\
+  \ management API for UK businesses using Xero. Supports managing\n      employees, pay runs, pay slips, leave, and compliance with UK payroll\n      regulations including PAYE, national insurance, pensions, and Real Time\n      Information (RTI) submissions to HMRC.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/api/payroll-uk/overview\n    baseURL: https://api.xero.com/payroll.xro/1.0\n    tags:\n      - Payroll\n      - United Kingdom\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/payroll-uk/overview\n      - type: OpenAPI\n        url: openapi/xero-payroll-uk-openapi.yml\n  - aid: xero:xero-projects-api\n    name: Xero Projects API\n    description: >-\n      Project tracking and time management API for Xero. Supports creating and\n      managing projects, tasks, time entries, and expenses. Enables integration\n      of project-based\
+  \ billing with Xero accounting for professional services\n      and project-based businesses.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developer.xero.com/documentation/api/projects/overview\n    baseURL: https://api.xero.com/projects.xro/2.0\n    tags:\n      - Projects\n      - Time Tracking\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/projects/overview\n      - type: OpenAPI\n        url: openapi/xero-projects-openapi.yml\n  - aid: xero:xero-files-api\n    name: Xero Files API\n    description: >-\n      File storage and management API for Xero. Supports uploading, organizing,\n      and attaching files to accounting objects in Xero. Enables document\n      management workflows integrated with accounting records for invoices,\n      receipts, and other financial documents.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
+  \    humanURL: https://developer.xero.com/documentation/api/files/overview\n    baseURL: https://api.xero.com/files.xro/1.0\n    tags:\n      - Documents\n      - Files\n      - Storage\n    properties:\n      - type: Documentation\n        url: https://developer.xero.com/documentation/api/files/overview\n      - type: OpenAPI\n        url: openapi/xero-files-openapi.yml\ncommon:\n  - type: Portal\n    url: https://developer.xero.com/\n  - type: Documentation\n    url: https://developer.xero.com/documentation/\n  - type: GettingStarted\n    url: https://developer.xero.com/documentation/getting-started-guide/\n  - type: Authentication\n    url: https://developer.xero.com/documentation/guides/oauth2/overview/\n  - type: SDKs\n    url: https://developer.xero.com/documentation/sdks-and-tools/libraries/overview/\n  - type: Webhooks\n    url: https://developer.xero.com/documentation/guides/webhooks/overview/\n  - type: Changelog\n    url: https://developer.xero.com/changelog\n  - type: Blog\n\
+  \    url: https://devblog.xero.com/\n  - type: FAQ\n    url: https://developer.xero.com/faq\n  - type: TermsOfService\n    url: https://developer.xero.com/xero-developer-platform-terms-conditions/\n  - type: PrivacyPolicy\n    url: https://www.xero.com/us/legal/privacy/\n  - type: Status\n    url: https://status.xero.com/\n  - type: SignUp\n    url: https://www.xero.com/us/signup/developers/\n  - type: GitHubOrganization\n    url: https://github.com/XeroAPI\n  - type: MCPServer\n    url: https://github.com/XeroAPI/xero-mcp-server\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/apis.yml
 tags:
 - Accounting
-url: https://raw.githubusercontent.com/api-search/xero/refs/heads/main/apis.yml
+- Bank Feeds
+- Finance
+- Financial Services
+- Invoicing
+- Payroll
+- Small Business
+url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/apis.yml
 use_cases: []
 ---

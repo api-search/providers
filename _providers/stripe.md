@@ -501,6 +501,16 @@ asyncapis:
 - description: Stripe uses webhooks to notify your application when an event happens in your account. Webhooks are particularly useful for asynchronous events like when a customer's bank confirms a payment, a custom
   name: Stripe Webhooks
   slug: stripe-webhooks-asyncapi
+capabilities:
+- description: Unified capability for financial operations and treasury workflows. Combines Stripe Payouts, Refunds, Disputes, and Balance APIs to support payout management, refund processing, chargeback handling, a
+  name: Stripe Financial Operations
+  slug: financial-operations
+- description: Unified capability for end-to-end payment processing workflows. Combines Stripe Payment Intents and Checkout APIs to support payment creation, confirmation, capture, refunds, and dispute management. U
+  name: Stripe Payment Processing
+  slug: payment-processing
+- description: Unified capability for subscription and recurring billing workflows. Combines Stripe Customers, Billing Portal, and Invoices APIs to support customer lifecycle management, subscription administration,
+  name: Stripe Subscription Billing
+  slug: subscription-billing
 common:
 - title: ''
   type: Sign Up
@@ -676,6 +686,39 @@ common:
 - title: ''
   type: JSON-LD Context
   url: json-ld/stripe-context.jsonld
+- title: ''
+  type: Spectral Rules
+  url: rules/stripe-rules.yml
+- title: ''
+  type: Naftiko Capability
+  url: capabilities/payment-processing.yaml
+- title: ''
+  type: Naftiko Capability
+  url: capabilities/subscription-billing.yaml
+- title: ''
+  type: Naftiko Capability
+  url: capabilities/financial-operations.yaml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/stripe-vocabulary.yml
+- title: ''
+  type: JSON Structure
+  url: json-structure/stripe-payment-intent-structure.json
+- title: ''
+  type: JSON Structure
+  url: json-structure/stripe-customer-structure.json
+- title: ''
+  type: JSON Structure
+  url: json-structure/stripe-invoice-structure.json
+- title: ''
+  type: Example
+  url: examples/stripe-create-payment-intent-example.json
+- title: ''
+  type: Example
+  url: examples/stripe-create-checkout-session-example.json
+- title: ''
+  type: Example
+  url: examples/stripe-create-customer-example.json
 created: 2024/04/14
 description: Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes.
 features: []
@@ -687,8 +730,17 @@ jsonld:
   property_count: 8
   slug: stripe-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-02'
 name: Stripe
+rules:
+- name: Stripe API Rules
+  rule_count: 12
+  severity_counts:
+    error: 4
+    hint: 3
+    info: 0
+    warn: 5
+  slug: stripe-rules
 skills: []
 slug: stripe
 solutions: []
@@ -727,7 +779,7 @@ source_yaml: "aid: stripe\nurl: https://raw.githubusercontent.com/api-search/pay
   \ cryptocurrencies directly from your platform or decentralized application at checkout.\n  - aid: stripe:stripe-revenue-recognition-api\n    name: Stripe Revenue Recognition API\n    tags:\n      - Accounting\n      - Recognition\n      - Revenue\n    properties:\n      - url: https://docs.stripe.com/revenue-recognition\n        type: Documentation\n      - url: https://docs.stripe.com/revenue-recognition/api\n        type: API Reference\n      - url: openapi/stripe-revenue-recognition-api-openapi.yml\n        type: OpenAPI\n    description: Automate your accrual accounting process with Stripe Revenue Recognition. Import transaction data, set up rules, and download revenue reports for compliance with accounting standards like ASC 606.\n  - aid: stripe:stripe-billing-meters-api\n    name: Stripe Billing Meters API\n    tags:\n      - Billing\n      - Meters\n      - Usage-Based\n    properties:\n      - url: https://docs.stripe.com/api/billing/meter\n        type: API Reference\n     \
   \ - url: https://docs.stripe.com/billing/subscriptions/usage-based/recording-usage-api\n        type: Documentation\n      - url: https://docs.stripe.com/api/v2/billing-meter\n        type: API Reference\n      - url: https://docs.stripe.com/api/v2/billing-meter-stream\n        type: API Reference\n      - url: openapi/stripe-billing-meters-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      Meters specify how to aggregate meter events over a billing period for\n      usage-based pricing. Meter events represent customer actions and support\n      up to 10,000 events per second via the V2 meter event streams API.\n  - aid: stripe:stripe-payment-method-configurations-api\n    name: Stripe Payment Method Configurations API\n    tags:\n      - Configuration\n      - Payments\n    properties:\n      - url: https://docs.stripe.com/api/payment_method_configurations\n        type: API Reference\n      - url: https://docs.stripe.com/connect/payment-method-configurations\n       \
   \ type: Documentation\n      - url: openapi/stripe-payment-method-configurations-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      Payment method configurations allow you to configure which payment methods\n      are available to your customers during checkout. Manage payment method\n      availability across multiple Connect accounts.\nname: Stripe\ntags:\n  - Commerce\n  - Financial Services\n  - Fintech\n  - Payments\n  - T1\ntype: Contract\naccess: 3rd-Party\ncommon:\n  - url: https://dashboard.stripe.com/register\n    type: Sign Up\n  - url: https://dashboard.stripe.com\n    type: Portal\n  - url: https://docs.stripe.com/\n    type: Documentation\n  - url: https://docs.stripe.com/get-started\n    type: Getting Started\n  - url: https://docs.stripe.com/api\n    type: API Reference\n  - url: https://stripe.com/docs/api/authentication\n    type: Authentication\n  - url: https://docs.stripe.com/api/errors\n    type: Errors\n  - url: https://docs.stripe.com/sdks\n    type:\
-  \ SDKs\n  - url: https://docs.stripe.com/stripe-cli\n    type: CLI\n  - url: https://stripe.com/blog\n    type: Blog\n  - url: https://docs.stripe.com/changelog\n    type: Change Log\n  - url: https://docs.stripe.com/upgrades\n    type: API Versioning\n  - url: https://status.stripe.com/\n    type: Status\n  - url: https://docs.stripe.com/rate-limits\n    type: Rate Limits\n  - url: ht\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml\n"
+  \ SDKs\n  - url: https://docs.stripe.com/stripe-cli\n    type: CLI\n  - url: https://stripe.com/blog\n    type: Blog\n  - url: https://docs.stripe.com/changelog\n    type: Change Log\n  - url: https://docs.stripe.com/upgrades\n    type: API Versioning\n  - url: https://status.stripe.com/\n    type: Status\n  - url: https://docs.stripe.com/rate-limits\n    type: Rate Limits\n  - url: ht\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml
 tags:
 - Commerce

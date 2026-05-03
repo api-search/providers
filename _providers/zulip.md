@@ -7,6 +7,7 @@ apis:
 - description: Zulip supports both incoming webhooks (allowing third-party services to push data to Zulip) and outgoing webhooks (allowing Zulip to send HTTP POST payloads to external services when messages are sent
   name: Zulip Webhooks
   slug: webhooks
+capabilities: []
 common:
 - title: ''
   type: Website

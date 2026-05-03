@@ -19,12 +19,24 @@ api_specs:
   slug: slack-apps-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-apps-openapi.yml
+- filename: slack-assistant-openapi.yml
+  format: yaml
+  label: Slack Assistant API
+  slug: slack-assistant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-assistant-openapi.yml
 - filename: slack-auth-openapi.yml
   format: yaml
   label: Slack Auth API
   slug: slack-auth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-auth-openapi.yml
+- filename: slack-bookmarks-openapi.yml
+  format: yaml
+  label: Slack Bookmarks API
+  slug: slack-bookmarks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-bookmarks-openapi.yml
 - filename: slack-bots-openapi.yml
   format: yaml
   label: Slack Bots API
@@ -37,6 +49,12 @@ api_specs:
   slug: slack-calls-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-calls-openapi.yml
+- filename: slack-canvases-openapi.yml
+  format: yaml
+  label: Slack Canvases API
+  slug: slack-canvases-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-canvases-openapi.yml
 - filename: slack-chat-openapi.yml
   format: yaml
   label: Slack Chat API
@@ -61,6 +79,12 @@ api_specs:
   slug: slack-dnd-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-dnd-openapi.yml
+- filename: slack-emoji-openapi.yml
+  format: yaml
+  label: Slack Emoji API
+  slug: slack-emoji-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-emoji-openapi.yml
 - filename: slack-events-asyncapi.yml
   format: yaml
   label: Slack Events API
@@ -73,6 +97,18 @@ api_specs:
   slug: slack-files-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-files-openapi.yml
+- filename: slack-functions-openapi.yml
+  format: yaml
+  label: Slack Functions API
+  slug: slack-functions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-functions-openapi.yml
+- filename: slack-lists-openapi.yml
+  format: yaml
+  label: Slack Lists API
+  slug: slack-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-lists-openapi.yml
 - filename: slack-migration-openapi.yml
   format: yaml
   label: Slack Migration API
@@ -85,6 +121,12 @@ api_specs:
   slug: slack-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-oauth-openapi.yml
+- filename: slack-openid-connect-openapi.yml
+  format: yaml
+  label: Slack OpenID Connect API
+  slug: slack-openid-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/openapi/slack-openid-connect-openapi.yml
 - filename: slack-pins-openapi.yml
   format: yaml
   label: Slack Pins API
@@ -511,7 +553,7 @@ jsonld:
   property_count: 0
   slug: slack-web-context
 layout: provider
-modified: '2026-04-18'
+modified: '2026-05-02'
 name: Slack
 rules:
 - name: Slack API Rules

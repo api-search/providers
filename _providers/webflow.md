@@ -153,6 +153,10 @@ asyncapis:
 - description: AsyncAPI specification for Webflow webhook events. Webflow delivers webhook payloads via HTTP POST to a URL you register through the Webflow API. Each payload includes a signature header (`X-Webflow-S
   name: Webflow Webhooks
   slug: webflow-webhooks-asyncapi
+capabilities:
+- description: Unified Webflow capability combining Data API for CMS content management and ecommerce operations. Enables content managers to create and publish CMS items, developers to automate workflows via webhoo
+  name: Webflow CMS and Ecommerce
+  slug: cms-and-ecommerce
 common:
 - title: ''
   type: Portal
@@ -230,27 +234,73 @@ common:
   type: JSONSchema
   url: json-schema/webflow-webhook-schema.json
 - title: ''
-  type: JSON-LD
+  type: JSONLD
   url: json-ld/webflow-context.jsonld
+- title: ''
+  type: SpectralRules
+  url: rules/webflow-spectral-rules.yml
+- title: ''
+  type: NaftikoCapability
+  url: capabilities/cms-and-ecommerce.yaml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/webflow-vocabulary.yml
 created: '2026-03-16'
 description: Webflow provides a visual web development platform with a comprehensive REST API for programmatically managing sites, CMS collections, ecommerce, assets, users, and forms. The Data API enables developers to build integrations, automate workflows, and extend Webflow's core functionality.
-features: []
+features:
+- description: Drag-and-drop visual design with clean, production-ready HTML/CSS/JS output.
+  name: Visual Web Builder
+- description: Programmatic management of CMS collections and items for dynamic content publishing.
+  name: CMS API
+- description: Complete ecommerce API for products, SKUs, orders, inventory, and payment integration.
+  name: Ecommerce API
+- description: Secure OAuth 2.0 authorization for building Webflow App integrations.
+  name: OAuth 2.0
+- description: Real-time event notifications for form submissions, publishing, ecommerce events, and CMS changes.
+  name: Webhooks
+- description: AsyncAPI specification documenting all Webflow webhook event schemas.
+  name: AsyncAPI Webhooks
+- description: Build custom panels and tools that run inside the Webflow Designer application.
+  name: Designer Extensions
+- description: Programmatically publish Webflow sites to staging or custom production domains.
+  name: Site Publishing API
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-integrations: []
+integrations:
+- description: No-code Webflow integration for automating workflows with 5,000+ apps.
+  name: Zapier
+- description: Visual automation platform for complex Webflow workflow automation.
+  name: Make (Integromat)
+- description: Connect Airtable as a data source for Webflow CMS content.
+  name: Airtable
+- description: Sync Webflow form submissions and data with HubSpot CRM.
+  name: HubSpot
+- description: Import Shopify product catalog into Webflow ecommerce.
+  name: Shopify
+- description: Add membership and authentication features to Webflow sites.
+  name: Memberstack
 jsonld:
 - class_count: 18
   name: Webflow Context
   property_count: 7
   slug: webflow-context
 layout: provider
-modified: '2026-03-17'
+modified: '2026-05-03'
 name: Webflow
+rules:
+- name: Webflow API Rules
+  rule_count: 26
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 8
+    warn: 10
+  slug: webflow-spectral-rules
 skills: []
 slug: webflow
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: webflow\nname: Webflow\ndescription: >-\n  Webflow provides a visual web development platform with a comprehensive REST\n  API for programmatically managing sites, CMS collections, ecommerce, assets,\n  users, and forms. The Data API enables developers to build integrations,\n  automate workflows, and extend Webflow's core functionality.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - CMS\n  - Ecommerce\n  - No-Code\n  - Web Development\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-03-17'\nspecificationVersion: '0.19'\napis:\n  - aid: webflow:data-api\n    name: Webflow Data API\n    description: >-\n      The Webflow Data API is a RESTful API that provides access to Webflow\n      sites, pages, CMS collections, ecommerce products and orders, assets,\n      users, and forms. All V2 API endpoints start with https://api.webflow.com/v2\n\
+source_yaml: "aid: webflow\nname: Webflow\ndescription: >-\n  Webflow provides a visual web development platform with a comprehensive REST\n  API for programmatically managing sites, CMS collections, ecommerce, assets,\n  users, and forms. The Data API enables developers to build integrations,\n  automate workflows, and extend Webflow's core functionality.\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - CMS\n  - Ecommerce\n  - No-Code\n  - Web Development\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/apis.yml\ncreated: '2026-03-16'\nmodified: '2026-05-03'\nspecificationVersion: '0.19'\napis:\n  - aid: webflow:data-api\n    name: Webflow Data API\n    description: >-\n      The Webflow Data API is a RESTful API that provides access to Webflow\n      sites, pages, CMS collections, ecommerce products and orders, assets,\n      users, and forms. All V2 API endpoints start with https://api.webflow.com/v2\n\
   \      and use OAuth 2.0 for authentication.\n    humanURL: https://developers.webflow.com/data/reference/rest-introduction\n    tags:\n      - CMS\n      - Content Management\n      - Ecommerce\n      - Sites\n    properties:\n      - type: Documentation\n        url: https://developers.webflow.com/data/reference/rest-introduction\n      - type: Getting Started\n        url: https://developers.webflow.com/data/reference/rest-introduction/quick-start\n      - type: Authentication\n        url: https://developers.webflow.com/data/reference/authentication\n      - type: Rate Limits\n        url: https://developers.webflow.com/data/reference/rate-limits\n      - type: Change Log\n        url: https://developers.webflow.com/data/v2.0.0/changelog\n      - type: SDKs\n        url: https://developers.webflow.com/data/reference/sdks\n      - type: OpenAPI\n        url: openapi/webflow-data-api-openapi.yml\n      - type: AsyncAPI\n        url: asyncapi/webflow-webhooks-asyncapi.yml\n  - aid: webflow:designer-extension-api\n\
   \    name: Webflow Designer Extension API\n    description: >-\n      The Webflow Designer Extension API allows developers to build extensions\n      that run inside the Webflow Designer, enabling custom UI panels and\n      interactions with the designer canvas and site content.\n    humanURL: https://developers.webflow.com/designer/reference/introduction\n    tags:\n      - Designer\n      - Extensions\n      - Plugins\n    properties:\n      - type: Documentation\n        url: https://developers.webflow.com/designer/reference/introduction\n      - type: Getting Started\n        url: https://developers.webflow.com/designer/docs/getting-started-designer-extensions\n  - aid: webflow:meta-api\n    name: Webflow Meta API\n    description: >-\n      The Webflow Meta API provides endpoints for retrieving information about\n      the authorized user and introspecting API tokens, including scopes and\n      permissions.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
   \    humanURL: https://developers.webflow.com/data/reference/rest-introduction\n    baseURL: https://api.webflow.com/v2\n    tags:\n      - Authentication\n      - Meta\n      - Tokens\n    properties:\n      - type: OpenAPI\n        url: openapi/webflow-meta-openapi.yml\n  - aid: webflow:sites-api\n    name: Webflow Sites API\n    description: >-\n      The Webflow Sites API provides endpoints for managing Webflow sites\n      within a workspace, including creating, updating, publishing, and\n      deleting sites, as well as managing custom domains, redirects,\n      robots.txt, and site activity logs.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.webflow.com/data/reference/rest-introduction\n    baseURL: https://api.webflow.com/v2\n    tags:\n      - Domains\n      - Publishing\n      - Sites\n    properties:\n      - type: OpenAPI\n        url: openapi/webflow-sites-openapi.yml\n  - aid: webflow:pages-api\n  \
@@ -264,8 +314,11 @@ source_yaml: "aid: webflow\nname: Webflow\ndescription: >-\n  Webflow provides a
   \ or inline scripts.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.webflow.com/data/reference/rest-introduction\n    baseURL: https://api.webflow.com/v2\n    tags:\n      - Custom Code\n      - JavaScript\n      - Scripts\n    properties:\n      - type: OpenAPI\n        url: openapi/webflow-custom-code-openapi.yml\n  - aid: webflow:comments-api\n    name: Webflow Comments API\n    description: >-\n      The Webflow Comments API provides endpoints for listing comment\n      threads and retrieving comment replies within a Webflow site.\n    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    humanURL: https://developers.webflow.com/data/reference/rest-introduction\n    baseURL: https://api.webflow.com/v2\n    tags:\n      - Collaboration\n      - Comments\n    properties:\n      - type: OpenAPI\n        url: openapi/webflow-comments-openapi.yml\ncommon:\n  - url: https://developers.webflow.com/\n\
   \    name: Webflow Developer Documentation\n    type: Portal\n    description: 'null'\n  - url: https://developers.webflow.com/data/docs/data-clients\n    name: Working with the Data API\n    type: Documentation\n    description: 'null'\n  - url: https://developers.webflow.com/data/reference/rest-introduction/quick-start\n    name: Getting Started | Webflow Developer Documentation\n    type: Getting Started\n    description: 'null'\n  - url: https://webflow.com/\n    name: Webflow - Website Builder\n    type: Website\n    description: 'null'\n  - url: https://webflow.com/blog\n    name: Webflow Blog\n    type: Blog\n    description: 'null'\n  - url: https://help.webflow.com/\n    name: Webflow Help Center\n    type: Support\n    description: 'null'\n  - url: https://forum.webflow.com/\n    name: Webflow Forum\n    type: Community\n    description: 'null'\n  - url: https://university.webflow.com/\n    name: Webflow University\n    type: LearningCenter\n    description: 'null'\n  - url:\
   \ https://github.com/webflow\n    name: Webflow GitHub Organization\n    type: GitHubOrganization\n    description: 'null'\n  - url: https://webflow.com/legal/terms\n    name: Terms of Service | Webflow\n    type: TermsOfService\n    description: 'null'\n  - url: https://webflow.com/legal/privacy\n    name: Privacy Policy | Webflow\n    type: PrivacyPolicy\n    description: 'null'\n  - url: https://status.webflow.com/\n    name: Webflow Status\n    type: Status\n    description: 'null'\n  - url: https://webflow.com/login\n    name: Webflow Login\n    type: Login\n    description: 'null'\n  - url: https://webflow.com/signup\n    name: Webflow Sign Up\n    type: Sign Up\n    description: 'null'\n  - url: https://webflow.com/marketplace\n    name: Webflow Marketplace\n    type: Marketplace\n    description: 'null'\n  - url: https://developers.webflow.com/apps/data/docs/register-an-app\n    name: Register an App\n    type: Getting Started\n    description: 'null'\n  - url: https://developers.webflow.com/data/reference/authentication\n\
-  \    name: Webflow Authentication\n    type: Authentication\n    description: 'null'\n  - url: https://developers.webflow.com/data/reference/rate-limits\n    name: Webflow Rate Limits\n    type: Rate Limits\n    description: 'null'\n  - url: https://developers.webflow.com/data/v2.0.0/changelog\n    name: Webflow API Changelog\n    type: Change Log\n    description: 'null'\n  - url: https://developers.webflow.com/data/reference/sdks\n    name: Webflow SDKs\n    type: SDKs\n    description: 'null'\n  - url: https://developers.webflow.com/data/docs/working-with-webhooks\n    name: Working with Webhooks\n    type: Webhooks\n    description: 'null'\n  - type: JSONSchema\n    url: json-schema/webflow-site-schema.json\n  - type: JSONSchema\n    url: json-schema/webflow-collection-item-schema.json\n  - type: JSONSchema\n    url: json-schema/webflow-order-schema.json\n  - type: JSONSchema\n    url: json-schema/webflow-webhook-schema.json\n  - type: JSON-LD\n    url: json-ld/webflow-context.jsonld\n\
-  maintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
+  \    name: Webflow Authentication\n    type: Authentication\n    description: 'null'\n  - url: https://developers.webflow.com/data/reference/rate-limits\n    name: Webflow Rate Limits\n    type: Rate Limits\n    description: 'null'\n  - url: https://developers.webflow.com/data/v2.0.0/changelog\n    name: Webflow API Changelog\n    type: Change Log\n    description: 'null'\n  - url: https://developers.webflow.com/data/reference/sdks\n    name: Webflow SDKs\n    type: SDKs\n    description: 'null'\n  - url: https://developers.webflow.com/data/docs/working-with-webhooks\n    name: Working with Webhooks\n    type: Webhooks\n    description: 'null'\n  - type: JSONSchema\n    url: json-schema/webflow-site-schema.json\n  - type: JSONSchema\n    url: json-schema/webflow-collection-item-schema.json\n  - type: JSONSchema\n    url: json-schema/webflow-order-schema.json\n  - type: JSONSchema\n    url: json-schema/webflow-webhook-schema.json\n  - type: JSONLD\n    url: json-ld/webflow-context.jsonld\n\
+  \  - type: SpectralRules\n    url: rules/webflow-spectral-rules.yml\n  - type: NaftikoCapability\n    url: capabilities/cms-and-ecommerce.yaml\n  - type: Vocabulary\n    url: vocabulary/webflow-vocabulary.yml\n  - name: Webflow Features\n    type: Features\n    data:\n      - name: Visual Web Builder\n        description: Drag-and-drop visual design with clean, production-ready HTML/CSS/JS output.\n      - name: CMS API\n        description: Programmatic management of CMS collections and items for dynamic content publishing.\n      - name: Ecommerce API\n        description: Complete ecommerce API for products, SKUs, orders, inventory, and payment integration.\n      - name: OAuth 2.0\n        description: Secure OAuth 2.0 authorization for building Webflow App integrations.\n      - name: Webhooks\n        description: Real-time event notifications for form submissions, publishing, ecommerce events, and CMS changes.\n      - name: AsyncAPI Webhooks\n        description: AsyncAPI specification\
+  \ documenting all Webflow webhook event schemas.\n      - name: Designer Extensions\n        description: Build custom panels and tools that run inside the Webflow Designer application.\n      - name: Site Publishing API\n        description: Programmatically publish Webflow sites to staging or custom production domains.\n  - name: Webflow Use Cases\n    type: UseCases\n    data:\n      - name: Headless CMS\n        description: Use Webflow as a headless CMS, managing content via the API with any frontend framework.\n      - name: Content Automation\n        description: Automatically create, update, and publish CMS items from external databases or APIs.\n      - name: Ecommerce Integration\n        description: Sync Webflow product catalog and orders with ERP, PIM, or inventory management systems.\n      - name: Multi-Site Management\n        description: Manage content and publishing across multiple Webflow sites from a centralized platform.\n      - name: Form Processing\n        description:\
+  \ Process form submissions via webhooks to integrate with CRM or marketing automation.\n      - name: Site Deployment Pipeline\n        description: Trigger Webflow site publishing as part of automated content approval or CI/CD workflows.\n  - name: Webflow Integrations\n    type: Integrations\n    data:\n      - name: Zapier\n        description: No-code Webflow integration for automating workflows with 5,000+ apps.\n      - name: Make (Integromat)\n        description: Visual automation platform for complex Webflow workflow automation.\n      - name: Airtable\n        description: Connect Airtable as a data source for Webflow CMS content.\n      - name: HubSpot\n        description: Sync Webflow form submissions and data with HubSpot CRM.\n      - name: Shopify\n        description: Import Shopify product catalog into Webflow ecommerce.\n      - name: Memberstack\n        description: Add membership and authentication features to Webflow sites.\nmaintainers:\n  - FN: Kin Lane\n    email:\
+  \ kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/apis.yml
 tags:
 - CMS
@@ -273,5 +326,17 @@ tags:
 - No-Code
 - Web Development
 url: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/apis.yml
-use_cases: []
+use_cases:
+- description: Use Webflow as a headless CMS, managing content via the API with any frontend framework.
+  name: Headless CMS
+- description: Automatically create, update, and publish CMS items from external databases or APIs.
+  name: Content Automation
+- description: Sync Webflow product catalog and orders with ERP, PIM, or inventory management systems.
+  name: Ecommerce Integration
+- description: Manage content and publishing across multiple Webflow sites from a centralized platform.
+  name: Multi-Site Management
+- description: Process form submissions via webhooks to integrate with CRM or marketing automation.
+  name: Form Processing
+- description: Trigger Webflow site publishing as part of automated content approval or CI/CD workflows.
+  name: Site Deployment Pipeline
 ---

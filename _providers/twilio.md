@@ -317,6 +317,16 @@ apis:
 - description: Twilio SendGrid Email API enables businesses to create, send, and manage emails at scale through RESTful APIs or SMTP relay. Trusted by top brands to deliver over 190 billion emails monthly, it provid
   name: Twilio SendGrid Email API
   slug: twilio-sendgrid-email-api
+capabilities:
+- description: Unified capability for customer-facing communications combining SMS/MMS messaging, outbound voice calls, and verification workflows. Used by customer engagement teams, marketing platforms, and notific
+  name: Twilio Customer Communications
+  slug: customer-communications
+- description: Capability combining Twilio Lookup for phone intelligence and Twilio Verify for identity verification. Used by security engineers, fraud prevention teams, and platform architects to validate users, de
+  name: Twilio Identity and Fraud Prevention
+  slug: identity-and-fraud-prevention
+- description: Real-time video communication capability combining Twilio Video for room management and Twilio Accounts for credential management. Used by developers building telehealth, remote collaboration, educati
+  name: Twilio Video Conferencing
+  slug: video-conferencing
 common:
 - title: ''
   type: Sign Up
@@ -438,8 +448,20 @@ common:
 - title: ''
   type: JSONLD
   url: json-ld/twilio-context.jsonld
+- title: ''
+  type: Spectral Rules
+  url: rules/twilio-rules.yml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/twilio-vocabulary.yml
+- title: ''
+  type: JSON Structure
+  url: json-structure/twilio-message-structure.json
+- title: ''
+  type: JSON Structure
+  url: json-structure/twilio-call-structure.json
 created: 2024/04/14
-description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services.
+description: Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.
 features: []
 image: https://www.twilio.com/bundles/company-brand/img/logos/red/twilio-logo-red.png
 integrations: []
@@ -449,8 +471,17 @@ jsonld:
   property_count: 12
   slug: twilio-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-03'
 name: Twilio
+rules:
+- name: Twilio API Rules
+  rule_count: 12
+  severity_counts:
+    error: 2
+    hint: 2
+    info: 0
+    warn: 8
+  slug: twilio-rules
 skills: []
 slug: twilio
 solutions: []

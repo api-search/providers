@@ -81,6 +81,16 @@ asyncapis:
 - description: The Sitecore CDP Stream API enables applications to send real-time behavioral and transactional events about users to the Sitecore Customer Data Platform. It is designed for high-throughput event inge
   name: Sitecore CDP Stream API
   slug: sitecore-cdp-stream-api-asyncapi
+capabilities:
+- description: Unified capability combining Sitecore OrderCloud headless commerce with Sitecore Discover search and recommendations. Enables commerce teams and developers to manage products, catalogs, orders, buyers
+  name: Sitecore Commerce and Discovery
+  slug: commerce-discovery
+- description: Unified capability for managing the full content lifecycle across XM Cloud sites and Content Hub digital assets. Enables developers and content operations teams to automate site provisioning, page man
+  name: Sitecore Content Management
+  slug: content-management
+- description: Unified capability combining Sitecore CDP guest data management with Sitecore Personalize decisioning and experimentation. Enables marketing technologists and developers to manage customer profiles, b
+  name: Sitecore Customer Data and Personalization
+  slug: customer-data-personalization
 common:
 - title: ''
   type: JSON-LD
@@ -91,8 +101,23 @@ common:
 - title: ''
   type: JSONSchema
   url: json-schema/sitecore-ordercloud-order-schema.json
+- title: ''
+  type: SpectralRules
+  url: rules/sitecore-rules.yml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/sitecore-vocabulary.yml
+- title: ''
+  type: Capabilities
+  url: capabilities/content-management.yaml
+- title: ''
+  type: Capabilities
+  url: capabilities/customer-data-personalization.yaml
+- title: ''
+  type: Capabilities
+  url: capabilities/commerce-discovery.yaml
 created: ''
-description: Sitecore is a global digital experience platform that combines content management, marketing automation, e-commerce, customer insight, and personalization to help brands deliver personalized customer experiences.
+description: Sitecore is a global digital experience platform that combines content management, marketing automation, e-commerce, customer insight, and personalization to help brands deliver personalized customer experiences. Through its developer documentation at doc.sitecore.com and api-docs.sitecore.com, Sitecore provides REST, GraphQL, and event-streaming APIs spanning XM Cloud, Customer Data Platform, Personalize, OrderCloud, Content Hub, and Discover.
 features: []
 image: ''
 integrations: []
@@ -102,8 +127,17 @@ jsonld:
   property_count: 14
   slug: sitecore-context
 layout: provider
-modified: '2026-03-21'
+modified: '2026-05-02'
 name: sitecore
+rules:
+- name: sitecore API Rules
+  rule_count: 14
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 4
+    warn: 6
+  slug: sitecore-rules
 skills: []
 slug: sitecore
 solutions: []
@@ -121,7 +155,8 @@ source_yaml: "aid: sitecore\nurl: https://raw.githubusercontent.com/api-evangeli
   \ the Content Hub identity\n      provider.\n\n  - aid: sitecore:content-hub-admin-api\n    name: Sitecore Content Hub Admin API\n    tags:\n      - Administration\n      - Content Hub\n      - Digital Asset Management\n      - GraphQL\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://your-tenant.stylelabs.io/api/graphql/admin/v1\n    humanURL: https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-admin-api.html\n    properties:\n      - url: https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-admin-api.html\n        type: Documentation\n    description: >-\n      The Sitecore Content Hub Admin API is a GraphQL API that provides access to\n      administrative functions within a Content Hub tenant, accessible at the path\n      /api/graphql/admin/v1 relative to the Content Hub instance URL. It enables programmatic\n      management of tenant-level configuration, schema definitions, and other administrative\n\
   \      resources that are not exposed through the standard REST API.\n\n  - aid: sitecore:ordercloud-api\n    name: Sitecore OrderCloud API\n    tags:\n      - B2B\n      - B2C\n      - Commerce\n      - Order Management\n      - REST\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.ordercloud.io/v1\n    humanURL: https://api-docs.sitecore.com/ordercloud\n    properties:\n      - url: https://api-docs.sitecore.com/ordercloud\n        type: Documentation\n      - type: OpenAPI\n        url: openapi/sitecore-ordercloud-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/sitecore-ordercloud-order-schema.json\n    description: >-\n      The Sitecore OrderCloud API is a headless, API-first commerce platform providing\n      RESTful endpoints for managing the full range of e-commerce operations including\n      products, catalogs, orders, buyers, sellers, promotions, and fulfillment. It\n      is designed to support\
   \ B2C, B2B, and B2B2C commerce models with a highly flexible\n      and extensible data model that allows custom properties on most resources.\n\n  - aid: sitecore:discover-api\n    name: Sitecore Discover API\n    tags:\n      - Commerce\n      - Product Discovery\n      - Recommendations\n      - Search\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.rfksrv.com\n    humanURL: https://doc.sitecore.com/discover/en/developers/discover-developer-guide/api-endpoints-and-methods.html\n    properties:\n      - url: https://doc.sitecore.com/discover/en/developers/discover-developer-guide/api-endpoints-and-methods.html\n        type: Documentation\n      - type: OpenAPI\n        url: openapi/sitecore-discover-api-openapi.yml\n    description: >-\n      The Sitecore Discover API provides search and product discovery capabilities\n      for commerce applications, enabling developers to build search experiences,\n      product listing\
-  \ pages, and recommendation widgets. It exposes endpoints for\n      full-text search, faceted filtering, product recommendations, and behavioral\n      event tracking that feeds back into the discovery algorithms.\n\ncommon:\n  - type: JSON-LD\n    url: json-ld/sitecore-context.jsonld\n  - type: JSONSchema\n    url: json-schema/sitecore-cdp-guest-schema.json\n  - type: JSONSchema\n    url: json-schema/sitecore-ordercloud-order-schema.json\n\nmodified: '2026-03-21'\ndescription: >-\n  Sitecore is a global digital experience platform that combines content management,\n  marketing automation, e-commerce, customer insight, and personalization to help\n  brands deliver personalized customer experiences.\n"
+  \ pages, and recommendation widgets. It exposes endpoints for\n      full-text search, faceted filtering, product recommendations, and behavioral\n      event tracking that feeds back into the discovery algorithms.\n\ncommon:\n  - type: JSON-LD\n    url: json-ld/sitecore-context.jsonld\n  - type: JSONSchema\n    url: json-schema/sitecore-cdp-guest-schema.json\n  - type: JSONSchema\n    url: json-schema/sitecore-ordercloud-order-schema.json\n  - type: SpectralRules\n    url: rules/sitecore-rules.yml\n  - type: Vocabulary\n    url: vocabulary/sitecore-vocabulary.yml\n  - type: Capabilities\n    url: capabilities/content-management.yaml\n  - type: Capabilities\n    url: capabilities/customer-data-personalization.yaml\n  - type: Capabilities\n    url: capabilities/commerce-discovery.yaml\n\nmodified: '2026-05-02'\ndescription: >-\n  Sitecore is a global digital experience platform that combines content management,\n  marketing automation, e-commerce, customer insight, and personalization to\
+  \ help\n  brands deliver personalized customer experiences. Through its developer documentation\n  at doc.sitecore.com and api-docs.sitecore.com, Sitecore provides REST, GraphQL, and\n  event-streaming APIs spanning XM Cloud, Customer Data Platform, Personalize, OrderCloud,\n  Content Hub, and Discover.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/apis.yml
 tags: []
 url: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/apis.yml

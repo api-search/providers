@@ -33,6 +33,10 @@ asyncapis:
 - description: Uniblock webhooks enable real-time notifications for blockchain events without the need to poll endpoints. By configuring webhooks through the Uniblock dashboard or API, developers can receive HTTP ca
   name: Uniblock Webhook Events
   slug: uniblock-webhooks-asyncapi
+capabilities:
+- description: Unified capability for blockchain data access via Uniblock. Combines the Unified API and Direct API into a single workflow surface for Web3 developers, DeFi analysts, portfolio trackers, and NFT platf
+  name: Uniblock Blockchain Data
+  slug: blockchain-data
 common:
 - title: ''
   type: JSON-LD
@@ -70,6 +74,15 @@ common:
 - title: ''
   type: Login
   url: https://app.uniblock.dev/
+- title: ''
+  type: Spectral Rules
+  url: rules/uniblock-rules.yml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/uniblock-vocabulary.yml
+- title: ''
+  type: Capabilities
+  url: capabilities/blockchain-data.yaml
 created: '2025-02-08'
 description: Uniblock is a Web3 infrastructure platform that provides a standardized API aggregating data from hundreds of DEXs and cross-chain bridges, abstracting the complexity of multi-chain development into a single endpoint. The platform completed $5.2 million in financing with $7.5 million in total funding.
 features: []
@@ -83,6 +96,15 @@ jsonld:
 layout: provider
 modified: '2026-03-24'
 name: Uniblock
+rules:
+- name: Uniblock API Rules
+  rule_count: 8
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 1
+    warn: 4
+  slug: uniblock-rules
 skills: []
 slug: uniblock
 solutions: []
@@ -92,7 +114,8 @@ source_yaml: "aid: uniblock\nurl: >-\n  https://raw.githubusercontent.com/api-ev
   \ https://docs.uniblock.dev/docs/unified-api-overview\n    properties:\n      - url: https://docs.uniblock.dev/docs/unified-api-overview\n        type: Documentation\n      - url: openapi/uniblock-unified-api-openapi.yml\n        type: OpenAPI\n      - url: asyncapi/uniblock-webhooks-asyncapi.yml\n        type: AsyncAPI\n    description: >-\n      The Uniblock Unified API provides a single standardized interface for interacting\n      with multiple blockchain networks and data providers. It offers higher-level\n      endpoints for common data needs including token metadata and balances, NFT collections\n      and assets, transaction lookups, and market data for pricing and analytics.\n  - aid: uniblock:direct-api\n    name: Uniblock Direct API\n    tags:\n      - Blockchain\n      - Pass-Through\n      - Providers\n      - Web3\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.uniblock.dev/direct/v1\n    humanURL: https://docs.uniblock.dev/docs/direct-api-overview\n\
   \    properties:\n      - url: https://docs.uniblock.dev/docs/direct-api-overview\n        type: Documentation\n      - url: openapi/uniblock-direct-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Uniblock Direct API gives developers access to provider-specific\n      endpoints exactly as offered by upstream blockchain data providers. This is\n      intended for use cases where a specific method is not yet abstracted into\n      the Unified API, allowing direct pass-through access to providers like\n      Alchemy, SimpleHash, TonAPI, and others. Requests follow the pattern of\n      specifying the provider and endpoint path, while still benefiting from\n      Uniblock's routing, retry, and failover infrastructure.\n  - aid: uniblock:json-rpc-api\n    name: Uniblock JSON-RPC API\n    tags:\n      - Blockchain\n      - EVM\n      - JSON-RPC\n      - Nodes\n      - Web3\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL:\
   \ https://api.uniblock.dev\n    humanURL: https://docs.uniblock.dev/reference/unified-api-reference-overview\n    properties:\n      - url: https://docs.uniblock.dev/reference/unified-api-reference-overview\n        type: Documentation\n      - url: openapi/uniblock-json-rpc-api-openapi.yml\n        type: OpenAPI\n    description: >-\n      The Uniblock JSON-RPC API provides a single endpoint for standard JSON-RPC\n      calls across hundreds of blockchain networks. Rather than managing\n      individual node provider connections for each chain, developers can send\n      JSON-RPC requests through Uniblock which automatically selects the best\n      upstream node provider. This supports standard Ethereum and EVM-compatible\n      JSON-RPC methods, as well as Solana and other chain-specific RPC interfaces,\n      with built-in failover and automatic retries.\ncommon:\n  - type: JSON-LD\n    url: json-ld/uniblock-context.jsonld\n  - type: JSONSchema\n    url: json-schema/uniblock-token-schema.json\n\
-  \  - type: JSONSchema\n    url: json-schema/uniblock-nft-schema.json\n  - type: JSONSchema\n    url: json-schema/uniblock-transaction-schema.json\n  - type: JSONSchema\n    url: json-schema/uniblock-webhook-event-schema.json\n  - type: Website\n    url: https://uniblock.dev/\n  - type: Portal\n    url: https://docs.uniblock.dev/\n  - type: Documentation\n    url: https://docs.uniblock.dev/docs/welcome-to-uniblock\n  - type: Getting Started\n    url: https://docs.uniblock.dev/docs/uniblock-quickstart-guide\n  - type: Blog\n    url: https://www.uniblock.dev/blog\n  - type: Features\n    url: https://www.uniblock.dev/features\n  - type: Integrations\n    url: https://www.uniblock.dev/integrations\n  - type: Chains\n    url: https://www.uniblock.dev/chains\n  - type: Login\n    url: https://app.uniblock.dev/\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
+  \  - type: JSONSchema\n    url: json-schema/uniblock-nft-schema.json\n  - type: JSONSchema\n    url: json-schema/uniblock-transaction-schema.json\n  - type: JSONSchema\n    url: json-schema/uniblock-webhook-event-schema.json\n  - type: Website\n    url: https://uniblock.dev/\n  - type: Portal\n    url: https://docs.uniblock.dev/\n  - type: Documentation\n    url: https://docs.uniblock.dev/docs/welcome-to-uniblock\n  - type: Getting Started\n    url: https://docs.uniblock.dev/docs/uniblock-quickstart-guide\n  - type: Blog\n    url: https://www.uniblock.dev/blog\n  - type: Features\n    url: https://www.uniblock.dev/features\n  - type: Integrations\n    url: https://www.uniblock.dev/integrations\n  - type: Chains\n    url: https://www.uniblock.dev/chains\n  - type: Login\n    url: https://app.uniblock.dev/\n  - type: Spectral Rules\n    url: rules/uniblock-rules.yml\n  - type: Vocabulary\n    url: vocabulary/uniblock-vocabulary.yml\n  - type: Capabilities\n    url: capabilities/blockchain-data.yaml\n\
+  maintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/apis.yml
 tags:
 - Blockchain

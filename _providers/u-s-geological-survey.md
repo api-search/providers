@@ -1,114 +1,145 @@
 ---
-api_count: 24
+api_count: 7
+api_specs:
+- filename: usgs-earthquake-api-openapi.yaml
+  format: yaml
+  label: Earthquake Notifications, Feeds, and Web Services
+  slug: earthquake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/usgs-earthquake-api-openapi.yaml
+- filename: usgs-water-data-api-openapi.yaml
+  format: yaml
+  label: USGS Water Data APIs
+  slug: water-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/usgs-water-data-api-openapi.yaml
 apis:
-- description: The USGS Asset Identifier Service (AIS) allows USGS personnel to reserve, register, publish, and manage USGS persistent identifiers to make our research more Findable, Accessible, Interoperable, and R
+- description: The USGS Earthquake Hazards Program provides real-time notifications and historical earthquake data through the FDSN Event Web Service. Search the ANSS ComCat earthquake catalog by geography, time, ma
+  name: Earthquake Notifications, Feeds, and Web Services
+  slug: earthquake-api
+- description: The USGS Water Data OGC APIs provide standardized access to USGS water monitoring data including continuous streamflow, daily values, groundwater levels, discrete water quality measurements, and monit
+  name: USGS Water Data APIs
+  slug: water-data-api
+- description: The USGS Asset Identifier Service (AIS) allows USGS personnel to reserve, register, publish, and manage USGS persistent identifiers to make research more Findable, Accessible, Interoperable, and Reusa
   name: Asset Identifier Service (AIS)
   slug: asset-identifier-service-ais
-- description: Web services produced by the U.S. Geological Survey for calculating parameter values from various seismic design reference documents.
+- description: Web services produced by the U.S. Geological Survey for calculating parameter values from various seismic design reference documents for engineering and construction purposes.
   name: Seismic Design Web Service
   slug: seismic-design-web-service
-- description: Real-time Notifications, Feeds, and Web Services.
-  name: Real-Time Notifications, Feeds, and Web Services
-  slug: real-time-notifications-feeds-and-web-services
-- description: ScienceBase is a Trusted Digital Repository (TDR) in the U.S. Geological Survey (USGS). The platform is developed and maintained by the USGS Science Analytics and Synthesis (SAS) Science Data Manageme
+- description: ScienceBase is a USGS Trusted Digital Repository that provides permission-controlled and public access to scientific data products through a REST API supporting upload, documentation, and sharing of r
   name: ScienceBase
   slug: sciencebase
-- description: 'The Science Data Catalog (SDC) is the official public and searchable index that aggregates descriptions of all public research data that have been published by the USGS. Federal research institutions '
-  name: Science Data Catalog
-  slug: science-data-catalog
-- description: 'The USGS Model Catalog compiles and connects data, software, and publications about scientific models developed by the U.S. Geological Survey (USGS) or developed by external organizations and used in '
-  name: Model Catalog
-  slug: model-catalog
-- description: Web Service for Geomagnetism Data.
-  name: Web Service for Geomagnetism Data
-  slug: web-service-for-geomagnetism-data
-- description: The Science Analytics and Synthesis Program (SAS) of the U.S. Geological Survey (USGS) manages the U.S. Node to GBIF, GBIF-US, to facilitate access to species occurrence data (presence and absence), a
-  name: GBIF-US
-  slug: gbif-us
-- description: 'Water Data Labs is an experimental site that exposes tools and technologies in development by the USGS Water Data for the Nation software team. Here, users can explore and test experimental products, '
-  name: Water Data Labs
-  slug: water-data-labs
-- description: The USGS Water Services site serves USGS water data (streamflow, groundwater, water quality, site information, and statistics) via automated means using web services and extensible markup language (XM
-  name: USGS Water Services
-  slug: usgs-water-services
-- description: The USGS Southeast Regional Office has funded a cross-center collaboration between the Wetland and Aquatic Research Center and the Texas Water Science Center for the development of the Gulf of America
-  name: GOA - Dashboard
-  slug: goa-dashboard
-- description: The StreamStats application uses data web services that were created for it. When in use, the application manages interactions between the user and the services. However, the web services can be direc
+- description: The StreamStats Web Services provide HTTP-accessible hydrological analysis services for delineating drainage areas, estimating peak flows, and computing basin characteristics for water resources plann
   name: StreamStats Web Services
   slug: streamstats-web-services
-- description: 'The water level of Wapato Lake dictates the size (surface area) of the lake and the amount of water that it stores. This web page allows the user to interactively explore Wapato Lake water level data '
-  name: Wapato Lake Interactive Lake Level Tool
-  slug: wapato-lake-interactive-lake-level-tool
-- description: Web services produced by the U.S. Geological Survey for calculating parameter values from various seismic design reference documents.
-  name: Seismic Design Web Service
-  slug: seismic-design-web-service
-- description: Know about earthquakes just after they happen in real-time via txt message, email, or social media. Plus, get everything you might need to add these earthquake alerts into your own web applications.
-  name: Earthquake Notifications, Feeds, and Web Services
-  slug: earthquake-notifications-feeds-and-web-services
-- description: ScienceBase is a Trusted Digital Repository (TDR) in the U.S. Geological Survey (USGS). The platform is developed and maintained by the USGS Science Analytics and Synthesis (SAS) Science Data Manageme
-  name: ScienceBase
-  slug: sciencebase
-- description: StreamStats provides access to spatial analytical tools that are useful for water-resources planning and management, and for engineering and design purposes. The map-based user interface can be used t
-  name: StreamStats
-  slug: streamstats
-- description: The JEM community of practice is focused on ecological modeling and monitoring across the Greater Everglades, with particular interest in habitats, how various factors affect habitat change, and how t
-  name: Joint Ecosystem Modeling (JEM) Support
-  slug: joint-ecosystem-modeling-jem-support
-- description: Working with the Joint Ecosystem Modeling (JEM) community of practice, the WARC Advanced Applications Team developed and maintains the EverVIEW Data Viewer desktop visualization platform, which allows
-  name: Everglades Eco-Modeling Data Visualization and Tool Development
-  slug: everglades-eco-modeling-data-visualization-and-tool-development
-- description: WARCs Advanced Applications Team is responsible for data management and application development to support the biological monitoring components of coastal restoration projects in the Louisiana Coastal
-  name: Coastal Information Management System (CIMS)
-  slug: coastal-information-management-system-cims
-- description: The ITIS mission is to communicate a comprehensive taxonomy of global species that enables biodiversity information to be discovered, indexed, and connected across all human endeavors. Use the ITIS se
-  name: Integrated Taxonomic Information System (ITIS)
-  slug: integrated-taxonomic-information-system-itis
-- description: Species of Greatest Conservation Need are lists of species designated in the 56 State Wildlife Action Plans which identify the species most in need of conservation action in that state or U.S. territo
-  name: Species of Greatest Conservation Need Analysis Tool
-  slug: species-of-greatest-conservation-need-analysis-tool
-- description: The National Vegetation Classification (NVC) is your guide to inventorying plant communities. The standard allows users to produce uniform statistics about vegetation resources across the nation. CSAS
-  name: National Vegetation Classification Standard
-  slug: national-vegetation-classification-standard
-- description: Since 1985 site-specific water-use data for several categories have been collected and compiled annually by the Arkansas Natural Resources Commission (ANRC) in cooperation with the USGS.Data for the i
-  name: Arkansas Wateruse
-  slug: arkansas-wateruse
-common: []
+- description: The original USGS NWIS water services API providing streamflow, groundwater, water quality, and site information via REST protocol in XML and other media types. High availability and fault-tolerant de
+  name: USGS Water Services (Legacy)
+  slug: usgs-water-services
+capabilities:
+- description: Workflow capability for geoscientists, emergency managers, hydrologists, and researchers to access USGS real-time earthquake data and water monitoring data. Combines the USGS Earthquake API and USGS W
+  name: USGS Geoscience Data Access
+  slug: geoscience-data-access
+common:
+- title: ''
+  type: Website
+  url: https://www.usgs.gov/
+- title: ''
+  type: GitHubOrganization
+  url: https://github.com/usgs
+- title: ''
+  type: Documentation
+  url: https://www.usgs.gov/products/web-tools/apis
+- title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/rules/usgs-spectral-rules.yml
+- title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/vocabulary/u-s-geological-survey-vocabulary.yaml
+- title: Geoscience Data Access
+  type: NaftikoCapability
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/capabilities/geoscience-data-access.yaml
 created: '2024-11-14'
-description: The U.S. Geological Survey (USGS) is a scientific agency of the U.S. government that conducts research and provides data on the natural resources and hazards of the United States. The USGS is known for its work in mapping and monitoring earthquakes, volcanoes, and landslides to help mitigate risks and protect communities. They also study water resources, including monitoring groundwater levels and water quality, which is essential for managing and conserving water supplies.
-features: []
+description: The U.S. Geological Survey (USGS) is a scientific agency of the U.S. government that conducts research and provides data on the natural resources and hazards of the United States. The USGS is known for its work in mapping and monitoring earthquakes, volcanoes, and landslides to help mitigate risks and protect communities. USGS also studies water resources including streamflow, groundwater, and water quality through a nationwide network of monitoring stations. Their public APIs provide programmatic access to real-time earthquake data, water monitoring observations, seismic design parameters, and geospatial data products.
+features:
+- description: Search the USGS ANSS ComCat earthquake catalog by geography, time, magnitude, depth, and event type with 20,000 event limit per query.
+  name: Earthquake Catalog Query
+- description: Access near real-time earthquake data updated within minutes of events occurring anywhere in the world.
+  name: Real-Time Earthquake Data
+- description: Query USGS stream gages, groundwater wells, and other water quality monitoring stations by state, watershed, or geographic area.
+  name: Water Monitoring Locations
+- description: Retrieve continuous and daily water data including streamflow, stage, temperature, and water quality parameters.
+  name: Water Data Time Series
+- description: USGS Water Data APIs implement OGC API Features standard supporting CQL2 filtering, spatial queries, and standardized output formats.
+  name: OGC API Compliance
+- description: All spatial data returned in GeoJSON format compatible with mapping libraries and geospatial analysis tools.
+  name: GeoJSON Output
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-integrations: []
+integrations:
+- description: Open-source tools including libcomcat, rcomcat, and other clients for accessing USGS earthquake and water data.
+  name: USGS GitHub Organization
+- description: The flagship USGS water data portal at waterdata.usgs.gov providing maps and tools built on the NWIS water services API.
+  name: USGS Water Data for the Nation
+- description: Legacy USGS water data system providing the underlying data for Water Data APIs with millions of site records.
+  name: National Water Information System (NWIS)
+- description: USGS earthquake API implements FDSN (International Federation of Digital Seismograph Networks) web service specifications.
+  name: FDSN Standards
+jsonld:
+- class_count: 6
+  name: Usgs Earthquake Api Context
+  property_count: 35
+  slug: usgs-earthquake-api-context
+- class_count: 12
+  name: Usgs Water Data Api Context
+  property_count: 30
+  slug: usgs-water-data-api-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-03'
 name: U.S. Geological Survey
+rules:
+- name: U.S. Geological Survey API Rules
+  rule_count: 33
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 10
+    warn: 14
+  slug: usgs-spectral-rules
 skills: []
 slug: u-s-geological-survey
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: u-s-geological-survey\nurl: >-\n  https://raw.githubusercontent.com/api-search/u-s-geological-survey/refs/heads/main/apis.yml\napis:\n  - aid: u-s-geological-survey:asset-identifier-service-ais\n    name: Asset Identifier Service (AIS)\n    tags: []\n    humanURL: https://www.usgs.gov/tools/asset-identifier-service-ais\n    properties:\n      - url: https://www.usgs.gov/tools/asset-identifier-service-ais\n        type: Documentation\n    description: >-\n      The USGS Asset Identifier Service (AIS) allows USGS personnel to reserve, register,\n      publish, and manage USGS persistent identifiers to make our research more Findable,\n      Accessible, Interoperable, and Reusable (FAIR). AIS includes separate modules\n      for unique identifier types including the following:.\n  - aid: u-s-geological-survey:seismic-design-web-service\n    name: Seismic Design Web Service\n    tags: []\n    humanURL: https://earthquake.usgs.gov/ws/designmaps/\n    properties:\n      - url:\
-  \ https://earthquake.usgs.gov/ws/designmaps/\n        type: Documentation\n    description: >-\n      Web services produced by the U.S. Geological Survey for calculating\n      parameter values from various seismic design reference documents.\n  - aid: u-s-geological-survey:real-time-notifications-feeds-and-web-services\n    name: Real-Time Notifications, Feeds, and Web Services\n    tags: []\n    humanURL: https://earthquake.usgs.gov/earthquakes/feed/\n    properties:\n      - url: https://earthquake.usgs.gov/earthquakes/feed/\n        type: Documentation\n    description: >-\n      Real-time Notifications, Feeds, and Web Services.\n  - aid: u-s-geological-survey:sciencebase\n    name: ScienceBase\n    tags: []\n    humanURL: https://www.usgs.gov/tools/sciencebase\n    properties:\n      - url: https://www.usgs.gov/tools/sciencebase\n        type: Documentation\n    description: >-\n      ScienceBase is a Trusted Digital Repository (TDR) in the U.S. Geological Survey\n      (USGS). The\
-  \ platform is developed and maintained by the USGS Science Analytics\n      and Synthesis (SAS) Science Data Management (SDM) team to provide both permission-controlled\n      and public access to scientific data products and bureau resources.\n  - aid: u-s-geological-survey:science-data-catalog\n    name: Science Data Catalog\n    tags: []\n    humanURL: https://www.usgs.gov/tools/science-data-catalog\n    properties:\n      - url: https://www.usgs.gov/tools/science-data-catalog\n        type: Documentation\n    description: >-\n      The Science Data Catalog (SDC) is the official public and searchable index that\n      aggregates descriptions of all public research data that have been published\n      by the USGS. Federal research institutions are required by the Office of Management\n      and Budget (OMB) to provide a publicly searchable index of their published research\n      data.\n  - aid: u-s-geological-survey:model-catalog\n    name: Model Catalog\n    tags: []\n    humanURL:\
-  \ https://www.usgs.gov/tools/model-catalog\n    properties:\n      - url: https://www.usgs.gov/tools/model-catalog\n        type: Documentation\n    description: >-\n      The USGS Model Catalog compiles and connects data, software, and publications\n      about scientific models developed by the U.S. Geological Survey (USGS) or developed\n      by external organizations and used in USGS investigations.\n  - aid: u-s-geological-survey:web-service-for-geomagnetism-data\n    name: Web Service for Geomagnetism Data\n    tags: []\n    humanURL: https://www.usgs.gov/tools/web-service-geomagnetism-data\n    properties:\n      - url: https://www.usgs.gov/tools/web-service-geomagnetism-data\n        type: Documentation\n    description: >-\n      Web Service for Geomagnetism Data.\n  - aid: u-s-geological-survey:gbif-us\n    name: GBIF-US\n    tags: []\n    humanURL: https://www.usgs.gov/tools/gbif-us\n    properties:\n      - url: https://www.usgs.gov/tools/gbif-us\n        type: Documentation\n\
-  \    description: >-\n      The Science Analytics and Synthesis Program (SAS) of the U.S. Geological Survey\n      (USGS) manages the U.S. Node to GBIF, GBIF-US, to facilitate access to species\n      occurrence data (presence and absence), analyses and investigations of species\n      trends, drivers of change, and potential implications of future changes in biodiversity\n      in the United States and U.S. Territories.\n  - aid: u-s-geological-survey:water-data-labs\n    name: Water Data Labs\n    tags: []\n    humanURL: https://www.usgs.gov/tools/water-data-labs\n    properties:\n      - url: https://www.usgs.gov/tools/water-data-labs\n        type: Documentation\n    description: >-\n      Water Data Labs is an experimental site that exposes tools and technologies\n      in development by the USGS Water Data for the Nation software team. Here, users\n      can explore and test experimental products, services, tools, and visualizations.Media.\n  - aid: u-s-geological-survey:usgs-water-services\n\
-  \    name: USGS Water Services\n    tags: []\n    humanURL: https://www.usgs.gov/tools/usgs-water-services\n    properties:\n      - url: https://www.usgs.gov/tools/usgs-water-services\n        type: Documentation\n    description: >-\n      The USGS Water Services site serves USGS water data (streamflow, groundwater,\n      water quality, site information, and statistics) via automated means using web\n      services and extensible markup language (XML), as well as other popular media\n      types. Services are invoked with the REST protocol. These services designed\n      for high fault tolerance and very high availability.\n  - aid: u-s-geological-survey:goa-dashboard\n    name: GOA - Dashboard\n    tags: []\n    humanURL: https://www.usgs.gov/tools/goa-dashboard\n    properties:\n      - url: https://www.usgs.gov/tools/goa-dashboard\n        type: Documentation\n    description: >-\n      The USGS Southeast Regional Office has funded a cross-center collaboration between\n      the\
-  \ Wetland and Aquatic Research Center and the Texas Water Science Center for\n      the development of the Gulf of America Water Dashboard.\n  - aid: u-s-geological-survey:streamstats-web-services\n    name: StreamStats Web Services\n    tags: []\n    humanURL: https://www.usgs.gov/tools/streamstats-web-services\n    properties:\n      - url: https://www.usgs.gov/tools/streamstats-web-services\n        type: Documentation\n    description: >-\n      The StreamStats application uses data web services that were created for\n      it. When in use, the application manages interactions between the user and\n      the services. However, the web services can be directly accessed using the\n      StreamStats Service API documented here or consumed by a custom client\n      application using HTTP protocols.\n  - aid: u-s-geological-survey:wapato-lake-interactive-lake-level-tool\n    name: Wapato Lake Interactive Lake Level Tool\n    tags: []\n    humanURL: https://www.usgs.gov/tools/wapato-lake-interactive-lake-level-tool\n\
-  \    properties:\n      - url: https://www.usgs.gov/tools/wapato-lake-interactive-lake-level-tool\n        type: Documentation\n    description: >-\n      The water level of Wapato Lake dictates the size (surface area) of the\n      lake and the amount of water that it stores. This web page allows the user\n      to interactively explore Wapato Lake water level data and how the water\n      level translates into lake area and volume.\n  - aid: u-s-geological-survey:seismic-design-web-service\n    name: Seismic Design Web Service\n    tags: []\n    humanURL: https://earthquake.usgs.gov/ws/designmaps/\n    properties:\n      - url: https://earthquake.usgs.gov/ws/designmaps/\n        type: Documentation\n    description: >-\n      Web services produced by the U.S. Geological Survey for calculating\n      parameter values from various seismic design reference documents.\n  - aid: u-s-geological-survey:earthquake-notifications-feeds-and-web-services\n    name: Earthquake Notifications, Feeds,\
-  \ and Web Services\n    tags: []\n    humanURL: https://www.usgs.gov/tools/earthquake-notifications-feeds-and-web-services\n    properties:\n      - url: >-\n          https://www.usgs.gov/tools/earthquake-notifications-feeds-and-web-services\n        type: Documentation\n    description: >-\n      Know about earthquakes just after they happen in real-time via txt\n      message, email, or social media. Plus, get everything you might need to\n      add these earthquake alerts into your own web applications.\n  - aid: u-s-geological-survey:sciencebase\n    name: ScienceBase\n    tags: []\n    humanURL: https://www.usgs.gov/tools/sciencebase\n    properties:\n      - url: https://www.usgs.gov/tools/sciencebase\n        type: Documentation\n    description: >-\n      ScienceBase is a Trusted Digital Repository (TDR) in the U.S. Geological Survey\n      (USGS). The platform is developed and maintained by the USGS Science Analytics\n      and Synthesis (SAS) Science Data Management (SDM) team\
-  \ to provide both permission-controlled\n      and public access to scientific data products and bureau resources.\n  - aid: u-s-geological-survey:streamstats\n    name: StreamStats\n    tags: []\n    humanURL: https://www.usgs.gov/streamstats\n    properties:\n      - url: https://www.usgs.gov/streamstats\n        type: Documentation\n    description: >-\n      StreamStats provides access to spatial analytical tools that are useful\n      for water-resources planning and management, and for engineering and\n      design purposes. The map-based user interface can be used to delineate\n      drainage areas, get basin characteristics and estimates of flow\n      statistics, and more. Available information varies from state to state.\n  - aid: u-s-geological-survey:joint-ecosystem-modeling-jem-support\n    name: Joint Ecosystem Modeling (JEM) Support\n    tags: []\n    humanURL: https://www.usgs.gov/tools/joint-ecosystem-modeling-jem-support\n    properties:\n      - url: https://www.usgs.gov/tools/joint-ecosystem-modeling-jem-support\n\
-  \        type: Documentation\n    description: >-\n      The JEM community of practice is focused on ecological modeling and\n      monitoring across the Greater Everglades, with particular interest in\n      habitats, how various factors affect habitat change, and how the organisms\n      dependent on those habitats respond today and into the future.\n  - aid: >-\n      u-s-geological-survey:everglades-eco-modeling-data-visualization-and-tool-development\n    name: Everglades Eco-Modeling Data Visualization and Tool Development\n    tags: []\n    humanURL: >-\n      https://www.usgs.gov/tools/everglades-eco-modeling-data-visualization-and-tool-development\n    properties:\n      - url: >-\n          https://www.usgs.gov/tools/everglades-eco-modeling-data-visualization-and-tool-development\n        type: Documentation\n    description: >-\n      Working with the Joint Ecosystem Modeling (JEM) community of practice, the WARC\n      Advanced Applications Team developed and maintains the\
-  \ EverVIEW Data Viewer\n      desktop visualization platform, which allows users to easily visualize and inspect\n      standards-compliant NetCDF modeling data and has experienced tremendous feature\n      growth driven by user feedback.\n  - aid: u-s-geological-survey:coastal-information-management-system-cims\n    name: Coastal Information Management System (CIMS)\n    tags: []\n    humanURL: https://www.usgs.gov/tools/coastal-information-management-system-cims\n    properties:\n      - url: https://www.usgs.gov/tools/coastal-information-management-system-cims\n        type: Documentation\n    description: >-\n      WARCs Advanced Applications Team is responsible for data management and application\n      development to support the biological monitoring components of coastal restoration\n      projects in the Louisiana Coastal Protection and Restoration Authority portfolio.\n  - aid: u-s-geological-survey:integrated-taxonomic-information-system-itis\n    name: Integrated Taxonomic Information\
-  \ System (ITIS)\n    tags: []\n    humanURL: https://www.usgs.gov/tools/integrated-taxonomic-information-system-itis\n    properties:\n      - url: >-\n          https://www.usgs.gov/tools/integrated-taxonomic-information-system-itis\n        type: Documentation\n    description: >-\n      The ITIS mission is to communicate a comprehensive taxonomy of global species\n      that enables biodiversity information to be discovered, indexed, and connected\n      across all human endeavors. Use the ITIS search, download, API, and web tools\n      as a standardized reference of scientific names and their taxonomic hierarchy.\n  - aid: u-s-geological-survey:species-of-greatest-conservation-need-analysis-tool\n    name: Species of Greatest Conservation Need Analysis Tool\n    tags: []\n    humanURL: >-\n      https://www.usgs.gov/tools/species-greatest-conservation-need-analysis-tool\n    properties:\n      - url: >-\n          https://www.usgs.gov/tools/species-greatest-conservation-need-analysis-tool\n\
-  \        type: Documentation\n    description: >-\n      Species of Greatest Conservation Need are lists of species designated in\n      the 56 State Wildlife Action Plans which identify the species most in need\n      of conservation action in that state or U.S. territory. USGS developed a\n      process that allows these lists to be compiled into a national list,\n      making their representation across taxa groups available via the Species\n      Conservation Analysis Tool.\n  - aid: u-s-geological-survey:national-vegetation-classification-standard\n    name: National Vegetation Classification Standard\n    tags: []\n    humanURL: https://www.usgs.gov/tools/national-vegetation-classification-standard\n    properties:\n      - url: https://www.usgs.gov/tools/national-vegetation-classification-standard\n        type: Documentation\n    description: >-\n      The National Vegetation Classification (NVC) is your guide to inventorying plant\n      communities. The standard allows users\
-  \ to produce uniform statistics about vegetation\n      resources across the nation. CSAS.\n  - aid: u-s-geological-survey:arkansas-wateruse\n    name: Arkansas Wateruse\n    tags: []\n    humanURL: https://www.usgs.gov/tools/arkansas-wateruse\n    properties:\n      - url: https://www.usgs.gov/tools/arkansas-wateruse\n        type: Documentation\n    description: >-\n      Since 1985 site-specific water-use data for several categories have been collected\n      and compiled annually by the Arkansas Natural Resources Commission (ANRC) in\n      cooperation with the USGS.Data for the irrigation and livestock ( animal specialties\n      ) categories are reported through the Conservation District Offices in each\n      county.\nname: U.S. Geological Survey\ntags:\n  - Federal Government\n  - Geological\n  - Mining\n  - Natural Resources\ntype: Contract\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncommon: []\ncreated: '2024-11-14'\n\
-  modified: '2026-03-16'\nposition: Consuming\ndescription: >-\n  The U.S. Geological Survey (USGS) is a scientific agency of the U.S. government\n  that conducts research and provides data on the natural resources and hazards of\n  the United States. The USGS is known for its work in mapping and monitoring earthquakes,\n  volcanoes, and landslides to help mitigate risks and protect communities. They also\n  study water resources, including monitoring groundwater levels and water quality,\n  which is essential for managing and conserving water supplies.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\n"
+source_yaml: "aid: u-s-geological-survey\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/apis.yml\napis:\n  - aid: u-s-geological-survey:earthquake-api\n    name: Earthquake Notifications, Feeds, and Web Services\n    tags:\n      - Earthquakes\n      - Seismic\n      - Geoscience\n    humanURL: https://earthquake.usgs.gov/earthquakes/feed/\n    baseURL: https://earthquake.usgs.gov/fdsnws/event/1\n    properties:\n      - url: https://earthquake.usgs.gov/fdsnws/event/1/\n        type: Documentation\n      - url: https://earthquake.usgs.gov/earthquakes/feed/\n        type: GettingStarted\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/usgs-earthquake-api-openapi.yaml\n        type: OpenAPI\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/json-schema/usgs-earthquake-api-earthquake-properties-schema.json\n\
+  \        type: JSONSchema\n        title: Earthquake Properties Schema\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/json-ld/usgs-earthquake-api-context.jsonld\n        type: JSON-LD\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/examples/usgs-earthquake-api-earthquake-properties-example.json\n        type: Example\n        title: Earthquake Properties Example\n    description: >-\n      The USGS Earthquake Hazards Program provides real-time notifications and\n      historical earthquake data through the FDSN Event Web Service. Search the\n      ANSS ComCat earthquake catalog by geography, time, magnitude, and depth.\n      Responses available in GeoJSON, CSV, KML, and QuakeML formats.\n\n  - aid: u-s-geological-survey:water-data-api\n    name: USGS Water Data APIs\n    tags:\n      - Water\n      - Hydrology\n      - Streamflow\n      - Groundwater\n\
+  \    humanURL: https://api.waterdata.usgs.gov/\n    baseURL: https://api.waterdata.usgs.gov/ogcapi/v0\n    properties:\n      - url: https://api.waterdata.usgs.gov/docs/\n        type: Documentation\n      - url: https://api.waterdata.usgs.gov/signup/\n        type: Authentication\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/usgs-water-data-api-openapi.yaml\n        type: OpenAPI\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/json-schema/usgs-water-data-api-monitoring-location-properties-schema.json\n        type: JSONSchema\n        title: Monitoring Location Schema\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/json-schema/usgs-water-data-api-time-series-properties-schema.json\n        type: JSONSchema\n        title: Time Series Properties Schema\n      - url: >-\n       \
+  \   https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/json-ld/usgs-water-data-api-context.jsonld\n        type: JSON-LD\n      - url: >-\n          https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/examples/usgs-water-data-api-monitoring-location-properties-example.json\n        type: Example\n        title: Monitoring Location Example\n    description: >-\n      The USGS Water Data OGC APIs provide standardized access to USGS water\n      monitoring data including continuous streamflow, daily values, groundwater\n      levels, discrete water quality measurements, and monitoring location\n      metadata. Implements OGC API Features standard with spatial and temporal\n      filtering support.\n\n  - aid: u-s-geological-survey:asset-identifier-service-ais\n    name: Asset Identifier Service (AIS)\n    tags:\n      - Identifiers\n      - Research Data\n    humanURL: https://www.usgs.gov/tools/asset-identifier-service-ais\n\
+  \    properties:\n      - url: https://www.usgs.gov/tools/asset-identifier-service-ais\n        type: Documentation\n    description: >-\n      The USGS Asset Identifier Service (AIS) allows USGS personnel to reserve,\n      register, publish, and manage USGS persistent identifiers to make research\n      more Findable, Accessible, Interoperable, and Reusable (FAIR).\n\n  - aid: u-s-geological-survey:seismic-design-web-service\n    name: Seismic Design Web Service\n    tags:\n      - Seismic\n      - Engineering\n    humanURL: https://earthquake.usgs.gov/ws/designmaps/\n    properties:\n      - url: https://earthquake.usgs.gov/ws/designmaps/\n        type: Documentation\n    description: >-\n      Web services produced by the U.S. Geological Survey for calculating\n      parameter values from various seismic design reference documents for\n      engineering and construction purposes.\n\n  - aid: u-s-geological-survey:sciencebase\n    name: ScienceBase\n    tags:\n      - Research Data\n\
+  \      - Data Repository\n    humanURL: https://www.usgs.gov/tools/sciencebase\n    properties:\n      - url: https://www.usgs.gov/tools/sciencebase\n        type: Documentation\n      - url: https://www.usgs.gov/sciencebase-instructions-and-documentation/api-and-web-services\n        type: Documentation\n        title: ScienceBase API Documentation\n    description: >-\n      ScienceBase is a USGS Trusted Digital Repository that provides\n      permission-controlled and public access to scientific data products\n      through a REST API supporting upload, documentation, and sharing of\n      research data.\n\n  - aid: u-s-geological-survey:streamstats-web-services\n    name: StreamStats Web Services\n    tags:\n      - Hydrology\n      - Streamflow\n      - Statistics\n    humanURL: https://www.usgs.gov/tools/streamstats-web-services\n    properties:\n      - url: https://www.usgs.gov/tools/streamstats-web-services\n        type: Documentation\n    description: >-\n      The StreamStats\
+  \ Web Services provide HTTP-accessible hydrological analysis\n      services for delineating drainage areas, estimating peak flows, and\n      computing basin characteristics for water resources planning.\n\n  - aid: u-s-geological-survey:usgs-water-services\n    name: USGS Water Services (Legacy)\n    tags:\n      - Water\n      - Hydrology\n      - Legacy\n    humanURL: https://www.usgs.gov/tools/usgs-water-services\n    properties:\n      - url: https://nwis.waterservices.usgs.gov/\n        type: Documentation\n    description: >-\n      The original USGS NWIS water services API providing streamflow, groundwater,\n      water quality, and site information via REST protocol in XML and other media\n      types. High availability and fault-tolerant design.\n\nname: U.S. Geological Survey\ntags:\n  - Federal Government\n  - Geological\n  - Earth Science\n  - Natural Resources\n  - Earthquake\n  - Water\n  - Hydrology\ntype: Contract\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
+  access: 3rd-Party\ncommon:\n  - type: Website\n    url: https://www.usgs.gov/\n  - type: GitHubOrganization\n    url: https://github.com/usgs\n  - type: Documentation\n    url: https://www.usgs.gov/products/web-tools/apis\n  - type: SpectralRules\n    url: >-\n      https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/rules/usgs-spectral-rules.yml\n  - type: Vocabulary\n    url: >-\n      https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/vocabulary/u-s-geological-survey-vocabulary.yaml\n  - type: NaftikoCapability\n    url: >-\n      https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/capabilities/geoscience-data-access.yaml\n    title: Geoscience Data Access\n  - type: Features\n    data:\n      - name: Earthquake Catalog Query\n        description: >-\n          Search the USGS ANSS ComCat earthquake catalog by geography, time,\n          magnitude, depth, and event type with 20,000\
+  \ event limit per query.\n      - name: Real-Time Earthquake Data\n        description: >-\n          Access near real-time earthquake data updated within minutes of\n          events occurring anywhere in the world.\n      - name: Water Monitoring Locations\n        description: >-\n          Query USGS stream gages, groundwater wells, and other water quality\n          monitoring stations by state, watershed, or geographic area.\n      - name: Water Data Time Series\n        description: >-\n          Retrieve continuous and daily water data including streamflow, stage,\n          temperature, and water quality parameters.\n      - name: OGC API Compliance\n        description: >-\n          USGS Water Data APIs implement OGC API Features standard supporting\n          CQL2 filtering, spatial queries, and standardized output formats.\n      - name: GeoJSON Output\n        description: >-\n          All spatial data returned in GeoJSON format compatible with mapping\n          libraries\
+  \ and geospatial analysis tools.\n  - type: UseCases\n    data:\n      - name: Earthquake Hazard Monitoring\n        description: >-\n          Emergency managers and scientists monitor real-time earthquake activity\n          for hazard assessment and emergency response planning.\n      - name: Flood Forecasting\n        description: >-\n          Hydrologists use USGS streamflow data for flood prediction, water\n          supply forecasting, and reservoir management.\n      - name: Groundwater Management\n        description: >-\n          Water managers track groundwater level trends for sustainable\n          aquifer management and drought assessment.\n      - name: Environmental Research\n        description: >-\n          Researchers use USGS geological and water data for environmental impact\n          assessments and climate change studies.\n      - name: Engineering Design\n        description: >-\n          Civil engineers use USGS water data and seismic design services for\n\
+  \          infrastructure planning and construction.\n  - type: Integrations\n    data:\n      - name: USGS GitHub Organization\n        description: >-\n          Open-source tools including libcomcat, rcomcat, and other clients\n          for accessing USGS earthquake and water data.\n      - name: USGS Water Data for the Nation\n        description: >-\n          The flagship USGS water data portal at waterdata.usgs.gov providing\n          maps and tools built on the NWIS water services API.\n      - name: National Water Information System (NWIS)\n        description: >-\n          Legacy USGS water data system providing the underlying data for\n          Water Data APIs with millions of site records.\n      - name: FDSN Standards\n        description: >-\n          USGS earthquake API implements FDSN (International Federation of\n          Digital Seismograph Networks) web service specifications.\ncreated: '2024-11-14'\nmodified: '2026-05-03'\nposition: Consuming\ndescription: >-\n\
+  \  The U.S. Geological Survey (USGS) is a scientific agency of the U.S.\n  government that conducts research and provides data on the natural resources\n  and hazards of the United States. The USGS is known for its work in mapping\n  and monitoring earthquakes, volcanoes, and landslides to help mitigate risks\n  and protect communities. USGS also studies water resources including\n  streamflow, groundwater, and water quality through a nationwide network of\n  monitoring stations. Their public APIs provide programmatic access to\n  real-time earthquake data, water monitoring observations, seismic design\n  parameters, and geospatial data products.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/apis.yml
 tags:
 - Federal Government
 - Geological
-- Mining
+- Earth Science
 - Natural Resources
-url: https://raw.githubusercontent.com/api-search/u-s-geological-survey/refs/heads/main/apis.yml
-use_cases: []
+- Earthquake
+- Water
+- Hydrology
+url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/apis.yml
+use_cases:
+- description: Emergency managers and scientists monitor real-time earthquake activity for hazard assessment and emergency response planning.
+  name: Earthquake Hazard Monitoring
+- description: Hydrologists use USGS streamflow data for flood prediction, water supply forecasting, and reservoir management.
+  name: Flood Forecasting
+- description: Water managers track groundwater level trends for sustainable aquifer management and drought assessment.
+  name: Groundwater Management
+- description: Researchers use USGS geological and water data for environmental impact assessments and climate change studies.
+  name: Environmental Research
+- description: Civil engineers use USGS water data and seismic design services for infrastructure planning and construction.
+  name: Engineering Design
 ---

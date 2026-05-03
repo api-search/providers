@@ -36,6 +36,10 @@ asyncapis:
 - description: Workato Event Streams provides a publish-subscribe messaging system within the Workato platform. Topics act as channels through which producers publish messages and consumers retrieve them. Event Stre
   name: Workato Event Streams
   slug: workato-event-streams-asyncapi
+capabilities:
+- description: 'Unified capability for integration engineers and automation teams managing Workato recipes, data tables, event streams, and AI-powered agent workflows. Combines the Developer API, Agent Studio, Event '
+  name: Workato Automation Management
+  slug: automation-management
 common:
 - title: ''
   type: GitHubOrganization
@@ -190,6 +194,51 @@ common:
 - title: ''
   type: JSONSchema
   url: json-schema/workato-genie-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-developer-api-recipe-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-developer-api-data-table-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-agent-studio-genie-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-agent-studio-skill-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-agent-studio-knowledge-base-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-event-streams-message-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-mcp-server-mcp-server-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/workato-mcp-server-tool-schema.json
+- title: ''
+  type: SpectralRules
+  url: rules/workato-spectral-rules.yml
+- title: Automation Management
+  type: NaftikoCapability
+  url: capabilities/automation-management.yaml
+- title: Developer API (Shared)
+  type: NaftikoCapability
+  url: capabilities/shared/developer-api.yaml
+- title: Agent Studio (Shared)
+  type: NaftikoCapability
+  url: capabilities/shared/agent-studio.yaml
+- title: MCP Server (Shared)
+  type: NaftikoCapability
+  url: capabilities/shared/mcp-server.yaml
+- title: Event Streams (Shared)
+  type: NaftikoCapability
+  url: capabilities/shared/event-streams.yaml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/workato-vocabulary.yml
 created: '2025-06-05T00:00:00.000Z'
 description: Workato is an enterprise automation and integration platform that enables organizations to integrate their apps and automate business workflows without extensive coding. It provides a low-code/no-code interface for creating integrations between cloud applications, on-premises systems, and databases.
 features:
@@ -566,13 +615,22 @@ integrations:
   name: Microsoft SQL Server
   url: https://www.workato.com/integrations/microsoftsqlserver
 jsonld:
-- class_count: 0
+- class_count: 25
   name: Workato Context
-  property_count: 10
+  property_count: 56
   slug: workato-context
 layout: provider
-modified: '2026-03-17'
+modified: '2026-05-03'
 name: Workato
+rules:
+- name: Workato API Rules
+  rule_count: 38
+  severity_counts:
+    error: 12
+    hint: 0
+    info: 8
+    warn: 18
+  slug: workato-spectral-rules
 skills: []
 slug: workato
 solutions: []
@@ -611,7 +669,7 @@ source_yaml: "aid: workato\nurl: https://raw.githubusercontent.com/api-evangelis
   \        name: Biz Gate\n      - aid: bizzabo\n        url: https://app.workato.com/browse/recipes?q=app:bizzabo\n        name: Bizzabo\n      - aid: blackline\n        url: https://app.workato.com/browse/recipes?q=app:blackline\n        name: BlackLine\n      - aid: blackline-reports\n        url: https://app.workato.com/browse/recipes?q=app:blackline-reports\n        name: BlackLine Reports\n      - aid: bloomfire\n        url: https://app.workato.com/browse/recipes?q=app:bloomfire\n        name: Bloomfire\n      - aid: bluepoint\n        url: https://app.workato.com/browse/recipes?q=app:bluepoint\n        name: Bluepoint\n      - aid: bmc-helix-itsm\n        url: https://app.workato.com/browse/recipes?q=app:bmc-helix-itsm\n        name: BMC Helix ITSM\n      - aid: bmc-innovation-suite\n        url: https://app.workato.com/browse/recipes?q=app:bmc-innovation-suite\n        name: BMC Innovation Suite\n      - aid: breeze\n        url: https://app.workato.com/browse/recipes?q=app:breeze\n\
   \        name: Breeze\n      - aid: brex\n        url: https://app.workato.com/browse/recipes?q=app:brex\n        name: Brex\n      - aid: buildingconnected\n        url: https://app.workato.com/browse/recipes?q=app:buildingconnected\n        name: BuildingConnected\n      - aid: buildxact\n        url: https://app.workato.com/browse/recipes?q=app:buildxact\n        name: BuildXact\n      - aid: calendly\n        url: https://app.workato.com/browse/recipes?q=app:calendly\n        name: Calendly\n      - aid: campaign-cleaner\n        url: https://app.workato.com/browse/recipes?q=app:campaign-cleaner\n        name: Campaign Cleaner\n      - aid: campaign-monitor\n        url: https://app.workato.com/browse/recipes?q=app:campaign-monitor\n        name: Campaign Monitor\n      - aid: camplife\n        url: https://app.workato.com/browse/recipes?q=app:camplife\n        name: Camplife\n      - aid: canva\n        url: https://app.workato.com/browse/recipes?q=app:canva\n        name: Canva\n\
   \      - aid: canvas-lms\n        url: https://app.workato.com/browse/recipes?q=app:canvas-lms\n        name: Canvas LMS\n      - aid: capsule-crm\n        url: https://app.workato.com/browse/recipes?q=app:capsule-crm\n        name: Capsule CRM\n      - aid: carbone\n        url: https://app.workato.com/browse/recipes?q=app:carbone\n        name: Carbone\n      - aid: casavi\n        url: https://app.workato.com/browse/recipes?q=app:casavi\n        name: Casavi\n      - aid: caspio\n        url: https://app.workato.com/browse/recipes?q=app:caspio\n        name: Caspio\n      - aid: centric-connector\n        url: https://app.workato.com/browse/recipes?q=app:centric-connector\n        name: Centric Connector\n      - aid: ceridian-dayforce\n        url: https://app.workato.com/browse/recipes?q=app:ceridian-dayforce\n        name: Ceridian Dayforce\n      - aid: cerner\n        url: https://app.workato.com/browse/recipes?q=app:cerner\n        name: Cerner\n      - aid: channelengine\n  \
-  \      url: https://app.workato.com/browse/recipes?q=app:channelengine\n        name: ChannelEngine\n      - aid: chargebee\n        url: https://app.workato.com/browse/recipes?q=app:chargebee\n        name: Chargebee\n      - aid: chart-mogul\n        url: https://app.workato.com/browse/recipes?q=app:chart-mogul\n\n# --- truncated at 32 KB (107 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/apis.yml\n"
+  \      url: https://app.workato.com/browse/recipes?q=app:channelengine\n        name: ChannelEngine\n      - aid: chargebee\n        url: https://app.workato.com/browse/recipes?q=app:chargebee\n        name: Chargebee\n      - aid: chart-mogul\n        url: https://app.workato.com/browse/recipes?q=app:chart-mogul\n\n# --- truncated at 32 KB (109 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/apis.yml
 tags:
 - Agentic

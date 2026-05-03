@@ -11,6 +11,10 @@ apis:
 - description: The Apinizer API provides programmatic access to manage API gateways, policies, endpoints, and monitoring configurations within the Apinizer platform.
   name: Apinizer API
   slug: apinizer-api
+capabilities:
+- description: Manage gateways, inspect endpoints and policies, and monitor metrics across the Apinizer platform
+  name: Gateway Management
+  slug: gateway-management
 common:
 - title: ''
   type: Website

@@ -239,6 +239,10 @@ apis:
 - description: The Utility APIs allow you to search for all Walmart item departments, all categories within a department, or retrieve the taxonomy of categories per Feed type.
   name: Walmart Marketplace Utilities API
   slug: walmart-marketplace-utilities-api
+capabilities:
+- description: Unified workflow for Walmart Marketplace seller operations combining order management, inventory tracking, and item catalog management. Enables sellers to monitor and fulfill orders, manage stock leve
+  name: Walmart Marketplace Seller Operations
+  slug: marketplace-seller-operations
 common:
 - title: ''
   type: Portal
@@ -268,13 +272,27 @@ common:
   type: Summary
   url: ''
 created: 2023/11/15
-description: Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers.
+description: Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers. The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.
 features: []
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 integrations: []
+jsonld:
+- class_count: 6
+  name: Walmart Context
+  property_count: 17
+  slug: walmart-context
 layout: provider
-modified: '2025-01-04'
+modified: '2026-05-03'
 name: Walmart
+rules:
+- name: Walmart API Rules
+  rule_count: 10
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 0
+    warn: 6
+  slug: walmart-rules
 skills: []
 slug: walmart
 solutions: []
@@ -307,8 +325,8 @@ source_yaml: "aid: walmart\nurl: >-\n  https://raw.githubusercontent.com/api-sea
   \ https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-settings/\n    properties:\n      - url: https://developer.walmart.com/doc/us/mp/us-mp-settings/\n        type: Documentation\n      - url: openapi/walmart-marketplace-settings-openapi-original.yml\n        type: OpenAPI\n    description: >-\n      The Settings API allows you to configure shipping delivery and fulfillment settings.\n      You can create shipping templates to specify the precise delivery speed for\n      your items. You can specify fulfillment center choices for your items.\n  - aid: walmart:walmart-marketplace-shipping-api\n    name: Walmart Marketplace Shipping API\n    tags:\n      - Carrier\n      - Carriers\n      - Commercial\n      - Detail\n      - Discard\n      - Download\n      - Estimates\n      - Invoices\n      - Labels\n      - Names\n      - Orders\n      - Packages\n      - Purchase\n\
   \      - Shipping\n      - Supported\n      - Tracking\n      - Trackings\n      - Types\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n    baseURL: https://api.example.com\n    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-sww/\n    properties:\n      - url: https://developer.walmart.com/doc/us/mp/us-mp-sww/\n        type: Documentation\n      - url: openapi/walmart-marketplace-shipping-openapi-original.yml\n        type: OpenAPI\n    description: >-\n      The Ship With Walmart for US API enables walmart.com sellers to buy shipping\n      at competitively discounted rates directly from Walmart to ship their goods\n      to US customers.\n  - aid: walmart:walmart-marketplace-utilities-api\n    name: Walmart Marketplace Utilities API\n    tags:\n      - Categories\n      - Department\n      - Departments\n      - Platforms\n      - Status\n      - Taxonomy\n      - Utilities\n    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\n\
   \    baseURL: https://api.example.com\n    humanURL: https://developer.walmart.com/doc/us/mp/us-mp-utilities/\n    properties:\n      - url: https://developer.walmart.com/doc/us/mp/us-mp-utilities/\n        type: Documentation\n      - url: openapi/walmart-marketplace-utilities-openapi-original.yml\n        type: OpenAPI\n    description: >-\n      The Utility APIs allow you to search for all Walmart item departments, all\n      categories within a department, or retrieve the taxonomy of categories per\n      Feed type.\nname: Walmart\ntags:\n  - Commerce\n  - Retail\nimage: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ncommon:\n  - url: https://developer.walmart.com/\n    type: Portal\n  - url: https://developer.walmart.com/home/us-mp/\n    type: Docs\n  - url: https://developer.walmart.com/doc/sandbox/\n    type: Sandbox\n  - url: https://developer.walmart.com/category/us/whats-new/\n    type: Whats New\n  - url: https://developer.walmart.com/home/help/\n\
-  \    type: Support\n  - url: https://developer.walmart.com/faq/us/\n    type: FAQ\n  - url: https://developer.walmart.com/apiStatus\n    type: Status\n  - url: https://developer.walmart.com/faq/terms-and-conditions\n    type: Terms of Service\n  - type: Summary\n    data:\n      numberOfAPITags: 2\n      numberOfAPIProperties: 0\n      numberOfAPIPaths: 0\n      numberOfAPIGetMethods: 0\n      numberOfAPIPostMethods: 0\n      numberOfAPIPutMethods: 0\n      numberOfAPIPatchMethods: 0\n      numberOfAPIDeleteMethods: 0\n      numberOfAPIOptionMethods: 0\n      numberOfAPIParameters: 0\n      numberOfAPISchema: 0\ncreated: 2023/11/15\nmodified: '2025-01-04'\ndescription: >-\n  Walmart is a multinational retail corporation that operates a chain of hypermarkets,\n  discount department stores, and grocery stores. The company is known for offering\n  a wide range of products at competitive prices, attracting customers from all walks\n  of life. Walmart also provides various convenience services,\
-  \ such as pharmacy, optical,\n  and financial services, making it a one-stop shop for many consumers.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\ntype: Contract\nposition: Consuming\naccess: 3rd-Party\n"
+  \    type: Support\n  - url: https://developer.walmart.com/faq/us/\n    type: FAQ\n  - url: https://developer.walmart.com/apiStatus\n    type: Status\n  - url: https://developer.walmart.com/faq/terms-and-conditions\n    type: Terms of Service\n  - type: Summary\n    data:\n      numberOfAPITags: 2\n      numberOfAPIProperties: 0\n      numberOfAPIPaths: 0\n      numberOfAPIGetMethods: 0\n      numberOfAPIPostMethods: 0\n      numberOfAPIPutMethods: 0\n      numberOfAPIPatchMethods: 0\n      numberOfAPIDeleteMethods: 0\n      numberOfAPIOptionMethods: 0\n      numberOfAPIParameters: 0\n      numberOfAPISchema: 0\ncreated: 2023/11/15\nmodified: '2026-05-03'\ndescription: >-\n  Walmart is a multinational retail corporation that operates a chain of hypermarkets,\n  discount department stores, and grocery stores. The company is known for offering\n  a wide range of products at competitive prices, attracting customers from all walks\n  of life. Walmart also provides various convenience services,\
+  \ such as pharmacy, optical,\n  and financial services, making it a one-stop shop for many consumers.\n  The Walmart Marketplace APIs enable third-party sellers to list and sell products,\n  manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.\nartifacts:\n  - url: rules/walmart-rules.yml\n    type: SpectralRules\n  - url: capabilities/marketplace-seller-operations.yaml\n    type: NaftikoCapabilities\n  - url: json-schema/walmart-order-schema.json\n    type: JSONSchema\n  - url: json-schema/walmart-inventory-schema.json\n    type: JSONSchema\n  - url: json-ld/walmart-context.jsonld\n    type: JSONLDContext\n  - url: vocabulary/walmart-vocabulary.yml\n    type: Vocabulary\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\ntype: Contract\nposition: Consuming\naccess: 3rd-Party\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/apis.yml
 tags:
 - Commerce

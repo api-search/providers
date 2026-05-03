@@ -29,6 +29,10 @@ apis:
 - description: The Traiana Harmony NetLink API provides netting, settlement orchestration, and trade compression services. NetLink enables counterparties to perform on-demand intraday netting of FX transactions, pre
   name: Traiana Harmony NetLink API
   slug: harmony-netlink
+capabilities:
+- description: Unified workflow capability for post-trade lifecycle management combining Harmony Trade Processing, CreditLink, and NetLink APIs. Designed for back-office teams, risk managers, and operations staff ma
+  name: Traiana Post-Trade Processing
+  slug: post-trade-processing
 common:
 - title: ''
   type: Documentation
@@ -39,6 +43,12 @@ common:
 - title: ''
   type: Support
   url: https://osttra.com/support/
+- title: ''
+  type: Spectral
+  url: rules/traiana-rules.yml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/traiana-vocabulary.yml
 created: '2025-01-01'
 description: Traiana, part of CME Group and now operating under OSTTRA, is a leading market infrastructure technology provider offering pre-trade risk monitoring and automated post-trade processing for listed and OTC trading. Its Harmony network connects over 1,000 firms via a cloud-based platform supporting 15,000 cross-asset trading relationships and handling $2 trillion in daily transaction volume across FX, equities, equity derivatives, and exchange-traded derivatives.
 features: []
@@ -50,8 +60,17 @@ jsonld:
   property_count: 18
   slug: traiana-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-03'
 name: Traiana
+rules:
+- name: Traiana API Rules
+  rule_count: 16
+  severity_counts:
+    error: 9
+    hint: 0
+    info: 0
+    warn: 7
+  slug: traiana-rules
 skills: []
 slug: traiana
 solutions: []
@@ -61,7 +80,7 @@ source_yaml: "aid: traiana\nurl: >-\n  https://raw.githubusercontent.com/api-eva
   \ network. It enables automated\n      trade allocation, matching, confirmation, give-up messaging, and reporting\n      across FX, equities, equity derivatives, and exchange-traded derivatives.\n      Harmony connects over 1,000 firms and supports 15,000 cross-asset trading\n      relationships, handling $2 trillion in daily transaction volume.\n  - aid: traiana:harmony-creditlink\n    name: Traiana Harmony CreditLink API\n    tags:\n      - Credit Risk\n      - Fintech\n      - Foreign Exchange\n      - Risk Management\n    humanURL: https://www.cmegroup.com/services/traiana.html\n    properties:\n      - url: https://www.cmegroup.com/services/traiana.html\n        type: Documentation\n      - url: openapi/traiana-harmony-creditlink-openapi.yml\n        type: OpenAPI\n      - url: json-schema/credit-limit.json\n        type: JSONSchema\n      - url: json-ld/traiana-context.jsonld\n        type: JSONLD\n    description: >-\n      The Traiana Harmony CreditLink API provides real-time pre-trade\
   \ and\n      post-trade credit risk management across prime-brokered, cleared, and\n      bilateral relationships. CreditLink is composed of the Designation Notice\n      Manager (DNM), Tri-Party Limit Manager (TPL), and ECN Limit Manager (ELM),\n      enabling limit monitoring, breach detection, credit line modification, and\n      trading termination in real time through integration with exchange APIs.\n  - aid: traiana:harmony-netlink\n    name: Traiana Harmony NetLink API\n    tags:\n      - Fintech\n      - Netting\n      - Settlement\n      - Trade Compression\n    humanURL: https://www.cmegroup.com/services/traiana.html\n    properties:\n      - url: https://www.cmegroup.com/services/traiana.html\n        type: Documentation\n      - url: openapi/traiana-harmony-netlink-openapi.yml\n        type: OpenAPI\n      - url: json-schema/netting-session.json\n        type: JSONSchema\n      - url: json-schema/settlement.json\n        type: JSONSchema\n      - url: json-ld/traiana-context.jsonld\n\
   \        type: JSONLD\n    description: >-\n      The Traiana Harmony NetLink API provides netting, settlement orchestration,\n      and trade compression services. NetLink enables counterparties to perform\n      on-demand intraday netting of FX transactions, pre-settlement netting for\n      equities, and trade compression between retail brokers and executing\n      brokers. It reduces settlement risk and optimizes intraday liquidity\n      through PvP settlement orchestration, including same-day settlement.\nname: Traiana\ntags:\n  - Fintech\n  - Foreign Exchange\n  - Post-Trade Processing\n  - Risk Management\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncommon:\n  - url: https://www.cmegroup.com/services/traiana.html\n    name: Traiana Trade Lifecycle Processing\n    type: Documentation\n    description: 'null'\n  - url: https://osttra.com/services/post-trade-processing/trade-processing/\n    name: OSTTRA Trade Processing\n\
-  \    type: Documentation\n    description: 'null'\n  - url: https://osttra.com/support/\n    name: OSTTRA Support\n    type: Support\n    description: 'null'\ncreated: '2025-01-01'\nmodified: '2026-03-16'\nposition: Consumer\ndescription: >-\n  Traiana, part of CME Group and now operating under OSTTRA, is a leading market infrastructure\n  technology provider offering pre-trade risk monitoring and automated post-trade\n  processing for listed and OTC trading. Its Harmony network connects over 1,000 firms\n  via a cloud-based platform supporting 15,000 cross-asset trading relationships and\n  handling $2 trillion in daily transaction volume across FX, equities, equity derivatives,\n  and exchange-traded derivatives.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\n"
+  \    type: Documentation\n    description: 'null'\n  - url: https://osttra.com/support/\n    name: OSTTRA Support\n    type: Support\n    description: 'null'\n  - type: Spectral\n    url: rules/traiana-rules.yml\n  - type: Vocabulary\n    url: vocabulary/traiana-vocabulary.yml\ncreated: '2025-01-01'\nmodified: '2026-05-03'\nposition: Consumer\ndescription: >-\n  Traiana, part of CME Group and now operating under OSTTRA, is a leading market infrastructure\n  technology provider offering pre-trade risk monitoring and automated post-trade\n  processing for listed and OTC trading. Its Harmony network connects over 1,000 firms\n  via a cloud-based platform supporting 15,000 cross-asset trading relationships and\n  handling $2 trillion in daily transaction volume across FX, equities, equity derivatives,\n  and exchange-traded derivatives.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\nspecificationVersion: '0.19'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/apis.yml
 tags:
 - Fintech

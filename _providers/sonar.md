@@ -1,25 +1,32 @@
 ---
 api_count: 2
 api_specs:
-- filename: swagger.json
-  format: json
-  label: SonarQube Web API
-  slug: ''
+- filename: sonar-sonarcloud-api-openapi.yml
+  format: yaml
+  label: SonarCloud API
+  slug: sonarcloud-api
   spec_type: OpenAPI
-  url: https://sonarcloud.io/api/swagger.json
+  url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/openapi/sonar-sonarcloud-api-openapi.yml
 apis:
-- description: REST API for interacting with SonarQube server, including project analysis, quality gates, issues, and metrics.
+- description: REST API for interacting with SonarQube Server, enabling management of projects, quality gates, issues, rules, users, and CI/CD integrations. Uses token-based authentication.
   name: SonarQube Web API
-  slug: ''
-- description: Cloud-based code quality and security service API for analyzing code repositories.
+  slug: sonarqube-web-api
+- description: Cloud-based code quality and security analysis API for analyzing code repositories from GitHub, GitLab, Bitbucket, and Azure DevOps organizations. Provides organization management, project analysis, i
   name: SonarCloud API
-  slug: ''
+  slug: sonarcloud-api
+capabilities:
+- description: 'Unified workflow capability for AI-assisted code quality analysis using SonarCloud. Enables AI agents to audit projects across an organization, detect security vulnerabilities and bugs, check quality '
+  name: Sonar Cloud Code Quality
+  slug: cloud-code-quality
 common:
+- title: ''
+  type: Website
+  url: https://www.sonarsource.com/
 - title: ''
   type: Blog
   url: https://www.sonarsource.com/blog/
 - title: ''
-  type: GitHub Organization
+  type: GitHubOrganization
   url: https://github.com/SonarSource
 - title: ''
   type: Support
@@ -31,34 +38,58 @@ common:
   type: Pricing
   url: https://www.sonarsource.com/plans-and-pricing/
 - title: ''
-  type: Terms of Service
+  type: TermsOfService
   url: https://www.sonarsource.com/terms/
 - title: ''
-  type: Privacy Policy
+  type: PrivacyPolicy
   url: https://www.sonarsource.com/privacy/
-created: '2024'
-description: Sonar provides code quality and security analysis tools for developers, offering continuous inspection of code quality through static code analysis.
+- title: Cloud Code Quality Workflow
+  type: NaftikoCapability
+  url: capabilities/cloud-code-quality.yaml
+- title: Sonar Vocabulary
+  type: Vocabulary
+  url: vocabulary/sonar-vocabulary.yml
+created: '2024-01-01'
+description: Sonar (SonarSource) provides code quality and security analysis tools for developers. Products include SonarQube (self-hosted), SonarCloud (cloud-hosted), and SonarLint (IDE plugin), offering continuous inspection through static code analysis across 30+ programming languages.
 features: []
-image: https://www.sonarsource.com/assets/logo-sonar.svg
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 integrations: []
+jsonld:
+- class_count: 0
+  name: Sonar Context
+  property_count: 5
+  slug: sonar-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-02'
 name: Sonar
+rules:
+- name: Sonar API Rules
+  rule_count: 8
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 2
+    warn: 4
+  slug: sonar-rules
 skills: []
 slug: sonar
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "name: Sonar\ndescription: Sonar provides code quality and security analysis tools for developers, offering continuous inspection of code quality through static code analysis.\nimage: https://www.sonarsource.com/assets/logo-sonar.svg\nurl: https://www.sonarqube.org\ncreated: '2024'\nmodified: '2026-03-16'\napis:\n  - name: SonarQube Web API\n    description: >-\n      REST API for interacting with SonarQube server, including project analysis,\n      quality gates, issues, and metrics.\n    image: https://www.sonarsource.com/assets/logo-sonar.svg\n    humanURL: https://www.sonarqube.org\n    baseURL: https://sonarcloud.io/api\n    tags:\n      - Code Quality\n      - DevOps\n      - Security\n      - Static Analysis\n      - Technical Debt\n    properties:\n      - type: Documentation\n        url: https://docs.sonarqube.org/latest/extend/web-api/\n      - type: OpenAPI\n        url: https://sonarcloud.io/api/swagger.json\n      - type: Authentication\n        url: https://docs.sonarqube.org/latest/extend/web-api/#authentication\n\
-  \  - name: SonarCloud API\n    description: >-\n      Cloud-based code quality and security service API for analyzing code repositories.\n    image: https://www.sonarsource.com/assets/logo-sonar.svg\n    humanURL: https://sonarcloud.io\n    baseURL: https://sonarcloud.io/api\n    tags:\n      - Bitbucket\n      - CI/CD\n      - Cloud\n      - Code Quality\n      - GitHub\n      - GitLab\n    properties:\n      - type: Documentation\n        url: https://sonarcloud.io/web_api\n      - type: Getting Started\n        url: https://docs.sonarcloud.io/\n      - type: Authentication\n        url: https://docs.sonarcloud.io/advanced-setup/api-authentication/\ncommon:\n  - type: Blog\n    url: https://www.sonarsource.com/blog/\n  - type: GitHub Organization\n    url: https://github.com/SonarSource\n  - type: Support\n    url: https://community.sonarsource.com/\n  - type: Status\n    url: https://status.sonarsource.com/\n  - type: Pricing\n    url: https://www.sonarsource.com/plans-and-pricing/\n\
-  \  - type: Terms of Service\n    url: https://www.sonarsource.com/terms/\n  - type: Privacy Policy\n    url: https://www.sonarsource.com/privacy/\nmaintainers:\n  - name: SonarSource\n    email: contact@sonarsource.com\n    url: https://www.sonarsource.com\ntags:\n  - Code Quality\n  - Continuous Integration\n  - DevOps\n  - Security\n  - Static Analysis\n"
+source_yaml: "aid: sonar\nname: Sonar\ndescription: >-\n  Sonar (SonarSource) provides code quality and security analysis tools for\n  developers. Products include SonarQube (self-hosted), SonarCloud (cloud-hosted),\n  and SonarLint (IDE plugin), offering continuous inspection through static code\n  analysis across 30+ programming languages.\ntype: Contract\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - CI/CD\n  - Code Quality\n  - DevOps\n  - Security\n  - SonarCloud\n  - SonarQube\n  - Static Analysis\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-05-02'\nspecificationVersion: '0.19'\napis:\n  - aid: sonar:sonarqube-web-api\n    name: SonarQube Web API\n    description: >-\n      REST API for interacting with SonarQube Server, enabling management of\n      projects, quality gates, issues, rules, users, and CI/CD integrations.\n      Uses token-based authentication.\n\
+  \    humanURL: https://docs.sonarsource.com/sonarqube-server/latest/extension-guide/web-api/\n    tags:\n      - Code Quality\n      - DevOps\n      - Security\n      - SonarQube\n      - Static Analysis\n      - Technical Debt\n    properties:\n      - type: Documentation\n        url: https://docs.sonarsource.com/sonarqube-server/latest/extension-guide/web-api/\n      - type: Reference\n        url: https://api-docs.sonarsource.com/\n      - type: Authentication\n        url: https://docs.sonarsource.com/sonarqube-server/latest/extension-guide/web-api/\n\n  - aid: sonar:sonarcloud-api\n    name: SonarCloud API\n    description: >-\n      Cloud-based code quality and security analysis API for analyzing code\n      repositories from GitHub, GitLab, Bitbucket, and Azure DevOps organizations.\n      Provides organization management, project analysis, issue tracking, quality\n      gate monitoring, and metric retrieval.\n    humanURL: https://sonarcloud.io/web_api\n    tags:\n      - Bitbucket\n\
+  \      - CI/CD\n      - Cloud\n      - Code Quality\n      - GitHub\n      - GitLab\n      - SonarCloud\n    properties:\n      - type: Documentation\n        url: https://sonarcloud.io/web_api\n      - type: GettingStarted\n        url: https://docs.sonarcloud.io/\n      - type: Authentication\n        url: https://docs.sonarcloud.io/advanced-setup/api-authentication/\n      - type: OpenAPI\n        url: openapi/sonar-sonarcloud-api-openapi.yml\n      - type: JSONSchema\n        url: json-schema/sonar-organization-schema.json\n        title: Organization Schema\n      - type: JSONSchema\n        url: json-schema/sonar-issue-schema.json\n        title: Issue Schema\n      - type: JSONStructure\n        url: json-structure/sonar-sonarcloud-structure.json\n      - type: JSONLD\n        url: json-ld/sonar-context.jsonld\n      - type: SpectralRules\n        url: rules/sonar-rules.yml\n      - type: NaftikoCapability\n        url: capabilities/shared/sonarcloud-api.yaml\n      - type: Example\n\
+  \        url: examples/sonar-search-organizations-example.json\n        title: Search Organizations Example\n      - type: Example\n        url: examples/sonar-quality-gate-status-example.json\n        title: Quality Gate Status Example\n\ncommon:\n  - type: Website\n    url: https://www.sonarsource.com/\n  - type: Blog\n    url: https://www.sonarsource.com/blog/\n  - type: GitHubOrganization\n    url: https://github.com/SonarSource\n  - type: Support\n    url: https://community.sonarsource.com/\n  - type: Status\n    url: https://status.sonarsource.com/\n  - type: Pricing\n    url: https://www.sonarsource.com/plans-and-pricing/\n  - type: TermsOfService\n    url: https://www.sonarsource.com/terms/\n  - type: PrivacyPolicy\n    url: https://www.sonarsource.com/privacy/\n  - type: NaftikoCapability\n    url: capabilities/cloud-code-quality.yaml\n    title: Cloud Code Quality Workflow\n  - type: Vocabulary\n    url: vocabulary/sonar-vocabulary.yml\n    title: Sonar Vocabulary\nmaintainers:\n\
+  \  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/apis.yml
 tags:
+- CI/CD
 - Code Quality
-- Continuous Integration
 - DevOps
 - Security
+- SonarCloud
+- SonarQube
 - Static Analysis
-url: https://www.sonarqube.org
+url: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/apis.yml
 use_cases: []
 ---

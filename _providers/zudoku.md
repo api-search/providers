@@ -11,6 +11,7 @@ apis:
 - description: Zudoku is an open-source, developer-first API documentation framework built by Zuplo. It uses a file-based configuration model (zudoku.config.ts) to generate interactive API documentation from OpenAPI
   name: Zudoku Configuration API
   slug: configuration-api
+capabilities: []
 common:
 - title: ''
   type: Documentation

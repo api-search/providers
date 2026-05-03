@@ -27,15 +27,6 @@ common:
   type: Authentication
   url: https://docs.stackshare.io/reference/authentication
 - title: ''
-  type: GraphQL
-  url: https://docs.stackshare.io/docs/the-graphql-endpoint
-- title: ''
-  type: Documentation
-  url: https://docs.stackshare.io/docs/enrichment
-- title: ''
-  type: Documentation
-  url: https://docs.stackshare.io/docs/tools
-- title: ''
   type: TermsOfService
   url: https://stackshare.io/terms
 - title: ''
@@ -48,28 +39,30 @@ common:
   type: X
   url: https://twitter.com/stackshare
 - title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/stackshare
-- title: ''
   type: GitHub
   url: https://github.com/stackshare
 created: '2026-03-24'
-description: StackShare is a platform where developers and companies share information about the technologies and tools they use to build software.
+description: StackShare is a platform where developers and companies share information about the technologies and tools they use to build software. The StackShare GraphQL API provides programmatic access to StackShare's database of developer tools and company tech stacks, exposing Leads (find companies using specific tools), Enrichment (retrieve the full tech stack for a domain), Tools (query metadata about technologies), and Search capabilities.
 features: []
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 integrations: []
+jsonld:
+- class_count: 11
+  name: Stackshare Context
+  property_count: 2
+  slug: stackshare-context
 layout: provider
-modified: '2026-03-24'
+modified: '2026-05-02'
 name: StackShare
 skills: []
 slug: stackshare
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: stackshare\nurl: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/apis.yml\napis:\n  - aid: stackshare:stackshare-graphql-api\n    name: StackShare GraphQL API\n    tags:\n      - Developer Tools\n      - Software Discovery\n      - Tech Stacks\n    baseURL: https://api.stackshare.io/graphql\n    humanURL: https://docs.stackshare.io/\n    properties:\n      - url: https://docs.stackshare.io/\n        type: Documentation\n      - url: https://docs.stackshare.io/reference/getting-started\n        type: GettingStarted\n      - url: https://docs.stackshare.io/reference/authentication\n        type: Authentication\n      - url: https://docs.stackshare.io/docs/the-graphql-endpoint\n        type: GraphQL\n      - url: https://docs.stackshare.io/docs/enrichment\n        type: Documentation\n      - url: https://docs.stackshare.io/docs/tools\n        type: Documentation\n    description: >-\n      The StackShare GraphQL API provides programmatic access\
-  \ to StackShare's database\n      of developer tools and company tech stacks. It exposes four primary capability\n      areas: Leads (find companies using specific tools), Enrichment (retrieve the\n      full tech stack for a given company), Tools (query metadata about a technology\n      such as description and website URL), and Search (look up companies and retrieve\n      basic company details).\nname: StackShare\ntags:\n  - Developer Tools\n  - Software Discovery\n  - Tech Stacks\ntype: Index\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\naccess: 3rd-Party\ncommon:\n  - url: https://stackshare.io/\n    name: StackShare Website\n    type: Website\n  - url: https://docs.stackshare.io/\n    name: API Documentation\n    type: Documentation\n  - url: https://docs.stackshare.io/reference/getting-started\n    name: Getting Started\n    type: GettingStarted\n  - url: https://stackshare.io/api\n    name: Sign Up for API Access\n    type: SignUp\n  - url:\
-  \ https://stackshare.io/pricing\n    name: Pricing\n    type: Pricing\n  - url: https://stackshare.io/enterprise\n    name: Enterprise\n    type: Pricing\n  - url: https://docs.stackshare.io/reference/authentication\n    name: Authentication\n    type: Authentication\n  - url: https://docs.stackshare.io/docs/the-graphql-endpoint\n    name: GraphQL Endpoint\n    type: GraphQL\n  - url: https://docs.stackshare.io/docs/enrichment\n    name: Enrichment API\n    type: Documentation\n  - url: https://docs.stackshare.io/docs/tools\n    name: Tools API\n    type: Documentation\n  - url: https://stackshare.io/terms\n    name: Terms of Service\n    type: TermsOfService\n  - url: https://stackshare.io/privacy\n    name: Privacy Policy\n    type: PrivacyPolicy\n  - url: https://medium.com/@stackshareio\n    name: StackShare Blog\n    type: Blog\n  - url: https://twitter.com/stackshare\n    name: StackShare on X (Twitter)\n    type: X\n  - url: https://www.linkedin.com/company/stackshare\n    name:\
-  \ StackShare on LinkedIn\n    type: LinkedIn\n  - url: https://github.com/stackshare\n    name: StackShare on GitHub\n    type: GitHub\ncreated: '2026-03-24'\nmodified: '2026-03-24'\nspecificationVersion: '0.19'\ndescription: >-\n  StackShare is a platform where developers and companies share information about\n  the technologies and tools they use to build software.\n"
+source_yaml: "aid: stackshare\nname: StackShare\ndescription: >-\n  StackShare is a platform where developers and companies share information about\n  the technologies and tools they use to build software. The StackShare GraphQL\n  API provides programmatic access to StackShare's database of developer tools\n  and company tech stacks, exposing Leads (find companies using specific tools),\n  Enrichment (retrieve the full tech stack for a domain), Tools (query metadata\n  about technologies), and Search capabilities.\nurl: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/apis.yml\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\ntags:\n  - Developer Tools\n  - Software Discovery\n  - Tech Stacks\ntype: Index\naccess: 3rd-Party\ncreated: '2026-03-24'\nmodified: '2026-05-02'\nspecificationVersion: '0.19'\napis:\n  - aid: stackshare:stackshare-graphql-api\n    name: StackShare GraphQL API\n    description: >-\n      The StackShare GraphQL\
+  \ API provides programmatic access to StackShare's\n      database of developer tools and company tech stacks. It exposes four\n      primary capability areas: Leads (find companies using specific tools),\n      Enrichment (retrieve the full tech stack for a given company), Tools\n      (query metadata about a technology such as description and website URL),\n      and Search (look up companies and retrieve basic company details).\n      Authentication uses an API token passed as a query parameter.\n    humanURL: https://docs.stackshare.io/\n    baseURL: https://api.stackshare.io/graphql\n    tags:\n      - Developer Tools\n      - Software Discovery\n      - Tech Stacks\n    properties:\n      - url: https://docs.stackshare.io/\n        type: Documentation\n      - url: https://docs.stackshare.io/reference/getting-started\n        type: GettingStarted\n      - url: https://docs.stackshare.io/reference/authentication\n        type: Authentication\n      - url: https://docs.stackshare.io/docs/the-graphql-endpoint\n\
+  \        type: GraphQL\n      - url: https://docs.stackshare.io/docs/enrichment\n        type: Documentation\n      - url: https://docs.stackshare.io/docs/tools\n        type: Documentation\n      - url: https://docs.stackshare.io/docs/leads\n        type: Documentation\ncommon:\n  - url: https://stackshare.io/\n    name: StackShare Website\n    type: Website\n  - url: https://docs.stackshare.io/\n    name: API Documentation\n    type: Documentation\n  - url: https://docs.stackshare.io/reference/getting-started\n    name: Getting Started\n    type: GettingStarted\n  - url: https://stackshare.io/api\n    name: Sign Up for API Access\n    type: SignUp\n  - url: https://stackshare.io/pricing\n    name: Pricing\n    type: Pricing\n  - url: https://stackshare.io/enterprise\n    name: Enterprise\n    type: Pricing\n  - url: https://docs.stackshare.io/reference/authentication\n    name: Authentication\n    type: Authentication\n  - url: https://stackshare.io/terms\n    name: Terms of Service\n\
+  \    type: TermsOfService\n  - url: https://stackshare.io/privacy\n    name: Privacy Policy\n    type: PrivacyPolicy\n  - url: https://medium.com/@stackshareio\n    name: StackShare Blog\n    type: Blog\n  - url: https://twitter.com/stackshare\n    name: StackShare on X\n    type: X\n  - url: https://github.com/stackshare\n    name: StackShare on GitHub\n    type: GitHub\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackshare/refs/heads/main/apis.yml
 tags:
 - Developer Tools

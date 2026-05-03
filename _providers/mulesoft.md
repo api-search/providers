@@ -26,6 +26,13 @@ apis:
 - description: The Anypoint Design Center API provides access to the MuleSoft web-based API design environment for creating and editing API specifications in RAML and OAS formats. It supports project management, fil
   name: MuleSoft Anypoint Design Center API
   slug: mulesoft-anypoint-design-center-api
+capabilities:
+- description: Deploy, monitor, and manage CloudHub applications across the Anypoint Platform
+  name: Application Deployment Management
+  slug: application-deployment-management
+- description: Discover and manage Anypoint Platform organizations and environments
+  name: Org Environment Management
+  slug: org-environment-management
 common:
 - title: ''
   type: Portal

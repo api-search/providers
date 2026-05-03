@@ -488,6 +488,22 @@ apis:
 - description: API for United Kingdom payroll processing including PAYE, National Insurance, and UK tax compliance. Supports country-specific payroll operations for Great Britain.
   name: Workday Payroll GBR API
   slug: ''
+capabilities:
+- description: Integrated financial operations workflow combining general ledger, accounts payable, accounts receivable, procurement, cash management, and financial reporting capabilities in Workday.
+  name: Workday Financial Operations Workflow
+  slug: financial-operations
+- description: End-to-end employee lifecycle workflow combining HCM, recruiting, onboarding, benefits, time tracking, compensation, and offboarding capabilities in Workday.
+  name: Workday Hire-to-Retire Workflow
+  slug: hire-to-retire
+- description: End-to-end payroll processing workflow combining payroll calculations, time tracking, absence management, compensation, and tax management across US, Australia, Canada, France, and UK payroll modules.
+  name: Workday Payroll Processing Workflow
+  slug: payroll-processing
+- description: Integrated talent management workflow combining performance reviews, goal setting, learning and development, succession planning, and talent assessments in Workday.
+  name: Workday Talent Management Workflow
+  slug: talent-management
+- description: Workforce analytics and reporting workflow combining Prism Analytics data loading, RaaS reporting, HCM data, and workforce planning for enterprise decision-making in Workday.
+  name: Workday Workforce Intelligence Workflow
+  slug: workforce-intelligence
 common:
 - title: ''
   type: Portal
@@ -576,6 +592,75 @@ common:
 - title: ''
   type: JSON Schema (Student)
   url: json-schema/workday-integration-student-schema.json
+- title: ''
+  type: Spectral Rules
+  url: rules/workday-integration-rules.yml
+- title: ''
+  type: JSON Structure (Worker)
+  url: json-structure/workday-integration-worker-structure.json
+- title: ''
+  type: JSON Structure (Payroll Result)
+  url: json-structure/workday-integration-payroll-result-structure.json
+- title: ''
+  type: Vocabulary
+  url: vocabulary/workday-integration-vocabulary.yml
+- title: ''
+  type: Example (List Workers)
+  url: examples/workday-integration-list-workers-example.json
+- title: ''
+  type: Example (List Job Requisitions)
+  url: examples/workday-integration-list-job-requisitions-example.json
+- title: ''
+  type: Example (List Payroll Results)
+  url: examples/workday-integration-list-payroll-results-example.json
+- title: ''
+  type: Naftiko Capability (Hire-to-Retire)
+  url: capabilities/hire-to-retire.yaml
+- title: ''
+  type: Naftiko Capability (Talent Management)
+  url: capabilities/talent-management.yaml
+- title: ''
+  type: Naftiko Capability (Payroll Processing)
+  url: capabilities/payroll-processing.yaml
+- title: ''
+  type: Naftiko Capability (Financial Operations)
+  url: capabilities/financial-operations.yaml
+- title: ''
+  type: Naftiko Capability (Workforce Intelligence)
+  url: capabilities/workforce-intelligence.yaml
+- title: ''
+  type: Naftiko Capability (HCM)
+  url: capabilities/shared/human-capital-management.yaml
+- title: ''
+  type: Naftiko Capability (Recruiting)
+  url: capabilities/shared/recruiting.yaml
+- title: ''
+  type: Naftiko Capability (Payroll)
+  url: capabilities/shared/payroll.yaml
+- title: ''
+  type: Naftiko Capability (Time Tracking)
+  url: capabilities/shared/time-tracking.yaml
+- title: ''
+  type: Naftiko Capability (Absence Management)
+  url: capabilities/shared/absence-management.yaml
+- title: ''
+  type: Naftiko Capability (Benefits Administration)
+  url: capabilities/shared/benefits-administration.yaml
+- title: ''
+  type: Naftiko Capability (Compensation)
+  url: capabilities/shared/compensation.yaml
+- title: ''
+  type: Naftiko Capability (Performance Management)
+  url: capabilities/shared/performance-management.yaml
+- title: ''
+  type: Naftiko Capability (Learning)
+  url: capabilities/shared/learning.yaml
+- title: ''
+  type: Naftiko Capability (Financial Management)
+  url: capabilities/shared/financial-management.yaml
+- title: ''
+  type: Naftiko Capability (Prism Analytics)
+  url: capabilities/shared/prism-analytics.yaml
 created: '2024-01-01'
 description: Collection of Workday Integration APIs for enterprise resource planning, human capital management, and financial management.
 features: []
@@ -587,14 +672,23 @@ jsonld:
   property_count: 14
   slug: workday-integration-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-03'
 name: Workday Integration
+rules:
+- name: Workday Integration API Rules
+  rule_count: 13
+  severity_counts:
+    error: 4
+    hint: 2
+    info: 0
+    warn: 7
+  slug: workday-integration-rules
 skills: []
 slug: workday-integration
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "aid: workday-integration\nname: Workday Integration\ndescription: >-\n  Collection of Workday Integration APIs for enterprise resource planning,\n  human capital management, and financial management.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-03-16'\nspecificationVersion: '0.19'\napis:\n  - name: Workday Human Capital Management API\n    description: API for managing employee data, recruiting, talent management, and workforce planning within Workday's HCM suite. Provides SOAP-based web services for reading and writing HR data including worker records, organizational structures, and staffing transactions.\n    image: https://www.workday.com/content/dam/web/images/icons/hcm-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html\n    baseURL:\
+source_yaml: "aid: workday-integration\nname: Workday Integration\ndescription: >-\n  Collection of Workday Integration APIs for enterprise resource planning,\n  human capital management, and financial management.\nimage: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg\nurl: >-\n  https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/apis.yml\ncreated: '2024-01-01'\nmodified: '2026-05-03'\nspecificationVersion: '0.19'\napis:\n  - name: Workday Human Capital Management API\n    description: API for managing employee data, recruiting, talent management, and workforce planning within Workday's HCM suite. Provides SOAP-based web services for reading and writing HR data including worker records, organizational structures, and staffing transactions.\n    image: https://www.workday.com/content/dam/web/images/icons/hcm-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html\n    baseURL:\
   \ https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Employees\n      - Human Capital Management\n      - Human Resources\n      - Talent Management\n      - Workforce Planning\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/index.html\n      - type: OpenAPI\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Human_Resources/openapi.json\n      - type: Authentication\n        url: https://doc.workday.com/reader/J1YvI9CYZUWl1U7_PSHyHA/yZdGMij6UK~tyr4gJLlewA\n      - type: OpenAPI\n        url: openapi/workday-integration-human-capital-management-openapi.yml\n    contact:\n      - FN: Workday API Support\n        email: api-support@workday.com\n        url: https://community.workday.com\n  - name: Workday Financial Management API\n    description: API for financial accounting, expense management, revenue management, and financial\
   \ reporting. Enables programmatic access to general ledger, accounts payable, accounts receivable, and budgeting functions.\n    image: https://www.workday.com/content/dam/web/images/icons/financials-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Management/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Accounting\n      - Expenses\n      - Finance\n      - Financial Reporting\n      - Revenue\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Management/index.html\n      - type: OpenAPI\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Management/openapi.json\n      - type: Authentication\n        url: https://doc.workday.com/reader/J1YvI9CYZUWl1U7_PSHyHA/yZdGMij6UK~tyr4gJLlewA\n      - type: OpenAPI\n        url: openapi/workday-integration-financial-management-openapi.yml\n\
   \  - name: Workday Payroll API\n    description: API for payroll processing, tax management, and compensation. Supports payroll calculations, pay component configurations, tax rate lookups, and payroll detail retrieval across multiple country-specific payroll modules.\n    image: https://www.workday.com/content/dam/web/images/icons/payroll-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Benefits\n      - Compensation\n      - Pay Components\n      - Payroll\n      - Tax\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll/index.html\n      - type: OpenAPI\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Payroll/openapi.json\n      - type: Authentication\n        url: https://doc.workday.com/reader/J1YvI9CYZUWl1U7_PSHyHA/yZdGMij6UK~tyr4gJLlewA\n\
@@ -626,7 +720,7 @@ source_yaml: "aid: workday-integration\nname: Workday Integration\ndescription: 
   \      - Student Information\n      - Student Lifecycle\n      - Student Records\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Core/index.html\n      - type: OpenAPI\n        url: openapi/workday-integration-student-core-openapi.yml\n  - name: Workday Student Records API\n    description: API for managing academic records including transcripts, grades, and course registrations. Supports academic history tracking and degree audit processes.\n    image: https://www.workday.com/content/dam/web/images/icons/hcm-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Records/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Academic History\n      - Course Registration\n      - Grades\n      - Student Records\n      - Transcripts\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Records/index.html\n\
   \      - type: OpenAPI\n        url: openapi/workday-integration-student-records-openapi.yml\n  - name: Workday Student Finance API\n    description: API for managing student financial accounts, tuition billing, and financial aid disbursements. Supports student payment processing and account management.\n    image: https://www.workday.com/content/dam/web/images/icons/financials-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Finance/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Financial Aid\n      - Student Accounts\n      - Student Billing\n      - Student Finance\n      - Tuition\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Finance/index.html\n      - type: OpenAPI\n        url: openapi/workday-integration-student-finance-openapi.yml\n  - name: Workday Student Recruiting API\n\
   \    description: API for managing student recruitment processes, prospect tracking, and admissions pipeline. Supports recruitment event management and prospect communication.\n    image: https://www.workday.com/content/dam/web/images/icons/recruiting-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Recruiting/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Admissions\n      - Higher Education\n      - Prospect Management\n      - Recruitment Events\n      - Student Recruiting\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Student_Recruiting/index.html\n      - type: OpenAPI\n        url: openapi/workday-integration-student-recruiting-openapi.yml\n  - name: Workday Admissions API\n    description: API for managing the admissions process including applications, evaluations, and admissions decisions.\
-  \ Supports application tracking and enrollment management for educational institutions.\n    image: https://www.workday.com/content/dam/web/images/icons/hcm-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/Admissions/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Admissions\n      - Applications\n      - Enrollment\n      - Higher Education\n      - Student Management\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Admissions/index.html\n      - type: OpenAPI\n        url: openapi/workday-integration-admissions-openapi.yml\n  - name: Workday Financial Aid AP\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/apis.yml\n"
+  \ Supports application tracking and enrollment management for educational institutions.\n    image: https://www.workday.com/content/dam/web/images/icons/hcm-icon.svg\n    humanURL: https://community.workday.com/sites/default/files/file-hosting/productionapi/Admissions/index.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service\n    tags:\n      - Admissions\n      - Applications\n      - Enrollment\n      - Higher Education\n      - Student Management\n    properties:\n      - type: Documentation\n        url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Admissions/index.html\n      - type: OpenAPI\n        url: openapi/workday-integration-admissions-openapi.yml\n  - name: Workday Financial Aid AP\n\n# --- truncated at 32 KB (52 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/apis.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-integration/refs/heads/main/apis.yml
 tags:
 - Enterprise

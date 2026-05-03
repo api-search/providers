@@ -32,6 +32,10 @@ apis:
 - description: API for loading external data into Workday Prism Analytics for advanced reporting and analytics capabilities.
   name: Workday Prism Analytics API
   slug: ''
+capabilities:
+- description: Unified capability for workforce data integration combining Workday REST API for HCM data access, RaaS for report-based data extraction, and Prism Analytics for loading external data into Workday. Ena
+  name: Workday Integrations Workforce Data Integration
+  slug: workforce-data-integration
 common:
 - title: ''
   type: Developer Portal
@@ -78,6 +82,15 @@ common:
 - title: ''
   type: JSONSchema
   url: json-schema/workday-integrations-dataset-schema.json
+- title: ''
+  type: Spectral Rules
+  url: rules/workday-integrations-rules.yml
+- title: ''
+  type: Naftiko Capabilities
+  url: capabilities/workforce-data-integration.yaml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/workday-integrations-vocabulary.yml
 created: '2025-03-15'
 description: Workday provides cloud-based enterprise software for finance, HR, and planning. This APIs.json file describes the integration capabilities and APIs available for connecting Workday with other systems.
 features: []
@@ -91,6 +104,15 @@ jsonld:
 layout: provider
 modified: '2026-03-16'
 name: Workday Integrations
+rules:
+- name: Workday Integrations API Rules
+  rule_count: 11
+  severity_counts:
+    error: 4
+    hint: 1
+    info: 0
+    warn: 6
+  slug: workday-integrations-rules
 skills: []
 slug: workday-integrations
 solutions: []
@@ -102,7 +124,8 @@ source_yaml: "aid: workday-integrations\nname: Workday Integrations\ndescription
   \        url: https://www.workday.com/en-us/customer-experience/support.html\n  - name: Workday RaaS (Report-as-a-Service)\n    description: Access custom and standard Workday reports as web services, enabling report data to be consumed by external systems.\n    image: https://www.workday.com/content/dam/web/en-us/images/logos/workday-logo.svg\n    humanURL: https://doc.workday.com/admin-guide/en-us/integration/workday-reports/report-as-a-service-raas.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/service/customreport2/{tenant}\n    tags:\n      - Analytics\n      - Custom Reports\n      - Data Export\n      - Reports\n    properties:\n      - type: Documentation\n        url: https://doc.workday.com/admin-guide/en-us/integration/workday-reports/report-as-a-service-raas.html\n      - type: Tutorial\n        url: https://doc.workday.com/reader/J1YvI9CYZUWl1U7_PSHyHA/CIe8xMH~H~b1Cq7IqRfGHQ\n      - type: Authentication\n        url: https://doc.workday.com/admin-guide/en-us/integration/web-services/web-services-authentication.html\n\
   \      - type: OpenAPI\n        url: openapi/workday-integrations-raas-openapi.yml\n    contact:\n      - FN: Workday Support\n        email: support@workday.com\n  - name: Workday Prism Analytics API\n    description: API for loading external data into Workday Prism Analytics for advanced reporting and analytics capabilities.\n    image: https://www.workday.com/content/dam/web/en-us/images/logos/workday-logo.svg\n    humanURL: https://doc.workday.com/admin-guide/en-us/workday-prism-analytics/workday-prism-analytics-api.html\n    baseURL: https://wd2-impl-services1.workday.com/ccx/api/prismAnalytics/v2/{tenant}\n    tags:\n      - Analytics\n      - Data Loading\n      - External Data\n      - Prism\n    properties:\n      - type: Documentation\n        url: https://doc.workday.com/admin-guide/en-us/workday-prism-analytics/workday-prism-analytics-api.html\n      - type: API Reference\n        url: https://community.workday.com/sites/default/files/file-hosting/prism-analytics-api/index.html\n\
   \      - type: Authentication\n        url: https://doc.workday.com/admin-guide/en-us/workday-rest-api/workday-rest-api-authentication.html\n      - type: OpenAPI\n        url: openapi/workday-integrations-prism-analytics-openapi.yml\n    contact:\n      - FN: Workday Support\n        email: support@workday.com\ncommon:\n  - type: Developer Portal\n    url: https://community.workday.com/developer\n  - type: Authentication Guide\n    url: https://doc.workday.com/admin-guide/en-us/integration/integration-security/authentication-overview.html\n  - type: Integration Cloud Platform\n    url: https://www.workday.com/en-us/products/platform-product-extensions/workday-integration-cloud.html\n  - type: Studio\n    url: https://doc.workday.com/admin-guide/en-us/integration/workday-studio/workday-studio-overview.html\n  - type: Community\n    url: https://community.workday.com/\n  - type: Support\n    url: https://www.workday.com/en-us/customer-experience/support.html\n  - type: Status Page\n   \
-  \ url: https://status.workday.com/\n  - type: Terms of Service\n    url: https://www.workday.com/en-us/legal.html\n  - type: Privacy Policy\n    url: https://www.workday.com/en-us/privacy.html\n  - type: JSON-LD\n    url: json-ld/workday-integrations-context.jsonld\n  - type: JSONSchema\n    url: json-schema/workday-integrations-worker-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-organization-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-position-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-compensation-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-dataset-schema.json\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\ntags:\n  - Cloud\n  - Enterprise Software\n  - ERP\n  - Finance\n  - HCM\n  - HR\n  - Integration\n"
+  \ url: https://status.workday.com/\n  - type: Terms of Service\n    url: https://www.workday.com/en-us/legal.html\n  - type: Privacy Policy\n    url: https://www.workday.com/en-us/privacy.html\n  - type: JSON-LD\n    url: json-ld/workday-integrations-context.jsonld\n  - type: JSONSchema\n    url: json-schema/workday-integrations-worker-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-organization-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-position-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-compensation-schema.json\n  - type: JSONSchema\n    url: json-schema/workday-integrations-dataset-schema.json\n  - type: Spectral Rules\n    url: rules/workday-integrations-rules.yml\n  - type: Naftiko Capabilities\n    url: capabilities/workforce-data-integration.yaml\n  - type: Vocabulary\n    url: vocabulary/workday-integrations-vocabulary.yml\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n\
+  tags:\n  - Cloud\n  - Enterprise Software\n  - ERP\n  - Finance\n  - HCM\n  - HR\n  - Integration\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/apis.yml
 tags:
 - Cloud

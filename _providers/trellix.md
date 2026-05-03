@@ -43,6 +43,10 @@ apis:
 - description: Interactive API documentation and testing tool for Trellix security products formerly under the FireEye brand. Provides a web-based interface for exploring and testing API endpoints across multiple Tr
   name: Trellix API Explorer
   slug: ''
+capabilities:
+- description: Unified capability for SOC analysts and endpoint security engineers to detect, investigate, hunt, and respond to endpoint threats using Trellix EDR and ePO SaaS. Combines threat detection, alert inves
+  name: Trellix Endpoint Security Operations
+  slug: endpoint-security-operations
 common:
 - title: ''
   type: Portal
@@ -107,20 +111,61 @@ common:
 - title: ''
   type: ReleaseNotes
   url: https://docs.trellix.com/bundle/trellix-developer-portal-and-marketplace-release-notes
+- title: ''
+  type: OpenAPI
+  url: openapi/trellix-edr-openapi.yml
+- title: ''
+  type: OpenAPI
+  url: openapi/trellix-epo-saas-openapi.yml
+- title: ''
+  type: JSONSchema
+  url: json-schema/trellix-threat-schema.json
+- title: ''
+  type: JSONSchema
+  url: json-schema/trellix-device-schema.json
+- title: ''
+  type: JSONStructure
+  url: json-structure/trellix-threat-structure.json
+- title: ''
+  type: JSON-LD
+  url: json-ld/trellix-context.jsonld
+- title: ''
+  type: SpectralRules
+  url: rules/trellix-spectral-rules.yml
+- title: ''
+  type: NaftikoCapabilities
+  url: capabilities/endpoint-security-operations.yaml
+- title: ''
+  type: Vocabulary
+  url: vocabulary/trellix-vocabulary.yml
 created: '2024'
 description: Trellix is a cybersecurity company that delivers comprehensive, open, and native extended detection and response (XDR) platform. The company provides threat detection, investigation, and response capabilities across endpoints, networks, data, and cloud environments.
 features: []
 image: https://www.trellix.com/favicon.ico
 integrations: []
+jsonld:
+- class_count: 22
+  name: Trellix Context
+  property_count: 8
+  slug: trellix-context
 layout: provider
-modified: '2026-03-16'
+modified: '2026-05-03'
 name: Trellix
+rules:
+- name: Trellix API Rules
+  rule_count: 9
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 1
+    warn: 6
+  slug: trellix-spectral-rules
 skills: []
 slug: trellix
 solutions: []
 source_filename: apis.yml
 source_heading: Sources
-source_yaml: "name: Trellix\ndescription: >-\n  Trellix is a cybersecurity company that delivers comprehensive, open, and native\n  extended detection and response (XDR) platform. The company provides threat detection,\n  investigation, and response capabilities across endpoints, networks, data, and cloud\n  environments.\nimage: https://www.trellix.com/favicon.ico\nurl: https://www.trellix.com\ncreated: '2024'\nmodified: '2026-03-16'\ntags:\n  - Cloud Security\n  - Cybersecurity\n  - Endpoint Security\n  - Threat Detection\n  - Threat Intelligence\n  - XDR\napis:\n  - name: Trellix ePO API\n    description: >-\n      McAfee ePolicy Orchestrator (ePO) REST API for centralized security management,\n      policy enforcement, and reporting across the enterprise.\n    image: https://www.trellix.com/favicon.ico\n    humanURL: https://docs.trellix.com/bundle/epolicy-orchestrator\n    baseURL: https://your-epo-server:8443/remote\n    tags:\n      - Endpoint Management\n      - Enterprise Security\n\
+source_yaml: "name: Trellix\ndescription: >-\n  Trellix is a cybersecurity company that delivers comprehensive, open, and native\n  extended detection and response (XDR) platform. The company provides threat detection,\n  investigation, and response capabilities across endpoints, networks, data, and cloud\n  environments.\nimage: https://www.trellix.com/favicon.ico\nurl: https://www.trellix.com\ncreated: '2024'\nmodified: '2026-05-03'\ntags:\n  - Cloud Security\n  - Cybersecurity\n  - Endpoint Security\n  - Threat Detection\n  - Threat Intelligence\n  - XDR\napis:\n  - name: Trellix ePO API\n    description: >-\n      McAfee ePolicy Orchestrator (ePO) REST API for centralized security management,\n      policy enforcement, and reporting across the enterprise.\n    image: https://www.trellix.com/favicon.ico\n    humanURL: https://docs.trellix.com/bundle/epolicy-orchestrator\n    baseURL: https://your-epo-server:8443/remote\n    tags:\n      - Endpoint Management\n      - Enterprise Security\n\
   \      - Policy Orchestration\n      - Security Management\n    properties:\n      - type: Documentation\n        url: https://docs.trellix.com/bundle/epolicy-orchestrator\n      - type: Authentication\n        url: https://developer.manage.trellix.com/mvision/docs/umam\n      - type: GettingStarted\n        url: https://developer.manage.trellix.com/mvision/docs/uma\n      - type: APIReference\n        url: https://developer.manage.trellix.com/mvision/apis/v2-devices\n    contact:\n      - FN: Trellix Support\n        url: https://www.trellix.com/support/\n  - name: Trellix ePO SaaS API\n    description: >-\n      The Trellix ePO SaaS API provides cloud-based access to ePolicy\n      Orchestrator management capabilities. It enables programmatic control\n      of devices, events, tags, queries, and response actions through\n      the Trellix cloud management platform.\n    image: https://www.trellix.com/favicon.ico\n    humanURL: https://docs.trellix.com/bundle/epolicy-orchestrator-saas-product-guide\n\
   \    baseURL: https://api.manage.trellix.com\n    tags:\n      - Cloud Management\n      - Endpoint Management\n      - SaaS\n      - Security Management\n    properties:\n      - type: Documentation\n        url: https://docs.trellix.com/bundle/epolicy-orchestrator-saas-product-guide\n      - type: Authentication\n        url: https://developer.manage.trellix.com/mvision/docs/umam\n      - type: GettingStarted\n        url: https://developer.manage.trellix.com/mvision/docs/uma\n  - name: Trellix Insights API\n    description: >-\n      API for accessing threat intelligence, security analytics, and\n      insights from the Trellix threat research platform. Provides\n      investigation of indicators of compromise, campaign tracking,\n      and prioritized threat intelligence for security operations.\n    image: https://www.trellix.com/favicon.ico\n    humanURL: https://docs.trellix.com/bundle/trellix-insights-product-guide\n    baseURL: https://api.manage.trellix.com\n    tags:\n     \
   \ - Analytics\n      - Security Insights\n      - Threat Intelligence\n      - Threat Research\n    properties:\n      - type: Documentation\n        url: https://docs.trellix.com/bundle/trellix-insights-product-guide\n      - type: APIReference\n        url: https://docs.trellix.com/bundle/trellix-insights-product-guide/page/UUID-e5e4730b-ac74-d923-f691-168ea880e3cd.html\n  - name: Trellix EDR API\n    description: >-\n      Endpoint Detection and Response API for advanced threat hunting,\n      investigation, and automated response capabilities. The EDR API\n      supports querying threat data, searching devices, retrieving action\n      history, and executing real-time search and response actions across\n      managed endpoints.\n    image: https://www.trellix.com/favicon.ico\n    humanURL: https://docs.trellix.com/bundle/mvision-endpoint-detection-and-response-product-guide\n    baseURL: https://api.manage.trellix.com\n    tags:\n      - Endpoint Detection\n      - Forensics\n    \
@@ -135,7 +180,8 @@ source_yaml: "name: Trellix\ndescription: >-\n  Trellix is a cybersecurity compa
   \ https://www.trellix.com/favicon.ico\n    humanURL: https://docs.trellix.com/bundle/iocs_1-2-144_ug/page/UUID-d981cbd0-d535-dd8f-7cf8-a287bf077392.html\n    baseURL: https://{hx-appliance}/hx/api/v3\n    tags:\n      - Indicators of Compromise\n      - Security Operations\n      - Threat Detection\n      - Threat Intelligence\n    properties:\n      - type: Documentation\n        url: https://docs.trellix.com/bundle/iocs_1-2-144_ug/page/UUID-d981cbd0-d535-dd8f-7cf8-a287bf077392.html\n      - type: APIReference\n        url: https://docs.trellix.com/bundle/iocs_1-2-144_ug/page/UUID-11acd4c1-f095-333a-c394-5bfbf0a69823.html\n  - name: Trellix Detection as a Service API\n    description: >-\n      API-driven malware detection service that leverages the Trellix\n      Multi-Vector Virtual Execution (MVX) engine and multiple dynamic\n      machine learning, AI, and correlation engines to analyze submitted\n      files. Designed for integration into security operations workflows,\n      SIEM\
   \ systems, and custom web applications.\n    image: https://www.trellix.com/favicon.ico\n    humanURL: https://www.trellix.com/products/detection-as-a-service/\n    baseURL: https://feapi.marketplace.apps.fireeye.com\n    tags:\n      - Cloud Security\n      - File Analysis\n      - Malware Detection\n      - Threat Detection\n    properties:\n      - type: Documentation\n        url: https://developer.manage.trellix.com/mvision/docs/uma\n  - name: Trellix API Explorer\n    description: >-\n      Interactive API documentation and testing tool for Trellix security\n      products formerly under the FireEye brand. Provides a web-based\n      interface for exploring and testing API endpoints across multiple\n      Trellix product lines with regional endpoint support for US, EU,\n      and AP data centers.\n    image: https://www.trellix.com/favicon.ico\n    humanURL: https://api-docs.us.fireeye.com/\n    baseURL: https://api-docs.us.fireeye.com\n    tags:\n      - API Explorer\n      - Developer\
   \ Tools\n      - Documentation\n      - Testing\n    properties:\n      - type: Documentation\n        url: https://api-docs.us.fireeye.com/\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\ncommon:\n  - type: Portal\n    url: https://www.trellix.com/\n  - type: Developer Portal\n    url: https://developer.manage.trellix.com/\n  - type: Documentation\n    url: https://docs.trellix.com/\n  - type: Authentication\n    url: https://developer.manage.trellix.com/mvision/docs/umam\n  - type: GettingStarted\n    url: https://developer.manage.trellix.com/mvision/docs/uma\n  - type: Support\n    url: https://www.trellix.com/support/\n  - type: Login\n    url: https://sso.trellix.com/\n  - type: Sign Up\n    url: https://developer.manage.trellix.com/\n  - type: Community\n    url: https://communitym.trellix.com/\n  - type: Status\n    url: https://status.trellix.com/\n  - type: Blog\n    url: https://www.trellix.com/blogs/\n  - type: Privacy Policy\n\
-  \    url: https://www.trellix.com/en-us/about/legal/privacy.html\n  - type: Terms of Service\n    url: https://www.trellix.com/en-us/about/legal/terms-of-use.html\n  - type: GitHubOrganization\n    url: https://github.com/trellix-enterprise\n  - type: GitHubOrganization\n    url: https://github.com/opendxl\n  - type: GitHubOrganization\n    url: https://github.com/trellix-opensource\n  - type: GitHubOrganization\n    url: https://github.com/advanced-threat-research\n  - type: Website\n    url: https://www.trellix.com/\n  - type: Knowledge Base\n    url: https://kcm.trellix.com/\n  - type: PostmanCollection\n    url: https://www.postman.com/bmarandel/trellix-api-gateway/documentation/d3e3gan/trellix-api-gateway\n  - type: ReleaseNotes\n    url: https://docs.trellix.com/bundle/trellix-developer-portal-and-marketplace-release-notes\n"
+  \    url: https://www.trellix.com/en-us/about/legal/privacy.html\n  - type: Terms of Service\n    url: https://www.trellix.com/en-us/about/legal/terms-of-use.html\n  - type: GitHubOrganization\n    url: https://github.com/trellix-enterprise\n  - type: GitHubOrganization\n    url: https://github.com/opendxl\n  - type: GitHubOrganization\n    url: https://github.com/trellix-opensource\n  - type: GitHubOrganization\n    url: https://github.com/advanced-threat-research\n  - type: Website\n    url: https://www.trellix.com/\n  - type: Knowledge Base\n    url: https://kcm.trellix.com/\n  - type: PostmanCollection\n    url: https://www.postman.com/bmarandel/trellix-api-gateway/documentation/d3e3gan/trellix-api-gateway\n  - type: ReleaseNotes\n    url: https://docs.trellix.com/bundle/trellix-developer-portal-and-marketplace-release-notes\n  - type: OpenAPI\n    url: openapi/trellix-edr-openapi.yml\n  - type: OpenAPI\n    url: openapi/trellix-epo-saas-openapi.yml\n  - type: JSONSchema\n    url:\
+  \ json-schema/trellix-threat-schema.json\n  - type: JSONSchema\n    url: json-schema/trellix-device-schema.json\n  - type: JSONStructure\n    url: json-structure/trellix-threat-structure.json\n  - type: JSON-LD\n    url: json-ld/trellix-context.jsonld\n  - type: SpectralRules\n    url: rules/trellix-spectral-rules.yml\n  - type: NaftikoCapabilities\n    url: capabilities/endpoint-security-operations.yaml\n  - type: Vocabulary\n    url: vocabulary/trellix-vocabulary.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/apis.yml
 tags:
 - Cloud Security
